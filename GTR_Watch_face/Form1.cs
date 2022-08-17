@@ -12321,15 +12321,6 @@ namespace AmazFit_Watchface_2
             File.WriteAllText(Application.StartupPath + @"\Settings.json", JSON_String, Encoding.UTF8);
         }
 
-
-
-
-
-
-
-
-
-
         //private int getOSversion()
         //{
         //    int version = 7;

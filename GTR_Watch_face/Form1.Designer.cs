@@ -34,13 +34,96 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.richTextBox_JsonText = new System.Windows.Forms.RichTextBox();
-            this.treeView_JsonTree = new System.Windows.Forms.TreeView();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.копироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.contextMenuStrip_XY_InAnimationTable = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.вставитьНачальныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьКонечныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.копироватьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьСтрокуToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip_XY_InTable = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.вставитьКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.копироватьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьСтрокуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button_zip_unpack = new AmazFit_Watchface_2.DarkButton();
+            this.button_pack_zip = new AmazFit_Watchface_2.DarkButton();
+            this.label_version = new System.Windows.Forms.Label();
+            this.colorDialog_StepsProgress = new System.Windows.Forms.ColorDialog();
+            this.colorDialog_Battery = new System.Windows.Forms.ColorDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.button_PreviewBig = new AmazFit_Watchface_2.DarkButton();
+            this.checkBox_WebW = new System.Windows.Forms.CheckBox();
+            this.checkBox_WebB = new System.Windows.Forms.CheckBox();
+            this.button_SavePNG = new AmazFit_Watchface_2.DarkButton();
+            this.button_SaveGIF = new AmazFit_Watchface_2.DarkButton();
+            this.radioButton_GTR2 = new System.Windows.Forms.RadioButton();
+            this.label_preview_X = new System.Windows.Forms.Label();
+            this.label_preview_Y = new System.Windows.Forms.Label();
+            this.checkBox_border = new System.Windows.Forms.CheckBox();
+            this.radioButton_GTS2 = new System.Windows.Forms.RadioButton();
+            this.checkBox_crop = new System.Windows.Forms.CheckBox();
+            this.checkBox_Show_Shortcuts = new System.Windows.Forms.CheckBox();
+            this.checkBox_CircleScaleImage = new System.Windows.Forms.CheckBox();
+            this.button_RefreshPreview = new AmazFit_Watchface_2.DarkButton();
+            this.button_CreatePreview = new AmazFit_Watchface_2.DarkButton();
+            this.checkBox_center_marker = new System.Windows.Forms.CheckBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.colorDialog_Pulse = new System.Windows.Forms.ColorDialog();
+            this.colorDialog_Calories = new System.Windows.Forms.ColorDialog();
+            this.toolTip_Weather = new System.Windows.Forms.ToolTip(this.components);
+            this.radioButton_GTR2e = new System.Windows.Forms.RadioButton();
+            this.radioButton_TRex_pro = new System.Windows.Forms.RadioButton();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.pictureBox_Preview = new System.Windows.Forms.PictureBox();
+            this.checkBox_WidgetsArea = new System.Windows.Forms.CheckBox();
+            this.radioButton_ZeppE = new System.Windows.Forms.RadioButton();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.tabControl1 = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabPage_Show = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel_set = new System.Windows.Forms.Panel();
+            this.userControl_Set12 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set11 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set10 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set9 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set8 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set7 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set6 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set5 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set4 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set3 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set2 = new AmazFit_Watchface_2.UserControl_Set();
+            this.userControl_Set1 = new AmazFit_Watchface_2.UserControl_Set();
+            this.panel_PreviewStates = new System.Windows.Forms.Panel();
+            this.button_JsonPreview_Random = new AmazFit_Watchface_2.DarkButton();
+            this.button_JsonPreview_Read = new AmazFit_Watchface_2.DarkButton();
+            this.button_JsonPreview_Write = new AmazFit_Watchface_2.DarkButton();
+            this.dataGridView_ImagesList = new System.Windows.Forms.DataGridView();
+            this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NameFile = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnImage = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.button_images = new AmazFit_Watchface_2.DarkButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button_JSON = new AmazFit_Watchface_2.DarkButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tabPage_Edit = new System.Windows.Forms.TabPage();
             this.splitContainer_EditParameters = new System.Windows.Forms.SplitContainer();
-            this.tabControl_EditParameters = new System.Windows.Forms.TabControl();
+            this.tabControl_EditParameters = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Background = new System.Windows.Forms.TabPage();
-            this.button_GenerateID = new System.Windows.Forms.Button();
+            this.button_GenerateID = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchfaceID = new System.Windows.Forms.TextBox();
             this.checkBox_UseID = new System.Windows.Forms.CheckBox();
             this.radioButton_Background_color = new System.Windows.Forms.RadioButton();
@@ -50,22 +133,14 @@
             this.comboBox_Background_image = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage_Time = new System.Windows.Forms.TabPage();
-            this.tabControl_time = new System.Windows.Forms.TabControl();
+            this.tabControl_time = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Digital_time = new System.Windows.Forms.TabPage();
             this.panel_AM_PM = new System.Windows.Forms.Panel();
             this.checkBox_12h_Use = new System.Windows.Forms.CheckBox();
             this.numericUpDown_AM_Y = new System.Windows.Forms.NumericUpDown();
-            this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.копироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label573 = new System.Windows.Forms.Label();
             this.label572 = new System.Windows.Forms.Label();
             this.numericUpDown_AM_X = new System.Windows.Forms.NumericUpDown();
-            this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label574 = new System.Windows.Forms.Label();
             this.label571 = new System.Windows.Forms.Label();
             this.comboBox_PM_image = new System.Windows.Forms.ComboBox();
@@ -98,10 +173,13 @@
             this.label529 = new System.Windows.Forms.Label();
             this.comboBox_Second_unit = new System.Windows.Forms.ComboBox();
             this.comboBox_Second_alignment = new System.Windows.Forms.ComboBox();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.richTextBox_JsonText = new System.Windows.Forms.RichTextBox();
+            this.treeView_JsonTree = new System.Windows.Forms.TreeView();
             this.label530 = new System.Windows.Forms.Label();
             this.label531 = new System.Windows.Forms.Label();
             this.comboBox_Second_separator = new System.Windows.Forms.ComboBox();
-            this.button_Second = new System.Windows.Forms.Button();
+            this.button_Second = new AmazFit_Watchface_2.DarkButton();
             this.panel_Minute = new System.Windows.Forms.Panel();
             this.numericUpDown_Minute_spacing = new System.Windows.Forms.NumericUpDown();
             this.label533 = new System.Windows.Forms.Label();
@@ -126,7 +204,7 @@
             this.label520 = new System.Windows.Forms.Label();
             this.label521 = new System.Windows.Forms.Label();
             this.comboBox_Minute_separator = new System.Windows.Forms.ComboBox();
-            this.button_Minute = new System.Windows.Forms.Button();
+            this.button_Minute = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour = new System.Windows.Forms.Panel();
             this.numericUpDown_Hour_spacing = new System.Windows.Forms.NumericUpDown();
             this.label532 = new System.Windows.Forms.Label();
@@ -150,7 +228,7 @@
             this.label507 = new System.Windows.Forms.Label();
             this.label506 = new System.Windows.Forms.Label();
             this.comboBox_Hour_separator = new System.Windows.Forms.ComboBox();
-            this.button_Hour = new System.Windows.Forms.Button();
+            this.button_Hour = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Analog_time = new System.Windows.Forms.TabPage();
             this.panel_Second_hand = new System.Windows.Forms.Panel();
             this.label557 = new System.Windows.Forms.Label();
@@ -173,7 +251,7 @@
             this.comboBox_Second_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label567 = new System.Windows.Forms.Label();
             this.checkBox_Second_hand_Use = new System.Windows.Forms.CheckBox();
-            this.button_Second_hand = new System.Windows.Forms.Button();
+            this.button_Second_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Minute_hand = new System.Windows.Forms.Panel();
             this.label546 = new System.Windows.Forms.Label();
             this.label547 = new System.Windows.Forms.Label();
@@ -195,7 +273,7 @@
             this.comboBox_Minute_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label556 = new System.Windows.Forms.Label();
             this.checkBox_Minute_hand_Use = new System.Windows.Forms.CheckBox();
-            this.button_Minute_hand = new System.Windows.Forms.Button();
+            this.button_Minute_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour_hand = new System.Windows.Forms.Panel();
             this.label543 = new System.Windows.Forms.Label();
             this.label544 = new System.Windows.Forms.Label();
@@ -217,9 +295,9 @@
             this.comboBox_Hour_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label542 = new System.Windows.Forms.Label();
             this.checkBox_Hour_hand_Use = new System.Windows.Forms.CheckBox();
-            this.button_Hour_hand = new System.Windows.Forms.Button();
+            this.button_Hour_hand = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Date = new System.Windows.Forms.TabPage();
-            this.tabControl_date = new System.Windows.Forms.TabControl();
+            this.tabControl_date = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Day = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Day = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand = new System.Windows.Forms.Panel();
@@ -254,7 +332,7 @@
             this.label715 = new System.Windows.Forms.Label();
             this.label716 = new System.Windows.Forms.Label();
             this.label717 = new System.Windows.Forms.Label();
-            this.button_Day_hand = new System.Windows.Forms.Button();
+            this.button_Day_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Day_text = new System.Windows.Forms.Panel();
             this.checkBox_Day_Use = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Day_spacing = new System.Windows.Forms.NumericUpDown();
@@ -279,7 +357,7 @@
             this.label579 = new System.Windows.Forms.Label();
             this.label581 = new System.Windows.Forms.Label();
             this.label580 = new System.Windows.Forms.Label();
-            this.button_Day_text = new System.Windows.Forms.Button();
+            this.button_Day_text = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Month = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Month = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Month_hand = new System.Windows.Forms.Panel();
@@ -314,7 +392,7 @@
             this.label636 = new System.Windows.Forms.Label();
             this.label637 = new System.Windows.Forms.Label();
             this.label638 = new System.Windows.Forms.Label();
-            this.button_Month_hand = new System.Windows.Forms.Button();
+            this.button_Month_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_text = new System.Windows.Forms.Panel();
             this.checkBox_Month_Use = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Month_spacing = new System.Windows.Forms.NumericUpDown();
@@ -339,7 +417,7 @@
             this.label590 = new System.Windows.Forms.Label();
             this.label592 = new System.Windows.Forms.Label();
             this.label591 = new System.Windows.Forms.Label();
-            this.button_Month_text = new System.Windows.Forms.Button();
+            this.button_Month_text = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_pictures = new System.Windows.Forms.Panel();
             this.label613 = new System.Windows.Forms.Label();
             this.checkBox_Month_pictures_Use = new System.Windows.Forms.CheckBox();
@@ -349,11 +427,11 @@
             this.label616 = new System.Windows.Forms.Label();
             this.numericUpDown_Month_picturesY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Month_picturesX = new System.Windows.Forms.NumericUpDown();
-            this.button_Month_pictures = new System.Windows.Forms.Button();
+            this.button_Month_pictures = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Year = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Year = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Year_hand = new System.Windows.Forms.Panel();
-            this.button_Year_hand = new System.Windows.Forms.Button();
+            this.button_Year_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Year_text = new System.Windows.Forms.Panel();
             this.checkBox_Year_follow = new System.Windows.Forms.CheckBox();
             this.checkBox_Year_text_Use = new System.Windows.Forms.CheckBox();
@@ -378,7 +456,7 @@
             this.label604 = new System.Windows.Forms.Label();
             this.label602 = new System.Windows.Forms.Label();
             this.label603 = new System.Windows.Forms.Label();
-            this.button_Year_text = new System.Windows.Forms.Button();
+            this.button_Year_text = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Day_of_week = new System.Windows.Forms.TabPage();
             this.panel_DOW_hand = new System.Windows.Forms.Panel();
             this.numericUpDown_DOW_handX_background = new System.Windows.Forms.NumericUpDown();
@@ -412,7 +490,7 @@
             this.label653 = new System.Windows.Forms.Label();
             this.label654 = new System.Windows.Forms.Label();
             this.label655 = new System.Windows.Forms.Label();
-            this.button_DOW_hand = new System.Windows.Forms.Button();
+            this.button_DOW_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_DOW_image = new System.Windows.Forms.Panel();
             this.checkBox_DOW_pictures_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_DOW_pictures_image = new System.Windows.Forms.ComboBox();
@@ -422,9 +500,9 @@
             this.label640 = new System.Windows.Forms.Label();
             this.label641 = new System.Windows.Forms.Label();
             this.label642 = new System.Windows.Forms.Label();
-            this.button_DOW_image = new System.Windows.Forms.Button();
+            this.button_DOW_image = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Activity = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemActivity = new System.Windows.Forms.TabControl();
+            this.tabControl_SystemActivity = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Steps = new System.Windows.Forms.TabPage();
             this.userControl_icon_Steps = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -510,7 +588,7 @@
             this.userControl_segments_FatBurning = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_Air = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemWeather = new System.Windows.Forms.TabControl();
+            this.tabControl_SystemWeather = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Weather = new System.Windows.Forms.TabPage();
             this.checkBox_weatherAlignmentFix = new System.Windows.Forms.CheckBox();
             this.userControl_icon_Weather = new AmazFit_Watchface_2.UserControl_icon();
@@ -589,7 +667,7 @@
             this.userControl_segments_AirPressure = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_System = new System.Windows.Forms.TabPage();
-            this.tabControl_System = new System.Windows.Forms.TabControl();
+            this.tabControl_System = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Status = new System.Windows.Forms.TabPage();
             this.groupBox_Lock = new System.Windows.Forms.GroupBox();
             this.checkBox_Lock_Use = new System.Windows.Forms.CheckBox();
@@ -636,17 +714,16 @@
             this.userControl_text_Battery = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Battery = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Battery = new AmazFit_Watchface_2.UserControl_pictures();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.tabControl_EditParameters_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_EditParameters_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Background_AOD = new System.Windows.Forms.TabPage();
             this.label284 = new System.Windows.Forms.Label();
-            this.button_Capy_ScreenNormal = new System.Windows.Forms.Button();
+            this.button_Capy_ScreenNormal = new AmazFit_Watchface_2.DarkButton();
             this.comboBox_Background_image_AOD = new System.Windows.Forms.ComboBox();
             this.tabPage_Time_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_time_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_time_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Digital_time_AOD = new System.Windows.Forms.TabPage();
             this.panel_AM_PM_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_AM_PM_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_AM_PM_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_12h_Use_AOD = new System.Windows.Forms.CheckBox();
             this.numericUpDown_AM_Y_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_AM_X_AOD = new System.Windows.Forms.NumericUpDown();
@@ -664,7 +741,7 @@
             this.label293 = new System.Windows.Forms.Label();
             this.userControl_SystemFont_GroupTime_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_GroupTime();
             this.panel_Minute_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Minute_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Minute_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Minute_add_zero_AOD = new System.Windows.Forms.CheckBox();
             this.checkBox_Minute_Use_AOD = new System.Windows.Forms.CheckBox();
             this.checkBox_Minute_follow_AOD = new System.Windows.Forms.CheckBox();
@@ -688,9 +765,9 @@
             this.label314 = new System.Windows.Forms.Label();
             this.label315 = new System.Windows.Forms.Label();
             this.label316 = new System.Windows.Forms.Label();
-            this.button_Minute_AOD = new System.Windows.Forms.Button();
+            this.button_Minute_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Hour_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Hour_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Hour_add_zero_AOD = new System.Windows.Forms.CheckBox();
             this.checkBox_Hour_Use_AOD = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Hour_spacing_AOD = new System.Windows.Forms.NumericUpDown();
@@ -713,10 +790,10 @@
             this.label325 = new System.Windows.Forms.Label();
             this.label326 = new System.Windows.Forms.Label();
             this.label327 = new System.Windows.Forms.Label();
-            this.button_Hour_AOD = new System.Windows.Forms.Button();
+            this.button_Hour_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Analog_time_AOD = new System.Windows.Forms.TabPage();
             this.panel_Minute_hand_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Minute_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Minute_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.numericUpDown_Minute_handY_offset_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Minute_handX_offset_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Minute_hand_image_AOD = new System.Windows.Forms.ComboBox();
@@ -737,9 +814,9 @@
             this.label347 = new System.Windows.Forms.Label();
             this.label348 = new System.Windows.Forms.Label();
             this.label349 = new System.Windows.Forms.Label();
-            this.button_Minute_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Minute_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour_hand_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Hour_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Hour_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.numericUpDown_Hour_handY_offset_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Hour_handX_offset_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Hour_hand_image_AOD = new System.Windows.Forms.ComboBox();
@@ -760,13 +837,13 @@
             this.label360 = new System.Windows.Forms.Label();
             this.label361 = new System.Windows.Forms.Label();
             this.label362 = new System.Windows.Forms.Label();
-            this.button_Hour_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Hour_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Date_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_date_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_date_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Day_AOD = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Day_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Day_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Day_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Day_hand_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_Day_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_hand_image_AOD = new System.Windows.Forms.ComboBox();
@@ -798,9 +875,9 @@
             this.label377 = new System.Windows.Forms.Label();
             this.label378 = new System.Windows.Forms.Label();
             this.label379 = new System.Windows.Forms.Label();
-            this.button_Day_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Day_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Day_text_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Day_text_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Day_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Day_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_Day_image_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_separator_AOD = new System.Windows.Forms.ComboBox();
@@ -824,11 +901,11 @@
             this.label388 = new System.Windows.Forms.Label();
             this.label389 = new System.Windows.Forms.Label();
             this.label390 = new System.Windows.Forms.Label();
-            this.button_Day_text_AOD = new System.Windows.Forms.Button();
+            this.button_Day_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Month_AOD = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Month_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Month_hand_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Month_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Month_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Month_hand_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_Month_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Month_hand_image_AOD = new System.Windows.Forms.ComboBox();
@@ -860,9 +937,9 @@
             this.label405 = new System.Windows.Forms.Label();
             this.label411 = new System.Windows.Forms.Label();
             this.label416 = new System.Windows.Forms.Label();
-            this.button_Month_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Month_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_text_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Month_text_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Month_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Month_Use_AOD = new System.Windows.Forms.CheckBox();
             this.checkBox_Month_follow_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_Month_separator_AOD = new System.Windows.Forms.ComboBox();
@@ -886,9 +963,9 @@
             this.label425 = new System.Windows.Forms.Label();
             this.label426 = new System.Windows.Forms.Label();
             this.label427 = new System.Windows.Forms.Label();
-            this.button_Month_text_AOD = new System.Windows.Forms.Button();
+            this.button_Month_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_pictures_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_Month_pictures_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Month_pictures_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Month_pictures_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_Month_pictures_image_AOD = new System.Windows.Forms.ComboBox();
             this.numericUpDown_Month_picturesY_AOD = new System.Windows.Forms.NumericUpDown();
@@ -897,14 +974,14 @@
             this.label429 = new System.Windows.Forms.Label();
             this.label430 = new System.Windows.Forms.Label();
             this.label431 = new System.Windows.Forms.Label();
-            this.button_Month_pictures_AOD = new System.Windows.Forms.Button();
+            this.button_Month_pictures_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Year_AOD = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Year_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
+            this.button13 = new AmazFit_Watchface_2.DarkButton();
             this.panel_Year_text_AOD = new System.Windows.Forms.Panel();
             this.checkBox_Year_follow_AOD = new System.Windows.Forms.CheckBox();
-            this.button_Copy_Year_text_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_Year_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_Year_text_Use_AOD = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Year_spacing_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Year_separator_AOD = new System.Windows.Forms.ComboBox();
@@ -927,10 +1004,10 @@
             this.label440 = new System.Windows.Forms.Label();
             this.label441 = new System.Windows.Forms.Label();
             this.label442 = new System.Windows.Forms.Label();
-            this.button_Year_text_AOD = new System.Windows.Forms.Button();
+            this.button_Year_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Day_of_week_AOD = new System.Windows.Forms.TabPage();
             this.panel_DOW_hand_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_DOW_hand_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_DOW_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_DOW_hand_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_DOW_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_DOW_hand_image_AOD = new System.Windows.Forms.ComboBox();
@@ -962,9 +1039,9 @@
             this.label457 = new System.Windows.Forms.Label();
             this.label458 = new System.Windows.Forms.Label();
             this.label459 = new System.Windows.Forms.Label();
-            this.button_DOW_hand_AOD = new System.Windows.Forms.Button();
+            this.button_DOW_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_DOW_image_AOD = new System.Windows.Forms.Panel();
-            this.button_Copy_DOW_image_AOD = new System.Windows.Forms.Button();
+            this.button_Copy_DOW_image_AOD = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_DOW_pictures_Use_AOD = new System.Windows.Forms.CheckBox();
             this.comboBox_DOW_pictures_image_AOD = new System.Windows.Forms.ComboBox();
             this.numericUpDown_DOW_picturesY_AOD = new System.Windows.Forms.NumericUpDown();
@@ -973,9 +1050,9 @@
             this.label461 = new System.Windows.Forms.Label();
             this.label462 = new System.Windows.Forms.Label();
             this.label463 = new System.Windows.Forms.Label();
-            this.button_DOW_image_AOD = new System.Windows.Forms.Button();
+            this.button_DOW_image_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Activity_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemActivity_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_SystemActivity_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Steps_AOD = new System.Windows.Forms.TabPage();
             this.userControl_icon_Steps_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -1061,7 +1138,7 @@
             this.userControl_segments_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_Air_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemWeather_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_SystemWeather_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Weather_AOD = new System.Windows.Forms.TabPage();
             this.checkBox_weatherAlignmentFix_AOD = new System.Windows.Forms.CheckBox();
             this.userControl_icon_Weather_AOD = new AmazFit_Watchface_2.UserControl_icon();
@@ -1140,7 +1217,7 @@
             this.userControl_segments_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_System_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_System_AOD = new System.Windows.Forms.TabControl();
+            this.tabControl_System_AOD = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Battery_AOD = new System.Windows.Forms.TabPage();
             this.userControl_icon_Battery_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Battery_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -1153,77 +1230,47 @@
             this.dataGridView_SNL_Activity = new System.Windows.Forms.DataGridView();
             this.ActivityID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ActivityName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage_Show = new System.Windows.Forms.TabPage();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel_set = new System.Windows.Forms.Panel();
-            this.userControl_Set12 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set11 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set10 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set9 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set8 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set7 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set6 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set5 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set4 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set3 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set2 = new AmazFit_Watchface_2.UserControl_Set();
-            this.userControl_Set1 = new AmazFit_Watchface_2.UserControl_Set();
-            this.panel_PreviewStates = new System.Windows.Forms.Panel();
-            this.button_JsonPreview_Random = new System.Windows.Forms.Button();
-            this.button_JsonPreview_Read = new System.Windows.Forms.Button();
-            this.button_JsonPreview_Write = new System.Windows.Forms.Button();
-            this.dataGridView_ImagesList = new System.Windows.Forms.DataGridView();
-            this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameFile = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnImage = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.button_images = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button_JSON = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tabPage_Edit = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button_RandomPreview = new System.Windows.Forms.Button();
+            this.button_RandomPreview = new AmazFit_Watchface_2.DarkButton();
             this.radioButton_ScreenIdle = new System.Windows.Forms.RadioButton();
             this.radioButton_ScreenNormal = new System.Windows.Forms.RadioButton();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button_SaveJson = new System.Windows.Forms.Button();
-            this.button_OpenDir = new System.Windows.Forms.Button();
+            this.button_SaveJson = new AmazFit_Watchface_2.DarkButton();
+            this.button_OpenDir = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_LayerOrder = new System.Windows.Forms.TabPage();
             this.groupBox_AODL_Date = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView_AODL_Date = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button_AODL_Date_End = new System.Windows.Forms.Button();
-            this.button_AODL_Date_Start = new System.Windows.Forms.Button();
-            this.button_AODL_Date_Up = new System.Windows.Forms.Button();
-            this.button_AODL_Date_Down = new System.Windows.Forms.Button();
+            this.button_AODL_Date_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Date_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Date_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Date_Down = new AmazFit_Watchface_2.DarkButton();
             this.groupBox_AODL_Activity = new System.Windows.Forms.GroupBox();
             this.dataGridView_AODL_Activity = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button_AODL_Activity_End = new System.Windows.Forms.Button();
-            this.button_AODL_Activity_Start = new System.Windows.Forms.Button();
-            this.button_AODL_Activity_Up = new System.Windows.Forms.Button();
-            this.button_AODL_Activity_Down = new System.Windows.Forms.Button();
+            this.button_AODL_Activity_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Activity_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Activity_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_AODL_Activity_Down = new AmazFit_Watchface_2.DarkButton();
             this.groupBox_SNL_Date = new System.Windows.Forms.GroupBox();
             this.label_SNL_Date = new System.Windows.Forms.Label();
             this.dataGridView_SNL_Date = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button_SNL_Date_End = new System.Windows.Forms.Button();
-            this.button_SNL_Date_Start = new System.Windows.Forms.Button();
-            this.button_SNL_Date_Up = new System.Windows.Forms.Button();
-            this.button_SNL_Date_Down = new System.Windows.Forms.Button();
+            this.button_SNL_Date_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Date_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Date_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Date_Down = new AmazFit_Watchface_2.DarkButton();
             this.groupBox_SNL_Activity = new System.Windows.Forms.GroupBox();
-            this.button_SNL_Activity_End = new System.Windows.Forms.Button();
-            this.button_SNL_Activity_Start = new System.Windows.Forms.Button();
-            this.button_SNL_Activity_Up = new System.Windows.Forms.Button();
-            this.button_SNL_Activity_Down = new System.Windows.Forms.Button();
+            this.button_SNL_Activity_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Activity_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Activity_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_SNL_Activity_Down = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Widgets = new System.Windows.Forms.TabPage();
-            this.tabControl_Widget = new System.Windows.Forms.TabControl();
+            this.tabControl_Widget = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_WidgetsEdit = new System.Windows.Forms.TabPage();
             this.checkBox_TimeOnWidgetEdit = new System.Windows.Forms.CheckBox();
             this.groupBox_WidgetPreview = new System.Windows.Forms.GroupBox();
@@ -1231,7 +1278,7 @@
             this.radioButton_WidgetPreviewNormal = new System.Windows.Forms.RadioButton();
             this.groupBox_WidgetElementSettings = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tabControl_DateWidget = new System.Windows.Forms.TabControl();
+            this.tabControl_DateWidget = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_DayWidget = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_DayWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidget = new AmazFit_Watchface_2.UserControl_hand();
@@ -1252,10 +1299,10 @@
             this.dataGridView_Widget_Date = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button_Widget_Date_End = new System.Windows.Forms.Button();
-            this.button_Widget_Date_Start = new System.Windows.Forms.Button();
-            this.button_Widget_Date_Up = new System.Windows.Forms.Button();
-            this.button_Widget_Date_Down = new System.Windows.Forms.Button();
+            this.button_Widget_Date_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_Down = new AmazFit_Watchface_2.DarkButton();
             this.userControl_iconWidget = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunriseWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
             this.userControl_SystemFont_GroupWeatherWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -1297,18 +1344,18 @@
             this.numericUpDown_WidgetWidth = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_WidgetHeight = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_WidgetX = new System.Windows.Forms.NumericUpDown();
-            this.button_WidgetDel = new System.Windows.Forms.Button();
+            this.button_WidgetDel = new AmazFit_Watchface_2.DarkButton();
             this.numericUpDown_WidgetY = new System.Windows.Forms.NumericUpDown();
             this.comboBox_WidgetNumber = new System.Windows.Forms.ComboBox();
             this.label05 = new System.Windows.Forms.Label();
             this.label1083 = new System.Windows.Forms.Label();
             this.label1086 = new System.Windows.Forms.Label();
             this.groupBox_WidgetElement = new System.Windows.Forms.GroupBox();
-            this.button_WidgetElementDel = new System.Windows.Forms.Button();
-            this.button_WidgetElement_End = new System.Windows.Forms.Button();
-            this.button_WidgetElement_Start = new System.Windows.Forms.Button();
-            this.button_WidgetElement_Up = new System.Windows.Forms.Button();
-            this.button_WidgetElement_Down = new System.Windows.Forms.Button();
+            this.button_WidgetElementDel = new AmazFit_Watchface_2.DarkButton();
+            this.button_WidgetElement_End = new AmazFit_Watchface_2.DarkButton();
+            this.button_WidgetElement_Start = new AmazFit_Watchface_2.DarkButton();
+            this.button_WidgetElement_Up = new AmazFit_Watchface_2.DarkButton();
+            this.button_WidgetElement_Down = new AmazFit_Watchface_2.DarkButton();
             this.dataGridView_WidgetElement = new System.Windows.Forms.DataGridView();
             this.WidgetsID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.WidgetElement = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1338,12 +1385,12 @@
             this.radioButton_StepsWidgetAdd = new System.Windows.Forms.RadioButton();
             this.radioButton_DateWidgetAdd = new System.Windows.Forms.RadioButton();
             this.groupBox_WdgetAdd = new System.Windows.Forms.GroupBox();
-            this.button_WidgetAdd = new System.Windows.Forms.Button();
+            this.button_WidgetAdd = new AmazFit_Watchface_2.DarkButton();
             this.radioButton_WidgetElementAdd = new System.Windows.Forms.RadioButton();
             this.radioButton_WidgetAdd = new System.Windows.Forms.RadioButton();
             this.groupBox_WidgetElementAdd = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.tabControl_DateWidgetAdd = new System.Windows.Forms.TabControl();
+            this.tabControl_DateWidgetAdd = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_hand();
@@ -1364,10 +1411,10 @@
             this.dataGridView_Widget_DateAdd = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button_Widget_Date_EndAdd = new System.Windows.Forms.Button();
-            this.button_Widget_Date_StartAdd = new System.Windows.Forms.Button();
-            this.button_Widget_Date_UpAdd = new System.Windows.Forms.Button();
-            this.button_Widget_Date_DownAdd = new System.Windows.Forms.Button();
+            this.button_Widget_Date_EndAdd = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_StartAdd = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_UpAdd = new AmazFit_Watchface_2.DarkButton();
+            this.button_Widget_Date_DownAdd = new AmazFit_Watchface_2.DarkButton();
             this.userControl_iconWidgetAdd = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunriseWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
             this.userControl_SystemFont_GroupWeatherWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -1409,13 +1456,12 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPageConverting = new System.Windows.Forms.TabPage();
             this.label489 = new System.Windows.Forms.Label();
             this.label488 = new System.Windows.Forms.Label();
             this.label487 = new System.Windows.Forms.Label();
             this.label486 = new System.Windows.Forms.Label();
-            this.button_Converting = new System.Windows.Forms.Button();
+            this.button_Converting = new AmazFit_Watchface_2.DarkButton();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.numericUpDown_ConvertingOutput_Custom = new System.Windows.Forms.NumericUpDown();
             this.radioButton_ConvertingOutput_Custom = new System.Windows.Forms.RadioButton();
@@ -1431,7 +1477,7 @@
             this.tabPage_Settings = new System.Windows.Forms.TabPage();
             this.checkBox_AllWidgetsInGif = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button_WatchSkin_PathGet = new System.Windows.Forms.Button();
+            this.button_WatchSkin_PathGet = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchSkin_Path = new System.Windows.Forms.TextBox();
             this.checkBox_WatchSkin_Use = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Gif_Speed = new System.Windows.Forms.NumericUpDown();
@@ -1441,7 +1487,7 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.checkBox_Shortcuts_Border = new System.Windows.Forms.CheckBox();
             this.checkBox_Shortcuts_Area = new System.Windows.Forms.CheckBox();
-            this.button_Reset = new System.Windows.Forms.Button();
+            this.button_Reset = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_JsonWarnings = new System.Windows.Forms.CheckBox();
             this.comboBox_Language = new System.Windows.Forms.ComboBox();
             this.label356 = new System.Windows.Forms.Label();
@@ -1476,55 +1522,19 @@
             this.label_version_help = new System.Windows.Forms.Label();
             this.label406 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.contextMenuStrip_XY_InAnimationTable = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.вставитьНачальныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьКонечныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.копироватьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.удалитьСтрокуToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip_XY_InTable = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.вставитьКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.копироватьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.удалитьСтрокуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button_zip_unpack = new System.Windows.Forms.Button();
-            this.button_pack_zip = new System.Windows.Forms.Button();
-            this.label_version = new System.Windows.Forms.Label();
-            this.colorDialog_StepsProgress = new System.Windows.Forms.ColorDialog();
-            this.colorDialog_Battery = new System.Windows.Forms.ColorDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.button_PreviewBig = new System.Windows.Forms.Button();
-            this.checkBox_WebW = new System.Windows.Forms.CheckBox();
-            this.checkBox_WebB = new System.Windows.Forms.CheckBox();
-            this.button_SavePNG = new System.Windows.Forms.Button();
-            this.button_SaveGIF = new System.Windows.Forms.Button();
-            this.radioButton_GTR2 = new System.Windows.Forms.RadioButton();
-            this.label_preview_X = new System.Windows.Forms.Label();
-            this.label_preview_Y = new System.Windows.Forms.Label();
-            this.checkBox_border = new System.Windows.Forms.CheckBox();
-            this.radioButton_GTS2 = new System.Windows.Forms.RadioButton();
-            this.checkBox_crop = new System.Windows.Forms.CheckBox();
-            this.checkBox_Show_Shortcuts = new System.Windows.Forms.CheckBox();
-            this.checkBox_CircleScaleImage = new System.Windows.Forms.CheckBox();
-            this.button_RefreshPreview = new System.Windows.Forms.Button();
-            this.button_CreatePreview = new System.Windows.Forms.Button();
-            this.checkBox_center_marker = new System.Windows.Forms.CheckBox();
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.colorDialog_Pulse = new System.Windows.Forms.ColorDialog();
-            this.colorDialog_Calories = new System.Windows.Forms.ColorDialog();
-            this.toolTip_Weather = new System.Windows.Forms.ToolTip(this.components);
-            this.radioButton_GTR2e = new System.Windows.Forms.RadioButton();
-            this.radioButton_TRex_pro = new System.Windows.Forms.RadioButton();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.pictureBox_Preview = new System.Windows.Forms.PictureBox();
-            this.checkBox_WidgetsArea = new System.Windows.Forms.CheckBox();
-            this.radioButton_ZeppE = new System.Windows.Forms.RadioButton();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
+            this.contextMenuStrip_Y.SuspendLayout();
+            this.contextMenuStrip_X.SuspendLayout();
+            this.contextMenuStrip_XY_InAnimationTable.SuspendLayout();
+            this.contextMenuStrip_XY_InTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage_Show.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel_set.SuspendLayout();
+            this.panel_PreviewStates.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ImagesList)).BeginInit();
+            this.tabPage_Edit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_EditParameters)).BeginInit();
             this.splitContainer_EditParameters.Panel1.SuspendLayout();
             this.splitContainer_EditParameters.Panel2.SuspendLayout();
@@ -1536,9 +1546,7 @@
             this.tabPage_Digital_time.SuspendLayout();
             this.panel_AM_PM.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AM_Y)).BeginInit();
-            this.contextMenuStrip_Y.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AM_X)).BeginInit();
-            this.contextMenuStrip_X.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PM_X)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PM_Y)).BeginInit();
             this.panel_Second.SuspendLayout();
@@ -1547,6 +1555,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Second_unitY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.panel_Minute.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_spacing)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_unitX)).BeginInit();
@@ -1808,13 +1820,6 @@
             this.tabControl_System_AOD.SuspendLayout();
             this.tabPage_Battery_AOD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).BeginInit();
-            this.tabControl1.SuspendLayout();
-            this.tabPage_Show.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel_set.SuspendLayout();
-            this.panel_PreviewStates.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ImagesList)).BeginInit();
-            this.tabPage_Edit.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.tabPage_LayerOrder.SuspendLayout();
@@ -1883,36 +1888,726 @@
             this.groupBox1.SuspendLayout();
             this.tabPage_About.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.contextMenuStrip_XY_InAnimationTable.SuspendLayout();
-            this.contextMenuStrip_XY_InTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
-            // splitContainer1
+            // contextMenuStrip_Y
             // 
-            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.splitContainer1, "splitContainer1");
-            this.splitContainer1.Name = "splitContainer1";
+            this.contextMenuStrip_Y.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip_Y.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.копироватьToolStripMenuItem1,
+            this.вставитьToolStripMenuItem1});
+            this.contextMenuStrip_Y.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
+            this.contextMenuStrip_Y.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Y_Opening);
             // 
-            // splitContainer1.Panel1
+            // toolStripMenuItem1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.richTextBox_JsonText);
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.вставитьКоординатуYToolStripMenuItem_Click);
             // 
-            // splitContainer1.Panel2
+            // копироватьToolStripMenuItem1
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.treeView_JsonTree);
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
+            resources.ApplyResources(this.копироватьToolStripMenuItem1, "копироватьToolStripMenuItem1");
+            this.копироватьToolStripMenuItem1.Name = "копироватьToolStripMenuItem1";
+            this.копироватьToolStripMenuItem1.Click += new System.EventHandler(this.копироватьToolStripMenuItem_Click);
             // 
-            // richTextBox_JsonText
+            // вставитьToolStripMenuItem1
             // 
-            resources.ApplyResources(this.richTextBox_JsonText, "richTextBox_JsonText");
-            this.richTextBox_JsonText.Name = "richTextBox_JsonText";
+            resources.ApplyResources(this.вставитьToolStripMenuItem1, "вставитьToolStripMenuItem1");
+            this.вставитьToolStripMenuItem1.Name = "вставитьToolStripMenuItem1";
+            this.вставитьToolStripMenuItem1.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
             // 
-            // treeView_JsonTree
+            // contextMenuStrip_X
             // 
-            resources.ApplyResources(this.treeView_JsonTree, "treeView_JsonTree");
-            this.treeView_JsonTree.Name = "treeView_JsonTree";
+            this.contextMenuStrip_X.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip_X.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.вставитьКоординатуХToolStripMenuItem,
+            this.копироватьToolStripMenuItem,
+            this.вставитьToolStripMenuItem});
+            this.contextMenuStrip_X.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
+            this.contextMenuStrip_X.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_X_Opening);
+            // 
+            // вставитьКоординатуХToolStripMenuItem
+            // 
+            resources.ApplyResources(this.вставитьКоординатуХToolStripMenuItem, "вставитьКоординатуХToolStripMenuItem");
+            this.вставитьКоординатуХToolStripMenuItem.Name = "вставитьКоординатуХToolStripMenuItem";
+            this.вставитьКоординатуХToolStripMenuItem.Click += new System.EventHandler(this.вставитьКоординатуХToolStripMenuItem_Click);
+            // 
+            // копироватьToolStripMenuItem
+            // 
+            resources.ApplyResources(this.копироватьToolStripMenuItem, "копироватьToolStripMenuItem");
+            this.копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
+            this.копироватьToolStripMenuItem.Click += new System.EventHandler(this.копироватьToolStripMenuItem_Click);
+            // 
+            // вставитьToolStripMenuItem
+            // 
+            resources.ApplyResources(this.вставитьToolStripMenuItem, "вставитьToolStripMenuItem");
+            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
+            this.вставитьToolStripMenuItem.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Background-Icon.png");
+            this.imageList1.Images.SetKeyName(1, "Sidebar-Search-Icon.png");
+            this.imageList1.Images.SetKeyName(2, "Calendar.ico");
+            this.imageList1.Images.SetKeyName(3, "Sports-Walking-Icon.png");
+            this.imageList1.Images.SetKeyName(4, "Weather-Partly-Cloudy-Rain-Icon.png");
+            this.imageList1.Images.SetKeyName(5, "Tools-Icon.png");
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "Programming-Edit-Property-icon.png");
+            this.imageList2.Images.SetKeyName(1, "Data-Add-Column-icon.png");
+            this.imageList2.Images.SetKeyName(2, "Data-Add-Row-icon.png");
+            this.imageList2.Images.SetKeyName(3, "Files-Add-List-icon.png");
+            this.imageList2.Images.SetKeyName(4, "Add-icon.png");
+            // 
+            // contextMenuStrip_XY_InAnimationTable
+            // 
+            this.contextMenuStrip_XY_InAnimationTable.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip_XY_InAnimationTable.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.вставитьНачальныеКоординатыToolStripMenuItem,
+            this.вставитьКонечныеКоординатыToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.копироватьToolStripMenuItem3,
+            this.вставитьToolStripMenuItem3,
+            this.удалитьСтрокуToolStripMenuItem1});
+            this.contextMenuStrip_XY_InAnimationTable.Name = "contextMenuStrip_XY_InAnimationTable";
+            resources.ApplyResources(this.contextMenuStrip_XY_InAnimationTable, "contextMenuStrip_XY_InAnimationTable");
+            this.contextMenuStrip_XY_InAnimationTable.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_XY_InAnimationTable_Opening);
+            // 
+            // вставитьНачальныеКоординатыToolStripMenuItem
+            // 
+            this.вставитьНачальныеКоординатыToolStripMenuItem.Name = "вставитьНачальныеКоординатыToolStripMenuItem";
+            resources.ApplyResources(this.вставитьНачальныеКоординатыToolStripMenuItem, "вставитьНачальныеКоординатыToolStripMenuItem");
+            this.вставитьНачальныеКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьНачальныеКоординатыToolStripMenuItem_Click);
+            // 
+            // вставитьКонечныеКоординатыToolStripMenuItem
+            // 
+            this.вставитьКонечныеКоординатыToolStripMenuItem.Name = "вставитьКонечныеКоординатыToolStripMenuItem";
+            resources.ApplyResources(this.вставитьКонечныеКоординатыToolStripMenuItem, "вставитьКонечныеКоординатыToolStripMenuItem");
+            this.вставитьКонечныеКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьКонечныеКоординатыToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // копироватьToolStripMenuItem3
+            // 
+            this.копироватьToolStripMenuItem3.Name = "копироватьToolStripMenuItem3";
+            resources.ApplyResources(this.копироватьToolStripMenuItem3, "копироватьToolStripMenuItem3");
+            this.копироватьToolStripMenuItem3.Click += new System.EventHandler(this.копироватьToolStripMenuItem2_Click);
+            // 
+            // вставитьToolStripMenuItem3
+            // 
+            this.вставитьToolStripMenuItem3.Name = "вставитьToolStripMenuItem3";
+            resources.ApplyResources(this.вставитьToolStripMenuItem3, "вставитьToolStripMenuItem3");
+            this.вставитьToolStripMenuItem3.Click += new System.EventHandler(this.вставитьToolStripMenuItem3_Click);
+            // 
+            // удалитьСтрокуToolStripMenuItem1
+            // 
+            this.удалитьСтрокуToolStripMenuItem1.Name = "удалитьСтрокуToolStripMenuItem1";
+            resources.ApplyResources(this.удалитьСтрокуToolStripMenuItem1, "удалитьСтрокуToolStripMenuItem1");
+            this.удалитьСтрокуToolStripMenuItem1.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip_XY_InTable
+            // 
+            this.contextMenuStrip_XY_InTable.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip_XY_InTable.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.вставитьКоординатыToolStripMenuItem,
+            this.копироватьToolStripMenuItem2,
+            this.вставитьToolStripMenuItem2,
+            this.удалитьСтрокуToolStripMenuItem});
+            this.contextMenuStrip_XY_InTable.Name = "contextMenuStrip_XY_InTable";
+            resources.ApplyResources(this.contextMenuStrip_XY_InTable, "contextMenuStrip_XY_InTable");
+            this.contextMenuStrip_XY_InTable.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_XY_InTable_Opening);
+            // 
+            // вставитьКоординатыToolStripMenuItem
+            // 
+            this.вставитьКоординатыToolStripMenuItem.Name = "вставитьКоординатыToolStripMenuItem";
+            resources.ApplyResources(this.вставитьКоординатыToolStripMenuItem, "вставитьКоординатыToolStripMenuItem");
+            this.вставитьКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьКоординатыToolStripMenuItem_Click);
+            // 
+            // копироватьToolStripMenuItem2
+            // 
+            this.копироватьToolStripMenuItem2.Name = "копироватьToolStripMenuItem2";
+            resources.ApplyResources(this.копироватьToolStripMenuItem2, "копироватьToolStripMenuItem2");
+            this.копироватьToolStripMenuItem2.Click += new System.EventHandler(this.копироватьToolStripMenuItem2_Click);
+            // 
+            // вставитьToolStripMenuItem2
+            // 
+            this.вставитьToolStripMenuItem2.Name = "вставитьToolStripMenuItem2";
+            resources.ApplyResources(this.вставитьToolStripMenuItem2, "вставитьToolStripMenuItem2");
+            this.вставитьToolStripMenuItem2.Click += new System.EventHandler(this.вставитьToolStripMenuItem2_Click);
+            // 
+            // удалитьСтрокуToolStripMenuItem
+            // 
+            this.удалитьСтрокуToolStripMenuItem.Name = "удалитьСтрокуToolStripMenuItem";
+            resources.ApplyResources(this.удалитьСтрокуToolStripMenuItem, "удалитьСтрокуToolStripMenuItem");
+            this.удалитьСтрокуToolStripMenuItem.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
+            // 
+            // button_zip_unpack
+            // 
+            this.button_zip_unpack.BorderColor = System.Drawing.Color.DimGray;
+            this.button_zip_unpack.BorderRadius = 4;
+            this.button_zip_unpack.BorderThickness = 1F;
+            resources.ApplyResources(this.button_zip_unpack, "button_zip_unpack");
+            this.button_zip_unpack.Name = "button_zip_unpack";
+            this.button_zip_unpack.UseVisualStyleBackColor = true;
+            this.button_zip_unpack.Click += new System.EventHandler(this.button_zip_unpack_Click);
+            // 
+            // button_pack_zip
+            // 
+            this.button_pack_zip.BorderColor = System.Drawing.Color.DimGray;
+            this.button_pack_zip.BorderRadius = 4;
+            this.button_pack_zip.BorderThickness = 1F;
+            resources.ApplyResources(this.button_pack_zip, "button_pack_zip");
+            this.button_pack_zip.Name = "button_pack_zip";
+            this.button_pack_zip.UseVisualStyleBackColor = true;
+            this.button_pack_zip.Click += new System.EventHandler(this.button_pack_zip_Click);
+            // 
+            // label_version
+            // 
+            resources.ApplyResources(this.label_version, "label_version");
+            this.label_version.Name = "label_version";
+            // 
+            // colorDialog_StepsProgress
+            // 
+            this.colorDialog_StepsProgress.FullOpen = true;
+            // 
+            // colorDialog_Battery
+            // 
+            this.colorDialog_Battery.FullOpen = true;
+            // 
+            // button_PreviewBig
+            // 
+            this.button_PreviewBig.BorderColor = System.Drawing.Color.DimGray;
+            this.button_PreviewBig.BorderRadius = 4;
+            this.button_PreviewBig.BorderThickness = 1F;
+            this.button_PreviewBig.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            resources.ApplyResources(this.button_PreviewBig, "button_PreviewBig");
+            this.button_PreviewBig.Name = "button_PreviewBig";
+            this.button_PreviewBig.UseVisualStyleBackColor = true;
+            this.button_PreviewBig.Click += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
+            // 
+            // checkBox_WebW
+            // 
+            resources.ApplyResources(this.checkBox_WebW, "checkBox_WebW");
+            this.checkBox_WebW.Name = "checkBox_WebW";
+            this.checkBox_WebW.UseVisualStyleBackColor = true;
+            this.checkBox_WebW.CheckedChanged += new System.EventHandler(this.checkBox_WebW_CheckedChanged);
+            // 
+            // checkBox_WebB
+            // 
+            resources.ApplyResources(this.checkBox_WebB, "checkBox_WebB");
+            this.checkBox_WebB.Name = "checkBox_WebB";
+            this.checkBox_WebB.UseVisualStyleBackColor = true;
+            this.checkBox_WebB.CheckedChanged += new System.EventHandler(this.checkBox_WebB_CheckedChanged);
+            // 
+            // button_SavePNG
+            // 
+            this.button_SavePNG.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SavePNG.BorderRadius = 4;
+            this.button_SavePNG.BorderThickness = 1F;
+            resources.ApplyResources(this.button_SavePNG, "button_SavePNG");
+            this.button_SavePNG.Name = "button_SavePNG";
+            this.button_SavePNG.UseVisualStyleBackColor = true;
+            this.button_SavePNG.Click += new System.EventHandler(this.button_SavePNG_Click);
+            // 
+            // button_SaveGIF
+            // 
+            this.button_SaveGIF.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SaveGIF.BorderRadius = 4;
+            this.button_SaveGIF.BorderThickness = 1F;
+            resources.ApplyResources(this.button_SaveGIF, "button_SaveGIF");
+            this.button_SaveGIF.Name = "button_SaveGIF";
+            this.button_SaveGIF.UseVisualStyleBackColor = true;
+            this.button_SaveGIF.Click += new System.EventHandler(this.button_SaveGIF_Click);
+            // 
+            // radioButton_GTR2
+            // 
+            resources.ApplyResources(this.radioButton_GTR2, "radioButton_GTR2");
+            this.radioButton_GTR2.Checked = true;
+            this.radioButton_GTR2.Name = "radioButton_GTR2";
+            this.radioButton_GTR2.TabStop = true;
+            this.radioButton_GTR2.UseVisualStyleBackColor = true;
+            this.radioButton_GTR2.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
+            // 
+            // label_preview_X
+            // 
+            resources.ApplyResources(this.label_preview_X, "label_preview_X");
+            this.label_preview_X.Name = "label_preview_X";
+            // 
+            // label_preview_Y
+            // 
+            resources.ApplyResources(this.label_preview_Y, "label_preview_Y");
+            this.label_preview_Y.Name = "label_preview_Y";
+            // 
+            // checkBox_border
+            // 
+            resources.ApplyResources(this.checkBox_border, "checkBox_border");
+            this.checkBox_border.Name = "checkBox_border";
+            this.checkBox_border.UseVisualStyleBackColor = true;
+            this.checkBox_border.CheckedChanged += new System.EventHandler(this.checkBox_border_CheckedChanged);
+            this.checkBox_border.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // radioButton_GTS2
+            // 
+            resources.ApplyResources(this.radioButton_GTS2, "radioButton_GTS2");
+            this.radioButton_GTS2.Name = "radioButton_GTS2";
+            this.radioButton_GTS2.UseVisualStyleBackColor = true;
+            this.radioButton_GTS2.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
+            // 
+            // checkBox_crop
+            // 
+            this.checkBox_crop.Checked = true;
+            this.checkBox_crop.CheckState = System.Windows.Forms.CheckState.Checked;
+            resources.ApplyResources(this.checkBox_crop, "checkBox_crop");
+            this.checkBox_crop.Name = "checkBox_crop";
+            this.checkBox_crop.UseVisualStyleBackColor = true;
+            this.checkBox_crop.CheckedChanged += new System.EventHandler(this.checkBox_crop_CheckedChanged);
+            this.checkBox_crop.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // checkBox_Show_Shortcuts
+            // 
+            this.checkBox_Show_Shortcuts.Checked = true;
+            this.checkBox_Show_Shortcuts.CheckState = System.Windows.Forms.CheckState.Checked;
+            resources.ApplyResources(this.checkBox_Show_Shortcuts, "checkBox_Show_Shortcuts");
+            this.checkBox_Show_Shortcuts.Name = "checkBox_Show_Shortcuts";
+            this.checkBox_Show_Shortcuts.UseVisualStyleBackColor = true;
+            this.checkBox_Show_Shortcuts.CheckedChanged += new System.EventHandler(this.checkBox_Show_Shortcuts_CheckedChanged);
+            this.checkBox_Show_Shortcuts.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // checkBox_CircleScaleImage
+            // 
+            resources.ApplyResources(this.checkBox_CircleScaleImage, "checkBox_CircleScaleImage");
+            this.checkBox_CircleScaleImage.Name = "checkBox_CircleScaleImage";
+            this.checkBox_CircleScaleImage.UseVisualStyleBackColor = true;
+            this.checkBox_CircleScaleImage.CheckedChanged += new System.EventHandler(this.checkBox_CircleScaleImage_CheckedChanged);
+            this.checkBox_CircleScaleImage.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // button_RefreshPreview
+            // 
+            this.button_RefreshPreview.BorderColor = System.Drawing.Color.DimGray;
+            this.button_RefreshPreview.BorderRadius = 4;
+            this.button_RefreshPreview.BorderThickness = 1F;
+            resources.ApplyResources(this.button_RefreshPreview, "button_RefreshPreview");
+            this.button_RefreshPreview.Name = "button_RefreshPreview";
+            this.button_RefreshPreview.UseVisualStyleBackColor = true;
+            this.button_RefreshPreview.Click += new System.EventHandler(this.button_RefreshPreview_Click);
+            // 
+            // button_CreatePreview
+            // 
+            this.button_CreatePreview.BorderColor = System.Drawing.Color.DimGray;
+            this.button_CreatePreview.BorderRadius = 4;
+            this.button_CreatePreview.BorderThickness = 1F;
+            resources.ApplyResources(this.button_CreatePreview, "button_CreatePreview");
+            this.button_CreatePreview.Name = "button_CreatePreview";
+            this.button_CreatePreview.UseVisualStyleBackColor = true;
+            this.button_CreatePreview.Click += new System.EventHandler(this.button_CreatePreview_Click);
+            // 
+            // checkBox_center_marker
+            // 
+            this.checkBox_center_marker.Checked = true;
+            this.checkBox_center_marker.CheckState = System.Windows.Forms.CheckState.Checked;
+            resources.ApplyResources(this.checkBox_center_marker, "checkBox_center_marker");
+            this.checkBox_center_marker.Name = "checkBox_center_marker";
+            this.checkBox_center_marker.UseVisualStyleBackColor = true;
+            this.checkBox_center_marker.CheckedChanged += new System.EventHandler(this.checkBox_center_marker_CheckedChanged);
+            this.checkBox_center_marker.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // colorDialog_Pulse
+            // 
+            this.colorDialog_Pulse.FullOpen = true;
+            // 
+            // colorDialog_Calories
+            // 
+            this.colorDialog_Calories.FullOpen = true;
+            // 
+            // toolTip_Weather
+            // 
+            this.toolTip_Weather.ToolTipTitle = "Weather icons";
+            // 
+            // radioButton_GTR2e
+            // 
+            resources.ApplyResources(this.radioButton_GTR2e, "radioButton_GTR2e");
+            this.radioButton_GTR2e.Name = "radioButton_GTR2e";
+            this.radioButton_GTR2e.UseVisualStyleBackColor = true;
+            this.radioButton_GTR2e.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
+            // 
+            // radioButton_TRex_pro
+            // 
+            resources.ApplyResources(this.radioButton_TRex_pro, "radioButton_TRex_pro");
+            this.radioButton_TRex_pro.Name = "radioButton_TRex_pro";
+            this.radioButton_TRex_pro.UseVisualStyleBackColor = true;
+            this.radioButton_TRex_pro.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
+            // 
+            // progressBar1
+            // 
+            resources.ApplyResources(this.progressBar1, "progressBar1");
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Step = 1;
+            // 
+            // pictureBox_Preview
+            // 
+            this.pictureBox_Preview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(23)))), ((int)(((byte)(25)))));
+            resources.ApplyResources(this.pictureBox_Preview, "pictureBox_Preview");
+            this.pictureBox_Preview.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.pictureBox_Preview.Name = "pictureBox_Preview";
+            this.pictureBox_Preview.TabStop = false;
+            this.pictureBox_Preview.DoubleClick += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
+            this.pictureBox_Preview.MouseLeave += new System.EventHandler(this.pictureBox_Preview_MouseLeave);
+            this.pictureBox_Preview.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox_Preview_MouseMove);
+            // 
+            // checkBox_WidgetsArea
+            // 
+            this.checkBox_WidgetsArea.Checked = true;
+            this.checkBox_WidgetsArea.CheckState = System.Windows.Forms.CheckState.Checked;
+            resources.ApplyResources(this.checkBox_WidgetsArea, "checkBox_WidgetsArea");
+            this.checkBox_WidgetsArea.Name = "checkBox_WidgetsArea";
+            this.checkBox_WidgetsArea.UseVisualStyleBackColor = true;
+            this.checkBox_WidgetsArea.CheckedChanged += new System.EventHandler(this.checkBox_WidgetsArea_CheckedChanged);
+            this.checkBox_WidgetsArea.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
+            // 
+            // radioButton_ZeppE
+            // 
+            resources.ApplyResources(this.radioButton_ZeppE, "radioButton_ZeppE");
+            this.radioButton_ZeppE.Name = "radioButton_ZeppE";
+            this.radioButton_ZeppE.UseVisualStyleBackColor = true;
+            this.radioButton_ZeppE.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage_Show);
+            this.tabControl1.Controls.Add(this.tabPage_Edit);
+            this.tabControl1.Controls.Add(this.tabPage_LayerOrder);
+            this.tabControl1.Controls.Add(this.tabPage_Widgets);
+            this.tabControl1.Controls.Add(this.tabPageConverting);
+            this.tabControl1.Controls.Add(this.tabPage_Settings);
+            this.tabControl1.Controls.Add(this.tabPage_About);
+            this.tabControl1.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl1.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl1.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.Transparent;
+            this.tabControl1.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(235)))));
+            this.tabControl1.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl1.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(235)))));
+            this.tabControl1.DisplayStyleProvider.FocusTrack = true;
+            this.tabControl1.DisplayStyleProvider.HotTrack = false;
+            this.tabControl1.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl1.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl1.DisplayStyleProvider.Overlap = 0;
+            this.tabControl1.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl1.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl1.DisplayStyleProvider.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
+            this.tabControl1.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.DimGray;
+            this.tabControl1.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.tabControl1.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl1_Selecting);
+            // 
+            // tabPage_Show
+            // 
+            this.tabPage_Show.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabPage_Show.Controls.Add(this.panel3);
+            this.tabPage_Show.Controls.Add(this.dataGridView_ImagesList);
+            this.tabPage_Show.Controls.Add(this.button_images);
+            this.tabPage_Show.Controls.Add(this.label5);
+            this.tabPage_Show.Controls.Add(this.button_JSON);
+            this.tabPage_Show.Controls.Add(this.label4);
+            resources.ApplyResources(this.tabPage_Show, "tabPage_Show");
+            this.tabPage_Show.Name = "tabPage_Show";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel_set);
+            this.panel3.Controls.Add(this.panel_PreviewStates);
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
+            // 
+            // panel_set
+            // 
+            this.panel_set.Controls.Add(this.userControl_Set12);
+            this.panel_set.Controls.Add(this.userControl_Set11);
+            this.panel_set.Controls.Add(this.userControl_Set10);
+            this.panel_set.Controls.Add(this.userControl_Set9);
+            this.panel_set.Controls.Add(this.userControl_Set8);
+            this.panel_set.Controls.Add(this.userControl_Set7);
+            this.panel_set.Controls.Add(this.userControl_Set6);
+            this.panel_set.Controls.Add(this.userControl_Set5);
+            this.panel_set.Controls.Add(this.userControl_Set4);
+            this.panel_set.Controls.Add(this.userControl_Set3);
+            this.panel_set.Controls.Add(this.userControl_Set2);
+            this.panel_set.Controls.Add(this.userControl_Set1);
+            resources.ApplyResources(this.panel_set, "panel_set");
+            this.panel_set.Name = "panel_set";
+            // 
+            // userControl_Set12
+            // 
+            resources.ApplyResources(this.userControl_Set12, "userControl_Set12");
+            this.userControl_Set12.Collapsed = true;
+            this.userControl_Set12.Name = "userControl_Set12";
+            this.userControl_Set12.SetNumber = 12;
+            this.userControl_Set12.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set12_Collapse);
+            this.userControl_Set12.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set11
+            // 
+            resources.ApplyResources(this.userControl_Set11, "userControl_Set11");
+            this.userControl_Set11.Collapsed = true;
+            this.userControl_Set11.Name = "userControl_Set11";
+            this.userControl_Set11.SetNumber = 11;
+            this.userControl_Set11.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set11_Collapse);
+            this.userControl_Set11.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set10
+            // 
+            resources.ApplyResources(this.userControl_Set10, "userControl_Set10");
+            this.userControl_Set10.Collapsed = true;
+            this.userControl_Set10.Name = "userControl_Set10";
+            this.userControl_Set10.SetNumber = 10;
+            this.userControl_Set10.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set10_Collapse);
+            this.userControl_Set10.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set9
+            // 
+            resources.ApplyResources(this.userControl_Set9, "userControl_Set9");
+            this.userControl_Set9.Collapsed = true;
+            this.userControl_Set9.Name = "userControl_Set9";
+            this.userControl_Set9.SetNumber = 9;
+            this.userControl_Set9.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set9_Collapse);
+            this.userControl_Set9.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set8
+            // 
+            resources.ApplyResources(this.userControl_Set8, "userControl_Set8");
+            this.userControl_Set8.Collapsed = true;
+            this.userControl_Set8.Name = "userControl_Set8";
+            this.userControl_Set8.SetNumber = 8;
+            this.userControl_Set8.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set8_Collapse);
+            this.userControl_Set8.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set7
+            // 
+            resources.ApplyResources(this.userControl_Set7, "userControl_Set7");
+            this.userControl_Set7.Collapsed = true;
+            this.userControl_Set7.Name = "userControl_Set7";
+            this.userControl_Set7.SetNumber = 7;
+            this.userControl_Set7.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set7_Collapse);
+            this.userControl_Set7.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set6
+            // 
+            resources.ApplyResources(this.userControl_Set6, "userControl_Set6");
+            this.userControl_Set6.Collapsed = true;
+            this.userControl_Set6.Name = "userControl_Set6";
+            this.userControl_Set6.SetNumber = 6;
+            this.userControl_Set6.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set6_Collapse);
+            this.userControl_Set6.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set5
+            // 
+            resources.ApplyResources(this.userControl_Set5, "userControl_Set5");
+            this.userControl_Set5.Collapsed = true;
+            this.userControl_Set5.Name = "userControl_Set5";
+            this.userControl_Set5.SetNumber = 5;
+            this.userControl_Set5.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set5_Collapse);
+            this.userControl_Set5.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set4
+            // 
+            resources.ApplyResources(this.userControl_Set4, "userControl_Set4");
+            this.userControl_Set4.Collapsed = true;
+            this.userControl_Set4.Name = "userControl_Set4";
+            this.userControl_Set4.SetNumber = 4;
+            this.userControl_Set4.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set4_Collapse);
+            this.userControl_Set4.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set3
+            // 
+            resources.ApplyResources(this.userControl_Set3, "userControl_Set3");
+            this.userControl_Set3.Collapsed = true;
+            this.userControl_Set3.Name = "userControl_Set3";
+            this.userControl_Set3.SetNumber = 3;
+            this.userControl_Set3.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set3_Collapse);
+            this.userControl_Set3.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set2
+            // 
+            resources.ApplyResources(this.userControl_Set2, "userControl_Set2");
+            this.userControl_Set2.Collapsed = true;
+            this.userControl_Set2.Name = "userControl_Set2";
+            this.userControl_Set2.SetNumber = 2;
+            this.userControl_Set2.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set2_Collapse);
+            this.userControl_Set2.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // userControl_Set1
+            // 
+            resources.ApplyResources(this.userControl_Set1, "userControl_Set1");
+            this.userControl_Set1.Collapsed = true;
+            this.userControl_Set1.Name = "userControl_Set1";
+            this.userControl_Set1.SetNumber = 1;
+            this.userControl_Set1.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set1_Collapse);
+            this.userControl_Set1.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
+            // 
+            // panel_PreviewStates
+            // 
+            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Random);
+            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Read);
+            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Write);
+            resources.ApplyResources(this.panel_PreviewStates, "panel_PreviewStates");
+            this.panel_PreviewStates.Name = "panel_PreviewStates";
+            // 
+            // button_JsonPreview_Random
+            // 
+            this.button_JsonPreview_Random.BorderColor = System.Drawing.Color.DimGray;
+            this.button_JsonPreview_Random.BorderRadius = 4;
+            this.button_JsonPreview_Random.BorderThickness = 1F;
+            resources.ApplyResources(this.button_JsonPreview_Random, "button_JsonPreview_Random");
+            this.button_JsonPreview_Random.Name = "button_JsonPreview_Random";
+            this.button_JsonPreview_Random.UseVisualStyleBackColor = true;
+            this.button_JsonPreview_Random.Click += new System.EventHandler(this.button_JsonPreview_Random_Click);
+            // 
+            // button_JsonPreview_Read
+            // 
+            this.button_JsonPreview_Read.BorderColor = System.Drawing.Color.DimGray;
+            this.button_JsonPreview_Read.BorderRadius = 4;
+            this.button_JsonPreview_Read.BorderThickness = 1F;
+            resources.ApplyResources(this.button_JsonPreview_Read, "button_JsonPreview_Read");
+            this.button_JsonPreview_Read.Name = "button_JsonPreview_Read";
+            this.button_JsonPreview_Read.UseVisualStyleBackColor = true;
+            this.button_JsonPreview_Read.Click += new System.EventHandler(this.button_JsonPreview_Read_Click);
+            // 
+            // button_JsonPreview_Write
+            // 
+            this.button_JsonPreview_Write.BorderColor = System.Drawing.Color.DimGray;
+            this.button_JsonPreview_Write.BorderRadius = 4;
+            this.button_JsonPreview_Write.BorderThickness = 1F;
+            resources.ApplyResources(this.button_JsonPreview_Write, "button_JsonPreview_Write");
+            this.button_JsonPreview_Write.Name = "button_JsonPreview_Write";
+            this.button_JsonPreview_Write.UseVisualStyleBackColor = true;
+            this.button_JsonPreview_Write.Click += new System.EventHandler(this.button_JsonPreview_Write_Click);
+            // 
+            // dataGridView_ImagesList
+            // 
+            this.dataGridView_ImagesList.AllowUserToAddRows = false;
+            this.dataGridView_ImagesList.AllowUserToDeleteRows = false;
+            this.dataGridView_ImagesList.AllowUserToResizeRows = false;
+            this.dataGridView_ImagesList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_ImagesList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_ImagesList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_ImagesList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_ImagesList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_ImagesList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Number,
+            this.NameFile,
+            this.ColumnImage,
+            this.Column1});
+            this.dataGridView_ImagesList.EnableHeadersVisualStyles = false;
+            resources.ApplyResources(this.dataGridView_ImagesList, "dataGridView_ImagesList");
+            this.dataGridView_ImagesList.Name = "dataGridView_ImagesList";
+            this.dataGridView_ImagesList.RowHeadersVisible = false;
+            // 
+            // Number
+            // 
+            this.Number.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Number.DefaultCellStyle = dataGridViewCellStyle2;
+            resources.ApplyResources(this.Number, "Number");
+            this.Number.Name = "Number";
+            this.Number.ReadOnly = true;
+            // 
+            // NameFile
+            // 
+            this.NameFile.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            resources.ApplyResources(this.NameFile, "NameFile");
+            this.NameFile.Name = "NameFile";
+            this.NameFile.ReadOnly = true;
+            // 
+            // ColumnImage
+            // 
+            this.ColumnImage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            resources.ApplyResources(this.ColumnImage, "ColumnImage");
+            this.ColumnImage.Name = "ColumnImage";
+            this.ColumnImage.ReadOnly = true;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.NullValue = null;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // button_images
+            // 
+            this.button_images.BorderColor = System.Drawing.Color.DimGray;
+            this.button_images.BorderRadius = 4;
+            this.button_images.BorderThickness = 1F;
+            resources.ApplyResources(this.button_images, "button_images");
+            this.button_images.Name = "button_images";
+            this.button_images.UseVisualStyleBackColor = true;
+            this.button_images.Click += new System.EventHandler(this.button_images_Click);
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // button_JSON
+            // 
+            this.button_JSON.BorderColor = System.Drawing.Color.DimGray;
+            this.button_JSON.BorderRadius = 4;
+            this.button_JSON.BorderThickness = 1F;
+            resources.ApplyResources(this.button_JSON, "button_JSON");
+            this.button_JSON.Name = "button_JSON";
+            this.button_JSON.UseVisualStyleBackColor = true;
+            this.button_JSON.Click += new System.EventHandler(this.button_JSON_Click);
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // tabPage_Edit
+            // 
+            this.tabPage_Edit.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Edit.Controls.Add(this.splitContainer_EditParameters);
+            this.tabPage_Edit.Controls.Add(this.panel6);
+            this.tabPage_Edit.Controls.Add(this.panel5);
+            resources.ApplyResources(this.tabPage_Edit, "tabPage_Edit");
+            this.tabPage_Edit.Name = "tabPage_Edit";
             // 
             // splitContainer_EditParameters
             // 
@@ -1936,6 +2631,24 @@
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Activity);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Air);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_System);
+            this.tabControl_EditParameters.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_EditParameters.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_EditParameters.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_EditParameters.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_EditParameters.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_EditParameters.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_EditParameters.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_EditParameters.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_EditParameters.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             this.tabControl_EditParameters.HotTrack = true;
             this.tabControl_EditParameters.ImageList = this.imageList1;
             this.tabControl_EditParameters.Multiline = true;
@@ -1960,6 +2673,9 @@
             // 
             // button_GenerateID
             // 
+            this.button_GenerateID.BorderColor = System.Drawing.Color.DimGray;
+            this.button_GenerateID.BorderRadius = 4;
+            this.button_GenerateID.BorderThickness = 1F;
             resources.ApplyResources(this.button_GenerateID, "button_GenerateID");
             this.button_GenerateID.Name = "button_GenerateID";
             this.button_GenerateID.UseVisualStyleBackColor = true;
@@ -2046,6 +2762,24 @@
             // 
             this.tabControl_time.Controls.Add(this.tabPage_Digital_time);
             this.tabControl_time.Controls.Add(this.tabPage_Analog_time);
+            this.tabControl_time.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_time.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_time.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_time.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_time.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_time.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_time.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_time.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_time.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_time.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_time.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_time.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_time, "tabControl_time");
             this.tabControl_time.Name = "tabControl_time";
             this.tabControl_time.SelectedIndex = 0;
@@ -2111,35 +2845,6 @@
             this.numericUpDown_AM_Y.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_Y.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
-            // contextMenuStrip_Y
-            // 
-            this.contextMenuStrip_Y.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip_Y.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.копироватьToolStripMenuItem1,
-            this.вставитьToolStripMenuItem1});
-            this.contextMenuStrip_Y.Name = "contextMenuStrip_X";
-            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
-            this.contextMenuStrip_Y.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Y_Opening);
-            // 
-            // toolStripMenuItem1
-            // 
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.вставитьКоординатуYToolStripMenuItem_Click);
-            // 
-            // копироватьToolStripMenuItem1
-            // 
-            resources.ApplyResources(this.копироватьToolStripMenuItem1, "копироватьToolStripMenuItem1");
-            this.копироватьToolStripMenuItem1.Name = "копироватьToolStripMenuItem1";
-            this.копироватьToolStripMenuItem1.Click += new System.EventHandler(this.копироватьToolStripMenuItem_Click);
-            // 
-            // вставитьToolStripMenuItem1
-            // 
-            resources.ApplyResources(this.вставитьToolStripMenuItem1, "вставитьToolStripMenuItem1");
-            this.вставитьToolStripMenuItem1.Name = "вставитьToolStripMenuItem1";
-            this.вставитьToolStripMenuItem1.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
-            // 
             // label573
             // 
             resources.ApplyResources(this.label573, "label573");
@@ -2167,35 +2872,6 @@
             this.numericUpDown_AM_X.Name = "numericUpDown_AM_X";
             this.numericUpDown_AM_X.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_X.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
-            // 
-            // contextMenuStrip_X
-            // 
-            this.contextMenuStrip_X.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip_X.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.вставитьКоординатуХToolStripMenuItem,
-            this.копироватьToolStripMenuItem,
-            this.вставитьToolStripMenuItem});
-            this.contextMenuStrip_X.Name = "contextMenuStrip_X";
-            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
-            this.contextMenuStrip_X.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_X_Opening);
-            // 
-            // вставитьКоординатуХToolStripMenuItem
-            // 
-            resources.ApplyResources(this.вставитьКоординатуХToolStripMenuItem, "вставитьКоординатуХToolStripMenuItem");
-            this.вставитьКоординатуХToolStripMenuItem.Name = "вставитьКоординатуХToolStripMenuItem";
-            this.вставитьКоординатуХToolStripMenuItem.Click += new System.EventHandler(this.вставитьКоординатуХToolStripMenuItem_Click);
-            // 
-            // копироватьToolStripMenuItem
-            // 
-            resources.ApplyResources(this.копироватьToolStripMenuItem, "копироватьToolStripMenuItem");
-            this.копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
-            this.копироватьToolStripMenuItem.Click += new System.EventHandler(this.копироватьToolStripMenuItem_Click);
-            // 
-            // вставитьToolStripMenuItem
-            // 
-            resources.ApplyResources(this.вставитьToolStripMenuItem, "вставитьToolStripMenuItem");
-            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
-            this.вставитьToolStripMenuItem.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
             // 
             // label574
             // 
@@ -2528,6 +3204,31 @@
             this.comboBox_Second_alignment.Name = "comboBox_Second_alignment";
             this.comboBox_Second_alignment.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.richTextBox_JsonText);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.treeView_JsonTree);
+            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
+            // 
+            // richTextBox_JsonText
+            // 
+            resources.ApplyResources(this.richTextBox_JsonText, "richTextBox_JsonText");
+            this.richTextBox_JsonText.Name = "richTextBox_JsonText";
+            // 
+            // treeView_JsonTree
+            // 
+            resources.ApplyResources(this.treeView_JsonTree, "treeView_JsonTree");
+            this.treeView_JsonTree.Name = "treeView_JsonTree";
+            // 
             // label530
             // 
             resources.ApplyResources(this.label530, "label530");
@@ -2553,6 +3254,9 @@
             // 
             // button_Second
             // 
+            this.button_Second.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Second.BorderRadius = 4;
+            this.button_Second.BorderThickness = 1F;
             resources.ApplyResources(this.button_Second, "button_Second");
             this.button_Second.Name = "button_Second";
             this.button_Second.Click += new System.EventHandler(this.button_Second_Click);
@@ -2805,6 +3509,9 @@
             // 
             // button_Minute
             // 
+            this.button_Minute.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Minute.BorderRadius = 4;
+            this.button_Minute.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute, "button_Minute");
             this.button_Minute.Name = "button_Minute";
             this.button_Minute.Click += new System.EventHandler(this.button_Minute_Click);
@@ -3048,6 +3755,9 @@
             // 
             // button_Hour
             // 
+            this.button_Hour.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Hour.BorderRadius = 4;
+            this.button_Hour.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour, "button_Hour");
             this.button_Hour.Name = "button_Hour";
             this.button_Hour.Click += new System.EventHandler(this.button_Hour_Click);
@@ -3285,6 +3995,9 @@
             // 
             // button_Second_hand
             // 
+            this.button_Second_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Second_hand.BorderRadius = 4;
+            this.button_Second_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Second_hand, "button_Second_hand");
             this.button_Second_hand.Name = "button_Second_hand";
             this.button_Second_hand.UseVisualStyleBackColor = true;
@@ -3511,6 +4224,9 @@
             // 
             // button_Minute_hand
             // 
+            this.button_Minute_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Minute_hand.BorderRadius = 4;
+            this.button_Minute_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_hand, "button_Minute_hand");
             this.button_Minute_hand.Name = "button_Minute_hand";
             this.button_Minute_hand.UseVisualStyleBackColor = true;
@@ -3737,6 +4453,9 @@
             // 
             // button_Hour_hand
             // 
+            this.button_Hour_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Hour_hand.BorderRadius = 4;
+            this.button_Hour_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_hand, "button_Hour_hand");
             this.button_Hour_hand.Name = "button_Hour_hand";
             this.button_Hour_hand.UseVisualStyleBackColor = true;
@@ -3755,6 +4474,24 @@
             this.tabControl_date.Controls.Add(this.tabPage_Month);
             this.tabControl_date.Controls.Add(this.tabPage_Year);
             this.tabControl_date.Controls.Add(this.tabPage_Day_of_week);
+            this.tabControl_date.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_date.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_date.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_date.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_date.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_date.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_date.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_date.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_date.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_date.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_date.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_date.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_date, "tabControl_date");
             this.tabControl_date.Name = "tabControl_date";
             this.tabControl_date.SelectedIndex = 0;
@@ -4132,6 +4869,9 @@
             // 
             // button_Day_hand
             // 
+            this.button_Day_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Day_hand.BorderRadius = 4;
+            this.button_Day_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_hand, "button_Day_hand");
             this.button_Day_hand.Name = "button_Day_hand";
             this.button_Day_hand.UseVisualStyleBackColor = true;
@@ -4385,6 +5125,9 @@
             // 
             // button_Day_text
             // 
+            this.button_Day_text.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Day_text.BorderRadius = 4;
+            this.button_Day_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_text, "button_Day_text");
             this.button_Day_text.Name = "button_Day_text";
             this.button_Day_text.UseVisualStyleBackColor = true;
@@ -4770,6 +5513,9 @@
             // 
             // button_Month_hand
             // 
+            this.button_Month_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_hand.BorderRadius = 4;
+            this.button_Month_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_hand, "button_Month_hand");
             this.button_Month_hand.Name = "button_Month_hand";
             this.button_Month_hand.UseVisualStyleBackColor = true;
@@ -5023,6 +5769,9 @@
             // 
             // button_Month_text
             // 
+            this.button_Month_text.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_text.BorderRadius = 4;
+            this.button_Month_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_text, "button_Month_text");
             this.button_Month_text.Name = "button_Month_text";
             this.button_Month_text.UseVisualStyleBackColor = true;
@@ -5121,6 +5870,9 @@
             // 
             // button_Month_pictures
             // 
+            this.button_Month_pictures.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_pictures.BorderRadius = 4;
+            this.button_Month_pictures.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_pictures, "button_Month_pictures");
             this.button_Month_pictures.Name = "button_Month_pictures";
             this.button_Month_pictures.UseVisualStyleBackColor = true;
@@ -5159,6 +5911,9 @@
             // 
             // button_Year_hand
             // 
+            this.button_Year_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Year_hand.BorderRadius = 4;
+            this.button_Year_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_hand, "button_Year_hand");
             this.button_Year_hand.Name = "button_Year_hand";
             this.button_Year_hand.UseVisualStyleBackColor = true;
@@ -5409,6 +6164,9 @@
             // 
             // button_Year_text
             // 
+            this.button_Year_text.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Year_text.BorderRadius = 4;
+            this.button_Year_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_text, "button_Year_text");
             this.button_Year_text.Name = "button_Year_text";
             this.button_Year_text.UseVisualStyleBackColor = true;
@@ -5771,6 +6529,9 @@
             // 
             // button_DOW_hand
             // 
+            this.button_DOW_hand.BorderColor = System.Drawing.Color.DimGray;
+            this.button_DOW_hand.BorderRadius = 4;
+            this.button_DOW_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_hand, "button_DOW_hand");
             this.button_DOW_hand.Name = "button_DOW_hand";
             this.button_DOW_hand.UseVisualStyleBackColor = true;
@@ -5869,6 +6630,9 @@
             // 
             // button_DOW_image
             // 
+            this.button_DOW_image.BorderColor = System.Drawing.Color.DimGray;
+            this.button_DOW_image.BorderRadius = 4;
+            this.button_DOW_image.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_image, "button_DOW_image");
             this.button_DOW_image.Name = "button_DOW_image";
             this.button_DOW_image.UseVisualStyleBackColor = true;
@@ -5892,6 +6656,24 @@
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_Stress);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_ActivityGoal);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_FatBurning);
+            this.tabControl_SystemActivity.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_SystemActivity.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemActivity.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_SystemActivity.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_SystemActivity.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_SystemActivity.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_SystemActivity.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_SystemActivity.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemActivity.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_SystemActivity, "tabControl_SystemActivity");
             this.tabControl_SystemActivity.Name = "tabControl_SystemActivity";
             this.tabControl_SystemActivity.SelectedIndex = 0;
@@ -6796,6 +7578,24 @@
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_WindForce);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_Altitude);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_AirPressure);
+            this.tabControl_SystemWeather.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_SystemWeather.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemWeather.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_SystemWeather.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_SystemWeather.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_SystemWeather.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_SystemWeather.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_SystemWeather.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemWeather.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_SystemWeather, "tabControl_SystemWeather");
             this.tabControl_SystemWeather.Name = "tabControl_SystemWeather";
             this.tabControl_SystemWeather.SelectedIndex = 0;
@@ -7618,6 +8418,24 @@
             // 
             this.tabControl_System.Controls.Add(this.tabPage_Status);
             this.tabControl_System.Controls.Add(this.tabPage_Battery);
+            this.tabControl_System.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_System.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_System.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_System.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_System.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_System.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_System.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_System.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_System.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_System.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_System.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_System.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_System, "tabControl_System");
             this.tabControl_System.Name = "tabControl_System";
             this.tabControl_System.SelectedIndex = 0;
@@ -8093,17 +8911,6 @@
             this.userControl_pictures_Battery.Name = "userControl_pictures_Battery";
             this.userControl_pictures_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Background-Icon.png");
-            this.imageList1.Images.SetKeyName(1, "Sidebar-Search-Icon.png");
-            this.imageList1.Images.SetKeyName(2, "Calendar.ico");
-            this.imageList1.Images.SetKeyName(3, "Sports-Walking-Icon.png");
-            this.imageList1.Images.SetKeyName(4, "Weather-Partly-Cloudy-Rain-Icon.png");
-            this.imageList1.Images.SetKeyName(5, "Tools-Icon.png");
-            // 
             // tabControl_EditParameters_AOD
             // 
             resources.ApplyResources(this.tabControl_EditParameters_AOD, "tabControl_EditParameters_AOD");
@@ -8113,6 +8920,24 @@
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Activity_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Air_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_System_AOD);
+            this.tabControl_EditParameters_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             this.tabControl_EditParameters_AOD.HotTrack = true;
             this.tabControl_EditParameters_AOD.ImageList = this.imageList1;
             this.tabControl_EditParameters_AOD.Multiline = true;
@@ -8136,6 +8961,9 @@
             // 
             // button_Capy_ScreenNormal
             // 
+            this.button_Capy_ScreenNormal.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Capy_ScreenNormal.BorderRadius = 4;
+            this.button_Capy_ScreenNormal.BorderThickness = 1F;
             resources.ApplyResources(this.button_Capy_ScreenNormal, "button_Capy_ScreenNormal");
             this.button_Capy_ScreenNormal.Name = "button_Capy_ScreenNormal";
             this.button_Capy_ScreenNormal.UseVisualStyleBackColor = true;
@@ -8165,6 +8993,24 @@
             // 
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Digital_time_AOD);
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Analog_time_AOD);
+            this.tabControl_time_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_time_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_time_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_time_AOD.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_time_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_time_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_time_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_time_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_time_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_time_AOD, "tabControl_time_AOD");
             this.tabControl_time_AOD.Name = "tabControl_time_AOD";
             this.tabControl_time_AOD.SelectedIndex = 0;
@@ -8205,6 +9051,9 @@
             // 
             // button_Copy_AM_PM_AOD
             // 
+            this.button_Copy_AM_PM_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_AM_PM_AOD.BorderRadius = 4;
+            this.button_Copy_AM_PM_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_AM_PM_AOD, "button_Copy_AM_PM_AOD");
             this.button_Copy_AM_PM_AOD.Name = "button_Copy_AM_PM_AOD";
             this.button_Copy_AM_PM_AOD.UseVisualStyleBackColor = true;
@@ -8405,6 +9254,9 @@
             // 
             // button_Copy_Minute_AOD
             // 
+            this.button_Copy_Minute_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Minute_AOD.BorderRadius = 4;
+            this.button_Copy_Minute_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Minute_AOD, "button_Copy_Minute_AOD");
             this.button_Copy_Minute_AOD.Name = "button_Copy_Minute_AOD";
             this.button_Copy_Minute_AOD.UseVisualStyleBackColor = true;
@@ -8629,6 +9481,9 @@
             // 
             // button_Minute_AOD
             // 
+            this.button_Minute_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Minute_AOD.BorderRadius = 4;
+            this.button_Minute_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_AOD, "button_Minute_AOD");
             this.button_Minute_AOD.Name = "button_Minute_AOD";
             this.button_Minute_AOD.Click += new System.EventHandler(this.button_Minute_AOD_Click);
@@ -8664,6 +9519,9 @@
             // 
             // button_Copy_Hour_AOD
             // 
+            this.button_Copy_Hour_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Hour_AOD.BorderRadius = 4;
+            this.button_Copy_Hour_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Hour_AOD, "button_Copy_Hour_AOD");
             this.button_Copy_Hour_AOD.Name = "button_Copy_Hour_AOD";
             this.button_Copy_Hour_AOD.UseVisualStyleBackColor = true;
@@ -8880,6 +9738,9 @@
             // 
             // button_Hour_AOD
             // 
+            this.button_Hour_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Hour_AOD.BorderRadius = 4;
+            this.button_Hour_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_AOD, "button_Hour_AOD");
             this.button_Hour_AOD.Name = "button_Hour_AOD";
             this.button_Hour_AOD.Click += new System.EventHandler(this.button_Hour_AOD_Click);
@@ -8923,6 +9784,9 @@
             // 
             // button_Copy_Minute_hand_AOD
             // 
+            this.button_Copy_Minute_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Minute_hand_AOD.BorderRadius = 4;
+            this.button_Copy_Minute_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Minute_hand_AOD, "button_Copy_Minute_hand_AOD");
             this.button_Copy_Minute_hand_AOD.Name = "button_Copy_Minute_hand_AOD";
             this.button_Copy_Minute_hand_AOD.UseVisualStyleBackColor = true;
@@ -9123,6 +9987,9 @@
             // 
             // button_Minute_hand_AOD
             // 
+            this.button_Minute_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Minute_hand_AOD.BorderRadius = 4;
+            this.button_Minute_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_hand_AOD, "button_Minute_hand_AOD");
             this.button_Minute_hand_AOD.Name = "button_Minute_hand_AOD";
             this.button_Minute_hand_AOD.UseVisualStyleBackColor = true;
@@ -9157,6 +10024,9 @@
             // 
             // button_Copy_Hour_hand_AOD
             // 
+            this.button_Copy_Hour_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Hour_hand_AOD.BorderRadius = 4;
+            this.button_Copy_Hour_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Hour_hand_AOD, "button_Copy_Hour_hand_AOD");
             this.button_Copy_Hour_hand_AOD.Name = "button_Copy_Hour_hand_AOD";
             this.button_Copy_Hour_hand_AOD.UseVisualStyleBackColor = true;
@@ -9357,6 +10227,9 @@
             // 
             // button_Hour_hand_AOD
             // 
+            this.button_Hour_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Hour_hand_AOD.BorderRadius = 4;
+            this.button_Hour_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_hand_AOD, "button_Hour_hand_AOD");
             this.button_Hour_hand_AOD.Name = "button_Hour_hand_AOD";
             this.button_Hour_hand_AOD.UseVisualStyleBackColor = true;
@@ -9375,6 +10248,24 @@
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Month_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Year_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Day_of_week_AOD);
+            this.tabControl_date_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_date_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_date_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_date_AOD.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_date_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_date_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_date_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_date_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_date_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_date_AOD, "tabControl_date_AOD");
             this.tabControl_date_AOD.Name = "tabControl_date_AOD";
             this.tabControl_date_AOD.SelectedIndex = 0;
@@ -9445,6 +10336,9 @@
             // 
             // button_Copy_Day_hand_AOD
             // 
+            this.button_Copy_Day_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Day_hand_AOD.BorderRadius = 4;
+            this.button_Copy_Day_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Day_hand_AOD, "button_Copy_Day_hand_AOD");
             this.button_Copy_Day_hand_AOD.Name = "button_Copy_Day_hand_AOD";
             this.button_Copy_Day_hand_AOD.UseVisualStyleBackColor = true;
@@ -9761,6 +10655,9 @@
             // 
             // button_Day_hand_AOD
             // 
+            this.button_Day_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Day_hand_AOD.BorderRadius = 4;
+            this.button_Day_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_hand_AOD, "button_Day_hand_AOD");
             this.button_Day_hand_AOD.Name = "button_Day_hand_AOD";
             this.button_Day_hand_AOD.UseVisualStyleBackColor = true;
@@ -9798,6 +10695,9 @@
             // 
             // button_Copy_Day_text_AOD
             // 
+            this.button_Copy_Day_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Day_text_AOD.BorderRadius = 4;
+            this.button_Copy_Day_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Day_text_AOD, "button_Copy_Day_text_AOD");
             this.button_Copy_Day_text_AOD.Name = "button_Copy_Day_text_AOD";
             this.button_Copy_Day_text_AOD.UseVisualStyleBackColor = true;
@@ -10022,6 +10922,9 @@
             // 
             // button_Day_text_AOD
             // 
+            this.button_Day_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Day_text_AOD.BorderRadius = 4;
+            this.button_Day_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_text_AOD, "button_Day_text_AOD");
             this.button_Day_text_AOD.Name = "button_Day_text_AOD";
             this.button_Day_text_AOD.UseVisualStyleBackColor = true;
@@ -10095,6 +10998,9 @@
             // 
             // button_Copy_Month_hand_AOD
             // 
+            this.button_Copy_Month_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Month_hand_AOD.BorderRadius = 4;
+            this.button_Copy_Month_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Month_hand_AOD, "button_Copy_Month_hand_AOD");
             this.button_Copy_Month_hand_AOD.Name = "button_Copy_Month_hand_AOD";
             this.button_Copy_Month_hand_AOD.UseVisualStyleBackColor = true;
@@ -10416,6 +11322,9 @@
             // 
             // button_Month_hand_AOD
             // 
+            this.button_Month_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_hand_AOD.BorderRadius = 4;
+            this.button_Month_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_hand_AOD, "button_Month_hand_AOD");
             this.button_Month_hand_AOD.Name = "button_Month_hand_AOD";
             this.button_Month_hand_AOD.UseVisualStyleBackColor = true;
@@ -10453,6 +11362,9 @@
             // 
             // button_Copy_Month_text_AOD
             // 
+            this.button_Copy_Month_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Month_text_AOD.BorderRadius = 4;
+            this.button_Copy_Month_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Month_text_AOD, "button_Copy_Month_text_AOD");
             this.button_Copy_Month_text_AOD.Name = "button_Copy_Month_text_AOD";
             this.button_Copy_Month_text_AOD.UseVisualStyleBackColor = true;
@@ -10677,6 +11589,9 @@
             // 
             // button_Month_text_AOD
             // 
+            this.button_Month_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_text_AOD.BorderRadius = 4;
+            this.button_Month_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_text_AOD, "button_Month_text_AOD");
             this.button_Month_text_AOD.Name = "button_Month_text_AOD";
             this.button_Month_text_AOD.UseVisualStyleBackColor = true;
@@ -10700,6 +11615,9 @@
             // 
             // button_Copy_Month_pictures_AOD
             // 
+            this.button_Copy_Month_pictures_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Month_pictures_AOD.BorderRadius = 4;
+            this.button_Copy_Month_pictures_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Month_pictures_AOD, "button_Copy_Month_pictures_AOD");
             this.button_Copy_Month_pictures_AOD.Name = "button_Copy_Month_pictures_AOD";
             this.button_Copy_Month_pictures_AOD.UseVisualStyleBackColor = true;
@@ -10784,6 +11702,9 @@
             // 
             // button_Month_pictures_AOD
             // 
+            this.button_Month_pictures_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Month_pictures_AOD.BorderRadius = 4;
+            this.button_Month_pictures_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_pictures_AOD, "button_Month_pictures_AOD");
             this.button_Month_pictures_AOD.Name = "button_Month_pictures_AOD";
             this.button_Month_pictures_AOD.UseVisualStyleBackColor = true;
@@ -10823,6 +11744,9 @@
             // 
             // button13
             // 
+            this.button13.BorderColor = System.Drawing.Color.DimGray;
+            this.button13.BorderRadius = 4;
+            this.button13.BorderThickness = 1F;
             resources.ApplyResources(this.button13, "button13");
             this.button13.Name = "button13";
             this.button13.UseVisualStyleBackColor = true;
@@ -10865,6 +11789,9 @@
             // 
             // button_Copy_Year_text_AOD
             // 
+            this.button_Copy_Year_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_Year_text_AOD.BorderRadius = 4;
+            this.button_Copy_Year_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_Year_text_AOD, "button_Copy_Year_text_AOD");
             this.button_Copy_Year_text_AOD.Name = "button_Copy_Year_text_AOD";
             this.button_Copy_Year_text_AOD.UseVisualStyleBackColor = true;
@@ -11081,6 +12008,9 @@
             // 
             // button_Year_text_AOD
             // 
+            this.button_Year_text_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Year_text_AOD.BorderRadius = 4;
+            this.button_Year_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_text_AOD, "button_Year_text_AOD");
             this.button_Year_text_AOD.Name = "button_Year_text_AOD";
             this.button_Year_text_AOD.UseVisualStyleBackColor = true;
@@ -11135,6 +12065,9 @@
             // 
             // button_Copy_DOW_hand_AOD
             // 
+            this.button_Copy_DOW_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_DOW_hand_AOD.BorderRadius = 4;
+            this.button_Copy_DOW_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_DOW_hand_AOD, "button_Copy_DOW_hand_AOD");
             this.button_Copy_DOW_hand_AOD.Name = "button_Copy_DOW_hand_AOD";
             this.button_Copy_DOW_hand_AOD.UseVisualStyleBackColor = true;
@@ -11451,6 +12384,9 @@
             // 
             // button_DOW_hand_AOD
             // 
+            this.button_DOW_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_DOW_hand_AOD.BorderRadius = 4;
+            this.button_DOW_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_hand_AOD, "button_DOW_hand_AOD");
             this.button_DOW_hand_AOD.Name = "button_DOW_hand_AOD";
             this.button_DOW_hand_AOD.UseVisualStyleBackColor = true;
@@ -11473,6 +12409,9 @@
             // 
             // button_Copy_DOW_image_AOD
             // 
+            this.button_Copy_DOW_image_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_DOW_image_AOD.BorderRadius = 4;
+            this.button_Copy_DOW_image_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Copy_DOW_image_AOD, "button_Copy_DOW_image_AOD");
             this.button_Copy_DOW_image_AOD.Name = "button_Copy_DOW_image_AOD";
             this.button_Copy_DOW_image_AOD.UseVisualStyleBackColor = true;
@@ -11557,6 +12496,9 @@
             // 
             // button_DOW_image_AOD
             // 
+            this.button_DOW_image_AOD.BorderColor = System.Drawing.Color.DimGray;
+            this.button_DOW_image_AOD.BorderRadius = 4;
+            this.button_DOW_image_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_image_AOD, "button_DOW_image_AOD");
             this.button_DOW_image_AOD.Name = "button_DOW_image_AOD";
             this.button_DOW_image_AOD.UseVisualStyleBackColor = true;
@@ -11580,6 +12522,24 @@
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_Stress_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_ActivityGoal_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_FatBurning_AOD);
+            this.tabControl_SystemActivity_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_SystemActivity_AOD, "tabControl_SystemActivity_AOD");
             this.tabControl_SystemActivity_AOD.Name = "tabControl_SystemActivity_AOD";
             this.tabControl_SystemActivity_AOD.SelectedIndex = 0;
@@ -12555,6 +13515,24 @@
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_WindForce_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_Altitude_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_AirPressure_AOD);
+            this.tabControl_SystemWeather_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_SystemWeather_AOD, "tabControl_SystemWeather_AOD");
             this.tabControl_SystemWeather_AOD.Name = "tabControl_SystemWeather_AOD";
             this.tabControl_SystemWeather_AOD.SelectedIndex = 0;
@@ -13443,6 +14421,24 @@
             // tabControl_System_AOD
             // 
             this.tabControl_System_AOD.Controls.Add(this.tabPage_Battery_AOD);
+            this.tabControl_System_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_System_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_System_AOD.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_System_AOD.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_System_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_System_AOD.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_System_AOD.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_System_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_System_AOD.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_System_AOD, "tabControl_System_AOD");
             this.tabControl_System_AOD.Name = "tabControl_System_AOD";
             this.tabControl_System_AOD.SelectedIndex = 0;
@@ -13585,277 +14581,6 @@
             this.ActivityName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.ActivityName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage_Show);
-            this.tabControl1.Controls.Add(this.tabPage_Edit);
-            this.tabControl1.Controls.Add(this.tabPage_LayerOrder);
-            this.tabControl1.Controls.Add(this.tabPage_Widgets);
-            this.tabControl1.Controls.Add(this.tabPageConverting);
-            this.tabControl1.Controls.Add(this.tabPage_Settings);
-            this.tabControl1.Controls.Add(this.tabPage_About);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            this.tabControl1.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl1_Selecting);
-            // 
-            // tabPage_Show
-            // 
-            this.tabPage_Show.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage_Show.Controls.Add(this.panel3);
-            this.tabPage_Show.Controls.Add(this.dataGridView_ImagesList);
-            this.tabPage_Show.Controls.Add(this.button_images);
-            this.tabPage_Show.Controls.Add(this.label5);
-            this.tabPage_Show.Controls.Add(this.button_JSON);
-            this.tabPage_Show.Controls.Add(this.label4);
-            resources.ApplyResources(this.tabPage_Show, "tabPage_Show");
-            this.tabPage_Show.Name = "tabPage_Show";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.panel_set);
-            this.panel3.Controls.Add(this.panel_PreviewStates);
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // panel_set
-            // 
-            this.panel_set.Controls.Add(this.userControl_Set12);
-            this.panel_set.Controls.Add(this.userControl_Set11);
-            this.panel_set.Controls.Add(this.userControl_Set10);
-            this.panel_set.Controls.Add(this.userControl_Set9);
-            this.panel_set.Controls.Add(this.userControl_Set8);
-            this.panel_set.Controls.Add(this.userControl_Set7);
-            this.panel_set.Controls.Add(this.userControl_Set6);
-            this.panel_set.Controls.Add(this.userControl_Set5);
-            this.panel_set.Controls.Add(this.userControl_Set4);
-            this.panel_set.Controls.Add(this.userControl_Set3);
-            this.panel_set.Controls.Add(this.userControl_Set2);
-            this.panel_set.Controls.Add(this.userControl_Set1);
-            resources.ApplyResources(this.panel_set, "panel_set");
-            this.panel_set.Name = "panel_set";
-            // 
-            // userControl_Set12
-            // 
-            resources.ApplyResources(this.userControl_Set12, "userControl_Set12");
-            this.userControl_Set12.Collapsed = true;
-            this.userControl_Set12.Name = "userControl_Set12";
-            this.userControl_Set12.SetNumber = 12;
-            this.userControl_Set12.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set12_Collapse);
-            this.userControl_Set12.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set11
-            // 
-            resources.ApplyResources(this.userControl_Set11, "userControl_Set11");
-            this.userControl_Set11.Collapsed = true;
-            this.userControl_Set11.Name = "userControl_Set11";
-            this.userControl_Set11.SetNumber = 11;
-            this.userControl_Set11.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set11_Collapse);
-            this.userControl_Set11.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set10
-            // 
-            resources.ApplyResources(this.userControl_Set10, "userControl_Set10");
-            this.userControl_Set10.Collapsed = true;
-            this.userControl_Set10.Name = "userControl_Set10";
-            this.userControl_Set10.SetNumber = 10;
-            this.userControl_Set10.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set10_Collapse);
-            this.userControl_Set10.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set9
-            // 
-            resources.ApplyResources(this.userControl_Set9, "userControl_Set9");
-            this.userControl_Set9.Collapsed = true;
-            this.userControl_Set9.Name = "userControl_Set9";
-            this.userControl_Set9.SetNumber = 9;
-            this.userControl_Set9.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set9_Collapse);
-            this.userControl_Set9.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set8
-            // 
-            resources.ApplyResources(this.userControl_Set8, "userControl_Set8");
-            this.userControl_Set8.Collapsed = true;
-            this.userControl_Set8.Name = "userControl_Set8";
-            this.userControl_Set8.SetNumber = 8;
-            this.userControl_Set8.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set8_Collapse);
-            this.userControl_Set8.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set7
-            // 
-            resources.ApplyResources(this.userControl_Set7, "userControl_Set7");
-            this.userControl_Set7.Collapsed = true;
-            this.userControl_Set7.Name = "userControl_Set7";
-            this.userControl_Set7.SetNumber = 7;
-            this.userControl_Set7.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set7_Collapse);
-            this.userControl_Set7.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set6
-            // 
-            resources.ApplyResources(this.userControl_Set6, "userControl_Set6");
-            this.userControl_Set6.Collapsed = true;
-            this.userControl_Set6.Name = "userControl_Set6";
-            this.userControl_Set6.SetNumber = 6;
-            this.userControl_Set6.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set6_Collapse);
-            this.userControl_Set6.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set5
-            // 
-            resources.ApplyResources(this.userControl_Set5, "userControl_Set5");
-            this.userControl_Set5.Collapsed = true;
-            this.userControl_Set5.Name = "userControl_Set5";
-            this.userControl_Set5.SetNumber = 5;
-            this.userControl_Set5.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set5_Collapse);
-            this.userControl_Set5.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set4
-            // 
-            resources.ApplyResources(this.userControl_Set4, "userControl_Set4");
-            this.userControl_Set4.Collapsed = true;
-            this.userControl_Set4.Name = "userControl_Set4";
-            this.userControl_Set4.SetNumber = 4;
-            this.userControl_Set4.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set4_Collapse);
-            this.userControl_Set4.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set3
-            // 
-            resources.ApplyResources(this.userControl_Set3, "userControl_Set3");
-            this.userControl_Set3.Collapsed = true;
-            this.userControl_Set3.Name = "userControl_Set3";
-            this.userControl_Set3.SetNumber = 3;
-            this.userControl_Set3.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set3_Collapse);
-            this.userControl_Set3.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set2
-            // 
-            resources.ApplyResources(this.userControl_Set2, "userControl_Set2");
-            this.userControl_Set2.Collapsed = true;
-            this.userControl_Set2.Name = "userControl_Set2";
-            this.userControl_Set2.SetNumber = 2;
-            this.userControl_Set2.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set2_Collapse);
-            this.userControl_Set2.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // userControl_Set1
-            // 
-            resources.ApplyResources(this.userControl_Set1, "userControl_Set1");
-            this.userControl_Set1.Collapsed = true;
-            this.userControl_Set1.Name = "userControl_Set1";
-            this.userControl_Set1.SetNumber = 1;
-            this.userControl_Set1.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set1_Collapse);
-            this.userControl_Set1.ValueChanged += new AmazFit_Watchface_2.UserControl_Set.ValueChangedHandler(this.userControl_Set_ValueChanged);
-            // 
-            // panel_PreviewStates
-            // 
-            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Random);
-            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Read);
-            this.panel_PreviewStates.Controls.Add(this.button_JsonPreview_Write);
-            resources.ApplyResources(this.panel_PreviewStates, "panel_PreviewStates");
-            this.panel_PreviewStates.Name = "panel_PreviewStates";
-            // 
-            // button_JsonPreview_Random
-            // 
-            resources.ApplyResources(this.button_JsonPreview_Random, "button_JsonPreview_Random");
-            this.button_JsonPreview_Random.Name = "button_JsonPreview_Random";
-            this.button_JsonPreview_Random.UseVisualStyleBackColor = true;
-            this.button_JsonPreview_Random.Click += new System.EventHandler(this.button_JsonPreview_Random_Click);
-            // 
-            // button_JsonPreview_Read
-            // 
-            resources.ApplyResources(this.button_JsonPreview_Read, "button_JsonPreview_Read");
-            this.button_JsonPreview_Read.Name = "button_JsonPreview_Read";
-            this.button_JsonPreview_Read.UseVisualStyleBackColor = true;
-            this.button_JsonPreview_Read.Click += new System.EventHandler(this.button_JsonPreview_Read_Click);
-            // 
-            // button_JsonPreview_Write
-            // 
-            resources.ApplyResources(this.button_JsonPreview_Write, "button_JsonPreview_Write");
-            this.button_JsonPreview_Write.Name = "button_JsonPreview_Write";
-            this.button_JsonPreview_Write.UseVisualStyleBackColor = true;
-            this.button_JsonPreview_Write.Click += new System.EventHandler(this.button_JsonPreview_Write_Click);
-            // 
-            // dataGridView_ImagesList
-            // 
-            this.dataGridView_ImagesList.AllowUserToAddRows = false;
-            this.dataGridView_ImagesList.AllowUserToDeleteRows = false;
-            this.dataGridView_ImagesList.AllowUserToResizeRows = false;
-            this.dataGridView_ImagesList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_ImagesList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Number,
-            this.NameFile,
-            this.ColumnImage,
-            this.Column1});
-            resources.ApplyResources(this.dataGridView_ImagesList, "dataGridView_ImagesList");
-            this.dataGridView_ImagesList.Name = "dataGridView_ImagesList";
-            this.dataGridView_ImagesList.RowHeadersVisible = false;
-            // 
-            // Number
-            // 
-            this.Number.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Number.DefaultCellStyle = dataGridViewCellStyle1;
-            resources.ApplyResources(this.Number, "Number");
-            this.Number.Name = "Number";
-            this.Number.ReadOnly = true;
-            // 
-            // NameFile
-            // 
-            this.NameFile.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            resources.ApplyResources(this.NameFile, "NameFile");
-            this.NameFile.Name = "NameFile";
-            this.NameFile.ReadOnly = true;
-            // 
-            // ColumnImage
-            // 
-            this.ColumnImage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            resources.ApplyResources(this.ColumnImage, "ColumnImage");
-            this.ColumnImage.Name = "ColumnImage";
-            this.ColumnImage.ReadOnly = true;
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.NullValue = null;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // button_images
-            // 
-            resources.ApplyResources(this.button_images, "button_images");
-            this.button_images.Name = "button_images";
-            this.button_images.UseVisualStyleBackColor = true;
-            this.button_images.Click += new System.EventHandler(this.button_images_Click);
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // button_JSON
-            // 
-            resources.ApplyResources(this.button_JSON, "button_JSON");
-            this.button_JSON.Name = "button_JSON";
-            this.button_JSON.UseVisualStyleBackColor = true;
-            this.button_JSON.Click += new System.EventHandler(this.button_JSON_Click);
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // tabPage_Edit
-            // 
-            this.tabPage_Edit.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage_Edit.Controls.Add(this.splitContainer_EditParameters);
-            this.tabPage_Edit.Controls.Add(this.panel6);
-            this.tabPage_Edit.Controls.Add(this.panel5);
-            resources.ApplyResources(this.tabPage_Edit, "tabPage_Edit");
-            this.tabPage_Edit.Name = "tabPage_Edit";
-            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.button_RandomPreview);
@@ -13866,6 +14591,9 @@
             // 
             // button_RandomPreview
             // 
+            this.button_RandomPreview.BorderColor = System.Drawing.Color.DimGray;
+            this.button_RandomPreview.BorderRadius = 4;
+            this.button_RandomPreview.BorderThickness = 1F;
             resources.ApplyResources(this.button_RandomPreview, "button_RandomPreview");
             this.button_RandomPreview.Name = "button_RandomPreview";
             this.button_RandomPreview.UseVisualStyleBackColor = true;
@@ -13896,6 +14624,9 @@
             // 
             // button_SaveJson
             // 
+            this.button_SaveJson.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SaveJson.BorderRadius = 4;
+            this.button_SaveJson.BorderThickness = 1F;
             resources.ApplyResources(this.button_SaveJson, "button_SaveJson");
             this.button_SaveJson.Name = "button_SaveJson";
             this.button_SaveJson.UseVisualStyleBackColor = true;
@@ -13903,6 +14634,9 @@
             // 
             // button_OpenDir
             // 
+            this.button_OpenDir.BorderColor = System.Drawing.Color.DimGray;
+            this.button_OpenDir.BorderRadius = 4;
+            this.button_OpenDir.BorderThickness = 1F;
             resources.ApplyResources(this.button_OpenDir, "button_OpenDir");
             this.button_OpenDir.Name = "button_OpenDir";
             this.button_OpenDir.UseVisualStyleBackColor = true;
@@ -13975,6 +14709,9 @@
             // 
             // button_AODL_Date_End
             // 
+            this.button_AODL_Date_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Date_End.BorderRadius = 4;
+            this.button_AODL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_End, "button_AODL_Date_End");
             this.button_AODL_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_AODL_Date_End.Name = "button_AODL_Date_End";
@@ -13983,6 +14720,9 @@
             // 
             // button_AODL_Date_Start
             // 
+            this.button_AODL_Date_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Date_Start.BorderRadius = 4;
+            this.button_AODL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Start, "button_AODL_Date_Start");
             this.button_AODL_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_AODL_Date_Start.Name = "button_AODL_Date_Start";
@@ -13991,6 +14731,9 @@
             // 
             // button_AODL_Date_Up
             // 
+            this.button_AODL_Date_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Date_Up.BorderRadius = 4;
+            this.button_AODL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Up, "button_AODL_Date_Up");
             this.button_AODL_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_AODL_Date_Up.Name = "button_AODL_Date_Up";
@@ -13999,6 +14742,9 @@
             // 
             // button_AODL_Date_Down
             // 
+            this.button_AODL_Date_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Date_Down.BorderRadius = 4;
+            this.button_AODL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Down, "button_AODL_Date_Down");
             this.button_AODL_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_AODL_Date_Down.Name = "button_AODL_Date_Down";
@@ -14056,6 +14802,9 @@
             // 
             // button_AODL_Activity_End
             // 
+            this.button_AODL_Activity_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Activity_End.BorderRadius = 4;
+            this.button_AODL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_End, "button_AODL_Activity_End");
             this.button_AODL_Activity_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_AODL_Activity_End.Name = "button_AODL_Activity_End";
@@ -14064,6 +14813,9 @@
             // 
             // button_AODL_Activity_Start
             // 
+            this.button_AODL_Activity_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Activity_Start.BorderRadius = 4;
+            this.button_AODL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Start, "button_AODL_Activity_Start");
             this.button_AODL_Activity_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_AODL_Activity_Start.Name = "button_AODL_Activity_Start";
@@ -14072,6 +14824,9 @@
             // 
             // button_AODL_Activity_Up
             // 
+            this.button_AODL_Activity_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Activity_Up.BorderRadius = 4;
+            this.button_AODL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Up, "button_AODL_Activity_Up");
             this.button_AODL_Activity_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_AODL_Activity_Up.Name = "button_AODL_Activity_Up";
@@ -14080,6 +14835,9 @@
             // 
             // button_AODL_Activity_Down
             // 
+            this.button_AODL_Activity_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_AODL_Activity_Down.BorderRadius = 4;
+            this.button_AODL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Down, "button_AODL_Activity_Down");
             this.button_AODL_Activity_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_AODL_Activity_Down.Name = "button_AODL_Activity_Down";
@@ -14143,6 +14901,9 @@
             // 
             // button_SNL_Date_End
             // 
+            this.button_SNL_Date_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Date_End.BorderRadius = 4;
+            this.button_SNL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_End, "button_SNL_Date_End");
             this.button_SNL_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_SNL_Date_End.Name = "button_SNL_Date_End";
@@ -14151,6 +14912,9 @@
             // 
             // button_SNL_Date_Start
             // 
+            this.button_SNL_Date_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Date_Start.BorderRadius = 4;
+            this.button_SNL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Start, "button_SNL_Date_Start");
             this.button_SNL_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_SNL_Date_Start.Name = "button_SNL_Date_Start";
@@ -14159,6 +14923,9 @@
             // 
             // button_SNL_Date_Up
             // 
+            this.button_SNL_Date_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Date_Up.BorderRadius = 4;
+            this.button_SNL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Up, "button_SNL_Date_Up");
             this.button_SNL_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_SNL_Date_Up.Name = "button_SNL_Date_Up";
@@ -14167,6 +14934,9 @@
             // 
             // button_SNL_Date_Down
             // 
+            this.button_SNL_Date_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Date_Down.BorderRadius = 4;
+            this.button_SNL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Down, "button_SNL_Date_Down");
             this.button_SNL_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_SNL_Date_Down.Name = "button_SNL_Date_Down";
@@ -14187,6 +14957,9 @@
             // 
             // button_SNL_Activity_End
             // 
+            this.button_SNL_Activity_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Activity_End.BorderRadius = 4;
+            this.button_SNL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_End, "button_SNL_Activity_End");
             this.button_SNL_Activity_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_SNL_Activity_End.Name = "button_SNL_Activity_End";
@@ -14195,6 +14968,9 @@
             // 
             // button_SNL_Activity_Start
             // 
+            this.button_SNL_Activity_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Activity_Start.BorderRadius = 4;
+            this.button_SNL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Start, "button_SNL_Activity_Start");
             this.button_SNL_Activity_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_SNL_Activity_Start.Name = "button_SNL_Activity_Start";
@@ -14203,6 +14979,9 @@
             // 
             // button_SNL_Activity_Up
             // 
+            this.button_SNL_Activity_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Activity_Up.BorderRadius = 4;
+            this.button_SNL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Up, "button_SNL_Activity_Up");
             this.button_SNL_Activity_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_SNL_Activity_Up.Name = "button_SNL_Activity_Up";
@@ -14211,6 +14990,9 @@
             // 
             // button_SNL_Activity_Down
             // 
+            this.button_SNL_Activity_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_SNL_Activity_Down.BorderRadius = 4;
+            this.button_SNL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Down, "button_SNL_Activity_Down");
             this.button_SNL_Activity_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_SNL_Activity_Down.Name = "button_SNL_Activity_Down";
@@ -14229,6 +15011,24 @@
             resources.ApplyResources(this.tabControl_Widget, "tabControl_Widget");
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetsEdit);
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);
+            this.tabControl_Widget.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_Widget.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_Widget.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_Widget.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_Widget.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_Widget.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_Widget.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_Widget.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_Widget.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_Widget.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_Widget.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_Widget.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_Widget.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_Widget.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_Widget.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             this.tabControl_Widget.HotTrack = true;
             this.tabControl_Widget.ImageList = this.imageList2;
             this.tabControl_Widget.Multiline = true;
@@ -14324,6 +15124,24 @@
             this.tabControl_DateWidget.Controls.Add(this.tabPage_YearWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DOWWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DateLayerWidget);
+            this.tabControl_DateWidget.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_DateWidget.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidget.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidget.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_DateWidget.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_DateWidget.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_DateWidget.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_DateWidget.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_DateWidget.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_DateWidget.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_DateWidget.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_DateWidget.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_DateWidget.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_DateWidget.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidget.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_DateWidget, "tabControl_DateWidget");
             this.tabControl_DateWidget.Name = "tabControl_DateWidget";
             this.tabControl_DateWidget.SelectedIndex = 0;
@@ -14542,6 +15360,9 @@
             // 
             // button_Widget_Date_End
             // 
+            this.button_Widget_Date_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_End.BorderRadius = 4;
+            this.button_Widget_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_End, "button_Widget_Date_End");
             this.button_Widget_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_Widget_Date_End.Name = "button_Widget_Date_End";
@@ -14550,6 +15371,9 @@
             // 
             // button_Widget_Date_Start
             // 
+            this.button_Widget_Date_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_Start.BorderRadius = 4;
+            this.button_Widget_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Start, "button_Widget_Date_Start");
             this.button_Widget_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_Widget_Date_Start.Name = "button_Widget_Date_Start";
@@ -14558,6 +15382,9 @@
             // 
             // button_Widget_Date_Up
             // 
+            this.button_Widget_Date_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_Up.BorderRadius = 4;
+            this.button_Widget_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Up, "button_Widget_Date_Up");
             this.button_Widget_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_Widget_Date_Up.Name = "button_Widget_Date_Up";
@@ -14566,6 +15393,9 @@
             // 
             // button_Widget_Date_Down
             // 
+            this.button_Widget_Date_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_Down.BorderRadius = 4;
+            this.button_Widget_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Down, "button_Widget_Date_Down");
             this.button_Widget_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_Widget_Date_Down.Name = "button_Widget_Date_Down";
@@ -15041,6 +15871,9 @@
             // 
             // button_WidgetDel
             // 
+            this.button_WidgetDel.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetDel.BorderRadius = 4;
+            this.button_WidgetDel.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetDel, "button_WidgetDel");
             this.button_WidgetDel.Name = "button_WidgetDel";
             this.button_WidgetDel.UseVisualStyleBackColor = true;
@@ -15102,6 +15935,9 @@
             // 
             // button_WidgetElementDel
             // 
+            this.button_WidgetElementDel.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetElementDel.BorderRadius = 4;
+            this.button_WidgetElementDel.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElementDel, "button_WidgetElementDel");
             this.button_WidgetElementDel.Name = "button_WidgetElementDel";
             this.button_WidgetElementDel.UseVisualStyleBackColor = true;
@@ -15109,6 +15945,9 @@
             // 
             // button_WidgetElement_End
             // 
+            this.button_WidgetElement_End.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetElement_End.BorderRadius = 4;
+            this.button_WidgetElement_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_End, "button_WidgetElement_End");
             this.button_WidgetElement_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_WidgetElement_End.Name = "button_WidgetElement_End";
@@ -15117,6 +15956,9 @@
             // 
             // button_WidgetElement_Start
             // 
+            this.button_WidgetElement_Start.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetElement_Start.BorderRadius = 4;
+            this.button_WidgetElement_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Start, "button_WidgetElement_Start");
             this.button_WidgetElement_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_WidgetElement_Start.Name = "button_WidgetElement_Start";
@@ -15125,6 +15967,9 @@
             // 
             // button_WidgetElement_Up
             // 
+            this.button_WidgetElement_Up.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetElement_Up.BorderRadius = 4;
+            this.button_WidgetElement_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Up, "button_WidgetElement_Up");
             this.button_WidgetElement_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_WidgetElement_Up.Name = "button_WidgetElement_Up";
@@ -15133,6 +15978,9 @@
             // 
             // button_WidgetElement_Down
             // 
+            this.button_WidgetElement_Down.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetElement_Down.BorderRadius = 4;
+            this.button_WidgetElement_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Down, "button_WidgetElement_Down");
             this.button_WidgetElement_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_WidgetElement_Down.Name = "button_WidgetElement_Down";
@@ -15144,14 +15992,14 @@
             this.dataGridView_WidgetElement.AllowUserToAddRows = false;
             this.dataGridView_WidgetElement.AllowUserToDeleteRows = false;
             this.dataGridView_WidgetElement.AllowUserToResizeRows = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView_WidgetElement.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.WidgetsID,
             this.WidgetElement,
@@ -15162,10 +16010,10 @@
             this.dataGridView_WidgetElement.Name = "dataGridView_WidgetElement";
             this.dataGridView_WidgetElement.ReadOnly = true;
             this.dataGridView_WidgetElement.RowHeadersVisible = false;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.DarkGray;
-            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.DarkGray;
+            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView_WidgetElement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_WidgetElement.SelectionChanged += new System.EventHandler(this.dataGridView_WidgetElement_SelectionChanged);
             this.dataGridView_WidgetElement.EnabledChanged += new System.EventHandler(this.dataGridView_WidgetElement_EnabledChanged);
@@ -15394,6 +16242,9 @@
             // 
             // button_WidgetAdd
             // 
+            this.button_WidgetAdd.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WidgetAdd.BorderRadius = 4;
+            this.button_WidgetAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetAdd, "button_WidgetAdd");
             this.button_WidgetAdd.Name = "button_WidgetAdd";
             this.button_WidgetAdd.UseVisualStyleBackColor = true;
@@ -15453,6 +16304,24 @@
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage3);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage4);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage5);
+            this.tabControl_DateWidgetAdd.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
+            // 
+            // 
+            // 
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.FocusTrack = false;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.HotTrack = false;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Opacity = 1F;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Overlap = 0;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.tabControl_DateWidgetAdd, "tabControl_DateWidgetAdd");
             this.tabControl_DateWidgetAdd.Name = "tabControl_DateWidgetAdd";
             this.tabControl_DateWidgetAdd.SelectedIndex = 0;
@@ -15671,6 +16540,9 @@
             // 
             // button_Widget_Date_EndAdd
             // 
+            this.button_Widget_Date_EndAdd.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_EndAdd.BorderRadius = 4;
+            this.button_Widget_Date_EndAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_EndAdd, "button_Widget_Date_EndAdd");
             this.button_Widget_Date_EndAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_Widget_Date_EndAdd.Name = "button_Widget_Date_EndAdd";
@@ -15679,6 +16551,9 @@
             // 
             // button_Widget_Date_StartAdd
             // 
+            this.button_Widget_Date_StartAdd.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_StartAdd.BorderRadius = 4;
+            this.button_Widget_Date_StartAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_StartAdd, "button_Widget_Date_StartAdd");
             this.button_Widget_Date_StartAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_Widget_Date_StartAdd.Name = "button_Widget_Date_StartAdd";
@@ -15687,6 +16562,9 @@
             // 
             // button_Widget_Date_UpAdd
             // 
+            this.button_Widget_Date_UpAdd.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_UpAdd.BorderRadius = 4;
+            this.button_Widget_Date_UpAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_UpAdd, "button_Widget_Date_UpAdd");
             this.button_Widget_Date_UpAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_Widget_Date_UpAdd.Name = "button_Widget_Date_UpAdd";
@@ -15695,6 +16573,9 @@
             // 
             // button_Widget_Date_DownAdd
             // 
+            this.button_Widget_Date_DownAdd.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Widget_Date_DownAdd.BorderRadius = 4;
+            this.button_Widget_Date_DownAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_DownAdd, "button_Widget_Date_DownAdd");
             this.button_Widget_Date_DownAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_Widget_Date_DownAdd.Name = "button_Widget_Date_DownAdd";
@@ -16163,16 +17044,6 @@
             resources.ApplyResources(this.label25, "label25");
             this.label25.Name = "label25";
             // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "Programming-Edit-Property-icon.png");
-            this.imageList2.Images.SetKeyName(1, "Data-Add-Column-icon.png");
-            this.imageList2.Images.SetKeyName(2, "Data-Add-Row-icon.png");
-            this.imageList2.Images.SetKeyName(3, "Files-Add-List-icon.png");
-            this.imageList2.Images.SetKeyName(4, "Add-icon.png");
-            // 
             // tabPageConverting
             // 
             this.tabPageConverting.BackColor = System.Drawing.SystemColors.Control;
@@ -16208,6 +17079,9 @@
             // 
             // button_Converting
             // 
+            this.button_Converting.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Converting.BorderRadius = 4;
+            this.button_Converting.BorderThickness = 1F;
             resources.ApplyResources(this.button_Converting, "button_Converting");
             this.button_Converting.Name = "button_Converting";
             this.button_Converting.UseVisualStyleBackColor = true;
@@ -16376,6 +17250,9 @@
             // 
             // button_WatchSkin_PathGet
             // 
+            this.button_WatchSkin_PathGet.BorderColor = System.Drawing.Color.DimGray;
+            this.button_WatchSkin_PathGet.BorderRadius = 4;
+            this.button_WatchSkin_PathGet.BorderThickness = 1F;
             resources.ApplyResources(this.button_WatchSkin_PathGet, "button_WatchSkin_PathGet");
             this.button_WatchSkin_PathGet.Name = "button_WatchSkin_PathGet";
             this.button_WatchSkin_PathGet.UseVisualStyleBackColor = true;
@@ -16479,6 +17356,9 @@
             // 
             // button_Reset
             // 
+            this.button_Reset.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Reset.BorderRadius = 4;
+            this.button_Reset.BorderThickness = 1F;
             resources.ApplyResources(this.button_Reset, "button_Reset");
             this.button_Reset.Name = "button_Reset";
             this.button_Reset.UseVisualStyleBackColor = true;
@@ -16744,311 +17624,11 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
-            // contextMenuStrip_XY_InAnimationTable
-            // 
-            this.contextMenuStrip_XY_InAnimationTable.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip_XY_InAnimationTable.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.вставитьНачальныеКоординатыToolStripMenuItem,
-            this.вставитьКонечныеКоординатыToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.копироватьToolStripMenuItem3,
-            this.вставитьToolStripMenuItem3,
-            this.удалитьСтрокуToolStripMenuItem1});
-            this.contextMenuStrip_XY_InAnimationTable.Name = "contextMenuStrip_XY_InAnimationTable";
-            resources.ApplyResources(this.contextMenuStrip_XY_InAnimationTable, "contextMenuStrip_XY_InAnimationTable");
-            this.contextMenuStrip_XY_InAnimationTable.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_XY_InAnimationTable_Opening);
-            // 
-            // вставитьНачальныеКоординатыToolStripMenuItem
-            // 
-            this.вставитьНачальныеКоординатыToolStripMenuItem.Name = "вставитьНачальныеКоординатыToolStripMenuItem";
-            resources.ApplyResources(this.вставитьНачальныеКоординатыToolStripMenuItem, "вставитьНачальныеКоординатыToolStripMenuItem");
-            this.вставитьНачальныеКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьНачальныеКоординатыToolStripMenuItem_Click);
-            // 
-            // вставитьКонечныеКоординатыToolStripMenuItem
-            // 
-            this.вставитьКонечныеКоординатыToolStripMenuItem.Name = "вставитьКонечныеКоординатыToolStripMenuItem";
-            resources.ApplyResources(this.вставитьКонечныеКоординатыToolStripMenuItem, "вставитьКонечныеКоординатыToolStripMenuItem");
-            this.вставитьКонечныеКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьКонечныеКоординатыToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            // 
-            // копироватьToolStripMenuItem3
-            // 
-            this.копироватьToolStripMenuItem3.Name = "копироватьToolStripMenuItem3";
-            resources.ApplyResources(this.копироватьToolStripMenuItem3, "копироватьToolStripMenuItem3");
-            this.копироватьToolStripMenuItem3.Click += new System.EventHandler(this.копироватьToolStripMenuItem2_Click);
-            // 
-            // вставитьToolStripMenuItem3
-            // 
-            this.вставитьToolStripMenuItem3.Name = "вставитьToolStripMenuItem3";
-            resources.ApplyResources(this.вставитьToolStripMenuItem3, "вставитьToolStripMenuItem3");
-            this.вставитьToolStripMenuItem3.Click += new System.EventHandler(this.вставитьToolStripMenuItem3_Click);
-            // 
-            // удалитьСтрокуToolStripMenuItem1
-            // 
-            this.удалитьСтрокуToolStripMenuItem1.Name = "удалитьСтрокуToolStripMenuItem1";
-            resources.ApplyResources(this.удалитьСтрокуToolStripMenuItem1, "удалитьСтрокуToolStripMenuItem1");
-            this.удалитьСтрокуToolStripMenuItem1.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
-            // 
-            // contextMenuStrip_XY_InTable
-            // 
-            this.contextMenuStrip_XY_InTable.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip_XY_InTable.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.вставитьКоординатыToolStripMenuItem,
-            this.копироватьToolStripMenuItem2,
-            this.вставитьToolStripMenuItem2,
-            this.удалитьСтрокуToolStripMenuItem});
-            this.contextMenuStrip_XY_InTable.Name = "contextMenuStrip_XY_InTable";
-            resources.ApplyResources(this.contextMenuStrip_XY_InTable, "contextMenuStrip_XY_InTable");
-            this.contextMenuStrip_XY_InTable.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_XY_InTable_Opening);
-            // 
-            // вставитьКоординатыToolStripMenuItem
-            // 
-            this.вставитьКоординатыToolStripMenuItem.Name = "вставитьКоординатыToolStripMenuItem";
-            resources.ApplyResources(this.вставитьКоординатыToolStripMenuItem, "вставитьКоординатыToolStripMenuItem");
-            this.вставитьКоординатыToolStripMenuItem.Click += new System.EventHandler(this.вставитьКоординатыToolStripMenuItem_Click);
-            // 
-            // копироватьToolStripMenuItem2
-            // 
-            this.копироватьToolStripMenuItem2.Name = "копироватьToolStripMenuItem2";
-            resources.ApplyResources(this.копироватьToolStripMenuItem2, "копироватьToolStripMenuItem2");
-            this.копироватьToolStripMenuItem2.Click += new System.EventHandler(this.копироватьToolStripMenuItem2_Click);
-            // 
-            // вставитьToolStripMenuItem2
-            // 
-            this.вставитьToolStripMenuItem2.Name = "вставитьToolStripMenuItem2";
-            resources.ApplyResources(this.вставитьToolStripMenuItem2, "вставитьToolStripMenuItem2");
-            this.вставитьToolStripMenuItem2.Click += new System.EventHandler(this.вставитьToolStripMenuItem2_Click);
-            // 
-            // удалитьСтрокуToolStripMenuItem
-            // 
-            this.удалитьСтрокуToolStripMenuItem.Name = "удалитьСтрокуToolStripMenuItem";
-            resources.ApplyResources(this.удалитьСтрокуToolStripMenuItem, "удалитьСтрокуToolStripMenuItem");
-            this.удалитьСтрокуToolStripMenuItem.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
-            // 
-            // button_zip_unpack
-            // 
-            resources.ApplyResources(this.button_zip_unpack, "button_zip_unpack");
-            this.button_zip_unpack.Name = "button_zip_unpack";
-            this.button_zip_unpack.UseVisualStyleBackColor = true;
-            this.button_zip_unpack.Click += new System.EventHandler(this.button_zip_unpack_Click);
-            // 
-            // button_pack_zip
-            // 
-            resources.ApplyResources(this.button_pack_zip, "button_pack_zip");
-            this.button_pack_zip.Name = "button_pack_zip";
-            this.button_pack_zip.UseVisualStyleBackColor = true;
-            this.button_pack_zip.Click += new System.EventHandler(this.button_pack_zip_Click);
-            // 
-            // label_version
-            // 
-            resources.ApplyResources(this.label_version, "label_version");
-            this.label_version.Name = "label_version";
-            // 
-            // colorDialog_StepsProgress
-            // 
-            this.colorDialog_StepsProgress.FullOpen = true;
-            // 
-            // colorDialog_Battery
-            // 
-            this.colorDialog_Battery.FullOpen = true;
-            // 
-            // button_PreviewBig
-            // 
-            resources.ApplyResources(this.button_PreviewBig, "button_PreviewBig");
-            this.button_PreviewBig.Name = "button_PreviewBig";
-            this.button_PreviewBig.UseVisualStyleBackColor = true;
-            this.button_PreviewBig.Click += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
-            // 
-            // checkBox_WebW
-            // 
-            resources.ApplyResources(this.checkBox_WebW, "checkBox_WebW");
-            this.checkBox_WebW.Name = "checkBox_WebW";
-            this.checkBox_WebW.UseVisualStyleBackColor = true;
-            this.checkBox_WebW.CheckedChanged += new System.EventHandler(this.checkBox_WebW_CheckedChanged);
-            // 
-            // checkBox_WebB
-            // 
-            resources.ApplyResources(this.checkBox_WebB, "checkBox_WebB");
-            this.checkBox_WebB.Name = "checkBox_WebB";
-            this.checkBox_WebB.UseVisualStyleBackColor = true;
-            this.checkBox_WebB.CheckedChanged += new System.EventHandler(this.checkBox_WebB_CheckedChanged);
-            // 
-            // button_SavePNG
-            // 
-            resources.ApplyResources(this.button_SavePNG, "button_SavePNG");
-            this.button_SavePNG.Name = "button_SavePNG";
-            this.button_SavePNG.UseVisualStyleBackColor = true;
-            this.button_SavePNG.Click += new System.EventHandler(this.button_SavePNG_Click);
-            // 
-            // button_SaveGIF
-            // 
-            resources.ApplyResources(this.button_SaveGIF, "button_SaveGIF");
-            this.button_SaveGIF.Name = "button_SaveGIF";
-            this.button_SaveGIF.UseVisualStyleBackColor = true;
-            this.button_SaveGIF.Click += new System.EventHandler(this.button_SaveGIF_Click);
-            // 
-            // radioButton_GTR2
-            // 
-            resources.ApplyResources(this.radioButton_GTR2, "radioButton_GTR2");
-            this.radioButton_GTR2.Checked = true;
-            this.radioButton_GTR2.Name = "radioButton_GTR2";
-            this.radioButton_GTR2.TabStop = true;
-            this.radioButton_GTR2.UseVisualStyleBackColor = true;
-            this.radioButton_GTR2.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
-            // 
-            // label_preview_X
-            // 
-            resources.ApplyResources(this.label_preview_X, "label_preview_X");
-            this.label_preview_X.Name = "label_preview_X";
-            // 
-            // label_preview_Y
-            // 
-            resources.ApplyResources(this.label_preview_Y, "label_preview_Y");
-            this.label_preview_Y.Name = "label_preview_Y";
-            // 
-            // checkBox_border
-            // 
-            resources.ApplyResources(this.checkBox_border, "checkBox_border");
-            this.checkBox_border.Name = "checkBox_border";
-            this.checkBox_border.UseVisualStyleBackColor = true;
-            this.checkBox_border.CheckedChanged += new System.EventHandler(this.checkBox_border_CheckedChanged);
-            this.checkBox_border.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // radioButton_GTS2
-            // 
-            resources.ApplyResources(this.radioButton_GTS2, "radioButton_GTS2");
-            this.radioButton_GTS2.Name = "radioButton_GTS2";
-            this.radioButton_GTS2.UseVisualStyleBackColor = true;
-            this.radioButton_GTS2.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
-            // 
-            // checkBox_crop
-            // 
-            this.checkBox_crop.Checked = true;
-            this.checkBox_crop.CheckState = System.Windows.Forms.CheckState.Checked;
-            resources.ApplyResources(this.checkBox_crop, "checkBox_crop");
-            this.checkBox_crop.Name = "checkBox_crop";
-            this.checkBox_crop.UseVisualStyleBackColor = true;
-            this.checkBox_crop.CheckedChanged += new System.EventHandler(this.checkBox_crop_CheckedChanged);
-            this.checkBox_crop.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // checkBox_Show_Shortcuts
-            // 
-            this.checkBox_Show_Shortcuts.Checked = true;
-            this.checkBox_Show_Shortcuts.CheckState = System.Windows.Forms.CheckState.Checked;
-            resources.ApplyResources(this.checkBox_Show_Shortcuts, "checkBox_Show_Shortcuts");
-            this.checkBox_Show_Shortcuts.Name = "checkBox_Show_Shortcuts";
-            this.checkBox_Show_Shortcuts.UseVisualStyleBackColor = true;
-            this.checkBox_Show_Shortcuts.CheckedChanged += new System.EventHandler(this.checkBox_Show_Shortcuts_CheckedChanged);
-            this.checkBox_Show_Shortcuts.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // checkBox_CircleScaleImage
-            // 
-            resources.ApplyResources(this.checkBox_CircleScaleImage, "checkBox_CircleScaleImage");
-            this.checkBox_CircleScaleImage.Name = "checkBox_CircleScaleImage";
-            this.checkBox_CircleScaleImage.UseVisualStyleBackColor = true;
-            this.checkBox_CircleScaleImage.CheckedChanged += new System.EventHandler(this.checkBox_CircleScaleImage_CheckedChanged);
-            this.checkBox_CircleScaleImage.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // button_RefreshPreview
-            // 
-            resources.ApplyResources(this.button_RefreshPreview, "button_RefreshPreview");
-            this.button_RefreshPreview.Name = "button_RefreshPreview";
-            this.button_RefreshPreview.UseVisualStyleBackColor = true;
-            this.button_RefreshPreview.Click += new System.EventHandler(this.button_RefreshPreview_Click);
-            // 
-            // button_CreatePreview
-            // 
-            resources.ApplyResources(this.button_CreatePreview, "button_CreatePreview");
-            this.button_CreatePreview.Name = "button_CreatePreview";
-            this.button_CreatePreview.UseVisualStyleBackColor = true;
-            this.button_CreatePreview.Click += new System.EventHandler(this.button_CreatePreview_Click);
-            // 
-            // checkBox_center_marker
-            // 
-            this.checkBox_center_marker.Checked = true;
-            this.checkBox_center_marker.CheckState = System.Windows.Forms.CheckState.Checked;
-            resources.ApplyResources(this.checkBox_center_marker, "checkBox_center_marker");
-            this.checkBox_center_marker.Name = "checkBox_center_marker";
-            this.checkBox_center_marker.UseVisualStyleBackColor = true;
-            this.checkBox_center_marker.CheckedChanged += new System.EventHandler(this.checkBox_center_marker_CheckedChanged);
-            this.checkBox_center_marker.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // colorDialog_Pulse
-            // 
-            this.colorDialog_Pulse.FullOpen = true;
-            // 
-            // colorDialog_Calories
-            // 
-            this.colorDialog_Calories.FullOpen = true;
-            // 
-            // toolTip_Weather
-            // 
-            this.toolTip_Weather.ToolTipTitle = "Weather icons";
-            // 
-            // radioButton_GTR2e
-            // 
-            resources.ApplyResources(this.radioButton_GTR2e, "radioButton_GTR2e");
-            this.radioButton_GTR2e.Name = "radioButton_GTR2e";
-            this.radioButton_GTR2e.UseVisualStyleBackColor = true;
-            this.radioButton_GTR2e.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
-            // 
-            // radioButton_TRex_pro
-            // 
-            resources.ApplyResources(this.radioButton_TRex_pro, "radioButton_TRex_pro");
-            this.radioButton_TRex_pro.Name = "radioButton_TRex_pro";
-            this.radioButton_TRex_pro.UseVisualStyleBackColor = true;
-            this.radioButton_TRex_pro.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
-            // 
-            // progressBar1
-            // 
-            resources.ApplyResources(this.progressBar1, "progressBar1");
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Step = 1;
-            // 
-            // pictureBox_Preview
-            // 
-            resources.ApplyResources(this.pictureBox_Preview, "pictureBox_Preview");
-            this.pictureBox_Preview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox_Preview.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pictureBox_Preview.Name = "pictureBox_Preview";
-            this.pictureBox_Preview.TabStop = false;
-            this.pictureBox_Preview.DoubleClick += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
-            this.pictureBox_Preview.MouseLeave += new System.EventHandler(this.pictureBox_Preview_MouseLeave);
-            this.pictureBox_Preview.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox_Preview_MouseMove);
-            // 
-            // checkBox_WidgetsArea
-            // 
-            this.checkBox_WidgetsArea.Checked = true;
-            this.checkBox_WidgetsArea.CheckState = System.Windows.Forms.CheckState.Checked;
-            resources.ApplyResources(this.checkBox_WidgetsArea, "checkBox_WidgetsArea");
-            this.checkBox_WidgetsArea.Name = "checkBox_WidgetsArea";
-            this.checkBox_WidgetsArea.UseVisualStyleBackColor = true;
-            this.checkBox_WidgetsArea.CheckedChanged += new System.EventHandler(this.checkBox_WidgetsArea_CheckedChanged);
-            this.checkBox_WidgetsArea.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
-            // 
-            // radioButton_ZeppE
-            // 
-            resources.ApplyResources(this.radioButton_ZeppE, "radioButton_ZeppE");
-            this.radioButton_ZeppE.Name = "radioButton_ZeppE";
-            this.radioButton_ZeppE.UseVisualStyleBackColor = true;
-            this.radioButton_ZeppE.CheckedChanged += new System.EventHandler(this.radioButton_Model_Changed);
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.radioButton_ZeppE);
             this.Controls.Add(this.checkBox_WidgetsArea);
             this.Controls.Add(this.progressBar1);
@@ -17075,6 +17655,7 @@
             this.Controls.Add(this.checkBox_WebW);
             this.Controls.Add(this.button_PreviewBig);
             this.Controls.Add(this.tabControl1);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.HelpButton = true;
             this.KeyPreview = true;
@@ -17084,10 +17665,21 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
+            this.contextMenuStrip_Y.ResumeLayout(false);
+            this.contextMenuStrip_X.ResumeLayout(false);
+            this.contextMenuStrip_XY_InAnimationTable.ResumeLayout(false);
+            this.contextMenuStrip_XY_InTable.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage_Show.ResumeLayout(false);
+            this.tabPage_Show.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel_set.ResumeLayout(false);
+            this.panel_set.PerformLayout();
+            this.panel_PreviewStates.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ImagesList)).EndInit();
+            this.tabPage_Edit.ResumeLayout(false);
             this.splitContainer_EditParameters.Panel1.ResumeLayout(false);
             this.splitContainer_EditParameters.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_EditParameters)).EndInit();
@@ -17102,9 +17694,7 @@
             this.panel_AM_PM.ResumeLayout(false);
             this.panel_AM_PM.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AM_Y)).EndInit();
-            this.contextMenuStrip_Y.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AM_X)).EndInit();
-            this.contextMenuStrip_X.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PM_X)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PM_Y)).EndInit();
             this.panel_Second.ResumeLayout(false);
@@ -17114,6 +17704,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Second_unitY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondX)).EndInit();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.panel_Minute.ResumeLayout(false);
             this.panel_Minute.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_spacing)).EndInit();
@@ -17451,15 +18045,6 @@
             this.tabPage_Battery_AOD.ResumeLayout(false);
             this.tabPage_Battery_AOD.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).EndInit();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage_Show.ResumeLayout(false);
-            this.tabPage_Show.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel_set.ResumeLayout(false);
-            this.panel_set.PerformLayout();
-            this.panel_PreviewStates.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ImagesList)).EndInit();
-            this.tabPage_Edit.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -17553,42 +18138,38 @@
             this.tabPage_About.ResumeLayout(false);
             this.tabPage_About.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.contextMenuStrip_XY_InAnimationTable.ResumeLayout(false);
-            this.contextMenuStrip_XY_InTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TabControl tabControl1;
+        private DarkTabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage_Show;
         private System.Windows.Forms.DataGridView dataGridView_ImagesList;
-        private System.Windows.Forms.Button button_images;
+        private DarkButton button_images;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button_JSON;
+        private DarkButton button_JSON;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ColorDialog colorDialog_StepsProgress;
         private System.Windows.Forms.ColorDialog colorDialog_Battery;
-        private System.Windows.Forms.Button button_JsonPreview_Write;
-        private System.Windows.Forms.Button button_JsonPreview_Read;
+        private DarkButton button_JsonPreview_Write;
+        private DarkButton button_JsonPreview_Read;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.Button button_PreviewBig;
+        private DarkButton button_PreviewBig;
         private System.Windows.Forms.CheckBox checkBox_WebW;
         private System.Windows.Forms.CheckBox checkBox_WebB;
-        private System.Windows.Forms.Button button_SaveJson;
-        private System.Windows.Forms.Button button_SavePNG;
-        private System.Windows.Forms.Button button_SaveGIF;
+        private DarkButton button_SaveJson;
+        private DarkButton button_SavePNG;
+        private DarkButton button_SaveGIF;
         private System.Windows.Forms.RadioButton radioButton_GTR2;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label_preview_X;
         private System.Windows.Forms.Label label_preview_Y;
         private System.Windows.Forms.CheckBox checkBox_border;
         private System.Windows.Forms.Panel panel_PreviewStates;
-        private System.Windows.Forms.Button button_JsonPreview_Random;
+        private DarkButton button_JsonPreview_Random;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_Y;
@@ -17615,13 +18196,13 @@
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Download;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Dialog;
         private System.Windows.Forms.Label label_version;
-        private System.Windows.Forms.Button button_zip_unpack;
-        private System.Windows.Forms.Button button_pack_zip;
+        private DarkButton button_zip_unpack;
+        private DarkButton button_pack_zip;
         private System.Windows.Forms.ComboBox comboBox_Language;
         private System.Windows.Forms.Label label356;
         private System.Windows.Forms.CheckBox checkBox_JsonWarnings;
         private System.Windows.Forms.RadioButton radioButton_GTS2;
-        private System.Windows.Forms.Button button_Reset;
+        private DarkButton button_Reset;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_XY_InTable;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem2;
@@ -17664,7 +18245,7 @@
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_GTR2;
         private System.Windows.Forms.NumericUpDown numericUpDown_ConvertingInput_Custom;
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_Custom;
-        private System.Windows.Forms.Button button_Converting;
+        private DarkButton button_Converting;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.NumericUpDown numericUpDown_ConvertingOutput_Custom;
         private System.Windows.Forms.RadioButton radioButton_ConvertingOutput_Custom;
@@ -17676,15 +18257,15 @@
         private System.Windows.Forms.Label label487;
         private System.Windows.Forms.Label label486;
         private System.Windows.Forms.CheckBox checkBox_CircleScaleImage;
-        private System.Windows.Forms.Button button_RefreshPreview;
-        private System.Windows.Forms.Button button_CreatePreview;
+        private DarkButton button_RefreshPreview;
+        private DarkButton button_CreatePreview;
         private System.Windows.Forms.CheckBox checkBox_ShowIn12hourFormat;
         private System.Windows.Forms.TabPage tabPage_Edit;
-        private System.Windows.Forms.Button button_OpenDir;
+        private DarkButton button_OpenDir;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.RichTextBox richTextBox_JsonText;
         private System.Windows.Forms.TreeView treeView_JsonTree;
-        private System.Windows.Forms.TabControl tabControl_EditParameters;
+        private DarkTabControl tabControl_EditParameters;
         private System.Windows.Forms.TabPage tabPage_Background;
         private System.Windows.Forms.TabPage tabPage_Time;
         private System.Windows.Forms.TabPage tabPage_Date;
@@ -17718,7 +18299,7 @@
         private System.Windows.Forms.Label label508;
         private System.Windows.Forms.Panel panel_Hour;
         private System.Windows.Forms.CheckBox checkBox_Hour_add_zero;
-        private System.Windows.Forms.Button button_Hour;
+        private DarkButton button_Hour;
         private System.Windows.Forms.Panel panel_Minute;
         private System.Windows.Forms.CheckBox checkBox_Minute_add_zero;
         private System.Windows.Forms.CheckBox checkBox_Minute_Use;
@@ -17741,7 +18322,7 @@
         private System.Windows.Forms.Label label520;
         private System.Windows.Forms.Label label521;
         private System.Windows.Forms.ComboBox comboBox_Minute_separator;
-        private System.Windows.Forms.Button button_Minute;
+        private DarkButton button_Minute;
         private System.Windows.Forms.Panel panel_Second;
         private System.Windows.Forms.CheckBox checkBox_Second_add_zero;
         private System.Windows.Forms.CheckBox checkBox_Second_Use;
@@ -17764,13 +18345,13 @@
         private System.Windows.Forms.Label label530;
         private System.Windows.Forms.Label label531;
         private System.Windows.Forms.ComboBox comboBox_Second_separator;
-        private System.Windows.Forms.Button button_Second;
+        private DarkButton button_Second;
         private System.Windows.Forms.Label label533;
         private System.Windows.Forms.Label label532;
         private System.Windows.Forms.Label label534;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Panel panel_Hour_hand;
-        private System.Windows.Forms.Button button_Hour_hand;
+        private DarkButton button_Hour_hand;
         private System.Windows.Forms.Label label543;
         private System.Windows.Forms.Label label544;
         private System.Windows.Forms.Label label545;
@@ -17812,7 +18393,7 @@
         private System.Windows.Forms.ComboBox comboBox_Second_hand_imageCentr;
         private System.Windows.Forms.Label label567;
         private System.Windows.Forms.CheckBox checkBox_Second_hand_Use;
-        private System.Windows.Forms.Button button_Second_hand;
+        private DarkButton button_Second_hand;
         private System.Windows.Forms.Panel panel_Minute_hand;
         private System.Windows.Forms.Label label546;
         private System.Windows.Forms.Label label547;
@@ -17834,7 +18415,7 @@
         private System.Windows.Forms.ComboBox comboBox_Minute_hand_imageCentr;
         private System.Windows.Forms.Label label556;
         private System.Windows.Forms.CheckBox checkBox_Minute_hand_Use;
-        private System.Windows.Forms.Button button_Minute_hand;
+        private DarkButton button_Minute_hand;
         private System.Windows.Forms.ComboBox comboBox_PM_image;
         private System.Windows.Forms.Label label569;
         private System.Windows.Forms.ComboBox comboBox_AM_image;
@@ -17854,11 +18435,11 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_AM_X;
         private System.Windows.Forms.CheckBox checkBox_12h_Use;
         private System.Windows.Forms.CheckBox checkBox_center_marker;
-        private System.Windows.Forms.TabControl tabControl_time;
+        private DarkTabControl tabControl_time;
         private System.Windows.Forms.TabPage tabPage_Digital_time;
         private System.Windows.Forms.TabPage tabPage_Analog_time;
         private System.Windows.Forms.Panel panel_AM_PM;
-        private System.Windows.Forms.TabControl tabControl_date;
+        private DarkTabControl tabControl_date;
         private System.Windows.Forms.TabPage tabPage_Year;
         private System.Windows.Forms.TabPage tabPage_Month;
         private System.Windows.Forms.TabPage tabPage_Day;
@@ -17932,10 +18513,10 @@
         private System.Windows.Forms.Label label608;
         private System.Windows.Forms.ComboBox comboBox_Year_separator;
         private System.Windows.Forms.Panel panel_Day_text;
-        private System.Windows.Forms.Button button_Day_text;
-        private System.Windows.Forms.Button button_Month_hand;
+        private DarkButton button_Day_text;
+        private DarkButton button_Month_hand;
         private System.Windows.Forms.Panel panel_Month_text;
-        private System.Windows.Forms.Button button_Month_text;
+        private DarkButton button_Month_text;
         private System.Windows.Forms.Panel panel_Month_pictures;
         private System.Windows.Forms.Label label613;
         private System.Windows.Forms.CheckBox checkBox_Month_pictures_Use;
@@ -17945,11 +18526,11 @@
         private System.Windows.Forms.Label label616;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_picturesY;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_picturesX;
-        private System.Windows.Forms.Button button_Month_pictures;
+        private DarkButton button_Month_pictures;
         private System.Windows.Forms.Panel panel_Year_hand;
-        private System.Windows.Forms.Button button_Year_hand;
+        private DarkButton button_Year_hand;
         private System.Windows.Forms.Panel panel_Year_text;
-        private System.Windows.Forms.Button button_Year_text;
+        private DarkButton button_Year_text;
         private System.Windows.Forms.DataGridViewTextBoxColumn Number;
         private System.Windows.Forms.DataGridViewTextBoxColumn NameFile;
         private System.Windows.Forms.DataGridViewImageColumn ColumnImage;
@@ -17979,7 +18560,7 @@
         private System.Windows.Forms.ComboBox comboBox_Day_hand_imageCentr;
         private System.Windows.Forms.Label label623;
         private System.Windows.Forms.CheckBox checkBox_Day_hand_Use;
-        private System.Windows.Forms.Button button_Day_hand;
+        private DarkButton button_Day_hand;
         private System.Windows.Forms.Panel panel_Month_hand;
         private System.Windows.Forms.Label label626;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_hand_endAngle;
@@ -18030,7 +18611,7 @@
         private System.Windows.Forms.Label label653;
         private System.Windows.Forms.Label label654;
         private System.Windows.Forms.Label label655;
-        private System.Windows.Forms.Button button_DOW_hand;
+        private DarkButton button_DOW_hand;
         private System.Windows.Forms.Panel panel_DOW_image;
         private System.Windows.Forms.Label label639;
         private System.Windows.Forms.CheckBox checkBox_DOW_pictures_Use;
@@ -18040,8 +18621,8 @@
         private System.Windows.Forms.Label label642;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesY;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesX;
-        private System.Windows.Forms.Button button_DOW_image;
-        private System.Windows.Forms.TabControl tabControl_System;
+        private DarkButton button_DOW_image;
+        private DarkTabControl tabControl_System;
         private System.Windows.Forms.TabPage tabPage_Status;
         private System.Windows.Forms.GroupBox groupBox_Bluetooth;
         private System.Windows.Forms.TabPage tabPage_Battery;
@@ -18101,7 +18682,7 @@
         private System.Windows.Forms.Label label715;
         private System.Windows.Forms.Label label716;
         private System.Windows.Forms.Label label717;
-        private System.Windows.Forms.TabControl tabControl_SystemActivity;
+        private DarkTabControl tabControl_SystemActivity;
         private System.Windows.Forms.TabPage tabPage_Steps;
         private System.Windows.Forms.TabPage tabPage_Calories;
         private System.Windows.Forms.TabPage tabPage_HeartRate;
@@ -18111,7 +18692,7 @@
         private System.Windows.Forms.TabPage tabPage_Stress;
         private System.Windows.Forms.TabPage tabPage_ActivityGoal;
         private System.Windows.Forms.TabPage tabPage_FatBurning;
-        private System.Windows.Forms.TabControl tabControl_SystemWeather;
+        private DarkTabControl tabControl_SystemWeather;
         private System.Windows.Forms.TabPage tabPage_Weather;
         private System.Windows.Forms.TabPage tabPage_UVindex;
         private System.Windows.Forms.TabPage tabPage_AirQuality;
@@ -18125,18 +18706,18 @@
         private System.Windows.Forms.SplitContainer splitContainer_EditParameters;
         private System.Windows.Forms.RadioButton radioButton_ScreenIdle;
         private System.Windows.Forms.RadioButton radioButton_ScreenNormal;
-        private System.Windows.Forms.Button button_RandomPreview;
+        private DarkButton button_RandomPreview;
         private System.Windows.Forms.CheckBox checkBox_SaveID;
-        private System.Windows.Forms.Button button_GenerateID;
+        private DarkButton button_GenerateID;
         private System.Windows.Forms.TextBox textBox_WatchfaceID;
         private System.Windows.Forms.CheckBox checkBox_UseID;
         private System.Windows.Forms.ToolTip toolTip_Weather;
-        private System.Windows.Forms.TabControl tabControl_EditParameters_AOD;
+        private DarkTabControl tabControl_EditParameters_AOD;
         private System.Windows.Forms.TabPage tabPage_Background_AOD;
-        private System.Windows.Forms.Button button_Capy_ScreenNormal;
+        private DarkButton button_Capy_ScreenNormal;
         private System.Windows.Forms.ComboBox comboBox_Background_image_AOD;
         private System.Windows.Forms.TabPage tabPage_Time_AOD;
-        private System.Windows.Forms.TabControl tabControl_time_AOD;
+        private DarkTabControl tabControl_time_AOD;
         private System.Windows.Forms.TabPage tabPage_Digital_time_AOD;
         private System.Windows.Forms.Panel panel_AM_PM_AOD;
         private System.Windows.Forms.CheckBox checkBox_12h_Use_AOD;
@@ -18178,7 +18759,7 @@
         private System.Windows.Forms.Label label315;
         private System.Windows.Forms.Label label316;
         private System.Windows.Forms.ComboBox comboBox_Minute_separator_AOD;
-        private System.Windows.Forms.Button button_Minute_AOD;
+        private DarkButton button_Minute_AOD;
         private System.Windows.Forms.Panel panel_Hour_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_spacing_AOD;
         private System.Windows.Forms.Label label317;
@@ -18202,7 +18783,7 @@
         private System.Windows.Forms.Label label326;
         private System.Windows.Forms.Label label327;
         private System.Windows.Forms.ComboBox comboBox_Hour_separator_AOD;
-        private System.Windows.Forms.Button button_Hour_AOD;
+        private DarkButton button_Hour_AOD;
         private System.Windows.Forms.TabPage tabPage_Analog_time_AOD;
         private System.Windows.Forms.Panel panel_Minute_hand_AOD;
         private System.Windows.Forms.Label label339;
@@ -18225,7 +18806,7 @@
         private System.Windows.Forms.ComboBox comboBox_Minute_hand_imageCentr_AOD;
         private System.Windows.Forms.Label label349;
         private System.Windows.Forms.CheckBox checkBox_Minute_hand_Use_AOD;
-        private System.Windows.Forms.Button button_Minute_hand_AOD;
+        private DarkButton button_Minute_hand_AOD;
         private System.Windows.Forms.Panel panel_Hour_hand_AOD;
         private System.Windows.Forms.Label label350;
         private System.Windows.Forms.Label label351;
@@ -18247,9 +18828,9 @@
         private System.Windows.Forms.ComboBox comboBox_Hour_hand_imageCentr_AOD;
         private System.Windows.Forms.Label label362;
         private System.Windows.Forms.CheckBox checkBox_Hour_hand_Use_AOD;
-        private System.Windows.Forms.Button button_Hour_hand_AOD;
+        private DarkButton button_Hour_hand_AOD;
         private System.Windows.Forms.TabPage tabPage_Date_AOD;
-        private System.Windows.Forms.TabControl tabControl_date_AOD;
+        private DarkTabControl tabControl_date_AOD;
         private System.Windows.Forms.TabPage tabPage_Day_AOD;
         private System.Windows.Forms.Panel panel_Day_hand_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_handX_background_AOD;
@@ -18283,7 +18864,7 @@
         private System.Windows.Forms.Label label377;
         private System.Windows.Forms.Label label378;
         private System.Windows.Forms.Label label379;
-        private System.Windows.Forms.Button button_Day_hand_AOD;
+        private DarkButton button_Day_hand_AOD;
         private System.Windows.Forms.Panel panel_Day_text_AOD;
         private System.Windows.Forms.CheckBox checkBox_Day_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_spacing_AOD;
@@ -18308,7 +18889,7 @@
         private System.Windows.Forms.Label label388;
         private System.Windows.Forms.Label label389;
         private System.Windows.Forms.Label label390;
-        private System.Windows.Forms.Button button_Day_text_AOD;
+        private DarkButton button_Day_text_AOD;
         private System.Windows.Forms.TabPage tabPage_Month_AOD;
         private System.Windows.Forms.Panel panel_Month_hand_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_handX_background_AOD;
@@ -18342,7 +18923,7 @@
         private System.Windows.Forms.Label label405;
         private System.Windows.Forms.Label label411;
         private System.Windows.Forms.Label label416;
-        private System.Windows.Forms.Button button_Month_hand_AOD;
+        private DarkButton button_Month_hand_AOD;
         private System.Windows.Forms.Panel panel_Month_text_AOD;
         private System.Windows.Forms.CheckBox checkBox_Month_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_spacing_AOD;
@@ -18367,7 +18948,7 @@
         private System.Windows.Forms.Label label425;
         private System.Windows.Forms.Label label426;
         private System.Windows.Forms.Label label427;
-        private System.Windows.Forms.Button button_Month_text_AOD;
+        private DarkButton button_Month_text_AOD;
         private System.Windows.Forms.Panel panel_Month_pictures_AOD;
         private System.Windows.Forms.Label label428;
         private System.Windows.Forms.CheckBox checkBox_Month_pictures_Use_AOD;
@@ -18377,10 +18958,10 @@
         private System.Windows.Forms.Label label431;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_picturesY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_picturesX_AOD;
-        private System.Windows.Forms.Button button_Month_pictures_AOD;
+        private DarkButton button_Month_pictures_AOD;
         private System.Windows.Forms.TabPage tabPage_Year_AOD;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Button button13;
+        private DarkButton button13;
         private System.Windows.Forms.Panel panel_Year_text_AOD;
         private System.Windows.Forms.CheckBox checkBox_Year_text_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Year_spacing_AOD;
@@ -18404,7 +18985,7 @@
         private System.Windows.Forms.Label label440;
         private System.Windows.Forms.Label label441;
         private System.Windows.Forms.Label label442;
-        private System.Windows.Forms.Button button_Year_text_AOD;
+        private DarkButton button_Year_text_AOD;
         private System.Windows.Forms.TabPage tabPage_Day_of_week_AOD;
         private System.Windows.Forms.Panel panel_DOW_hand_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_handX_background_AOD;
@@ -18438,7 +19019,7 @@
         private System.Windows.Forms.Label label457;
         private System.Windows.Forms.Label label458;
         private System.Windows.Forms.Label label459;
-        private System.Windows.Forms.Button button_DOW_hand_AOD;
+        private DarkButton button_DOW_hand_AOD;
         private System.Windows.Forms.Panel panel_DOW_image_AOD;
         private System.Windows.Forms.CheckBox checkBox_DOW_pictures_Use_AOD;
         private System.Windows.Forms.ComboBox comboBox_DOW_pictures_image_AOD;
@@ -18448,9 +19029,9 @@
         private System.Windows.Forms.Label label461;
         private System.Windows.Forms.Label label462;
         private System.Windows.Forms.Label label463;
-        private System.Windows.Forms.Button button_DOW_image_AOD;
+        private DarkButton button_DOW_image_AOD;
         private System.Windows.Forms.TabPage tabPage_Activity_AOD;
-        private System.Windows.Forms.TabControl tabControl_SystemActivity_AOD;
+        private DarkTabControl tabControl_SystemActivity_AOD;
         private System.Windows.Forms.TabPage tabPage_Steps_AOD;
         private System.Windows.Forms.TabPage tabPage_Calories_AOD;
         private System.Windows.Forms.TabPage tabPage_HeartRate_AOD;
@@ -18461,7 +19042,7 @@
         private System.Windows.Forms.TabPage tabPage_ActivityGoal_AOD;
         private System.Windows.Forms.TabPage tabPage_FatBurning_AOD;
         private System.Windows.Forms.TabPage tabPage_Air_AOD;
-        private System.Windows.Forms.TabControl tabControl_SystemWeather_AOD;
+        private DarkTabControl tabControl_SystemWeather_AOD;
         private System.Windows.Forms.TabPage tabPage_Weather_AOD;
         private System.Windows.Forms.TabPage tabPage_UVindex_AOD;
         private System.Windows.Forms.TabPage tabPage_AirQuality_AOD;
@@ -18471,22 +19052,22 @@
         private System.Windows.Forms.TabPage tabPage_Altitude_AOD;
         private System.Windows.Forms.TabPage tabPage_AirPressure_AOD;
         private System.Windows.Forms.TabPage tabPage_System_AOD;
-        private System.Windows.Forms.TabControl tabControl_System_AOD;
+        private DarkTabControl tabControl_System_AOD;
         private System.Windows.Forms.TabPage tabPage_Battery_AOD;
         private System.Windows.Forms.Label label284;
-        private System.Windows.Forms.Button button_Copy_Day_text_AOD;
-        private System.Windows.Forms.Button button_Copy_Day_hand_AOD;
-        private System.Windows.Forms.Button button_Copy_Month_hand_AOD;
-        private System.Windows.Forms.Button button_Copy_Month_text_AOD;
-        private System.Windows.Forms.Button button_Copy_Month_pictures_AOD;
-        private System.Windows.Forms.Button button_Copy_Year_text_AOD;
-        private System.Windows.Forms.Button button_Copy_DOW_hand_AOD;
-        private System.Windows.Forms.Button button_Copy_DOW_image_AOD;
-        private System.Windows.Forms.Button button_Copy_AM_PM_AOD;
-        private System.Windows.Forms.Button button_Copy_Minute_AOD;
-        private System.Windows.Forms.Button button_Copy_Hour_AOD;
-        private System.Windows.Forms.Button button_Copy_Minute_hand_AOD;
-        private System.Windows.Forms.Button button_Copy_Hour_hand_AOD;
+        private DarkButton button_Copy_Day_text_AOD;
+        private DarkButton button_Copy_Day_hand_AOD;
+        private DarkButton button_Copy_Month_hand_AOD;
+        private DarkButton button_Copy_Month_text_AOD;
+        private DarkButton button_Copy_Month_pictures_AOD;
+        private DarkButton button_Copy_Year_text_AOD;
+        private DarkButton button_Copy_DOW_hand_AOD;
+        private DarkButton button_Copy_DOW_image_AOD;
+        private DarkButton button_Copy_AM_PM_AOD;
+        private DarkButton button_Copy_Minute_AOD;
+        private DarkButton button_Copy_Hour_AOD;
+        private DarkButton button_Copy_Minute_hand_AOD;
+        private DarkButton button_Copy_Hour_hand_AOD;
         private UserControl_Set userControl_Set12;
         private UserControl_Set userControl_Set11;
         private UserControl_Set userControl_Set10;
@@ -18778,18 +19359,18 @@
         private UserControl_text_goal userControl_text_goal_Calories_AOD;
         private UserControl_SystemFont_GroupTime userControl_SystemFont_GroupTime;
         private System.Windows.Forms.DataGridView dataGridView_SNL_Activity;
-        private System.Windows.Forms.Button button_SNL_Activity_End;
-        private System.Windows.Forms.Button button_SNL_Activity_Down;
-        private System.Windows.Forms.Button button_SNL_Activity_Up;
-        private System.Windows.Forms.Button button_SNL_Activity_Start;
+        private DarkButton button_SNL_Activity_End;
+        private DarkButton button_SNL_Activity_Down;
+        private DarkButton button_SNL_Activity_Up;
+        private DarkButton button_SNL_Activity_Start;
         private System.Windows.Forms.TabPage tabPage_LayerOrder;
         private System.Windows.Forms.GroupBox groupBox_SNL_Activity;
         private System.Windows.Forms.GroupBox groupBox_SNL_Date;
         private System.Windows.Forms.DataGridView dataGridView_SNL_Date;
-        private System.Windows.Forms.Button button_SNL_Date_End;
-        private System.Windows.Forms.Button button_SNL_Date_Start;
-        private System.Windows.Forms.Button button_SNL_Date_Up;
-        private System.Windows.Forms.Button button_SNL_Date_Down;
+        private DarkButton button_SNL_Date_End;
+        private DarkButton button_SNL_Date_Start;
+        private DarkButton button_SNL_Date_Up;
+        private DarkButton button_SNL_Date_Down;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Day;
         private System.Windows.Forms.Label label_SNL_Date;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Month;
@@ -18803,19 +19384,19 @@
         private System.Windows.Forms.GroupBox groupBox_AODL_Date;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView_AODL_Date;
-        private System.Windows.Forms.Button button_AODL_Date_End;
-        private System.Windows.Forms.Button button_AODL_Date_Start;
-        private System.Windows.Forms.Button button_AODL_Date_Up;
-        private System.Windows.Forms.Button button_AODL_Date_Down;
+        private DarkButton button_AODL_Date_End;
+        private DarkButton button_AODL_Date_Start;
+        private DarkButton button_AODL_Date_Up;
+        private DarkButton button_AODL_Date_Down;
         private System.Windows.Forms.GroupBox groupBox_AODL_Activity;
         private System.Windows.Forms.DataGridView dataGridView_AODL_Activity;
-        private System.Windows.Forms.Button button_AODL_Activity_End;
-        private System.Windows.Forms.Button button_AODL_Activity_Start;
-        private System.Windows.Forms.Button button_AODL_Activity_Up;
-        private System.Windows.Forms.Button button_AODL_Activity_Down;
+        private DarkButton button_AODL_Activity_End;
+        private DarkButton button_AODL_Activity_Start;
+        private DarkButton button_AODL_Activity_Up;
+        private DarkButton button_AODL_Activity_Down;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox checkBox_WatchSkin_Use;
-        private System.Windows.Forms.Button button_WatchSkin_PathGet;
+        private DarkButton button_WatchSkin_PathGet;
         private System.Windows.Forms.TextBox textBox_WatchSkin_Path;
         private System.Windows.Forms.DataGridViewTextBoxColumn ActivityID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ActivityName;
@@ -18826,17 +19407,17 @@
         private System.Windows.Forms.TabPage tabPage_Widgets;
         private System.Windows.Forms.GroupBox groupBox_WidgetNumber;
         private System.Windows.Forms.ComboBox comboBox_WidgetNumber;
-        private System.Windows.Forms.Button button_WidgetDel;
+        private DarkButton button_WidgetDel;
         private System.Windows.Forms.GroupBox groupBox_WidgetElement;
         private System.Windows.Forms.DataGridView dataGridView_WidgetElement;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.TabControl tabControl_Widget;
+        private DarkTabControl tabControl_Widget;
         private System.Windows.Forms.TabPage tabPage_WidgetsEdit;
-        private System.Windows.Forms.Button button_WidgetElement_End;
-        private System.Windows.Forms.Button button_WidgetElement_Start;
-        private System.Windows.Forms.Button button_WidgetElement_Up;
-        private System.Windows.Forms.Button button_WidgetElement_Down;
+        private DarkButton button_WidgetElement_End;
+        private DarkButton button_WidgetElement_Start;
+        private DarkButton button_WidgetElement_Up;
+        private DarkButton button_WidgetElement_Down;
         private System.Windows.Forms.TabPage tabPage_WidgetAdd;
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.Label label2;
@@ -18853,7 +19434,7 @@
         private System.Windows.Forms.ComboBox comboBox_WidgetsUnderMask;
         private System.Windows.Forms.Label label01;
         private System.Windows.Forms.CheckBox checkBox_WidgetsArea;
-        private System.Windows.Forms.Button button_WidgetElementDel;
+        private DarkButton button_WidgetElementDel;
         private System.Windows.Forms.ComboBox comboBox_WidgetBorderInactiv;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox_WidgetBorderActiv;
@@ -18888,7 +19469,7 @@
         private UserControl_text_weather userControl_text_weatherWidgetMin;
         private UserControl_text_weather userControl_text_weatherWidgetCur;
         private UserControl_icon userControl_iconWidget;
-        private System.Windows.Forms.TabControl tabControl_DateWidget;
+        private DarkTabControl tabControl_DateWidget;
         private System.Windows.Forms.TabPage tabPage_DayWidget;
         private System.Windows.Forms.TabPage tabPage_MonthWidget;
         private System.Windows.Forms.TabPage tabPage_YearWidget;
@@ -18908,10 +19489,10 @@
         private UserControl_pictures userControl_pictures_DOWWidget;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView dataGridView_Widget_Date;
-        private System.Windows.Forms.Button button_Widget_Date_End;
-        private System.Windows.Forms.Button button_Widget_Date_Start;
-        private System.Windows.Forms.Button button_Widget_Date_Up;
-        private System.Windows.Forms.Button button_Widget_Date_Down;
+        private DarkButton button_Widget_Date_End;
+        private DarkButton button_Widget_Date_Start;
+        private DarkButton button_Widget_Date_Up;
+        private DarkButton button_Widget_Date_Down;
         private System.Windows.Forms.CheckBox checkBox_TimeOnWidgetEdit;
         private System.Windows.Forms.GroupBox groupBox_WidgetTypeAdd;
         private System.Windows.Forms.Label label26;
@@ -18922,7 +19503,7 @@
         private System.Windows.Forms.RadioButton radioButton_WidgetAdd;
         private System.Windows.Forms.GroupBox groupBox_WidgetElementAdd;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TabControl tabControl_DateWidgetAdd;
+        private DarkTabControl tabControl_DateWidgetAdd;
         private System.Windows.Forms.TabPage tabPage1;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_DayWidgetAdd;
         private UserControl_hand userControl_hand_DayWidgetAdd;
@@ -18941,10 +19522,10 @@
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DataGridView dataGridView_Widget_DateAdd;
-        private System.Windows.Forms.Button button_Widget_Date_EndAdd;
-        private System.Windows.Forms.Button button_Widget_Date_StartAdd;
-        private System.Windows.Forms.Button button_Widget_Date_UpAdd;
-        private System.Windows.Forms.Button button_Widget_Date_DownAdd;
+        private DarkButton button_Widget_Date_EndAdd;
+        private DarkButton button_Widget_Date_StartAdd;
+        private DarkButton button_Widget_Date_UpAdd;
+        private DarkButton button_Widget_Date_DownAdd;
         private UserControl_icon userControl_iconWidgetAdd;
         private UserControl_SystemFont_GroupSunrise userControl_SystemFont_GroupSunriseWidgetAdd;
         private UserControl_SystemFont_GroupWeather userControl_SystemFont_GroupWeatherWidgetAdd;
@@ -19004,7 +19585,7 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Button button_WidgetAdd;
+        private DarkButton button_WidgetAdd;
         private System.Windows.Forms.DataGridViewTextBoxColumn WidgetsID;
         private System.Windows.Forms.DataGridViewTextBoxColumn WidgetElement;
         private System.Windows.Forms.DataGridViewTextBoxColumn WidgetElementName;
