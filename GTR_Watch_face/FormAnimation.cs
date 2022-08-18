@@ -192,10 +192,10 @@ namespace AmazFit_Watchface_2
                     mask = new Bitmap(Application.StartupPath + @"\Mask\mask_Amazfitx.png");
                 }
                 Graphics gPanel = Graphics.FromImage(bitmap);
-                bool save = false;
+                /*bool save = false;
                 int set = 0;
                 int oldSet = -1;
-                int setIndex = 0;
+                int setIndex = 0;*/
                 Random rnd = new Random();
                 progressBar_SaveAnimation.Width = pictureBox_AnimatiomPreview.Width - 100;
                 progressBar_SaveAnimation.Maximum = (int)numericUpDown_NumberOfFrames.Value;

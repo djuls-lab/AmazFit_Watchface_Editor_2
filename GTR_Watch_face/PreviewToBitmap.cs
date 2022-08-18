@@ -47,7 +47,7 @@ namespace AmazFit_Watchface_2
                     DrawWidgetEditScreen(gPanel, crop, showWidgetsArea, widgetIndex);
                     FormText();
                     goto TimeEnd;
-                    return;
+                    // return;
                 }
                 if (tabControl_Widget.SelectedTab.Name == "tabPage_WidgetAdd" && radioButton_WidgetAdd.Checked)
                 {
@@ -55,7 +55,7 @@ namespace AmazFit_Watchface_2
                     DrawWidgetEditScreen(gPanel, crop, showWidgetsArea, widgetIndex);
                     FormText();
                     goto TimeEnd;
-                    return;
+                    // return;
                 }
             }
 

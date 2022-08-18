@@ -4885,7 +4885,7 @@ namespace AmazFit_Watchface_2
                     int StartCoordinates_Y = 0;
                     int EndCoordinates_X = 0;
                     int EndCoordinates_Y = 0;
-                    int ImageIndex = 0;
+                    // int ImageIndex = 0
                     //numericUpDown_MotiomAnimation_StartCoordinates_X.Value = StartCoordinates_X;
                     //numericUpDown_MotiomAnimation_StartCoordinates_Y.Value = StartCoordinates_Y;
                     //numericUpDown_MotiomAnimation_EndCoordinates_X.Value = EndCoordinates_X;
@@ -4942,7 +4942,7 @@ namespace AmazFit_Watchface_2
                     int StartCoordinates_Y = 0;
                     int EndCoordinates_X = 0;
                     int EndCoordinates_Y = 0;
-                    int ImageIndex = 0;
+                    // int ImageIndex = 0;
                     //numericUpDown_MotiomAnimation_StartCoordinates_X.Value = StartCoordinates_X;
                     //numericUpDown_MotiomAnimation_StartCoordinates_Y.Value = StartCoordinates_Y;
                     //numericUpDown_MotiomAnimation_EndCoordinates_X.Value = EndCoordinates_X;

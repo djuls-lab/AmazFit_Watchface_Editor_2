@@ -18,6 +18,7 @@ namespace AmazFit_Watchface_2
         private int _borderRadius = 4;
         private float _borderThickness = 1.0F;
         private int _imagePadding = 5;
+        private bool _useVisualStyleBackColor = false;
 
 
         #region <Appearance> (Properties)
@@ -66,6 +67,12 @@ namespace AmazFit_Watchface_2
         {
             get { return _backColor; }
             set { _backColor = value; Invalidate(); }
+        }
+
+        new public bool UseVisualStyleBackColor
+        {
+            get { return _useVisualStyleBackColor; }
+            set { _useVisualStyleBackColor = value; Invalidate(); }
         }
 
         #endregion
