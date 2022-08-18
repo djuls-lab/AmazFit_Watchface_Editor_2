@@ -13,10 +13,10 @@ namespace AmazFit_Watchface_2
 {
     public class DarkGroupBox : GroupBox
     {
-        private Color backColor = Color.FromArgb(40, 43, 45);
-        private Color borderColor = Color.FromArgb(60, 63, 65);
-        private int borderRadius = 4;
-        private float borderThickness = 1.0F;
+        private Color _backColor = Color.FromArgb(40, 43, 45);
+        private Color _borderColor = Color.FromArgb(60, 63, 65);
+        private int _borderRadius = 4;
+        private float _borderThickness = 1.0F;
 
         #region <Appearance> (Properties)
 
@@ -26,8 +26,8 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(typeof(Color), "DimGray")]
         public Color BorderColor
         { 
-            get { return borderColor; }
-            set { borderColor = value; Invalidate(); }
+            get { return _borderColor; }
+            set { _borderColor = value; Invalidate(); }
         }
 
         [Category("Appearance")]
@@ -36,8 +36,8 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(4)]
         public int BorderRadius
         {
-            get { return borderRadius; }
-            set { borderRadius = value; Invalidate(); }
+            get { return _borderRadius; }
+            set { _borderRadius = value; Invalidate(); }
         }
 
         [Category("Appearance")]
@@ -46,14 +46,14 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(1.0F)]
         public float BorderThickness
         {
-            get { return borderThickness; }
-            set { borderThickness = value; Invalidate(); }
+            get { return _borderThickness; }
+            set { _borderThickness = value; Invalidate(); }
         }
 
         new public Color BackColor
         {
-            get { return backColor; }
-            set { backColor = value; Invalidate(); }
+            get { return _backColor; }
+            set { _backColor = value; Invalidate(); }
         }
 
         #endregion
@@ -66,7 +66,7 @@ namespace AmazFit_Watchface_2
 
             ResizeRedraw = true;
             DoubleBuffered = true;
-            //this.BackColor = Color.FromArgb(64, 64, 64);
+            //BackColor = Color.FromArgb(64, 64, 64);
         }
 
         GraphicsPath GetRoundPath(Rectangle bounds, int radius)
@@ -104,8 +104,8 @@ namespace AmazFit_Watchface_2
             var rect = new Rectangle(0, 0, ClientSize.Width, ClientSize.Height);
             var stringSize = g.MeasureString(Text, Font);
 
-            var textColor = this.ForeColor;
-            var fillColor = this.BackColor;
+            var textColor = ForeColor;
+            var fillColor = BackColor;
 
             using (var b = new SolidBrush(fillColor))
             {
@@ -115,14 +115,14 @@ namespace AmazFit_Watchface_2
             using (var p = new Pen(BorderColor, 1))
             {
                 var borderRect = new Rectangle(0, (int)stringSize.Height / 2, rect.Width - 1, rect.Height - ((int)stringSize.Height / 2) - 1);
-                GraphicsPath graphPath = GetRoundPath(borderRect, this.BorderRadius);
+                GraphicsPath graphPath = GetRoundPath(borderRect, BorderRadius);
                 // g.DrawRectangle(p, borderRect);
                 g.DrawPath(p, graphPath);
             }
 
-            var textRect = new Rectangle(rect.Left + this.Padding.Left,
+            var textRect = new Rectangle(rect.Left + Padding.Left,
                     rect.Top,
-                    rect.Width - (this.Padding.Horizontal),
+                    rect.Width - (Padding.Horizontal),
                     (int)stringSize.Height);
 
             using (var b2 = new SolidBrush(fillColor))

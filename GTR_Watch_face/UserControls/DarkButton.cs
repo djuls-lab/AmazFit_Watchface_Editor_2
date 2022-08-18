@@ -13,11 +13,11 @@ namespace AmazFit_Watchface_2
 {
     public class DarkButton : Button
     {
-        private Color backColor = Color.FromArgb(64, 64, 64);
-        private Color borderColor = Color.DimGray;
-        private int borderRadius = 4;
-        private float borderThickness = 1.0F;
-        private int imagePadding = 5;
+        private Color _backColor = Color.FromArgb(64, 64, 64);
+        private Color _borderColor = Color.DimGray;
+        private int _borderRadius = 4;
+        private float _borderThickness = 1.0F;
+        private int _imagePadding = 5;
 
 
         #region <Appearance> (Properties)
@@ -28,8 +28,8 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(typeof(Color), "DimGray")]
         public Color BorderColor
         { 
-            get { return borderColor; }
-            set { borderColor = value; Invalidate(); }
+            get { return _borderColor; }
+            set { _borderColor = value; Invalidate(); }
         }
 
         [Category("Appearance")]
@@ -38,8 +38,8 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(4)]
         public int BorderRadius
         {
-            get { return borderRadius; }
-            set { borderRadius = value; Invalidate(); }
+            get { return _borderRadius; }
+            set { _borderRadius = value; Invalidate(); }
         }
 
         [Category("Appearance")]
@@ -48,8 +48,8 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(1.0F)]
         public float BorderThickness
         {
-            get { return borderThickness; }
-            set { borderThickness = value; Invalidate(); }
+            get { return _borderThickness; }
+            set { _borderThickness = value; Invalidate(); }
         }
 
         [Category("Appearance")]
@@ -58,14 +58,14 @@ namespace AmazFit_Watchface_2
         // [DefaultValue(5)]
         public int ImagePadding
         {
-            get { return imagePadding; }
-            set { imagePadding = value; Invalidate(); }
+            get { return _imagePadding; }
+            set { _imagePadding = value; Invalidate(); }
         }
 
         new public Color BackColor
         {
-            get { return backColor; }
-            set { backColor = value; Invalidate(); }
+            get { return _backColor; }
+            set { _backColor = value; Invalidate(); }
         }
 
         #endregion
@@ -78,7 +78,7 @@ namespace AmazFit_Watchface_2
 
             ResizeRedraw = true;
             DoubleBuffered = true;
-            //this.BackColor = Color.FromArgb(64, 64, 64);
+            //BackColor = Color.FromArgb(64, 64, 64);
         }
 
         GraphicsPath GetRoundPath(Rectangle bounds, int radius)
@@ -118,21 +118,27 @@ namespace AmazFit_Watchface_2
 
             var g = e.Graphics;
 
-            Rectangle rect = new Rectangle(0, 0, this.Width - 1, this.Height - 1);
-            GraphicsPath graphPath = GetRoundPath(rect, this.BorderRadius);
+            // Rectangle rect = new Rectangle(0, 0, Width - 1, Height - 1);
+            var rect = new Rectangle(0, 0, ClientSize.Width - 1, ClientSize.Height - 1);
+            GraphicsPath graphPath = GetRoundPath(rect, BorderRadius);
 
-            // this.Region = new Region(graphPath);
+            // Region = new Region(graphPath);
 
-            g.Clear(this.Parent.BackColor);
+            g.Clear(Parent.BackColor);
 
-            using (Brush brush = new SolidBrush(this.BackColor))
+            /*using (var b = new SolidBrush(Parent.BackColor))
+            {
+                g.FillRectangle(b, rect);
+            }*/
+
+            using (Brush brush = new SolidBrush(BackColor))
             {
                 g.FillPath(brush, graphPath);
             }
 
             g.SmoothingMode = SmoothingMode.HighQuality;
 
-            using (Pen pen = new Pen(this.BorderColor, this.BorderThickness))
+            using (Pen pen = new Pen(BorderColor, BorderThickness))
             {
                 // pen.Alignment = PenAlignment.Inset;
                 g.DrawPath(pen, graphPath);
@@ -142,20 +148,20 @@ namespace AmazFit_Watchface_2
             stringFormat.LineAlignment = StringAlignment.Center;
             stringFormat.Alignment = StringAlignment.Center;
             
-            string text = this.Text;
-            if (text.Length == 0 || this.Width == 0) return;
+            string text = Text;
+            if (text.Length == 0 || Width == 0) return;
             int i = text.Length;
-            while (TextRenderer.MeasureText(text + "...", this.Font).Width > this.Width - this.Margin.Horizontal)
+            while (TextRenderer.MeasureText(text + "...", Font).Width > Width - Margin.Horizontal)
             {
-                text = this.Text.Substring(0, --i);
+                text = Text.Substring(0, --i);
                 if (i == 0) break;
             }
             text = text + "...";*/
 
-            /*if (this.Image != null)
+            /*if (Image != null)
             {
-                Size imageSize = this.Image.Size;
-                g.DrawImage(this.Image, (this.Width - imageSize.Width) / 2.0F, (this.Height - imageSize.Height) / 2.0F);
+                Size imageSize = Image.Size;
+                g.DrawImage(Image, (Width - imageSize.Width) / 2.0F, (Height - imageSize.Height) / 2.0F);
             }*/
 
             var textOffsetX = 0;
@@ -168,8 +174,8 @@ namespace AmazFit_Watchface_2
                 var x = (ClientSize.Width / 2) - (Image.Size.Width / 2);
                 var y = (ClientSize.Height / 2) - (Image.Size.Height / 2);
 
-                var padding = this.ImagePadding;
-                /*if (this.Text == String.Empty)
+                var padding = ImagePadding;
+                /*if (Text == String.Empty)
                 {
                     padding = 0;
                 }*/
@@ -196,12 +202,12 @@ namespace AmazFit_Watchface_2
                 g.DrawImageUnscaled(Image, x, y);
             }
 
-            /*using (Brush brush = new SolidBrush(this.ForeColor))
+            /*using (Brush brush = new SolidBrush(ForeColor))
             {
-                g.DrawString(text, this.Font, brush, rect, stringFormat);
+                g.DrawString(text, Font, brush, rect, stringFormat);
             }*/
 
-            using (var b = new SolidBrush(this.ForeColor))
+            using (var b = new SolidBrush(ForeColor))
             {
                 var modRect = new Rectangle(rect.Left + textOffsetX + Padding.Left,
                                             rect.Top + textOffsetY + Padding.Top, rect.Width - Padding.Horizontal,

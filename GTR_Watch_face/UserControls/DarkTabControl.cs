@@ -13,7 +13,7 @@ namespace AmazFit_Watchface_2
     {
         public DarkTabControl()
         {
-            this.DisplayStyle = TabStyle.Dark;            
+            DisplayStyle = TabStyle.Dark;            
         }
     }
 }

@@ -1469,6 +1469,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPageConverting = new System.Windows.Forms.TabPage();
             this.label489 = new System.Windows.Forms.Label();
             this.label488 = new System.Windows.Forms.Label();
@@ -2851,7 +2852,6 @@
             // 
             // panel_AM_PM
             // 
-            this.panel_AM_PM.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_AM_PM.Controls.Add(this.checkBox_12h_Use);
             this.panel_AM_PM.Controls.Add(this.numericUpDown_AM_Y);
             this.panel_AM_PM.Controls.Add(this.label573);
@@ -3036,7 +3036,6 @@
             // 
             // panel_Second
             // 
-            this.panel_Second.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Second.Controls.Add(this.numericUpDown_Second_spacing);
             this.panel_Second.Controls.Add(this.label534);
             this.panel_Second.Controls.Add(this.checkBox_Second_add_zero);
@@ -3292,7 +3291,6 @@
             // 
             // panel_Minute
             // 
-            this.panel_Minute.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute.Controls.Add(this.numericUpDown_Minute_spacing);
             this.panel_Minute.Controls.Add(this.label533);
             this.panel_Minute.Controls.Add(this.checkBox_Minute_add_zero);
@@ -3548,7 +3546,6 @@
             // 
             // panel_Hour
             // 
-            this.panel_Hour.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour.Controls.Add(this.numericUpDown_Hour_spacing);
             this.panel_Hour.Controls.Add(this.label532);
             this.panel_Hour.Controls.Add(this.checkBox_Hour_add_zero);
@@ -3807,7 +3804,6 @@
             // 
             // panel_Second_hand
             // 
-            this.panel_Second_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Second_hand.Controls.Add(this.label557);
             this.panel_Second_hand.Controls.Add(this.label558);
             this.panel_Second_hand.Controls.Add(this.label559);
@@ -4037,7 +4033,6 @@
             // 
             // panel_Minute_hand
             // 
-            this.panel_Minute_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_hand.Controls.Add(this.label546);
             this.panel_Minute_hand.Controls.Add(this.label547);
             this.panel_Minute_hand.Controls.Add(this.label548);
@@ -4267,7 +4262,6 @@
             // 
             // panel_Hour_hand
             // 
-            this.panel_Hour_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_hand.Controls.Add(this.label543);
             this.panel_Hour_hand.Controls.Add(this.label544);
             this.panel_Hour_hand.Controls.Add(this.label545);
@@ -4561,7 +4555,6 @@
             // 
             // panel_Day_hand
             // 
-            this.panel_Day_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_hand.Controls.Add(this.numericUpDown_Day_handX_background);
             this.panel_Day_hand.Controls.Add(this.numericUpDown_Day_handY_background);
             this.panel_Day_hand.Controls.Add(this.comboBox_Day_hand_imageBackground);
@@ -4918,7 +4911,6 @@
             // 
             // panel_Day_text
             // 
-            this.panel_Day_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_text.Controls.Add(this.checkBox_Day_Use);
             this.panel_Day_text.Controls.Add(this.numericUpDown_Day_spacing);
             this.panel_Day_text.Controls.Add(this.comboBox_Day_separator);
@@ -5204,7 +5196,6 @@
             // 
             // panel_Month_hand
             // 
-            this.panel_Month_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_hand.Controls.Add(this.numericUpDown_Month_handX_background);
             this.panel_Month_hand.Controls.Add(this.numericUpDown_Month_handY_background);
             this.panel_Month_hand.Controls.Add(this.comboBox_Month_hand_imageBackground);
@@ -5566,7 +5557,6 @@
             // 
             // panel_Month_text
             // 
-            this.panel_Month_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_text.Controls.Add(this.checkBox_Month_Use);
             this.panel_Month_text.Controls.Add(this.numericUpDown_Month_spacing);
             this.panel_Month_text.Controls.Add(this.comboBox_Month_separator);
@@ -5823,7 +5813,6 @@
             // 
             // panel_Month_pictures
             // 
-            this.panel_Month_pictures.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_pictures.Controls.Add(this.label613);
             this.panel_Month_pictures.Controls.Add(this.checkBox_Month_pictures_Use);
             this.panel_Month_pictures.Controls.Add(this.label614);
@@ -5953,7 +5942,6 @@
             // panel_Year_hand
             // 
             this.panel_Year_hand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.panel_Year_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.panel_Year_hand, "panel_Year_hand");
             this.panel_Year_hand.Name = "panel_Year_hand";
             // 
@@ -5969,7 +5957,6 @@
             // 
             // panel_Year_text
             // 
-            this.panel_Year_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Year_text.Controls.Add(this.checkBox_Year_follow);
             this.panel_Year_text.Controls.Add(this.checkBox_Year_text_Use);
             this.panel_Year_text.Controls.Add(this.numericUpDown_Year_spacing);
@@ -6233,7 +6220,6 @@
             // 
             // panel_DOW_hand
             // 
-            this.panel_DOW_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_hand.Controls.Add(this.numericUpDown_DOW_handX_background);
             this.panel_DOW_hand.Controls.Add(this.numericUpDown_DOW_handY_background);
             this.panel_DOW_hand.Controls.Add(this.comboBox_DOW_hand_imageBackground);
@@ -6590,7 +6576,6 @@
             // 
             // panel_DOW_image
             // 
-            this.panel_DOW_image.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_image.Controls.Add(this.checkBox_DOW_pictures_Use);
             this.panel_DOW_image.Controls.Add(this.comboBox_DOW_pictures_image);
             this.panel_DOW_image.Controls.Add(this.numericUpDown_DOW_picturesY);
@@ -8259,7 +8244,7 @@
             // tabPage_Sunrise
             // 
             resources.ApplyResources(this.tabPage_Sunrise, "tabPage_Sunrise");
-            this.tabPage_Sunrise.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Sunrise.Controls.Add(this.label_Sunrise);
             this.tabPage_Sunrise.Controls.Add(this.userControl_icon_Sunrise);
             this.tabPage_Sunrise.Controls.Add(this.userControl_SystemFont_GroupSunrise);
@@ -9383,7 +9368,6 @@
             // 
             // panel_AM_PM_AOD
             // 
-            this.panel_AM_PM_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_AM_PM_AOD.Controls.Add(this.button_Copy_AM_PM_AOD);
             this.panel_AM_PM_AOD.Controls.Add(this.checkBox_12h_Use_AOD);
             this.panel_AM_PM_AOD.Controls.Add(this.numericUpDown_AM_Y_AOD);
@@ -9581,7 +9565,6 @@
             // 
             // panel_Minute_AOD
             // 
-            this.panel_Minute_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_AOD.Controls.Add(this.button_Copy_Minute_AOD);
             this.panel_Minute_AOD.Controls.Add(this.checkBox_Minute_add_zero_AOD);
             this.panel_Minute_AOD.Controls.Add(this.checkBox_Minute_Use_AOD);
@@ -9849,7 +9832,6 @@
             // 
             // panel_Hour_AOD
             // 
-            this.panel_Hour_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_AOD.Controls.Add(this.button_Copy_Hour_AOD);
             this.panel_Hour_AOD.Controls.Add(this.checkBox_Hour_add_zero_AOD);
             this.panel_Hour_AOD.Controls.Add(this.checkBox_Hour_Use_AOD);
@@ -10118,7 +10100,6 @@
             // 
             // panel_Minute_hand_AOD
             // 
-            this.panel_Minute_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_hand_AOD.Controls.Add(this.button_Copy_Minute_hand_AOD);
             this.panel_Minute_hand_AOD.Controls.Add(this.numericUpDown_Minute_handY_offset_AOD);
             this.panel_Minute_hand_AOD.Controls.Add(this.numericUpDown_Minute_handX_offset_AOD);
@@ -10360,7 +10341,6 @@
             // 
             // panel_Hour_hand_AOD
             // 
-            this.panel_Hour_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_hand_AOD.Controls.Add(this.button_Copy_Hour_hand_AOD);
             this.panel_Hour_hand_AOD.Controls.Add(this.numericUpDown_Hour_handY_offset_AOD);
             this.panel_Hour_hand_AOD.Controls.Add(this.numericUpDown_Hour_handX_offset_AOD);
@@ -10667,7 +10647,6 @@
             // 
             // panel_Day_hand_AOD
             // 
-            this.panel_Day_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_hand_AOD.Controls.Add(this.button_Copy_Day_hand_AOD);
             this.panel_Day_hand_AOD.Controls.Add(this.checkBox_Day_hand_Use_AOD);
             this.panel_Day_hand_AOD.Controls.Add(this.comboBox_Day_hand_imageBackground_AOD);
@@ -11036,7 +11015,6 @@
             // 
             // panel_Day_text_AOD
             // 
-            this.panel_Day_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_text_AOD.Controls.Add(this.button_Copy_Day_text_AOD);
             this.panel_Day_text_AOD.Controls.Add(this.checkBox_Day_Use_AOD);
             this.panel_Day_text_AOD.Controls.Add(this.comboBox_Day_image_AOD);
@@ -11335,7 +11313,6 @@
             // 
             // panel_Month_hand_AOD
             // 
-            this.panel_Month_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_hand_AOD.Controls.Add(this.button_Copy_Month_hand_AOD);
             this.panel_Month_hand_AOD.Controls.Add(this.checkBox_Month_hand_Use_AOD);
             this.panel_Month_hand_AOD.Controls.Add(this.comboBox_Month_hand_imageBackground_AOD);
@@ -11709,7 +11686,6 @@
             // 
             // panel_Month_text_AOD
             // 
-            this.panel_Month_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_text_AOD.Controls.Add(this.button_Copy_Month_text_AOD);
             this.panel_Month_text_AOD.Controls.Add(this.checkBox_Month_Use_AOD);
             this.panel_Month_text_AOD.Controls.Add(this.checkBox_Month_follow_AOD);
@@ -11978,7 +11954,6 @@
             // 
             // panel_Month_pictures_AOD
             // 
-            this.panel_Month_pictures_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_pictures_AOD.Controls.Add(this.button_Copy_Month_pictures_AOD);
             this.panel_Month_pictures_AOD.Controls.Add(this.checkBox_Month_pictures_Use_AOD);
             this.panel_Month_pictures_AOD.Controls.Add(this.comboBox_Month_pictures_image_AOD);
@@ -12094,7 +12069,7 @@
             // tabPage_Year_AOD
             // 
             resources.ApplyResources(this.tabPage_Year_AOD, "tabPage_Year_AOD");
-            this.tabPage_Year_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Year_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Year_AOD.Controls.Add(this.userControl_SystemFont_Group_Year_AOD);
             this.tabPage_Year_AOD.Controls.Add(this.panel16);
             this.tabPage_Year_AOD.Controls.Add(this.button13);
@@ -12121,7 +12096,6 @@
             // 
             // panel16
             // 
-            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.panel16, "panel16");
             this.panel16.Name = "panel16";
             // 
@@ -12138,7 +12112,6 @@
             // panel_Year_text_AOD
             // 
             this.panel_Year_text_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.panel_Year_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Year_text_AOD.Controls.Add(this.checkBox_Year_follow_AOD);
             this.panel_Year_text_AOD.Controls.Add(this.button_Copy_Year_text_AOD);
             this.panel_Year_text_AOD.Controls.Add(this.checkBox_Year_text_Use_AOD);
@@ -12414,7 +12387,6 @@
             // 
             // panel_DOW_hand_AOD
             // 
-            this.panel_DOW_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_hand_AOD.Controls.Add(this.button_Copy_DOW_hand_AOD);
             this.panel_DOW_hand_AOD.Controls.Add(this.checkBox_DOW_hand_Use_AOD);
             this.panel_DOW_hand_AOD.Controls.Add(this.comboBox_DOW_hand_imageBackground_AOD);
@@ -12783,7 +12755,6 @@
             // 
             // panel_DOW_image_AOD
             // 
-            this.panel_DOW_image_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_image_AOD.Controls.Add(this.button_Copy_DOW_image_AOD);
             this.panel_DOW_image_AOD.Controls.Add(this.checkBox_DOW_pictures_Use_AOD);
             this.panel_DOW_image_AOD.Controls.Add(this.comboBox_DOW_pictures_image_AOD);
@@ -14567,7 +14538,7 @@
             // 
             // tabPage_Sunrise_AOD
             // 
-            this.tabPage_Sunrise_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Sunrise_AOD.Controls.Add(this.label_Sunrise_AOD);
             this.tabPage_Sunrise_AOD.Controls.Add(this.userControl_icon_Sunrise_AOD);
             this.tabPage_Sunrise_AOD.Controls.Add(this.userControl_SystemFont_GroupSunrise_AOD);
@@ -14842,7 +14813,7 @@
             // tabPage_Altitude_AOD
             // 
             resources.ApplyResources(this.tabPage_Altitude_AOD, "tabPage_Altitude_AOD");
-            this.tabPage_Altitude_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_icon_Altitude_AOD);
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_SystemFont_Group_Altitude_AOD);
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_scaleLinear_Altitude_AOD);
@@ -14958,7 +14929,7 @@
             // tabPage_AirPressure_AOD
             // 
             resources.ApplyResources(this.tabPage_AirPressure_AOD, "tabPage_AirPressure_AOD");
-            this.tabPage_AirPressure_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_icon_AirPressure_AOD);
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_SystemFont_Group_AirPressure_AOD);
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_scaleLinear_AirPressure_AOD);
@@ -15855,37 +15826,38 @@
             // 
             // tabPage_Widgets
             // 
-            this.tabPage_Widgets.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Widgets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Widgets.Controls.Add(this.tabControl_Widget);
             resources.ApplyResources(this.tabPage_Widgets, "tabPage_Widgets");
             this.tabPage_Widgets.Name = "tabPage_Widgets";
             // 
             // tabControl_Widget
             // 
-            resources.ApplyResources(this.tabControl_Widget, "tabControl_Widget");
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetsEdit);
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);
+            this.tabControl_Widget.Controls.Add(this.tabPage6);
             this.tabControl_Widget.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
             // 
-            this.tabControl_Widget.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_Widget.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_Widget.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_Widget.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_Widget.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_Widget.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_Widget.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_Widget.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_Widget.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_Widget.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_Widget.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_Widget.DisplayStyleProvider.HotTrack = false;
             this.tabControl_Widget.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_Widget.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_Widget.DisplayStyleProvider.Overlap = 0;
             this.tabControl_Widget.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_Widget.DisplayStyleProvider.Radius = 3;
             this.tabControl_Widget.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_Widget.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_Widget.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_Widget.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
-            this.tabControl_Widget.HotTrack = true;
+            this.tabControl_Widget.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_Widget.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_Widget.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            resources.ApplyResources(this.tabControl_Widget, "tabControl_Widget");
             this.tabControl_Widget.ImageList = this.imageList2;
-            this.tabControl_Widget.Multiline = true;
             this.tabControl_Widget.Name = "tabControl_Widget";
             this.tabControl_Widget.SelectedIndex = 0;
             this.tabControl_Widget.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
@@ -15895,7 +15867,7 @@
             // 
             // tabPage_WidgetsEdit
             // 
-            this.tabPage_WidgetsEdit.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_WidgetsEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WidgetsEdit.Controls.Add(this.checkBox_TimeOnWidgetEdit);
             this.tabPage_WidgetsEdit.Controls.Add(this.groupBox_WidgetPreview);
             this.tabPage_WidgetsEdit.Controls.Add(this.groupBox_WidgetElementSettings);
@@ -16009,7 +15981,7 @@
             // tabPage_DayWidget
             // 
             resources.ApplyResources(this.tabPage_DayWidget, "tabPage_DayWidget");
-            this.tabPage_DayWidget.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_DayWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DayWidget.Controls.Add(this.userControl_SystemFont_Group_DayWidget);
             this.tabPage_DayWidget.Controls.Add(this.userControl_hand_DayWidget);
             this.tabPage_DayWidget.Controls.Add(this.userControl_text_date_DayWidget);
@@ -16059,7 +16031,7 @@
             // tabPage_MonthWidget
             // 
             resources.ApplyResources(this.tabPage_MonthWidget, "tabPage_MonthWidget");
-            this.tabPage_MonthWidget.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_MonthWidget.Controls.Add(this.userControl_SystemFont_Group_MonthWidget);
             this.tabPage_MonthWidget.Controls.Add(this.userControl_hand_MonthWidget);
             this.tabPage_MonthWidget.Controls.Add(this.userControl_text_date_MonthWidget);
@@ -16121,7 +16093,7 @@
             // tabPage_YearWidget
             // 
             resources.ApplyResources(this.tabPage_YearWidget, "tabPage_YearWidget");
-            this.tabPage_YearWidget.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_YearWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_YearWidget.Controls.Add(this.userControl_SystemFont_Group_YearWidget);
             this.tabPage_YearWidget.Controls.Add(this.userControl_text_date_YearWidget);
             this.tabPage_YearWidget.Name = "tabPage_YearWidget";
@@ -16160,7 +16132,7 @@
             // tabPage_DOWWidget
             // 
             resources.ApplyResources(this.tabPage_DOWWidget, "tabPage_DOWWidget");
-            this.tabPage_DOWWidget.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_DOWWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DOWWidget.Controls.Add(this.userControl_hand_DOWWidget);
             this.tabPage_DOWWidget.Controls.Add(this.userControl_pictures_DOWWidget);
             this.tabPage_DOWWidget.Name = "tabPage_DOWWidget";
@@ -16188,7 +16160,7 @@
             // 
             // tabPage_DateLayerWidget
             // 
-            this.tabPage_DateLayerWidget.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_DateLayerWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DateLayerWidget.Controls.Add(this.label12);
             this.tabPage_DateLayerWidget.Controls.Add(this.dataGridView_Widget_Date);
             this.tabPage_DateLayerWidget.Controls.Add(this.button_Widget_Date_End);
@@ -16926,7 +16898,7 @@
             this.dataGridView_WidgetElement.AllowUserToDeleteRows = false;
             this.dataGridView_WidgetElement.AllowUserToResizeRows = false;
             dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle17.ForeColor = System.Drawing.Color.DarkGray;
             dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -16979,7 +16951,7 @@
             // 
             // tabPage_WidgetAdd
             // 
-            this.tabPage_WidgetAdd.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_WidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WidgetAdd.Controls.Add(this.label31);
             this.tabPage_WidgetAdd.Controls.Add(this.label30);
             this.tabPage_WidgetAdd.Controls.Add(this.label29);
@@ -17272,7 +17244,7 @@
             // tabPage1
             // 
             resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage1.Controls.Add(this.userControl_SystemFont_Group_DayWidgetAdd);
             this.tabPage1.Controls.Add(this.userControl_hand_DayWidgetAdd);
             this.tabPage1.Controls.Add(this.userControl_text_date_DayWidgetAdd);
@@ -17322,7 +17294,7 @@
             // tabPage2
             // 
             resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage2.Controls.Add(this.userControl_SystemFont_Group_MonthWidgetAdd);
             this.tabPage2.Controls.Add(this.userControl_hand_MonthWidgetAdd);
             this.tabPage2.Controls.Add(this.userControl_text_date_MonthWidgetAdd);
@@ -17384,7 +17356,7 @@
             // tabPage3
             // 
             resources.ApplyResources(this.tabPage3, "tabPage3");
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage3.Controls.Add(this.userControl_SystemFont_Group_YearWidgetAdd);
             this.tabPage3.Controls.Add(this.userControl_text_date_YearWidgetAdd);
             this.tabPage3.Name = "tabPage3";
@@ -17423,7 +17395,7 @@
             // tabPage4
             // 
             resources.ApplyResources(this.tabPage4, "tabPage4");
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage4.Controls.Add(this.userControl_hand_DOWWidgetAdd);
             this.tabPage4.Controls.Add(this.userControl_pictures_DOWWidgetAdd);
             this.tabPage4.Name = "tabPage4";
@@ -17451,7 +17423,7 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage5.Controls.Add(this.label13);
             this.tabPage5.Controls.Add(this.dataGridView_Widget_DateAdd);
             this.tabPage5.Controls.Add(this.button_Widget_Date_EndAdd);
@@ -18051,6 +18023,12 @@
             resources.ApplyResources(this.label25, "label25");
             this.label25.Name = "label25";
             // 
+            // tabPage6
+            // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
             // tabPageConverting
             // 
             this.tabPageConverting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
@@ -18585,6 +18563,7 @@
             // linkLabel_resunpacker_qzip
             // 
             resources.ApplyResources(this.linkLabel_resunpacker_qzip, "linkLabel_resunpacker_qzip");
+            this.linkLabel_resunpacker_qzip.LinkColor = System.Drawing.Color.DodgerBlue;
             this.linkLabel_resunpacker_qzip.Name = "linkLabel_resunpacker_qzip";
             this.linkLabel_resunpacker_qzip.TabStop = true;
             this.linkLabel_resunpacker_qzip.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_resunpacker_qzip_LinkClicked);
@@ -18597,6 +18576,7 @@
             // label415
             // 
             resources.ApplyResources(this.label415, "label415");
+            this.label415.ForeColor = System.Drawing.Color.DarkGray;
             this.label415.Name = "label415";
             // 
             // label414
@@ -18607,16 +18587,19 @@
             // label412
             // 
             resources.ApplyResources(this.label412, "label412");
+            this.label412.ForeColor = System.Drawing.Color.DarkGray;
             this.label412.Name = "label412";
             // 
             // label413
             // 
             resources.ApplyResources(this.label413, "label413");
+            this.label413.ForeColor = System.Drawing.Color.DarkGray;
             this.label413.Name = "label413";
             // 
             // linkLabel_py_amazfit_tools
             // 
             resources.ApplyResources(this.linkLabel_py_amazfit_tools, "linkLabel_py_amazfit_tools");
+            this.linkLabel_py_amazfit_tools.LinkColor = System.Drawing.Color.DodgerBlue;
             this.linkLabel_py_amazfit_tools.Name = "linkLabel_py_amazfit_tools";
             this.linkLabel_py_amazfit_tools.TabStop = true;
             this.linkLabel_py_amazfit_tools.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_py_amazfit_tools_LinkClicked);
@@ -18624,10 +18607,12 @@
             // label410
             // 
             resources.ApplyResources(this.label410, "label410");
+            this.label410.ForeColor = System.Drawing.Color.DarkGray;
             this.label410.Name = "label410";
             // 
             // label409
             // 
+            this.label409.ForeColor = System.Drawing.Color.DarkGray;
             resources.ApplyResources(this.label409, "label409");
             this.label409.Name = "label409";
             // 
@@ -18639,6 +18624,7 @@
             // label407
             // 
             resources.ApplyResources(this.label407, "label407");
+            this.label407.ForeColor = System.Drawing.Color.DarkGray;
             this.label407.Name = "label407";
             // 
             // label_version_help
@@ -18649,6 +18635,7 @@
             // label406
             // 
             resources.ApplyResources(this.label406, "label406");
+            this.label406.ForeColor = System.Drawing.Color.DarkGray;
             this.label406.Name = "label406";
             // 
             // pictureBox2
@@ -20665,6 +20652,7 @@
         private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix;
         private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix_AOD;
         private System.Windows.Forms.CheckBox checkBox_AllWidgetsInGif;
+        private System.Windows.Forms.TabPage tabPage6;
     }
 }
 
