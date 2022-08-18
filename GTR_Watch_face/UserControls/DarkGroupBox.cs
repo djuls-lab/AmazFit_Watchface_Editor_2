@@ -50,7 +50,7 @@ namespace AmazFit_Watchface_2
             set { borderThickness = value; Invalidate(); }
         }
 
-        public override Color BackColor
+        new public Color BackColor
         {
             get { return backColor; }
             set { backColor = value; Invalidate(); }
