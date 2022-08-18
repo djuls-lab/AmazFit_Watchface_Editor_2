@@ -58,8 +58,8 @@ namespace AmazFit_Watchface_2
             this.label05 = new System.Windows.Forms.Label();
             this.label06 = new System.Windows.Forms.Label();
             this.label07 = new System.Windows.Forms.Label();
-            this.button_Copy_SystemFont = new System.Windows.Forms.Button();
-            this.button_SystemFont = new System.Windows.Forms.Button();
+            this.button_Copy_SystemFont = new DarkButton();
+            this.button_SystemFont = new DarkButton();
             this.contextMenuStrip_Y.SuspendLayout();
             this.contextMenuStrip_X.SuspendLayout();
             this.panel_SystemFont.SuspendLayout();
@@ -72,13 +72,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_Y
             // 
-            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_Y.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуYToolStripMenuItem,
             this.копироватьToolStripMenuItemY,
             this.вставитьToolStripMenuItemY});
             this.contextMenuStrip_Y.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Y_Opening);
             // 
             // вставитьКоординатуYToolStripMenuItem
@@ -101,13 +101,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_X
             // 
-            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_X.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуХToolStripMenuItem,
             this.копироватьToolStripMenuItemX,
             this.вставитьToolStripMenuItemX});
             this.contextMenuStrip_X.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_X_Opening);
             // 
             // вставитьКоординатуХToolStripMenuItem
@@ -130,9 +130,7 @@ namespace AmazFit_Watchface_2
             // 
             // panel_SystemFont
             // 
-            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
-            this.panel_SystemFont.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel_SystemFont.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_SystemFont.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.panel_SystemFont.Controls.Add(this.checkBox_Use);
             this.panel_SystemFont.Controls.Add(this.numericUpDown_SystemFontX);
             this.panel_SystemFont.Controls.Add(this.numericUpDown_SystemFontY);
@@ -152,6 +150,8 @@ namespace AmazFit_Watchface_2
             this.panel_SystemFont.Controls.Add(this.label06);
             this.panel_SystemFont.Controls.Add(this.label07);
             this.panel_SystemFont.Controls.Add(this.button_Copy_SystemFont);
+            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
+            this.panel_SystemFont.ForeColor = System.Drawing.Color.Gainsboro;
             this.panel_SystemFont.Name = "panel_SystemFont";
             // 
             // checkBox_Use
@@ -164,8 +164,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_SystemFontX
             // 
-            resources.ApplyResources(this.numericUpDown_SystemFontX, "numericUpDown_SystemFontX");
             this.numericUpDown_SystemFontX.ContextMenuStrip = this.contextMenuStrip_X;
+            resources.ApplyResources(this.numericUpDown_SystemFontX, "numericUpDown_SystemFontX");
             this.numericUpDown_SystemFontX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -182,8 +182,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_SystemFontY
             // 
-            resources.ApplyResources(this.numericUpDown_SystemFontY, "numericUpDown_SystemFontY");
             this.numericUpDown_SystemFontY.ContextMenuStrip = this.contextMenuStrip_Y;
+            resources.ApplyResources(this.numericUpDown_SystemFontY, "numericUpDown_SystemFontY");
             this.numericUpDown_SystemFontY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -253,9 +253,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_SystemFont_color
             // 
-            resources.ApplyResources(this.comboBox_SystemFont_color, "comboBox_SystemFont_color");
             this.comboBox_SystemFont_color.BackColor = System.Drawing.Color.DarkOrange;
             this.comboBox_SystemFont_color.DropDownHeight = 1;
+            resources.ApplyResources(this.comboBox_SystemFont_color, "comboBox_SystemFont_color");
             this.comboBox_SystemFont_color.FormattingEnabled = true;
             this.comboBox_SystemFont_color.Name = "comboBox_SystemFont_color";
             this.comboBox_SystemFont_color.Click += new System.EventHandler(this.comboBox_color_Click);
@@ -344,8 +344,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_SystemFont);
             this.Controls.Add(this.button_SystemFont);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_SystemFont";
             this.contextMenuStrip_Y.ResumeLayout(false);
             this.contextMenuStrip_X.ResumeLayout(false);
@@ -381,8 +383,8 @@ namespace AmazFit_Watchface_2
         protected System.Windows.Forms.Label label06;
         protected System.Windows.Forms.Label label05;
         protected System.Windows.Forms.Label label07;
-        private System.Windows.Forms.Button button_Copy_SystemFont;
-        protected System.Windows.Forms.Button button_SystemFont;
+        private DarkButton button_Copy_SystemFont;
+        protected DarkButton button_SystemFont;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFont_size;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.ComboBox comboBox_SystemFont_color;

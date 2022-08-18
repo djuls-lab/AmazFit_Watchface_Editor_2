@@ -187,6 +187,9 @@
     <Compile Include="UserControls\DarkButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\DarkGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\DarkTabControl.cs">
       <SubType>Component</SubType>
     </Compile>

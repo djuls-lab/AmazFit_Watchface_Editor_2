@@ -30,7 +30,7 @@ namespace AmazFit_Watchface_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_SystemFont_Group));
-            this.button_SystemFont = new System.Windows.Forms.Button();
+            this.button_SystemFont = new DarkButton();
             this.panel_SystemFont = new System.Windows.Forms.Panel();
             this.userControl_FontRotate_goal = new AmazFit_Watchface_2.UserControl_FontRotate_weather();
             this.userControl_FontRotate = new AmazFit_Watchface_2.UserControl_FontRotate();
@@ -48,19 +48,19 @@ namespace AmazFit_Watchface_2
             // 
             // panel_SystemFont
             // 
-            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
-            this.panel_SystemFont.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel_SystemFont.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_SystemFont.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.panel_SystemFont.Controls.Add(this.userControl_FontRotate_goal);
             this.panel_SystemFont.Controls.Add(this.userControl_FontRotate);
             this.panel_SystemFont.Controls.Add(this.userControl_SystemFont_goal);
             this.panel_SystemFont.Controls.Add(this.userControl_SystemFont);
+            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
+            this.panel_SystemFont.ForeColor = System.Drawing.Color.Gainsboro;
             this.panel_SystemFont.Name = "panel_SystemFont";
             // 
             // userControl_FontRotate_goal
             // 
-            resources.ApplyResources(this.userControl_FontRotate_goal, "userControl_FontRotate_goal");
             this.userControl_FontRotate_goal.AOD = true;
+            resources.ApplyResources(this.userControl_FontRotate_goal, "userControl_FontRotate_goal");
             this.userControl_FontRotate_goal.Collapsed = true;
             this.userControl_FontRotate_goal.Follow = true;
             this.userControl_FontRotate_goal.Name = "userControl_FontRotate_goal";
@@ -72,8 +72,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_FontRotate
             // 
-            resources.ApplyResources(this.userControl_FontRotate, "userControl_FontRotate");
             this.userControl_FontRotate.AOD = true;
+            resources.ApplyResources(this.userControl_FontRotate, "userControl_FontRotate");
             this.userControl_FontRotate.Collapsed = true;
             this.userControl_FontRotate.Follow = true;
             this.userControl_FontRotate.Name = "userControl_FontRotate";
@@ -85,8 +85,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_SystemFont_goal
             // 
-            resources.ApplyResources(this.userControl_SystemFont_goal, "userControl_SystemFont_goal");
             this.userControl_SystemFont_goal.AOD = true;
+            resources.ApplyResources(this.userControl_SystemFont_goal, "userControl_SystemFont_goal");
             this.userControl_SystemFont_goal.Collapsed = true;
             this.userControl_SystemFont_goal.Follow = true;
             this.userControl_SystemFont_goal.Name = "userControl_SystemFont_goal";
@@ -98,8 +98,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_SystemFont
             // 
-            resources.ApplyResources(this.userControl_SystemFont, "userControl_SystemFont");
             this.userControl_SystemFont.AOD = true;
+            resources.ApplyResources(this.userControl_SystemFont, "userControl_SystemFont");
             this.userControl_SystemFont.Collapsed = true;
             this.userControl_SystemFont.Follow = true;
             this.userControl_SystemFont.Name = "userControl_SystemFont";
@@ -113,8 +113,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_SystemFont);
             this.Controls.Add(this.button_SystemFont);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_SystemFont_Group";
             this.panel_SystemFont.ResumeLayout(false);
             this.panel_SystemFont.PerformLayout();
@@ -124,7 +126,7 @@ namespace AmazFit_Watchface_2
 
         #endregion
 
-        protected System.Windows.Forms.Button button_SystemFont;
+        protected DarkButton button_SystemFont;
         private System.Windows.Forms.Panel panel_SystemFont;
         public UserControl_SystemFont_weather userControl_SystemFont_goal;
         public UserControl_SystemFont userControl_SystemFont;

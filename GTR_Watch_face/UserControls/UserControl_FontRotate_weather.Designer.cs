@@ -38,6 +38,8 @@ namespace AmazFit_Watchface_2
             // UserControl_FontRotate_weather
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_FontRotate_weather";
             this.ResumeLayout(false);
 

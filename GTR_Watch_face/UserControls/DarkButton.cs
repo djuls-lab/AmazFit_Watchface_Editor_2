@@ -11,12 +11,14 @@ using System.ComponentModel;
 
 namespace AmazFit_Watchface_2
 {
-    class DarkButton : Button
+    public class DarkButton : Button
     {
         private Color backColor = Color.FromArgb(64, 64, 64);
         private Color borderColor = Color.DimGray;
         private int borderRadius = 4;
         private float borderThickness = 1.0F;
+        private int imagePadding = 5;
+
 
         #region <Appearance> (Properties)
 
@@ -50,6 +52,16 @@ namespace AmazFit_Watchface_2
             set { borderThickness = value; Invalidate(); }
         }
 
+        [Category("Appearance")]
+        [Description("Determines the amount of padding between the image and text.")]
+        [Browsable(true), EditorBrowsable(EditorBrowsableState.Always)]
+        // [DefaultValue(5)]
+        public int ImagePadding
+        {
+            get { return imagePadding; }
+            set { imagePadding = value; Invalidate(); }
+        }
+
         public override Color BackColor
         {
             get { return backColor; }
@@ -60,7 +72,12 @@ namespace AmazFit_Watchface_2
 
         public DarkButton()
         {
-            this.SetStyle(ControlStyles.UserPaint, true);
+            SetStyle(ControlStyles.OptimizedDoubleBuffer |
+                    ControlStyles.ResizeRedraw |
+                    ControlStyles.UserPaint, true);
+
+            ResizeRedraw = true;
+            DoubleBuffered = true;
             //this.BackColor = Color.FromArgb(64, 64, 64);
         }
 
@@ -99,29 +116,29 @@ namespace AmazFit_Watchface_2
             // int borderRadius = 6;
             // float borderThickness = 1.0f;
 
-            
+            var g = e.Graphics;
 
             Rectangle rect = new Rectangle(0, 0, this.Width - 1, this.Height - 1);
             GraphicsPath graphPath = GetRoundPath(rect, this.BorderRadius);
 
             // this.Region = new Region(graphPath);
 
-            e.Graphics.Clear(this.Parent.BackColor);
+            g.Clear(this.Parent.BackColor);
 
             using (Brush brush = new SolidBrush(this.BackColor))
             {
-                e.Graphics.FillPath(brush, graphPath);
+                g.FillPath(brush, graphPath);
             }
 
-            e.Graphics.SmoothingMode = SmoothingMode.HighQuality;
+            g.SmoothingMode = SmoothingMode.HighQuality;
 
             using (Pen pen = new Pen(this.BorderColor, this.BorderThickness))
             {
                 // pen.Alignment = PenAlignment.Inset;
-                e.Graphics.DrawPath(pen, graphPath);
+                g.DrawPath(pen, graphPath);
             }
 
-            StringFormat stringFormat = new StringFormat();
+            /*StringFormat stringFormat = new StringFormat();
             stringFormat.LineAlignment = StringAlignment.Center;
             stringFormat.Alignment = StringAlignment.Center;
             
@@ -133,12 +150,72 @@ namespace AmazFit_Watchface_2
                 text = this.Text.Substring(0, --i);
                 if (i == 0) break;
             }
-            text = text + "...";
+            text = text + "...";*/
 
-            using (Brush brush = new SolidBrush(this.ForeColor))
+            /*if (this.Image != null)
             {
-                e.Graphics.DrawString(text, this.Font, brush, rect, stringFormat);
-            }            
+                Size imageSize = this.Image.Size;
+                g.DrawImage(this.Image, (this.Width - imageSize.Width) / 2.0F, (this.Height - imageSize.Height) / 2.0F);
+            }*/
+
+            var textOffsetX = 0;
+            var textOffsetY = 0;
+
+            if (Image != null)
+            {
+                var stringSize = g.MeasureString(Text, Font, rect.Size);
+
+                var x = (ClientSize.Width / 2) - (Image.Size.Width / 2);
+                var y = (ClientSize.Height / 2) - (Image.Size.Height / 2);
+
+                var padding = this.ImagePadding;
+                /*if (this.Text == String.Empty)
+                {
+                    padding = 0;
+                }*/
+
+                switch (TextImageRelation)
+                {
+                    case TextImageRelation.ImageAboveText:
+                        textOffsetY = (Image.Size.Height / 2) + (padding / 2);
+                        y = y - ((int)(stringSize.Height / 2) + (padding / 2));
+                        break;
+                    case TextImageRelation.TextAboveImage:
+                        textOffsetY = ((Image.Size.Height / 2) + (padding / 2)) * -1;
+                        y = y + ((int)(stringSize.Height / 2) + (padding / 2));
+                        break;
+                    case TextImageRelation.ImageBeforeText:
+                        textOffsetX = Image.Size.Width + (padding * 2);
+                        x = padding;
+                        break;
+                    case TextImageRelation.TextBeforeImage:
+                        x = x + (int)stringSize.Width;
+                        break;
+                }
+
+                g.DrawImageUnscaled(Image, x, y);
+            }
+
+            /*using (Brush brush = new SolidBrush(this.ForeColor))
+            {
+                g.DrawString(text, this.Font, brush, rect, stringFormat);
+            }*/
+
+            using (var b = new SolidBrush(this.ForeColor))
+            {
+                var modRect = new Rectangle(rect.Left + textOffsetX + Padding.Left,
+                                            rect.Top + textOffsetY + Padding.Top, rect.Width - Padding.Horizontal,
+                                            rect.Height - Padding.Vertical);
+
+                var stringFormat = new StringFormat
+                {
+                    LineAlignment = StringAlignment.Center,
+                    Alignment = StringAlignment.Center,
+                    Trimming = StringTrimming.EllipsisCharacter
+                };
+
+                g.DrawString(Text, Font, b, modRect, stringFormat);
+            }
         }
     }    
 }

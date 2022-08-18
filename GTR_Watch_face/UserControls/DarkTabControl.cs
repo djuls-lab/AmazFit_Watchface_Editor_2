@@ -8,8 +8,8 @@ using System.Windows.Forms;
 
 
 namespace AmazFit_Watchface_2
-{    
-    class DarkTabControl : CustomTabControl
+{
+    public class DarkTabControl : CustomTabControl
     {
         public DarkTabControl()
         {

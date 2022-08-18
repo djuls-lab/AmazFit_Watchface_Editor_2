@@ -748,7 +748,7 @@
     <value>groupBox_Air</value>
   </data>
   <data name="&gt;&gt;groupBox_Air.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkGroupBox, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;groupBox_Air.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1522,7 +1522,7 @@
     <value>groupBox_Activity</value>
   </data>
   <data name="&gt;&gt;groupBox_Activity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkGroupBox, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;groupBox_Activity.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1549,7 +1549,7 @@
     <value>button_Set</value>
   </data>
   <data name="&gt;&gt;button_Set.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkButton, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button_Set.Parent" xml:space="preserve">
     <value>$this</value>

@@ -33,10 +33,6 @@ namespace AmazFit_Watchface_2
             this.panel_SystemFont.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button_SystemFont
-            // 
-            resources.ApplyResources(this.button_SystemFont, "button_SystemFont");
-            // 
             // userControl_SystemFont_weather_Current
             // 
             resources.ApplyResources(this.userControl_SystemFont_weather_Current, "userControl_SystemFont_weather_Current");
@@ -63,11 +59,15 @@ namespace AmazFit_Watchface_2
             // 
             // panel_SystemFont
             // 
+            this.panel_SystemFont.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.panel_SystemFont.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
             // 
             // UserControl_SystemFont_GroupTime
             // 
             resources.ApplyResources(this, "$this");
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_SystemFont_GroupTime";
             this.panel_SystemFont.ResumeLayout(false);
             this.panel_SystemFont.PerformLayout();

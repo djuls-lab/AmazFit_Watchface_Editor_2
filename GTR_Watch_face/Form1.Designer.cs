@@ -31,10 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -173,9 +186,6 @@
             this.label529 = new System.Windows.Forms.Label();
             this.comboBox_Second_unit = new System.Windows.Forms.ComboBox();
             this.comboBox_Second_alignment = new System.Windows.Forms.ComboBox();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.richTextBox_JsonText = new System.Windows.Forms.RichTextBox();
-            this.treeView_JsonTree = new System.Windows.Forms.TreeView();
             this.label530 = new System.Windows.Forms.Label();
             this.label531 = new System.Windows.Forms.Label();
             this.comboBox_Second_separator = new System.Windows.Forms.ComboBox();
@@ -565,7 +575,7 @@
             this.userControl_segments_Stress = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Stress = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_ActivityGoal = new System.Windows.Forms.TabPage();
-            this.groupBox_ActivityGoal = new System.Windows.Forms.GroupBox();
+            this.groupBox_ActivityGoal = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_ActivityGoal_Calories = new System.Windows.Forms.RadioButton();
             this.radioButton_ActivityGoal_Steps = new System.Windows.Forms.RadioButton();
             this.userControl_icon_ActivityGoal = new AmazFit_Watchface_2.UserControl_icon();
@@ -669,7 +679,7 @@
             this.tabPage_System = new System.Windows.Forms.TabPage();
             this.tabControl_System = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_Status = new System.Windows.Forms.TabPage();
-            this.groupBox_Lock = new System.Windows.Forms.GroupBox();
+            this.groupBox_Lock = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_Lock_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_Lock_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_LockX = new System.Windows.Forms.NumericUpDown();
@@ -678,7 +688,7 @@
             this.label661 = new System.Windows.Forms.Label();
             this.label662 = new System.Windows.Forms.Label();
             this.label663 = new System.Windows.Forms.Label();
-            this.groupBox_DND = new System.Windows.Forms.GroupBox();
+            this.groupBox_DND = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_DND_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_DND_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_DNDX = new System.Windows.Forms.NumericUpDown();
@@ -687,7 +697,7 @@
             this.label669 = new System.Windows.Forms.Label();
             this.label670 = new System.Windows.Forms.Label();
             this.label671 = new System.Windows.Forms.Label();
-            this.groupBox_Alarm = new System.Windows.Forms.GroupBox();
+            this.groupBox_Alarm = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_Alarm_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_Alarm_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_AlarmX = new System.Windows.Forms.NumericUpDown();
@@ -696,7 +706,7 @@
             this.label665 = new System.Windows.Forms.Label();
             this.label666 = new System.Windows.Forms.Label();
             this.label667 = new System.Windows.Forms.Label();
-            this.groupBox_Bluetooth = new System.Windows.Forms.GroupBox();
+            this.groupBox_Bluetooth = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_Bluetooth_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_Bluetooth_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_BluetoothX = new System.Windows.Forms.NumericUpDown();
@@ -1115,7 +1125,7 @@
             this.userControl_segments_Stress_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Stress_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_ActivityGoal_AOD = new System.Windows.Forms.TabPage();
-            this.groupBox_ActivityGoal_AOD = new System.Windows.Forms.GroupBox();
+            this.groupBox_ActivityGoal_AOD = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_ActivityGoal_Calories_AOD = new System.Windows.Forms.RadioButton();
             this.radioButton_ActivityGoal_Steps_AOD = new System.Windows.Forms.RadioButton();
             this.userControl_icon_ActivityGoal_AOD = new AmazFit_Watchface_2.UserControl_icon();
@@ -1227,18 +1237,18 @@
             this.userControl_text_Battery_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Battery_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Battery_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.dataGridView_SNL_Activity = new System.Windows.Forms.DataGridView();
-            this.ActivityID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ActivityName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button_RandomPreview = new AmazFit_Watchface_2.DarkButton();
             this.radioButton_ScreenIdle = new System.Windows.Forms.RadioButton();
             this.radioButton_ScreenNormal = new System.Windows.Forms.RadioButton();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.richTextBox_JsonText = new System.Windows.Forms.RichTextBox();
+            this.treeView_JsonTree = new System.Windows.Forms.TreeView();
             this.button_SaveJson = new AmazFit_Watchface_2.DarkButton();
             this.button_OpenDir = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_LayerOrder = new System.Windows.Forms.TabPage();
-            this.groupBox_AODL_Date = new System.Windows.Forms.GroupBox();
+            this.groupBox_AODL_Date = new AmazFit_Watchface_2.DarkGroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView_AODL_Date = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1247,7 +1257,7 @@
             this.button_AODL_Date_Start = new AmazFit_Watchface_2.DarkButton();
             this.button_AODL_Date_Up = new AmazFit_Watchface_2.DarkButton();
             this.button_AODL_Date_Down = new AmazFit_Watchface_2.DarkButton();
-            this.groupBox_AODL_Activity = new System.Windows.Forms.GroupBox();
+            this.groupBox_AODL_Activity = new AmazFit_Watchface_2.DarkGroupBox();
             this.dataGridView_AODL_Activity = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1255,7 +1265,7 @@
             this.button_AODL_Activity_Start = new AmazFit_Watchface_2.DarkButton();
             this.button_AODL_Activity_Up = new AmazFit_Watchface_2.DarkButton();
             this.button_AODL_Activity_Down = new AmazFit_Watchface_2.DarkButton();
-            this.groupBox_SNL_Date = new System.Windows.Forms.GroupBox();
+            this.groupBox_SNL_Date = new AmazFit_Watchface_2.DarkGroupBox();
             this.label_SNL_Date = new System.Windows.Forms.Label();
             this.dataGridView_SNL_Date = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1264,7 +1274,10 @@
             this.button_SNL_Date_Start = new AmazFit_Watchface_2.DarkButton();
             this.button_SNL_Date_Up = new AmazFit_Watchface_2.DarkButton();
             this.button_SNL_Date_Down = new AmazFit_Watchface_2.DarkButton();
-            this.groupBox_SNL_Activity = new System.Windows.Forms.GroupBox();
+            this.groupBox_SNL_Activity = new AmazFit_Watchface_2.DarkGroupBox();
+            this.dataGridView_SNL_Activity = new System.Windows.Forms.DataGridView();
+            this.ActivityID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ActivityName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_SNL_Activity_End = new AmazFit_Watchface_2.DarkButton();
             this.button_SNL_Activity_Start = new AmazFit_Watchface_2.DarkButton();
             this.button_SNL_Activity_Up = new AmazFit_Watchface_2.DarkButton();
@@ -1273,10 +1286,10 @@
             this.tabControl_Widget = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_WidgetsEdit = new System.Windows.Forms.TabPage();
             this.checkBox_TimeOnWidgetEdit = new System.Windows.Forms.CheckBox();
-            this.groupBox_WidgetPreview = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetPreview = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_WidgetPreviewEdit = new System.Windows.Forms.RadioButton();
             this.radioButton_WidgetPreviewNormal = new System.Windows.Forms.RadioButton();
-            this.groupBox_WidgetElementSettings = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetElementSettings = new AmazFit_Watchface_2.DarkGroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl_DateWidget = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage_DayWidget = new System.Windows.Forms.TabPage();
@@ -1325,7 +1338,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox_WidgetsUnderMask = new System.Windows.Forms.ComboBox();
             this.label01 = new System.Windows.Forms.Label();
-            this.groupBox_WidgetNumber = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetNumber = new AmazFit_Watchface_2.DarkGroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.numericUpDown_WidgetDescriptionLenght = new System.Windows.Forms.NumericUpDown();
             this.comboBox_WidgetBorderInactiv = new System.Windows.Forms.ComboBox();
@@ -1350,7 +1363,7 @@
             this.label05 = new System.Windows.Forms.Label();
             this.label1083 = new System.Windows.Forms.Label();
             this.label1086 = new System.Windows.Forms.Label();
-            this.groupBox_WidgetElement = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetElement = new AmazFit_Watchface_2.DarkGroupBox();
             this.button_WidgetElementDel = new AmazFit_Watchface_2.DarkButton();
             this.button_WidgetElement_End = new AmazFit_Watchface_2.DarkButton();
             this.button_WidgetElement_Start = new AmazFit_Watchface_2.DarkButton();
@@ -1364,7 +1377,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.groupBox_WidgetTypeAdd = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetTypeAdd = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_BatteryWidgetAdd = new System.Windows.Forms.RadioButton();
             this.label28 = new System.Windows.Forms.Label();
             this.radioButton_AirPressureWidgetAdd = new System.Windows.Forms.RadioButton();
@@ -1384,11 +1397,11 @@
             this.label26 = new System.Windows.Forms.Label();
             this.radioButton_StepsWidgetAdd = new System.Windows.Forms.RadioButton();
             this.radioButton_DateWidgetAdd = new System.Windows.Forms.RadioButton();
-            this.groupBox_WdgetAdd = new System.Windows.Forms.GroupBox();
+            this.groupBox_WdgetAdd = new AmazFit_Watchface_2.DarkGroupBox();
             this.button_WidgetAdd = new AmazFit_Watchface_2.DarkButton();
             this.radioButton_WidgetElementAdd = new System.Windows.Forms.RadioButton();
             this.radioButton_WidgetAdd = new System.Windows.Forms.RadioButton();
-            this.groupBox_WidgetElementAdd = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetElementAdd = new AmazFit_Watchface_2.DarkGroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl_DateWidgetAdd = new AmazFit_Watchface_2.DarkTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -1433,7 +1446,7 @@
             this.userControl_segmentsWidgetAdd = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_picturesWidgetAdd = new AmazFit_Watchface_2.UserControl_pictures();
             this.userControl_previewWidgetAdd = new AmazFit_Watchface_2.UserControl_preview();
-            this.groupBox_WidgetNumberAdd = new System.Windows.Forms.GroupBox();
+            this.groupBox_WidgetNumberAdd = new AmazFit_Watchface_2.DarkGroupBox();
             this.label14 = new System.Windows.Forms.Label();
             this.numericUpDown_WidgetDescriptionLenghtAdd = new System.Windows.Forms.NumericUpDown();
             this.comboBox_WidgetBorderInactivAdd = new System.Windows.Forms.ComboBox();
@@ -1462,13 +1475,13 @@
             this.label487 = new System.Windows.Forms.Label();
             this.label486 = new System.Windows.Forms.Label();
             this.button_Converting = new AmazFit_Watchface_2.DarkButton();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.groupBox10 = new AmazFit_Watchface_2.DarkGroupBox();
             this.numericUpDown_ConvertingOutput_Custom = new System.Windows.Forms.NumericUpDown();
             this.radioButton_ConvertingOutput_Custom = new System.Windows.Forms.RadioButton();
             this.radioButton_ConvertingOutput_TRexPro = new System.Windows.Forms.RadioButton();
             this.radioButton_ConvertingOutput_ZeppE = new System.Windows.Forms.RadioButton();
             this.radioButton_ConvertingOutput_GTR2 = new System.Windows.Forms.RadioButton();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new AmazFit_Watchface_2.DarkGroupBox();
             this.numericUpDown_ConvertingInput_Custom = new System.Windows.Forms.NumericUpDown();
             this.radioButton_ConvertingInput_Custom = new System.Windows.Forms.RadioButton();
             this.radioButton_ConvertingInput_TRexPro = new System.Windows.Forms.RadioButton();
@@ -1476,7 +1489,7 @@
             this.radioButton_ConvertingInput_GTR2 = new System.Windows.Forms.RadioButton();
             this.tabPage_Settings = new System.Windows.Forms.TabPage();
             this.checkBox_AllWidgetsInGif = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new AmazFit_Watchface_2.DarkGroupBox();
             this.button_WatchSkin_PathGet = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchSkin_Path = new System.Windows.Forms.TextBox();
             this.checkBox_WatchSkin_Use = new System.Windows.Forms.CheckBox();
@@ -1484,26 +1497,26 @@
             this.label355 = new System.Windows.Forms.Label();
             this.checkBox_ShowIn12hourFormat = new System.Windows.Forms.CheckBox();
             this.checkBox_SaveID = new System.Windows.Forms.CheckBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox8 = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_Shortcuts_Border = new System.Windows.Forms.CheckBox();
             this.checkBox_Shortcuts_Area = new System.Windows.Forms.CheckBox();
             this.button_Reset = new AmazFit_Watchface_2.DarkButton();
             this.checkBox_JsonWarnings = new System.Windows.Forms.CheckBox();
             this.comboBox_Language = new System.Windows.Forms.ComboBox();
             this.label356 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_Settings_Pack_DoNotning = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Pack_GoToFile = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Pack_Dialog = new System.Windows.Forms.RadioButton();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_Settings_Open_DoNotning = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Open_Download = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Open_Dialog = new System.Windows.Forms.RadioButton();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_Settings_AfterUnpack_DoNothing = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_AfterUnpack_Download = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_AfterUnpack_Dialog = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_Settings_Unpack_Replace = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Unpack_Save = new System.Windows.Forms.RadioButton();
             this.radioButton_Settings_Unpack_Dialog = new System.Windows.Forms.RadioButton();
@@ -1555,10 +1568,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Second_unitY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondX)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
             this.panel_Minute.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_spacing)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_unitX)).BeginInit();
@@ -1819,9 +1828,12 @@
             this.tabPage_System_AOD.SuspendLayout();
             this.tabControl_System_AOD.SuspendLayout();
             this.tabPage_Battery_AOD.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.tabPage_LayerOrder.SuspendLayout();
             this.groupBox_AODL_Date.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_AODL_Date)).BeginInit();
@@ -1830,6 +1842,7 @@
             this.groupBox_SNL_Date.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Date)).BeginInit();
             this.groupBox_SNL_Activity.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).BeginInit();
             this.tabPage_Widgets.SuspendLayout();
             this.tabControl_Widget.SuspendLayout();
             this.tabPage_WidgetsEdit.SuspendLayout();
@@ -2059,6 +2072,7 @@
             this.button_zip_unpack.BorderColor = System.Drawing.Color.DimGray;
             this.button_zip_unpack.BorderRadius = 4;
             this.button_zip_unpack.BorderThickness = 1F;
+            this.button_zip_unpack.ImagePadding = 5;
             resources.ApplyResources(this.button_zip_unpack, "button_zip_unpack");
             this.button_zip_unpack.Name = "button_zip_unpack";
             this.button_zip_unpack.UseVisualStyleBackColor = true;
@@ -2069,6 +2083,7 @@
             this.button_pack_zip.BorderColor = System.Drawing.Color.DimGray;
             this.button_pack_zip.BorderRadius = 4;
             this.button_pack_zip.BorderThickness = 1F;
+            this.button_pack_zip.ImagePadding = 5;
             resources.ApplyResources(this.button_pack_zip, "button_pack_zip");
             this.button_pack_zip.Name = "button_pack_zip";
             this.button_pack_zip.UseVisualStyleBackColor = true;
@@ -2093,6 +2108,7 @@
             this.button_PreviewBig.BorderRadius = 4;
             this.button_PreviewBig.BorderThickness = 1F;
             this.button_PreviewBig.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button_PreviewBig.ImagePadding = 5;
             resources.ApplyResources(this.button_PreviewBig, "button_PreviewBig");
             this.button_PreviewBig.Name = "button_PreviewBig";
             this.button_PreviewBig.UseVisualStyleBackColor = true;
@@ -2117,6 +2133,7 @@
             this.button_SavePNG.BorderColor = System.Drawing.Color.DimGray;
             this.button_SavePNG.BorderRadius = 4;
             this.button_SavePNG.BorderThickness = 1F;
+            this.button_SavePNG.ImagePadding = 5;
             resources.ApplyResources(this.button_SavePNG, "button_SavePNG");
             this.button_SavePNG.Name = "button_SavePNG";
             this.button_SavePNG.UseVisualStyleBackColor = true;
@@ -2127,6 +2144,7 @@
             this.button_SaveGIF.BorderColor = System.Drawing.Color.DimGray;
             this.button_SaveGIF.BorderRadius = 4;
             this.button_SaveGIF.BorderThickness = 1F;
+            this.button_SaveGIF.ImagePadding = 5;
             resources.ApplyResources(this.button_SaveGIF, "button_SaveGIF");
             this.button_SaveGIF.Name = "button_SaveGIF";
             this.button_SaveGIF.UseVisualStyleBackColor = true;
@@ -2199,6 +2217,7 @@
             this.button_RefreshPreview.BorderColor = System.Drawing.Color.DimGray;
             this.button_RefreshPreview.BorderRadius = 4;
             this.button_RefreshPreview.BorderThickness = 1F;
+            this.button_RefreshPreview.ImagePadding = 5;
             resources.ApplyResources(this.button_RefreshPreview, "button_RefreshPreview");
             this.button_RefreshPreview.Name = "button_RefreshPreview";
             this.button_RefreshPreview.UseVisualStyleBackColor = true;
@@ -2209,6 +2228,7 @@
             this.button_CreatePreview.BorderColor = System.Drawing.Color.DimGray;
             this.button_CreatePreview.BorderRadius = 4;
             this.button_CreatePreview.BorderThickness = 1F;
+            this.button_CreatePreview.ImagePadding = 5;
             resources.ApplyResources(this.button_CreatePreview, "button_CreatePreview");
             this.button_CreatePreview.Name = "button_CreatePreview";
             this.button_CreatePreview.UseVisualStyleBackColor = true;
@@ -2306,20 +2326,21 @@
             // 
             // 
             this.tabControl1.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl1.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.Transparent;
-            this.tabControl1.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(235)))));
+            this.tabControl1.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl1.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
             this.tabControl1.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl1.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(196)))), ((int)(((byte)(235)))));
-            this.tabControl1.DisplayStyleProvider.FocusTrack = true;
+            this.tabControl1.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl1.DisplayStyleProvider.FocusTrack = false;
             this.tabControl1.DisplayStyleProvider.HotTrack = false;
             this.tabControl1.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl1.DisplayStyleProvider.Opacity = 1F;
             this.tabControl1.DisplayStyleProvider.Overlap = 0;
             this.tabControl1.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl1.DisplayStyleProvider.Radius = 3;
             this.tabControl1.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl1.DisplayStyleProvider.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
-            this.tabControl1.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.DimGray;
-            this.tabControl1.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.tabControl1.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl1.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl1.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -2365,6 +2386,7 @@
             // userControl_Set12
             // 
             resources.ApplyResources(this.userControl_Set12, "userControl_Set12");
+            this.userControl_Set12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set12.Collapsed = true;
             this.userControl_Set12.Name = "userControl_Set12";
             this.userControl_Set12.SetNumber = 12;
@@ -2374,6 +2396,7 @@
             // userControl_Set11
             // 
             resources.ApplyResources(this.userControl_Set11, "userControl_Set11");
+            this.userControl_Set11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set11.Collapsed = true;
             this.userControl_Set11.Name = "userControl_Set11";
             this.userControl_Set11.SetNumber = 11;
@@ -2383,6 +2406,7 @@
             // userControl_Set10
             // 
             resources.ApplyResources(this.userControl_Set10, "userControl_Set10");
+            this.userControl_Set10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set10.Collapsed = true;
             this.userControl_Set10.Name = "userControl_Set10";
             this.userControl_Set10.SetNumber = 10;
@@ -2392,6 +2416,7 @@
             // userControl_Set9
             // 
             resources.ApplyResources(this.userControl_Set9, "userControl_Set9");
+            this.userControl_Set9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set9.Collapsed = true;
             this.userControl_Set9.Name = "userControl_Set9";
             this.userControl_Set9.SetNumber = 9;
@@ -2401,6 +2426,7 @@
             // userControl_Set8
             // 
             resources.ApplyResources(this.userControl_Set8, "userControl_Set8");
+            this.userControl_Set8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set8.Collapsed = true;
             this.userControl_Set8.Name = "userControl_Set8";
             this.userControl_Set8.SetNumber = 8;
@@ -2410,6 +2436,7 @@
             // userControl_Set7
             // 
             resources.ApplyResources(this.userControl_Set7, "userControl_Set7");
+            this.userControl_Set7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set7.Collapsed = true;
             this.userControl_Set7.Name = "userControl_Set7";
             this.userControl_Set7.SetNumber = 7;
@@ -2419,6 +2446,7 @@
             // userControl_Set6
             // 
             resources.ApplyResources(this.userControl_Set6, "userControl_Set6");
+            this.userControl_Set6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set6.Collapsed = true;
             this.userControl_Set6.Name = "userControl_Set6";
             this.userControl_Set6.SetNumber = 6;
@@ -2428,6 +2456,7 @@
             // userControl_Set5
             // 
             resources.ApplyResources(this.userControl_Set5, "userControl_Set5");
+            this.userControl_Set5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set5.Collapsed = true;
             this.userControl_Set5.Name = "userControl_Set5";
             this.userControl_Set5.SetNumber = 5;
@@ -2437,6 +2466,7 @@
             // userControl_Set4
             // 
             resources.ApplyResources(this.userControl_Set4, "userControl_Set4");
+            this.userControl_Set4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set4.Collapsed = true;
             this.userControl_Set4.Name = "userControl_Set4";
             this.userControl_Set4.SetNumber = 4;
@@ -2446,6 +2476,7 @@
             // userControl_Set3
             // 
             resources.ApplyResources(this.userControl_Set3, "userControl_Set3");
+            this.userControl_Set3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set3.Collapsed = true;
             this.userControl_Set3.Name = "userControl_Set3";
             this.userControl_Set3.SetNumber = 3;
@@ -2455,6 +2486,7 @@
             // userControl_Set2
             // 
             resources.ApplyResources(this.userControl_Set2, "userControl_Set2");
+            this.userControl_Set2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set2.Collapsed = true;
             this.userControl_Set2.Name = "userControl_Set2";
             this.userControl_Set2.SetNumber = 2;
@@ -2464,6 +2496,7 @@
             // userControl_Set1
             // 
             resources.ApplyResources(this.userControl_Set1, "userControl_Set1");
+            this.userControl_Set1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set1.Collapsed = true;
             this.userControl_Set1.Name = "userControl_Set1";
             this.userControl_Set1.SetNumber = 1;
@@ -2483,6 +2516,7 @@
             this.button_JsonPreview_Random.BorderColor = System.Drawing.Color.DimGray;
             this.button_JsonPreview_Random.BorderRadius = 4;
             this.button_JsonPreview_Random.BorderThickness = 1F;
+            this.button_JsonPreview_Random.ImagePadding = 5;
             resources.ApplyResources(this.button_JsonPreview_Random, "button_JsonPreview_Random");
             this.button_JsonPreview_Random.Name = "button_JsonPreview_Random";
             this.button_JsonPreview_Random.UseVisualStyleBackColor = true;
@@ -2493,6 +2527,7 @@
             this.button_JsonPreview_Read.BorderColor = System.Drawing.Color.DimGray;
             this.button_JsonPreview_Read.BorderRadius = 4;
             this.button_JsonPreview_Read.BorderThickness = 1F;
+            this.button_JsonPreview_Read.ImagePadding = 5;
             resources.ApplyResources(this.button_JsonPreview_Read, "button_JsonPreview_Read");
             this.button_JsonPreview_Read.Name = "button_JsonPreview_Read";
             this.button_JsonPreview_Read.UseVisualStyleBackColor = true;
@@ -2503,6 +2538,7 @@
             this.button_JsonPreview_Write.BorderColor = System.Drawing.Color.DimGray;
             this.button_JsonPreview_Write.BorderRadius = 4;
             this.button_JsonPreview_Write.BorderThickness = 1F;
+            this.button_JsonPreview_Write.ImagePadding = 5;
             resources.ApplyResources(this.button_JsonPreview_Write, "button_JsonPreview_Write");
             this.button_JsonPreview_Write.Name = "button_JsonPreview_Write";
             this.button_JsonPreview_Write.UseVisualStyleBackColor = true;
@@ -2530,7 +2566,16 @@
             this.NameFile,
             this.ColumnImage,
             this.Column1});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_ImagesList.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView_ImagesList.EnableHeadersVisualStyles = false;
+            this.dataGridView_ImagesList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
             resources.ApplyResources(this.dataGridView_ImagesList, "dataGridView_ImagesList");
             this.dataGridView_ImagesList.Name = "dataGridView_ImagesList";
             this.dataGridView_ImagesList.RowHeadersVisible = false;
@@ -2575,6 +2620,7 @@
             this.button_images.BorderColor = System.Drawing.Color.DimGray;
             this.button_images.BorderRadius = 4;
             this.button_images.BorderThickness = 1F;
+            this.button_images.ImagePadding = 5;
             resources.ApplyResources(this.button_images, "button_images");
             this.button_images.Name = "button_images";
             this.button_images.UseVisualStyleBackColor = true;
@@ -2590,6 +2636,7 @@
             this.button_JSON.BorderColor = System.Drawing.Color.DimGray;
             this.button_JSON.BorderRadius = 4;
             this.button_JSON.BorderThickness = 1F;
+            this.button_JSON.ImagePadding = 5;
             resources.ApplyResources(this.button_JSON, "button_JSON");
             this.button_JSON.Name = "button_JSON";
             this.button_JSON.UseVisualStyleBackColor = true;
@@ -2602,7 +2649,7 @@
             // 
             // tabPage_Edit
             // 
-            this.tabPage_Edit.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Edit.Controls.Add(this.splitContainer_EditParameters);
             this.tabPage_Edit.Controls.Add(this.panel6);
             this.tabPage_Edit.Controls.Add(this.panel5);
@@ -2635,21 +2682,22 @@
             // 
             // 
             // 
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_EditParameters.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_EditParameters.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_EditParameters.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_EditParameters.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_EditParameters.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_EditParameters.DisplayStyleProvider.HotTrack = false;
             this.tabControl_EditParameters.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_EditParameters.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_EditParameters.DisplayStyleProvider.Overlap = 0;
             this.tabControl_EditParameters.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_EditParameters.DisplayStyleProvider.Radius = 3;
             this.tabControl_EditParameters.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
-            this.tabControl_EditParameters.HotTrack = true;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_EditParameters.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             this.tabControl_EditParameters.ImageList = this.imageList1;
             this.tabControl_EditParameters.Multiline = true;
             this.tabControl_EditParameters.Name = "tabControl_EditParameters";
@@ -2658,7 +2706,7 @@
             // 
             // tabPage_Background
             // 
-            this.tabPage_Background.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Background.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Background.Controls.Add(this.button_GenerateID);
             this.tabPage_Background.Controls.Add(this.textBox_WatchfaceID);
             this.tabPage_Background.Controls.Add(this.checkBox_UseID);
@@ -2677,6 +2725,7 @@
             this.button_GenerateID.BorderRadius = 4;
             this.button_GenerateID.BorderThickness = 1F;
             resources.ApplyResources(this.button_GenerateID, "button_GenerateID");
+            this.button_GenerateID.ImagePadding = 5;
             this.button_GenerateID.Name = "button_GenerateID";
             this.button_GenerateID.UseVisualStyleBackColor = true;
             this.button_GenerateID.Click += new System.EventHandler(this.button_GenerateID_Click);
@@ -2754,7 +2803,7 @@
             // tabPage_Time
             // 
             resources.ApplyResources(this.tabPage_Time, "tabPage_Time");
-            this.tabPage_Time.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Time.Controls.Add(this.tabControl_time);
             this.tabPage_Time.Name = "tabPage_Time";
             // 
@@ -2766,20 +2815,22 @@
             // 
             // 
             // 
-            this.tabControl_time.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_time.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_time.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_time.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_time.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_time.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_time.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_time.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_time.DisplayStyleProvider.HotTrack = false;
             this.tabControl_time.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_time.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_time.DisplayStyleProvider.Overlap = 0;
             this.tabControl_time.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_time.DisplayStyleProvider.Radius = 3;
             this.tabControl_time.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_time.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_time.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_time.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_time.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_time.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_time, "tabControl_time");
             this.tabControl_time.Name = "tabControl_time";
             this.tabControl_time.SelectedIndex = 0;
@@ -2787,7 +2838,7 @@
             // tabPage_Digital_time
             // 
             resources.ApplyResources(this.tabPage_Digital_time, "tabPage_Digital_time");
-            this.tabPage_Digital_time.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Digital_time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Digital_time.Controls.Add(this.panel_AM_PM);
             this.tabPage_Digital_time.Controls.Add(this.userControl_SystemFont_GroupTime);
             this.tabPage_Digital_time.Controls.Add(this.panel_Second);
@@ -2800,7 +2851,7 @@
             // 
             // panel_AM_PM
             // 
-            this.panel_AM_PM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_AM_PM.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_AM_PM.Controls.Add(this.checkBox_12h_Use);
             this.panel_AM_PM.Controls.Add(this.numericUpDown_AM_Y);
             this.panel_AM_PM.Controls.Add(this.label573);
@@ -2969,10 +3020,12 @@
             // 
             this.userControl_SystemFont_GroupTime.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupTime, "userControl_SystemFont_GroupTime");
+            this.userControl_SystemFont_GroupTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupTime.Collapsed = true;
             this.userControl_SystemFont_GroupTime.Follow = false;
             this.userControl_SystemFont_GroupTime.FollowMax = true;
             this.userControl_SystemFont_GroupTime.FollowMin = true;
+            this.userControl_SystemFont_GroupTime.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupTime.Name = "userControl_SystemFont_GroupTime";
             this.userControl_SystemFont_GroupTime.Padding_zero = true;
             this.userControl_SystemFont_GroupTime.Separator = true;
@@ -2983,7 +3036,7 @@
             // 
             // panel_Second
             // 
-            this.panel_Second.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Second.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Second.Controls.Add(this.numericUpDown_Second_spacing);
             this.panel_Second.Controls.Add(this.label534);
             this.panel_Second.Controls.Add(this.checkBox_Second_add_zero);
@@ -3204,31 +3257,6 @@
             this.comboBox_Second_alignment.Name = "comboBox_Second_alignment";
             this.comboBox_Second_alignment.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.splitContainer1, "splitContainer1");
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.richTextBox_JsonText);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.treeView_JsonTree);
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
-            // 
-            // richTextBox_JsonText
-            // 
-            resources.ApplyResources(this.richTextBox_JsonText, "richTextBox_JsonText");
-            this.richTextBox_JsonText.Name = "richTextBox_JsonText";
-            // 
-            // treeView_JsonTree
-            // 
-            resources.ApplyResources(this.treeView_JsonTree, "treeView_JsonTree");
-            this.treeView_JsonTree.Name = "treeView_JsonTree";
-            // 
             // label530
             // 
             resources.ApplyResources(this.label530, "label530");
@@ -3258,12 +3286,13 @@
             this.button_Second.BorderRadius = 4;
             this.button_Second.BorderThickness = 1F;
             resources.ApplyResources(this.button_Second, "button_Second");
+            this.button_Second.ImagePadding = 5;
             this.button_Second.Name = "button_Second";
             this.button_Second.Click += new System.EventHandler(this.button_Second_Click);
             // 
             // panel_Minute
             // 
-            this.panel_Minute.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Minute.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute.Controls.Add(this.numericUpDown_Minute_spacing);
             this.panel_Minute.Controls.Add(this.label533);
             this.panel_Minute.Controls.Add(this.checkBox_Minute_add_zero);
@@ -3513,12 +3542,13 @@
             this.button_Minute.BorderRadius = 4;
             this.button_Minute.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute, "button_Minute");
+            this.button_Minute.ImagePadding = 5;
             this.button_Minute.Name = "button_Minute";
             this.button_Minute.Click += new System.EventHandler(this.button_Minute_Click);
             // 
             // panel_Hour
             // 
-            this.panel_Hour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Hour.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour.Controls.Add(this.numericUpDown_Hour_spacing);
             this.panel_Hour.Controls.Add(this.label532);
             this.panel_Hour.Controls.Add(this.checkBox_Hour_add_zero);
@@ -3759,13 +3789,14 @@
             this.button_Hour.BorderRadius = 4;
             this.button_Hour.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour, "button_Hour");
+            this.button_Hour.ImagePadding = 5;
             this.button_Hour.Name = "button_Hour";
             this.button_Hour.Click += new System.EventHandler(this.button_Hour_Click);
             // 
             // tabPage_Analog_time
             // 
             resources.ApplyResources(this.tabPage_Analog_time, "tabPage_Analog_time");
-            this.tabPage_Analog_time.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Analog_time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Analog_time.Controls.Add(this.panel_Second_hand);
             this.tabPage_Analog_time.Controls.Add(this.button_Second_hand);
             this.tabPage_Analog_time.Controls.Add(this.panel_Minute_hand);
@@ -3776,7 +3807,7 @@
             // 
             // panel_Second_hand
             // 
-            this.panel_Second_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Second_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Second_hand.Controls.Add(this.label557);
             this.panel_Second_hand.Controls.Add(this.label558);
             this.panel_Second_hand.Controls.Add(this.label559);
@@ -3999,13 +4030,14 @@
             this.button_Second_hand.BorderRadius = 4;
             this.button_Second_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Second_hand, "button_Second_hand");
+            this.button_Second_hand.ImagePadding = 5;
             this.button_Second_hand.Name = "button_Second_hand";
             this.button_Second_hand.UseVisualStyleBackColor = true;
             this.button_Second_hand.Click += new System.EventHandler(this.button_Second_hand_Click);
             // 
             // panel_Minute_hand
             // 
-            this.panel_Minute_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Minute_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_hand.Controls.Add(this.label546);
             this.panel_Minute_hand.Controls.Add(this.label547);
             this.panel_Minute_hand.Controls.Add(this.label548);
@@ -4228,13 +4260,14 @@
             this.button_Minute_hand.BorderRadius = 4;
             this.button_Minute_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_hand, "button_Minute_hand");
+            this.button_Minute_hand.ImagePadding = 5;
             this.button_Minute_hand.Name = "button_Minute_hand";
             this.button_Minute_hand.UseVisualStyleBackColor = true;
             this.button_Minute_hand.Click += new System.EventHandler(this.button_Minute_hand_Click);
             // 
             // panel_Hour_hand
             // 
-            this.panel_Hour_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Hour_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_hand.Controls.Add(this.label543);
             this.panel_Hour_hand.Controls.Add(this.label544);
             this.panel_Hour_hand.Controls.Add(this.label545);
@@ -4457,13 +4490,14 @@
             this.button_Hour_hand.BorderRadius = 4;
             this.button_Hour_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_hand, "button_Hour_hand");
+            this.button_Hour_hand.ImagePadding = 5;
             this.button_Hour_hand.Name = "button_Hour_hand";
             this.button_Hour_hand.UseVisualStyleBackColor = true;
             this.button_Hour_hand.Click += new System.EventHandler(this.button_Hour_hand_Click);
             // 
             // tabPage_Date
             // 
-            this.tabPage_Date.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Date.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Date.Controls.Add(this.tabControl_date);
             resources.ApplyResources(this.tabPage_Date, "tabPage_Date");
             this.tabPage_Date.Name = "tabPage_Date";
@@ -4478,20 +4512,22 @@
             // 
             // 
             // 
-            this.tabControl_date.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_date.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_date.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_date.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_date.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_date.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_date.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_date.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_date.DisplayStyleProvider.HotTrack = false;
             this.tabControl_date.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_date.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_date.DisplayStyleProvider.Overlap = 0;
             this.tabControl_date.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_date.DisplayStyleProvider.Radius = 3;
             this.tabControl_date.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_date.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_date.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_date.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_date.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_date.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_date, "tabControl_date");
             this.tabControl_date.Name = "tabControl_date";
             this.tabControl_date.SelectedIndex = 0;
@@ -4499,7 +4535,7 @@
             // tabPage_Day
             // 
             resources.ApplyResources(this.tabPage_Day, "tabPage_Day");
-            this.tabPage_Day.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Day.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day.Controls.Add(this.userControl_SystemFont_Group_Day);
             this.tabPage_Day.Controls.Add(this.panel_Day_hand);
             this.tabPage_Day.Controls.Add(this.button_Day_hand);
@@ -4511,9 +4547,11 @@
             // 
             this.userControl_SystemFont_Group_Day.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Day, "userControl_SystemFont_Group_Day");
+            this.userControl_SystemFont_Group_Day.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Day.Collapsed = true;
             this.userControl_SystemFont_Group_Day.Follow = true;
             this.userControl_SystemFont_Group_Day.FollowGoal = false;
+            this.userControl_SystemFont_Group_Day.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Day.Name = "userControl_SystemFont_Group_Day";
             this.userControl_SystemFont_Group_Day.Padding_zero = true;
             this.userControl_SystemFont_Group_Day.Separator = true;
@@ -4523,7 +4561,7 @@
             // 
             // panel_Day_hand
             // 
-            this.panel_Day_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Day_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_hand.Controls.Add(this.numericUpDown_Day_handX_background);
             this.panel_Day_hand.Controls.Add(this.numericUpDown_Day_handY_background);
             this.panel_Day_hand.Controls.Add(this.comboBox_Day_hand_imageBackground);
@@ -4873,13 +4911,14 @@
             this.button_Day_hand.BorderRadius = 4;
             this.button_Day_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_hand, "button_Day_hand");
+            this.button_Day_hand.ImagePadding = 5;
             this.button_Day_hand.Name = "button_Day_hand";
             this.button_Day_hand.UseVisualStyleBackColor = true;
             this.button_Day_hand.Click += new System.EventHandler(this.button_Day_hand_Click);
             // 
             // panel_Day_text
             // 
-            this.panel_Day_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Day_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_text.Controls.Add(this.checkBox_Day_Use);
             this.panel_Day_text.Controls.Add(this.numericUpDown_Day_spacing);
             this.panel_Day_text.Controls.Add(this.comboBox_Day_separator);
@@ -5129,6 +5168,7 @@
             this.button_Day_text.BorderRadius = 4;
             this.button_Day_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_text, "button_Day_text");
+            this.button_Day_text.ImagePadding = 5;
             this.button_Day_text.Name = "button_Day_text";
             this.button_Day_text.UseVisualStyleBackColor = true;
             this.button_Day_text.Click += new System.EventHandler(this.button_Day_text_Click);
@@ -5136,7 +5176,7 @@
             // tabPage_Month
             // 
             resources.ApplyResources(this.tabPage_Month, "tabPage_Month");
-            this.tabPage_Month.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Month.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Month.Controls.Add(this.userControl_SystemFont_Group_Month);
             this.tabPage_Month.Controls.Add(this.panel_Month_hand);
             this.tabPage_Month.Controls.Add(this.button_Month_hand);
@@ -5150,9 +5190,11 @@
             // 
             this.userControl_SystemFont_Group_Month.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Month, "userControl_SystemFont_Group_Month");
+            this.userControl_SystemFont_Group_Month.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Month.Collapsed = true;
             this.userControl_SystemFont_Group_Month.Follow = true;
             this.userControl_SystemFont_Group_Month.FollowGoal = false;
+            this.userControl_SystemFont_Group_Month.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Month.Name = "userControl_SystemFont_Group_Month";
             this.userControl_SystemFont_Group_Month.Padding_zero = true;
             this.userControl_SystemFont_Group_Month.Separator = true;
@@ -5162,7 +5204,7 @@
             // 
             // panel_Month_hand
             // 
-            this.panel_Month_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_hand.Controls.Add(this.numericUpDown_Month_handX_background);
             this.panel_Month_hand.Controls.Add(this.numericUpDown_Month_handY_background);
             this.panel_Month_hand.Controls.Add(this.comboBox_Month_hand_imageBackground);
@@ -5517,13 +5559,14 @@
             this.button_Month_hand.BorderRadius = 4;
             this.button_Month_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_hand, "button_Month_hand");
+            this.button_Month_hand.ImagePadding = 5;
             this.button_Month_hand.Name = "button_Month_hand";
             this.button_Month_hand.UseVisualStyleBackColor = true;
             this.button_Month_hand.Click += new System.EventHandler(this.button_Month_hand_Click);
             // 
             // panel_Month_text
             // 
-            this.panel_Month_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_text.Controls.Add(this.checkBox_Month_Use);
             this.panel_Month_text.Controls.Add(this.numericUpDown_Month_spacing);
             this.panel_Month_text.Controls.Add(this.comboBox_Month_separator);
@@ -5773,13 +5816,14 @@
             this.button_Month_text.BorderRadius = 4;
             this.button_Month_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_text, "button_Month_text");
+            this.button_Month_text.ImagePadding = 5;
             this.button_Month_text.Name = "button_Month_text";
             this.button_Month_text.UseVisualStyleBackColor = true;
             this.button_Month_text.Click += new System.EventHandler(this.button_Month_text_Click);
             // 
             // panel_Month_pictures
             // 
-            this.panel_Month_pictures.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_pictures.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_pictures.Controls.Add(this.label613);
             this.panel_Month_pictures.Controls.Add(this.checkBox_Month_pictures_Use);
             this.panel_Month_pictures.Controls.Add(this.label614);
@@ -5874,6 +5918,7 @@
             this.button_Month_pictures.BorderRadius = 4;
             this.button_Month_pictures.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_pictures, "button_Month_pictures");
+            this.button_Month_pictures.ImagePadding = 5;
             this.button_Month_pictures.Name = "button_Month_pictures";
             this.button_Month_pictures.UseVisualStyleBackColor = true;
             this.button_Month_pictures.Click += new System.EventHandler(this.button_Month_image_Click);
@@ -5881,7 +5926,7 @@
             // tabPage_Year
             // 
             resources.ApplyResources(this.tabPage_Year, "tabPage_Year");
-            this.tabPage_Year.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Year.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Year.Controls.Add(this.userControl_SystemFont_Group_Year);
             this.tabPage_Year.Controls.Add(this.panel_Year_hand);
             this.tabPage_Year.Controls.Add(this.button_Year_hand);
@@ -5893,9 +5938,11 @@
             // 
             this.userControl_SystemFont_Group_Year.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Year, "userControl_SystemFont_Group_Year");
+            this.userControl_SystemFont_Group_Year.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Year.Collapsed = true;
             this.userControl_SystemFont_Group_Year.Follow = true;
             this.userControl_SystemFont_Group_Year.FollowGoal = false;
+            this.userControl_SystemFont_Group_Year.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Year.Name = "userControl_SystemFont_Group_Year";
             this.userControl_SystemFont_Group_Year.Padding_zero = true;
             this.userControl_SystemFont_Group_Year.Separator = true;
@@ -5905,7 +5952,8 @@
             // 
             // panel_Year_hand
             // 
-            this.panel_Year_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Year_hand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.panel_Year_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.panel_Year_hand, "panel_Year_hand");
             this.panel_Year_hand.Name = "panel_Year_hand";
             // 
@@ -5915,12 +5963,13 @@
             this.button_Year_hand.BorderRadius = 4;
             this.button_Year_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_hand, "button_Year_hand");
+            this.button_Year_hand.ImagePadding = 5;
             this.button_Year_hand.Name = "button_Year_hand";
             this.button_Year_hand.UseVisualStyleBackColor = true;
             // 
             // panel_Year_text
             // 
-            this.panel_Year_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Year_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Year_text.Controls.Add(this.checkBox_Year_follow);
             this.panel_Year_text.Controls.Add(this.checkBox_Year_text_Use);
             this.panel_Year_text.Controls.Add(this.numericUpDown_Year_spacing);
@@ -6168,13 +6217,14 @@
             this.button_Year_text.BorderRadius = 4;
             this.button_Year_text.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_text, "button_Year_text");
+            this.button_Year_text.ImagePadding = 5;
             this.button_Year_text.Name = "button_Year_text";
             this.button_Year_text.UseVisualStyleBackColor = true;
             // 
             // tabPage_Day_of_week
             // 
             resources.ApplyResources(this.tabPage_Day_of_week, "tabPage_Day_of_week");
-            this.tabPage_Day_of_week.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Day_of_week.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_of_week.Controls.Add(this.panel_DOW_hand);
             this.tabPage_Day_of_week.Controls.Add(this.button_DOW_hand);
             this.tabPage_Day_of_week.Controls.Add(this.panel_DOW_image);
@@ -6183,7 +6233,7 @@
             // 
             // panel_DOW_hand
             // 
-            this.panel_DOW_hand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_DOW_hand.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_hand.Controls.Add(this.numericUpDown_DOW_handX_background);
             this.panel_DOW_hand.Controls.Add(this.numericUpDown_DOW_handY_background);
             this.panel_DOW_hand.Controls.Add(this.comboBox_DOW_hand_imageBackground);
@@ -6533,13 +6583,14 @@
             this.button_DOW_hand.BorderRadius = 4;
             this.button_DOW_hand.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_hand, "button_DOW_hand");
+            this.button_DOW_hand.ImagePadding = 5;
             this.button_DOW_hand.Name = "button_DOW_hand";
             this.button_DOW_hand.UseVisualStyleBackColor = true;
             this.button_DOW_hand.Click += new System.EventHandler(this.button_DOW_hand_Click);
             // 
             // panel_DOW_image
             // 
-            this.panel_DOW_image.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_DOW_image.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_image.Controls.Add(this.checkBox_DOW_pictures_Use);
             this.panel_DOW_image.Controls.Add(this.comboBox_DOW_pictures_image);
             this.panel_DOW_image.Controls.Add(this.numericUpDown_DOW_picturesY);
@@ -6634,13 +6685,14 @@
             this.button_DOW_image.BorderRadius = 4;
             this.button_DOW_image.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_image, "button_DOW_image");
+            this.button_DOW_image.ImagePadding = 5;
             this.button_DOW_image.Name = "button_DOW_image";
             this.button_DOW_image.UseVisualStyleBackColor = true;
             this.button_DOW_image.Click += new System.EventHandler(this.button_DOW_image_Click);
             // 
             // tabPage_Activity
             // 
-            this.tabPage_Activity.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Activity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Activity.Controls.Add(this.tabControl_SystemActivity);
             resources.ApplyResources(this.tabPage_Activity, "tabPage_Activity");
             this.tabPage_Activity.Name = "tabPage_Activity";
@@ -6660,20 +6712,22 @@
             // 
             // 
             // 
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_SystemActivity.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_SystemActivity.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_SystemActivity.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_SystemActivity.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_SystemActivity.DisplayStyleProvider.HotTrack = false;
             this.tabControl_SystemActivity.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_SystemActivity.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_SystemActivity.DisplayStyleProvider.Overlap = 0;
             this.tabControl_SystemActivity.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemActivity.DisplayStyleProvider.Radius = 3;
             this.tabControl_SystemActivity.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_SystemActivity, "tabControl_SystemActivity");
             this.tabControl_SystemActivity.Name = "tabControl_SystemActivity";
             this.tabControl_SystemActivity.SelectedIndex = 0;
@@ -6681,7 +6735,7 @@
             // tabPage_Steps
             // 
             resources.ApplyResources(this.tabPage_Steps, "tabPage_Steps");
-            this.tabPage_Steps.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Steps.Controls.Add(this.userControl_icon_Steps);
             this.tabPage_Steps.Controls.Add(this.userControl_SystemFont_Group_Steps);
             this.tabPage_Steps.Controls.Add(this.userControl_scaleLinear_Steps);
@@ -6697,7 +6751,9 @@
             // 
             this.userControl_icon_Steps.AOD = false;
             resources.ApplyResources(this.userControl_icon_Steps, "userControl_icon_Steps");
+            this.userControl_icon_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Steps.Collapsed = true;
+            this.userControl_icon_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Steps.Image2 = false;
             this.userControl_icon_Steps.Name = "userControl_icon_Steps";
             this.userControl_icon_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6706,9 +6762,11 @@
             // 
             this.userControl_SystemFont_Group_Steps.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Steps, "userControl_SystemFont_Group_Steps");
+            this.userControl_SystemFont_Group_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Steps.Collapsed = true;
             this.userControl_SystemFont_Group_Steps.Follow = false;
             this.userControl_SystemFont_Group_Steps.FollowGoal = true;
+            this.userControl_SystemFont_Group_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Steps.Name = "userControl_SystemFont_Group_Steps";
             this.userControl_SystemFont_Group_Steps.Padding_zero = true;
             this.userControl_SystemFont_Group_Steps.Separator = true;
@@ -6720,6 +6778,7 @@
             // 
             this.userControl_scaleLinear_Steps.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Steps, "userControl_scaleLinear_Steps");
+            this.userControl_scaleLinear_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Steps.Collapsed = true;
             this.userControl_scaleLinear_Steps.Name = "userControl_scaleLinear_Steps";
             this.userControl_scaleLinear_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6728,7 +6787,9 @@
             // 
             this.userControl_scaleCircle_Steps.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Steps, "userControl_scaleCircle_Steps");
+            this.userControl_scaleCircle_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Steps.Collapsed = true;
+            this.userControl_scaleCircle_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Steps.Name = "userControl_scaleCircle_Steps";
             this.userControl_scaleCircle_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6736,7 +6797,9 @@
             // 
             this.userControl_hand_Steps.AOD = false;
             resources.ApplyResources(this.userControl_hand_Steps, "userControl_hand_Steps");
+            this.userControl_hand_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Steps.Collapsed = true;
+            this.userControl_hand_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Steps.Name = "userControl_hand_Steps";
             this.userControl_hand_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6744,9 +6807,11 @@
             // 
             this.userControl_text_goal_Steps.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_Steps, "userControl_text_goal_Steps");
+            this.userControl_text_goal_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_Steps.Collapsed = true;
             this.userControl_text_goal_Steps.Distance = false;
             this.userControl_text_goal_Steps.Follow = true;
+            this.userControl_text_goal_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_Steps.ImageError = true;
             this.userControl_text_goal_Steps.Name = "userControl_text_goal_Steps";
             this.userControl_text_goal_Steps.OptionalSymbol = false;
@@ -6757,9 +6822,11 @@
             // 
             this.userControl_text_Steps.AOD = false;
             resources.ApplyResources(this.userControl_text_Steps, "userControl_text_Steps");
+            this.userControl_text_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Steps.Collapsed = true;
             this.userControl_text_Steps.Distance = false;
             this.userControl_text_Steps.Follow = false;
+            this.userControl_text_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Steps.ImageError = true;
             this.userControl_text_Steps.Name = "userControl_text_Steps";
             this.userControl_text_Steps.OptionalSymbol = false;
@@ -6770,8 +6837,10 @@
             // 
             this.userControl_segments_Steps.AOD = false;
             resources.ApplyResources(this.userControl_segments_Steps, "userControl_segments_Steps");
+            this.userControl_segments_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Steps.Collapsed = true;
             this.userControl_segments_Steps.FixedRowsCount = false;
+            this.userControl_segments_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Steps.ImagesCount = -1;
             this.userControl_segments_Steps.Name = "userControl_segments_Steps";
             this.userControl_segments_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6780,7 +6849,9 @@
             // 
             this.userControl_pictures_Steps.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Steps, "userControl_pictures_Steps");
+            this.userControl_pictures_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Steps.Collapsed = true;
+            this.userControl_pictures_Steps.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Steps.ImagesCount = 10;
             this.userControl_pictures_Steps.Name = "userControl_pictures_Steps";
             this.userControl_pictures_Steps.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6788,7 +6859,7 @@
             // tabPage_Calories
             // 
             resources.ApplyResources(this.tabPage_Calories, "tabPage_Calories");
-            this.tabPage_Calories.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Calories.Controls.Add(this.userControl_icon_Calories);
             this.tabPage_Calories.Controls.Add(this.userControl_SystemFont_Group_Calories);
             this.tabPage_Calories.Controls.Add(this.userControl_scaleLinear_Calories);
@@ -6804,7 +6875,9 @@
             // 
             this.userControl_icon_Calories.AOD = false;
             resources.ApplyResources(this.userControl_icon_Calories, "userControl_icon_Calories");
+            this.userControl_icon_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Calories.Collapsed = true;
+            this.userControl_icon_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Calories.Image2 = false;
             this.userControl_icon_Calories.Name = "userControl_icon_Calories";
             this.userControl_icon_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6813,9 +6886,11 @@
             // 
             this.userControl_SystemFont_Group_Calories.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Calories, "userControl_SystemFont_Group_Calories");
+            this.userControl_SystemFont_Group_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Calories.Collapsed = true;
             this.userControl_SystemFont_Group_Calories.Follow = false;
             this.userControl_SystemFont_Group_Calories.FollowGoal = true;
+            this.userControl_SystemFont_Group_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Calories.Name = "userControl_SystemFont_Group_Calories";
             this.userControl_SystemFont_Group_Calories.Padding_zero = true;
             this.userControl_SystemFont_Group_Calories.Separator = true;
@@ -6827,6 +6902,7 @@
             // 
             this.userControl_scaleLinear_Calories.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Calories, "userControl_scaleLinear_Calories");
+            this.userControl_scaleLinear_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Calories.Collapsed = true;
             this.userControl_scaleLinear_Calories.Name = "userControl_scaleLinear_Calories";
             this.userControl_scaleLinear_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6835,7 +6911,9 @@
             // 
             this.userControl_scaleCircle_Calories.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Calories, "userControl_scaleCircle_Calories");
+            this.userControl_scaleCircle_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Calories.Collapsed = true;
+            this.userControl_scaleCircle_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Calories.Name = "userControl_scaleCircle_Calories";
             this.userControl_scaleCircle_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6843,7 +6921,9 @@
             // 
             this.userControl_hand_Calories.AOD = false;
             resources.ApplyResources(this.userControl_hand_Calories, "userControl_hand_Calories");
+            this.userControl_hand_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Calories.Collapsed = true;
+            this.userControl_hand_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Calories.Name = "userControl_hand_Calories";
             this.userControl_hand_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6851,9 +6931,11 @@
             // 
             this.userControl_text_goal_Calories.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_Calories, "userControl_text_goal_Calories");
+            this.userControl_text_goal_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_Calories.Collapsed = true;
             this.userControl_text_goal_Calories.Distance = false;
             this.userControl_text_goal_Calories.Follow = true;
+            this.userControl_text_goal_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_Calories.ImageError = true;
             this.userControl_text_goal_Calories.Name = "userControl_text_goal_Calories";
             this.userControl_text_goal_Calories.OptionalSymbol = false;
@@ -6863,9 +6945,11 @@
             // 
             this.userControl_text_Calories.AOD = false;
             resources.ApplyResources(this.userControl_text_Calories, "userControl_text_Calories");
+            this.userControl_text_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Calories.Collapsed = true;
             this.userControl_text_Calories.Distance = false;
             this.userControl_text_Calories.Follow = false;
+            this.userControl_text_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Calories.ImageError = true;
             this.userControl_text_Calories.Name = "userControl_text_Calories";
             this.userControl_text_Calories.OptionalSymbol = false;
@@ -6876,8 +6960,10 @@
             // 
             this.userControl_segments_Calories.AOD = false;
             resources.ApplyResources(this.userControl_segments_Calories, "userControl_segments_Calories");
+            this.userControl_segments_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Calories.Collapsed = true;
             this.userControl_segments_Calories.FixedRowsCount = false;
+            this.userControl_segments_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Calories.ImagesCount = -1;
             this.userControl_segments_Calories.Name = "userControl_segments_Calories";
             this.userControl_segments_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6886,7 +6972,9 @@
             // 
             this.userControl_pictures_Calories.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Calories, "userControl_pictures_Calories");
+            this.userControl_pictures_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Calories.Collapsed = true;
+            this.userControl_pictures_Calories.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Calories.ImagesCount = 10;
             this.userControl_pictures_Calories.Name = "userControl_pictures_Calories";
             this.userControl_pictures_Calories.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6894,7 +6982,7 @@
             // tabPage_HeartRate
             // 
             resources.ApplyResources(this.tabPage_HeartRate, "tabPage_HeartRate");
-            this.tabPage_HeartRate.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_HeartRate.Controls.Add(this.userControl_icon_HeartRate);
             this.tabPage_HeartRate.Controls.Add(this.userControl_SystemFont_Group_HeartRate);
             this.tabPage_HeartRate.Controls.Add(this.userControl_scaleLinear_HeartRate);
@@ -6909,7 +6997,9 @@
             // 
             this.userControl_icon_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_icon_HeartRate, "userControl_icon_HeartRate");
+            this.userControl_icon_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_HeartRate.Collapsed = true;
+            this.userControl_icon_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_HeartRate.Image2 = false;
             this.userControl_icon_HeartRate.Name = "userControl_icon_HeartRate";
             this.userControl_icon_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6918,9 +7008,11 @@
             // 
             this.userControl_SystemFont_Group_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_HeartRate, "userControl_SystemFont_Group_HeartRate");
+            this.userControl_SystemFont_Group_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_HeartRate.Collapsed = true;
             this.userControl_SystemFont_Group_HeartRate.Follow = false;
             this.userControl_SystemFont_Group_HeartRate.FollowGoal = false;
+            this.userControl_SystemFont_Group_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_HeartRate.Name = "userControl_SystemFont_Group_HeartRate";
             this.userControl_SystemFont_Group_HeartRate.Padding_zero = true;
             this.userControl_SystemFont_Group_HeartRate.Separator = true;
@@ -6932,6 +7024,7 @@
             // 
             this.userControl_scaleLinear_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_HeartRate, "userControl_scaleLinear_HeartRate");
+            this.userControl_scaleLinear_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_HeartRate.Collapsed = true;
             this.userControl_scaleLinear_HeartRate.Name = "userControl_scaleLinear_HeartRate";
             this.userControl_scaleLinear_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6940,7 +7033,9 @@
             // 
             this.userControl_scaleCircle_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_HeartRate, "userControl_scaleCircle_HeartRate");
+            this.userControl_scaleCircle_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_HeartRate.Collapsed = true;
+            this.userControl_scaleCircle_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_HeartRate.Name = "userControl_scaleCircle_HeartRate";
             this.userControl_scaleCircle_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6948,7 +7043,9 @@
             // 
             this.userControl_hand_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_hand_HeartRate, "userControl_hand_HeartRate");
+            this.userControl_hand_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_HeartRate.Collapsed = true;
+            this.userControl_hand_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_HeartRate.Name = "userControl_hand_HeartRate";
             this.userControl_hand_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -6956,9 +7053,11 @@
             // 
             this.userControl_text_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_text_HeartRate, "userControl_text_HeartRate");
+            this.userControl_text_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_HeartRate.Collapsed = true;
             this.userControl_text_HeartRate.Distance = false;
             this.userControl_text_HeartRate.Follow = false;
+            this.userControl_text_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_HeartRate.ImageError = true;
             this.userControl_text_HeartRate.Name = "userControl_text_HeartRate";
             this.userControl_text_HeartRate.OptionalSymbol = false;
@@ -6969,8 +7068,10 @@
             // 
             this.userControl_segments_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_segments_HeartRate, "userControl_segments_HeartRate");
+            this.userControl_segments_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_HeartRate.Collapsed = true;
             this.userControl_segments_HeartRate.FixedRowsCount = true;
+            this.userControl_segments_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_HeartRate.ImagesCount = 6;
             this.userControl_segments_HeartRate.Name = "userControl_segments_HeartRate";
             this.userControl_segments_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6979,7 +7080,9 @@
             // 
             this.userControl_pictures_HeartRate.AOD = false;
             resources.ApplyResources(this.userControl_pictures_HeartRate, "userControl_pictures_HeartRate");
+            this.userControl_pictures_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_HeartRate.Collapsed = true;
+            this.userControl_pictures_HeartRate.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_HeartRate.ImagesCount = 6;
             this.userControl_pictures_HeartRate.Name = "userControl_pictures_HeartRate";
             this.userControl_pictures_HeartRate.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -6987,7 +7090,7 @@
             // tabPage_PAI
             // 
             resources.ApplyResources(this.tabPage_PAI, "tabPage_PAI");
-            this.tabPage_PAI.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_PAI.Controls.Add(this.userControl_icon_PAI);
             this.tabPage_PAI.Controls.Add(this.userControl_SystemFont_Group_PAI);
             this.tabPage_PAI.Controls.Add(this.userControl_scaleLinear_PAI);
@@ -7002,7 +7105,9 @@
             // 
             this.userControl_icon_PAI.AOD = false;
             resources.ApplyResources(this.userControl_icon_PAI, "userControl_icon_PAI");
+            this.userControl_icon_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_PAI.Collapsed = true;
+            this.userControl_icon_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_PAI.Image2 = false;
             this.userControl_icon_PAI.Name = "userControl_icon_PAI";
             this.userControl_icon_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7011,9 +7116,11 @@
             // 
             this.userControl_SystemFont_Group_PAI.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_PAI, "userControl_SystemFont_Group_PAI");
+            this.userControl_SystemFont_Group_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_PAI.Collapsed = true;
             this.userControl_SystemFont_Group_PAI.Follow = false;
             this.userControl_SystemFont_Group_PAI.FollowGoal = false;
+            this.userControl_SystemFont_Group_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_PAI.Name = "userControl_SystemFont_Group_PAI";
             this.userControl_SystemFont_Group_PAI.Padding_zero = true;
             this.userControl_SystemFont_Group_PAI.Separator = true;
@@ -7025,6 +7132,7 @@
             // 
             this.userControl_scaleLinear_PAI.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_PAI, "userControl_scaleLinear_PAI");
+            this.userControl_scaleLinear_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_PAI.Collapsed = true;
             this.userControl_scaleLinear_PAI.Name = "userControl_scaleLinear_PAI";
             this.userControl_scaleLinear_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7033,7 +7141,9 @@
             // 
             this.userControl_scaleCircle_PAI.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_PAI, "userControl_scaleCircle_PAI");
+            this.userControl_scaleCircle_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_PAI.Collapsed = true;
+            this.userControl_scaleCircle_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_PAI.Name = "userControl_scaleCircle_PAI";
             this.userControl_scaleCircle_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7041,7 +7151,9 @@
             // 
             this.userControl_hand_PAI.AOD = false;
             resources.ApplyResources(this.userControl_hand_PAI, "userControl_hand_PAI");
+            this.userControl_hand_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_PAI.Collapsed = true;
+            this.userControl_hand_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_PAI.Name = "userControl_hand_PAI";
             this.userControl_hand_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7049,9 +7161,11 @@
             // 
             this.userControl_text_PAI.AOD = false;
             resources.ApplyResources(this.userControl_text_PAI, "userControl_text_PAI");
+            this.userControl_text_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_PAI.Collapsed = true;
             this.userControl_text_PAI.Distance = false;
             this.userControl_text_PAI.Follow = false;
+            this.userControl_text_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_PAI.ImageError = true;
             this.userControl_text_PAI.Name = "userControl_text_PAI";
             this.userControl_text_PAI.OptionalSymbol = false;
@@ -7062,8 +7176,10 @@
             // 
             this.userControl_segments_PAI.AOD = false;
             resources.ApplyResources(this.userControl_segments_PAI, "userControl_segments_PAI");
+            this.userControl_segments_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_PAI.Collapsed = true;
             this.userControl_segments_PAI.FixedRowsCount = false;
+            this.userControl_segments_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_PAI.ImagesCount = -1;
             this.userControl_segments_PAI.Name = "userControl_segments_PAI";
             this.userControl_segments_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7072,7 +7188,9 @@
             // 
             this.userControl_pictures_PAI.AOD = false;
             resources.ApplyResources(this.userControl_pictures_PAI, "userControl_pictures_PAI");
+            this.userControl_pictures_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_PAI.Collapsed = true;
+            this.userControl_pictures_PAI.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_PAI.ImagesCount = 10;
             this.userControl_pictures_PAI.Name = "userControl_pictures_PAI";
             this.userControl_pictures_PAI.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7080,7 +7198,7 @@
             // tabPage_Distance
             // 
             resources.ApplyResources(this.tabPage_Distance, "tabPage_Distance");
-            this.tabPage_Distance.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Distance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Distance.Controls.Add(this.userControl_icon_Distance);
             this.tabPage_Distance.Controls.Add(this.userControl_SystemFont_Group_Distance);
             this.tabPage_Distance.Controls.Add(this.userControl_text_Distance);
@@ -7090,7 +7208,9 @@
             // 
             this.userControl_icon_Distance.AOD = false;
             resources.ApplyResources(this.userControl_icon_Distance, "userControl_icon_Distance");
+            this.userControl_icon_Distance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Distance.Collapsed = true;
+            this.userControl_icon_Distance.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Distance.Image2 = false;
             this.userControl_icon_Distance.Name = "userControl_icon_Distance";
             this.userControl_icon_Distance.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7099,9 +7219,11 @@
             // 
             this.userControl_SystemFont_Group_Distance.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Distance, "userControl_SystemFont_Group_Distance");
+            this.userControl_SystemFont_Group_Distance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Distance.Collapsed = true;
             this.userControl_SystemFont_Group_Distance.Follow = false;
             this.userControl_SystemFont_Group_Distance.FollowGoal = false;
+            this.userControl_SystemFont_Group_Distance.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Distance.Name = "userControl_SystemFont_Group_Distance";
             this.userControl_SystemFont_Group_Distance.Padding_zero = true;
             this.userControl_SystemFont_Group_Distance.Separator = true;
@@ -7113,9 +7235,11 @@
             // 
             this.userControl_text_Distance.AOD = false;
             resources.ApplyResources(this.userControl_text_Distance, "userControl_text_Distance");
+            this.userControl_text_Distance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Distance.Collapsed = true;
             this.userControl_text_Distance.Distance = true;
             this.userControl_text_Distance.Follow = false;
+            this.userControl_text_Distance.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Distance.ImageError = true;
             this.userControl_text_Distance.Name = "userControl_text_Distance";
             this.userControl_text_Distance.OptionalSymbol = true;
@@ -7125,7 +7249,7 @@
             // tabPage_StandUp
             // 
             resources.ApplyResources(this.tabPage_StandUp, "tabPage_StandUp");
-            this.tabPage_StandUp.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_StandUp.Controls.Add(this.userControl_icon_StandUp);
             this.tabPage_StandUp.Controls.Add(this.userControl_SystemFont_Group_StandUp);
             this.tabPage_StandUp.Controls.Add(this.userControl_scaleLinear_StandUp);
@@ -7141,7 +7265,9 @@
             // 
             this.userControl_icon_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_icon_StandUp, "userControl_icon_StandUp");
+            this.userControl_icon_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_StandUp.Collapsed = true;
+            this.userControl_icon_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_StandUp.Image2 = false;
             this.userControl_icon_StandUp.Name = "userControl_icon_StandUp";
             this.userControl_icon_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7150,9 +7276,11 @@
             // 
             this.userControl_SystemFont_Group_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_StandUp, "userControl_SystemFont_Group_StandUp");
+            this.userControl_SystemFont_Group_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_StandUp.Collapsed = true;
             this.userControl_SystemFont_Group_StandUp.Follow = false;
             this.userControl_SystemFont_Group_StandUp.FollowGoal = true;
+            this.userControl_SystemFont_Group_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_StandUp.Name = "userControl_SystemFont_Group_StandUp";
             this.userControl_SystemFont_Group_StandUp.Padding_zero = true;
             this.userControl_SystemFont_Group_StandUp.Separator = true;
@@ -7164,6 +7292,7 @@
             // 
             this.userControl_scaleLinear_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_StandUp, "userControl_scaleLinear_StandUp");
+            this.userControl_scaleLinear_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_StandUp.Collapsed = true;
             this.userControl_scaleLinear_StandUp.Name = "userControl_scaleLinear_StandUp";
             this.userControl_scaleLinear_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7172,7 +7301,9 @@
             // 
             this.userControl_scaleCircle_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_StandUp, "userControl_scaleCircle_StandUp");
+            this.userControl_scaleCircle_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_StandUp.Collapsed = true;
+            this.userControl_scaleCircle_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_StandUp.Name = "userControl_scaleCircle_StandUp";
             this.userControl_scaleCircle_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7180,7 +7311,9 @@
             // 
             this.userControl_hand_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_hand_StandUp, "userControl_hand_StandUp");
+            this.userControl_hand_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_StandUp.Collapsed = true;
+            this.userControl_hand_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_StandUp.Name = "userControl_hand_StandUp";
             this.userControl_hand_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7188,9 +7321,11 @@
             // 
             this.userControl_text_goal_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_StandUp, "userControl_text_goal_StandUp");
+            this.userControl_text_goal_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_StandUp.Collapsed = true;
             this.userControl_text_goal_StandUp.Distance = false;
             this.userControl_text_goal_StandUp.Follow = true;
+            this.userControl_text_goal_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_StandUp.ImageError = true;
             this.userControl_text_goal_StandUp.Name = "userControl_text_goal_StandUp";
             this.userControl_text_goal_StandUp.OptionalSymbol = false;
@@ -7201,9 +7336,11 @@
             // 
             this.userControl_text_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_text_StandUp, "userControl_text_StandUp");
+            this.userControl_text_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_StandUp.Collapsed = true;
             this.userControl_text_StandUp.Distance = false;
             this.userControl_text_StandUp.Follow = false;
+            this.userControl_text_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_StandUp.ImageError = true;
             this.userControl_text_StandUp.Name = "userControl_text_StandUp";
             this.userControl_text_StandUp.OptionalSymbol = false;
@@ -7214,8 +7351,10 @@
             // 
             this.userControl_segments_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_segments_StandUp, "userControl_segments_StandUp");
+            this.userControl_segments_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_StandUp.Collapsed = true;
             this.userControl_segments_StandUp.FixedRowsCount = false;
+            this.userControl_segments_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_StandUp.ImagesCount = -1;
             this.userControl_segments_StandUp.Name = "userControl_segments_StandUp";
             this.userControl_segments_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7224,7 +7363,9 @@
             // 
             this.userControl_pictures_StandUp.AOD = false;
             resources.ApplyResources(this.userControl_pictures_StandUp, "userControl_pictures_StandUp");
+            this.userControl_pictures_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_StandUp.Collapsed = true;
+            this.userControl_pictures_StandUp.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_StandUp.ImagesCount = 10;
             this.userControl_pictures_StandUp.Name = "userControl_pictures_StandUp";
             this.userControl_pictures_StandUp.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7232,7 +7373,7 @@
             // tabPage_Stress
             // 
             resources.ApplyResources(this.tabPage_Stress, "tabPage_Stress");
-            this.tabPage_Stress.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Stress.Controls.Add(this.userControl_icon_Stress);
             this.tabPage_Stress.Controls.Add(this.userControl_SystemFont_Group_Stress);
             this.tabPage_Stress.Controls.Add(this.userControl_scaleLinear_Stress);
@@ -7247,7 +7388,9 @@
             // 
             this.userControl_icon_Stress.AOD = false;
             resources.ApplyResources(this.userControl_icon_Stress, "userControl_icon_Stress");
+            this.userControl_icon_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Stress.Collapsed = true;
+            this.userControl_icon_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Stress.Image2 = false;
             this.userControl_icon_Stress.Name = "userControl_icon_Stress";
             this.userControl_icon_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7256,9 +7399,11 @@
             // 
             this.userControl_SystemFont_Group_Stress.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Stress, "userControl_SystemFont_Group_Stress");
+            this.userControl_SystemFont_Group_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Stress.Collapsed = true;
             this.userControl_SystemFont_Group_Stress.Follow = false;
             this.userControl_SystemFont_Group_Stress.FollowGoal = false;
+            this.userControl_SystemFont_Group_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Stress.Name = "userControl_SystemFont_Group_Stress";
             this.userControl_SystemFont_Group_Stress.Padding_zero = true;
             this.userControl_SystemFont_Group_Stress.Separator = true;
@@ -7270,6 +7415,7 @@
             // 
             this.userControl_scaleLinear_Stress.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Stress, "userControl_scaleLinear_Stress");
+            this.userControl_scaleLinear_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Stress.Collapsed = true;
             this.userControl_scaleLinear_Stress.Name = "userControl_scaleLinear_Stress";
             this.userControl_scaleLinear_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7278,7 +7424,9 @@
             // 
             this.userControl_scaleCircle_Stress.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Stress, "userControl_scaleCircle_Stress");
+            this.userControl_scaleCircle_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Stress.Collapsed = true;
+            this.userControl_scaleCircle_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Stress.Name = "userControl_scaleCircle_Stress";
             this.userControl_scaleCircle_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7286,7 +7434,9 @@
             // 
             this.userControl_hand_Stress.AOD = false;
             resources.ApplyResources(this.userControl_hand_Stress, "userControl_hand_Stress");
+            this.userControl_hand_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Stress.Collapsed = true;
+            this.userControl_hand_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Stress.Name = "userControl_hand_Stress";
             this.userControl_hand_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7294,9 +7444,11 @@
             // 
             this.userControl_text_Stress.AOD = false;
             resources.ApplyResources(this.userControl_text_Stress, "userControl_text_Stress");
+            this.userControl_text_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Stress.Collapsed = true;
             this.userControl_text_Stress.Distance = false;
             this.userControl_text_Stress.Follow = false;
+            this.userControl_text_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Stress.ImageError = true;
             this.userControl_text_Stress.Name = "userControl_text_Stress";
             this.userControl_text_Stress.OptionalSymbol = false;
@@ -7307,8 +7459,10 @@
             // 
             this.userControl_segments_Stress.AOD = false;
             resources.ApplyResources(this.userControl_segments_Stress, "userControl_segments_Stress");
+            this.userControl_segments_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Stress.Collapsed = true;
             this.userControl_segments_Stress.FixedRowsCount = false;
+            this.userControl_segments_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Stress.ImagesCount = -1;
             this.userControl_segments_Stress.Name = "userControl_segments_Stress";
             this.userControl_segments_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7317,7 +7471,9 @@
             // 
             this.userControl_pictures_Stress.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Stress, "userControl_pictures_Stress");
+            this.userControl_pictures_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Stress.Collapsed = true;
+            this.userControl_pictures_Stress.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Stress.ImagesCount = 10;
             this.userControl_pictures_Stress.Name = "userControl_pictures_Stress";
             this.userControl_pictures_Stress.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7325,7 +7481,7 @@
             // tabPage_ActivityGoal
             // 
             resources.ApplyResources(this.tabPage_ActivityGoal, "tabPage_ActivityGoal");
-            this.tabPage_ActivityGoal.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_ActivityGoal.Controls.Add(this.groupBox_ActivityGoal);
             this.tabPage_ActivityGoal.Controls.Add(this.userControl_icon_ActivityGoal);
             this.tabPage_ActivityGoal.Controls.Add(this.userControl_SystemFont_Group_ActivityGoal);
@@ -7340,6 +7496,9 @@
             // 
             // groupBox_ActivityGoal
             // 
+            this.groupBox_ActivityGoal.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_ActivityGoal.BorderRadius = 4;
+            this.groupBox_ActivityGoal.BorderThickness = 1F;
             this.groupBox_ActivityGoal.Controls.Add(this.radioButton_ActivityGoal_Calories);
             this.groupBox_ActivityGoal.Controls.Add(this.radioButton_ActivityGoal_Steps);
             resources.ApplyResources(this.groupBox_ActivityGoal, "groupBox_ActivityGoal");
@@ -7366,7 +7525,9 @@
             // 
             this.userControl_icon_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_icon_ActivityGoal, "userControl_icon_ActivityGoal");
+            this.userControl_icon_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_ActivityGoal.Collapsed = true;
+            this.userControl_icon_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_ActivityGoal.Image2 = true;
             this.userControl_icon_ActivityGoal.Name = "userControl_icon_ActivityGoal";
             this.userControl_icon_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7375,9 +7536,11 @@
             // 
             this.userControl_SystemFont_Group_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_ActivityGoal, "userControl_SystemFont_Group_ActivityGoal");
+            this.userControl_SystemFont_Group_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_ActivityGoal.Collapsed = true;
             this.userControl_SystemFont_Group_ActivityGoal.Follow = false;
             this.userControl_SystemFont_Group_ActivityGoal.FollowGoal = true;
+            this.userControl_SystemFont_Group_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_ActivityGoal.Name = "userControl_SystemFont_Group_ActivityGoal";
             this.userControl_SystemFont_Group_ActivityGoal.Padding_zero = true;
             this.userControl_SystemFont_Group_ActivityGoal.Separator = true;
@@ -7389,6 +7552,7 @@
             // 
             this.userControl_scaleLinear_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_ActivityGoal, "userControl_scaleLinear_ActivityGoal");
+            this.userControl_scaleLinear_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_ActivityGoal.Collapsed = true;
             this.userControl_scaleLinear_ActivityGoal.Name = "userControl_scaleLinear_ActivityGoal";
             this.userControl_scaleLinear_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7397,7 +7561,9 @@
             // 
             this.userControl_scaleCircle_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_ActivityGoal, "userControl_scaleCircle_ActivityGoal");
+            this.userControl_scaleCircle_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_ActivityGoal.Collapsed = true;
+            this.userControl_scaleCircle_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_ActivityGoal.Name = "userControl_scaleCircle_ActivityGoal";
             this.userControl_scaleCircle_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7405,7 +7571,9 @@
             // 
             this.userControl_hand_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_hand_ActivityGoal, "userControl_hand_ActivityGoal");
+            this.userControl_hand_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_ActivityGoal.Collapsed = true;
+            this.userControl_hand_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_ActivityGoal.Name = "userControl_hand_ActivityGoal";
             this.userControl_hand_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7413,9 +7581,11 @@
             // 
             this.userControl_text_goal_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_ActivityGoal, "userControl_text_goal_ActivityGoal");
+            this.userControl_text_goal_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_ActivityGoal.Collapsed = true;
             this.userControl_text_goal_ActivityGoal.Distance = false;
             this.userControl_text_goal_ActivityGoal.Follow = true;
+            this.userControl_text_goal_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_ActivityGoal.ImageError = true;
             this.userControl_text_goal_ActivityGoal.Name = "userControl_text_goal_ActivityGoal";
             this.userControl_text_goal_ActivityGoal.OptionalSymbol = false;
@@ -7426,9 +7596,11 @@
             // 
             this.userControl_text_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_text_ActivityGoal, "userControl_text_ActivityGoal");
+            this.userControl_text_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_ActivityGoal.Collapsed = true;
             this.userControl_text_ActivityGoal.Distance = false;
             this.userControl_text_ActivityGoal.Follow = false;
+            this.userControl_text_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_ActivityGoal.ImageError = true;
             this.userControl_text_ActivityGoal.Name = "userControl_text_ActivityGoal";
             this.userControl_text_ActivityGoal.OptionalSymbol = false;
@@ -7439,8 +7611,10 @@
             // 
             this.userControl_segments_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_segments_ActivityGoal, "userControl_segments_ActivityGoal");
+            this.userControl_segments_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_ActivityGoal.Collapsed = true;
             this.userControl_segments_ActivityGoal.FixedRowsCount = false;
+            this.userControl_segments_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_ActivityGoal.ImagesCount = -1;
             this.userControl_segments_ActivityGoal.Name = "userControl_segments_ActivityGoal";
             this.userControl_segments_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7449,7 +7623,9 @@
             // 
             this.userControl_pictures_ActivityGoal.AOD = false;
             resources.ApplyResources(this.userControl_pictures_ActivityGoal, "userControl_pictures_ActivityGoal");
+            this.userControl_pictures_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_ActivityGoal.Collapsed = true;
+            this.userControl_pictures_ActivityGoal.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_ActivityGoal.ImagesCount = 10;
             this.userControl_pictures_ActivityGoal.Name = "userControl_pictures_ActivityGoal";
             this.userControl_pictures_ActivityGoal.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7457,7 +7633,7 @@
             // tabPage_FatBurning
             // 
             resources.ApplyResources(this.tabPage_FatBurning, "tabPage_FatBurning");
-            this.tabPage_FatBurning.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_FatBurning.Controls.Add(this.userControl_icon_FatBurning);
             this.tabPage_FatBurning.Controls.Add(this.userControl_SystemFont_Group_FatBurning);
             this.tabPage_FatBurning.Controls.Add(this.userControl_scaleLinear_FatBurning);
@@ -7473,7 +7649,9 @@
             // 
             this.userControl_icon_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_icon_FatBurning, "userControl_icon_FatBurning");
+            this.userControl_icon_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_FatBurning.Collapsed = true;
+            this.userControl_icon_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_FatBurning.Image2 = false;
             this.userControl_icon_FatBurning.Name = "userControl_icon_FatBurning";
             this.userControl_icon_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7482,9 +7660,11 @@
             // 
             this.userControl_SystemFont_Group_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_FatBurning, "userControl_SystemFont_Group_FatBurning");
+            this.userControl_SystemFont_Group_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_FatBurning.Collapsed = true;
             this.userControl_SystemFont_Group_FatBurning.Follow = false;
             this.userControl_SystemFont_Group_FatBurning.FollowGoal = true;
+            this.userControl_SystemFont_Group_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_FatBurning.Name = "userControl_SystemFont_Group_FatBurning";
             this.userControl_SystemFont_Group_FatBurning.Padding_zero = true;
             this.userControl_SystemFont_Group_FatBurning.Separator = true;
@@ -7496,6 +7676,7 @@
             // 
             this.userControl_scaleLinear_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_FatBurning, "userControl_scaleLinear_FatBurning");
+            this.userControl_scaleLinear_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_FatBurning.Collapsed = true;
             this.userControl_scaleLinear_FatBurning.Name = "userControl_scaleLinear_FatBurning";
             this.userControl_scaleLinear_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7504,7 +7685,9 @@
             // 
             this.userControl_scaleCircle_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_FatBurning, "userControl_scaleCircle_FatBurning");
+            this.userControl_scaleCircle_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_FatBurning.Collapsed = true;
+            this.userControl_scaleCircle_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_FatBurning.Name = "userControl_scaleCircle_FatBurning";
             this.userControl_scaleCircle_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7512,7 +7695,9 @@
             // 
             this.userControl_hand_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_hand_FatBurning, "userControl_hand_FatBurning");
+            this.userControl_hand_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_FatBurning.Collapsed = true;
+            this.userControl_hand_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_FatBurning.Name = "userControl_hand_FatBurning";
             this.userControl_hand_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7520,9 +7705,11 @@
             // 
             this.userControl_text_goal_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_FatBurning, "userControl_text_goal_FatBurning");
+            this.userControl_text_goal_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_FatBurning.Collapsed = true;
             this.userControl_text_goal_FatBurning.Distance = false;
             this.userControl_text_goal_FatBurning.Follow = true;
+            this.userControl_text_goal_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_FatBurning.ImageError = true;
             this.userControl_text_goal_FatBurning.Name = "userControl_text_goal_FatBurning";
             this.userControl_text_goal_FatBurning.OptionalSymbol = false;
@@ -7533,9 +7720,11 @@
             // 
             this.userControl_text_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_text_FatBurning, "userControl_text_FatBurning");
+            this.userControl_text_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_FatBurning.Collapsed = true;
             this.userControl_text_FatBurning.Distance = false;
             this.userControl_text_FatBurning.Follow = false;
+            this.userControl_text_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_FatBurning.ImageError = true;
             this.userControl_text_FatBurning.Name = "userControl_text_FatBurning";
             this.userControl_text_FatBurning.OptionalSymbol = false;
@@ -7546,8 +7735,10 @@
             // 
             this.userControl_segments_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_segments_FatBurning, "userControl_segments_FatBurning");
+            this.userControl_segments_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_FatBurning.Collapsed = true;
             this.userControl_segments_FatBurning.FixedRowsCount = false;
+            this.userControl_segments_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_FatBurning.ImagesCount = -1;
             this.userControl_segments_FatBurning.Name = "userControl_segments_FatBurning";
             this.userControl_segments_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7556,14 +7747,16 @@
             // 
             this.userControl_pictures_FatBurning.AOD = false;
             resources.ApplyResources(this.userControl_pictures_FatBurning, "userControl_pictures_FatBurning");
+            this.userControl_pictures_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_FatBurning.Collapsed = true;
+            this.userControl_pictures_FatBurning.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_FatBurning.ImagesCount = 10;
             this.userControl_pictures_FatBurning.Name = "userControl_pictures_FatBurning";
             this.userControl_pictures_FatBurning.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
             // 
             // tabPage_Air
             // 
-            this.tabPage_Air.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Air.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Air.Controls.Add(this.tabControl_SystemWeather);
             resources.ApplyResources(this.tabPage_Air, "tabPage_Air");
             this.tabPage_Air.Name = "tabPage_Air";
@@ -7582,20 +7775,22 @@
             // 
             // 
             // 
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_SystemWeather.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_SystemWeather.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_SystemWeather.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_SystemWeather.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_SystemWeather.DisplayStyleProvider.HotTrack = false;
             this.tabControl_SystemWeather.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_SystemWeather.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_SystemWeather.DisplayStyleProvider.Overlap = 0;
             this.tabControl_SystemWeather.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemWeather.DisplayStyleProvider.Radius = 3;
             this.tabControl_SystemWeather.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_SystemWeather, "tabControl_SystemWeather");
             this.tabControl_SystemWeather.Name = "tabControl_SystemWeather";
             this.tabControl_SystemWeather.SelectedIndex = 0;
@@ -7603,7 +7798,7 @@
             // tabPage_Weather
             // 
             resources.ApplyResources(this.tabPage_Weather, "tabPage_Weather");
-            this.tabPage_Weather.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Weather.Controls.Add(this.checkBox_weatherAlignmentFix);
             this.tabPage_Weather.Controls.Add(this.userControl_icon_Weather);
             this.tabPage_Weather.Controls.Add(this.userControl_SystemFont_GroupWeather);
@@ -7627,7 +7822,9 @@
             // 
             this.userControl_icon_Weather.AOD = false;
             resources.ApplyResources(this.userControl_icon_Weather, "userControl_icon_Weather");
+            this.userControl_icon_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Weather.Collapsed = true;
+            this.userControl_icon_Weather.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Weather.Image2 = false;
             this.userControl_icon_Weather.Name = "userControl_icon_Weather";
             this.userControl_icon_Weather.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7636,10 +7833,12 @@
             // 
             this.userControl_SystemFont_GroupWeather.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupWeather, "userControl_SystemFont_GroupWeather");
+            this.userControl_SystemFont_GroupWeather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWeather.Collapsed = true;
             this.userControl_SystemFont_GroupWeather.Follow = false;
             this.userControl_SystemFont_GroupWeather.FollowMax = true;
             this.userControl_SystemFont_GroupWeather.FollowMin = true;
+            this.userControl_SystemFont_GroupWeather.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWeather.Name = "userControl_SystemFont_GroupWeather";
             this.userControl_SystemFont_GroupWeather.Padding_zero = true;
             this.userControl_SystemFont_GroupWeather.Separator = true;
@@ -7652,6 +7851,7 @@
             // 
             this.userControl_scaleLinear_Weather.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Weather, "userControl_scaleLinear_Weather");
+            this.userControl_scaleLinear_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Weather.Collapsed = true;
             this.userControl_scaleLinear_Weather.Name = "userControl_scaleLinear_Weather";
             this.userControl_scaleLinear_Weather.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7660,7 +7860,9 @@
             // 
             this.userControl_scaleCircle_Weather.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Weather, "userControl_scaleCircle_Weather");
+            this.userControl_scaleCircle_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Weather.Collapsed = true;
+            this.userControl_scaleCircle_Weather.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Weather.Name = "userControl_scaleCircle_Weather";
             this.userControl_scaleCircle_Weather.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7668,7 +7870,9 @@
             // 
             this.userControl_hand_Weather.AOD = false;
             resources.ApplyResources(this.userControl_hand_Weather, "userControl_hand_Weather");
+            this.userControl_hand_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Weather.Collapsed = true;
+            this.userControl_hand_Weather.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Weather.Name = "userControl_hand_Weather";
             this.userControl_hand_Weather.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7676,9 +7880,11 @@
             // 
             this.userControl_text_weather_Max.AOD = false;
             resources.ApplyResources(this.userControl_text_weather_Max, "userControl_text_weather_Max");
+            this.userControl_text_weather_Max.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Max.Collapsed = true;
             this.userControl_text_weather_Max.Distance = false;
             this.userControl_text_weather_Max.Follow = true;
+            this.userControl_text_weather_Max.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Max.ImageError = true;
             this.userControl_text_weather_Max.Name = "userControl_text_weather_Max";
             this.userControl_text_weather_Max.OptionalSymbol = true;
@@ -7689,9 +7895,11 @@
             // 
             this.userControl_text_weather_Min.AOD = false;
             resources.ApplyResources(this.userControl_text_weather_Min, "userControl_text_weather_Min");
+            this.userControl_text_weather_Min.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Min.Collapsed = true;
             this.userControl_text_weather_Min.Distance = false;
             this.userControl_text_weather_Min.Follow = false;
+            this.userControl_text_weather_Min.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Min.ImageError = true;
             this.userControl_text_weather_Min.Name = "userControl_text_weather_Min";
             this.userControl_text_weather_Min.OptionalSymbol = true;
@@ -7702,9 +7910,11 @@
             // 
             this.userControl_text_weather_Current.AOD = false;
             resources.ApplyResources(this.userControl_text_weather_Current, "userControl_text_weather_Current");
+            this.userControl_text_weather_Current.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Current.Collapsed = true;
             this.userControl_text_weather_Current.Distance = false;
             this.userControl_text_weather_Current.Follow = false;
+            this.userControl_text_weather_Current.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Current.ImageError = true;
             this.userControl_text_weather_Current.Name = "userControl_text_weather_Current";
             this.userControl_text_weather_Current.OptionalSymbol = true;
@@ -7715,7 +7925,9 @@
             // 
             this.userControl_pictures_weather.AOD = false;
             resources.ApplyResources(this.userControl_pictures_weather, "userControl_pictures_weather");
+            this.userControl_pictures_weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_weather.Collapsed = true;
+            this.userControl_pictures_weather.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_weather.ImagesCount = 29;
             this.userControl_pictures_weather.Name = "userControl_pictures_weather";
             this.userControl_pictures_weather.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7723,7 +7935,7 @@
             // tabPage_UVindex
             // 
             resources.ApplyResources(this.tabPage_UVindex, "tabPage_UVindex");
-            this.tabPage_UVindex.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_UVindex.Controls.Add(this.userControl_icon_UVindex);
             this.tabPage_UVindex.Controls.Add(this.userControl_SystemFont_Group_UVindex);
             this.tabPage_UVindex.Controls.Add(this.userControl_scaleLinear_UVindex);
@@ -7738,7 +7950,9 @@
             // 
             this.userControl_icon_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_icon_UVindex, "userControl_icon_UVindex");
+            this.userControl_icon_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_UVindex.Collapsed = true;
+            this.userControl_icon_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_UVindex.Image2 = false;
             this.userControl_icon_UVindex.Name = "userControl_icon_UVindex";
             this.userControl_icon_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7747,9 +7961,11 @@
             // 
             this.userControl_SystemFont_Group_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_UVindex, "userControl_SystemFont_Group_UVindex");
+            this.userControl_SystemFont_Group_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_UVindex.Collapsed = true;
             this.userControl_SystemFont_Group_UVindex.Follow = false;
             this.userControl_SystemFont_Group_UVindex.FollowGoal = false;
+            this.userControl_SystemFont_Group_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_UVindex.Name = "userControl_SystemFont_Group_UVindex";
             this.userControl_SystemFont_Group_UVindex.Padding_zero = true;
             this.userControl_SystemFont_Group_UVindex.Separator = true;
@@ -7761,6 +7977,7 @@
             // 
             this.userControl_scaleLinear_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_UVindex, "userControl_scaleLinear_UVindex");
+            this.userControl_scaleLinear_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_UVindex.Collapsed = true;
             this.userControl_scaleLinear_UVindex.Name = "userControl_scaleLinear_UVindex";
             this.userControl_scaleLinear_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7769,7 +7986,9 @@
             // 
             this.userControl_scaleCircle_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_UVindex, "userControl_scaleCircle_UVindex");
+            this.userControl_scaleCircle_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_UVindex.Collapsed = true;
+            this.userControl_scaleCircle_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_UVindex.Name = "userControl_scaleCircle_UVindex";
             this.userControl_scaleCircle_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7777,7 +7996,9 @@
             // 
             this.userControl_hand_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_hand_UVindex, "userControl_hand_UVindex");
+            this.userControl_hand_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_UVindex.Collapsed = true;
+            this.userControl_hand_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_UVindex.Name = "userControl_hand_UVindex";
             this.userControl_hand_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7785,9 +8006,11 @@
             // 
             this.userControl_text_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_text_UVindex, "userControl_text_UVindex");
+            this.userControl_text_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_UVindex.Collapsed = true;
             this.userControl_text_UVindex.Distance = false;
             this.userControl_text_UVindex.Follow = false;
+            this.userControl_text_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_UVindex.ImageError = true;
             this.userControl_text_UVindex.Name = "userControl_text_UVindex";
             this.userControl_text_UVindex.OptionalSymbol = false;
@@ -7798,8 +8021,10 @@
             // 
             this.userControl_segments_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_segments_UVindex, "userControl_segments_UVindex");
+            this.userControl_segments_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_UVindex.Collapsed = true;
             this.userControl_segments_UVindex.FixedRowsCount = true;
+            this.userControl_segments_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_UVindex.ImagesCount = 5;
             this.userControl_segments_UVindex.Name = "userControl_segments_UVindex";
             this.userControl_segments_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7808,7 +8033,9 @@
             // 
             this.userControl_pictures_UVindex.AOD = false;
             resources.ApplyResources(this.userControl_pictures_UVindex, "userControl_pictures_UVindex");
+            this.userControl_pictures_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_UVindex.Collapsed = true;
+            this.userControl_pictures_UVindex.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_UVindex.ImagesCount = 5;
             this.userControl_pictures_UVindex.Name = "userControl_pictures_UVindex";
             this.userControl_pictures_UVindex.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7816,7 +8043,7 @@
             // tabPage_AirQuality
             // 
             resources.ApplyResources(this.tabPage_AirQuality, "tabPage_AirQuality");
-            this.tabPage_AirQuality.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirQuality.Controls.Add(this.userControl_icon_AirQuality);
             this.tabPage_AirQuality.Controls.Add(this.userControl_SystemFont_Group_AirQuality);
             this.tabPage_AirQuality.Controls.Add(this.userControl_scaleLinear_AirQuality);
@@ -7831,7 +8058,9 @@
             // 
             this.userControl_icon_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_icon_AirQuality, "userControl_icon_AirQuality");
+            this.userControl_icon_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_AirQuality.Collapsed = true;
+            this.userControl_icon_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_AirQuality.Image2 = false;
             this.userControl_icon_AirQuality.Name = "userControl_icon_AirQuality";
             this.userControl_icon_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7840,9 +8069,11 @@
             // 
             this.userControl_SystemFont_Group_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_AirQuality, "userControl_SystemFont_Group_AirQuality");
+            this.userControl_SystemFont_Group_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_AirQuality.Collapsed = true;
             this.userControl_SystemFont_Group_AirQuality.Follow = false;
             this.userControl_SystemFont_Group_AirQuality.FollowGoal = false;
+            this.userControl_SystemFont_Group_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_AirQuality.Name = "userControl_SystemFont_Group_AirQuality";
             this.userControl_SystemFont_Group_AirQuality.Padding_zero = true;
             this.userControl_SystemFont_Group_AirQuality.Separator = true;
@@ -7854,6 +8085,7 @@
             // 
             this.userControl_scaleLinear_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_AirQuality, "userControl_scaleLinear_AirQuality");
+            this.userControl_scaleLinear_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_AirQuality.Collapsed = true;
             this.userControl_scaleLinear_AirQuality.Name = "userControl_scaleLinear_AirQuality";
             this.userControl_scaleLinear_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7862,7 +8094,9 @@
             // 
             this.userControl_scaleCircle_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_AirQuality, "userControl_scaleCircle_AirQuality");
+            this.userControl_scaleCircle_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_AirQuality.Collapsed = true;
+            this.userControl_scaleCircle_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_AirQuality.Name = "userControl_scaleCircle_AirQuality";
             this.userControl_scaleCircle_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7870,7 +8104,9 @@
             // 
             this.userControl_hand_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_hand_AirQuality, "userControl_hand_AirQuality");
+            this.userControl_hand_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_AirQuality.Collapsed = true;
+            this.userControl_hand_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_AirQuality.Name = "userControl_hand_AirQuality";
             this.userControl_hand_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7878,9 +8114,11 @@
             // 
             this.userControl_text_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_text_AirQuality, "userControl_text_AirQuality");
+            this.userControl_text_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_AirQuality.Collapsed = true;
             this.userControl_text_AirQuality.Distance = false;
             this.userControl_text_AirQuality.Follow = false;
+            this.userControl_text_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_AirQuality.ImageError = true;
             this.userControl_text_AirQuality.Name = "userControl_text_AirQuality";
             this.userControl_text_AirQuality.OptionalSymbol = false;
@@ -7891,8 +8129,10 @@
             // 
             this.userControl_segments_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_segments_AirQuality, "userControl_segments_AirQuality");
+            this.userControl_segments_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_AirQuality.Collapsed = true;
             this.userControl_segments_AirQuality.FixedRowsCount = true;
+            this.userControl_segments_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_AirQuality.ImagesCount = 6;
             this.userControl_segments_AirQuality.Name = "userControl_segments_AirQuality";
             this.userControl_segments_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7901,7 +8141,9 @@
             // 
             this.userControl_pictures_AirQuality.AOD = false;
             resources.ApplyResources(this.userControl_pictures_AirQuality, "userControl_pictures_AirQuality");
+            this.userControl_pictures_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_AirQuality.Collapsed = true;
+            this.userControl_pictures_AirQuality.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_AirQuality.ImagesCount = 6;
             this.userControl_pictures_AirQuality.Name = "userControl_pictures_AirQuality";
             this.userControl_pictures_AirQuality.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7909,7 +8151,7 @@
             // tabPage_Humidity
             // 
             resources.ApplyResources(this.tabPage_Humidity, "tabPage_Humidity");
-            this.tabPage_Humidity.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Humidity.Controls.Add(this.userControl_icon_Humidity);
             this.tabPage_Humidity.Controls.Add(this.userControl_SystemFont_Group_Humidity);
             this.tabPage_Humidity.Controls.Add(this.userControl_scaleLinear_Humidity);
@@ -7924,7 +8166,9 @@
             // 
             this.userControl_icon_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_icon_Humidity, "userControl_icon_Humidity");
+            this.userControl_icon_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Humidity.Collapsed = true;
+            this.userControl_icon_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Humidity.Image2 = false;
             this.userControl_icon_Humidity.Name = "userControl_icon_Humidity";
             this.userControl_icon_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7933,9 +8177,11 @@
             // 
             this.userControl_SystemFont_Group_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Humidity, "userControl_SystemFont_Group_Humidity");
+            this.userControl_SystemFont_Group_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Humidity.Collapsed = true;
             this.userControl_SystemFont_Group_Humidity.Follow = false;
             this.userControl_SystemFont_Group_Humidity.FollowGoal = false;
+            this.userControl_SystemFont_Group_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Humidity.Name = "userControl_SystemFont_Group_Humidity";
             this.userControl_SystemFont_Group_Humidity.Padding_zero = true;
             this.userControl_SystemFont_Group_Humidity.Separator = true;
@@ -7947,6 +8193,7 @@
             // 
             this.userControl_scaleLinear_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Humidity, "userControl_scaleLinear_Humidity");
+            this.userControl_scaleLinear_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Humidity.Collapsed = true;
             this.userControl_scaleLinear_Humidity.Name = "userControl_scaleLinear_Humidity";
             this.userControl_scaleLinear_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7955,7 +8202,9 @@
             // 
             this.userControl_scaleCircle_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Humidity, "userControl_scaleCircle_Humidity");
+            this.userControl_scaleCircle_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Humidity.Collapsed = true;
+            this.userControl_scaleCircle_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Humidity.Name = "userControl_scaleCircle_Humidity";
             this.userControl_scaleCircle_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7963,7 +8212,9 @@
             // 
             this.userControl_hand_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_hand_Humidity, "userControl_hand_Humidity");
+            this.userControl_hand_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Humidity.Collapsed = true;
+            this.userControl_hand_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Humidity.Name = "userControl_hand_Humidity";
             this.userControl_hand_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -7971,9 +8222,11 @@
             // 
             this.userControl_text_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_text_Humidity, "userControl_text_Humidity");
+            this.userControl_text_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Humidity.Collapsed = true;
             this.userControl_text_Humidity.Distance = false;
             this.userControl_text_Humidity.Follow = false;
+            this.userControl_text_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Humidity.ImageError = true;
             this.userControl_text_Humidity.Name = "userControl_text_Humidity";
             this.userControl_text_Humidity.OptionalSymbol = false;
@@ -7984,8 +8237,10 @@
             // 
             this.userControl_segments_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_segments_Humidity, "userControl_segments_Humidity");
+            this.userControl_segments_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Humidity.Collapsed = true;
             this.userControl_segments_Humidity.FixedRowsCount = false;
+            this.userControl_segments_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Humidity.ImagesCount = -1;
             this.userControl_segments_Humidity.Name = "userControl_segments_Humidity";
             this.userControl_segments_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -7994,7 +8249,9 @@
             // 
             this.userControl_pictures_Humidity.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Humidity, "userControl_pictures_Humidity");
+            this.userControl_pictures_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Humidity.Collapsed = true;
+            this.userControl_pictures_Humidity.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Humidity.ImagesCount = 10;
             this.userControl_pictures_Humidity.Name = "userControl_pictures_Humidity";
             this.userControl_pictures_Humidity.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8025,7 +8282,9 @@
             // 
             this.userControl_icon_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_icon_Sunrise, "userControl_icon_Sunrise");
+            this.userControl_icon_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Sunrise.Collapsed = true;
+            this.userControl_icon_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Sunrise.Image2 = false;
             this.userControl_icon_Sunrise.Name = "userControl_icon_Sunrise";
             this.userControl_icon_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8034,10 +8293,12 @@
             // 
             this.userControl_SystemFont_GroupSunrise.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupSunrise, "userControl_SystemFont_GroupSunrise");
+            this.userControl_SystemFont_GroupSunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupSunrise.Collapsed = true;
             this.userControl_SystemFont_GroupSunrise.Follow = false;
             this.userControl_SystemFont_GroupSunrise.FollowMax = true;
             this.userControl_SystemFont_GroupSunrise.FollowMin = true;
+            this.userControl_SystemFont_GroupSunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupSunrise.Name = "userControl_SystemFont_GroupSunrise";
             this.userControl_SystemFont_GroupSunrise.Padding_zero = true;
             this.userControl_SystemFont_GroupSunrise.Separator = true;
@@ -8050,6 +8311,7 @@
             // 
             this.userControl_scaleLinear_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Sunrise, "userControl_scaleLinear_Sunrise");
+            this.userControl_scaleLinear_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Sunrise.Collapsed = true;
             this.userControl_scaleLinear_Sunrise.Name = "userControl_scaleLinear_Sunrise";
             this.userControl_scaleLinear_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8058,7 +8320,9 @@
             // 
             this.userControl_scaleCircle_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Sunrise, "userControl_scaleCircle_Sunrise");
+            this.userControl_scaleCircle_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Sunrise.Collapsed = true;
+            this.userControl_scaleCircle_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Sunrise.Name = "userControl_scaleCircle_Sunrise";
             this.userControl_scaleCircle_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8066,7 +8330,9 @@
             // 
             this.userControl_hand_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_hand_Sunrise, "userControl_hand_Sunrise");
+            this.userControl_hand_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Sunrise.Collapsed = true;
+            this.userControl_hand_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Sunrise.Name = "userControl_hand_Sunrise";
             this.userControl_hand_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8074,9 +8340,11 @@
             // 
             this.userControl_text_Sunset.AOD = false;
             resources.ApplyResources(this.userControl_text_Sunset, "userControl_text_Sunset");
+            this.userControl_text_Sunset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Sunset.Collapsed = true;
             this.userControl_text_Sunset.Distance = false;
             this.userControl_text_Sunset.Follow = true;
+            this.userControl_text_Sunset.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Sunset.ImageError = true;
             this.userControl_text_Sunset.Name = "userControl_text_Sunset";
             this.userControl_text_Sunset.OptionalSymbol = true;
@@ -8087,9 +8355,11 @@
             // 
             this.userControl_text_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_text_Sunrise, "userControl_text_Sunrise");
+            this.userControl_text_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Sunrise.Collapsed = true;
             this.userControl_text_Sunrise.Distance = false;
             this.userControl_text_Sunrise.Follow = false;
+            this.userControl_text_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Sunrise.ImageError = true;
             this.userControl_text_Sunrise.Name = "userControl_text_Sunrise";
             this.userControl_text_Sunrise.OptionalSymbol = true;
@@ -8100,9 +8370,11 @@
             // 
             this.userControl_text_SunriseSunset.AOD = false;
             resources.ApplyResources(this.userControl_text_SunriseSunset, "userControl_text_SunriseSunset");
+            this.userControl_text_SunriseSunset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_SunriseSunset.Collapsed = true;
             this.userControl_text_SunriseSunset.Distance = false;
             this.userControl_text_SunriseSunset.Follow = false;
+            this.userControl_text_SunriseSunset.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_SunriseSunset.ImageError = true;
             this.userControl_text_SunriseSunset.Name = "userControl_text_SunriseSunset";
             this.userControl_text_SunriseSunset.OptionalSymbol = true;
@@ -8113,8 +8385,10 @@
             // 
             this.userControl_segments_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_segments_Sunrise, "userControl_segments_Sunrise");
+            this.userControl_segments_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Sunrise.Collapsed = true;
             this.userControl_segments_Sunrise.FixedRowsCount = true;
+            this.userControl_segments_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Sunrise.ImagesCount = 2;
             this.userControl_segments_Sunrise.Name = "userControl_segments_Sunrise";
             this.userControl_segments_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8123,7 +8397,9 @@
             // 
             this.userControl_pictures_Sunrise.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Sunrise, "userControl_pictures_Sunrise");
+            this.userControl_pictures_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Sunrise.Collapsed = true;
+            this.userControl_pictures_Sunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Sunrise.ImagesCount = 2;
             this.userControl_pictures_Sunrise.Name = "userControl_pictures_Sunrise";
             this.userControl_pictures_Sunrise.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8131,7 +8407,7 @@
             // tabPage_WindForce
             // 
             resources.ApplyResources(this.tabPage_WindForce, "tabPage_WindForce");
-            this.tabPage_WindForce.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WindForce.Controls.Add(this.userControl_icon_WindForce);
             this.tabPage_WindForce.Controls.Add(this.userControl_SystemFont_Group_WindForce);
             this.tabPage_WindForce.Controls.Add(this.userControl_scaleLinear_WindForce);
@@ -8146,7 +8422,9 @@
             // 
             this.userControl_icon_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_icon_WindForce, "userControl_icon_WindForce");
+            this.userControl_icon_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_WindForce.Collapsed = true;
+            this.userControl_icon_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_WindForce.Image2 = false;
             this.userControl_icon_WindForce.Name = "userControl_icon_WindForce";
             this.userControl_icon_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8155,9 +8433,11 @@
             // 
             this.userControl_SystemFont_Group_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_WindForce, "userControl_SystemFont_Group_WindForce");
+            this.userControl_SystemFont_Group_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_WindForce.Collapsed = true;
             this.userControl_SystemFont_Group_WindForce.Follow = false;
             this.userControl_SystemFont_Group_WindForce.FollowGoal = false;
+            this.userControl_SystemFont_Group_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_WindForce.Name = "userControl_SystemFont_Group_WindForce";
             this.userControl_SystemFont_Group_WindForce.Padding_zero = true;
             this.userControl_SystemFont_Group_WindForce.Separator = true;
@@ -8169,6 +8449,7 @@
             // 
             this.userControl_scaleLinear_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_WindForce, "userControl_scaleLinear_WindForce");
+            this.userControl_scaleLinear_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_WindForce.Collapsed = true;
             this.userControl_scaleLinear_WindForce.Name = "userControl_scaleLinear_WindForce";
             this.userControl_scaleLinear_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8177,7 +8458,9 @@
             // 
             this.userControl_scaleCircle_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_WindForce, "userControl_scaleCircle_WindForce");
+            this.userControl_scaleCircle_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_WindForce.Collapsed = true;
+            this.userControl_scaleCircle_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_WindForce.Name = "userControl_scaleCircle_WindForce";
             this.userControl_scaleCircle_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8185,7 +8468,9 @@
             // 
             this.userControl_hand_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_hand_WindForce, "userControl_hand_WindForce");
+            this.userControl_hand_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_WindForce.Collapsed = true;
+            this.userControl_hand_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_WindForce.Name = "userControl_hand_WindForce";
             this.userControl_hand_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8193,9 +8478,11 @@
             // 
             this.userControl_text_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_text_WindForce, "userControl_text_WindForce");
+            this.userControl_text_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_WindForce.Collapsed = true;
             this.userControl_text_WindForce.Distance = false;
             this.userControl_text_WindForce.Follow = false;
+            this.userControl_text_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_WindForce.ImageError = true;
             this.userControl_text_WindForce.Name = "userControl_text_WindForce";
             this.userControl_text_WindForce.OptionalSymbol = false;
@@ -8206,8 +8493,10 @@
             // 
             this.userControl_segments_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_segments_WindForce, "userControl_segments_WindForce");
+            this.userControl_segments_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_WindForce.Collapsed = true;
             this.userControl_segments_WindForce.FixedRowsCount = false;
+            this.userControl_segments_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_WindForce.ImagesCount = -1;
             this.userControl_segments_WindForce.Name = "userControl_segments_WindForce";
             this.userControl_segments_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8216,7 +8505,9 @@
             // 
             this.userControl_pictures_WindForce.AOD = false;
             resources.ApplyResources(this.userControl_pictures_WindForce, "userControl_pictures_WindForce");
+            this.userControl_pictures_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_WindForce.Collapsed = true;
+            this.userControl_pictures_WindForce.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_WindForce.ImagesCount = 10;
             this.userControl_pictures_WindForce.Name = "userControl_pictures_WindForce";
             this.userControl_pictures_WindForce.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8224,7 +8515,7 @@
             // tabPage_Altitude
             // 
             resources.ApplyResources(this.tabPage_Altitude, "tabPage_Altitude");
-            this.tabPage_Altitude.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Altitude.Controls.Add(this.userControl_icon_Altitude);
             this.tabPage_Altitude.Controls.Add(this.userControl_SystemFont_Group_Altitude);
             this.tabPage_Altitude.Controls.Add(this.userControl_scaleLinear_Altitude);
@@ -8239,7 +8530,9 @@
             // 
             this.userControl_icon_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_icon_Altitude, "userControl_icon_Altitude");
+            this.userControl_icon_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Altitude.Collapsed = true;
+            this.userControl_icon_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Altitude.Image2 = false;
             this.userControl_icon_Altitude.Name = "userControl_icon_Altitude";
             this.userControl_icon_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8248,9 +8541,11 @@
             // 
             this.userControl_SystemFont_Group_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Altitude, "userControl_SystemFont_Group_Altitude");
+            this.userControl_SystemFont_Group_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Altitude.Collapsed = true;
             this.userControl_SystemFont_Group_Altitude.Follow = false;
             this.userControl_SystemFont_Group_Altitude.FollowGoal = false;
+            this.userControl_SystemFont_Group_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Altitude.Name = "userControl_SystemFont_Group_Altitude";
             this.userControl_SystemFont_Group_Altitude.Padding_zero = true;
             this.userControl_SystemFont_Group_Altitude.Separator = true;
@@ -8262,6 +8557,7 @@
             // 
             this.userControl_scaleLinear_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Altitude, "userControl_scaleLinear_Altitude");
+            this.userControl_scaleLinear_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Altitude.Collapsed = true;
             this.userControl_scaleLinear_Altitude.Name = "userControl_scaleLinear_Altitude";
             this.userControl_scaleLinear_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8270,7 +8566,9 @@
             // 
             this.userControl_scaleCircle_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Altitude, "userControl_scaleCircle_Altitude");
+            this.userControl_scaleCircle_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Altitude.Collapsed = true;
+            this.userControl_scaleCircle_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Altitude.Name = "userControl_scaleCircle_Altitude";
             this.userControl_scaleCircle_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8278,7 +8576,9 @@
             // 
             this.userControl_hand_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_hand_Altitude, "userControl_hand_Altitude");
+            this.userControl_hand_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Altitude.Collapsed = true;
+            this.userControl_hand_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Altitude.Name = "userControl_hand_Altitude";
             this.userControl_hand_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8286,9 +8586,11 @@
             // 
             this.userControl_text_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_text_Altitude, "userControl_text_Altitude");
+            this.userControl_text_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Altitude.Collapsed = true;
             this.userControl_text_Altitude.Distance = false;
             this.userControl_text_Altitude.Follow = false;
+            this.userControl_text_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Altitude.ImageError = true;
             this.userControl_text_Altitude.Name = "userControl_text_Altitude";
             this.userControl_text_Altitude.OptionalSymbol = false;
@@ -8299,8 +8601,10 @@
             // 
             this.userControl_segments_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_segments_Altitude, "userControl_segments_Altitude");
+            this.userControl_segments_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Altitude.Collapsed = true;
             this.userControl_segments_Altitude.FixedRowsCount = false;
+            this.userControl_segments_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Altitude.ImagesCount = -1;
             this.userControl_segments_Altitude.Name = "userControl_segments_Altitude";
             this.userControl_segments_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8309,7 +8613,9 @@
             // 
             this.userControl_pictures_Altitude.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Altitude, "userControl_pictures_Altitude");
+            this.userControl_pictures_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Altitude.Collapsed = true;
+            this.userControl_pictures_Altitude.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Altitude.ImagesCount = 10;
             this.userControl_pictures_Altitude.Name = "userControl_pictures_Altitude";
             this.userControl_pictures_Altitude.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8317,7 +8623,7 @@
             // tabPage_AirPressure
             // 
             resources.ApplyResources(this.tabPage_AirPressure, "tabPage_AirPressure");
-            this.tabPage_AirPressure.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirPressure.Controls.Add(this.userControl_icon_AirPressure);
             this.tabPage_AirPressure.Controls.Add(this.userControl_SystemFont_Group_AirPressure);
             this.tabPage_AirPressure.Controls.Add(this.userControl_scaleLinear_AirPressure);
@@ -8332,7 +8638,9 @@
             // 
             this.userControl_icon_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_icon_AirPressure, "userControl_icon_AirPressure");
+            this.userControl_icon_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_AirPressure.Collapsed = true;
+            this.userControl_icon_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_AirPressure.Image2 = false;
             this.userControl_icon_AirPressure.Name = "userControl_icon_AirPressure";
             this.userControl_icon_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8341,9 +8649,11 @@
             // 
             this.userControl_SystemFont_Group_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_AirPressure, "userControl_SystemFont_Group_AirPressure");
+            this.userControl_SystemFont_Group_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_AirPressure.Collapsed = true;
             this.userControl_SystemFont_Group_AirPressure.Follow = false;
             this.userControl_SystemFont_Group_AirPressure.FollowGoal = false;
+            this.userControl_SystemFont_Group_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_AirPressure.Name = "userControl_SystemFont_Group_AirPressure";
             this.userControl_SystemFont_Group_AirPressure.Padding_zero = true;
             this.userControl_SystemFont_Group_AirPressure.Separator = true;
@@ -8355,6 +8665,7 @@
             // 
             this.userControl_scaleLinear_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_AirPressure, "userControl_scaleLinear_AirPressure");
+            this.userControl_scaleLinear_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_AirPressure.Collapsed = true;
             this.userControl_scaleLinear_AirPressure.Name = "userControl_scaleLinear_AirPressure";
             this.userControl_scaleLinear_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8363,7 +8674,9 @@
             // 
             this.userControl_scaleCircle_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_AirPressure, "userControl_scaleCircle_AirPressure");
+            this.userControl_scaleCircle_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_AirPressure.Collapsed = true;
+            this.userControl_scaleCircle_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_AirPressure.Name = "userControl_scaleCircle_AirPressure";
             this.userControl_scaleCircle_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8371,7 +8684,9 @@
             // 
             this.userControl_hand_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_hand_AirPressure, "userControl_hand_AirPressure");
+            this.userControl_hand_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_AirPressure.Collapsed = true;
+            this.userControl_hand_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_AirPressure.Name = "userControl_hand_AirPressure";
             this.userControl_hand_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8379,9 +8694,11 @@
             // 
             this.userControl_text_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_text_AirPressure, "userControl_text_AirPressure");
+            this.userControl_text_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_AirPressure.Collapsed = true;
             this.userControl_text_AirPressure.Distance = false;
             this.userControl_text_AirPressure.Follow = false;
+            this.userControl_text_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_AirPressure.ImageError = true;
             this.userControl_text_AirPressure.Name = "userControl_text_AirPressure";
             this.userControl_text_AirPressure.OptionalSymbol = false;
@@ -8392,8 +8709,10 @@
             // 
             this.userControl_segments_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_segments_AirPressure, "userControl_segments_AirPressure");
+            this.userControl_segments_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_AirPressure.Collapsed = true;
             this.userControl_segments_AirPressure.FixedRowsCount = false;
+            this.userControl_segments_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_AirPressure.ImagesCount = -1;
             this.userControl_segments_AirPressure.Name = "userControl_segments_AirPressure";
             this.userControl_segments_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8402,14 +8721,16 @@
             // 
             this.userControl_pictures_AirPressure.AOD = false;
             resources.ApplyResources(this.userControl_pictures_AirPressure, "userControl_pictures_AirPressure");
+            this.userControl_pictures_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_AirPressure.Collapsed = true;
+            this.userControl_pictures_AirPressure.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_AirPressure.ImagesCount = 10;
             this.userControl_pictures_AirPressure.Name = "userControl_pictures_AirPressure";
             this.userControl_pictures_AirPressure.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
             // 
             // tabPage_System
             // 
-            this.tabPage_System.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_System.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_System.Controls.Add(this.tabControl_System);
             resources.ApplyResources(this.tabPage_System, "tabPage_System");
             this.tabPage_System.Name = "tabPage_System";
@@ -8422,27 +8743,29 @@
             // 
             // 
             // 
-            this.tabControl_System.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_System.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_System.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_System.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_System.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_System.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_System.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_System.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_System.DisplayStyleProvider.HotTrack = false;
             this.tabControl_System.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_System.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_System.DisplayStyleProvider.Overlap = 0;
             this.tabControl_System.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_System.DisplayStyleProvider.Radius = 3;
             this.tabControl_System.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_System.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_System.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_System.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_System.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_System.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_System, "tabControl_System");
             this.tabControl_System.Name = "tabControl_System";
             this.tabControl_System.SelectedIndex = 0;
             // 
             // tabPage_Status
             // 
-            this.tabPage_Status.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Status.Controls.Add(this.groupBox_Lock);
             this.tabPage_Status.Controls.Add(this.groupBox_DND);
             this.tabPage_Status.Controls.Add(this.groupBox_Alarm);
@@ -8452,6 +8775,9 @@
             // 
             // groupBox_Lock
             // 
+            this.groupBox_Lock.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_Lock.BorderRadius = 4;
+            this.groupBox_Lock.BorderThickness = 1F;
             this.groupBox_Lock.Controls.Add(this.checkBox_Lock_Use);
             this.groupBox_Lock.Controls.Add(this.comboBox_Lock_image);
             this.groupBox_Lock.Controls.Add(this.numericUpDown_LockX);
@@ -8544,6 +8870,9 @@
             // 
             // groupBox_DND
             // 
+            this.groupBox_DND.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_DND.BorderRadius = 4;
+            this.groupBox_DND.BorderThickness = 1F;
             this.groupBox_DND.Controls.Add(this.checkBox_DND_Use);
             this.groupBox_DND.Controls.Add(this.comboBox_DND_image);
             this.groupBox_DND.Controls.Add(this.numericUpDown_DNDX);
@@ -8636,6 +8965,9 @@
             // 
             // groupBox_Alarm
             // 
+            this.groupBox_Alarm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_Alarm.BorderRadius = 4;
+            this.groupBox_Alarm.BorderThickness = 1F;
             this.groupBox_Alarm.Controls.Add(this.checkBox_Alarm_Use);
             this.groupBox_Alarm.Controls.Add(this.comboBox_Alarm_image);
             this.groupBox_Alarm.Controls.Add(this.numericUpDown_AlarmX);
@@ -8728,6 +9060,9 @@
             // 
             // groupBox_Bluetooth
             // 
+            this.groupBox_Bluetooth.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_Bluetooth.BorderRadius = 4;
+            this.groupBox_Bluetooth.BorderThickness = 1F;
             this.groupBox_Bluetooth.Controls.Add(this.checkBox_Bluetooth_Use);
             this.groupBox_Bluetooth.Controls.Add(this.comboBox_Bluetooth_image);
             this.groupBox_Bluetooth.Controls.Add(this.numericUpDown_BluetoothX);
@@ -8821,7 +9156,7 @@
             // tabPage_Battery
             // 
             resources.ApplyResources(this.tabPage_Battery, "tabPage_Battery");
-            this.tabPage_Battery.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Battery.Controls.Add(this.userControl_icon_Battery);
             this.tabPage_Battery.Controls.Add(this.userControl_SystemFont_Group_Battery);
             this.tabPage_Battery.Controls.Add(this.userControl_scaleLinear_Battery);
@@ -8836,7 +9171,9 @@
             // 
             this.userControl_icon_Battery.AOD = false;
             resources.ApplyResources(this.userControl_icon_Battery, "userControl_icon_Battery");
+            this.userControl_icon_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Battery.Collapsed = true;
+            this.userControl_icon_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Battery.Image2 = false;
             this.userControl_icon_Battery.Name = "userControl_icon_Battery";
             this.userControl_icon_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8845,9 +9182,11 @@
             // 
             this.userControl_SystemFont_Group_Battery.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_Battery, "userControl_SystemFont_Group_Battery");
+            this.userControl_SystemFont_Group_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Battery.Collapsed = true;
             this.userControl_SystemFont_Group_Battery.Follow = false;
             this.userControl_SystemFont_Group_Battery.FollowGoal = false;
+            this.userControl_SystemFont_Group_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Battery.Name = "userControl_SystemFont_Group_Battery";
             this.userControl_SystemFont_Group_Battery.Padding_zero = true;
             this.userControl_SystemFont_Group_Battery.Separator = true;
@@ -8859,6 +9198,7 @@
             // 
             this.userControl_scaleLinear_Battery.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinear_Battery, "userControl_scaleLinear_Battery");
+            this.userControl_scaleLinear_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Battery.Collapsed = true;
             this.userControl_scaleLinear_Battery.Name = "userControl_scaleLinear_Battery";
             this.userControl_scaleLinear_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8867,7 +9207,9 @@
             // 
             this.userControl_scaleCircle_Battery.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircle_Battery, "userControl_scaleCircle_Battery");
+            this.userControl_scaleCircle_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Battery.Collapsed = true;
+            this.userControl_scaleCircle_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Battery.Name = "userControl_scaleCircle_Battery";
             this.userControl_scaleCircle_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8875,7 +9217,9 @@
             // 
             this.userControl_hand_Battery.AOD = false;
             resources.ApplyResources(this.userControl_hand_Battery, "userControl_hand_Battery");
+            this.userControl_hand_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Battery.Collapsed = true;
+            this.userControl_hand_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Battery.Name = "userControl_hand_Battery";
             this.userControl_hand_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             // 
@@ -8883,9 +9227,11 @@
             // 
             this.userControl_text_Battery.AOD = false;
             resources.ApplyResources(this.userControl_text_Battery, "userControl_text_Battery");
+            this.userControl_text_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Battery.Collapsed = true;
             this.userControl_text_Battery.Distance = false;
             this.userControl_text_Battery.Follow = false;
+            this.userControl_text_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Battery.ImageError = true;
             this.userControl_text_Battery.Name = "userControl_text_Battery";
             this.userControl_text_Battery.OptionalSymbol = false;
@@ -8896,8 +9242,10 @@
             // 
             this.userControl_segments_Battery.AOD = false;
             resources.ApplyResources(this.userControl_segments_Battery, "userControl_segments_Battery");
+            this.userControl_segments_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Battery.Collapsed = true;
             this.userControl_segments_Battery.FixedRowsCount = false;
+            this.userControl_segments_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Battery.ImagesCount = -1;
             this.userControl_segments_Battery.Name = "userControl_segments_Battery";
             this.userControl_segments_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8906,7 +9254,9 @@
             // 
             this.userControl_pictures_Battery.AOD = false;
             resources.ApplyResources(this.userControl_pictures_Battery, "userControl_pictures_Battery");
+            this.userControl_pictures_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Battery.Collapsed = true;
+            this.userControl_pictures_Battery.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Battery.ImagesCount = 10;
             this.userControl_pictures_Battery.Name = "userControl_pictures_Battery";
             this.userControl_pictures_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -8924,21 +9274,22 @@
             // 
             // 
             // 
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.HotTrack = true;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_EditParameters_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
-            this.tabControl_EditParameters_AOD.HotTrack = true;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             this.tabControl_EditParameters_AOD.ImageList = this.imageList1;
             this.tabControl_EditParameters_AOD.Multiline = true;
             this.tabControl_EditParameters_AOD.Name = "tabControl_EditParameters_AOD";
@@ -8947,7 +9298,7 @@
             // 
             // tabPage_Background_AOD
             // 
-            this.tabPage_Background_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Background_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Background_AOD.Controls.Add(this.label284);
             this.tabPage_Background_AOD.Controls.Add(this.button_Capy_ScreenNormal);
             this.tabPage_Background_AOD.Controls.Add(this.comboBox_Background_image_AOD);
@@ -8965,6 +9316,7 @@
             this.button_Capy_ScreenNormal.BorderRadius = 4;
             this.button_Capy_ScreenNormal.BorderThickness = 1F;
             resources.ApplyResources(this.button_Capy_ScreenNormal, "button_Capy_ScreenNormal");
+            this.button_Capy_ScreenNormal.ImagePadding = 5;
             this.button_Capy_ScreenNormal.Name = "button_Capy_ScreenNormal";
             this.button_Capy_ScreenNormal.UseVisualStyleBackColor = true;
             this.button_Capy_ScreenNormal.Click += new System.EventHandler(this.button_Capy_ScreenNormal_Click);
@@ -8985,7 +9337,7 @@
             // tabPage_Time_AOD
             // 
             resources.ApplyResources(this.tabPage_Time_AOD, "tabPage_Time_AOD");
-            this.tabPage_Time_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Time_AOD.Controls.Add(this.tabControl_time_AOD);
             this.tabPage_Time_AOD.Name = "tabPage_Time_AOD";
             // 
@@ -8997,20 +9349,22 @@
             // 
             // 
             // 
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_time_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_time_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_time_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_time_AOD.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_time_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_time_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_time_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_time_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_time_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_time_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_time_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_time_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_time_AOD, "tabControl_time_AOD");
             this.tabControl_time_AOD.Name = "tabControl_time_AOD";
             this.tabControl_time_AOD.SelectedIndex = 0;
@@ -9018,7 +9372,7 @@
             // tabPage_Digital_time_AOD
             // 
             resources.ApplyResources(this.tabPage_Digital_time_AOD, "tabPage_Digital_time_AOD");
-            this.tabPage_Digital_time_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Digital_time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Digital_time_AOD.Controls.Add(this.panel_AM_PM_AOD);
             this.tabPage_Digital_time_AOD.Controls.Add(this.userControl_SystemFont_GroupTime_AOD);
             this.tabPage_Digital_time_AOD.Controls.Add(this.panel_Minute_AOD);
@@ -9029,7 +9383,7 @@
             // 
             // panel_AM_PM_AOD
             // 
-            this.panel_AM_PM_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_AM_PM_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_AM_PM_AOD.Controls.Add(this.button_Copy_AM_PM_AOD);
             this.panel_AM_PM_AOD.Controls.Add(this.checkBox_12h_Use_AOD);
             this.panel_AM_PM_AOD.Controls.Add(this.numericUpDown_AM_Y_AOD);
@@ -9054,6 +9408,7 @@
             this.button_Copy_AM_PM_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_AM_PM_AOD.BorderRadius = 4;
             this.button_Copy_AM_PM_AOD.BorderThickness = 1F;
+            this.button_Copy_AM_PM_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_AM_PM_AOD, "button_Copy_AM_PM_AOD");
             this.button_Copy_AM_PM_AOD.Name = "button_Copy_AM_PM_AOD";
             this.button_Copy_AM_PM_AOD.UseVisualStyleBackColor = true;
@@ -9209,10 +9564,12 @@
             // 
             this.userControl_SystemFont_GroupTime_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_GroupTime_AOD, "userControl_SystemFont_GroupTime_AOD");
+            this.userControl_SystemFont_GroupTime_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupTime_AOD.Collapsed = true;
             this.userControl_SystemFont_GroupTime_AOD.Follow = false;
             this.userControl_SystemFont_GroupTime_AOD.FollowMax = true;
             this.userControl_SystemFont_GroupTime_AOD.FollowMin = true;
+            this.userControl_SystemFont_GroupTime_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupTime_AOD.Name = "userControl_SystemFont_GroupTime_AOD";
             this.userControl_SystemFont_GroupTime_AOD.Padding_zero = true;
             this.userControl_SystemFont_GroupTime_AOD.Separator = true;
@@ -9224,7 +9581,7 @@
             // 
             // panel_Minute_AOD
             // 
-            this.panel_Minute_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Minute_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_AOD.Controls.Add(this.button_Copy_Minute_AOD);
             this.panel_Minute_AOD.Controls.Add(this.checkBox_Minute_add_zero_AOD);
             this.panel_Minute_AOD.Controls.Add(this.checkBox_Minute_Use_AOD);
@@ -9257,6 +9614,7 @@
             this.button_Copy_Minute_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Minute_AOD.BorderRadius = 4;
             this.button_Copy_Minute_AOD.BorderThickness = 1F;
+            this.button_Copy_Minute_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Minute_AOD, "button_Copy_Minute_AOD");
             this.button_Copy_Minute_AOD.Name = "button_Copy_Minute_AOD";
             this.button_Copy_Minute_AOD.UseVisualStyleBackColor = true;
@@ -9485,12 +9843,13 @@
             this.button_Minute_AOD.BorderRadius = 4;
             this.button_Minute_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_AOD, "button_Minute_AOD");
+            this.button_Minute_AOD.ImagePadding = 5;
             this.button_Minute_AOD.Name = "button_Minute_AOD";
             this.button_Minute_AOD.Click += new System.EventHandler(this.button_Minute_AOD_Click);
             // 
             // panel_Hour_AOD
             // 
-            this.panel_Hour_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Hour_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_AOD.Controls.Add(this.button_Copy_Hour_AOD);
             this.panel_Hour_AOD.Controls.Add(this.checkBox_Hour_add_zero_AOD);
             this.panel_Hour_AOD.Controls.Add(this.checkBox_Hour_Use_AOD);
@@ -9522,6 +9881,7 @@
             this.button_Copy_Hour_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Hour_AOD.BorderRadius = 4;
             this.button_Copy_Hour_AOD.BorderThickness = 1F;
+            this.button_Copy_Hour_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Hour_AOD, "button_Copy_Hour_AOD");
             this.button_Copy_Hour_AOD.Name = "button_Copy_Hour_AOD";
             this.button_Copy_Hour_AOD.UseVisualStyleBackColor = true;
@@ -9742,13 +10102,14 @@
             this.button_Hour_AOD.BorderRadius = 4;
             this.button_Hour_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_AOD, "button_Hour_AOD");
+            this.button_Hour_AOD.ImagePadding = 5;
             this.button_Hour_AOD.Name = "button_Hour_AOD";
             this.button_Hour_AOD.Click += new System.EventHandler(this.button_Hour_AOD_Click);
             // 
             // tabPage_Analog_time_AOD
             // 
             resources.ApplyResources(this.tabPage_Analog_time_AOD, "tabPage_Analog_time_AOD");
-            this.tabPage_Analog_time_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Analog_time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Analog_time_AOD.Controls.Add(this.panel_Minute_hand_AOD);
             this.tabPage_Analog_time_AOD.Controls.Add(this.button_Minute_hand_AOD);
             this.tabPage_Analog_time_AOD.Controls.Add(this.panel_Hour_hand_AOD);
@@ -9757,7 +10118,7 @@
             // 
             // panel_Minute_hand_AOD
             // 
-            this.panel_Minute_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Minute_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Minute_hand_AOD.Controls.Add(this.button_Copy_Minute_hand_AOD);
             this.panel_Minute_hand_AOD.Controls.Add(this.numericUpDown_Minute_handY_offset_AOD);
             this.panel_Minute_hand_AOD.Controls.Add(this.numericUpDown_Minute_handX_offset_AOD);
@@ -9787,6 +10148,7 @@
             this.button_Copy_Minute_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Minute_hand_AOD.BorderRadius = 4;
             this.button_Copy_Minute_hand_AOD.BorderThickness = 1F;
+            this.button_Copy_Minute_hand_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Minute_hand_AOD, "button_Copy_Minute_hand_AOD");
             this.button_Copy_Minute_hand_AOD.Name = "button_Copy_Minute_hand_AOD";
             this.button_Copy_Minute_hand_AOD.UseVisualStyleBackColor = true;
@@ -9991,13 +10353,14 @@
             this.button_Minute_hand_AOD.BorderRadius = 4;
             this.button_Minute_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Minute_hand_AOD, "button_Minute_hand_AOD");
+            this.button_Minute_hand_AOD.ImagePadding = 5;
             this.button_Minute_hand_AOD.Name = "button_Minute_hand_AOD";
             this.button_Minute_hand_AOD.UseVisualStyleBackColor = true;
             this.button_Minute_hand_AOD.Click += new System.EventHandler(this.button_Minute_hand_AOD_Click);
             // 
             // panel_Hour_hand_AOD
             // 
-            this.panel_Hour_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Hour_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Hour_hand_AOD.Controls.Add(this.button_Copy_Hour_hand_AOD);
             this.panel_Hour_hand_AOD.Controls.Add(this.numericUpDown_Hour_handY_offset_AOD);
             this.panel_Hour_hand_AOD.Controls.Add(this.numericUpDown_Hour_handX_offset_AOD);
@@ -10027,6 +10390,7 @@
             this.button_Copy_Hour_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Hour_hand_AOD.BorderRadius = 4;
             this.button_Copy_Hour_hand_AOD.BorderThickness = 1F;
+            this.button_Copy_Hour_hand_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Hour_hand_AOD, "button_Copy_Hour_hand_AOD");
             this.button_Copy_Hour_hand_AOD.Name = "button_Copy_Hour_hand_AOD";
             this.button_Copy_Hour_hand_AOD.UseVisualStyleBackColor = true;
@@ -10231,13 +10595,14 @@
             this.button_Hour_hand_AOD.BorderRadius = 4;
             this.button_Hour_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Hour_hand_AOD, "button_Hour_hand_AOD");
+            this.button_Hour_hand_AOD.ImagePadding = 5;
             this.button_Hour_hand_AOD.Name = "button_Hour_hand_AOD";
             this.button_Hour_hand_AOD.UseVisualStyleBackColor = true;
             this.button_Hour_hand_AOD.Click += new System.EventHandler(this.button_Hour_hand_AOD_Click);
             // 
             // tabPage_Date_AOD
             // 
-            this.tabPage_Date_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Date_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Date_AOD.Controls.Add(this.tabControl_date_AOD);
             resources.ApplyResources(this.tabPage_Date_AOD, "tabPage_Date_AOD");
             this.tabPage_Date_AOD.Name = "tabPage_Date_AOD";
@@ -10252,20 +10617,22 @@
             // 
             // 
             // 
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_date_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_date_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_date_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_date_AOD.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_date_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_date_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_date_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_date_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_date_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_date_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_date_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_date_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_date_AOD, "tabControl_date_AOD");
             this.tabControl_date_AOD.Name = "tabControl_date_AOD";
             this.tabControl_date_AOD.SelectedIndex = 0;
@@ -10273,7 +10640,7 @@
             // tabPage_Day_AOD
             // 
             resources.ApplyResources(this.tabPage_Day_AOD, "tabPage_Day_AOD");
-            this.tabPage_Day_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Day_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_AOD.Controls.Add(this.userControl_SystemFont_Group_Day_AOD);
             this.tabPage_Day_AOD.Controls.Add(this.panel_Day_hand_AOD);
             this.tabPage_Day_AOD.Controls.Add(this.button_Day_hand_AOD);
@@ -10285,9 +10652,11 @@
             // 
             this.userControl_SystemFont_Group_Day_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Day_AOD, "userControl_SystemFont_Group_Day_AOD");
+            this.userControl_SystemFont_Group_Day_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Day_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Day_AOD.Follow = true;
             this.userControl_SystemFont_Group_Day_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Day_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Day_AOD.Name = "userControl_SystemFont_Group_Day_AOD";
             this.userControl_SystemFont_Group_Day_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Day_AOD.Separator = true;
@@ -10298,7 +10667,7 @@
             // 
             // panel_Day_hand_AOD
             // 
-            this.panel_Day_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Day_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_hand_AOD.Controls.Add(this.button_Copy_Day_hand_AOD);
             this.panel_Day_hand_AOD.Controls.Add(this.checkBox_Day_hand_Use_AOD);
             this.panel_Day_hand_AOD.Controls.Add(this.comboBox_Day_hand_imageBackground_AOD);
@@ -10339,6 +10708,7 @@
             this.button_Copy_Day_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Day_hand_AOD.BorderRadius = 4;
             this.button_Copy_Day_hand_AOD.BorderThickness = 1F;
+            this.button_Copy_Day_hand_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Day_hand_AOD, "button_Copy_Day_hand_AOD");
             this.button_Copy_Day_hand_AOD.Name = "button_Copy_Day_hand_AOD";
             this.button_Copy_Day_hand_AOD.UseVisualStyleBackColor = true;
@@ -10659,13 +11029,14 @@
             this.button_Day_hand_AOD.BorderRadius = 4;
             this.button_Day_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_hand_AOD, "button_Day_hand_AOD");
+            this.button_Day_hand_AOD.ImagePadding = 5;
             this.button_Day_hand_AOD.Name = "button_Day_hand_AOD";
             this.button_Day_hand_AOD.UseVisualStyleBackColor = true;
             this.button_Day_hand_AOD.Click += new System.EventHandler(this.button_Day_hand_AOD_Click);
             // 
             // panel_Day_text_AOD
             // 
-            this.panel_Day_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Day_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Day_text_AOD.Controls.Add(this.button_Copy_Day_text_AOD);
             this.panel_Day_text_AOD.Controls.Add(this.checkBox_Day_Use_AOD);
             this.panel_Day_text_AOD.Controls.Add(this.comboBox_Day_image_AOD);
@@ -10698,6 +11069,7 @@
             this.button_Copy_Day_text_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Day_text_AOD.BorderRadius = 4;
             this.button_Copy_Day_text_AOD.BorderThickness = 1F;
+            this.button_Copy_Day_text_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Day_text_AOD, "button_Copy_Day_text_AOD");
             this.button_Copy_Day_text_AOD.Name = "button_Copy_Day_text_AOD";
             this.button_Copy_Day_text_AOD.UseVisualStyleBackColor = true;
@@ -10926,6 +11298,7 @@
             this.button_Day_text_AOD.BorderRadius = 4;
             this.button_Day_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Day_text_AOD, "button_Day_text_AOD");
+            this.button_Day_text_AOD.ImagePadding = 5;
             this.button_Day_text_AOD.Name = "button_Day_text_AOD";
             this.button_Day_text_AOD.UseVisualStyleBackColor = true;
             this.button_Day_text_AOD.Click += new System.EventHandler(this.button_Day_text_AOD_Click);
@@ -10933,7 +11306,7 @@
             // tabPage_Month_AOD
             // 
             resources.ApplyResources(this.tabPage_Month_AOD, "tabPage_Month_AOD");
-            this.tabPage_Month_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Month_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Month_AOD.Controls.Add(this.userControl_SystemFont_Group_Month_AOD);
             this.tabPage_Month_AOD.Controls.Add(this.panel_Month_hand_AOD);
             this.tabPage_Month_AOD.Controls.Add(this.button_Month_hand_AOD);
@@ -10947,9 +11320,11 @@
             // 
             this.userControl_SystemFont_Group_Month_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Month_AOD, "userControl_SystemFont_Group_Month_AOD");
+            this.userControl_SystemFont_Group_Month_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Month_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Month_AOD.Follow = true;
             this.userControl_SystemFont_Group_Month_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Month_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Month_AOD.Name = "userControl_SystemFont_Group_Month_AOD";
             this.userControl_SystemFont_Group_Month_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Month_AOD.Separator = true;
@@ -10960,7 +11335,7 @@
             // 
             // panel_Month_hand_AOD
             // 
-            this.panel_Month_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_hand_AOD.Controls.Add(this.button_Copy_Month_hand_AOD);
             this.panel_Month_hand_AOD.Controls.Add(this.checkBox_Month_hand_Use_AOD);
             this.panel_Month_hand_AOD.Controls.Add(this.comboBox_Month_hand_imageBackground_AOD);
@@ -11001,6 +11376,7 @@
             this.button_Copy_Month_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Month_hand_AOD.BorderRadius = 4;
             this.button_Copy_Month_hand_AOD.BorderThickness = 1F;
+            this.button_Copy_Month_hand_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Month_hand_AOD, "button_Copy_Month_hand_AOD");
             this.button_Copy_Month_hand_AOD.Name = "button_Copy_Month_hand_AOD";
             this.button_Copy_Month_hand_AOD.UseVisualStyleBackColor = true;
@@ -11326,13 +11702,14 @@
             this.button_Month_hand_AOD.BorderRadius = 4;
             this.button_Month_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_hand_AOD, "button_Month_hand_AOD");
+            this.button_Month_hand_AOD.ImagePadding = 5;
             this.button_Month_hand_AOD.Name = "button_Month_hand_AOD";
             this.button_Month_hand_AOD.UseVisualStyleBackColor = true;
             this.button_Month_hand_AOD.Click += new System.EventHandler(this.button_Month_hand_AOD_Click);
             // 
             // panel_Month_text_AOD
             // 
-            this.panel_Month_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_text_AOD.Controls.Add(this.button_Copy_Month_text_AOD);
             this.panel_Month_text_AOD.Controls.Add(this.checkBox_Month_Use_AOD);
             this.panel_Month_text_AOD.Controls.Add(this.checkBox_Month_follow_AOD);
@@ -11365,6 +11742,7 @@
             this.button_Copy_Month_text_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Month_text_AOD.BorderRadius = 4;
             this.button_Copy_Month_text_AOD.BorderThickness = 1F;
+            this.button_Copy_Month_text_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Month_text_AOD, "button_Copy_Month_text_AOD");
             this.button_Copy_Month_text_AOD.Name = "button_Copy_Month_text_AOD";
             this.button_Copy_Month_text_AOD.UseVisualStyleBackColor = true;
@@ -11593,13 +11971,14 @@
             this.button_Month_text_AOD.BorderRadius = 4;
             this.button_Month_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_text_AOD, "button_Month_text_AOD");
+            this.button_Month_text_AOD.ImagePadding = 5;
             this.button_Month_text_AOD.Name = "button_Month_text_AOD";
             this.button_Month_text_AOD.UseVisualStyleBackColor = true;
             this.button_Month_text_AOD.Click += new System.EventHandler(this.button_Month_text_AOD_Click);
             // 
             // panel_Month_pictures_AOD
             // 
-            this.panel_Month_pictures_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Month_pictures_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Month_pictures_AOD.Controls.Add(this.button_Copy_Month_pictures_AOD);
             this.panel_Month_pictures_AOD.Controls.Add(this.checkBox_Month_pictures_Use_AOD);
             this.panel_Month_pictures_AOD.Controls.Add(this.comboBox_Month_pictures_image_AOD);
@@ -11618,6 +11997,7 @@
             this.button_Copy_Month_pictures_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Month_pictures_AOD.BorderRadius = 4;
             this.button_Copy_Month_pictures_AOD.BorderThickness = 1F;
+            this.button_Copy_Month_pictures_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Month_pictures_AOD, "button_Copy_Month_pictures_AOD");
             this.button_Copy_Month_pictures_AOD.Name = "button_Copy_Month_pictures_AOD";
             this.button_Copy_Month_pictures_AOD.UseVisualStyleBackColor = true;
@@ -11706,6 +12086,7 @@
             this.button_Month_pictures_AOD.BorderRadius = 4;
             this.button_Month_pictures_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Month_pictures_AOD, "button_Month_pictures_AOD");
+            this.button_Month_pictures_AOD.ImagePadding = 5;
             this.button_Month_pictures_AOD.Name = "button_Month_pictures_AOD";
             this.button_Month_pictures_AOD.UseVisualStyleBackColor = true;
             this.button_Month_pictures_AOD.Click += new System.EventHandler(this.button_Month_pictures_AOD_Click);
@@ -11725,9 +12106,11 @@
             // 
             this.userControl_SystemFont_Group_Year_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Year_AOD, "userControl_SystemFont_Group_Year_AOD");
+            this.userControl_SystemFont_Group_Year_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Year_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Year_AOD.Follow = true;
             this.userControl_SystemFont_Group_Year_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Year_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Year_AOD.Name = "userControl_SystemFont_Group_Year_AOD";
             this.userControl_SystemFont_Group_Year_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Year_AOD.Separator = true;
@@ -11738,7 +12121,7 @@
             // 
             // panel16
             // 
-            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.panel16, "panel16");
             this.panel16.Name = "panel16";
             // 
@@ -11748,12 +12131,14 @@
             this.button13.BorderRadius = 4;
             this.button13.BorderThickness = 1F;
             resources.ApplyResources(this.button13, "button13");
+            this.button13.ImagePadding = 5;
             this.button13.Name = "button13";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // panel_Year_text_AOD
             // 
-            this.panel_Year_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Year_text_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.panel_Year_text_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_Year_text_AOD.Controls.Add(this.checkBox_Year_follow_AOD);
             this.panel_Year_text_AOD.Controls.Add(this.button_Copy_Year_text_AOD);
             this.panel_Year_text_AOD.Controls.Add(this.checkBox_Year_text_Use_AOD);
@@ -11792,6 +12177,7 @@
             this.button_Copy_Year_text_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_Year_text_AOD.BorderRadius = 4;
             this.button_Copy_Year_text_AOD.BorderThickness = 1F;
+            this.button_Copy_Year_text_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_Year_text_AOD, "button_Copy_Year_text_AOD");
             this.button_Copy_Year_text_AOD.Name = "button_Copy_Year_text_AOD";
             this.button_Copy_Year_text_AOD.UseVisualStyleBackColor = true;
@@ -12012,13 +12398,14 @@
             this.button_Year_text_AOD.BorderRadius = 4;
             this.button_Year_text_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_Year_text_AOD, "button_Year_text_AOD");
+            this.button_Year_text_AOD.ImagePadding = 5;
             this.button_Year_text_AOD.Name = "button_Year_text_AOD";
             this.button_Year_text_AOD.UseVisualStyleBackColor = true;
             // 
             // tabPage_Day_of_week_AOD
             // 
             resources.ApplyResources(this.tabPage_Day_of_week_AOD, "tabPage_Day_of_week_AOD");
-            this.tabPage_Day_of_week_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Day_of_week_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_of_week_AOD.Controls.Add(this.panel_DOW_hand_AOD);
             this.tabPage_Day_of_week_AOD.Controls.Add(this.button_DOW_hand_AOD);
             this.tabPage_Day_of_week_AOD.Controls.Add(this.panel_DOW_image_AOD);
@@ -12027,7 +12414,7 @@
             // 
             // panel_DOW_hand_AOD
             // 
-            this.panel_DOW_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_DOW_hand_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_hand_AOD.Controls.Add(this.button_Copy_DOW_hand_AOD);
             this.panel_DOW_hand_AOD.Controls.Add(this.checkBox_DOW_hand_Use_AOD);
             this.panel_DOW_hand_AOD.Controls.Add(this.comboBox_DOW_hand_imageBackground_AOD);
@@ -12068,6 +12455,7 @@
             this.button_Copy_DOW_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_DOW_hand_AOD.BorderRadius = 4;
             this.button_Copy_DOW_hand_AOD.BorderThickness = 1F;
+            this.button_Copy_DOW_hand_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_DOW_hand_AOD, "button_Copy_DOW_hand_AOD");
             this.button_Copy_DOW_hand_AOD.Name = "button_Copy_DOW_hand_AOD";
             this.button_Copy_DOW_hand_AOD.UseVisualStyleBackColor = true;
@@ -12388,13 +12776,14 @@
             this.button_DOW_hand_AOD.BorderRadius = 4;
             this.button_DOW_hand_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_hand_AOD, "button_DOW_hand_AOD");
+            this.button_DOW_hand_AOD.ImagePadding = 5;
             this.button_DOW_hand_AOD.Name = "button_DOW_hand_AOD";
             this.button_DOW_hand_AOD.UseVisualStyleBackColor = true;
             this.button_DOW_hand_AOD.Click += new System.EventHandler(this.button_DOW_hand_AOD_Click);
             // 
             // panel_DOW_image_AOD
             // 
-            this.panel_DOW_image_AOD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_DOW_image_AOD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panel_DOW_image_AOD.Controls.Add(this.button_Copy_DOW_image_AOD);
             this.panel_DOW_image_AOD.Controls.Add(this.checkBox_DOW_pictures_Use_AOD);
             this.panel_DOW_image_AOD.Controls.Add(this.comboBox_DOW_pictures_image_AOD);
@@ -12412,6 +12801,7 @@
             this.button_Copy_DOW_image_AOD.BorderColor = System.Drawing.Color.DimGray;
             this.button_Copy_DOW_image_AOD.BorderRadius = 4;
             this.button_Copy_DOW_image_AOD.BorderThickness = 1F;
+            this.button_Copy_DOW_image_AOD.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_DOW_image_AOD, "button_Copy_DOW_image_AOD");
             this.button_Copy_DOW_image_AOD.Name = "button_Copy_DOW_image_AOD";
             this.button_Copy_DOW_image_AOD.UseVisualStyleBackColor = true;
@@ -12500,13 +12890,14 @@
             this.button_DOW_image_AOD.BorderRadius = 4;
             this.button_DOW_image_AOD.BorderThickness = 1F;
             resources.ApplyResources(this.button_DOW_image_AOD, "button_DOW_image_AOD");
+            this.button_DOW_image_AOD.ImagePadding = 5;
             this.button_DOW_image_AOD.Name = "button_DOW_image_AOD";
             this.button_DOW_image_AOD.UseVisualStyleBackColor = true;
             this.button_DOW_image_AOD.Click += new System.EventHandler(this.button_DOW_image_AOD_Click);
             // 
             // tabPage_Activity_AOD
             // 
-            this.tabPage_Activity_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Activity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Activity_AOD.Controls.Add(this.tabControl_SystemActivity_AOD);
             resources.ApplyResources(this.tabPage_Activity_AOD, "tabPage_Activity_AOD");
             this.tabPage_Activity_AOD.Name = "tabPage_Activity_AOD";
@@ -12526,20 +12917,22 @@
             // 
             // 
             // 
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_SystemActivity_AOD, "tabControl_SystemActivity_AOD");
             this.tabControl_SystemActivity_AOD.Name = "tabControl_SystemActivity_AOD";
             this.tabControl_SystemActivity_AOD.SelectedIndex = 0;
@@ -12547,7 +12940,7 @@
             // tabPage_Steps_AOD
             // 
             resources.ApplyResources(this.tabPage_Steps_AOD, "tabPage_Steps_AOD");
-            this.tabPage_Steps_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_icon_Steps_AOD);
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_SystemFont_Group_Steps_AOD);
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_scaleLinear_Steps_AOD);
@@ -12563,7 +12956,9 @@
             // 
             this.userControl_icon_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Steps_AOD, "userControl_icon_Steps_AOD");
+            this.userControl_icon_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Steps_AOD.Collapsed = true;
+            this.userControl_icon_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Steps_AOD.Image2 = false;
             this.userControl_icon_Steps_AOD.Name = "userControl_icon_Steps_AOD";
             this.userControl_icon_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12573,9 +12968,11 @@
             // 
             this.userControl_SystemFont_Group_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Steps_AOD, "userControl_SystemFont_Group_Steps_AOD");
+            this.userControl_SystemFont_Group_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Steps_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Steps_AOD.Follow = false;
             this.userControl_SystemFont_Group_Steps_AOD.FollowGoal = true;
+            this.userControl_SystemFont_Group_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Steps_AOD.Name = "userControl_SystemFont_Group_Steps_AOD";
             this.userControl_SystemFont_Group_Steps_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Steps_AOD.Separator = true;
@@ -12588,6 +12985,7 @@
             // 
             this.userControl_scaleLinear_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Steps_AOD, "userControl_scaleLinear_Steps_AOD");
+            this.userControl_scaleLinear_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Steps_AOD.Collapsed = true;
             this.userControl_scaleLinear_Steps_AOD.Name = "userControl_scaleLinear_Steps_AOD";
             this.userControl_scaleLinear_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12597,7 +12995,9 @@
             // 
             this.userControl_scaleCircle_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Steps_AOD, "userControl_scaleCircle_Steps_AOD");
+            this.userControl_scaleCircle_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Steps_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Steps_AOD.Name = "userControl_scaleCircle_Steps_AOD";
             this.userControl_scaleCircle_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Steps_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Steps_AOD_Copy);
@@ -12606,7 +13006,9 @@
             // 
             this.userControl_hand_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Steps_AOD, "userControl_hand_Steps_AOD");
+            this.userControl_hand_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Steps_AOD.Collapsed = true;
+            this.userControl_hand_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Steps_AOD.Name = "userControl_hand_Steps_AOD";
             this.userControl_hand_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Steps_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Steps_AOD_Copy);
@@ -12615,9 +13017,11 @@
             // 
             this.userControl_text_goal_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_goal_Steps_AOD, "userControl_text_goal_Steps_AOD");
+            this.userControl_text_goal_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_Steps_AOD.Collapsed = true;
             this.userControl_text_goal_Steps_AOD.Distance = false;
             this.userControl_text_goal_Steps_AOD.Follow = true;
+            this.userControl_text_goal_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_Steps_AOD.ImageError = true;
             this.userControl_text_goal_Steps_AOD.Name = "userControl_text_goal_Steps_AOD";
             this.userControl_text_goal_Steps_AOD.OptionalSymbol = false;
@@ -12629,9 +13033,11 @@
             // 
             this.userControl_text_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Steps_AOD, "userControl_text_Steps_AOD");
+            this.userControl_text_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Steps_AOD.Collapsed = true;
             this.userControl_text_Steps_AOD.Distance = false;
             this.userControl_text_Steps_AOD.Follow = false;
+            this.userControl_text_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Steps_AOD.ImageError = true;
             this.userControl_text_Steps_AOD.Name = "userControl_text_Steps_AOD";
             this.userControl_text_Steps_AOD.OptionalSymbol = false;
@@ -12643,8 +13049,10 @@
             // 
             this.userControl_segments_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Steps_AOD, "userControl_segments_Steps_AOD");
+            this.userControl_segments_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Steps_AOD.Collapsed = true;
             this.userControl_segments_Steps_AOD.FixedRowsCount = false;
+            this.userControl_segments_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Steps_AOD.ImagesCount = -1;
             this.userControl_segments_Steps_AOD.Name = "userControl_segments_Steps_AOD";
             this.userControl_segments_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12654,7 +13062,9 @@
             // 
             this.userControl_pictures_Steps_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Steps_AOD, "userControl_pictures_Steps_AOD");
+            this.userControl_pictures_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Steps_AOD.Collapsed = true;
+            this.userControl_pictures_Steps_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Steps_AOD.ImagesCount = 10;
             this.userControl_pictures_Steps_AOD.Name = "userControl_pictures_Steps_AOD";
             this.userControl_pictures_Steps_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12663,7 +13073,7 @@
             // tabPage_Calories_AOD
             // 
             resources.ApplyResources(this.tabPage_Calories_AOD, "tabPage_Calories_AOD");
-            this.tabPage_Calories_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_icon_Calories_AOD);
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_SystemFont_Group_Calories_AOD);
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_scaleLinear_Calories_AOD);
@@ -12679,7 +13089,9 @@
             // 
             this.userControl_icon_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Calories_AOD, "userControl_icon_Calories_AOD");
+            this.userControl_icon_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Calories_AOD.Collapsed = true;
+            this.userControl_icon_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Calories_AOD.Image2 = false;
             this.userControl_icon_Calories_AOD.Name = "userControl_icon_Calories_AOD";
             this.userControl_icon_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12689,9 +13101,11 @@
             // 
             this.userControl_SystemFont_Group_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Calories_AOD, "userControl_SystemFont_Group_Calories_AOD");
+            this.userControl_SystemFont_Group_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Calories_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Calories_AOD.Follow = false;
             this.userControl_SystemFont_Group_Calories_AOD.FollowGoal = true;
+            this.userControl_SystemFont_Group_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Calories_AOD.Name = "userControl_SystemFont_Group_Calories_AOD";
             this.userControl_SystemFont_Group_Calories_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Calories_AOD.Separator = true;
@@ -12704,6 +13118,7 @@
             // 
             this.userControl_scaleLinear_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Calories_AOD, "userControl_scaleLinear_Calories_AOD");
+            this.userControl_scaleLinear_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Calories_AOD.Collapsed = true;
             this.userControl_scaleLinear_Calories_AOD.Name = "userControl_scaleLinear_Calories_AOD";
             this.userControl_scaleLinear_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12713,7 +13128,9 @@
             // 
             this.userControl_scaleCircle_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Calories_AOD, "userControl_scaleCircle_Calories_AOD");
+            this.userControl_scaleCircle_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Calories_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Calories_AOD.Name = "userControl_scaleCircle_Calories_AOD";
             this.userControl_scaleCircle_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Calories_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Calories_AOD_Copy);
@@ -12722,7 +13139,9 @@
             // 
             this.userControl_hand_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Calories_AOD, "userControl_hand_Calories_AOD");
+            this.userControl_hand_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Calories_AOD.Collapsed = true;
+            this.userControl_hand_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Calories_AOD.Name = "userControl_hand_Calories_AOD";
             this.userControl_hand_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Calories_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Calories_AOD_Copy);
@@ -12731,9 +13150,11 @@
             // 
             this.userControl_text_goal_Calories_AOD.AOD = false;
             resources.ApplyResources(this.userControl_text_goal_Calories_AOD, "userControl_text_goal_Calories_AOD");
+            this.userControl_text_goal_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_Calories_AOD.Collapsed = true;
             this.userControl_text_goal_Calories_AOD.Distance = false;
             this.userControl_text_goal_Calories_AOD.Follow = true;
+            this.userControl_text_goal_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_Calories_AOD.ImageError = true;
             this.userControl_text_goal_Calories_AOD.Name = "userControl_text_goal_Calories_AOD";
             this.userControl_text_goal_Calories_AOD.OptionalSymbol = false;
@@ -12745,9 +13166,11 @@
             // 
             this.userControl_text_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Calories_AOD, "userControl_text_Calories_AOD");
+            this.userControl_text_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Calories_AOD.Collapsed = true;
             this.userControl_text_Calories_AOD.Distance = false;
             this.userControl_text_Calories_AOD.Follow = false;
+            this.userControl_text_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Calories_AOD.ImageError = true;
             this.userControl_text_Calories_AOD.Name = "userControl_text_Calories_AOD";
             this.userControl_text_Calories_AOD.OptionalSymbol = false;
@@ -12759,8 +13182,10 @@
             // 
             this.userControl_segments_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Calories_AOD, "userControl_segments_Calories_AOD");
+            this.userControl_segments_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Calories_AOD.Collapsed = true;
             this.userControl_segments_Calories_AOD.FixedRowsCount = false;
+            this.userControl_segments_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Calories_AOD.ImagesCount = -1;
             this.userControl_segments_Calories_AOD.Name = "userControl_segments_Calories_AOD";
             this.userControl_segments_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12770,7 +13195,9 @@
             // 
             this.userControl_pictures_Calories_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Calories_AOD, "userControl_pictures_Calories_AOD");
+            this.userControl_pictures_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Calories_AOD.Collapsed = true;
+            this.userControl_pictures_Calories_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Calories_AOD.ImagesCount = 10;
             this.userControl_pictures_Calories_AOD.Name = "userControl_pictures_Calories_AOD";
             this.userControl_pictures_Calories_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12779,7 +13206,7 @@
             // tabPage_HeartRate_AOD
             // 
             resources.ApplyResources(this.tabPage_HeartRate_AOD, "tabPage_HeartRate_AOD");
-            this.tabPage_HeartRate_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_icon_HeartRate_AOD);
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_SystemFont_Group_HeartRate_AOD);
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_scaleLinear_HeartRate_AOD);
@@ -12794,7 +13221,9 @@
             // 
             this.userControl_icon_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_HeartRate_AOD, "userControl_icon_HeartRate_AOD");
+            this.userControl_icon_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_HeartRate_AOD.Collapsed = true;
+            this.userControl_icon_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_HeartRate_AOD.Image2 = false;
             this.userControl_icon_HeartRate_AOD.Name = "userControl_icon_HeartRate_AOD";
             this.userControl_icon_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12804,9 +13233,11 @@
             // 
             this.userControl_SystemFont_Group_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_HeartRate_AOD, "userControl_SystemFont_Group_HeartRate_AOD");
+            this.userControl_SystemFont_Group_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_HeartRate_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_HeartRate_AOD.Follow = false;
             this.userControl_SystemFont_Group_HeartRate_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_HeartRate_AOD.Name = "userControl_SystemFont_Group_HeartRate_AOD";
             this.userControl_SystemFont_Group_HeartRate_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_HeartRate_AOD.Separator = true;
@@ -12819,6 +13250,7 @@
             // 
             this.userControl_scaleLinear_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_HeartRate_AOD, "userControl_scaleLinear_HeartRate_AOD");
+            this.userControl_scaleLinear_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_HeartRate_AOD.Collapsed = true;
             this.userControl_scaleLinear_HeartRate_AOD.Name = "userControl_scaleLinear_HeartRate_AOD";
             this.userControl_scaleLinear_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12828,7 +13260,9 @@
             // 
             this.userControl_scaleCircle_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_HeartRate_AOD, "userControl_scaleCircle_HeartRate_AOD");
+            this.userControl_scaleCircle_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_HeartRate_AOD.Collapsed = true;
+            this.userControl_scaleCircle_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_HeartRate_AOD.Name = "userControl_scaleCircle_HeartRate_AOD";
             this.userControl_scaleCircle_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_HeartRate_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_HeartRate_AOD_Copy);
@@ -12837,7 +13271,9 @@
             // 
             this.userControl_hand_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_HeartRate_AOD, "userControl_hand_HeartRate_AOD");
+            this.userControl_hand_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_HeartRate_AOD.Collapsed = true;
+            this.userControl_hand_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_HeartRate_AOD.Name = "userControl_hand_HeartRate_AOD";
             this.userControl_hand_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_HeartRate_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_HeartRate_AOD_Copy);
@@ -12846,9 +13282,11 @@
             // 
             this.userControl_text_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_HeartRate_AOD, "userControl_text_HeartRate_AOD");
+            this.userControl_text_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_HeartRate_AOD.Collapsed = true;
             this.userControl_text_HeartRate_AOD.Distance = false;
             this.userControl_text_HeartRate_AOD.Follow = false;
+            this.userControl_text_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_HeartRate_AOD.ImageError = true;
             this.userControl_text_HeartRate_AOD.Name = "userControl_text_HeartRate_AOD";
             this.userControl_text_HeartRate_AOD.OptionalSymbol = false;
@@ -12860,8 +13298,10 @@
             // 
             this.userControl_segments_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_HeartRate_AOD, "userControl_segments_HeartRate_AOD");
+            this.userControl_segments_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_HeartRate_AOD.Collapsed = true;
             this.userControl_segments_HeartRate_AOD.FixedRowsCount = true;
+            this.userControl_segments_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_HeartRate_AOD.ImagesCount = 6;
             this.userControl_segments_HeartRate_AOD.Name = "userControl_segments_HeartRate_AOD";
             this.userControl_segments_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12871,7 +13311,9 @@
             // 
             this.userControl_pictures_HeartRate_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_HeartRate_AOD, "userControl_pictures_HeartRate_AOD");
+            this.userControl_pictures_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_HeartRate_AOD.Collapsed = true;
+            this.userControl_pictures_HeartRate_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_HeartRate_AOD.ImagesCount = 6;
             this.userControl_pictures_HeartRate_AOD.Name = "userControl_pictures_HeartRate_AOD";
             this.userControl_pictures_HeartRate_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12880,7 +13322,7 @@
             // tabPage_PAI_AOD
             // 
             resources.ApplyResources(this.tabPage_PAI_AOD, "tabPage_PAI_AOD");
-            this.tabPage_PAI_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_pictures_PAI_AOD);
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_icon_PAI_AOD);
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_SystemFont_Group_PAI_AOD);
@@ -12895,7 +13337,9 @@
             // 
             this.userControl_pictures_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_PAI_AOD, "userControl_pictures_PAI_AOD");
+            this.userControl_pictures_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_PAI_AOD.Collapsed = true;
+            this.userControl_pictures_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_PAI_AOD.ImagesCount = 10;
             this.userControl_pictures_PAI_AOD.Name = "userControl_pictures_PAI_AOD";
             this.userControl_pictures_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12905,7 +13349,9 @@
             // 
             this.userControl_icon_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_PAI_AOD, "userControl_icon_PAI_AOD");
+            this.userControl_icon_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_PAI_AOD.Collapsed = true;
+            this.userControl_icon_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_PAI_AOD.Image2 = false;
             this.userControl_icon_PAI_AOD.Name = "userControl_icon_PAI_AOD";
             this.userControl_icon_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12915,9 +13361,11 @@
             // 
             this.userControl_SystemFont_Group_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_PAI_AOD, "userControl_SystemFont_Group_PAI_AOD");
+            this.userControl_SystemFont_Group_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_PAI_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_PAI_AOD.Follow = false;
             this.userControl_SystemFont_Group_PAI_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_PAI_AOD.Name = "userControl_SystemFont_Group_PAI_AOD";
             this.userControl_SystemFont_Group_PAI_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_PAI_AOD.Separator = true;
@@ -12930,6 +13378,7 @@
             // 
             this.userControl_scaleLinear_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_PAI_AOD, "userControl_scaleLinear_PAI_AOD");
+            this.userControl_scaleLinear_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_PAI_AOD.Collapsed = true;
             this.userControl_scaleLinear_PAI_AOD.Name = "userControl_scaleLinear_PAI_AOD";
             this.userControl_scaleLinear_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12939,7 +13388,9 @@
             // 
             this.userControl_scaleCircle_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_PAI_AOD, "userControl_scaleCircle_PAI_AOD");
+            this.userControl_scaleCircle_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_PAI_AOD.Collapsed = true;
+            this.userControl_scaleCircle_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_PAI_AOD.Name = "userControl_scaleCircle_PAI_AOD";
             this.userControl_scaleCircle_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_PAI_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_PAI_AOD_Copy);
@@ -12948,7 +13399,9 @@
             // 
             this.userControl_hand_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_PAI_AOD, "userControl_hand_PAI_AOD");
+            this.userControl_hand_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_PAI_AOD.Collapsed = true;
+            this.userControl_hand_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_PAI_AOD.Name = "userControl_hand_PAI_AOD";
             this.userControl_hand_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_PAI_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_PAI_AOD_Copy);
@@ -12957,8 +13410,10 @@
             // 
             this.userControl_segments_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_PAI_AOD, "userControl_segments_PAI_AOD");
+            this.userControl_segments_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_PAI_AOD.Collapsed = true;
             this.userControl_segments_PAI_AOD.FixedRowsCount = false;
+            this.userControl_segments_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_PAI_AOD.ImagesCount = -1;
             this.userControl_segments_PAI_AOD.Name = "userControl_segments_PAI_AOD";
             this.userControl_segments_PAI_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -12968,9 +13423,11 @@
             // 
             this.userControl_text_PAI_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_PAI_AOD, "userControl_text_PAI_AOD");
+            this.userControl_text_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_PAI_AOD.Collapsed = true;
             this.userControl_text_PAI_AOD.Distance = false;
             this.userControl_text_PAI_AOD.Follow = false;
+            this.userControl_text_PAI_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_PAI_AOD.ImageError = true;
             this.userControl_text_PAI_AOD.Name = "userControl_text_PAI_AOD";
             this.userControl_text_PAI_AOD.OptionalSymbol = false;
@@ -12981,7 +13438,7 @@
             // tabPage_Distance_AOD
             // 
             resources.ApplyResources(this.tabPage_Distance_AOD, "tabPage_Distance_AOD");
-            this.tabPage_Distance_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Distance_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_icon_Distance_AOD);
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_SystemFont_Group_Distance_AOD);
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_text_Distance_AOD);
@@ -12991,7 +13448,9 @@
             // 
             this.userControl_icon_Distance_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Distance_AOD, "userControl_icon_Distance_AOD");
+            this.userControl_icon_Distance_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Distance_AOD.Collapsed = true;
+            this.userControl_icon_Distance_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Distance_AOD.Image2 = false;
             this.userControl_icon_Distance_AOD.Name = "userControl_icon_Distance_AOD";
             this.userControl_icon_Distance_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13001,9 +13460,11 @@
             // 
             this.userControl_SystemFont_Group_Distance_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Distance_AOD, "userControl_SystemFont_Group_Distance_AOD");
+            this.userControl_SystemFont_Group_Distance_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Distance_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Distance_AOD.Follow = false;
             this.userControl_SystemFont_Group_Distance_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Distance_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Distance_AOD.Name = "userControl_SystemFont_Group_Distance_AOD";
             this.userControl_SystemFont_Group_Distance_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Distance_AOD.Separator = true;
@@ -13016,9 +13477,11 @@
             // 
             this.userControl_text_Distance_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Distance_AOD, "userControl_text_Distance_AOD");
+            this.userControl_text_Distance_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Distance_AOD.Collapsed = true;
             this.userControl_text_Distance_AOD.Distance = true;
             this.userControl_text_Distance_AOD.Follow = false;
+            this.userControl_text_Distance_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Distance_AOD.ImageError = true;
             this.userControl_text_Distance_AOD.Name = "userControl_text_Distance_AOD";
             this.userControl_text_Distance_AOD.OptionalSymbol = true;
@@ -13029,7 +13492,7 @@
             // tabPage_StandUp_AOD
             // 
             resources.ApplyResources(this.tabPage_StandUp_AOD, "tabPage_StandUp_AOD");
-            this.tabPage_StandUp_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_icon_StandUp_AOD);
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_SystemFont_Group_StandUp_AOD);
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_scaleLinear_StandUp_AOD);
@@ -13045,7 +13508,9 @@
             // 
             this.userControl_icon_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_StandUp_AOD, "userControl_icon_StandUp_AOD");
+            this.userControl_icon_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_StandUp_AOD.Collapsed = true;
+            this.userControl_icon_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_StandUp_AOD.Image2 = false;
             this.userControl_icon_StandUp_AOD.Name = "userControl_icon_StandUp_AOD";
             this.userControl_icon_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13055,9 +13520,11 @@
             // 
             this.userControl_SystemFont_Group_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_StandUp_AOD, "userControl_SystemFont_Group_StandUp_AOD");
+            this.userControl_SystemFont_Group_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_StandUp_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_StandUp_AOD.Follow = false;
             this.userControl_SystemFont_Group_StandUp_AOD.FollowGoal = true;
+            this.userControl_SystemFont_Group_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_StandUp_AOD.Name = "userControl_SystemFont_Group_StandUp_AOD";
             this.userControl_SystemFont_Group_StandUp_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_StandUp_AOD.Separator = true;
@@ -13070,6 +13537,7 @@
             // 
             this.userControl_scaleLinear_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_StandUp_AOD, "userControl_scaleLinear_StandUp_AOD");
+            this.userControl_scaleLinear_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_StandUp_AOD.Collapsed = true;
             this.userControl_scaleLinear_StandUp_AOD.Name = "userControl_scaleLinear_StandUp_AOD";
             this.userControl_scaleLinear_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13079,7 +13547,9 @@
             // 
             this.userControl_scaleCircle_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_StandUp_AOD, "userControl_scaleCircle_StandUp_AOD");
+            this.userControl_scaleCircle_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_StandUp_AOD.Collapsed = true;
+            this.userControl_scaleCircle_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_StandUp_AOD.Name = "userControl_scaleCircle_StandUp_AOD";
             this.userControl_scaleCircle_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_StandUp_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_StandUp_AOD_Copy);
@@ -13088,7 +13558,9 @@
             // 
             this.userControl_hand_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_StandUp_AOD, "userControl_hand_StandUp_AOD");
+            this.userControl_hand_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_StandUp_AOD.Collapsed = true;
+            this.userControl_hand_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_StandUp_AOD.Name = "userControl_hand_StandUp_AOD";
             this.userControl_hand_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_StandUp_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_StandUp_AOD_Copy);
@@ -13097,9 +13569,11 @@
             // 
             this.userControl_text_goal_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_goal_StandUp_AOD, "userControl_text_goal_StandUp_AOD");
+            this.userControl_text_goal_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_StandUp_AOD.Collapsed = true;
             this.userControl_text_goal_StandUp_AOD.Distance = false;
             this.userControl_text_goal_StandUp_AOD.Follow = true;
+            this.userControl_text_goal_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_StandUp_AOD.ImageError = true;
             this.userControl_text_goal_StandUp_AOD.Name = "userControl_text_goal_StandUp_AOD";
             this.userControl_text_goal_StandUp_AOD.OptionalSymbol = false;
@@ -13111,9 +13585,11 @@
             // 
             this.userControl_text_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_StandUp_AOD, "userControl_text_StandUp_AOD");
+            this.userControl_text_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_StandUp_AOD.Collapsed = true;
             this.userControl_text_StandUp_AOD.Distance = false;
             this.userControl_text_StandUp_AOD.Follow = false;
+            this.userControl_text_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_StandUp_AOD.ImageError = true;
             this.userControl_text_StandUp_AOD.Name = "userControl_text_StandUp_AOD";
             this.userControl_text_StandUp_AOD.OptionalSymbol = false;
@@ -13125,8 +13601,10 @@
             // 
             this.userControl_segments_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_StandUp_AOD, "userControl_segments_StandUp_AOD");
+            this.userControl_segments_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_StandUp_AOD.Collapsed = true;
             this.userControl_segments_StandUp_AOD.FixedRowsCount = false;
+            this.userControl_segments_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_StandUp_AOD.ImagesCount = -1;
             this.userControl_segments_StandUp_AOD.Name = "userControl_segments_StandUp_AOD";
             this.userControl_segments_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13136,7 +13614,9 @@
             // 
             this.userControl_pictures_StandUp_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_StandUp_AOD, "userControl_pictures_StandUp_AOD");
+            this.userControl_pictures_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_StandUp_AOD.Collapsed = true;
+            this.userControl_pictures_StandUp_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_StandUp_AOD.ImagesCount = 10;
             this.userControl_pictures_StandUp_AOD.Name = "userControl_pictures_StandUp_AOD";
             this.userControl_pictures_StandUp_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13145,7 +13625,7 @@
             // tabPage_Stress_AOD
             // 
             resources.ApplyResources(this.tabPage_Stress_AOD, "tabPage_Stress_AOD");
-            this.tabPage_Stress_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_icon_Stress_AOD);
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_SystemFont_Group_Stress_AOD);
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_scaleLinear_Stress_AOD);
@@ -13160,7 +13640,9 @@
             // 
             this.userControl_icon_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Stress_AOD, "userControl_icon_Stress_AOD");
+            this.userControl_icon_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Stress_AOD.Collapsed = true;
+            this.userControl_icon_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Stress_AOD.Image2 = false;
             this.userControl_icon_Stress_AOD.Name = "userControl_icon_Stress_AOD";
             this.userControl_icon_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13170,9 +13652,11 @@
             // 
             this.userControl_SystemFont_Group_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Stress_AOD, "userControl_SystemFont_Group_Stress_AOD");
+            this.userControl_SystemFont_Group_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Stress_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Stress_AOD.Follow = false;
             this.userControl_SystemFont_Group_Stress_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Stress_AOD.Name = "userControl_SystemFont_Group_Stress_AOD";
             this.userControl_SystemFont_Group_Stress_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Stress_AOD.Separator = true;
@@ -13185,6 +13669,7 @@
             // 
             this.userControl_scaleLinear_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Stress_AOD, "userControl_scaleLinear_Stress_AOD");
+            this.userControl_scaleLinear_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Stress_AOD.Collapsed = true;
             this.userControl_scaleLinear_Stress_AOD.Name = "userControl_scaleLinear_Stress_AOD";
             this.userControl_scaleLinear_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13194,7 +13679,9 @@
             // 
             this.userControl_scaleCircle_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Stress_AOD, "userControl_scaleCircle_Stress_AOD");
+            this.userControl_scaleCircle_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Stress_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Stress_AOD.Name = "userControl_scaleCircle_Stress_AOD";
             this.userControl_scaleCircle_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Stress_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Stress_AOD_Copy);
@@ -13203,7 +13690,9 @@
             // 
             this.userControl_hand_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Stress_AOD, "userControl_hand_Stress_AOD");
+            this.userControl_hand_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Stress_AOD.Collapsed = true;
+            this.userControl_hand_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Stress_AOD.Name = "userControl_hand_Stress_AOD";
             this.userControl_hand_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Stress_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Stress_AOD_Copy);
@@ -13212,9 +13701,11 @@
             // 
             this.userControl_text_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Stress_AOD, "userControl_text_Stress_AOD");
+            this.userControl_text_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Stress_AOD.Collapsed = true;
             this.userControl_text_Stress_AOD.Distance = false;
             this.userControl_text_Stress_AOD.Follow = false;
+            this.userControl_text_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Stress_AOD.ImageError = true;
             this.userControl_text_Stress_AOD.Name = "userControl_text_Stress_AOD";
             this.userControl_text_Stress_AOD.OptionalSymbol = false;
@@ -13226,8 +13717,10 @@
             // 
             this.userControl_segments_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Stress_AOD, "userControl_segments_Stress_AOD");
+            this.userControl_segments_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Stress_AOD.Collapsed = true;
             this.userControl_segments_Stress_AOD.FixedRowsCount = false;
+            this.userControl_segments_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Stress_AOD.ImagesCount = -1;
             this.userControl_segments_Stress_AOD.Name = "userControl_segments_Stress_AOD";
             this.userControl_segments_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13237,7 +13730,9 @@
             // 
             this.userControl_pictures_Stress_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Stress_AOD, "userControl_pictures_Stress_AOD");
+            this.userControl_pictures_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Stress_AOD.Collapsed = true;
+            this.userControl_pictures_Stress_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Stress_AOD.ImagesCount = 10;
             this.userControl_pictures_Stress_AOD.Name = "userControl_pictures_Stress_AOD";
             this.userControl_pictures_Stress_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13246,7 +13741,7 @@
             // tabPage_ActivityGoal_AOD
             // 
             resources.ApplyResources(this.tabPage_ActivityGoal_AOD, "tabPage_ActivityGoal_AOD");
-            this.tabPage_ActivityGoal_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.groupBox_ActivityGoal_AOD);
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.userControl_icon_ActivityGoal_AOD);
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.userControl_SystemFont_Group_ActivityGoal_AOD);
@@ -13261,6 +13756,9 @@
             // 
             // groupBox_ActivityGoal_AOD
             // 
+            this.groupBox_ActivityGoal_AOD.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_ActivityGoal_AOD.BorderRadius = 4;
+            this.groupBox_ActivityGoal_AOD.BorderThickness = 1F;
             this.groupBox_ActivityGoal_AOD.Controls.Add(this.radioButton_ActivityGoal_Calories_AOD);
             this.groupBox_ActivityGoal_AOD.Controls.Add(this.radioButton_ActivityGoal_Steps_AOD);
             resources.ApplyResources(this.groupBox_ActivityGoal_AOD, "groupBox_ActivityGoal_AOD");
@@ -13286,7 +13784,9 @@
             // 
             this.userControl_icon_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_ActivityGoal_AOD, "userControl_icon_ActivityGoal_AOD");
+            this.userControl_icon_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_ActivityGoal_AOD.Collapsed = true;
+            this.userControl_icon_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_ActivityGoal_AOD.Image2 = true;
             this.userControl_icon_ActivityGoal_AOD.Name = "userControl_icon_ActivityGoal_AOD";
             this.userControl_icon_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13296,9 +13796,11 @@
             // 
             this.userControl_SystemFont_Group_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_ActivityGoal_AOD, "userControl_SystemFont_Group_ActivityGoal_AOD");
+            this.userControl_SystemFont_Group_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_ActivityGoal_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_ActivityGoal_AOD.Follow = false;
             this.userControl_SystemFont_Group_ActivityGoal_AOD.FollowGoal = true;
+            this.userControl_SystemFont_Group_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_ActivityGoal_AOD.Name = "userControl_SystemFont_Group_ActivityGoal_AOD";
             this.userControl_SystemFont_Group_ActivityGoal_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_ActivityGoal_AOD.Separator = true;
@@ -13311,6 +13813,7 @@
             // 
             this.userControl_scaleLinear_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_ActivityGoal_AOD, "userControl_scaleLinear_ActivityGoal_AOD");
+            this.userControl_scaleLinear_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_ActivityGoal_AOD.Collapsed = true;
             this.userControl_scaleLinear_ActivityGoal_AOD.Name = "userControl_scaleLinear_ActivityGoal_AOD";
             this.userControl_scaleLinear_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13320,7 +13823,9 @@
             // 
             this.userControl_scaleCircle_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_ActivityGoal_AOD, "userControl_scaleCircle_ActivityGoal_AOD");
+            this.userControl_scaleCircle_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_ActivityGoal_AOD.Collapsed = true;
+            this.userControl_scaleCircle_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_ActivityGoal_AOD.Name = "userControl_scaleCircle_ActivityGoal_AOD";
             this.userControl_scaleCircle_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_ActivityGoal_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_ActivityGoal_AOD_Copy);
@@ -13329,7 +13834,9 @@
             // 
             this.userControl_hand_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_ActivityGoal_AOD, "userControl_hand_ActivityGoal_AOD");
+            this.userControl_hand_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_ActivityGoal_AOD.Collapsed = true;
+            this.userControl_hand_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_ActivityGoal_AOD.Name = "userControl_hand_ActivityGoal_AOD";
             this.userControl_hand_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_ActivityGoal_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_ActivityGoal_AOD_Copy);
@@ -13338,9 +13845,11 @@
             // 
             this.userControl_text_goal_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_goal_ActivityGoal_AOD, "userControl_text_goal_ActivityGoal_AOD");
+            this.userControl_text_goal_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_ActivityGoal_AOD.Collapsed = true;
             this.userControl_text_goal_ActivityGoal_AOD.Distance = false;
             this.userControl_text_goal_ActivityGoal_AOD.Follow = true;
+            this.userControl_text_goal_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_ActivityGoal_AOD.ImageError = true;
             this.userControl_text_goal_ActivityGoal_AOD.Name = "userControl_text_goal_ActivityGoal_AOD";
             this.userControl_text_goal_ActivityGoal_AOD.OptionalSymbol = false;
@@ -13352,9 +13861,11 @@
             // 
             this.userControl_text_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_ActivityGoal_AOD, "userControl_text_ActivityGoal_AOD");
+            this.userControl_text_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_ActivityGoal_AOD.Collapsed = true;
             this.userControl_text_ActivityGoal_AOD.Distance = false;
             this.userControl_text_ActivityGoal_AOD.Follow = false;
+            this.userControl_text_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_ActivityGoal_AOD.ImageError = true;
             this.userControl_text_ActivityGoal_AOD.Name = "userControl_text_ActivityGoal_AOD";
             this.userControl_text_ActivityGoal_AOD.OptionalSymbol = false;
@@ -13366,8 +13877,10 @@
             // 
             this.userControl_segments_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_ActivityGoal_AOD, "userControl_segments_ActivityGoal_AOD");
+            this.userControl_segments_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_ActivityGoal_AOD.Collapsed = true;
             this.userControl_segments_ActivityGoal_AOD.FixedRowsCount = false;
+            this.userControl_segments_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_ActivityGoal_AOD.ImagesCount = -1;
             this.userControl_segments_ActivityGoal_AOD.Name = "userControl_segments_ActivityGoal_AOD";
             this.userControl_segments_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13377,7 +13890,9 @@
             // 
             this.userControl_pictures_ActivityGoal_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_ActivityGoal_AOD, "userControl_pictures_ActivityGoal_AOD");
+            this.userControl_pictures_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_ActivityGoal_AOD.Collapsed = true;
+            this.userControl_pictures_ActivityGoal_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_ActivityGoal_AOD.ImagesCount = 10;
             this.userControl_pictures_ActivityGoal_AOD.Name = "userControl_pictures_ActivityGoal_AOD";
             this.userControl_pictures_ActivityGoal_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13386,7 +13901,7 @@
             // tabPage_FatBurning_AOD
             // 
             resources.ApplyResources(this.tabPage_FatBurning_AOD, "tabPage_FatBurning_AOD");
-            this.tabPage_FatBurning_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_icon_FatBurning_AOD);
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_SystemFont_Group_FatBurning_AOD);
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_scaleLinear_FatBurning_AOD);
@@ -13402,7 +13917,9 @@
             // 
             this.userControl_icon_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_FatBurning_AOD, "userControl_icon_FatBurning_AOD");
+            this.userControl_icon_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_FatBurning_AOD.Collapsed = true;
+            this.userControl_icon_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_FatBurning_AOD.Image2 = false;
             this.userControl_icon_FatBurning_AOD.Name = "userControl_icon_FatBurning_AOD";
             this.userControl_icon_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13412,9 +13929,11 @@
             // 
             this.userControl_SystemFont_Group_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_FatBurning_AOD, "userControl_SystemFont_Group_FatBurning_AOD");
+            this.userControl_SystemFont_Group_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_FatBurning_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_FatBurning_AOD.Follow = false;
             this.userControl_SystemFont_Group_FatBurning_AOD.FollowGoal = true;
+            this.userControl_SystemFont_Group_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_FatBurning_AOD.Name = "userControl_SystemFont_Group_FatBurning_AOD";
             this.userControl_SystemFont_Group_FatBurning_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_FatBurning_AOD.Separator = true;
@@ -13427,6 +13946,7 @@
             // 
             this.userControl_scaleLinear_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_FatBurning_AOD, "userControl_scaleLinear_FatBurning_AOD");
+            this.userControl_scaleLinear_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_FatBurning_AOD.Collapsed = true;
             this.userControl_scaleLinear_FatBurning_AOD.Name = "userControl_scaleLinear_FatBurning_AOD";
             this.userControl_scaleLinear_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13436,7 +13956,9 @@
             // 
             this.userControl_scaleCircle_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_FatBurning_AOD, "userControl_scaleCircle_FatBurning_AOD");
+            this.userControl_scaleCircle_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_FatBurning_AOD.Collapsed = true;
+            this.userControl_scaleCircle_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_FatBurning_AOD.Name = "userControl_scaleCircle_FatBurning_AOD";
             this.userControl_scaleCircle_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_FatBurning_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_FatBurning_AOD_Copy);
@@ -13445,7 +13967,9 @@
             // 
             this.userControl_hand_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_FatBurning_AOD, "userControl_hand_FatBurning_AOD");
+            this.userControl_hand_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_FatBurning_AOD.Collapsed = true;
+            this.userControl_hand_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_FatBurning_AOD.Name = "userControl_hand_FatBurning_AOD";
             this.userControl_hand_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_FatBurning_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_FatBurning_AOD_Copy);
@@ -13454,9 +13978,11 @@
             // 
             this.userControl_text_goal_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_goal_FatBurning_AOD, "userControl_text_goal_FatBurning_AOD");
+            this.userControl_text_goal_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goal_FatBurning_AOD.Collapsed = true;
             this.userControl_text_goal_FatBurning_AOD.Distance = false;
             this.userControl_text_goal_FatBurning_AOD.Follow = true;
+            this.userControl_text_goal_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goal_FatBurning_AOD.ImageError = true;
             this.userControl_text_goal_FatBurning_AOD.Name = "userControl_text_goal_FatBurning_AOD";
             this.userControl_text_goal_FatBurning_AOD.OptionalSymbol = false;
@@ -13467,9 +13993,11 @@
             // 
             this.userControl_text_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_FatBurning_AOD, "userControl_text_FatBurning_AOD");
+            this.userControl_text_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_FatBurning_AOD.Collapsed = true;
             this.userControl_text_FatBurning_AOD.Distance = false;
             this.userControl_text_FatBurning_AOD.Follow = false;
+            this.userControl_text_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_FatBurning_AOD.ImageError = true;
             this.userControl_text_FatBurning_AOD.Name = "userControl_text_FatBurning_AOD";
             this.userControl_text_FatBurning_AOD.OptionalSymbol = false;
@@ -13481,8 +14009,10 @@
             // 
             this.userControl_segments_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_FatBurning_AOD, "userControl_segments_FatBurning_AOD");
+            this.userControl_segments_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_FatBurning_AOD.Collapsed = true;
             this.userControl_segments_FatBurning_AOD.FixedRowsCount = false;
+            this.userControl_segments_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_FatBurning_AOD.ImagesCount = -1;
             this.userControl_segments_FatBurning_AOD.Name = "userControl_segments_FatBurning_AOD";
             this.userControl_segments_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13492,7 +14022,9 @@
             // 
             this.userControl_pictures_FatBurning_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_FatBurning_AOD, "userControl_pictures_FatBurning_AOD");
+            this.userControl_pictures_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_FatBurning_AOD.Collapsed = true;
+            this.userControl_pictures_FatBurning_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_FatBurning_AOD.ImagesCount = 10;
             this.userControl_pictures_FatBurning_AOD.Name = "userControl_pictures_FatBurning_AOD";
             this.userControl_pictures_FatBurning_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13500,7 +14032,7 @@
             // 
             // tabPage_Air_AOD
             // 
-            this.tabPage_Air_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Air_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Air_AOD.Controls.Add(this.tabControl_SystemWeather_AOD);
             resources.ApplyResources(this.tabPage_Air_AOD, "tabPage_Air_AOD");
             this.tabPage_Air_AOD.Name = "tabPage_Air_AOD";
@@ -13519,20 +14051,22 @@
             // 
             // 
             // 
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_SystemWeather_AOD, "tabControl_SystemWeather_AOD");
             this.tabControl_SystemWeather_AOD.Name = "tabControl_SystemWeather_AOD";
             this.tabControl_SystemWeather_AOD.SelectedIndex = 0;
@@ -13540,7 +14074,7 @@
             // tabPage_Weather_AOD
             // 
             resources.ApplyResources(this.tabPage_Weather_AOD, "tabPage_Weather_AOD");
-            this.tabPage_Weather_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Weather_AOD.Controls.Add(this.checkBox_weatherAlignmentFix_AOD);
             this.tabPage_Weather_AOD.Controls.Add(this.userControl_icon_Weather_AOD);
             this.tabPage_Weather_AOD.Controls.Add(this.userControl_SystemFont_GroupWeather_AOD);
@@ -13564,7 +14098,9 @@
             // 
             this.userControl_icon_Weather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Weather_AOD, "userControl_icon_Weather_AOD");
+            this.userControl_icon_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Weather_AOD.Collapsed = true;
+            this.userControl_icon_Weather_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Weather_AOD.Image2 = false;
             this.userControl_icon_Weather_AOD.Name = "userControl_icon_Weather_AOD";
             this.userControl_icon_Weather_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13574,10 +14110,12 @@
             // 
             this.userControl_SystemFont_GroupWeather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_GroupWeather_AOD, "userControl_SystemFont_GroupWeather_AOD");
+            this.userControl_SystemFont_GroupWeather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWeather_AOD.Collapsed = true;
             this.userControl_SystemFont_GroupWeather_AOD.Follow = false;
             this.userControl_SystemFont_GroupWeather_AOD.FollowMax = true;
             this.userControl_SystemFont_GroupWeather_AOD.FollowMin = true;
+            this.userControl_SystemFont_GroupWeather_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWeather_AOD.Name = "userControl_SystemFont_GroupWeather_AOD";
             this.userControl_SystemFont_GroupWeather_AOD.Padding_zero = true;
             this.userControl_SystemFont_GroupWeather_AOD.Separator = true;
@@ -13591,6 +14129,7 @@
             // 
             this.userControl_scaleLinear_Weather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Weather_AOD, "userControl_scaleLinear_Weather_AOD");
+            this.userControl_scaleLinear_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Weather_AOD.Collapsed = true;
             this.userControl_scaleLinear_Weather_AOD.Name = "userControl_scaleLinear_Weather_AOD";
             this.userControl_scaleLinear_Weather_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13600,7 +14139,9 @@
             // 
             this.userControl_scaleCircle_Weather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Weather_AOD, "userControl_scaleCircle_Weather_AOD");
+            this.userControl_scaleCircle_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Weather_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Weather_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Weather_AOD.Name = "userControl_scaleCircle_Weather_AOD";
             this.userControl_scaleCircle_Weather_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Weather_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Weather_AOD_Copy);
@@ -13609,7 +14150,9 @@
             // 
             this.userControl_hand_Weather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Weather_AOD, "userControl_hand_Weather_AOD");
+            this.userControl_hand_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Weather_AOD.Collapsed = true;
+            this.userControl_hand_Weather_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Weather_AOD.Name = "userControl_hand_Weather_AOD";
             this.userControl_hand_Weather_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Weather_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Weather_AOD_Copy);
@@ -13618,9 +14161,11 @@
             // 
             this.userControl_text_weather_Max_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_weather_Max_AOD, "userControl_text_weather_Max_AOD");
+            this.userControl_text_weather_Max_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Max_AOD.Collapsed = true;
             this.userControl_text_weather_Max_AOD.Distance = false;
             this.userControl_text_weather_Max_AOD.Follow = true;
+            this.userControl_text_weather_Max_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Max_AOD.ImageError = true;
             this.userControl_text_weather_Max_AOD.Name = "userControl_text_weather_Max_AOD";
             this.userControl_text_weather_Max_AOD.OptionalSymbol = true;
@@ -13632,9 +14177,11 @@
             // 
             this.userControl_text_weather_Min_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_weather_Min_AOD, "userControl_text_weather_Min_AOD");
+            this.userControl_text_weather_Min_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Min_AOD.Collapsed = true;
             this.userControl_text_weather_Min_AOD.Distance = false;
             this.userControl_text_weather_Min_AOD.Follow = false;
+            this.userControl_text_weather_Min_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Min_AOD.ImageError = true;
             this.userControl_text_weather_Min_AOD.Name = "userControl_text_weather_Min_AOD";
             this.userControl_text_weather_Min_AOD.OptionalSymbol = true;
@@ -13646,9 +14193,11 @@
             // 
             this.userControl_text_weather_Current_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_weather_Current_AOD, "userControl_text_weather_Current_AOD");
+            this.userControl_text_weather_Current_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weather_Current_AOD.Collapsed = true;
             this.userControl_text_weather_Current_AOD.Distance = false;
             this.userControl_text_weather_Current_AOD.Follow = false;
+            this.userControl_text_weather_Current_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weather_Current_AOD.ImageError = true;
             this.userControl_text_weather_Current_AOD.Name = "userControl_text_weather_Current_AOD";
             this.userControl_text_weather_Current_AOD.OptionalSymbol = true;
@@ -13660,7 +14209,9 @@
             // 
             this.userControl_pictures_weather_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_weather_AOD, "userControl_pictures_weather_AOD");
+            this.userControl_pictures_weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_weather_AOD.Collapsed = true;
+            this.userControl_pictures_weather_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_weather_AOD.ImagesCount = 29;
             this.userControl_pictures_weather_AOD.Name = "userControl_pictures_weather_AOD";
             this.userControl_pictures_weather_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13669,7 +14220,7 @@
             // tabPage_UVindex_AOD
             // 
             resources.ApplyResources(this.tabPage_UVindex_AOD, "tabPage_UVindex_AOD");
-            this.tabPage_UVindex_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_icon_UVindex_AOD);
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_SystemFont_Group_UVindex_AOD);
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_scaleLinear_UVindex_AOD);
@@ -13684,7 +14235,9 @@
             // 
             this.userControl_icon_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_UVindex_AOD, "userControl_icon_UVindex_AOD");
+            this.userControl_icon_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_UVindex_AOD.Collapsed = true;
+            this.userControl_icon_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_UVindex_AOD.Image2 = false;
             this.userControl_icon_UVindex_AOD.Name = "userControl_icon_UVindex_AOD";
             this.userControl_icon_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13694,9 +14247,11 @@
             // 
             this.userControl_SystemFont_Group_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_UVindex_AOD, "userControl_SystemFont_Group_UVindex_AOD");
+            this.userControl_SystemFont_Group_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_UVindex_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_UVindex_AOD.Follow = false;
             this.userControl_SystemFont_Group_UVindex_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_UVindex_AOD.Name = "userControl_SystemFont_Group_UVindex_AOD";
             this.userControl_SystemFont_Group_UVindex_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_UVindex_AOD.Separator = true;
@@ -13709,6 +14264,7 @@
             // 
             this.userControl_scaleLinear_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_UVindex_AOD, "userControl_scaleLinear_UVindex_AOD");
+            this.userControl_scaleLinear_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_UVindex_AOD.Collapsed = true;
             this.userControl_scaleLinear_UVindex_AOD.Name = "userControl_scaleLinear_UVindex_AOD";
             this.userControl_scaleLinear_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13718,7 +14274,9 @@
             // 
             this.userControl_scaleCircle_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_UVindex_AOD, "userControl_scaleCircle_UVindex_AOD");
+            this.userControl_scaleCircle_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_UVindex_AOD.Collapsed = true;
+            this.userControl_scaleCircle_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_UVindex_AOD.Name = "userControl_scaleCircle_UVindex_AOD";
             this.userControl_scaleCircle_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_UVindex_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_UVindex_AOD_Copy);
@@ -13727,7 +14285,9 @@
             // 
             this.userControl_hand_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_UVindex_AOD, "userControl_hand_UVindex_AOD");
+            this.userControl_hand_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_UVindex_AOD.Collapsed = true;
+            this.userControl_hand_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_UVindex_AOD.Name = "userControl_hand_UVindex_AOD";
             this.userControl_hand_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_UVindex_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_UVindex_AOD_Copy);
@@ -13736,9 +14296,11 @@
             // 
             this.userControl_text_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_UVindex_AOD, "userControl_text_UVindex_AOD");
+            this.userControl_text_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_UVindex_AOD.Collapsed = true;
             this.userControl_text_UVindex_AOD.Distance = false;
             this.userControl_text_UVindex_AOD.Follow = false;
+            this.userControl_text_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_UVindex_AOD.ImageError = true;
             this.userControl_text_UVindex_AOD.Name = "userControl_text_UVindex_AOD";
             this.userControl_text_UVindex_AOD.OptionalSymbol = false;
@@ -13750,8 +14312,10 @@
             // 
             this.userControl_segments_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_UVindex_AOD, "userControl_segments_UVindex_AOD");
+            this.userControl_segments_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_UVindex_AOD.Collapsed = true;
             this.userControl_segments_UVindex_AOD.FixedRowsCount = true;
+            this.userControl_segments_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_UVindex_AOD.ImagesCount = 5;
             this.userControl_segments_UVindex_AOD.Name = "userControl_segments_UVindex_AOD";
             this.userControl_segments_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13761,7 +14325,9 @@
             // 
             this.userControl_pictures_UVindex_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_UVindex_AOD, "userControl_pictures_UVindex_AOD");
+            this.userControl_pictures_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_UVindex_AOD.Collapsed = true;
+            this.userControl_pictures_UVindex_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_UVindex_AOD.ImagesCount = 5;
             this.userControl_pictures_UVindex_AOD.Name = "userControl_pictures_UVindex_AOD";
             this.userControl_pictures_UVindex_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13770,7 +14336,7 @@
             // tabPage_AirQuality_AOD
             // 
             resources.ApplyResources(this.tabPage_AirQuality_AOD, "tabPage_AirQuality_AOD");
-            this.tabPage_AirQuality_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_icon_AirQuality_AOD);
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_SystemFont_Group_AirQuality_AOD);
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_scaleLinear_AirQuality_AOD);
@@ -13785,7 +14351,9 @@
             // 
             this.userControl_icon_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_AirQuality_AOD, "userControl_icon_AirQuality_AOD");
+            this.userControl_icon_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_AirQuality_AOD.Collapsed = true;
+            this.userControl_icon_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_AirQuality_AOD.Image2 = false;
             this.userControl_icon_AirQuality_AOD.Name = "userControl_icon_AirQuality_AOD";
             this.userControl_icon_AirQuality_AOD.Collapse += new AmazFit_Watchface_2.UserControl_icon.CollapseHandler(this.userControl_icon_AirQuality_AOD_Copy);
@@ -13795,9 +14363,11 @@
             // 
             this.userControl_SystemFont_Group_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_AirQuality_AOD, "userControl_SystemFont_Group_AirQuality_AOD");
+            this.userControl_SystemFont_Group_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_AirQuality_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_AirQuality_AOD.Follow = false;
             this.userControl_SystemFont_Group_AirQuality_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_AirQuality_AOD.Name = "userControl_SystemFont_Group_AirQuality_AOD";
             this.userControl_SystemFont_Group_AirQuality_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_AirQuality_AOD.Separator = true;
@@ -13810,6 +14380,7 @@
             // 
             this.userControl_scaleLinear_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_AirQuality_AOD, "userControl_scaleLinear_AirQuality_AOD");
+            this.userControl_scaleLinear_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_AirQuality_AOD.Collapsed = true;
             this.userControl_scaleLinear_AirQuality_AOD.Name = "userControl_scaleLinear_AirQuality_AOD";
             this.userControl_scaleLinear_AirQuality_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13819,7 +14390,9 @@
             // 
             this.userControl_scaleCircle_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_AirQuality_AOD, "userControl_scaleCircle_AirQuality_AOD");
+            this.userControl_scaleCircle_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_AirQuality_AOD.Collapsed = true;
+            this.userControl_scaleCircle_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_AirQuality_AOD.Name = "userControl_scaleCircle_AirQuality_AOD";
             this.userControl_scaleCircle_AirQuality_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_AirQuality_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_AirQuality_AOD_Copy);
@@ -13828,7 +14401,9 @@
             // 
             this.userControl_hand_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_AirQuality_AOD, "userControl_hand_AirQuality_AOD");
+            this.userControl_hand_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_AirQuality_AOD.Collapsed = true;
+            this.userControl_hand_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_AirQuality_AOD.Name = "userControl_hand_AirQuality_AOD";
             this.userControl_hand_AirQuality_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_AirQuality_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_AirQuality_AOD_Copy);
@@ -13837,9 +14412,11 @@
             // 
             this.userControl_text_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_AirQuality_AOD, "userControl_text_AirQuality_AOD");
+            this.userControl_text_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_AirQuality_AOD.Collapsed = true;
             this.userControl_text_AirQuality_AOD.Distance = false;
             this.userControl_text_AirQuality_AOD.Follow = false;
+            this.userControl_text_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_AirQuality_AOD.ImageError = true;
             this.userControl_text_AirQuality_AOD.Name = "userControl_text_AirQuality_AOD";
             this.userControl_text_AirQuality_AOD.OptionalSymbol = false;
@@ -13851,8 +14428,10 @@
             // 
             this.userControl_segments_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_AirQuality_AOD, "userControl_segments_AirQuality_AOD");
+            this.userControl_segments_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_AirQuality_AOD.Collapsed = true;
             this.userControl_segments_AirQuality_AOD.FixedRowsCount = true;
+            this.userControl_segments_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_AirQuality_AOD.ImagesCount = 6;
             this.userControl_segments_AirQuality_AOD.Name = "userControl_segments_AirQuality_AOD";
             this.userControl_segments_AirQuality_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13862,7 +14441,9 @@
             // 
             this.userControl_pictures_AirQuality_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_AirQuality_AOD, "userControl_pictures_AirQuality_AOD");
+            this.userControl_pictures_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_AirQuality_AOD.Collapsed = true;
+            this.userControl_pictures_AirQuality_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_AirQuality_AOD.ImagesCount = 6;
             this.userControl_pictures_AirQuality_AOD.Name = "userControl_pictures_AirQuality_AOD";
             this.userControl_pictures_AirQuality_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13871,7 +14452,7 @@
             // tabPage_Humidity_AOD
             // 
             resources.ApplyResources(this.tabPage_Humidity_AOD, "tabPage_Humidity_AOD");
-            this.tabPage_Humidity_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_icon_Humidity_AOD);
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_SystemFont_Group_Humidity_AOD);
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_scaleLinear_Humidity_AOD);
@@ -13886,7 +14467,9 @@
             // 
             this.userControl_icon_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Humidity_AOD, "userControl_icon_Humidity_AOD");
+            this.userControl_icon_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Humidity_AOD.Collapsed = true;
+            this.userControl_icon_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Humidity_AOD.Image2 = false;
             this.userControl_icon_Humidity_AOD.Name = "userControl_icon_Humidity_AOD";
             this.userControl_icon_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13896,9 +14479,11 @@
             // 
             this.userControl_SystemFont_Group_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Humidity_AOD, "userControl_SystemFont_Group_Humidity_AOD");
+            this.userControl_SystemFont_Group_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Humidity_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Humidity_AOD.Follow = false;
             this.userControl_SystemFont_Group_Humidity_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Humidity_AOD.Name = "userControl_SystemFont_Group_Humidity_AOD";
             this.userControl_SystemFont_Group_Humidity_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Humidity_AOD.Separator = true;
@@ -13911,6 +14496,7 @@
             // 
             this.userControl_scaleLinear_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Humidity_AOD, "userControl_scaleLinear_Humidity_AOD");
+            this.userControl_scaleLinear_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Humidity_AOD.Collapsed = true;
             this.userControl_scaleLinear_Humidity_AOD.Name = "userControl_scaleLinear_Humidity_AOD";
             this.userControl_scaleLinear_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13920,7 +14506,9 @@
             // 
             this.userControl_scaleCircle_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Humidity_AOD, "userControl_scaleCircle_Humidity_AOD");
+            this.userControl_scaleCircle_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Humidity_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Humidity_AOD.Name = "userControl_scaleCircle_Humidity_AOD";
             this.userControl_scaleCircle_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Humidity_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Humidity_AOD_Copy);
@@ -13929,7 +14517,9 @@
             // 
             this.userControl_hand_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Humidity_AOD, "userControl_hand_Humidity_AOD");
+            this.userControl_hand_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Humidity_AOD.Collapsed = true;
+            this.userControl_hand_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Humidity_AOD.Name = "userControl_hand_Humidity_AOD";
             this.userControl_hand_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Humidity_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Humidity_AOD_Copy);
@@ -13938,9 +14528,11 @@
             // 
             this.userControl_text_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Humidity_AOD, "userControl_text_Humidity_AOD");
+            this.userControl_text_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Humidity_AOD.Collapsed = true;
             this.userControl_text_Humidity_AOD.Distance = false;
             this.userControl_text_Humidity_AOD.Follow = false;
+            this.userControl_text_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Humidity_AOD.ImageError = true;
             this.userControl_text_Humidity_AOD.Name = "userControl_text_Humidity_AOD";
             this.userControl_text_Humidity_AOD.OptionalSymbol = false;
@@ -13952,8 +14544,10 @@
             // 
             this.userControl_segments_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Humidity_AOD, "userControl_segments_Humidity_AOD");
+            this.userControl_segments_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Humidity_AOD.Collapsed = true;
             this.userControl_segments_Humidity_AOD.FixedRowsCount = false;
+            this.userControl_segments_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Humidity_AOD.ImagesCount = -1;
             this.userControl_segments_Humidity_AOD.Name = "userControl_segments_Humidity_AOD";
             this.userControl_segments_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13963,7 +14557,9 @@
             // 
             this.userControl_pictures_Humidity_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Humidity_AOD, "userControl_pictures_Humidity_AOD");
+            this.userControl_pictures_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Humidity_AOD.Collapsed = true;
+            this.userControl_pictures_Humidity_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Humidity_AOD.ImagesCount = 10;
             this.userControl_pictures_Humidity_AOD.Name = "userControl_pictures_Humidity_AOD";
             this.userControl_pictures_Humidity_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -13995,7 +14591,9 @@
             // 
             this.userControl_icon_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Sunrise_AOD, "userControl_icon_Sunrise_AOD");
+            this.userControl_icon_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Sunrise_AOD.Collapsed = true;
+            this.userControl_icon_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Sunrise_AOD.Image2 = false;
             this.userControl_icon_Sunrise_AOD.Name = "userControl_icon_Sunrise_AOD";
             this.userControl_icon_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14005,10 +14603,12 @@
             // 
             this.userControl_SystemFont_GroupSunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_GroupSunrise_AOD, "userControl_SystemFont_GroupSunrise_AOD");
+            this.userControl_SystemFont_GroupSunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupSunrise_AOD.Collapsed = true;
             this.userControl_SystemFont_GroupSunrise_AOD.Follow = false;
             this.userControl_SystemFont_GroupSunrise_AOD.FollowMax = true;
             this.userControl_SystemFont_GroupSunrise_AOD.FollowMin = true;
+            this.userControl_SystemFont_GroupSunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupSunrise_AOD.Name = "userControl_SystemFont_GroupSunrise_AOD";
             this.userControl_SystemFont_GroupSunrise_AOD.Padding_zero = true;
             this.userControl_SystemFont_GroupSunrise_AOD.Separator = true;
@@ -14022,6 +14622,7 @@
             // 
             this.userControl_scaleLinear_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Sunrise_AOD, "userControl_scaleLinear_Sunrise_AOD");
+            this.userControl_scaleLinear_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Sunrise_AOD.Collapsed = true;
             this.userControl_scaleLinear_Sunrise_AOD.Name = "userControl_scaleLinear_Sunrise_AOD";
             this.userControl_scaleLinear_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14031,7 +14632,9 @@
             // 
             this.userControl_scaleCircle_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Sunrise_AOD, "userControl_scaleCircle_Sunrise_AOD");
+            this.userControl_scaleCircle_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Sunrise_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Sunrise_AOD.Name = "userControl_scaleCircle_Sunrise_AOD";
             this.userControl_scaleCircle_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Sunrise_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Sunrise_AOD_Copy);
@@ -14040,7 +14643,9 @@
             // 
             this.userControl_hand_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Sunrise_AOD, "userControl_hand_Sunrise_AOD");
+            this.userControl_hand_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Sunrise_AOD.Collapsed = true;
+            this.userControl_hand_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Sunrise_AOD.Name = "userControl_hand_Sunrise_AOD";
             this.userControl_hand_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Sunrise_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Sunrise_AOD_Copy);
@@ -14049,9 +14654,11 @@
             // 
             this.userControl_text_Sunset_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Sunset_AOD, "userControl_text_Sunset_AOD");
+            this.userControl_text_Sunset_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Sunset_AOD.Collapsed = true;
             this.userControl_text_Sunset_AOD.Distance = false;
             this.userControl_text_Sunset_AOD.Follow = true;
+            this.userControl_text_Sunset_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Sunset_AOD.ImageError = true;
             this.userControl_text_Sunset_AOD.Name = "userControl_text_Sunset_AOD";
             this.userControl_text_Sunset_AOD.OptionalSymbol = true;
@@ -14063,9 +14670,11 @@
             // 
             this.userControl_text_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Sunrise_AOD, "userControl_text_Sunrise_AOD");
+            this.userControl_text_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Sunrise_AOD.Collapsed = true;
             this.userControl_text_Sunrise_AOD.Distance = false;
             this.userControl_text_Sunrise_AOD.Follow = false;
+            this.userControl_text_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Sunrise_AOD.ImageError = true;
             this.userControl_text_Sunrise_AOD.Name = "userControl_text_Sunrise_AOD";
             this.userControl_text_Sunrise_AOD.OptionalSymbol = true;
@@ -14077,9 +14686,11 @@
             // 
             this.userControl_text_SunriseSunset_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_SunriseSunset_AOD, "userControl_text_SunriseSunset_AOD");
+            this.userControl_text_SunriseSunset_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_SunriseSunset_AOD.Collapsed = true;
             this.userControl_text_SunriseSunset_AOD.Distance = false;
             this.userControl_text_SunriseSunset_AOD.Follow = false;
+            this.userControl_text_SunriseSunset_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_SunriseSunset_AOD.ImageError = true;
             this.userControl_text_SunriseSunset_AOD.Name = "userControl_text_SunriseSunset_AOD";
             this.userControl_text_SunriseSunset_AOD.OptionalSymbol = true;
@@ -14091,8 +14702,10 @@
             // 
             this.userControl_segments_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Sunrise_AOD, "userControl_segments_Sunrise_AOD");
+            this.userControl_segments_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Sunrise_AOD.Collapsed = true;
             this.userControl_segments_Sunrise_AOD.FixedRowsCount = true;
+            this.userControl_segments_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Sunrise_AOD.ImagesCount = 2;
             this.userControl_segments_Sunrise_AOD.Name = "userControl_segments_Sunrise_AOD";
             this.userControl_segments_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14102,7 +14715,9 @@
             // 
             this.userControl_pictures_Sunrise_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Sunrise_AOD, "userControl_pictures_Sunrise_AOD");
+            this.userControl_pictures_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Sunrise_AOD.Collapsed = true;
+            this.userControl_pictures_Sunrise_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Sunrise_AOD.ImagesCount = 2;
             this.userControl_pictures_Sunrise_AOD.Name = "userControl_pictures_Sunrise_AOD";
             this.userControl_pictures_Sunrise_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14111,7 +14726,7 @@
             // tabPage_WindForce_AOD
             // 
             resources.ApplyResources(this.tabPage_WindForce_AOD, "tabPage_WindForce_AOD");
-            this.tabPage_WindForce_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_icon_WindForce_AOD);
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_SystemFont_Group_WindForce_AOD);
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_scaleLinear_WindForce_AOD);
@@ -14126,7 +14741,9 @@
             // 
             this.userControl_icon_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_WindForce_AOD, "userControl_icon_WindForce_AOD");
+            this.userControl_icon_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_WindForce_AOD.Collapsed = true;
+            this.userControl_icon_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_WindForce_AOD.Image2 = false;
             this.userControl_icon_WindForce_AOD.Name = "userControl_icon_WindForce_AOD";
             this.userControl_icon_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14136,9 +14753,11 @@
             // 
             this.userControl_SystemFont_Group_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_WindForce_AOD, "userControl_SystemFont_Group_WindForce_AOD");
+            this.userControl_SystemFont_Group_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_WindForce_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_WindForce_AOD.Follow = false;
             this.userControl_SystemFont_Group_WindForce_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_WindForce_AOD.Name = "userControl_SystemFont_Group_WindForce_AOD";
             this.userControl_SystemFont_Group_WindForce_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_WindForce_AOD.Separator = true;
@@ -14151,6 +14770,7 @@
             // 
             this.userControl_scaleLinear_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_WindForce_AOD, "userControl_scaleLinear_WindForce_AOD");
+            this.userControl_scaleLinear_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_WindForce_AOD.Collapsed = true;
             this.userControl_scaleLinear_WindForce_AOD.Name = "userControl_scaleLinear_WindForce_AOD";
             this.userControl_scaleLinear_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14160,7 +14780,9 @@
             // 
             this.userControl_scaleCircle_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_WindForce_AOD, "userControl_scaleCircle_WindForce_AOD");
+            this.userControl_scaleCircle_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_WindForce_AOD.Collapsed = true;
+            this.userControl_scaleCircle_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_WindForce_AOD.Name = "userControl_scaleCircle_WindForce_AOD";
             this.userControl_scaleCircle_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_WindForce_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_WindForce_AOD_Copy);
@@ -14169,7 +14791,9 @@
             // 
             this.userControl_hand_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_WindForce_AOD, "userControl_hand_WindForce_AOD");
+            this.userControl_hand_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_WindForce_AOD.Collapsed = true;
+            this.userControl_hand_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_WindForce_AOD.Name = "userControl_hand_WindForce_AOD";
             this.userControl_hand_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_WindForce_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_WindForce_AOD_Copy);
@@ -14178,9 +14802,11 @@
             // 
             this.userControl_text_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_WindForce_AOD, "userControl_text_WindForce_AOD");
+            this.userControl_text_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_WindForce_AOD.Collapsed = true;
             this.userControl_text_WindForce_AOD.Distance = false;
             this.userControl_text_WindForce_AOD.Follow = false;
+            this.userControl_text_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_WindForce_AOD.ImageError = true;
             this.userControl_text_WindForce_AOD.Name = "userControl_text_WindForce_AOD";
             this.userControl_text_WindForce_AOD.OptionalSymbol = false;
@@ -14192,8 +14818,10 @@
             // 
             this.userControl_segments_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_WindForce_AOD, "userControl_segments_WindForce_AOD");
+            this.userControl_segments_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_WindForce_AOD.Collapsed = true;
             this.userControl_segments_WindForce_AOD.FixedRowsCount = false;
+            this.userControl_segments_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_WindForce_AOD.ImagesCount = -1;
             this.userControl_segments_WindForce_AOD.Name = "userControl_segments_WindForce_AOD";
             this.userControl_segments_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14203,7 +14831,9 @@
             // 
             this.userControl_pictures_WindForce_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_WindForce_AOD, "userControl_pictures_WindForce_AOD");
+            this.userControl_pictures_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_WindForce_AOD.Collapsed = true;
+            this.userControl_pictures_WindForce_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_WindForce_AOD.ImagesCount = 10;
             this.userControl_pictures_WindForce_AOD.Name = "userControl_pictures_WindForce_AOD";
             this.userControl_pictures_WindForce_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14227,7 +14857,9 @@
             // 
             this.userControl_icon_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Altitude_AOD, "userControl_icon_Altitude_AOD");
+            this.userControl_icon_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Altitude_AOD.Collapsed = true;
+            this.userControl_icon_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Altitude_AOD.Image2 = false;
             this.userControl_icon_Altitude_AOD.Name = "userControl_icon_Altitude_AOD";
             this.userControl_icon_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14237,9 +14869,11 @@
             // 
             this.userControl_SystemFont_Group_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Altitude_AOD, "userControl_SystemFont_Group_Altitude_AOD");
+            this.userControl_SystemFont_Group_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Altitude_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Altitude_AOD.Follow = false;
             this.userControl_SystemFont_Group_Altitude_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Altitude_AOD.Name = "userControl_SystemFont_Group_Altitude_AOD";
             this.userControl_SystemFont_Group_Altitude_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Altitude_AOD.Separator = true;
@@ -14252,6 +14886,7 @@
             // 
             this.userControl_scaleLinear_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Altitude_AOD, "userControl_scaleLinear_Altitude_AOD");
+            this.userControl_scaleLinear_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Altitude_AOD.Collapsed = true;
             this.userControl_scaleLinear_Altitude_AOD.Name = "userControl_scaleLinear_Altitude_AOD";
             this.userControl_scaleLinear_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14261,7 +14896,9 @@
             // 
             this.userControl_scaleCircle_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Altitude_AOD, "userControl_scaleCircle_Altitude_AOD");
+            this.userControl_scaleCircle_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Altitude_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Altitude_AOD.Name = "userControl_scaleCircle_Altitude_AOD";
             this.userControl_scaleCircle_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Altitude_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Altitude_AOD_Copy);
@@ -14270,7 +14907,9 @@
             // 
             this.userControl_hand_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Altitude_AOD, "userControl_hand_Altitude_AOD");
+            this.userControl_hand_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Altitude_AOD.Collapsed = true;
+            this.userControl_hand_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Altitude_AOD.Name = "userControl_hand_Altitude_AOD";
             this.userControl_hand_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Altitude_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Altitude_AOD_Copy);
@@ -14279,9 +14918,11 @@
             // 
             this.userControl_text_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Altitude_AOD, "userControl_text_Altitude_AOD");
+            this.userControl_text_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Altitude_AOD.Collapsed = true;
             this.userControl_text_Altitude_AOD.Distance = false;
             this.userControl_text_Altitude_AOD.Follow = false;
+            this.userControl_text_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Altitude_AOD.ImageError = true;
             this.userControl_text_Altitude_AOD.Name = "userControl_text_Altitude_AOD";
             this.userControl_text_Altitude_AOD.OptionalSymbol = false;
@@ -14293,8 +14934,10 @@
             // 
             this.userControl_segments_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Altitude_AOD, "userControl_segments_Altitude_AOD");
+            this.userControl_segments_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Altitude_AOD.Collapsed = true;
             this.userControl_segments_Altitude_AOD.FixedRowsCount = false;
+            this.userControl_segments_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Altitude_AOD.ImagesCount = -1;
             this.userControl_segments_Altitude_AOD.Name = "userControl_segments_Altitude_AOD";
             this.userControl_segments_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14304,7 +14947,9 @@
             // 
             this.userControl_pictures_Altitude_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Altitude_AOD, "userControl_pictures_Altitude_AOD");
+            this.userControl_pictures_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Altitude_AOD.Collapsed = true;
+            this.userControl_pictures_Altitude_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Altitude_AOD.ImagesCount = 10;
             this.userControl_pictures_Altitude_AOD.Name = "userControl_pictures_Altitude_AOD";
             this.userControl_pictures_Altitude_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14328,7 +14973,9 @@
             // 
             this.userControl_icon_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_AirPressure_AOD, "userControl_icon_AirPressure_AOD");
+            this.userControl_icon_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_AirPressure_AOD.Collapsed = true;
+            this.userControl_icon_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_AirPressure_AOD.Image2 = false;
             this.userControl_icon_AirPressure_AOD.Name = "userControl_icon_AirPressure_AOD";
             this.userControl_icon_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14338,9 +14985,11 @@
             // 
             this.userControl_SystemFont_Group_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_AirPressure_AOD, "userControl_SystemFont_Group_AirPressure_AOD");
+            this.userControl_SystemFont_Group_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_AirPressure_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_AirPressure_AOD.Follow = false;
             this.userControl_SystemFont_Group_AirPressure_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_AirPressure_AOD.Name = "userControl_SystemFont_Group_AirPressure_AOD";
             this.userControl_SystemFont_Group_AirPressure_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_AirPressure_AOD.Separator = true;
@@ -14353,6 +15002,7 @@
             // 
             this.userControl_scaleLinear_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_AirPressure_AOD, "userControl_scaleLinear_AirPressure_AOD");
+            this.userControl_scaleLinear_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_AirPressure_AOD.Collapsed = true;
             this.userControl_scaleLinear_AirPressure_AOD.Name = "userControl_scaleLinear_AirPressure_AOD";
             this.userControl_scaleLinear_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14362,7 +15012,9 @@
             // 
             this.userControl_scaleCircle_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_AirPressure_AOD, "userControl_scaleCircle_AirPressure_AOD");
+            this.userControl_scaleCircle_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_AirPressure_AOD.Collapsed = true;
+            this.userControl_scaleCircle_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_AirPressure_AOD.Name = "userControl_scaleCircle_AirPressure_AOD";
             this.userControl_scaleCircle_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_AirPressure_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_AirPressure_AOD_Copy);
@@ -14371,7 +15023,9 @@
             // 
             this.userControl_hand_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_AirPressure_AOD, "userControl_hand_AirPressure_AOD");
+            this.userControl_hand_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_AirPressure_AOD.Collapsed = true;
+            this.userControl_hand_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_AirPressure_AOD.Name = "userControl_hand_AirPressure_AOD";
             this.userControl_hand_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_AirPressure_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_AirPressure_AOD_Copy);
@@ -14380,9 +15034,11 @@
             // 
             this.userControl_text_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_AirPressure_AOD, "userControl_text_AirPressure_AOD");
+            this.userControl_text_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_AirPressure_AOD.Collapsed = true;
             this.userControl_text_AirPressure_AOD.Distance = false;
             this.userControl_text_AirPressure_AOD.Follow = false;
+            this.userControl_text_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_AirPressure_AOD.ImageError = true;
             this.userControl_text_AirPressure_AOD.Name = "userControl_text_AirPressure_AOD";
             this.userControl_text_AirPressure_AOD.OptionalSymbol = false;
@@ -14394,8 +15050,10 @@
             // 
             this.userControl_segments_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_AirPressure_AOD, "userControl_segments_AirPressure_AOD");
+            this.userControl_segments_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_AirPressure_AOD.Collapsed = true;
             this.userControl_segments_AirPressure_AOD.FixedRowsCount = false;
+            this.userControl_segments_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_AirPressure_AOD.ImagesCount = -1;
             this.userControl_segments_AirPressure_AOD.Name = "userControl_segments_AirPressure_AOD";
             this.userControl_segments_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14405,7 +15063,9 @@
             // 
             this.userControl_pictures_AirPressure_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_AirPressure_AOD, "userControl_pictures_AirPressure_AOD");
+            this.userControl_pictures_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_AirPressure_AOD.Collapsed = true;
+            this.userControl_pictures_AirPressure_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_AirPressure_AOD.ImagesCount = 10;
             this.userControl_pictures_AirPressure_AOD.Name = "userControl_pictures_AirPressure_AOD";
             this.userControl_pictures_AirPressure_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14413,7 +15073,7 @@
             // 
             // tabPage_System_AOD
             // 
-            this.tabPage_System_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_System_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_System_AOD.Controls.Add(this.tabControl_System_AOD);
             resources.ApplyResources(this.tabPage_System_AOD, "tabPage_System_AOD");
             this.tabPage_System_AOD.Name = "tabPage_System_AOD";
@@ -14425,20 +15085,22 @@
             // 
             // 
             // 
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_System_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
+            this.tabControl_System_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
+            this.tabControl_System_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabControl_System_AOD.DisplayStyleProvider.FocusTrack = false;
             this.tabControl_System_AOD.DisplayStyleProvider.HotTrack = false;
             this.tabControl_System_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabControl_System_AOD.DisplayStyleProvider.Opacity = 1F;
             this.tabControl_System_AOD.DisplayStyleProvider.Overlap = 0;
             this.tabControl_System_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
+            this.tabControl_System_AOD.DisplayStyleProvider.Radius = 3;
             this.tabControl_System_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
+            this.tabControl_System_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.tabControl_System_AOD, "tabControl_System_AOD");
             this.tabControl_System_AOD.Name = "tabControl_System_AOD";
             this.tabControl_System_AOD.SelectedIndex = 0;
@@ -14446,7 +15108,7 @@
             // tabPage_Battery_AOD
             // 
             resources.ApplyResources(this.tabPage_Battery_AOD, "tabPage_Battery_AOD");
-            this.tabPage_Battery_AOD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_icon_Battery_AOD);
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_SystemFont_Group_Battery_AOD);
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_scaleLinear_Battery_AOD);
@@ -14461,7 +15123,9 @@
             // 
             this.userControl_icon_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_icon_Battery_AOD, "userControl_icon_Battery_AOD");
+            this.userControl_icon_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_icon_Battery_AOD.Collapsed = true;
+            this.userControl_icon_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_icon_Battery_AOD.Image2 = false;
             this.userControl_icon_Battery_AOD.Name = "userControl_icon_Battery_AOD";
             this.userControl_icon_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14471,9 +15135,11 @@
             // 
             this.userControl_SystemFont_Group_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_SystemFont_Group_Battery_AOD, "userControl_SystemFont_Group_Battery_AOD");
+            this.userControl_SystemFont_Group_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_Battery_AOD.Collapsed = true;
             this.userControl_SystemFont_Group_Battery_AOD.Follow = false;
             this.userControl_SystemFont_Group_Battery_AOD.FollowGoal = false;
+            this.userControl_SystemFont_Group_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_Battery_AOD.Name = "userControl_SystemFont_Group_Battery_AOD";
             this.userControl_SystemFont_Group_Battery_AOD.Padding_zero = true;
             this.userControl_SystemFont_Group_Battery_AOD.Separator = true;
@@ -14486,6 +15152,7 @@
             // 
             this.userControl_scaleLinear_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleLinear_Battery_AOD, "userControl_scaleLinear_Battery_AOD");
+            this.userControl_scaleLinear_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinear_Battery_AOD.Collapsed = true;
             this.userControl_scaleLinear_Battery_AOD.Name = "userControl_scaleLinear_Battery_AOD";
             this.userControl_scaleLinear_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14495,7 +15162,9 @@
             // 
             this.userControl_scaleCircle_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_scaleCircle_Battery_AOD, "userControl_scaleCircle_Battery_AOD");
+            this.userControl_scaleCircle_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircle_Battery_AOD.Collapsed = true;
+            this.userControl_scaleCircle_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircle_Battery_AOD.Name = "userControl_scaleCircle_Battery_AOD";
             this.userControl_scaleCircle_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_scaleCircle_Battery_AOD.AOD_Copy_scaleCircle += new AmazFit_Watchface_2.UserControl_scaleCircle.AOD_CopyHandler(this.userControl_scaleCircle_Battery_AOD_Copy);
@@ -14504,7 +15173,9 @@
             // 
             this.userControl_hand_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_hand_Battery_AOD, "userControl_hand_Battery_AOD");
+            this.userControl_hand_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_Battery_AOD.Collapsed = true;
+            this.userControl_hand_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_Battery_AOD.Name = "userControl_hand_Battery_AOD";
             this.userControl_hand_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_hand_Battery_AOD.AOD_Copy_hand += new AmazFit_Watchface_2.UserControl_hand.AOD_CopyHandler(this.userControl_hand_Battery_AOD_Copy);
@@ -14513,9 +15184,11 @@
             // 
             this.userControl_text_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_text_Battery_AOD, "userControl_text_Battery_AOD");
+            this.userControl_text_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_Battery_AOD.Collapsed = true;
             this.userControl_text_Battery_AOD.Distance = false;
             this.userControl_text_Battery_AOD.Follow = false;
+            this.userControl_text_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_Battery_AOD.ImageError = true;
             this.userControl_text_Battery_AOD.Name = "userControl_text_Battery_AOD";
             this.userControl_text_Battery_AOD.OptionalSymbol = false;
@@ -14527,8 +15200,10 @@
             // 
             this.userControl_segments_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_segments_Battery_AOD, "userControl_segments_Battery_AOD");
+            this.userControl_segments_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segments_Battery_AOD.Collapsed = true;
             this.userControl_segments_Battery_AOD.FixedRowsCount = false;
+            this.userControl_segments_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segments_Battery_AOD.ImagesCount = -1;
             this.userControl_segments_Battery_AOD.Name = "userControl_segments_Battery_AOD";
             this.userControl_segments_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_ValueChanged);
@@ -14538,48 +15213,13 @@
             // 
             this.userControl_pictures_Battery_AOD.AOD = true;
             resources.ApplyResources(this.userControl_pictures_Battery_AOD, "userControl_pictures_Battery_AOD");
+            this.userControl_pictures_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_Battery_AOD.Collapsed = true;
+            this.userControl_pictures_Battery_AOD.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_Battery_AOD.ImagesCount = 10;
             this.userControl_pictures_Battery_AOD.Name = "userControl_pictures_Battery_AOD";
             this.userControl_pictures_Battery_AOD.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
             this.userControl_pictures_Battery_AOD.AOD_Copy_pictures += new AmazFit_Watchface_2.UserControl_pictures.AOD_CopyHandler(this.userControl_pictures_Battery_AOD_Copy);
-            // 
-            // dataGridView_SNL_Activity
-            // 
-            this.dataGridView_SNL_Activity.AllowUserToAddRows = false;
-            this.dataGridView_SNL_Activity.AllowUserToDeleteRows = false;
-            this.dataGridView_SNL_Activity.AllowUserToResizeRows = false;
-            this.dataGridView_SNL_Activity.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_SNL_Activity.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ActivityID,
-            this.ActivityName});
-            resources.ApplyResources(this.dataGridView_SNL_Activity, "dataGridView_SNL_Activity");
-            this.dataGridView_SNL_Activity.MultiSelect = false;
-            this.dataGridView_SNL_Activity.Name = "dataGridView_SNL_Activity";
-            this.dataGridView_SNL_Activity.ReadOnly = true;
-            this.dataGridView_SNL_Activity.RowHeadersVisible = false;
-            this.dataGridView_SNL_Activity.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_SNL_Activity.SelectionChanged += new System.EventHandler(this.dataGridView_SNL_Activity_SelectionChanged);
-            this.dataGridView_SNL_Activity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_SNL_Activity_KeyDown);
-            // 
-            // ActivityID
-            // 
-            this.ActivityID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ActivityID.Frozen = true;
-            resources.ApplyResources(this.ActivityID, "ActivityID");
-            this.ActivityID.Name = "ActivityID";
-            this.ActivityID.ReadOnly = true;
-            this.ActivityID.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ActivityID.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // ActivityName
-            // 
-            this.ActivityName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            resources.ApplyResources(this.ActivityName, "ActivityName");
-            this.ActivityName.Name = "ActivityName";
-            this.ActivityName.ReadOnly = true;
-            this.ActivityName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ActivityName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // panel6
             // 
@@ -14594,6 +15234,7 @@
             this.button_RandomPreview.BorderColor = System.Drawing.Color.DimGray;
             this.button_RandomPreview.BorderRadius = 4;
             this.button_RandomPreview.BorderThickness = 1F;
+            this.button_RandomPreview.ImagePadding = 5;
             resources.ApplyResources(this.button_RandomPreview, "button_RandomPreview");
             this.button_RandomPreview.Name = "button_RandomPreview";
             this.button_RandomPreview.UseVisualStyleBackColor = true;
@@ -14622,11 +15263,42 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
+            // splitContainer1
+            // 
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.richTextBox_JsonText);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.treeView_JsonTree);
+            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
+            // 
+            // richTextBox_JsonText
+            // 
+            this.richTextBox_JsonText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.richTextBox_JsonText.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox_JsonText, "richTextBox_JsonText");
+            this.richTextBox_JsonText.ForeColor = System.Drawing.Color.Gainsboro;
+            this.richTextBox_JsonText.Name = "richTextBox_JsonText";
+            // 
+            // treeView_JsonTree
+            // 
+            this.treeView_JsonTree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.treeView_JsonTree.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.treeView_JsonTree, "treeView_JsonTree");
+            this.treeView_JsonTree.ForeColor = System.Drawing.Color.Gainsboro;
+            this.treeView_JsonTree.Name = "treeView_JsonTree";
+            // 
             // button_SaveJson
             // 
             this.button_SaveJson.BorderColor = System.Drawing.Color.DimGray;
             this.button_SaveJson.BorderRadius = 4;
             this.button_SaveJson.BorderThickness = 1F;
+            this.button_SaveJson.ImagePadding = 5;
             resources.ApplyResources(this.button_SaveJson, "button_SaveJson");
             this.button_SaveJson.Name = "button_SaveJson";
             this.button_SaveJson.UseVisualStyleBackColor = true;
@@ -14637,6 +15309,7 @@
             this.button_OpenDir.BorderColor = System.Drawing.Color.DimGray;
             this.button_OpenDir.BorderRadius = 4;
             this.button_OpenDir.BorderThickness = 1F;
+            this.button_OpenDir.ImagePadding = 5;
             resources.ApplyResources(this.button_OpenDir, "button_OpenDir");
             this.button_OpenDir.Name = "button_OpenDir";
             this.button_OpenDir.UseVisualStyleBackColor = true;
@@ -14644,7 +15317,7 @@
             // 
             // tabPage_LayerOrder
             // 
-            this.tabPage_LayerOrder.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_LayerOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_AODL_Date);
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_AODL_Activity);
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_SNL_Date);
@@ -14654,6 +15327,9 @@
             // 
             // groupBox_AODL_Date
             // 
+            this.groupBox_AODL_Date.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_AODL_Date.BorderRadius = 4;
+            this.groupBox_AODL_Date.BorderThickness = 1F;
             this.groupBox_AODL_Date.Controls.Add(this.label1);
             this.groupBox_AODL_Date.Controls.Add(this.dataGridView_AODL_Date);
             this.groupBox_AODL_Date.Controls.Add(this.button_AODL_Date_End);
@@ -14675,14 +15351,43 @@
             this.dataGridView_AODL_Date.AllowUserToAddRows = false;
             this.dataGridView_AODL_Date.AllowUserToDeleteRows = false;
             this.dataGridView_AODL_Date.AllowUserToResizeRows = false;
+            this.dataGridView_AODL_Date.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_AODL_Date.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_AODL_Date.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_AODL_Date.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView_AODL_Date.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_AODL_Date.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_AODL_Date.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView_AODL_Date.EnableHeadersVisualStyles = false;
+            this.dataGridView_AODL_Date.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_AODL_Date, "dataGridView_AODL_Date");
             this.dataGridView_AODL_Date.MultiSelect = false;
             this.dataGridView_AODL_Date.Name = "dataGridView_AODL_Date";
             this.dataGridView_AODL_Date.ReadOnly = true;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_AODL_Date.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView_AODL_Date.RowHeadersVisible = false;
             this.dataGridView_AODL_Date.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_AODL_Date.SelectionChanged += new System.EventHandler(this.dataGridView_AODL_Date_SelectionChanged);
@@ -14709,50 +15414,57 @@
             // 
             // button_AODL_Date_End
             // 
-            this.button_AODL_Date_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Date_End.BorderRadius = 4;
+            this.button_AODL_Date_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Date_End.BorderRadius = 0;
             this.button_AODL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_End, "button_AODL_Date_End");
             this.button_AODL_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_AODL_Date_End.ImagePadding = 0;
             this.button_AODL_Date_End.Name = "button_AODL_Date_End";
             this.button_AODL_Date_End.UseVisualStyleBackColor = true;
             this.button_AODL_Date_End.Click += new System.EventHandler(this.button_AODL_Date_End_Click);
             // 
             // button_AODL_Date_Start
             // 
-            this.button_AODL_Date_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Date_Start.BorderRadius = 4;
+            this.button_AODL_Date_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Date_Start.BorderRadius = 0;
             this.button_AODL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Start, "button_AODL_Date_Start");
             this.button_AODL_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_AODL_Date_Start.ImagePadding = 0;
             this.button_AODL_Date_Start.Name = "button_AODL_Date_Start";
             this.button_AODL_Date_Start.UseVisualStyleBackColor = true;
             this.button_AODL_Date_Start.Click += new System.EventHandler(this.button_AODL_Date_Start_Click);
             // 
             // button_AODL_Date_Up
             // 
-            this.button_AODL_Date_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Date_Up.BorderRadius = 4;
+            this.button_AODL_Date_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Date_Up.BorderRadius = 0;
             this.button_AODL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Up, "button_AODL_Date_Up");
             this.button_AODL_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_AODL_Date_Up.ImagePadding = 0;
             this.button_AODL_Date_Up.Name = "button_AODL_Date_Up";
             this.button_AODL_Date_Up.UseVisualStyleBackColor = true;
             this.button_AODL_Date_Up.Click += new System.EventHandler(this.button_AODL_Date_Up_Click);
             // 
             // button_AODL_Date_Down
             // 
-            this.button_AODL_Date_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Date_Down.BorderRadius = 4;
+            this.button_AODL_Date_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Date_Down.BorderRadius = 0;
             this.button_AODL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Down, "button_AODL_Date_Down");
             this.button_AODL_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_AODL_Date_Down.ImagePadding = 0;
             this.button_AODL_Date_Down.Name = "button_AODL_Date_Down";
             this.button_AODL_Date_Down.UseVisualStyleBackColor = true;
             this.button_AODL_Date_Down.Click += new System.EventHandler(this.button_AODL_Date_Down_Click);
             // 
             // groupBox_AODL_Activity
             // 
+            this.groupBox_AODL_Activity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_AODL_Activity.BorderRadius = 4;
+            this.groupBox_AODL_Activity.BorderThickness = 1F;
             this.groupBox_AODL_Activity.Controls.Add(this.dataGridView_AODL_Activity);
             this.groupBox_AODL_Activity.Controls.Add(this.button_AODL_Activity_End);
             this.groupBox_AODL_Activity.Controls.Add(this.button_AODL_Activity_Start);
@@ -14768,14 +15480,43 @@
             this.dataGridView_AODL_Activity.AllowUserToAddRows = false;
             this.dataGridView_AODL_Activity.AllowUserToDeleteRows = false;
             this.dataGridView_AODL_Activity.AllowUserToResizeRows = false;
+            this.dataGridView_AODL_Activity.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_AODL_Activity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_AODL_Activity.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_AODL_Activity.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView_AODL_Activity.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_AODL_Activity.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_AODL_Activity.DefaultCellStyle = dataGridViewCellStyle9;
+            this.dataGridView_AODL_Activity.EnableHeadersVisualStyles = false;
+            this.dataGridView_AODL_Activity.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_AODL_Activity, "dataGridView_AODL_Activity");
             this.dataGridView_AODL_Activity.MultiSelect = false;
             this.dataGridView_AODL_Activity.Name = "dataGridView_AODL_Activity";
             this.dataGridView_AODL_Activity.ReadOnly = true;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_AODL_Activity.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView_AODL_Activity.RowHeadersVisible = false;
             this.dataGridView_AODL_Activity.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_AODL_Activity.SelectionChanged += new System.EventHandler(this.dataGridView_AODL_Activity_SelectionChanged);
@@ -14802,50 +15543,57 @@
             // 
             // button_AODL_Activity_End
             // 
-            this.button_AODL_Activity_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Activity_End.BorderRadius = 4;
+            this.button_AODL_Activity_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Activity_End.BorderRadius = 0;
             this.button_AODL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_End, "button_AODL_Activity_End");
             this.button_AODL_Activity_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_AODL_Activity_End.ImagePadding = 0;
             this.button_AODL_Activity_End.Name = "button_AODL_Activity_End";
             this.button_AODL_Activity_End.UseVisualStyleBackColor = true;
             this.button_AODL_Activity_End.Click += new System.EventHandler(this.button_AODL_Activity_End_Click);
             // 
             // button_AODL_Activity_Start
             // 
-            this.button_AODL_Activity_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Activity_Start.BorderRadius = 4;
+            this.button_AODL_Activity_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Activity_Start.BorderRadius = 0;
             this.button_AODL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Start, "button_AODL_Activity_Start");
             this.button_AODL_Activity_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_AODL_Activity_Start.ImagePadding = 0;
             this.button_AODL_Activity_Start.Name = "button_AODL_Activity_Start";
             this.button_AODL_Activity_Start.UseVisualStyleBackColor = true;
             this.button_AODL_Activity_Start.Click += new System.EventHandler(this.button_AODL_Activity_Start_Click);
             // 
             // button_AODL_Activity_Up
             // 
-            this.button_AODL_Activity_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Activity_Up.BorderRadius = 4;
+            this.button_AODL_Activity_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Activity_Up.BorderRadius = 0;
             this.button_AODL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Up, "button_AODL_Activity_Up");
             this.button_AODL_Activity_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_AODL_Activity_Up.ImagePadding = 0;
             this.button_AODL_Activity_Up.Name = "button_AODL_Activity_Up";
             this.button_AODL_Activity_Up.UseVisualStyleBackColor = true;
             this.button_AODL_Activity_Up.Click += new System.EventHandler(this.button_AODL_Activity_Up_Click);
             // 
             // button_AODL_Activity_Down
             // 
-            this.button_AODL_Activity_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_AODL_Activity_Down.BorderRadius = 4;
+            this.button_AODL_Activity_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_AODL_Activity_Down.BorderRadius = 0;
             this.button_AODL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Down, "button_AODL_Activity_Down");
             this.button_AODL_Activity_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_AODL_Activity_Down.ImagePadding = 0;
             this.button_AODL_Activity_Down.Name = "button_AODL_Activity_Down";
             this.button_AODL_Activity_Down.UseVisualStyleBackColor = true;
             this.button_AODL_Activity_Down.Click += new System.EventHandler(this.button_AODL_Activity_Down_Click);
             // 
             // groupBox_SNL_Date
             // 
+            this.groupBox_SNL_Date.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_SNL_Date.BorderRadius = 4;
+            this.groupBox_SNL_Date.BorderThickness = 1F;
             this.groupBox_SNL_Date.Controls.Add(this.label_SNL_Date);
             this.groupBox_SNL_Date.Controls.Add(this.dataGridView_SNL_Date);
             this.groupBox_SNL_Date.Controls.Add(this.button_SNL_Date_End);
@@ -14867,14 +15615,43 @@
             this.dataGridView_SNL_Date.AllowUserToAddRows = false;
             this.dataGridView_SNL_Date.AllowUserToDeleteRows = false;
             this.dataGridView_SNL_Date.AllowUserToResizeRows = false;
+            this.dataGridView_SNL_Date.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_SNL_Date.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_SNL_Date.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_SNL_Date.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView_SNL_Date.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_SNL_Date.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2});
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_SNL_Date.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridView_SNL_Date.EnableHeadersVisualStyles = false;
+            this.dataGridView_SNL_Date.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_SNL_Date, "dataGridView_SNL_Date");
             this.dataGridView_SNL_Date.MultiSelect = false;
             this.dataGridView_SNL_Date.Name = "dataGridView_SNL_Date";
             this.dataGridView_SNL_Date.ReadOnly = true;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_SNL_Date.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dataGridView_SNL_Date.RowHeadersVisible = false;
             this.dataGridView_SNL_Date.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_SNL_Date.SelectionChanged += new System.EventHandler(this.dataGridView_SNL_Date_SelectionChanged);
@@ -14901,50 +15678,57 @@
             // 
             // button_SNL_Date_End
             // 
-            this.button_SNL_Date_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Date_End.BorderRadius = 4;
+            this.button_SNL_Date_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Date_End.BorderRadius = 0;
             this.button_SNL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_End, "button_SNL_Date_End");
             this.button_SNL_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_SNL_Date_End.ImagePadding = 0;
             this.button_SNL_Date_End.Name = "button_SNL_Date_End";
             this.button_SNL_Date_End.UseVisualStyleBackColor = true;
             this.button_SNL_Date_End.Click += new System.EventHandler(this.button_SNL_Date_End_Click);
             // 
             // button_SNL_Date_Start
             // 
-            this.button_SNL_Date_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Date_Start.BorderRadius = 4;
+            this.button_SNL_Date_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Date_Start.BorderRadius = 0;
             this.button_SNL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Start, "button_SNL_Date_Start");
             this.button_SNL_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_SNL_Date_Start.ImagePadding = 0;
             this.button_SNL_Date_Start.Name = "button_SNL_Date_Start";
             this.button_SNL_Date_Start.UseVisualStyleBackColor = true;
             this.button_SNL_Date_Start.Click += new System.EventHandler(this.button_SNL_Date_Start_Click);
             // 
             // button_SNL_Date_Up
             // 
-            this.button_SNL_Date_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Date_Up.BorderRadius = 4;
+            this.button_SNL_Date_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Date_Up.BorderRadius = 0;
             this.button_SNL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Up, "button_SNL_Date_Up");
             this.button_SNL_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_SNL_Date_Up.ImagePadding = 0;
             this.button_SNL_Date_Up.Name = "button_SNL_Date_Up";
             this.button_SNL_Date_Up.UseVisualStyleBackColor = true;
             this.button_SNL_Date_Up.Click += new System.EventHandler(this.button_SNL_Date_Up_Click);
             // 
             // button_SNL_Date_Down
             // 
-            this.button_SNL_Date_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Date_Down.BorderRadius = 4;
+            this.button_SNL_Date_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Date_Down.BorderRadius = 0;
             this.button_SNL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Down, "button_SNL_Date_Down");
             this.button_SNL_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_SNL_Date_Down.ImagePadding = 0;
             this.button_SNL_Date_Down.Name = "button_SNL_Date_Down";
             this.button_SNL_Date_Down.UseVisualStyleBackColor = true;
             this.button_SNL_Date_Down.Click += new System.EventHandler(this.button_SNL_Date_Down_Click);
             // 
             // groupBox_SNL_Activity
             // 
+            this.groupBox_SNL_Activity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_SNL_Activity.BorderRadius = 4;
+            this.groupBox_SNL_Activity.BorderThickness = 1F;
             this.groupBox_SNL_Activity.Controls.Add(this.dataGridView_SNL_Activity);
             this.groupBox_SNL_Activity.Controls.Add(this.button_SNL_Activity_End);
             this.groupBox_SNL_Activity.Controls.Add(this.button_SNL_Activity_Start);
@@ -14955,46 +15739,116 @@
             this.groupBox_SNL_Activity.TabStop = false;
             this.groupBox_SNL_Activity.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
+            // dataGridView_SNL_Activity
+            // 
+            this.dataGridView_SNL_Activity.AllowUserToAddRows = false;
+            this.dataGridView_SNL_Activity.AllowUserToDeleteRows = false;
+            this.dataGridView_SNL_Activity.AllowUserToResizeRows = false;
+            this.dataGridView_SNL_Activity.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_SNL_Activity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_SNL_Activity.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_SNL_Activity.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            this.dataGridView_SNL_Activity.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_SNL_Activity.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ActivityID,
+            this.ActivityName});
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_SNL_Activity.DefaultCellStyle = dataGridViewCellStyle15;
+            this.dataGridView_SNL_Activity.EnableHeadersVisualStyles = false;
+            this.dataGridView_SNL_Activity.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            resources.ApplyResources(this.dataGridView_SNL_Activity, "dataGridView_SNL_Activity");
+            this.dataGridView_SNL_Activity.MultiSelect = false;
+            this.dataGridView_SNL_Activity.Name = "dataGridView_SNL_Activity";
+            this.dataGridView_SNL_Activity.ReadOnly = true;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_SNL_Activity.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            this.dataGridView_SNL_Activity.RowHeadersVisible = false;
+            this.dataGridView_SNL_Activity.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_SNL_Activity.SelectionChanged += new System.EventHandler(this.dataGridView_SNL_Activity_SelectionChanged);
+            this.dataGridView_SNL_Activity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_SNL_Activity_KeyDown);
+            // 
+            // ActivityID
+            // 
+            this.ActivityID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.ActivityID.Frozen = true;
+            resources.ApplyResources(this.ActivityID, "ActivityID");
+            this.ActivityID.Name = "ActivityID";
+            this.ActivityID.ReadOnly = true;
+            this.ActivityID.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ActivityID.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // ActivityName
+            // 
+            this.ActivityName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            resources.ApplyResources(this.ActivityName, "ActivityName");
+            this.ActivityName.Name = "ActivityName";
+            this.ActivityName.ReadOnly = true;
+            this.ActivityName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ActivityName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
             // button_SNL_Activity_End
             // 
-            this.button_SNL_Activity_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Activity_End.BorderRadius = 4;
+            this.button_SNL_Activity_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Activity_End.BorderRadius = 0;
             this.button_SNL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_End, "button_SNL_Activity_End");
             this.button_SNL_Activity_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_SNL_Activity_End.ImagePadding = 0;
             this.button_SNL_Activity_End.Name = "button_SNL_Activity_End";
             this.button_SNL_Activity_End.UseVisualStyleBackColor = true;
             this.button_SNL_Activity_End.Click += new System.EventHandler(this.button_SNL_Activity_End_Click);
             // 
             // button_SNL_Activity_Start
             // 
-            this.button_SNL_Activity_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Activity_Start.BorderRadius = 4;
+            this.button_SNL_Activity_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Activity_Start.BorderRadius = 0;
             this.button_SNL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Start, "button_SNL_Activity_Start");
             this.button_SNL_Activity_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_SNL_Activity_Start.ImagePadding = 0;
             this.button_SNL_Activity_Start.Name = "button_SNL_Activity_Start";
             this.button_SNL_Activity_Start.UseVisualStyleBackColor = true;
             this.button_SNL_Activity_Start.Click += new System.EventHandler(this.button_SNL_Activity_Start_Click);
             // 
             // button_SNL_Activity_Up
             // 
-            this.button_SNL_Activity_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Activity_Up.BorderRadius = 4;
+            this.button_SNL_Activity_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Activity_Up.BorderRadius = 0;
             this.button_SNL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Up, "button_SNL_Activity_Up");
             this.button_SNL_Activity_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_SNL_Activity_Up.ImagePadding = 0;
             this.button_SNL_Activity_Up.Name = "button_SNL_Activity_Up";
             this.button_SNL_Activity_Up.UseVisualStyleBackColor = true;
             this.button_SNL_Activity_Up.Click += new System.EventHandler(this.button_SNL_Activity_Up_Click);
             // 
             // button_SNL_Activity_Down
             // 
-            this.button_SNL_Activity_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SNL_Activity_Down.BorderRadius = 4;
+            this.button_SNL_Activity_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_SNL_Activity_Down.BorderRadius = 0;
             this.button_SNL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Down, "button_SNL_Activity_Down");
             this.button_SNL_Activity_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_SNL_Activity_Down.ImagePadding = 0;
             this.button_SNL_Activity_Down.Name = "button_SNL_Activity_Down";
             this.button_SNL_Activity_Down.UseVisualStyleBackColor = true;
             this.button_SNL_Activity_Down.Click += new System.EventHandler(this.button_SNL_Activity_Down_Click);
@@ -15063,6 +15917,9 @@
             // 
             // groupBox_WidgetPreview
             // 
+            this.groupBox_WidgetPreview.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetPreview.BorderRadius = 4;
+            this.groupBox_WidgetPreview.BorderThickness = 1F;
             this.groupBox_WidgetPreview.Controls.Add(this.radioButton_WidgetPreviewEdit);
             this.groupBox_WidgetPreview.Controls.Add(this.radioButton_WidgetPreviewNormal);
             resources.ApplyResources(this.groupBox_WidgetPreview, "groupBox_WidgetPreview");
@@ -15087,6 +15944,9 @@
             // 
             // groupBox_WidgetElementSettings
             // 
+            this.groupBox_WidgetElementSettings.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetElementSettings.BorderRadius = 4;
+            this.groupBox_WidgetElementSettings.BorderThickness = 1F;
             this.groupBox_WidgetElementSettings.Controls.Add(this.panel1);
             resources.ApplyResources(this.groupBox_WidgetElementSettings, "groupBox_WidgetElementSettings");
             this.groupBox_WidgetElementSettings.Name = "groupBox_WidgetElementSettings";
@@ -15159,9 +16019,11 @@
             // 
             this.userControl_SystemFont_Group_DayWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_DayWidget, "userControl_SystemFont_Group_DayWidget");
+            this.userControl_SystemFont_Group_DayWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_DayWidget.Collapsed = true;
             this.userControl_SystemFont_Group_DayWidget.Follow = true;
             this.userControl_SystemFont_Group_DayWidget.FollowGoal = false;
+            this.userControl_SystemFont_Group_DayWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_DayWidget.Name = "userControl_SystemFont_Group_DayWidget";
             this.userControl_SystemFont_Group_DayWidget.Padding_zero = true;
             this.userControl_SystemFont_Group_DayWidget.Separator = true;
@@ -15173,7 +16035,9 @@
             // 
             this.userControl_hand_DayWidget.AOD = false;
             resources.ApplyResources(this.userControl_hand_DayWidget, "userControl_hand_DayWidget");
+            this.userControl_hand_DayWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_DayWidget.Collapsed = true;
+            this.userControl_hand_DayWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_DayWidget.Name = "userControl_hand_DayWidget";
             this.userControl_hand_DayWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_Widget_ValueChanged);
             // 
@@ -15181,9 +16045,11 @@
             // 
             this.userControl_text_date_DayWidget.AOD = false;
             resources.ApplyResources(this.userControl_text_date_DayWidget, "userControl_text_date_DayWidget");
+            this.userControl_text_date_DayWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_DayWidget.Collapsed = true;
             this.userControl_text_date_DayWidget.Distance = false;
             this.userControl_text_date_DayWidget.Follow = true;
+            this.userControl_text_date_DayWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_DayWidget.ImageError = false;
             this.userControl_text_date_DayWidget.Name = "userControl_text_date_DayWidget";
             this.userControl_text_date_DayWidget.OptionalSymbol = false;
@@ -15204,9 +16070,11 @@
             // 
             this.userControl_SystemFont_Group_MonthWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_MonthWidget, "userControl_SystemFont_Group_MonthWidget");
+            this.userControl_SystemFont_Group_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_MonthWidget.Collapsed = true;
             this.userControl_SystemFont_Group_MonthWidget.Follow = true;
             this.userControl_SystemFont_Group_MonthWidget.FollowGoal = false;
+            this.userControl_SystemFont_Group_MonthWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_MonthWidget.Name = "userControl_SystemFont_Group_MonthWidget";
             this.userControl_SystemFont_Group_MonthWidget.Padding_zero = true;
             this.userControl_SystemFont_Group_MonthWidget.Separator = true;
@@ -15218,7 +16086,9 @@
             // 
             this.userControl_hand_MonthWidget.AOD = false;
             resources.ApplyResources(this.userControl_hand_MonthWidget, "userControl_hand_MonthWidget");
+            this.userControl_hand_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_MonthWidget.Collapsed = true;
+            this.userControl_hand_MonthWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_MonthWidget.Name = "userControl_hand_MonthWidget";
             this.userControl_hand_MonthWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_Widget_ValueChanged);
             // 
@@ -15226,9 +16096,11 @@
             // 
             this.userControl_text_date_MonthWidget.AOD = false;
             resources.ApplyResources(this.userControl_text_date_MonthWidget, "userControl_text_date_MonthWidget");
+            this.userControl_text_date_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_MonthWidget.Collapsed = true;
             this.userControl_text_date_MonthWidget.Distance = false;
             this.userControl_text_date_MonthWidget.Follow = true;
+            this.userControl_text_date_MonthWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_MonthWidget.ImageError = false;
             this.userControl_text_date_MonthWidget.Name = "userControl_text_date_MonthWidget";
             this.userControl_text_date_MonthWidget.OptionalSymbol = false;
@@ -15239,7 +16111,9 @@
             // 
             this.userControl_pictures_MonthWidget.AOD = false;
             resources.ApplyResources(this.userControl_pictures_MonthWidget, "userControl_pictures_MonthWidget");
+            this.userControl_pictures_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_MonthWidget.Collapsed = true;
+            this.userControl_pictures_MonthWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_MonthWidget.ImagesCount = 12;
             this.userControl_pictures_MonthWidget.Name = "userControl_pictures_MonthWidget";
             this.userControl_pictures_MonthWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15256,9 +16130,11 @@
             // 
             this.userControl_SystemFont_Group_YearWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_YearWidget, "userControl_SystemFont_Group_YearWidget");
+            this.userControl_SystemFont_Group_YearWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_YearWidget.Collapsed = true;
             this.userControl_SystemFont_Group_YearWidget.Follow = true;
             this.userControl_SystemFont_Group_YearWidget.FollowGoal = false;
+            this.userControl_SystemFont_Group_YearWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_YearWidget.Name = "userControl_SystemFont_Group_YearWidget";
             this.userControl_SystemFont_Group_YearWidget.Padding_zero = true;
             this.userControl_SystemFont_Group_YearWidget.Separator = true;
@@ -15270,9 +16146,11 @@
             // 
             this.userControl_text_date_YearWidget.AOD = false;
             resources.ApplyResources(this.userControl_text_date_YearWidget, "userControl_text_date_YearWidget");
+            this.userControl_text_date_YearWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_YearWidget.Collapsed = true;
             this.userControl_text_date_YearWidget.Distance = false;
             this.userControl_text_date_YearWidget.Follow = true;
+            this.userControl_text_date_YearWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_YearWidget.ImageError = false;
             this.userControl_text_date_YearWidget.Name = "userControl_text_date_YearWidget";
             this.userControl_text_date_YearWidget.OptionalSymbol = false;
@@ -15291,7 +16169,9 @@
             // 
             this.userControl_hand_DOWWidget.AOD = false;
             resources.ApplyResources(this.userControl_hand_DOWWidget, "userControl_hand_DOWWidget");
+            this.userControl_hand_DOWWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_DOWWidget.Collapsed = true;
+            this.userControl_hand_DOWWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_DOWWidget.Name = "userControl_hand_DOWWidget";
             this.userControl_hand_DOWWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_Widget_ValueChanged);
             // 
@@ -15299,7 +16179,9 @@
             // 
             this.userControl_pictures_DOWWidget.AOD = false;
             resources.ApplyResources(this.userControl_pictures_DOWWidget, "userControl_pictures_DOWWidget");
+            this.userControl_pictures_DOWWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_DOWWidget.Collapsed = true;
+            this.userControl_pictures_DOWWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_DOWWidget.ImagesCount = 7;
             this.userControl_pictures_DOWWidget.Name = "userControl_pictures_DOWWidget";
             this.userControl_pictures_DOWWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15365,6 +16247,7 @@
             this.button_Widget_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_End, "button_Widget_Date_End");
             this.button_Widget_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_Widget_Date_End.ImagePadding = 5;
             this.button_Widget_Date_End.Name = "button_Widget_Date_End";
             this.button_Widget_Date_End.UseVisualStyleBackColor = true;
             this.button_Widget_Date_End.Click += new System.EventHandler(this.button_Widget_Date_End_Click);
@@ -15376,6 +16259,7 @@
             this.button_Widget_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Start, "button_Widget_Date_Start");
             this.button_Widget_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_Widget_Date_Start.ImagePadding = 5;
             this.button_Widget_Date_Start.Name = "button_Widget_Date_Start";
             this.button_Widget_Date_Start.UseVisualStyleBackColor = true;
             this.button_Widget_Date_Start.Click += new System.EventHandler(this.button_Widget_Date_Start_Click);
@@ -15387,6 +16271,7 @@
             this.button_Widget_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Up, "button_Widget_Date_Up");
             this.button_Widget_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_Widget_Date_Up.ImagePadding = 5;
             this.button_Widget_Date_Up.Name = "button_Widget_Date_Up";
             this.button_Widget_Date_Up.UseVisualStyleBackColor = true;
             this.button_Widget_Date_Up.Click += new System.EventHandler(this.button_Widget_Date_Up_Click);
@@ -15398,6 +16283,7 @@
             this.button_Widget_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_Down, "button_Widget_Date_Down");
             this.button_Widget_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_Widget_Date_Down.ImagePadding = 5;
             this.button_Widget_Date_Down.Name = "button_Widget_Date_Down";
             this.button_Widget_Date_Down.UseVisualStyleBackColor = true;
             this.button_Widget_Date_Down.Click += new System.EventHandler(this.button_Widget_Date_Down_Click);
@@ -15406,7 +16292,9 @@
             // 
             this.userControl_iconWidget.AOD = false;
             resources.ApplyResources(this.userControl_iconWidget, "userControl_iconWidget");
+            this.userControl_iconWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_iconWidget.Collapsed = true;
+            this.userControl_iconWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_iconWidget.Image2 = false;
             this.userControl_iconWidget.Name = "userControl_iconWidget";
             this.userControl_iconWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15415,10 +16303,12 @@
             // 
             this.userControl_SystemFont_GroupSunriseWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupSunriseWidget, "userControl_SystemFont_GroupSunriseWidget");
+            this.userControl_SystemFont_GroupSunriseWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupSunriseWidget.Collapsed = true;
             this.userControl_SystemFont_GroupSunriseWidget.Follow = false;
             this.userControl_SystemFont_GroupSunriseWidget.FollowMax = true;
             this.userControl_SystemFont_GroupSunriseWidget.FollowMin = true;
+            this.userControl_SystemFont_GroupSunriseWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupSunriseWidget.Name = "userControl_SystemFont_GroupSunriseWidget";
             this.userControl_SystemFont_GroupSunriseWidget.Padding_zero = true;
             this.userControl_SystemFont_GroupSunriseWidget.Separator = true;
@@ -15431,10 +16321,12 @@
             // 
             this.userControl_SystemFont_GroupWeatherWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupWeatherWidget, "userControl_SystemFont_GroupWeatherWidget");
+            this.userControl_SystemFont_GroupWeatherWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWeatherWidget.Collapsed = true;
             this.userControl_SystemFont_GroupWeatherWidget.Follow = false;
             this.userControl_SystemFont_GroupWeatherWidget.FollowMax = true;
             this.userControl_SystemFont_GroupWeatherWidget.FollowMin = true;
+            this.userControl_SystemFont_GroupWeatherWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWeatherWidget.Name = "userControl_SystemFont_GroupWeatherWidget";
             this.userControl_SystemFont_GroupWeatherWidget.Padding_zero = true;
             this.userControl_SystemFont_GroupWeatherWidget.Separator = true;
@@ -15447,9 +16339,11 @@
             // 
             this.userControl_SystemFont_GroupWidget.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupWidget, "userControl_SystemFont_GroupWidget");
+            this.userControl_SystemFont_GroupWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWidget.Collapsed = true;
             this.userControl_SystemFont_GroupWidget.Follow = false;
             this.userControl_SystemFont_GroupWidget.FollowGoal = true;
+            this.userControl_SystemFont_GroupWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWidget.Name = "userControl_SystemFont_GroupWidget";
             this.userControl_SystemFont_GroupWidget.Padding_zero = true;
             this.userControl_SystemFont_GroupWidget.Separator = true;
@@ -15461,6 +16355,7 @@
             // 
             this.userControl_scaleLinearWidget.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinearWidget, "userControl_scaleLinearWidget");
+            this.userControl_scaleLinearWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinearWidget.Collapsed = true;
             this.userControl_scaleLinearWidget.Name = "userControl_scaleLinearWidget";
             this.userControl_scaleLinearWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15469,7 +16364,9 @@
             // 
             this.userControl_scaleCircleWidget.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircleWidget, "userControl_scaleCircleWidget");
+            this.userControl_scaleCircleWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircleWidget.Collapsed = true;
+            this.userControl_scaleCircleWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircleWidget.Name = "userControl_scaleCircleWidget";
             this.userControl_scaleCircleWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_Widget_ValueChanged);
             // 
@@ -15477,7 +16374,9 @@
             // 
             this.userControl_handWidget.AOD = false;
             resources.ApplyResources(this.userControl_handWidget, "userControl_handWidget");
+            this.userControl_handWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_handWidget.Collapsed = true;
+            this.userControl_handWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_handWidget.Name = "userControl_handWidget";
             this.userControl_handWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_Widget_ValueChanged);
             // 
@@ -15485,9 +16384,11 @@
             // 
             this.userControl_text_goalWidgetSunset.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidgetSunset, "userControl_text_goalWidgetSunset");
+            this.userControl_text_goalWidgetSunset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidgetSunset.Collapsed = true;
             this.userControl_text_goalWidgetSunset.Distance = false;
             this.userControl_text_goalWidgetSunset.Follow = true;
+            this.userControl_text_goalWidgetSunset.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidgetSunset.ImageError = true;
             this.userControl_text_goalWidgetSunset.Name = "userControl_text_goalWidgetSunset";
             this.userControl_text_goalWidgetSunset.OptionalSymbol = true;
@@ -15498,9 +16399,11 @@
             // 
             this.userControl_text_goalWidgetSunrise.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidgetSunrise, "userControl_text_goalWidgetSunrise");
+            this.userControl_text_goalWidgetSunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidgetSunrise.Collapsed = true;
             this.userControl_text_goalWidgetSunrise.Distance = false;
             this.userControl_text_goalWidgetSunrise.Follow = false;
+            this.userControl_text_goalWidgetSunrise.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidgetSunrise.ImageError = true;
             this.userControl_text_goalWidgetSunrise.Name = "userControl_text_goalWidgetSunrise";
             this.userControl_text_goalWidgetSunrise.OptionalSymbol = true;
@@ -15511,9 +16414,11 @@
             // 
             this.userControl_text_weatherWidgetMax.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetMax, "userControl_text_weatherWidgetMax");
+            this.userControl_text_weatherWidgetMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetMax.Collapsed = true;
             this.userControl_text_weatherWidgetMax.Distance = false;
             this.userControl_text_weatherWidgetMax.Follow = true;
+            this.userControl_text_weatherWidgetMax.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetMax.ImageError = true;
             this.userControl_text_weatherWidgetMax.Name = "userControl_text_weatherWidgetMax";
             this.userControl_text_weatherWidgetMax.OptionalSymbol = true;
@@ -15524,9 +16429,11 @@
             // 
             this.userControl_text_weatherWidgetMin.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetMin, "userControl_text_weatherWidgetMin");
+            this.userControl_text_weatherWidgetMin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetMin.Collapsed = true;
             this.userControl_text_weatherWidgetMin.Distance = false;
             this.userControl_text_weatherWidgetMin.Follow = false;
+            this.userControl_text_weatherWidgetMin.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetMin.ImageError = true;
             this.userControl_text_weatherWidgetMin.Name = "userControl_text_weatherWidgetMin";
             this.userControl_text_weatherWidgetMin.OptionalSymbol = true;
@@ -15537,9 +16444,11 @@
             // 
             this.userControl_text_weatherWidgetCur.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetCur, "userControl_text_weatherWidgetCur");
+            this.userControl_text_weatherWidgetCur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetCur.Collapsed = true;
             this.userControl_text_weatherWidgetCur.Distance = false;
             this.userControl_text_weatherWidgetCur.Follow = false;
+            this.userControl_text_weatherWidgetCur.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetCur.ImageError = true;
             this.userControl_text_weatherWidgetCur.Name = "userControl_text_weatherWidgetCur";
             this.userControl_text_weatherWidgetCur.OptionalSymbol = true;
@@ -15550,9 +16459,11 @@
             // 
             this.userControl_text_goalWidget.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidget, "userControl_text_goalWidget");
+            this.userControl_text_goalWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidget.Collapsed = true;
             this.userControl_text_goalWidget.Distance = false;
             this.userControl_text_goalWidget.Follow = true;
+            this.userControl_text_goalWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidget.ImageError = true;
             this.userControl_text_goalWidget.Name = "userControl_text_goalWidget";
             this.userControl_text_goalWidget.OptionalSymbol = false;
@@ -15563,9 +16474,11 @@
             // 
             this.userControl_textWidget.AOD = false;
             resources.ApplyResources(this.userControl_textWidget, "userControl_textWidget");
+            this.userControl_textWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_textWidget.Collapsed = true;
             this.userControl_textWidget.Distance = false;
             this.userControl_textWidget.Follow = false;
+            this.userControl_textWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_textWidget.ImageError = true;
             this.userControl_textWidget.Name = "userControl_textWidget";
             this.userControl_textWidget.OptionalSymbol = false;
@@ -15576,7 +16489,9 @@
             // 
             this.userControl_pictures_weatherWidget.AOD = false;
             resources.ApplyResources(this.userControl_pictures_weatherWidget, "userControl_pictures_weatherWidget");
+            this.userControl_pictures_weatherWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_weatherWidget.Collapsed = true;
+            this.userControl_pictures_weatherWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_weatherWidget.ImagesCount = 29;
             this.userControl_pictures_weatherWidget.Name = "userControl_pictures_weatherWidget";
             this.userControl_pictures_weatherWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15585,8 +16500,10 @@
             // 
             this.userControl_segmentsWidget.AOD = false;
             resources.ApplyResources(this.userControl_segmentsWidget, "userControl_segmentsWidget");
+            this.userControl_segmentsWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segmentsWidget.Collapsed = true;
             this.userControl_segmentsWidget.FixedRowsCount = false;
+            this.userControl_segmentsWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segmentsWidget.ImagesCount = -1;
             this.userControl_segmentsWidget.Name = "userControl_segmentsWidget";
             this.userControl_segmentsWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15595,7 +16512,9 @@
             // 
             this.userControl_picturesWidget.AOD = false;
             resources.ApplyResources(this.userControl_picturesWidget, "userControl_picturesWidget");
+            this.userControl_picturesWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_picturesWidget.Collapsed = true;
+            this.userControl_picturesWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_picturesWidget.ImagesCount = 10;
             this.userControl_picturesWidget.Name = "userControl_picturesWidget";
             this.userControl_picturesWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15603,7 +16522,9 @@
             // userControl_previewWidget
             // 
             resources.ApplyResources(this.userControl_previewWidget, "userControl_previewWidget");
+            this.userControl_previewWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_previewWidget.Collapsed = true;
+            this.userControl_previewWidget.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_previewWidget.Name = "userControl_previewWidget";
             this.userControl_previewWidget.Preview = true;
             this.userControl_previewWidget.ValueChanged += new AmazFit_Watchface_2.UserControl_preview.ValueChangedHandler(this.userControl_Widget_ValueChanged);
@@ -15648,6 +16569,9 @@
             // 
             // groupBox_WidgetNumber
             // 
+            this.groupBox_WidgetNumber.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetNumber.BorderRadius = 4;
+            this.groupBox_WidgetNumber.BorderThickness = 1F;
             this.groupBox_WidgetNumber.Controls.Add(this.label11);
             this.groupBox_WidgetNumber.Controls.Add(this.numericUpDown_WidgetDescriptionLenght);
             this.groupBox_WidgetNumber.Controls.Add(this.comboBox_WidgetBorderInactiv);
@@ -15875,6 +16799,7 @@
             this.button_WidgetDel.BorderRadius = 4;
             this.button_WidgetDel.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetDel, "button_WidgetDel");
+            this.button_WidgetDel.ImagePadding = 5;
             this.button_WidgetDel.Name = "button_WidgetDel";
             this.button_WidgetDel.UseVisualStyleBackColor = true;
             this.button_WidgetDel.Click += new System.EventHandler(this.button_WidgetDel_Click);
@@ -15922,6 +16847,9 @@
             // 
             // groupBox_WidgetElement
             // 
+            this.groupBox_WidgetElement.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetElement.BorderRadius = 4;
+            this.groupBox_WidgetElement.BorderThickness = 1F;
             this.groupBox_WidgetElement.Controls.Add(this.button_WidgetElementDel);
             this.groupBox_WidgetElement.Controls.Add(this.button_WidgetElement_End);
             this.groupBox_WidgetElement.Controls.Add(this.button_WidgetElement_Start);
@@ -15938,6 +16866,7 @@
             this.button_WidgetElementDel.BorderColor = System.Drawing.Color.DimGray;
             this.button_WidgetElementDel.BorderRadius = 4;
             this.button_WidgetElementDel.BorderThickness = 1F;
+            this.button_WidgetElementDel.ImagePadding = 5;
             resources.ApplyResources(this.button_WidgetElementDel, "button_WidgetElementDel");
             this.button_WidgetElementDel.Name = "button_WidgetElementDel";
             this.button_WidgetElementDel.UseVisualStyleBackColor = true;
@@ -15950,6 +16879,7 @@
             this.button_WidgetElement_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_End, "button_WidgetElement_End");
             this.button_WidgetElement_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_WidgetElement_End.ImagePadding = 5;
             this.button_WidgetElement_End.Name = "button_WidgetElement_End";
             this.button_WidgetElement_End.UseVisualStyleBackColor = true;
             this.button_WidgetElement_End.Click += new System.EventHandler(this.button_WidgetElement_End_Click);
@@ -15961,6 +16891,7 @@
             this.button_WidgetElement_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Start, "button_WidgetElement_Start");
             this.button_WidgetElement_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_WidgetElement_Start.ImagePadding = 5;
             this.button_WidgetElement_Start.Name = "button_WidgetElement_Start";
             this.button_WidgetElement_Start.UseVisualStyleBackColor = true;
             this.button_WidgetElement_Start.Click += new System.EventHandler(this.button_WidgetElement_Start_Click);
@@ -15972,6 +16903,7 @@
             this.button_WidgetElement_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Up, "button_WidgetElement_Up");
             this.button_WidgetElement_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_WidgetElement_Up.ImagePadding = 5;
             this.button_WidgetElement_Up.Name = "button_WidgetElement_Up";
             this.button_WidgetElement_Up.UseVisualStyleBackColor = true;
             this.button_WidgetElement_Up.Click += new System.EventHandler(this.button_WidgetElement_Up_Click);
@@ -15983,6 +16915,7 @@
             this.button_WidgetElement_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Down, "button_WidgetElement_Down");
             this.button_WidgetElement_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_WidgetElement_Down.ImagePadding = 5;
             this.button_WidgetElement_Down.Name = "button_WidgetElement_Down";
             this.button_WidgetElement_Down.UseVisualStyleBackColor = true;
             this.button_WidgetElement_Down.Click += new System.EventHandler(this.button_WidgetElement_Down_Click);
@@ -15992,14 +16925,14 @@
             this.dataGridView_WidgetElement.AllowUserToAddRows = false;
             this.dataGridView_WidgetElement.AllowUserToDeleteRows = false;
             this.dataGridView_WidgetElement.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridView_WidgetElement.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.WidgetsID,
             this.WidgetElement,
@@ -16010,10 +16943,10 @@
             this.dataGridView_WidgetElement.Name = "dataGridView_WidgetElement";
             this.dataGridView_WidgetElement.ReadOnly = true;
             this.dataGridView_WidgetElement.RowHeadersVisible = false;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.DarkGray;
-            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.DarkGray;
+            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridView_WidgetElement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_WidgetElement.SelectionChanged += new System.EventHandler(this.dataGridView_WidgetElement_SelectionChanged);
             this.dataGridView_WidgetElement.EnabledChanged += new System.EventHandler(this.dataGridView_WidgetElement_EnabledChanged);
@@ -16074,6 +17007,9 @@
             // 
             // groupBox_WidgetTypeAdd
             // 
+            this.groupBox_WidgetTypeAdd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetTypeAdd.BorderRadius = 4;
+            this.groupBox_WidgetTypeAdd.BorderThickness = 1F;
             this.groupBox_WidgetTypeAdd.Controls.Add(this.radioButton_BatteryWidgetAdd);
             this.groupBox_WidgetTypeAdd.Controls.Add(this.label28);
             this.groupBox_WidgetTypeAdd.Controls.Add(this.radioButton_AirPressureWidgetAdd);
@@ -16232,6 +17168,9 @@
             // 
             // groupBox_WdgetAdd
             // 
+            this.groupBox_WdgetAdd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WdgetAdd.BorderRadius = 4;
+            this.groupBox_WdgetAdd.BorderThickness = 1F;
             this.groupBox_WdgetAdd.Controls.Add(this.button_WidgetAdd);
             this.groupBox_WdgetAdd.Controls.Add(this.radioButton_WidgetElementAdd);
             this.groupBox_WdgetAdd.Controls.Add(this.radioButton_WidgetAdd);
@@ -16245,6 +17184,7 @@
             this.button_WidgetAdd.BorderColor = System.Drawing.Color.DimGray;
             this.button_WidgetAdd.BorderRadius = 4;
             this.button_WidgetAdd.BorderThickness = 1F;
+            this.button_WidgetAdd.ImagePadding = 5;
             resources.ApplyResources(this.button_WidgetAdd, "button_WidgetAdd");
             this.button_WidgetAdd.Name = "button_WidgetAdd";
             this.button_WidgetAdd.UseVisualStyleBackColor = true;
@@ -16267,6 +17207,9 @@
             // 
             // groupBox_WidgetElementAdd
             // 
+            this.groupBox_WidgetElementAdd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetElementAdd.BorderRadius = 4;
+            this.groupBox_WidgetElementAdd.BorderThickness = 1F;
             this.groupBox_WidgetElementAdd.Controls.Add(this.panel2);
             resources.ApplyResources(this.groupBox_WidgetElementAdd, "groupBox_WidgetElementAdd");
             this.groupBox_WidgetElementAdd.Name = "groupBox_WidgetElementAdd";
@@ -16339,9 +17282,11 @@
             // 
             this.userControl_SystemFont_Group_DayWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_DayWidgetAdd, "userControl_SystemFont_Group_DayWidgetAdd");
+            this.userControl_SystemFont_Group_DayWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_DayWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_Group_DayWidgetAdd.Follow = true;
             this.userControl_SystemFont_Group_DayWidgetAdd.FollowGoal = false;
+            this.userControl_SystemFont_Group_DayWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_DayWidgetAdd.Name = "userControl_SystemFont_Group_DayWidgetAdd";
             this.userControl_SystemFont_Group_DayWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_Group_DayWidgetAdd.Separator = true;
@@ -16353,7 +17298,9 @@
             // 
             this.userControl_hand_DayWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_hand_DayWidgetAdd, "userControl_hand_DayWidgetAdd");
+            this.userControl_hand_DayWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_DayWidgetAdd.Collapsed = true;
+            this.userControl_hand_DayWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_DayWidgetAdd.Name = "userControl_hand_DayWidgetAdd";
             this.userControl_hand_DayWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
             // 
@@ -16361,9 +17308,11 @@
             // 
             this.userControl_text_date_DayWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_date_DayWidgetAdd, "userControl_text_date_DayWidgetAdd");
+            this.userControl_text_date_DayWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_DayWidgetAdd.Collapsed = true;
             this.userControl_text_date_DayWidgetAdd.Distance = false;
             this.userControl_text_date_DayWidgetAdd.Follow = true;
+            this.userControl_text_date_DayWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_DayWidgetAdd.ImageError = false;
             this.userControl_text_date_DayWidgetAdd.Name = "userControl_text_date_DayWidgetAdd";
             this.userControl_text_date_DayWidgetAdd.OptionalSymbol = false;
@@ -16384,9 +17333,11 @@
             // 
             this.userControl_SystemFont_Group_MonthWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_MonthWidgetAdd, "userControl_SystemFont_Group_MonthWidgetAdd");
+            this.userControl_SystemFont_Group_MonthWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_MonthWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_Group_MonthWidgetAdd.Follow = true;
             this.userControl_SystemFont_Group_MonthWidgetAdd.FollowGoal = false;
+            this.userControl_SystemFont_Group_MonthWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_MonthWidgetAdd.Name = "userControl_SystemFont_Group_MonthWidgetAdd";
             this.userControl_SystemFont_Group_MonthWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_Group_MonthWidgetAdd.Separator = true;
@@ -16398,7 +17349,9 @@
             // 
             this.userControl_hand_MonthWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_hand_MonthWidgetAdd, "userControl_hand_MonthWidgetAdd");
+            this.userControl_hand_MonthWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_MonthWidgetAdd.Collapsed = true;
+            this.userControl_hand_MonthWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_MonthWidgetAdd.Name = "userControl_hand_MonthWidgetAdd";
             this.userControl_hand_MonthWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
             // 
@@ -16406,9 +17359,11 @@
             // 
             this.userControl_text_date_MonthWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_date_MonthWidgetAdd, "userControl_text_date_MonthWidgetAdd");
+            this.userControl_text_date_MonthWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_MonthWidgetAdd.Collapsed = true;
             this.userControl_text_date_MonthWidgetAdd.Distance = false;
             this.userControl_text_date_MonthWidgetAdd.Follow = true;
+            this.userControl_text_date_MonthWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_MonthWidgetAdd.ImageError = false;
             this.userControl_text_date_MonthWidgetAdd.Name = "userControl_text_date_MonthWidgetAdd";
             this.userControl_text_date_MonthWidgetAdd.OptionalSymbol = false;
@@ -16419,7 +17374,9 @@
             // 
             this.userControl_pictures_MonthWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_pictures_MonthWidgetAdd, "userControl_pictures_MonthWidgetAdd");
+            this.userControl_pictures_MonthWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_MonthWidgetAdd.Collapsed = true;
+            this.userControl_pictures_MonthWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_MonthWidgetAdd.ImagesCount = 12;
             this.userControl_pictures_MonthWidgetAdd.Name = "userControl_pictures_MonthWidgetAdd";
             this.userControl_pictures_MonthWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16436,9 +17393,11 @@
             // 
             this.userControl_SystemFont_Group_YearWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_Group_YearWidgetAdd, "userControl_SystemFont_Group_YearWidgetAdd");
+            this.userControl_SystemFont_Group_YearWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_Group_YearWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_Group_YearWidgetAdd.Follow = true;
             this.userControl_SystemFont_Group_YearWidgetAdd.FollowGoal = false;
+            this.userControl_SystemFont_Group_YearWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_Group_YearWidgetAdd.Name = "userControl_SystemFont_Group_YearWidgetAdd";
             this.userControl_SystemFont_Group_YearWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_Group_YearWidgetAdd.Separator = true;
@@ -16450,9 +17409,11 @@
             // 
             this.userControl_text_date_YearWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_date_YearWidgetAdd, "userControl_text_date_YearWidgetAdd");
+            this.userControl_text_date_YearWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_date_YearWidgetAdd.Collapsed = true;
             this.userControl_text_date_YearWidgetAdd.Distance = false;
             this.userControl_text_date_YearWidgetAdd.Follow = true;
+            this.userControl_text_date_YearWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_date_YearWidgetAdd.ImageError = false;
             this.userControl_text_date_YearWidgetAdd.Name = "userControl_text_date_YearWidgetAdd";
             this.userControl_text_date_YearWidgetAdd.OptionalSymbol = false;
@@ -16471,7 +17432,9 @@
             // 
             this.userControl_hand_DOWWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_hand_DOWWidgetAdd, "userControl_hand_DOWWidgetAdd");
+            this.userControl_hand_DOWWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_hand_DOWWidgetAdd.Collapsed = true;
+            this.userControl_hand_DOWWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_hand_DOWWidgetAdd.Name = "userControl_hand_DOWWidgetAdd";
             this.userControl_hand_DOWWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
             // 
@@ -16479,7 +17442,9 @@
             // 
             this.userControl_pictures_DOWWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_pictures_DOWWidgetAdd, "userControl_pictures_DOWWidgetAdd");
+            this.userControl_pictures_DOWWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_DOWWidgetAdd.Collapsed = true;
+            this.userControl_pictures_DOWWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_DOWWidgetAdd.ImagesCount = 7;
             this.userControl_pictures_DOWWidgetAdd.Name = "userControl_pictures_DOWWidgetAdd";
             this.userControl_pictures_DOWWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16545,6 +17510,7 @@
             this.button_Widget_Date_EndAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_EndAdd, "button_Widget_Date_EndAdd");
             this.button_Widget_Date_EndAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
+            this.button_Widget_Date_EndAdd.ImagePadding = 5;
             this.button_Widget_Date_EndAdd.Name = "button_Widget_Date_EndAdd";
             this.button_Widget_Date_EndAdd.UseVisualStyleBackColor = true;
             this.button_Widget_Date_EndAdd.Click += new System.EventHandler(this.button_Widget_Date_EndAdd_Click);
@@ -16556,6 +17522,7 @@
             this.button_Widget_Date_StartAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_StartAdd, "button_Widget_Date_StartAdd");
             this.button_Widget_Date_StartAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
+            this.button_Widget_Date_StartAdd.ImagePadding = 5;
             this.button_Widget_Date_StartAdd.Name = "button_Widget_Date_StartAdd";
             this.button_Widget_Date_StartAdd.UseVisualStyleBackColor = true;
             this.button_Widget_Date_StartAdd.Click += new System.EventHandler(this.button_Widget_Date_StartAdd_Click);
@@ -16567,6 +17534,7 @@
             this.button_Widget_Date_UpAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_UpAdd, "button_Widget_Date_UpAdd");
             this.button_Widget_Date_UpAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
+            this.button_Widget_Date_UpAdd.ImagePadding = 5;
             this.button_Widget_Date_UpAdd.Name = "button_Widget_Date_UpAdd";
             this.button_Widget_Date_UpAdd.UseVisualStyleBackColor = true;
             this.button_Widget_Date_UpAdd.Click += new System.EventHandler(this.button_Widget_Date_UpAdd_Click);
@@ -16578,6 +17546,7 @@
             this.button_Widget_Date_DownAdd.BorderThickness = 1F;
             resources.ApplyResources(this.button_Widget_Date_DownAdd, "button_Widget_Date_DownAdd");
             this.button_Widget_Date_DownAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
+            this.button_Widget_Date_DownAdd.ImagePadding = 5;
             this.button_Widget_Date_DownAdd.Name = "button_Widget_Date_DownAdd";
             this.button_Widget_Date_DownAdd.UseVisualStyleBackColor = true;
             this.button_Widget_Date_DownAdd.Click += new System.EventHandler(this.button_Widget_Date_DownAdd_Click);
@@ -16586,7 +17555,9 @@
             // 
             this.userControl_iconWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_iconWidgetAdd, "userControl_iconWidgetAdd");
+            this.userControl_iconWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_iconWidgetAdd.Collapsed = true;
+            this.userControl_iconWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_iconWidgetAdd.Image2 = false;
             this.userControl_iconWidgetAdd.Name = "userControl_iconWidgetAdd";
             this.userControl_iconWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_icon.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16595,10 +17566,12 @@
             // 
             this.userControl_SystemFont_GroupSunriseWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupSunriseWidgetAdd, "userControl_SystemFont_GroupSunriseWidgetAdd");
+            this.userControl_SystemFont_GroupSunriseWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupSunriseWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_GroupSunriseWidgetAdd.Follow = false;
             this.userControl_SystemFont_GroupSunriseWidgetAdd.FollowMax = true;
             this.userControl_SystemFont_GroupSunriseWidgetAdd.FollowMin = true;
+            this.userControl_SystemFont_GroupSunriseWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupSunriseWidgetAdd.Name = "userControl_SystemFont_GroupSunriseWidgetAdd";
             this.userControl_SystemFont_GroupSunriseWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_GroupSunriseWidgetAdd.Separator = true;
@@ -16611,10 +17584,12 @@
             // 
             this.userControl_SystemFont_GroupWeatherWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupWeatherWidgetAdd, "userControl_SystemFont_GroupWeatherWidgetAdd");
+            this.userControl_SystemFont_GroupWeatherWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWeatherWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_GroupWeatherWidgetAdd.Follow = false;
             this.userControl_SystemFont_GroupWeatherWidgetAdd.FollowMax = true;
             this.userControl_SystemFont_GroupWeatherWidgetAdd.FollowMin = true;
+            this.userControl_SystemFont_GroupWeatherWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWeatherWidgetAdd.Name = "userControl_SystemFont_GroupWeatherWidgetAdd";
             this.userControl_SystemFont_GroupWeatherWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_GroupWeatherWidgetAdd.Separator = true;
@@ -16627,9 +17602,11 @@
             // 
             this.userControl_SystemFont_GroupWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_SystemFont_GroupWidgetAdd, "userControl_SystemFont_GroupWidgetAdd");
+            this.userControl_SystemFont_GroupWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_SystemFont_GroupWidgetAdd.Collapsed = true;
             this.userControl_SystemFont_GroupWidgetAdd.Follow = false;
             this.userControl_SystemFont_GroupWidgetAdd.FollowGoal = true;
+            this.userControl_SystemFont_GroupWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_SystemFont_GroupWidgetAdd.Name = "userControl_SystemFont_GroupWidgetAdd";
             this.userControl_SystemFont_GroupWidgetAdd.Padding_zero = true;
             this.userControl_SystemFont_GroupWidgetAdd.Separator = true;
@@ -16641,6 +17618,7 @@
             // 
             this.userControl_scaleLinearWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_scaleLinearWidgetAdd, "userControl_scaleLinearWidgetAdd");
+            this.userControl_scaleLinearWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleLinearWidgetAdd.Collapsed = true;
             this.userControl_scaleLinearWidgetAdd.Name = "userControl_scaleLinearWidgetAdd";
             this.userControl_scaleLinearWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleLinear.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16649,7 +17627,9 @@
             // 
             this.userControl_scaleCircleWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_scaleCircleWidgetAdd, "userControl_scaleCircleWidgetAdd");
+            this.userControl_scaleCircleWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_scaleCircleWidgetAdd.Collapsed = true;
+            this.userControl_scaleCircleWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_scaleCircleWidgetAdd.Name = "userControl_scaleCircleWidgetAdd";
             this.userControl_scaleCircleWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_scaleCircle.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
             // 
@@ -16657,7 +17637,9 @@
             // 
             this.userControl_handWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_handWidgetAdd, "userControl_handWidgetAdd");
+            this.userControl_handWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_handWidgetAdd.Collapsed = true;
+            this.userControl_handWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_handWidgetAdd.Name = "userControl_handWidgetAdd";
             this.userControl_handWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_hand.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
             // 
@@ -16665,9 +17647,11 @@
             // 
             this.userControl_text_goalWidgetSunsetAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidgetSunsetAdd, "userControl_text_goalWidgetSunsetAdd");
+            this.userControl_text_goalWidgetSunsetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidgetSunsetAdd.Collapsed = true;
             this.userControl_text_goalWidgetSunsetAdd.Distance = false;
             this.userControl_text_goalWidgetSunsetAdd.Follow = true;
+            this.userControl_text_goalWidgetSunsetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidgetSunsetAdd.ImageError = true;
             this.userControl_text_goalWidgetSunsetAdd.Name = "userControl_text_goalWidgetSunsetAdd";
             this.userControl_text_goalWidgetSunsetAdd.OptionalSymbol = true;
@@ -16678,9 +17662,11 @@
             // 
             this.userControl_text_goalWidgetSunriseAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidgetSunriseAdd, "userControl_text_goalWidgetSunriseAdd");
+            this.userControl_text_goalWidgetSunriseAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidgetSunriseAdd.Collapsed = true;
             this.userControl_text_goalWidgetSunriseAdd.Distance = false;
             this.userControl_text_goalWidgetSunriseAdd.Follow = false;
+            this.userControl_text_goalWidgetSunriseAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidgetSunriseAdd.ImageError = true;
             this.userControl_text_goalWidgetSunriseAdd.Name = "userControl_text_goalWidgetSunriseAdd";
             this.userControl_text_goalWidgetSunriseAdd.OptionalSymbol = true;
@@ -16691,9 +17677,11 @@
             // 
             this.userControl_text_weatherWidgetMaxAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetMaxAdd, "userControl_text_weatherWidgetMaxAdd");
+            this.userControl_text_weatherWidgetMaxAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetMaxAdd.Collapsed = true;
             this.userControl_text_weatherWidgetMaxAdd.Distance = false;
             this.userControl_text_weatherWidgetMaxAdd.Follow = true;
+            this.userControl_text_weatherWidgetMaxAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetMaxAdd.ImageError = true;
             this.userControl_text_weatherWidgetMaxAdd.Name = "userControl_text_weatherWidgetMaxAdd";
             this.userControl_text_weatherWidgetMaxAdd.OptionalSymbol = true;
@@ -16704,9 +17692,11 @@
             // 
             this.userControl_text_weatherWidgetMinAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetMinAdd, "userControl_text_weatherWidgetMinAdd");
+            this.userControl_text_weatherWidgetMinAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetMinAdd.Collapsed = true;
             this.userControl_text_weatherWidgetMinAdd.Distance = false;
             this.userControl_text_weatherWidgetMinAdd.Follow = false;
+            this.userControl_text_weatherWidgetMinAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetMinAdd.ImageError = true;
             this.userControl_text_weatherWidgetMinAdd.Name = "userControl_text_weatherWidgetMinAdd";
             this.userControl_text_weatherWidgetMinAdd.OptionalSymbol = true;
@@ -16717,9 +17707,11 @@
             // 
             this.userControl_text_weatherWidgetCurAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_weatherWidgetCurAdd, "userControl_text_weatherWidgetCurAdd");
+            this.userControl_text_weatherWidgetCurAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_weatherWidgetCurAdd.Collapsed = true;
             this.userControl_text_weatherWidgetCurAdd.Distance = false;
             this.userControl_text_weatherWidgetCurAdd.Follow = false;
+            this.userControl_text_weatherWidgetCurAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_weatherWidgetCurAdd.ImageError = true;
             this.userControl_text_weatherWidgetCurAdd.Name = "userControl_text_weatherWidgetCurAdd";
             this.userControl_text_weatherWidgetCurAdd.OptionalSymbol = true;
@@ -16730,9 +17722,11 @@
             // 
             this.userControl_text_goalWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_text_goalWidgetAdd, "userControl_text_goalWidgetAdd");
+            this.userControl_text_goalWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_text_goalWidgetAdd.Collapsed = true;
             this.userControl_text_goalWidgetAdd.Distance = false;
             this.userControl_text_goalWidgetAdd.Follow = true;
+            this.userControl_text_goalWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_text_goalWidgetAdd.ImageError = true;
             this.userControl_text_goalWidgetAdd.Name = "userControl_text_goalWidgetAdd";
             this.userControl_text_goalWidgetAdd.OptionalSymbol = false;
@@ -16743,9 +17737,11 @@
             // 
             this.userControl_textWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_textWidgetAdd, "userControl_textWidgetAdd");
+            this.userControl_textWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_textWidgetAdd.Collapsed = true;
             this.userControl_textWidgetAdd.Distance = false;
             this.userControl_textWidgetAdd.Follow = false;
+            this.userControl_textWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_textWidgetAdd.ImageError = true;
             this.userControl_textWidgetAdd.Name = "userControl_textWidgetAdd";
             this.userControl_textWidgetAdd.OptionalSymbol = false;
@@ -16756,7 +17752,9 @@
             // 
             this.userControl_pictures_weatherWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_pictures_weatherWidgetAdd, "userControl_pictures_weatherWidgetAdd");
+            this.userControl_pictures_weatherWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_pictures_weatherWidgetAdd.Collapsed = true;
+            this.userControl_pictures_weatherWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_pictures_weatherWidgetAdd.ImagesCount = 29;
             this.userControl_pictures_weatherWidgetAdd.Name = "userControl_pictures_weatherWidgetAdd";
             this.userControl_pictures_weatherWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16765,8 +17763,10 @@
             // 
             this.userControl_segmentsWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_segmentsWidgetAdd, "userControl_segmentsWidgetAdd");
+            this.userControl_segmentsWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_segmentsWidgetAdd.Collapsed = true;
             this.userControl_segmentsWidgetAdd.FixedRowsCount = false;
+            this.userControl_segmentsWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_segmentsWidgetAdd.ImagesCount = -1;
             this.userControl_segmentsWidgetAdd.Name = "userControl_segmentsWidgetAdd";
             this.userControl_segmentsWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_segments.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16775,7 +17775,9 @@
             // 
             this.userControl_picturesWidgetAdd.AOD = false;
             resources.ApplyResources(this.userControl_picturesWidgetAdd, "userControl_picturesWidgetAdd");
+            this.userControl_picturesWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_picturesWidgetAdd.Collapsed = true;
+            this.userControl_picturesWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_picturesWidgetAdd.ImagesCount = 10;
             this.userControl_picturesWidgetAdd.Name = "userControl_picturesWidgetAdd";
             this.userControl_picturesWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16783,7 +17785,9 @@
             // userControl_previewWidgetAdd
             // 
             resources.ApplyResources(this.userControl_previewWidgetAdd, "userControl_previewWidgetAdd");
+            this.userControl_previewWidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_previewWidgetAdd.Collapsed = true;
+            this.userControl_previewWidgetAdd.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_previewWidgetAdd.Name = "userControl_previewWidgetAdd";
             this.userControl_previewWidgetAdd.Preview = true;
             this.userControl_previewWidgetAdd.ValueChanged += new AmazFit_Watchface_2.UserControl_preview.ValueChangedHandler(this.userControl_WidgetAdd_ValueChanged);
@@ -16792,6 +17796,9 @@
             // 
             // groupBox_WidgetNumberAdd
             // 
+            this.groupBox_WidgetNumberAdd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_WidgetNumberAdd.BorderRadius = 4;
+            this.groupBox_WidgetNumberAdd.BorderThickness = 1F;
             this.groupBox_WidgetNumberAdd.Controls.Add(this.label14);
             this.groupBox_WidgetNumberAdd.Controls.Add(this.numericUpDown_WidgetDescriptionLenghtAdd);
             this.groupBox_WidgetNumberAdd.Controls.Add(this.comboBox_WidgetBorderInactivAdd);
@@ -17046,7 +18053,7 @@
             // 
             // tabPageConverting
             // 
-            this.tabPageConverting.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageConverting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPageConverting.Controls.Add(this.label489);
             this.tabPageConverting.Controls.Add(this.label488);
             this.tabPageConverting.Controls.Add(this.label487);
@@ -17083,12 +18090,16 @@
             this.button_Converting.BorderRadius = 4;
             this.button_Converting.BorderThickness = 1F;
             resources.ApplyResources(this.button_Converting, "button_Converting");
+            this.button_Converting.ImagePadding = 5;
             this.button_Converting.Name = "button_Converting";
             this.button_Converting.UseVisualStyleBackColor = true;
             this.button_Converting.Click += new System.EventHandler(this.button_Converting_Click);
             // 
             // groupBox10
             // 
+            this.groupBox10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox10.BorderRadius = 4;
+            this.groupBox10.BorderThickness = 1F;
             this.groupBox10.Controls.Add(this.numericUpDown_ConvertingOutput_Custom);
             this.groupBox10.Controls.Add(this.radioButton_ConvertingOutput_Custom);
             this.groupBox10.Controls.Add(this.radioButton_ConvertingOutput_TRexPro);
@@ -17150,6 +18161,9 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox9.BorderRadius = 4;
+            this.groupBox9.BorderThickness = 1F;
             this.groupBox9.Controls.Add(this.numericUpDown_ConvertingInput_Custom);
             this.groupBox9.Controls.Add(this.radioButton_ConvertingInput_Custom);
             this.groupBox9.Controls.Add(this.radioButton_ConvertingInput_TRexPro);
@@ -17212,7 +18226,7 @@
             // 
             // tabPage_Settings
             // 
-            this.tabPage_Settings.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_Settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Settings.Controls.Add(this.checkBox_AllWidgetsInGif);
             this.tabPage_Settings.Controls.Add(this.groupBox2);
             this.tabPage_Settings.Controls.Add(this.numericUpDown_Gif_Speed);
@@ -17240,6 +18254,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox2.BorderRadius = 4;
+            this.groupBox2.BorderThickness = 1F;
             this.groupBox2.Controls.Add(this.button_WatchSkin_PathGet);
             this.groupBox2.Controls.Add(this.textBox_WatchSkin_Path);
             this.groupBox2.Controls.Add(this.checkBox_WatchSkin_Use);
@@ -17253,6 +18270,7 @@
             this.button_WatchSkin_PathGet.BorderColor = System.Drawing.Color.DimGray;
             this.button_WatchSkin_PathGet.BorderRadius = 4;
             this.button_WatchSkin_PathGet.BorderThickness = 1F;
+            this.button_WatchSkin_PathGet.ImagePadding = 5;
             resources.ApplyResources(this.button_WatchSkin_PathGet, "button_WatchSkin_PathGet");
             this.button_WatchSkin_PathGet.Name = "button_WatchSkin_PathGet";
             this.button_WatchSkin_PathGet.UseVisualStyleBackColor = true;
@@ -17327,6 +18345,9 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox8.BorderRadius = 4;
+            this.groupBox8.BorderThickness = 1F;
             this.groupBox8.Controls.Add(this.checkBox_Shortcuts_Border);
             this.groupBox8.Controls.Add(this.checkBox_Shortcuts_Area);
             resources.ApplyResources(this.groupBox8, "groupBox8");
@@ -17359,6 +18380,7 @@
             this.button_Reset.BorderColor = System.Drawing.Color.DimGray;
             this.button_Reset.BorderRadius = 4;
             this.button_Reset.BorderThickness = 1F;
+            this.button_Reset.ImagePadding = 5;
             resources.ApplyResources(this.button_Reset, "button_Reset");
             this.button_Reset.Name = "button_Reset";
             this.button_Reset.UseVisualStyleBackColor = true;
@@ -17396,6 +18418,9 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox7.BorderRadius = 4;
+            this.groupBox7.BorderThickness = 1F;
             this.groupBox7.Controls.Add(this.radioButton_Settings_Pack_DoNotning);
             this.groupBox7.Controls.Add(this.radioButton_Settings_Pack_GoToFile);
             this.groupBox7.Controls.Add(this.radioButton_Settings_Pack_Dialog);
@@ -17429,6 +18454,9 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox6.BorderRadius = 4;
+            this.groupBox6.BorderThickness = 1F;
             this.groupBox6.Controls.Add(this.radioButton_Settings_Open_DoNotning);
             this.groupBox6.Controls.Add(this.radioButton_Settings_Open_Download);
             this.groupBox6.Controls.Add(this.radioButton_Settings_Open_Dialog);
@@ -17462,6 +18490,9 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox5.BorderRadius = 4;
+            this.groupBox5.BorderThickness = 1F;
             this.groupBox5.Controls.Add(this.radioButton_Settings_AfterUnpack_DoNothing);
             this.groupBox5.Controls.Add(this.radioButton_Settings_AfterUnpack_Download);
             this.groupBox5.Controls.Add(this.radioButton_Settings_AfterUnpack_Dialog);
@@ -17495,6 +18526,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox1.BorderRadius = 4;
+            this.groupBox1.BorderThickness = 1F;
             this.groupBox1.Controls.Add(this.radioButton_Settings_Unpack_Replace);
             this.groupBox1.Controls.Add(this.radioButton_Settings_Unpack_Save);
             this.groupBox1.Controls.Add(this.radioButton_Settings_Unpack_Dialog);
@@ -17530,7 +18564,7 @@
             // 
             // tabPage_About
             // 
-            this.tabPage_About.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_About.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_About.Controls.Add(this.linkLabel_resunpacker_qzip);
             this.tabPage_About.Controls.Add(this.label_TranslateHelp);
             this.tabPage_About.Controls.Add(this.label415);
@@ -17704,10 +18738,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Second_unitY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SecondX)).EndInit();
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
             this.panel_Minute.ResumeLayout(false);
             this.panel_Minute.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute_spacing)).EndInit();
@@ -18044,10 +19074,13 @@
             this.tabControl_System_AOD.ResumeLayout(false);
             this.tabPage_Battery_AOD.ResumeLayout(false);
             this.tabPage_Battery_AOD.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.tabPage_LayerOrder.ResumeLayout(false);
             this.groupBox_AODL_Date.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_AODL_Date)).EndInit();
@@ -18056,6 +19089,7 @@
             this.groupBox_SNL_Date.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Date)).EndInit();
             this.groupBox_SNL_Activity.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_SNL_Activity)).EndInit();
             this.tabPage_Widgets.ResumeLayout(false);
             this.tabControl_Widget.ResumeLayout(false);
             this.tabPage_WidgetsEdit.ResumeLayout(false);
@@ -18179,19 +19213,19 @@
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem1;
         private System.Windows.Forms.TabPage tabPage_Settings;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private DarkGroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton_Settings_Unpack_Replace;
         private System.Windows.Forms.RadioButton radioButton_Settings_Unpack_Save;
         private System.Windows.Forms.RadioButton radioButton_Settings_Unpack_Dialog;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private DarkGroupBox groupBox7;
         private System.Windows.Forms.RadioButton radioButton_Settings_Pack_DoNotning;
         private System.Windows.Forms.RadioButton radioButton_Settings_Pack_GoToFile;
         private System.Windows.Forms.RadioButton radioButton_Settings_Pack_Dialog;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private DarkGroupBox groupBox6;
         private System.Windows.Forms.RadioButton radioButton_Settings_Open_DoNotning;
         private System.Windows.Forms.RadioButton radioButton_Settings_Open_Download;
         private System.Windows.Forms.RadioButton radioButton_Settings_Open_Dialog;
-        private System.Windows.Forms.GroupBox groupBox5;
+        private DarkGroupBox groupBox5;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_DoNothing;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Download;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Dialog;
@@ -18225,7 +19259,7 @@
         private System.Windows.Forms.ColorDialog colorDialog_Pulse;
         private System.Windows.Forms.ColorDialog colorDialog_Calories;
         private System.Windows.Forms.CheckBox checkBox_Show_Shortcuts;
-        private System.Windows.Forms.GroupBox groupBox8;
+        private DarkGroupBox groupBox8;
         private System.Windows.Forms.CheckBox checkBox_Shortcuts_Area;
         private System.Windows.Forms.CheckBox checkBox_Shortcuts_Border;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_XY_InAnimationTable;
@@ -18239,14 +19273,14 @@
         private System.Windows.Forms.LinkLabel linkLabel_resunpacker_qzip;
         private System.Windows.Forms.PictureBox pictureBox_Preview;
         private System.Windows.Forms.TabPage tabPageConverting;
-        private System.Windows.Forms.GroupBox groupBox9;
+        private DarkGroupBox groupBox9;
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_TRexPro;
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_ZeppE;
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_GTR2;
         private System.Windows.Forms.NumericUpDown numericUpDown_ConvertingInput_Custom;
         private System.Windows.Forms.RadioButton radioButton_ConvertingInput_Custom;
         private DarkButton button_Converting;
-        private System.Windows.Forms.GroupBox groupBox10;
+        private DarkGroupBox groupBox10;
         private System.Windows.Forms.NumericUpDown numericUpDown_ConvertingOutput_Custom;
         private System.Windows.Forms.RadioButton radioButton_ConvertingOutput_Custom;
         private System.Windows.Forms.RadioButton radioButton_ConvertingOutput_TRexPro;
@@ -18624,9 +19658,9 @@
         private DarkButton button_DOW_image;
         private DarkTabControl tabControl_System;
         private System.Windows.Forms.TabPage tabPage_Status;
-        private System.Windows.Forms.GroupBox groupBox_Bluetooth;
+        private DarkGroupBox groupBox_Bluetooth;
         private System.Windows.Forms.TabPage tabPage_Battery;
-        private System.Windows.Forms.GroupBox groupBox_Lock;
+        private DarkGroupBox groupBox_Lock;
         private System.Windows.Forms.CheckBox checkBox_Lock_Use;
         private System.Windows.Forms.Label label660;
         private System.Windows.Forms.Label label661;
@@ -18643,7 +19677,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_BluetoothY;
         private System.Windows.Forms.Label label658;
         private System.Windows.Forms.Label label659;
-        private System.Windows.Forms.GroupBox groupBox_DND;
+        private DarkGroupBox groupBox_DND;
         private System.Windows.Forms.CheckBox checkBox_DND_Use;
         private System.Windows.Forms.Label label668;
         private System.Windows.Forms.Label label669;
@@ -18652,7 +19686,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_DNDY;
         private System.Windows.Forms.Label label670;
         private System.Windows.Forms.Label label671;
-        private System.Windows.Forms.GroupBox groupBox_Alarm;
+        private DarkGroupBox groupBox_Alarm;
         private System.Windows.Forms.CheckBox checkBox_Alarm_Use;
         private System.Windows.Forms.Label label664;
         private System.Windows.Forms.Label label665;
@@ -19289,7 +20323,7 @@
         private UserControl_SystemFont_Group userControl_SystemFont_Group_WindForce;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Altitude;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_AirPressure;
-        private System.Windows.Forms.GroupBox groupBox_ActivityGoal;
+        private DarkGroupBox groupBox_ActivityGoal;
         private System.Windows.Forms.RadioButton radioButton_ActivityGoal_Calories;
         private System.Windows.Forms.RadioButton radioButton_ActivityGoal_Steps;
         private UserControl_SystemFont_GroupWeather userControl_SystemFont_GroupWeather;
@@ -19321,7 +20355,7 @@
         private UserControl_text_goal userControl_text_goal_StandUp_AOD;
         private UserControl_icon userControl_icon_Stress_AOD;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Stress_AOD;
-        private System.Windows.Forms.GroupBox groupBox_ActivityGoal_AOD;
+        private DarkGroupBox groupBox_ActivityGoal_AOD;
         private System.Windows.Forms.RadioButton radioButton_ActivityGoal_Calories_AOD;
         private System.Windows.Forms.RadioButton radioButton_ActivityGoal_Steps_AOD;
         private UserControl_icon userControl_icon_ActivityGoal_AOD;
@@ -19364,8 +20398,8 @@
         private DarkButton button_SNL_Activity_Up;
         private DarkButton button_SNL_Activity_Start;
         private System.Windows.Forms.TabPage tabPage_LayerOrder;
-        private System.Windows.Forms.GroupBox groupBox_SNL_Activity;
-        private System.Windows.Forms.GroupBox groupBox_SNL_Date;
+        private DarkGroupBox groupBox_SNL_Activity;
+        private DarkGroupBox groupBox_SNL_Date;
         private System.Windows.Forms.DataGridView dataGridView_SNL_Date;
         private DarkButton button_SNL_Date_End;
         private DarkButton button_SNL_Date_Start;
@@ -19381,20 +20415,20 @@
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Day_AOD;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Month_AOD;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Year_AOD;
-        private System.Windows.Forms.GroupBox groupBox_AODL_Date;
+        private DarkGroupBox groupBox_AODL_Date;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView_AODL_Date;
         private DarkButton button_AODL_Date_End;
         private DarkButton button_AODL_Date_Start;
         private DarkButton button_AODL_Date_Up;
         private DarkButton button_AODL_Date_Down;
-        private System.Windows.Forms.GroupBox groupBox_AODL_Activity;
+        private DarkGroupBox groupBox_AODL_Activity;
         private System.Windows.Forms.DataGridView dataGridView_AODL_Activity;
         private DarkButton button_AODL_Activity_End;
         private DarkButton button_AODL_Activity_Start;
         private DarkButton button_AODL_Activity_Up;
         private DarkButton button_AODL_Activity_Down;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private DarkGroupBox groupBox2;
         private System.Windows.Forms.CheckBox checkBox_WatchSkin_Use;
         private DarkButton button_WatchSkin_PathGet;
         private System.Windows.Forms.TextBox textBox_WatchSkin_Path;
@@ -19405,10 +20439,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.TabPage tabPage_Widgets;
-        private System.Windows.Forms.GroupBox groupBox_WidgetNumber;
+        private DarkGroupBox groupBox_WidgetNumber;
         private System.Windows.Forms.ComboBox comboBox_WidgetNumber;
         private DarkButton button_WidgetDel;
-        private System.Windows.Forms.GroupBox groupBox_WidgetElement;
+        private DarkGroupBox groupBox_WidgetElement;
         private System.Windows.Forms.DataGridView dataGridView_WidgetElement;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
@@ -19448,8 +20482,8 @@
         protected System.Windows.Forms.Label label1085;
         private System.Windows.Forms.Label label11;
         internal System.Windows.Forms.NumericUpDown numericUpDown_WidgetDescriptionLenght;
-        private System.Windows.Forms.GroupBox groupBox_WidgetElementSettings;
-        private System.Windows.Forms.GroupBox groupBox_WidgetPreview;
+        private DarkGroupBox groupBox_WidgetElementSettings;
+        private DarkGroupBox groupBox_WidgetPreview;
         private System.Windows.Forms.RadioButton radioButton_WidgetPreviewNormal;
         private System.Windows.Forms.RadioButton radioButton_WidgetPreviewEdit;
         private System.Windows.Forms.Panel panel1;
@@ -19494,14 +20528,14 @@
         private DarkButton button_Widget_Date_Up;
         private DarkButton button_Widget_Date_Down;
         private System.Windows.Forms.CheckBox checkBox_TimeOnWidgetEdit;
-        private System.Windows.Forms.GroupBox groupBox_WidgetTypeAdd;
+        private DarkGroupBox groupBox_WidgetTypeAdd;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.RadioButton radioButton_StepsWidgetAdd;
         private System.Windows.Forms.RadioButton radioButton_DateWidgetAdd;
-        private System.Windows.Forms.GroupBox groupBox_WdgetAdd;
+        private DarkGroupBox groupBox_WdgetAdd;
         private System.Windows.Forms.RadioButton radioButton_WidgetElementAdd;
         private System.Windows.Forms.RadioButton radioButton_WidgetAdd;
-        private System.Windows.Forms.GroupBox groupBox_WidgetElementAdd;
+        private DarkGroupBox groupBox_WidgetElementAdd;
         private System.Windows.Forms.Panel panel2;
         private DarkTabControl tabControl_DateWidgetAdd;
         private System.Windows.Forms.TabPage tabPage1;
@@ -19543,7 +20577,7 @@
         private UserControl_pictures_weather userControl_pictures_weatherWidgetAdd;
         private UserControl_pictures userControl_picturesWidgetAdd;
         private UserControl_preview userControl_previewWidgetAdd;
-        private System.Windows.Forms.GroupBox groupBox_WidgetNumberAdd;
+        private DarkGroupBox groupBox_WidgetNumberAdd;
         private System.Windows.Forms.Label label14;
         internal System.Windows.Forms.NumericUpDown numericUpDown_WidgetDescriptionLenghtAdd;
         private System.Windows.Forms.ComboBox comboBox_WidgetBorderInactivAdd;

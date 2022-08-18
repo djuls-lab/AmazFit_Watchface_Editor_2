@@ -52,7 +52,7 @@ namespace AmazFit_Watchface_2
             this.comboBox_FontRotate_color = new System.Windows.Forms.ComboBox();
             this.checkBox_FontRotate_unit = new System.Windows.Forms.CheckBox();
             this.checkBox_separator = new System.Windows.Forms.CheckBox();
-            this.groupBox_FontRotate_RotateDirection = new System.Windows.Forms.GroupBox();
+            this.groupBox_FontRotate_RotateDirection = new DarkGroupBox();
             this.radioButton_CtrlClockwise = new System.Windows.Forms.RadioButton();
             this.radioButton_Clockwise = new System.Windows.Forms.RadioButton();
             this.label01 = new System.Windows.Forms.Label();
@@ -63,8 +63,8 @@ namespace AmazFit_Watchface_2
             this.label06 = new System.Windows.Forms.Label();
             this.label07 = new System.Windows.Forms.Label();
             this.label08 = new System.Windows.Forms.Label();
-            this.button_Copy_FontRotate = new System.Windows.Forms.Button();
-            this.button_FontRotate = new System.Windows.Forms.Button();
+            this.button_Copy_FontRotate = new DarkButton();
+            this.button_FontRotate = new DarkButton();
             this.contextMenuStrip_X.SuspendLayout();
             this.contextMenuStrip_Y.SuspendLayout();
             this.panel_FontRotate.SuspendLayout();
@@ -79,13 +79,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_X
             // 
-            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_X.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуХToolStripMenuItem,
             this.копироватьToolStripMenuItemX,
             this.вставитьToolStripMenuItemX});
             this.contextMenuStrip_X.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_X_Opening);
             // 
             // вставитьКоординатуХToolStripMenuItem
@@ -108,13 +108,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_Y
             // 
-            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_Y.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуYToolStripMenuItem,
             this.копироватьToolStripMenuItemY,
             this.вставитьToolStripMenuItemY});
             this.contextMenuStrip_Y.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Y_Opening);
             // 
             // вставитьКоординатуYToolStripMenuItem
@@ -137,9 +137,7 @@ namespace AmazFit_Watchface_2
             // 
             // panel_FontRotate
             // 
-            resources.ApplyResources(this.panel_FontRotate, "panel_FontRotate");
-            this.panel_FontRotate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel_FontRotate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_FontRotate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.panel_FontRotate.Controls.Add(this.checkBox_Use);
             this.panel_FontRotate.Controls.Add(this.numericUpDown_FontRotateX);
             this.panel_FontRotate.Controls.Add(this.numericUpDown_FontRotateY);
@@ -162,6 +160,7 @@ namespace AmazFit_Watchface_2
             this.panel_FontRotate.Controls.Add(this.label07);
             this.panel_FontRotate.Controls.Add(this.label08);
             this.panel_FontRotate.Controls.Add(this.button_Copy_FontRotate);
+            resources.ApplyResources(this.panel_FontRotate, "panel_FontRotate");
             this.panel_FontRotate.Name = "panel_FontRotate";
             // 
             // checkBox_Use
@@ -174,8 +173,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_FontRotateX
             // 
-            resources.ApplyResources(this.numericUpDown_FontRotateX, "numericUpDown_FontRotateX");
             this.numericUpDown_FontRotateX.ContextMenuStrip = this.contextMenuStrip_X;
+            resources.ApplyResources(this.numericUpDown_FontRotateX, "numericUpDown_FontRotateX");
             this.numericUpDown_FontRotateX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -192,8 +191,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_FontRotateY
             // 
-            resources.ApplyResources(this.numericUpDown_FontRotateY, "numericUpDown_FontRotateY");
             this.numericUpDown_FontRotateY.ContextMenuStrip = this.contextMenuStrip_Y;
+            resources.ApplyResources(this.numericUpDown_FontRotateY, "numericUpDown_FontRotateY");
             this.numericUpDown_FontRotateY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -299,9 +298,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_FontRotate_color
             // 
-            resources.ApplyResources(this.comboBox_FontRotate_color, "comboBox_FontRotate_color");
             this.comboBox_FontRotate_color.BackColor = System.Drawing.Color.DarkOrange;
             this.comboBox_FontRotate_color.DropDownHeight = 1;
+            resources.ApplyResources(this.comboBox_FontRotate_color, "comboBox_FontRotate_color");
             this.comboBox_FontRotate_color.FormattingEnabled = true;
             this.comboBox_FontRotate_color.Name = "comboBox_FontRotate_color";
             this.comboBox_FontRotate_color.Click += new System.EventHandler(this.comboBox_color_Click);
@@ -324,9 +323,9 @@ namespace AmazFit_Watchface_2
             // 
             // groupBox_FontRotate_RotateDirection
             // 
-            resources.ApplyResources(this.groupBox_FontRotate_RotateDirection, "groupBox_FontRotate_RotateDirection");
             this.groupBox_FontRotate_RotateDirection.Controls.Add(this.radioButton_CtrlClockwise);
             this.groupBox_FontRotate_RotateDirection.Controls.Add(this.radioButton_Clockwise);
+            resources.ApplyResources(this.groupBox_FontRotate_RotateDirection, "groupBox_FontRotate_RotateDirection");
             this.groupBox_FontRotate_RotateDirection.Name = "groupBox_FontRotate_RotateDirection";
             this.groupBox_FontRotate_RotateDirection.TabStop = false;
             this.groupBox_FontRotate_RotateDirection.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
@@ -404,8 +403,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_FontRotate);
             this.Controls.Add(this.button_FontRotate);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_FontRotate";
             this.contextMenuStrip_X.ResumeLayout(false);
             this.contextMenuStrip_Y.ResumeLayout(false);
@@ -449,9 +450,9 @@ namespace AmazFit_Watchface_2
         protected System.Windows.Forms.Label label05;
         protected System.Windows.Forms.Label label06;
         protected System.Windows.Forms.Label label07;
-        private System.Windows.Forms.Button button_Copy_FontRotate;
-        protected System.Windows.Forms.Button button_FontRotate;
-        private System.Windows.Forms.GroupBox groupBox_FontRotate_RotateDirection;
+        private DarkButton button_Copy_FontRotate;
+        protected DarkButton button_FontRotate;
+        private DarkGroupBox groupBox_FontRotate_RotateDirection;
         private System.Windows.Forms.RadioButton radioButton_CtrlClockwise;
         private System.Windows.Forms.RadioButton radioButton_Clockwise;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_radius;

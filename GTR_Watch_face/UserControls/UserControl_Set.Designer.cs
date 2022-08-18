@@ -30,7 +30,7 @@ namespace AmazFit_Watchface_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_Set));
-            this.groupBox_Air = new System.Windows.Forms.GroupBox();
+            this.groupBox_Air = new AmazFit_Watchface_2.DarkGroupBox();
             this.label22 = new System.Windows.Forms.Label();
             this.numericUpDown_AirPressure_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Altitude_Set = new System.Windows.Forms.NumericUpDown();
@@ -51,7 +51,7 @@ namespace AmazFit_Watchface_2
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.groupBox_Activity = new System.Windows.Forms.GroupBox();
+            this.groupBox_Activity = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_DND_Set = new System.Windows.Forms.CheckBox();
             this.checkBox_Lock_Set = new System.Windows.Forms.CheckBox();
             this.checkBox_Alarm_Set = new System.Windows.Forms.CheckBox();
@@ -80,7 +80,7 @@ namespace AmazFit_Watchface_2
             this.label03 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label01 = new System.Windows.Forms.Label();
-            this.button_Set = new System.Windows.Forms.Button();
+            this.button_Set = new AmazFit_Watchface_2.DarkButton();
             this.groupBox_Air.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AirPressure_Set)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Altitude_Set)).BeginInit();
@@ -106,6 +106,9 @@ namespace AmazFit_Watchface_2
             // 
             // groupBox_Air
             // 
+            this.groupBox_Air.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_Air.BorderRadius = 4;
+            this.groupBox_Air.BorderThickness = 1F;
             this.groupBox_Air.Controls.Add(this.label22);
             this.groupBox_Air.Controls.Add(this.numericUpDown_AirPressure_Set);
             this.groupBox_Air.Controls.Add(this.numericUpDown_Altitude_Set);
@@ -376,6 +379,9 @@ namespace AmazFit_Watchface_2
             // 
             // groupBox_Activity
             // 
+            this.groupBox_Activity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_Activity.BorderRadius = 4;
+            this.groupBox_Activity.BorderThickness = 1F;
             this.groupBox_Activity.Controls.Add(this.checkBox_DND_Set);
             this.groupBox_Activity.Controls.Add(this.checkBox_Lock_Set);
             this.groupBox_Activity.Controls.Add(this.checkBox_Alarm_Set);
@@ -663,7 +669,11 @@ namespace AmazFit_Watchface_2
             // 
             // button_Set
             // 
+            this.button_Set.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Set.BorderRadius = 4;
+            this.button_Set.BorderThickness = 1F;
             resources.ApplyResources(this.button_Set, "button_Set");
+            this.button_Set.ImagePadding = 5;
             this.button_Set.Name = "button_Set";
             this.button_Set.UseVisualStyleBackColor = true;
             this.button_Set.Click += new System.EventHandler(this.button_Set_Click);
@@ -672,6 +682,7 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.groupBox_Air);
             this.Controls.Add(this.groupBox_Activity);
             this.Controls.Add(this.button_Set);
@@ -705,7 +716,7 @@ namespace AmazFit_Watchface_2
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox_Air;
+        private DarkGroupBox groupBox_Air;
         private System.Windows.Forms.NumericUpDown numericUpDown_AirPressure_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Altitude_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_WindForce;
@@ -718,7 +729,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.GroupBox groupBox_Activity;
+        private DarkGroupBox groupBox_Activity;
         private System.Windows.Forms.CheckBox checkBox_DND_Set;
         private System.Windows.Forms.CheckBox checkBox_Lock_Set;
         private System.Windows.Forms.CheckBox checkBox_Alarm_Set;
@@ -746,7 +757,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label03;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label01;
-        private System.Windows.Forms.Button button_Set;
+        private DarkButton button_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MinTemp;
         private System.Windows.Forms.ComboBox comboBox_WeatherSet_Icon;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MaxTemp;

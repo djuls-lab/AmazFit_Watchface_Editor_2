@@ -31,22 +31,21 @@ namespace AmazFit_Watchface_2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_preview));
             this.panel_preview = new System.Windows.Forms.Panel();
-            this.button_RefreshPreview = new System.Windows.Forms.Button();
-            this.button_CreatePreview = new System.Windows.Forms.Button();
+            this.button_RefreshPreview = new DarkButton();
+            this.button_CreatePreview = new DarkButton();
             this.comboBox_image = new System.Windows.Forms.ComboBox();
             this.label01 = new System.Windows.Forms.Label();
-            this.button_preview = new System.Windows.Forms.Button();
+            this.button_preview = new DarkButton();
             this.panel_preview.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_preview
             // 
-            resources.ApplyResources(this.panel_preview, "panel_preview");
-            this.panel_preview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_preview.Controls.Add(this.button_RefreshPreview);
             this.panel_preview.Controls.Add(this.button_CreatePreview);
             this.panel_preview.Controls.Add(this.comboBox_image);
             this.panel_preview.Controls.Add(this.label01);
+            resources.ApplyResources(this.panel_preview, "panel_preview");
             this.panel_preview.Name = "panel_preview";
             // 
             // button_RefreshPreview
@@ -65,10 +64,10 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_image
             // 
-            resources.ApplyResources(this.comboBox_image, "comboBox_image");
             this.comboBox_image.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_image.DropDownWidth = 75;
             this.comboBox_image.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox_image, "comboBox_image");
             this.comboBox_image.Name = "comboBox_image";
             this.comboBox_image.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
             this.comboBox_image.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.comboBox_MeasureItem);
@@ -92,8 +91,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_preview);
             this.Controls.Add(this.button_preview);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_preview";
             this.panel_preview.ResumeLayout(false);
             this.panel_preview.PerformLayout();
@@ -106,8 +107,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Panel panel_preview;
         public System.Windows.Forms.ComboBox comboBox_image;
         private System.Windows.Forms.Label label01;
-        public System.Windows.Forms.Button button_preview;
-        private System.Windows.Forms.Button button_CreatePreview;
-        private System.Windows.Forms.Button button_RefreshPreview;
+        public DarkButton button_preview;
+        private DarkButton button_CreatePreview;
+        private DarkButton button_RefreshPreview;
     }
 }

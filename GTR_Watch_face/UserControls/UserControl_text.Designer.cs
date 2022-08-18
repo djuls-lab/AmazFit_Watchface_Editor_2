@@ -31,7 +31,7 @@ namespace AmazFit_Watchface_2
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_text));
-            this.button_text = new System.Windows.Forms.Button();
+            this.button_text = new DarkButton();
             this.panel_text = new System.Windows.Forms.Panel();
             this.checkBox_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_image = new System.Windows.Forms.ComboBox();
@@ -70,7 +70,7 @@ namespace AmazFit_Watchface_2
             this.label1084 = new System.Windows.Forms.Label();
             this.label1085 = new System.Windows.Forms.Label();
             this.label1086 = new System.Windows.Forms.Label();
-            this.button_Copy_text = new System.Windows.Forms.Button();
+            this.button_Copy_text = new DarkButton();
             this.panel_text.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_imageX)).BeginInit();
             this.contextMenuStrip_X.SuspendLayout();
@@ -90,8 +90,6 @@ namespace AmazFit_Watchface_2
             // 
             // panel_text
             // 
-            resources.ApplyResources(this.panel_text, "panel_text");
-            this.panel_text.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_text.Controls.Add(this.checkBox_Use);
             this.panel_text.Controls.Add(this.comboBox_image);
             this.panel_text.Controls.Add(this.comboBox_icon);
@@ -122,6 +120,7 @@ namespace AmazFit_Watchface_2
             this.panel_text.Controls.Add(this.label1085);
             this.panel_text.Controls.Add(this.label1086);
             this.panel_text.Controls.Add(this.button_Copy_text);
+            resources.ApplyResources(this.panel_text, "panel_text");
             this.panel_text.Name = "panel_text";
             // 
             // checkBox_Use
@@ -134,9 +133,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_image
             // 
-            resources.ApplyResources(this.comboBox_image, "comboBox_image");
             this.comboBox_image.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_image.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_image, "comboBox_image");
             this.comboBox_image.FormattingEnabled = true;
             this.comboBox_image.Name = "comboBox_image";
             this.comboBox_image.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -147,9 +146,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_icon
             // 
-            resources.ApplyResources(this.comboBox_icon, "comboBox_icon");
             this.comboBox_icon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_icon.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_icon, "comboBox_icon");
             this.comboBox_icon.FormattingEnabled = true;
             this.comboBox_icon.Name = "comboBox_icon";
             this.comboBox_icon.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -160,9 +159,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_unit
             // 
-            resources.ApplyResources(this.comboBox_unit, "comboBox_unit");
             this.comboBox_unit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_unit.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_unit, "comboBox_unit");
             this.comboBox_unit.FormattingEnabled = true;
             this.comboBox_unit.Name = "comboBox_unit";
             this.comboBox_unit.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -173,9 +172,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_unit_miles
             // 
-            resources.ApplyResources(this.comboBox_unit_miles, "comboBox_unit_miles");
             this.comboBox_unit_miles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_unit_miles.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_unit_miles, "comboBox_unit_miles");
             this.comboBox_unit_miles.FormattingEnabled = true;
             this.comboBox_unit_miles.Name = "comboBox_unit_miles";
             this.comboBox_unit_miles.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -186,8 +185,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_imageX
             // 
-            resources.ApplyResources(this.numericUpDown_imageX, "numericUpDown_imageX");
             this.numericUpDown_imageX.ContextMenuStrip = this.contextMenuStrip_X;
+            resources.ApplyResources(this.numericUpDown_imageX, "numericUpDown_imageX");
             this.numericUpDown_imageX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -204,13 +203,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_X
             // 
-            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_X.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуХToolStripMenuItem,
             this.копироватьToolStripMenuItemX,
             this.вставитьToolStripMenuItemX});
             this.contextMenuStrip_X.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_X, "contextMenuStrip_X");
             this.contextMenuStrip_X.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_X_Opening);
             // 
             // вставитьКоординатуХToolStripMenuItem
@@ -233,8 +232,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_imageY
             // 
-            resources.ApplyResources(this.numericUpDown_imageY, "numericUpDown_imageY");
             this.numericUpDown_imageY.ContextMenuStrip = this.contextMenuStrip_Y;
+            resources.ApplyResources(this.numericUpDown_imageY, "numericUpDown_imageY");
             this.numericUpDown_imageY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -251,13 +250,13 @@ namespace AmazFit_Watchface_2
             // 
             // contextMenuStrip_Y
             // 
-            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip_Y.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вставитьКоординатуYToolStripMenuItem,
             this.копироватьToolStripMenuItemY,
             this.вставитьToolStripMenuItemY});
             this.contextMenuStrip_Y.Name = "contextMenuStrip_X";
+            resources.ApplyResources(this.contextMenuStrip_Y, "contextMenuStrip_Y");
             this.contextMenuStrip_Y.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Y_Opening);
             // 
             // вставитьКоординатуYToolStripMenuItem
@@ -280,8 +279,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_iconX
             // 
-            resources.ApplyResources(this.numericUpDown_iconX, "numericUpDown_iconX");
             this.numericUpDown_iconX.ContextMenuStrip = this.contextMenuStrip_X;
+            resources.ApplyResources(this.numericUpDown_iconX, "numericUpDown_iconX");
             this.numericUpDown_iconX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -298,8 +297,8 @@ namespace AmazFit_Watchface_2
             // 
             // numericUpDown_iconY
             // 
-            resources.ApplyResources(this.numericUpDown_iconY, "numericUpDown_iconY");
             this.numericUpDown_iconY.ContextMenuStrip = this.contextMenuStrip_Y;
+            resources.ApplyResources(this.numericUpDown_iconY, "numericUpDown_iconY");
             this.numericUpDown_iconY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -316,8 +315,8 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_alignment
             // 
-            resources.ApplyResources(this.comboBox_alignment, "comboBox_alignment");
             this.comboBox_alignment.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBox_alignment, "comboBox_alignment");
             this.comboBox_alignment.FormattingEnabled = true;
             this.comboBox_alignment.Items.AddRange(new object[] {
             resources.GetString("comboBox_alignment.Items"),
@@ -351,9 +350,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_imageError
             // 
-            resources.ApplyResources(this.comboBox_imageError, "comboBox_imageError");
             this.comboBox_imageError.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_imageError.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_imageError, "comboBox_imageError");
             this.comboBox_imageError.FormattingEnabled = true;
             this.comboBox_imageError.Name = "comboBox_imageError";
             this.comboBox_imageError.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -364,9 +363,9 @@ namespace AmazFit_Watchface_2
             // 
             // comboBox_imageDecimalPoint
             // 
-            resources.ApplyResources(this.comboBox_imageDecimalPoint, "comboBox_imageDecimalPoint");
             this.comboBox_imageDecimalPoint.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.comboBox_imageDecimalPoint.DropDownWidth = 75;
+            resources.ApplyResources(this.comboBox_imageDecimalPoint, "comboBox_imageDecimalPoint");
             this.comboBox_imageDecimalPoint.FormattingEnabled = true;
             this.comboBox_imageDecimalPoint.Name = "comboBox_imageDecimalPoint";
             this.comboBox_imageDecimalPoint.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
@@ -464,8 +463,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_text);
             this.Controls.Add(this.button_text);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_text";
             this.panel_text.ResumeLayout(false);
             this.panel_text.PerformLayout();
@@ -490,7 +491,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label03;
         private System.Windows.Forms.Label label1083;
         private System.Windows.Forms.Label label1086;
-        private System.Windows.Forms.Button button_Copy_text;
+        private DarkButton button_Copy_text;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
@@ -508,7 +509,7 @@ namespace AmazFit_Watchface_2
         protected System.Windows.Forms.Label label02;
         protected System.Windows.Forms.Label label1084;
         protected System.Windows.Forms.Label label1085;
-        protected System.Windows.Forms.Button button_text;
+        protected DarkButton button_text;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageY;
         public System.Windows.Forms.CheckBox checkBox_follow;

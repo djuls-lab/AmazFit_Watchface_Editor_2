@@ -37,27 +37,26 @@ namespace AmazFit_Watchface_2
             this.userControl_SystemFont_weather_Max = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
             this.userControl_SystemFont_weather_Min = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
             this.userControl_SystemFont_weather_Current = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
-            this.button_SystemFont = new System.Windows.Forms.Button();
+            this.button_SystemFont = new DarkButton();
             this.panel_SystemFont.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_SystemFont
             // 
-            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
-            this.panel_SystemFont.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel_SystemFont.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_SystemFont.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.panel_SystemFont.Controls.Add(this.userControl_FontRotate_weather_Max);
             this.panel_SystemFont.Controls.Add(this.userControl_FontRotate_weather_Min);
             this.panel_SystemFont.Controls.Add(this.userControl_FontRotate_weather_Current);
             this.panel_SystemFont.Controls.Add(this.userControl_SystemFont_weather_Max);
             this.panel_SystemFont.Controls.Add(this.userControl_SystemFont_weather_Min);
             this.panel_SystemFont.Controls.Add(this.userControl_SystemFont_weather_Current);
+            resources.ApplyResources(this.panel_SystemFont, "panel_SystemFont");
             this.panel_SystemFont.Name = "panel_SystemFont";
             // 
             // userControl_FontRotate_weather_Max
             // 
-            resources.ApplyResources(this.userControl_FontRotate_weather_Max, "userControl_FontRotate_weather_Max");
             this.userControl_FontRotate_weather_Max.AOD = false;
+            resources.ApplyResources(this.userControl_FontRotate_weather_Max, "userControl_FontRotate_weather_Max");
             this.userControl_FontRotate_weather_Max.Collapsed = true;
             this.userControl_FontRotate_weather_Max.Follow = false;
             this.userControl_FontRotate_weather_Max.Name = "userControl_FontRotate_weather_Max";
@@ -69,8 +68,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_FontRotate_weather_Min
             // 
-            resources.ApplyResources(this.userControl_FontRotate_weather_Min, "userControl_FontRotate_weather_Min");
             this.userControl_FontRotate_weather_Min.AOD = false;
+            resources.ApplyResources(this.userControl_FontRotate_weather_Min, "userControl_FontRotate_weather_Min");
             this.userControl_FontRotate_weather_Min.Collapsed = true;
             this.userControl_FontRotate_weather_Min.Follow = false;
             this.userControl_FontRotate_weather_Min.Name = "userControl_FontRotate_weather_Min";
@@ -82,8 +81,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_FontRotate_weather_Current
             // 
-            resources.ApplyResources(this.userControl_FontRotate_weather_Current, "userControl_FontRotate_weather_Current");
             this.userControl_FontRotate_weather_Current.AOD = false;
+            resources.ApplyResources(this.userControl_FontRotate_weather_Current, "userControl_FontRotate_weather_Current");
             this.userControl_FontRotate_weather_Current.Collapsed = true;
             this.userControl_FontRotate_weather_Current.Follow = false;
             this.userControl_FontRotate_weather_Current.Name = "userControl_FontRotate_weather_Current";
@@ -95,8 +94,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_SystemFont_weather_Max
             // 
-            resources.ApplyResources(this.userControl_SystemFont_weather_Max, "userControl_SystemFont_weather_Max");
             this.userControl_SystemFont_weather_Max.AOD = false;
+            resources.ApplyResources(this.userControl_SystemFont_weather_Max, "userControl_SystemFont_weather_Max");
             this.userControl_SystemFont_weather_Max.Collapsed = true;
             this.userControl_SystemFont_weather_Max.Follow = false;
             this.userControl_SystemFont_weather_Max.Name = "userControl_SystemFont_weather_Max";
@@ -108,8 +107,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_SystemFont_weather_Min
             // 
-            resources.ApplyResources(this.userControl_SystemFont_weather_Min, "userControl_SystemFont_weather_Min");
             this.userControl_SystemFont_weather_Min.AOD = false;
+            resources.ApplyResources(this.userControl_SystemFont_weather_Min, "userControl_SystemFont_weather_Min");
             this.userControl_SystemFont_weather_Min.Collapsed = true;
             this.userControl_SystemFont_weather_Min.Follow = false;
             this.userControl_SystemFont_weather_Min.Name = "userControl_SystemFont_weather_Min";
@@ -121,8 +120,8 @@ namespace AmazFit_Watchface_2
             // 
             // userControl_SystemFont_weather_Current
             // 
-            resources.ApplyResources(this.userControl_SystemFont_weather_Current, "userControl_SystemFont_weather_Current");
             this.userControl_SystemFont_weather_Current.AOD = false;
+            resources.ApplyResources(this.userControl_SystemFont_weather_Current, "userControl_SystemFont_weather_Current");
             this.userControl_SystemFont_weather_Current.Collapsed = true;
             this.userControl_SystemFont_weather_Current.Follow = false;
             this.userControl_SystemFont_weather_Current.Name = "userControl_SystemFont_weather_Current";
@@ -143,8 +142,10 @@ namespace AmazFit_Watchface_2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.panel_SystemFont);
             this.Controls.Add(this.button_SystemFont);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_SystemFont_GroupWeather";
             this.panel_SystemFont.ResumeLayout(false);
             this.panel_SystemFont.PerformLayout();
@@ -153,7 +154,7 @@ namespace AmazFit_Watchface_2
         }
 
         #endregion
-        protected System.Windows.Forms.Button button_SystemFont;
+        protected DarkButton button_SystemFont;
         public UserControl_SystemFont_weather userControl_SystemFont_weather_Current;
         public UserControl_FontRotate_weather userControl_FontRotate_weather_Max;
         public UserControl_FontRotate_weather userControl_FontRotate_weather_Min;

@@ -33,10 +33,10 @@
             this.pictureBox_AnimatiomPreview = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button_AnimationReset = new System.Windows.Forms.Button();
+            this.button_AnimationReset = new DarkButton();
             this.numericUpDown_NumberOfFrames = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.button_SaveAnimation = new System.Windows.Forms.Button();
+            this.button_SaveAnimation = new DarkButton();
             this.radioButton_xlarge = new System.Windows.Forms.RadioButton();
             this.radioButton_large = new System.Windows.Forms.RadioButton();
             this.radioButton_normal = new System.Windows.Forms.RadioButton();
@@ -49,7 +49,7 @@
             // pictureBox_AnimatiomPreview
             // 
             resources.ApplyResources(this.pictureBox_AnimatiomPreview, "pictureBox_AnimatiomPreview");
-            this.pictureBox_AnimatiomPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_AnimatiomPreview.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.pictureBox_AnimatiomPreview.Name = "pictureBox_AnimatiomPreview";
             this.pictureBox_AnimatiomPreview.TabStop = false;
             // 
@@ -171,9 +171,9 @@
         private System.Windows.Forms.RadioButton radioButton_large;
         private System.Windows.Forms.NumericUpDown numericUpDown_NumberOfFrames;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button_SaveAnimation;
+        private DarkButton button_SaveAnimation;
         private System.Windows.Forms.ProgressBar progressBar_SaveAnimation;
-        private System.Windows.Forms.Button button_AnimationReset;
+        private DarkButton button_AnimationReset;
         public System.Windows.Forms.Timer timer1;
     }
 }

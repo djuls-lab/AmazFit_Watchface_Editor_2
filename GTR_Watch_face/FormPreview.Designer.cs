@@ -122,7 +122,7 @@
             // pictureBox_Preview
             // 
             this.pictureBox_Preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox_Preview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_Preview.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.pictureBox_Preview.Cursor = System.Windows.Forms.Cursors.Cross;
             this.pictureBox_Preview.Location = new System.Drawing.Point(3, 3);
             this.pictureBox_Preview.Name = "pictureBox_Preview";

@@ -29,7 +29,23 @@ namespace AmazFit_Watchface_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.panel_text.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel_text
+            // 
+            this.panel_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            // 
+            // UserControl_text_goal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Name = "UserControl_text_goal";
+            this.panel_text.ResumeLayout(false);
+            this.panel_text.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
