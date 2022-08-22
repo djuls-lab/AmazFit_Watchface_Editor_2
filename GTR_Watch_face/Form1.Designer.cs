@@ -48,6 +48,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +100,6 @@
             this.radioButton_GTR2e = new System.Windows.Forms.RadioButton();
             this.radioButton_TRex_pro = new System.Windows.Forms.RadioButton();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.pictureBox_Preview = new System.Windows.Forms.PictureBox();
             this.checkBox_WidgetsArea = new System.Windows.Forms.CheckBox();
             this.radioButton_ZeppE = new System.Windows.Forms.RadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
@@ -1291,7 +1291,7 @@
             this.radioButton_WidgetPreviewNormal = new System.Windows.Forms.RadioButton();
             this.groupBox_WidgetElementSettings = new AmazFit_Watchface_2.DarkGroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tabControl_DateWidget = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_DateWidget = new System.Windows.Forms.TabControl();
             this.tabPage_DayWidget = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_DayWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidget = new AmazFit_Watchface_2.UserControl_hand();
@@ -1316,6 +1316,7 @@
             this.button_Widget_Date_Start = new AmazFit_Watchface_2.DarkButton();
             this.button_Widget_Date_Up = new AmazFit_Watchface_2.DarkButton();
             this.button_Widget_Date_Down = new AmazFit_Watchface_2.DarkButton();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.userControl_iconWidget = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunriseWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
             this.userControl_SystemFont_GroupWeatherWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -1535,11 +1536,11 @@
             this.label_version_help = new System.Windows.Forms.Label();
             this.label406 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Preview = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip_Y.SuspendLayout();
             this.contextMenuStrip_X.SuspendLayout();
             this.contextMenuStrip_XY_InAnimationTable.SuspendLayout();
             this.contextMenuStrip_XY_InTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage_Show.SuspendLayout();
@@ -1901,6 +1902,7 @@
             this.groupBox1.SuspendLayout();
             this.tabPage_About.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip_Y
@@ -2280,17 +2282,6 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Step = 1;
             // 
-            // pictureBox_Preview
-            // 
-            this.pictureBox_Preview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(23)))), ((int)(((byte)(25)))));
-            resources.ApplyResources(this.pictureBox_Preview, "pictureBox_Preview");
-            this.pictureBox_Preview.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pictureBox_Preview.Name = "pictureBox_Preview";
-            this.pictureBox_Preview.TabStop = false;
-            this.pictureBox_Preview.DoubleClick += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
-            this.pictureBox_Preview.MouseLeave += new System.EventHandler(this.pictureBox_Preview_MouseLeave);
-            this.pictureBox_Preview.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox_Preview_MouseMove);
-            // 
             // checkBox_WidgetsArea
             // 
             this.checkBox_WidgetsArea.Checked = true;
@@ -2321,26 +2312,9 @@
             this.tabControl1.Controls.Add(this.tabPageConverting);
             this.tabControl1.Controls.Add(this.tabPage_Settings);
             this.tabControl1.Controls.Add(this.tabPage_About);
-            this.tabControl1.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl1.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl1.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl1.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl1.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl1.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl1.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl1.DisplayStyleProvider.HotTrack = false;
-            this.tabControl1.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl1.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl1.DisplayStyleProvider.Overlap = 0;
-            this.tabControl1.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl1.DisplayStyleProvider.Radius = 3;
-            this.tabControl1.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl1.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl1.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl1.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -2388,6 +2362,7 @@
             resources.ApplyResources(this.userControl_Set12, "userControl_Set12");
             this.userControl_Set12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set12.Collapsed = true;
+            this.userControl_Set12.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set12.Name = "userControl_Set12";
             this.userControl_Set12.SetNumber = 12;
             this.userControl_Set12.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set12_Collapse);
@@ -2398,6 +2373,7 @@
             resources.ApplyResources(this.userControl_Set11, "userControl_Set11");
             this.userControl_Set11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set11.Collapsed = true;
+            this.userControl_Set11.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set11.Name = "userControl_Set11";
             this.userControl_Set11.SetNumber = 11;
             this.userControl_Set11.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set11_Collapse);
@@ -2408,6 +2384,7 @@
             resources.ApplyResources(this.userControl_Set10, "userControl_Set10");
             this.userControl_Set10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set10.Collapsed = true;
+            this.userControl_Set10.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set10.Name = "userControl_Set10";
             this.userControl_Set10.SetNumber = 10;
             this.userControl_Set10.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set10_Collapse);
@@ -2418,6 +2395,7 @@
             resources.ApplyResources(this.userControl_Set9, "userControl_Set9");
             this.userControl_Set9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set9.Collapsed = true;
+            this.userControl_Set9.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set9.Name = "userControl_Set9";
             this.userControl_Set9.SetNumber = 9;
             this.userControl_Set9.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set9_Collapse);
@@ -2428,6 +2406,7 @@
             resources.ApplyResources(this.userControl_Set8, "userControl_Set8");
             this.userControl_Set8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set8.Collapsed = true;
+            this.userControl_Set8.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set8.Name = "userControl_Set8";
             this.userControl_Set8.SetNumber = 8;
             this.userControl_Set8.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set8_Collapse);
@@ -2438,6 +2417,7 @@
             resources.ApplyResources(this.userControl_Set7, "userControl_Set7");
             this.userControl_Set7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set7.Collapsed = true;
+            this.userControl_Set7.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set7.Name = "userControl_Set7";
             this.userControl_Set7.SetNumber = 7;
             this.userControl_Set7.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set7_Collapse);
@@ -2448,6 +2428,7 @@
             resources.ApplyResources(this.userControl_Set6, "userControl_Set6");
             this.userControl_Set6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set6.Collapsed = true;
+            this.userControl_Set6.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set6.Name = "userControl_Set6";
             this.userControl_Set6.SetNumber = 6;
             this.userControl_Set6.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set6_Collapse);
@@ -2458,6 +2439,7 @@
             resources.ApplyResources(this.userControl_Set5, "userControl_Set5");
             this.userControl_Set5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set5.Collapsed = true;
+            this.userControl_Set5.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set5.Name = "userControl_Set5";
             this.userControl_Set5.SetNumber = 5;
             this.userControl_Set5.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set5_Collapse);
@@ -2468,6 +2450,7 @@
             resources.ApplyResources(this.userControl_Set4, "userControl_Set4");
             this.userControl_Set4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set4.Collapsed = true;
+            this.userControl_Set4.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set4.Name = "userControl_Set4";
             this.userControl_Set4.SetNumber = 4;
             this.userControl_Set4.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set4_Collapse);
@@ -2478,6 +2461,7 @@
             resources.ApplyResources(this.userControl_Set3, "userControl_Set3");
             this.userControl_Set3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set3.Collapsed = true;
+            this.userControl_Set3.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set3.Name = "userControl_Set3";
             this.userControl_Set3.SetNumber = 3;
             this.userControl_Set3.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set3_Collapse);
@@ -2488,6 +2472,7 @@
             resources.ApplyResources(this.userControl_Set2, "userControl_Set2");
             this.userControl_Set2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set2.Collapsed = true;
+            this.userControl_Set2.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set2.Name = "userControl_Set2";
             this.userControl_Set2.SetNumber = 2;
             this.userControl_Set2.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set2_Collapse);
@@ -2498,6 +2483,7 @@
             resources.ApplyResources(this.userControl_Set1, "userControl_Set1");
             this.userControl_Set1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.userControl_Set1.Collapsed = true;
+            this.userControl_Set1.ForeColor = System.Drawing.Color.Gainsboro;
             this.userControl_Set1.Name = "userControl_Set1";
             this.userControl_Set1.SetNumber = 1;
             this.userControl_Set1.Collapse += new AmazFit_Watchface_2.UserControl_Set.CollapseHandler(this.userControl_Set1_Collapse);
@@ -2678,26 +2664,9 @@
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Activity);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Air);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_System);
-            this.tabControl_EditParameters.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_EditParameters.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_EditParameters.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_EditParameters.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_EditParameters.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_EditParameters.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_EditParameters.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_EditParameters.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_EditParameters.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_EditParameters.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_EditParameters.DisplayStyleProvider.Radius = 3;
-            this.tabControl_EditParameters.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_EditParameters.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             this.tabControl_EditParameters.ImageList = this.imageList1;
             this.tabControl_EditParameters.Multiline = true;
             this.tabControl_EditParameters.Name = "tabControl_EditParameters";
@@ -2811,26 +2780,9 @@
             // 
             this.tabControl_time.Controls.Add(this.tabPage_Digital_time);
             this.tabControl_time.Controls.Add(this.tabPage_Analog_time);
-            this.tabControl_time.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_time.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_time.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_time.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_time.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_time.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_time.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_time.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_time.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_time.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_time.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_time.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_time.DisplayStyleProvider.Radius = 3;
-            this.tabControl_time.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_time.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_time.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_time.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_time, "tabControl_time");
             this.tabControl_time.Name = "tabControl_time";
             this.tabControl_time.SelectedIndex = 0;
@@ -3286,6 +3238,7 @@
             resources.ApplyResources(this.button_Second, "button_Second");
             this.button_Second.ImagePadding = 5;
             this.button_Second.Name = "button_Second";
+            this.button_Second.UseVisualStyleBackColor = false;
             this.button_Second.Click += new System.EventHandler(this.button_Second_Click);
             // 
             // panel_Minute
@@ -3541,6 +3494,7 @@
             resources.ApplyResources(this.button_Minute, "button_Minute");
             this.button_Minute.ImagePadding = 5;
             this.button_Minute.Name = "button_Minute";
+            this.button_Minute.UseVisualStyleBackColor = false;
             this.button_Minute.Click += new System.EventHandler(this.button_Minute_Click);
             // 
             // panel_Hour
@@ -3787,6 +3741,7 @@
             resources.ApplyResources(this.button_Hour, "button_Hour");
             this.button_Hour.ImagePadding = 5;
             this.button_Hour.Name = "button_Hour";
+            this.button_Hour.UseVisualStyleBackColor = false;
             this.button_Hour.Click += new System.EventHandler(this.button_Hour_Click);
             // 
             // tabPage_Analog_time
@@ -4501,26 +4456,9 @@
             this.tabControl_date.Controls.Add(this.tabPage_Month);
             this.tabControl_date.Controls.Add(this.tabPage_Year);
             this.tabControl_date.Controls.Add(this.tabPage_Day_of_week);
-            this.tabControl_date.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_date.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_date.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_date.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_date.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_date.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_date.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_date.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_date.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_date.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_date.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_date.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_date.DisplayStyleProvider.Radius = 3;
-            this.tabControl_date.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_date.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_date.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_date.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_date, "tabControl_date");
             this.tabControl_date.Name = "tabControl_date";
             this.tabControl_date.SelectedIndex = 0;
@@ -6692,26 +6630,9 @@
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_Stress);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_ActivityGoal);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_FatBurning);
-            this.tabControl_SystemActivity.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemActivity.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_SystemActivity.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_SystemActivity.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemActivity.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_SystemActivity.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_SystemActivity.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_SystemActivity.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_SystemActivity.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_SystemActivity.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_SystemActivity.DisplayStyleProvider.Radius = 3;
-            this.tabControl_SystemActivity.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_SystemActivity.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_SystemActivity, "tabControl_SystemActivity");
             this.tabControl_SystemActivity.Name = "tabControl_SystemActivity";
             this.tabControl_SystemActivity.SelectedIndex = 0;
@@ -7755,26 +7676,9 @@
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_WindForce);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_Altitude);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_AirPressure);
-            this.tabControl_SystemWeather.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemWeather.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_SystemWeather.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_SystemWeather.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemWeather.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_SystemWeather.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_SystemWeather.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_SystemWeather.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_SystemWeather.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_SystemWeather.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_SystemWeather.DisplayStyleProvider.Radius = 3;
-            this.tabControl_SystemWeather.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_SystemWeather.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_SystemWeather, "tabControl_SystemWeather");
             this.tabControl_SystemWeather.Name = "tabControl_SystemWeather";
             this.tabControl_SystemWeather.SelectedIndex = 0;
@@ -8723,26 +8627,9 @@
             // 
             this.tabControl_System.Controls.Add(this.tabPage_Status);
             this.tabControl_System.Controls.Add(this.tabPage_Battery);
-            this.tabControl_System.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_System.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_System.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_System.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_System.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_System.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_System.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_System.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_System.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_System.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_System.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_System.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_System.DisplayStyleProvider.Radius = 3;
-            this.tabControl_System.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_System.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_System.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_System.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_System, "tabControl_System");
             this.tabControl_System.Name = "tabControl_System";
             this.tabControl_System.SelectedIndex = 0;
@@ -9254,26 +9141,9 @@
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Activity_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Air_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_System_AOD);
-            this.tabControl_EditParameters_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_EditParameters_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             this.tabControl_EditParameters_AOD.ImageList = this.imageList1;
             this.tabControl_EditParameters_AOD.Multiline = true;
             this.tabControl_EditParameters_AOD.Name = "tabControl_EditParameters_AOD";
@@ -9329,26 +9199,9 @@
             // 
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Digital_time_AOD);
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Analog_time_AOD);
-            this.tabControl_time_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_time_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_time_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_time_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_time_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_time_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_time_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_time_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_time_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_time_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_time_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_time_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_time_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_time_AOD, "tabControl_time_AOD");
             this.tabControl_time_AOD.Name = "tabControl_time_AOD";
             this.tabControl_time_AOD.SelectedIndex = 0;
@@ -9827,6 +9680,7 @@
             resources.ApplyResources(this.button_Minute_AOD, "button_Minute_AOD");
             this.button_Minute_AOD.ImagePadding = 5;
             this.button_Minute_AOD.Name = "button_Minute_AOD";
+            this.button_Minute_AOD.UseVisualStyleBackColor = false;
             this.button_Minute_AOD.Click += new System.EventHandler(this.button_Minute_AOD_Click);
             // 
             // panel_Hour_AOD
@@ -10085,6 +9939,7 @@
             resources.ApplyResources(this.button_Hour_AOD, "button_Hour_AOD");
             this.button_Hour_AOD.ImagePadding = 5;
             this.button_Hour_AOD.Name = "button_Hour_AOD";
+            this.button_Hour_AOD.UseVisualStyleBackColor = false;
             this.button_Hour_AOD.Click += new System.EventHandler(this.button_Hour_AOD_Click);
             // 
             // tabPage_Analog_time_AOD
@@ -10592,26 +10447,9 @@
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Month_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Year_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Day_of_week_AOD);
-            this.tabControl_date_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_date_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_date_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_date_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_date_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_date_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_date_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_date_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_date_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_date_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_date_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_date_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_date_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_date_AOD, "tabControl_date_AOD");
             this.tabControl_date_AOD.Name = "tabControl_date_AOD";
             this.tabControl_date_AOD.SelectedIndex = 0;
@@ -12883,26 +12721,9 @@
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_Stress_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_ActivityGoal_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_FatBurning_AOD);
-            this.tabControl_SystemActivity_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_SystemActivity_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_SystemActivity_AOD, "tabControl_SystemActivity_AOD");
             this.tabControl_SystemActivity_AOD.Name = "tabControl_SystemActivity_AOD";
             this.tabControl_SystemActivity_AOD.SelectedIndex = 0;
@@ -14017,26 +13838,9 @@
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_WindForce_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_Altitude_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_AirPressure_AOD);
-            this.tabControl_SystemWeather_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_SystemWeather_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_SystemWeather_AOD, "tabControl_SystemWeather_AOD");
             this.tabControl_SystemWeather_AOD.Name = "tabControl_SystemWeather_AOD";
             this.tabControl_SystemWeather_AOD.SelectedIndex = 0;
@@ -15051,26 +14855,9 @@
             // tabControl_System_AOD
             // 
             this.tabControl_System_AOD.Controls.Add(this.tabPage_Battery_AOD);
-            this.tabControl_System_AOD.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorHot = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_System_AOD.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.DodgerBlue;
-            this.tabControl_System_AOD.DisplayStyleProvider.CloserColor = System.Drawing.Color.DarkGray;
-            this.tabControl_System_AOD.DisplayStyleProvider.FocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            this.tabControl_System_AOD.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_System_AOD.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_System_AOD.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_System_AOD.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_System_AOD.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_System_AOD.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_System_AOD.DisplayStyleProvider.Radius = 3;
-            this.tabControl_System_AOD.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColor = System.Drawing.Color.DimGray;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColorDisabled = System.Drawing.Color.Gray;
-            this.tabControl_System_AOD.DisplayStyleProvider.TextColorSelected = System.Drawing.Color.Gainsboro;
+            //
             resources.ApplyResources(this.tabControl_System_AOD, "tabControl_System_AOD");
             this.tabControl_System_AOD.Name = "tabControl_System_AOD";
             this.tabControl_System_AOD.SelectedIndex = 0;
@@ -15834,14 +15621,12 @@
             // 
             resources.ApplyResources(this.tabControl_Widget, "tabControl_Widget");
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetsEdit);
-            this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);            
-            // 
-            // 
-            //            
+            this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);
             this.tabControl_Widget.ImageList = this.imageList2;
-            this.tabControl_Widget.Multiline = true;          
+            this.tabControl_Widget.Multiline = true;
             this.tabControl_Widget.Name = "tabControl_Widget";
             this.tabControl_Widget.SelectedIndex = 0;
+            this.tabControl_Widget.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl_Widget.TabStop = false;
             this.tabControl_Widget.SelectedIndexChanged += new System.EventHandler(this.tabControl_Widget_SelectedIndexChanged);
             this.tabControl_Widget.VisibleChanged += new System.EventHandler(this.tabControl_Widget_VisibleChanged);
@@ -15937,24 +15722,7 @@
             this.tabControl_DateWidget.Controls.Add(this.tabPage_YearWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DOWWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DateLayerWidget);
-            this.tabControl_DateWidget.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
-            // 
-            // 
-            // 
-            this.tabControl_DateWidget.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidget.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidget.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_DateWidget.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
-            this.tabControl_DateWidget.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_DateWidget.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_DateWidget.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_DateWidget.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_DateWidget.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_DateWidget.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_DateWidget.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_DateWidget.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_DateWidget.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidget.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabControl_DateWidget.Controls.Add(this.tabPage6);
             resources.ApplyResources(this.tabControl_DateWidget, "tabControl_DateWidget");
             this.tabControl_DateWidget.Name = "tabControl_DateWidget";
             this.tabControl_DateWidget.SelectedIndex = 0;
@@ -16241,6 +16009,12 @@
             this.button_Widget_Date_Down.Name = "button_Widget_Date_Down";
             this.button_Widget_Date_Down.UseVisualStyleBackColor = true;
             this.button_Widget_Date_Down.Click += new System.EventHandler(this.button_Widget_Date_Down_Click);
+            // 
+            // tabPage6
+            // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // userControl_iconWidget
             // 
@@ -16828,8 +16602,8 @@
             // 
             // button_WidgetElement_End
             // 
-            this.button_WidgetElement_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetElement_End.BorderRadius = 4;
+            this.button_WidgetElement_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_WidgetElement_End.BorderRadius = 3;
             this.button_WidgetElement_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_End, "button_WidgetElement_End");
             this.button_WidgetElement_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
@@ -16840,8 +16614,8 @@
             // 
             // button_WidgetElement_Start
             // 
-            this.button_WidgetElement_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetElement_Start.BorderRadius = 4;
+            this.button_WidgetElement_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_WidgetElement_Start.BorderRadius = 3;
             this.button_WidgetElement_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Start, "button_WidgetElement_Start");
             this.button_WidgetElement_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
@@ -16852,8 +16626,8 @@
             // 
             // button_WidgetElement_Up
             // 
-            this.button_WidgetElement_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetElement_Up.BorderRadius = 4;
+            this.button_WidgetElement_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_WidgetElement_Up.BorderRadius = 3;
             this.button_WidgetElement_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Up, "button_WidgetElement_Up");
             this.button_WidgetElement_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
@@ -16864,8 +16638,8 @@
             // 
             // button_WidgetElement_Down
             // 
-            this.button_WidgetElement_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetElement_Down.BorderRadius = 4;
+            this.button_WidgetElement_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            this.button_WidgetElement_Down.BorderRadius = 3;
             this.button_WidgetElement_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Down, "button_WidgetElement_Down");
             this.button_WidgetElement_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
@@ -16879,9 +16653,11 @@
             this.dataGridView_WidgetElement.AllowUserToAddRows = false;
             this.dataGridView_WidgetElement.AllowUserToDeleteRows = false;
             this.dataGridView_WidgetElement.AllowUserToResizeRows = false;
-            this.dataGridView_WidgetElement.BackgroundColor = System.Drawing.Color.Red;
+            this.dataGridView_WidgetElement.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_WidgetElement.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_WidgetElement.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
             dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle17.ForeColor = System.Drawing.Color.DarkGray;
             dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -16892,16 +16668,25 @@
             this.WidgetsID,
             this.WidgetElement,
             this.WidgetElementName});
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_WidgetElement.DefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridView_WidgetElement.EnableHeadersVisualStyles = false;
+            this.dataGridView_WidgetElement.GridColor = System.Drawing.Color.DimGray;
             resources.ApplyResources(this.dataGridView_WidgetElement, "dataGridView_WidgetElement");
             this.dataGridView_WidgetElement.MultiSelect = false;
             this.dataGridView_WidgetElement.Name = "dataGridView_WidgetElement";
             this.dataGridView_WidgetElement.ReadOnly = true;
             this.dataGridView_WidgetElement.RowHeadersVisible = false;
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.DarkGray;
-            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.DarkGray;
+            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle19;
             this.dataGridView_WidgetElement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_WidgetElement.SelectionChanged += new System.EventHandler(this.dataGridView_WidgetElement_SelectionChanged);
             this.dataGridView_WidgetElement.EnabledChanged += new System.EventHandler(this.dataGridView_WidgetElement_EnabledChanged);
@@ -17202,24 +16987,9 @@
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage3);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage4);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage5);
-            this.tabControl_DateWidgetAdd.DisplayStyle = System.Windows.Forms.TabStyle.Dark;
             // 
             // 
-            // 
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColor = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColorHot = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.BorderColorSelected = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.CloserColor = System.Drawing.Color.Empty;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.FocusTrack = false;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.HotTrack = false;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Opacity = 1F;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Overlap = 0;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.Padding = new System.Drawing.Point(9, 3);
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.ShowTabCloser = false;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColor = System.Drawing.SystemColors.ControlText;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
-            this.tabControl_DateWidgetAdd.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            //
             resources.ApplyResources(this.tabControl_DateWidgetAdd, "tabControl_DateWidgetAdd");
             this.tabControl_DateWidgetAdd.Name = "tabControl_DateWidgetAdd";
             this.tabControl_DateWidgetAdd.SelectedIndex = 0;
@@ -18623,6 +18393,17 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox_Preview
+            // 
+            this.pictureBox_Preview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(23)))), ((int)(((byte)(25)))));
+            resources.ApplyResources(this.pictureBox_Preview, "pictureBox_Preview");
+            this.pictureBox_Preview.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.pictureBox_Preview.Name = "pictureBox_Preview";
+            this.pictureBox_Preview.TabStop = false;
+            this.pictureBox_Preview.DoubleClick += new System.EventHandler(this.pictureBox_Preview_DoubleClick);
+            this.pictureBox_Preview.MouseLeave += new System.EventHandler(this.pictureBox_Preview_MouseLeave);
+            this.pictureBox_Preview.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox_Preview_MouseMove);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -18668,7 +18449,6 @@
             this.contextMenuStrip_X.ResumeLayout(false);
             this.contextMenuStrip_XY_InAnimationTable.ResumeLayout(false);
             this.contextMenuStrip_XY_InTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage_Show.ResumeLayout(false);
@@ -19137,6 +18917,7 @@
             this.tabPage_About.ResumeLayout(false);
             this.tabPage_About.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Preview)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -20468,7 +20249,7 @@
         private UserControl_text_weather userControl_text_weatherWidgetMin;
         private UserControl_text_weather userControl_text_weatherWidgetCur;
         private UserControl_icon userControl_iconWidget;
-        private DarkTabControl tabControl_DateWidget;
+        private System.Windows.Forms.TabControl tabControl_DateWidget;
         private System.Windows.Forms.TabPage tabPage_DayWidget;
         private System.Windows.Forms.TabPage tabPage_MonthWidget;
         private System.Windows.Forms.TabPage tabPage_YearWidget;
@@ -20630,6 +20411,7 @@
         private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix;
         private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix_AOD;
         private System.Windows.Forms.CheckBox checkBox_AllWidgetsInGif;
+        private System.Windows.Forms.TabPage tabPage6;
     }
 }
 

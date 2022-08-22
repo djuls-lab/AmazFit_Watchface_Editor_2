@@ -31,6 +31,9 @@ namespace AmazFit_Watchface_2
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_segments));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_pictures = new System.Windows.Forms.Panel();
             this.checkBox_pictures_Use = new System.Windows.Forms.CheckBox();
             this.comboBox_pictures_image = new System.Windows.Forms.ComboBox();
@@ -42,13 +45,13 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьСтрокуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox_DisplayType = new DarkGroupBox();
+            this.groupBox_DisplayType = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_Continuous = new System.Windows.Forms.RadioButton();
             this.radioButton_Single = new System.Windows.Forms.RadioButton();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
-            this.button_Copy_pictures = new DarkButton();
-            this.button_pictures = new DarkButton();
+            this.button_Copy_pictures = new AmazFit_Watchface_2.DarkButton();
+            this.button_pictures = new AmazFit_Watchface_2.DarkButton();
             this.panel_pictures.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_coordinates_set)).BeginInit();
             this.contextMenuStrip_XY_InTable.SuspendLayout();
@@ -92,13 +95,42 @@ namespace AmazFit_Watchface_2
             // dataGridView_coordinates_set
             // 
             this.dataGridView_coordinates_set.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_coordinates_set.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            this.dataGridView_coordinates_set.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_coordinates_set.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.dataGridView_coordinates_set, "dataGridView_coordinates_set");
             this.dataGridView_coordinates_set.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2});
             this.dataGridView_coordinates_set.ContextMenuStrip = this.contextMenuStrip_XY_InTable;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_coordinates_set.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_coordinates_set.EnableHeadersVisualStyles = false;
+            this.dataGridView_coordinates_set.GridColor = System.Drawing.Color.DimGray;
             this.dataGridView_coordinates_set.Name = "dataGridView_coordinates_set";
+            this.dataGridView_coordinates_set.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_coordinates_set.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_coordinates_set.RowTemplate.Height = 18;
             this.dataGridView_coordinates_set.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_coordinates_set_CellClick);
             this.dataGridView_coordinates_set.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_coordinates_set_CellEndEdit);
@@ -165,6 +197,9 @@ namespace AmazFit_Watchface_2
             // 
             // groupBox_DisplayType
             // 
+            this.groupBox_DisplayType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.groupBox_DisplayType.BorderRadius = 4;
+            this.groupBox_DisplayType.BorderThickness = 1F;
             this.groupBox_DisplayType.Controls.Add(this.radioButton_Continuous);
             this.groupBox_DisplayType.Controls.Add(this.radioButton_Single);
             resources.ApplyResources(this.groupBox_DisplayType, "groupBox_DisplayType");
@@ -199,6 +234,10 @@ namespace AmazFit_Watchface_2
             // 
             // button_Copy_pictures
             // 
+            this.button_Copy_pictures.BorderColor = System.Drawing.Color.DimGray;
+            this.button_Copy_pictures.BorderRadius = 4;
+            this.button_Copy_pictures.BorderThickness = 1F;
+            this.button_Copy_pictures.ImagePadding = 5;
             resources.ApplyResources(this.button_Copy_pictures, "button_Copy_pictures");
             this.button_Copy_pictures.Name = "button_Copy_pictures";
             this.button_Copy_pictures.UseVisualStyleBackColor = true;
@@ -206,7 +245,11 @@ namespace AmazFit_Watchface_2
             // 
             // button_pictures
             // 
+            this.button_pictures.BorderColor = System.Drawing.Color.DimGray;
+            this.button_pictures.BorderRadius = 4;
+            this.button_pictures.BorderThickness = 1F;
             resources.ApplyResources(this.button_pictures, "button_pictures");
+            this.button_pictures.ImagePadding = 5;
             this.button_pictures.Name = "button_pictures";
             this.button_pictures.UseVisualStyleBackColor = true;
             this.button_pictures.Click += new System.EventHandler(this.button_pictures_Click);

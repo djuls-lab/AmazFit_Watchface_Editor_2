@@ -88,11 +88,11 @@ namespace AmazFit_Watchface_2
             //BackColor = Color.FromArgb(64, 64, 64);
         }
 
-        GraphicsPath GetRoundPath(Rectangle bounds, int radius)
+        GraphicsPath GetRoundPath(RectangleF bounds, int radius)
         {
             int diameter = radius * 2;
-            Size size = new Size(diameter, diameter);
-            Rectangle arc = new Rectangle(bounds.Location, size);
+            SizeF size = new SizeF(diameter, diameter);
+            RectangleF arc = new RectangleF(bounds.Location, size);
             GraphicsPath path = new GraphicsPath { FillMode = FillMode.Alternate };
 
             if (radius == 0)
@@ -126,7 +126,7 @@ namespace AmazFit_Watchface_2
             var g = e.Graphics;
 
             // Rectangle rect = new Rectangle(0, 0, Width - 1, Height - 1);
-            var rect = new Rectangle(0, 0, ClientSize.Width - 1, ClientSize.Height - 1);
+            var rect = new RectangleF(0, 0, ClientSize.Width - 1, ClientSize.Height - 1);
             GraphicsPath graphPath = GetRoundPath(rect, BorderRadius);
 
             // Region = new Region(graphPath);
@@ -216,7 +216,7 @@ namespace AmazFit_Watchface_2
 
             using (var b = new SolidBrush(ForeColor))
             {
-                var modRect = new Rectangle(rect.Left + textOffsetX + Padding.Left,
+                var modRect = new RectangleF(rect.Left + textOffsetX + Padding.Left,
                                             rect.Top + textOffsetY + Padding.Top, rect.Width - Padding.Horizontal,
                                             rect.Height - Padding.Vertical);
 

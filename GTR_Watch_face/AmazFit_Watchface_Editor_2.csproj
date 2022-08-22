@@ -891,11 +891,5 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\CustomTabControl\CustomTabControl.csproj">
-      <Project>{4DBFE2CF-45E4-4594-8E6A-5EBC2EEF85AE}</Project>
-      <Name>CustomTabControl</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

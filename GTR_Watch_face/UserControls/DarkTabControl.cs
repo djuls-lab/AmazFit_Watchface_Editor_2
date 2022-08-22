@@ -9,11 +9,11 @@ using System.Windows.Forms;
 
 namespace AmazFit_Watchface_2
 {
-    public class DarkTabControl : CustomTabControl
+    public class DarkTabControl: TabControl
     {
         public DarkTabControl()
         {
-            DisplayStyle = TabStyle.Dark;            
+            // DisplayStyle = TabStyle.Dark;            
         }
     }
 }

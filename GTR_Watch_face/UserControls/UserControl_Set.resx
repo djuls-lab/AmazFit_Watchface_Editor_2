@@ -756,9 +756,6 @@
   <data name="&gt;&gt;groupBox_Air.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkBox_DND_Set.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
   <data name="checkBox_DND_Set.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -789,9 +786,6 @@
   <data name="checkBox_Lock_Set.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox_Lock_Set.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
   <data name="checkBox_Lock_Set.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -799,7 +793,7 @@
     <value>231, 162</value>
   </data>
   <data name="checkBox_Lock_Set.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 18</value>
+    <value>87, 17</value>
   </data>
   <data name="checkBox_Lock_Set.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
@@ -822,9 +816,6 @@
   <data name="checkBox_Alarm_Set.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox_Alarm_Set.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
   <data name="checkBox_Alarm_Set.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -832,7 +823,7 @@
     <value>119, 162</value>
   </data>
   <data name="checkBox_Alarm_Set.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 18</value>
+    <value>80, 17</value>
   </data>
   <data name="checkBox_Alarm_Set.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -942,9 +933,6 @@
   <data name="checkBox_Bluetooth_Set.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox_Bluetooth_Set.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
   <data name="checkBox_Bluetooth_Set.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -952,7 +940,7 @@
     <value>7, 162</value>
   </data>
   <data name="checkBox_Bluetooth_Set.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 18</value>
+    <value>71, 17</value>
   </data>
   <data name="checkBox_Bluetooth_Set.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>

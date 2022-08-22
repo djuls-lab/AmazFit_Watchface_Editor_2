@@ -195,6 +195,30 @@
   <metadata name="contextMenuStrip_XY_InTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="вставитьКоординатыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 26</value>
+  </data>
+  <data name="вставитьКоординатыToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вставить координаты</value>
+  </data>
+  <data name="копироватьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 26</value>
+  </data>
+  <data name="копироватьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="вставитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 26</value>
+  </data>
+  <data name="вставитьToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="удалитьСтрокуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 26</value>
+  </data>
+  <data name="удалитьСтрокуToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить строку</value>
+  </data>
   <data name="contextMenuStrip_XY_InTable.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 108</value>
   </data>
@@ -231,6 +255,24 @@
   <data name="&gt;&gt;dataGridView_coordinates_set.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="radioButton_Continuous.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_Continuous.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_Continuous.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 49</value>
+  </data>
+  <data name="radioButton_Continuous.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="radioButton_Continuous.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton_Continuous.Text" xml:space="preserve">
+    <value>Непрерывный</value>
+  </data>
   <data name="&gt;&gt;radioButton_Continuous.Name" xml:space="preserve">
     <value>radioButton_Continuous</value>
   </data>
@@ -242,6 +284,24 @@
   </data>
   <data name="&gt;&gt;radioButton_Continuous.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="radioButton_Single.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_Single.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_Single.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="radioButton_Single.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="radioButton_Single.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton_Single.Text" xml:space="preserve">
+    <value>Одиночный</value>
   </data>
   <data name="&gt;&gt;radioButton_Single.Name" xml:space="preserve">
     <value>radioButton_Single</value>
@@ -274,7 +334,7 @@
     <value>groupBox_DisplayType</value>
   </data>
   <data name="&gt;&gt;groupBox_DisplayType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkGroupBox, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;groupBox_DisplayType.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -370,7 +430,7 @@
     <value>button_Copy_pictures</value>
   </data>
   <data name="&gt;&gt;button_Copy_pictures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkButton, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button_Copy_pictures.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -402,90 +462,6 @@
   <data name="&gt;&gt;panel_pictures.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="вставитьКоординатыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 26</value>
-  </data>
-  <data name="вставитьКоординатыToolStripMenuItem.Text" xml:space="preserve">
-    <value>Вставить координаты</value>
-  </data>
-  <data name="копироватьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 26</value>
-  </data>
-  <data name="копироватьToolStripMenuItem.Text" xml:space="preserve">
-    <value>Копировать</value>
-  </data>
-  <data name="вставитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 26</value>
-  </data>
-  <data name="вставитьToolStripMenuItem.Text" xml:space="preserve">
-    <value>Вставить</value>
-  </data>
-  <data name="удалитьСтрокуToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 26</value>
-  </data>
-  <data name="удалитьСтрокуToolStripMenuItem.Text" xml:space="preserve">
-    <value>Удалить строку</value>
-  </data>
-  <data name="radioButton_Continuous.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton_Continuous.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton_Continuous.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 49</value>
-  </data>
-  <data name="radioButton_Continuous.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
-  </data>
-  <data name="radioButton_Continuous.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="radioButton_Continuous.Text" xml:space="preserve">
-    <value>Непрерывный</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Continuous.Name" xml:space="preserve">
-    <value>radioButton_Continuous</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Continuous.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Continuous.Parent" xml:space="preserve">
-    <value>groupBox_DisplayType</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Continuous.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButton_Single.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton_Single.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton_Single.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 26</value>
-  </data>
-  <data name="radioButton_Single.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 17</value>
-  </data>
-  <data name="radioButton_Single.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButton_Single.Text" xml:space="preserve">
-    <value>Одиночный</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Single.Name" xml:space="preserve">
-    <value>radioButton_Single</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Single.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Single.Parent" xml:space="preserve">
-    <value>groupBox_DisplayType</value>
-  </data>
-  <data name="&gt;&gt;radioButton_Single.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="button_pictures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -508,7 +484,7 @@
     <value>button_pictures</value>
   </data>
   <data name="&gt;&gt;button_pictures.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>AmazFit_Watchface_2.DarkButton, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button_pictures.Parent" xml:space="preserve">
     <value>$this</value>

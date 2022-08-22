@@ -419,9 +419,9 @@ namespace AmazFit_Watchface_2
             // 
             this.checkBox_DND_Set.Checked = true;
             this.checkBox_DND_Set.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_DND_Set.ForeColor = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.checkBox_DND_Set, "checkBox_DND_Set");
             this.checkBox_DND_Set.Name = "checkBox_DND_Set";
-            this.checkBox_DND_Set.UseVisualStyleBackColor = true;
             this.checkBox_DND_Set.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // checkBox_Lock_Set
@@ -429,8 +429,8 @@ namespace AmazFit_Watchface_2
             resources.ApplyResources(this.checkBox_Lock_Set, "checkBox_Lock_Set");
             this.checkBox_Lock_Set.Checked = true;
             this.checkBox_Lock_Set.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Lock_Set.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox_Lock_Set.Name = "checkBox_Lock_Set";
-            this.checkBox_Lock_Set.UseVisualStyleBackColor = true;
             this.checkBox_Lock_Set.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // checkBox_Alarm_Set
@@ -438,8 +438,8 @@ namespace AmazFit_Watchface_2
             resources.ApplyResources(this.checkBox_Alarm_Set, "checkBox_Alarm_Set");
             this.checkBox_Alarm_Set.Checked = true;
             this.checkBox_Alarm_Set.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Alarm_Set.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox_Alarm_Set.Name = "checkBox_Alarm_Set";
-            this.checkBox_Alarm_Set.UseVisualStyleBackColor = true;
             this.checkBox_Alarm_Set.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // numericUpDown_FatBurning_Set
@@ -496,8 +496,8 @@ namespace AmazFit_Watchface_2
             resources.ApplyResources(this.checkBox_Bluetooth_Set, "checkBox_Bluetooth_Set");
             this.checkBox_Bluetooth_Set.Checked = true;
             this.checkBox_Bluetooth_Set.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Bluetooth_Set.ForeColor = System.Drawing.Color.Gainsboro;
             this.checkBox_Bluetooth_Set.Name = "checkBox_Bluetooth_Set";
-            this.checkBox_Bluetooth_Set.UseVisualStyleBackColor = true;
             this.checkBox_Bluetooth_Set.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // numericUpDown_Goal_Set
@@ -686,6 +686,7 @@ namespace AmazFit_Watchface_2
             this.Controls.Add(this.groupBox_Air);
             this.Controls.Add(this.groupBox_Activity);
             this.Controls.Add(this.button_Set);
+            this.ForeColor = System.Drawing.Color.Gainsboro;
             this.Name = "UserControl_Set";
             this.groupBox_Air.ResumeLayout(false);
             this.groupBox_Air.PerformLayout();
