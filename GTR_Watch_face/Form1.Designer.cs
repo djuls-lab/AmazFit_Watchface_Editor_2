@@ -73,7 +73,6 @@
             this.удалитьСтрокуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button_zip_unpack = new AmazFit_Watchface_2.DarkButton();
             this.button_pack_zip = new AmazFit_Watchface_2.DarkButton();
-            this.label_version = new System.Windows.Forms.Label();
             this.colorDialog_StepsProgress = new System.Windows.Forms.ColorDialog();
             this.colorDialog_Battery = new System.Windows.Forms.ColorDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -103,7 +102,7 @@
             this.checkBox_WidgetsArea = new System.Windows.Forms.CheckBox();
             this.radioButton_ZeppE = new System.Windows.Forms.RadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.tabControl1 = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl1 = new DarkTabControl.DarkTabControl();
             this.tabPage_Show = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel_set = new System.Windows.Forms.Panel();
@@ -134,7 +133,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage_Edit = new System.Windows.Forms.TabPage();
             this.splitContainer_EditParameters = new System.Windows.Forms.SplitContainer();
-            this.tabControl_EditParameters = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_EditParameters = new DarkTabControl.DarkTabControl();
             this.tabPage_Background = new System.Windows.Forms.TabPage();
             this.button_GenerateID = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchfaceID = new System.Windows.Forms.TextBox();
@@ -146,7 +145,7 @@
             this.comboBox_Background_image = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage_Time = new System.Windows.Forms.TabPage();
-            this.tabControl_time = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_time = new DarkTabControl.DarkTabControl();
             this.tabPage_Digital_time = new System.Windows.Forms.TabPage();
             this.panel_AM_PM = new System.Windows.Forms.Panel();
             this.checkBox_12h_Use = new System.Windows.Forms.CheckBox();
@@ -307,7 +306,7 @@
             this.checkBox_Hour_hand_Use = new System.Windows.Forms.CheckBox();
             this.button_Hour_hand = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Date = new System.Windows.Forms.TabPage();
-            this.tabControl_date = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_date = new DarkTabControl.DarkTabControl();
             this.tabPage_Day = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Day = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand = new System.Windows.Forms.Panel();
@@ -512,7 +511,7 @@
             this.label642 = new System.Windows.Forms.Label();
             this.button_DOW_image = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Activity = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemActivity = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_SystemActivity = new DarkTabControl.DarkTabControl();
             this.tabPage_Steps = new System.Windows.Forms.TabPage();
             this.userControl_icon_Steps = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -598,7 +597,7 @@
             this.userControl_segments_FatBurning = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_Air = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemWeather = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_SystemWeather = new DarkTabControl.DarkTabControl();
             this.tabPage_Weather = new System.Windows.Forms.TabPage();
             this.checkBox_weatherAlignmentFix = new System.Windows.Forms.CheckBox();
             this.userControl_icon_Weather = new AmazFit_Watchface_2.UserControl_icon();
@@ -677,7 +676,7 @@
             this.userControl_segments_AirPressure = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_System = new System.Windows.Forms.TabPage();
-            this.tabControl_System = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_System = new DarkTabControl.DarkTabControl();
             this.tabPage_Status = new System.Windows.Forms.TabPage();
             this.groupBox_Lock = new AmazFit_Watchface_2.DarkGroupBox();
             this.checkBox_Lock_Use = new System.Windows.Forms.CheckBox();
@@ -724,13 +723,13 @@
             this.userControl_text_Battery = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Battery = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Battery = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabControl_EditParameters_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_EditParameters_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Background_AOD = new System.Windows.Forms.TabPage();
             this.label284 = new System.Windows.Forms.Label();
             this.button_Capy_ScreenNormal = new AmazFit_Watchface_2.DarkButton();
             this.comboBox_Background_image_AOD = new System.Windows.Forms.ComboBox();
             this.tabPage_Time_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_time_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_time_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Digital_time_AOD = new System.Windows.Forms.TabPage();
             this.panel_AM_PM_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_AM_PM_AOD = new AmazFit_Watchface_2.DarkButton();
@@ -849,7 +848,7 @@
             this.label362 = new System.Windows.Forms.Label();
             this.button_Hour_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Date_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_date_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_date_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Day_AOD = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_Day_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand_AOD = new System.Windows.Forms.Panel();
@@ -1062,7 +1061,7 @@
             this.label463 = new System.Windows.Forms.Label();
             this.button_DOW_image_AOD = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Activity_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemActivity_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_SystemActivity_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Steps_AOD = new System.Windows.Forms.TabPage();
             this.userControl_icon_Steps_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -1148,7 +1147,7 @@
             this.userControl_segments_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_Air_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_SystemWeather_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_SystemWeather_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Weather_AOD = new System.Windows.Forms.TabPage();
             this.checkBox_weatherAlignmentFix_AOD = new System.Windows.Forms.CheckBox();
             this.userControl_icon_Weather_AOD = new AmazFit_Watchface_2.UserControl_icon();
@@ -1227,7 +1226,7 @@
             this.userControl_segments_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.tabPage_System_AOD = new System.Windows.Forms.TabPage();
-            this.tabControl_System_AOD = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_System_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Battery_AOD = new System.Windows.Forms.TabPage();
             this.userControl_icon_Battery_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Battery_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -1283,7 +1282,7 @@
             this.button_SNL_Activity_Up = new AmazFit_Watchface_2.DarkButton();
             this.button_SNL_Activity_Down = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Widgets = new System.Windows.Forms.TabPage();
-            this.tabControl_Widget = new System.Windows.Forms.TabControl();
+            this.tabControl_Widget = new DarkTabControl.DarkTabControl();
             this.tabPage_WidgetsEdit = new System.Windows.Forms.TabPage();
             this.checkBox_TimeOnWidgetEdit = new System.Windows.Forms.CheckBox();
             this.groupBox_WidgetPreview = new AmazFit_Watchface_2.DarkGroupBox();
@@ -1291,7 +1290,7 @@
             this.radioButton_WidgetPreviewNormal = new System.Windows.Forms.RadioButton();
             this.groupBox_WidgetElementSettings = new AmazFit_Watchface_2.DarkGroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tabControl_DateWidget = new System.Windows.Forms.TabControl();
+            this.tabControl_DateWidget = new DarkTabControl.DarkTabControl();
             this.tabPage_DayWidget = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_DayWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidget = new AmazFit_Watchface_2.UserControl_hand();
@@ -1404,7 +1403,7 @@
             this.radioButton_WidgetAdd = new System.Windows.Forms.RadioButton();
             this.groupBox_WidgetElementAdd = new AmazFit_Watchface_2.DarkGroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.tabControl_DateWidgetAdd = new AmazFit_Watchface_2.DarkTabControl();
+            this.tabControl_DateWidgetAdd = new DarkTabControl.DarkTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.userControl_SystemFont_Group_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_hand();
@@ -2091,11 +2090,6 @@
             this.button_pack_zip.UseVisualStyleBackColor = true;
             this.button_pack_zip.Click += new System.EventHandler(this.button_pack_zip_Click);
             // 
-            // label_version
-            // 
-            resources.ApplyResources(this.label_version, "label_version");
-            this.label_version.Name = "label_version";
-            // 
             // colorDialog_StepsProgress
             // 
             this.colorDialog_StepsProgress.FullOpen = true;
@@ -2305,6 +2299,9 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.tabControl1.BorderRadius = 4;
+            this.tabControl1.BorderThickness = 2;
             this.tabControl1.Controls.Add(this.tabPage_Show);
             this.tabControl1.Controls.Add(this.tabPage_Edit);
             this.tabControl1.Controls.Add(this.tabPage_LayerOrder);
@@ -2312,9 +2309,7 @@
             this.tabControl1.Controls.Add(this.tabPageConverting);
             this.tabControl1.Controls.Add(this.tabPage_Settings);
             this.tabControl1.Controls.Add(this.tabPage_About);
-            // 
-            // 
-            //
+            this.tabControl1.ImagePadding = 5;
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -2658,16 +2653,17 @@
             // tabControl_EditParameters
             // 
             resources.ApplyResources(this.tabControl_EditParameters, "tabControl_EditParameters");
+            this.tabControl_EditParameters.BorderColor = System.Drawing.Color.DeepPink;
+            this.tabControl_EditParameters.BorderRadius = 4;
+            this.tabControl_EditParameters.BorderThickness = 2;
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Background);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Time);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Date);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Activity);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Air);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_System);
-            // 
-            // 
-            //
             this.tabControl_EditParameters.ImageList = this.imageList1;
+            this.tabControl_EditParameters.ImagePadding = 5;
             this.tabControl_EditParameters.Multiline = true;
             this.tabControl_EditParameters.Name = "tabControl_EditParameters";
             this.tabControl_EditParameters.SelectedIndex = 0;
@@ -2778,12 +2774,13 @@
             // 
             // tabControl_time
             // 
+            this.tabControl_time.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_time.BorderRadius = 4;
+            this.tabControl_time.BorderThickness = 2;
             this.tabControl_time.Controls.Add(this.tabPage_Digital_time);
             this.tabControl_time.Controls.Add(this.tabPage_Analog_time);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_time, "tabControl_time");
+            this.tabControl_time.ImagePadding = 5;
             this.tabControl_time.Name = "tabControl_time";
             this.tabControl_time.SelectedIndex = 0;
             // 
@@ -4452,14 +4449,15 @@
             // 
             // tabControl_date
             // 
+            this.tabControl_date.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_date.BorderRadius = 4;
+            this.tabControl_date.BorderThickness = 2;
             this.tabControl_date.Controls.Add(this.tabPage_Day);
             this.tabControl_date.Controls.Add(this.tabPage_Month);
             this.tabControl_date.Controls.Add(this.tabPage_Year);
             this.tabControl_date.Controls.Add(this.tabPage_Day_of_week);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_date, "tabControl_date");
+            this.tabControl_date.ImagePadding = 5;
             this.tabControl_date.Name = "tabControl_date";
             this.tabControl_date.SelectedIndex = 0;
             // 
@@ -6621,6 +6619,9 @@
             // 
             // tabControl_SystemActivity
             // 
+            this.tabControl_SystemActivity.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_SystemActivity.BorderRadius = 4;
+            this.tabControl_SystemActivity.BorderThickness = 2;
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_Steps);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_Calories);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_HeartRate);
@@ -6630,10 +6631,8 @@
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_Stress);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_ActivityGoal);
             this.tabControl_SystemActivity.Controls.Add(this.tabPage_FatBurning);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_SystemActivity, "tabControl_SystemActivity");
+            this.tabControl_SystemActivity.ImagePadding = 5;
             this.tabControl_SystemActivity.Name = "tabControl_SystemActivity";
             this.tabControl_SystemActivity.SelectedIndex = 0;
             // 
@@ -7668,6 +7667,9 @@
             // 
             // tabControl_SystemWeather
             // 
+            this.tabControl_SystemWeather.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_SystemWeather.BorderRadius = 4;
+            this.tabControl_SystemWeather.BorderThickness = 2;
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_Weather);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_UVindex);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_AirQuality);
@@ -7676,10 +7678,8 @@
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_WindForce);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_Altitude);
             this.tabControl_SystemWeather.Controls.Add(this.tabPage_AirPressure);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_SystemWeather, "tabControl_SystemWeather");
+            this.tabControl_SystemWeather.ImagePadding = 5;
             this.tabControl_SystemWeather.Name = "tabControl_SystemWeather";
             this.tabControl_SystemWeather.SelectedIndex = 0;
             // 
@@ -8625,12 +8625,13 @@
             // 
             // tabControl_System
             // 
+            this.tabControl_System.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_System.BorderRadius = 4;
+            this.tabControl_System.BorderThickness = 2;
             this.tabControl_System.Controls.Add(this.tabPage_Status);
             this.tabControl_System.Controls.Add(this.tabPage_Battery);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_System, "tabControl_System");
+            this.tabControl_System.ImagePadding = 5;
             this.tabControl_System.Name = "tabControl_System";
             this.tabControl_System.SelectedIndex = 0;
             // 
@@ -9135,16 +9136,17 @@
             // tabControl_EditParameters_AOD
             // 
             resources.ApplyResources(this.tabControl_EditParameters_AOD, "tabControl_EditParameters_AOD");
+            this.tabControl_EditParameters_AOD.BorderColor = System.Drawing.Color.DeepPink;
+            this.tabControl_EditParameters_AOD.BorderRadius = 4;
+            this.tabControl_EditParameters_AOD.BorderThickness = 2;
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Background_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Time_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Date_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Activity_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Air_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_System_AOD);
-            // 
-            // 
-            //
             this.tabControl_EditParameters_AOD.ImageList = this.imageList1;
+            this.tabControl_EditParameters_AOD.ImagePadding = 5;
             this.tabControl_EditParameters_AOD.Multiline = true;
             this.tabControl_EditParameters_AOD.Name = "tabControl_EditParameters_AOD";
             this.tabControl_EditParameters_AOD.SelectedIndex = 0;
@@ -9197,12 +9199,13 @@
             // 
             // tabControl_time_AOD
             // 
+            this.tabControl_time_AOD.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_time_AOD.BorderRadius = 4;
+            this.tabControl_time_AOD.BorderThickness = 2;
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Digital_time_AOD);
             this.tabControl_time_AOD.Controls.Add(this.tabPage_Analog_time_AOD);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_time_AOD, "tabControl_time_AOD");
+            this.tabControl_time_AOD.ImagePadding = 5;
             this.tabControl_time_AOD.Name = "tabControl_time_AOD";
             this.tabControl_time_AOD.SelectedIndex = 0;
             // 
@@ -10443,14 +10446,15 @@
             // 
             // tabControl_date_AOD
             // 
+            this.tabControl_date_AOD.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_date_AOD.BorderRadius = 4;
+            this.tabControl_date_AOD.BorderThickness = 2;
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Day_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Month_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Year_AOD);
             this.tabControl_date_AOD.Controls.Add(this.tabPage_Day_of_week_AOD);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_date_AOD, "tabControl_date_AOD");
+            this.tabControl_date_AOD.ImagePadding = 5;
             this.tabControl_date_AOD.Name = "tabControl_date_AOD";
             this.tabControl_date_AOD.SelectedIndex = 0;
             // 
@@ -12712,6 +12716,9 @@
             // 
             // tabControl_SystemActivity_AOD
             // 
+            this.tabControl_SystemActivity_AOD.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_SystemActivity_AOD.BorderRadius = 4;
+            this.tabControl_SystemActivity_AOD.BorderThickness = 2;
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_Steps_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_Calories_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_HeartRate_AOD);
@@ -12721,10 +12728,8 @@
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_Stress_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_ActivityGoal_AOD);
             this.tabControl_SystemActivity_AOD.Controls.Add(this.tabPage_FatBurning_AOD);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_SystemActivity_AOD, "tabControl_SystemActivity_AOD");
+            this.tabControl_SystemActivity_AOD.ImagePadding = 5;
             this.tabControl_SystemActivity_AOD.Name = "tabControl_SystemActivity_AOD";
             this.tabControl_SystemActivity_AOD.SelectedIndex = 0;
             // 
@@ -13830,6 +13835,9 @@
             // 
             // tabControl_SystemWeather_AOD
             // 
+            this.tabControl_SystemWeather_AOD.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_SystemWeather_AOD.BorderRadius = 4;
+            this.tabControl_SystemWeather_AOD.BorderThickness = 2;
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_Weather_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_UVindex_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_AirQuality_AOD);
@@ -13838,10 +13846,8 @@
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_WindForce_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_Altitude_AOD);
             this.tabControl_SystemWeather_AOD.Controls.Add(this.tabPage_AirPressure_AOD);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_SystemWeather_AOD, "tabControl_SystemWeather_AOD");
+            this.tabControl_SystemWeather_AOD.ImagePadding = 5;
             this.tabControl_SystemWeather_AOD.Name = "tabControl_SystemWeather_AOD";
             this.tabControl_SystemWeather_AOD.SelectedIndex = 0;
             // 
@@ -14854,11 +14860,12 @@
             // 
             // tabControl_System_AOD
             // 
+            this.tabControl_System_AOD.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_System_AOD.BorderRadius = 4;
+            this.tabControl_System_AOD.BorderThickness = 2;
             this.tabControl_System_AOD.Controls.Add(this.tabPage_Battery_AOD);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_System_AOD, "tabControl_System_AOD");
+            this.tabControl_System_AOD.ImagePadding = 5;
             this.tabControl_System_AOD.Name = "tabControl_System_AOD";
             this.tabControl_System_AOD.SelectedIndex = 0;
             // 
@@ -15620,9 +15627,13 @@
             // tabControl_Widget
             // 
             resources.ApplyResources(this.tabControl_Widget, "tabControl_Widget");
+            this.tabControl_Widget.BorderColor = System.Drawing.Color.Fuchsia;
+            this.tabControl_Widget.BorderRadius = 4;
+            this.tabControl_Widget.BorderThickness = 2;
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetsEdit);
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);
             this.tabControl_Widget.ImageList = this.imageList2;
+            this.tabControl_Widget.ImagePadding = 5;
             this.tabControl_Widget.Multiline = true;
             this.tabControl_Widget.Name = "tabControl_Widget";
             this.tabControl_Widget.SelectedIndex = 0;
@@ -15717,6 +15728,9 @@
             // 
             // tabControl_DateWidget
             // 
+            this.tabControl_DateWidget.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_DateWidget.BorderRadius = 4;
+            this.tabControl_DateWidget.BorderThickness = 2;
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DayWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_MonthWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage_YearWidget);
@@ -15724,6 +15738,7 @@
             this.tabControl_DateWidget.Controls.Add(this.tabPage_DateLayerWidget);
             this.tabControl_DateWidget.Controls.Add(this.tabPage6);
             resources.ApplyResources(this.tabControl_DateWidget, "tabControl_DateWidget");
+            this.tabControl_DateWidget.ImagePadding = 5;
             this.tabControl_DateWidget.Name = "tabControl_DateWidget";
             this.tabControl_DateWidget.SelectedIndex = 0;
             // 
@@ -16982,15 +16997,16 @@
             // 
             // tabControl_DateWidgetAdd
             // 
+            this.tabControl_DateWidgetAdd.BorderColor = System.Drawing.Color.Lime;
+            this.tabControl_DateWidgetAdd.BorderRadius = 4;
+            this.tabControl_DateWidgetAdd.BorderThickness = 2;
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage1);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage2);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage3);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage4);
             this.tabControl_DateWidgetAdd.Controls.Add(this.tabPage5);
-            // 
-            // 
-            //
             resources.ApplyResources(this.tabControl_DateWidgetAdd, "tabControl_DateWidgetAdd");
+            this.tabControl_DateWidgetAdd.ImagePadding = 5;
             this.tabControl_DateWidgetAdd.Name = "tabControl_DateWidgetAdd";
             this.tabControl_DateWidgetAdd.SelectedIndex = 0;
             // 
@@ -18424,7 +18440,6 @@
             this.Controls.Add(this.checkBox_Show_Shortcuts);
             this.Controls.Add(this.checkBox_crop);
             this.Controls.Add(this.radioButton_GTS2);
-            this.Controls.Add(this.label_version);
             this.Controls.Add(this.checkBox_border);
             this.Controls.Add(this.label_preview_Y);
             this.Controls.Add(this.label_preview_X);
@@ -18924,7 +18939,7 @@
         }
 
         #endregion
-        private DarkTabControl tabControl1;
+        private DarkTabControl.DarkTabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage_Show;
         private System.Windows.Forms.DataGridView dataGridView_ImagesList;
         private DarkButton button_images;
@@ -18975,7 +18990,6 @@
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_DoNothing;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Download;
         private System.Windows.Forms.RadioButton radioButton_Settings_AfterUnpack_Dialog;
-        private System.Windows.Forms.Label label_version;
         private DarkButton button_zip_unpack;
         private DarkButton button_pack_zip;
         private System.Windows.Forms.ComboBox comboBox_Language;
@@ -19045,7 +19059,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.RichTextBox richTextBox_JsonText;
         private System.Windows.Forms.TreeView treeView_JsonTree;
-        private DarkTabControl tabControl_EditParameters;
+        private DarkTabControl.DarkTabControl tabControl_EditParameters;
         private System.Windows.Forms.TabPage tabPage_Background;
         private System.Windows.Forms.TabPage tabPage_Time;
         private System.Windows.Forms.TabPage tabPage_Date;
@@ -19215,11 +19229,11 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_AM_X;
         private System.Windows.Forms.CheckBox checkBox_12h_Use;
         private System.Windows.Forms.CheckBox checkBox_center_marker;
-        private DarkTabControl tabControl_time;
+        private DarkTabControl.DarkTabControl tabControl_time;
         private System.Windows.Forms.TabPage tabPage_Digital_time;
         private System.Windows.Forms.TabPage tabPage_Analog_time;
         private System.Windows.Forms.Panel panel_AM_PM;
-        private DarkTabControl tabControl_date;
+        private DarkTabControl.DarkTabControl tabControl_date;
         private System.Windows.Forms.TabPage tabPage_Year;
         private System.Windows.Forms.TabPage tabPage_Month;
         private System.Windows.Forms.TabPage tabPage_Day;
@@ -19402,7 +19416,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesY;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesX;
         private DarkButton button_DOW_image;
-        private DarkTabControl tabControl_System;
+        private DarkTabControl.DarkTabControl tabControl_System;
         private System.Windows.Forms.TabPage tabPage_Status;
         private DarkGroupBox groupBox_Bluetooth;
         private System.Windows.Forms.TabPage tabPage_Battery;
@@ -19462,7 +19476,7 @@
         private System.Windows.Forms.Label label715;
         private System.Windows.Forms.Label label716;
         private System.Windows.Forms.Label label717;
-        private DarkTabControl tabControl_SystemActivity;
+        private DarkTabControl.DarkTabControl tabControl_SystemActivity;
         private System.Windows.Forms.TabPage tabPage_Steps;
         private System.Windows.Forms.TabPage tabPage_Calories;
         private System.Windows.Forms.TabPage tabPage_HeartRate;
@@ -19472,7 +19486,7 @@
         private System.Windows.Forms.TabPage tabPage_Stress;
         private System.Windows.Forms.TabPage tabPage_ActivityGoal;
         private System.Windows.Forms.TabPage tabPage_FatBurning;
-        private DarkTabControl tabControl_SystemWeather;
+        private DarkTabControl.DarkTabControl tabControl_SystemWeather;
         private System.Windows.Forms.TabPage tabPage_Weather;
         private System.Windows.Forms.TabPage tabPage_UVindex;
         private System.Windows.Forms.TabPage tabPage_AirQuality;
@@ -19492,12 +19506,12 @@
         private System.Windows.Forms.TextBox textBox_WatchfaceID;
         private System.Windows.Forms.CheckBox checkBox_UseID;
         private System.Windows.Forms.ToolTip toolTip_Weather;
-        private DarkTabControl tabControl_EditParameters_AOD;
+        private DarkTabControl.DarkTabControl tabControl_EditParameters_AOD;
         private System.Windows.Forms.TabPage tabPage_Background_AOD;
         private DarkButton button_Capy_ScreenNormal;
         private System.Windows.Forms.ComboBox comboBox_Background_image_AOD;
         private System.Windows.Forms.TabPage tabPage_Time_AOD;
-        private DarkTabControl tabControl_time_AOD;
+        private DarkTabControl.DarkTabControl tabControl_time_AOD;
         private System.Windows.Forms.TabPage tabPage_Digital_time_AOD;
         private System.Windows.Forms.Panel panel_AM_PM_AOD;
         private System.Windows.Forms.CheckBox checkBox_12h_Use_AOD;
@@ -19610,7 +19624,7 @@
         private System.Windows.Forms.CheckBox checkBox_Hour_hand_Use_AOD;
         private DarkButton button_Hour_hand_AOD;
         private System.Windows.Forms.TabPage tabPage_Date_AOD;
-        private DarkTabControl tabControl_date_AOD;
+        private DarkTabControl.DarkTabControl tabControl_date_AOD;
         private System.Windows.Forms.TabPage tabPage_Day_AOD;
         private System.Windows.Forms.Panel panel_Day_hand_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_handX_background_AOD;
@@ -19811,7 +19825,7 @@
         private System.Windows.Forms.Label label463;
         private DarkButton button_DOW_image_AOD;
         private System.Windows.Forms.TabPage tabPage_Activity_AOD;
-        private DarkTabControl tabControl_SystemActivity_AOD;
+        private DarkTabControl.DarkTabControl tabControl_SystemActivity_AOD;
         private System.Windows.Forms.TabPage tabPage_Steps_AOD;
         private System.Windows.Forms.TabPage tabPage_Calories_AOD;
         private System.Windows.Forms.TabPage tabPage_HeartRate_AOD;
@@ -19822,7 +19836,7 @@
         private System.Windows.Forms.TabPage tabPage_ActivityGoal_AOD;
         private System.Windows.Forms.TabPage tabPage_FatBurning_AOD;
         private System.Windows.Forms.TabPage tabPage_Air_AOD;
-        private DarkTabControl tabControl_SystemWeather_AOD;
+        private DarkTabControl.DarkTabControl tabControl_SystemWeather_AOD;
         private System.Windows.Forms.TabPage tabPage_Weather_AOD;
         private System.Windows.Forms.TabPage tabPage_UVindex_AOD;
         private System.Windows.Forms.TabPage tabPage_AirQuality_AOD;
@@ -19832,7 +19846,7 @@
         private System.Windows.Forms.TabPage tabPage_Altitude_AOD;
         private System.Windows.Forms.TabPage tabPage_AirPressure_AOD;
         private System.Windows.Forms.TabPage tabPage_System_AOD;
-        private DarkTabControl tabControl_System_AOD;
+        private DarkTabControl.DarkTabControl tabControl_System_AOD;
         private System.Windows.Forms.TabPage tabPage_Battery_AOD;
         private System.Windows.Forms.Label label284;
         private DarkButton button_Copy_Day_text_AOD;
@@ -20192,7 +20206,7 @@
         private System.Windows.Forms.DataGridView dataGridView_WidgetElement;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.TabControl tabControl_Widget;
+        private DarkTabControl.DarkTabControl tabControl_Widget;
         private System.Windows.Forms.TabPage tabPage_WidgetsEdit;
         private DarkButton button_WidgetElement_End;
         private DarkButton button_WidgetElement_Start;
@@ -20249,7 +20263,7 @@
         private UserControl_text_weather userControl_text_weatherWidgetMin;
         private UserControl_text_weather userControl_text_weatherWidgetCur;
         private UserControl_icon userControl_iconWidget;
-        private System.Windows.Forms.TabControl tabControl_DateWidget;
+        private DarkTabControl.DarkTabControl tabControl_DateWidget;
         private System.Windows.Forms.TabPage tabPage_DayWidget;
         private System.Windows.Forms.TabPage tabPage_MonthWidget;
         private System.Windows.Forms.TabPage tabPage_YearWidget;
@@ -20283,7 +20297,7 @@
         private System.Windows.Forms.RadioButton radioButton_WidgetAdd;
         private DarkGroupBox groupBox_WidgetElementAdd;
         private System.Windows.Forms.Panel panel2;
-        private DarkTabControl tabControl_DateWidgetAdd;
+        private DarkTabControl.DarkTabControl tabControl_DateWidgetAdd;
         private System.Windows.Forms.TabPage tabPage1;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_DayWidgetAdd;
         private UserControl_hand userControl_hand_DayWidgetAdd;

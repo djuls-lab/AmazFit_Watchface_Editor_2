@@ -674,9 +674,9 @@ namespace AmazFit_Watchface_2
 
 
 
-            label_version.Text = "v " +
+            /*label_version.Text = "v " +
                 System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.Major.ToString() + "." +
-                System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString();
+                System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString();*/
             label_version_help.Text =
                 System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.Major.ToString() + "." +
                 System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString();

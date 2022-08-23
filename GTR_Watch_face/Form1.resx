@@ -279,66 +279,66 @@
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACi
-        DQAAAk1TRnQBSQFMAgEBBgIAASMBAAEjARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
-        AUADAAEgAwABAQEAAQgGAAEIGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
-        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
-        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
-        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
-        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
-        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
-        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
-        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
-        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
-        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
-        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
-        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
-        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
-        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
-        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
-        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
-        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
-        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
-        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
-        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
-        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
-        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
-        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
-        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
-        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
-        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
-        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
-        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA/8JAAH/AQ4B/zsAAW0CAAEU
-        AQcBAAFtCQABDgIAAfIBDgHwKgABDgHrBAABEAETBAAB8gHxAQAB9AMAAewBFAEAAfEoAAETCA4B9wIA
-        AfECAAETAQ4BEAIAAewBAAERAf8nAAEPAQ4H7AFtAQABEwEAAREBQwH/AREB7AH/AgAB9AH/AQ4B8SQA
-        Af8MAAH/AgAB/wEAAfEDAAH/KQABQwEOAgABvAwAAQ4B8AEAAW0JAAEOIgABDwHsAUMBAAEOBwAB8gEA
-        AQ4BAAEOAQAB8QEAAf8BAAHwAgAB9AIAARUlAAFtBgAB7wEOAQ8BAAHtBAABbQEUBAAB/wIAAf8iAAIQ
-        AZIEAAG8AwABDgEQAW0B9AIAAQ4B6gEAAe8BDgIAAf8CAAH/AQ8BAAEOIQACbQG8AwAB7wEAARIBkgEO
-        BgAB8gEAAfQBAAIOARQBAAFtAQAB6wEPAfQlAAIOAewBDgHtAQ8BDgESBwABDgHvAgAB7wFtAfECAAEQ
-        ARIkAAH/AQAB9wETAQ4CbQEOCAABbQEOAQAB7wH0AwABvAHwAf8BAAHxIwACQwUAAQ4BbQcAAewBAAEP
-        AQ4BAAESAQACDgEAAUMBAAHyNAAB7AHqAQAB8wEOAwAB/wERAfEoAAHsEgABDjsAAQcBbQFDAg8BQwFt
-        AQcEAAHxEgABEAEAAfADAAH0Ag4B/wsAAf8JAAHzAW0B6gG8BP8BvAHqAW0B8wMAAfcRAAEPAZIBDgH/
-        AgABDwHvAQ4B/wQAAf8IAAH/BgAB8wESAe8B/wHwAewCFQHsAfAB/wHvARIB8wIAAe8EAAEHAQABFQoA
-        AfIBDgHtARABAAHsAUMB7AEUBQAC/wcAAv8FAAFtAe8B8gESBBACDwESAfIB7wFtAgAB7xIAAewBFQEP
-        Ae8BDgHzAQ4B/wYAAv8HAAL/AwABBwHqAf8BEgQQAQ8BDgHsAQ8BEwH/AeoBBwEAAe8FAAEHAQAB7wsA
-        AQ4BBwEAAfcBEQH3CAAC/wcAAv8CAAFtArwBDwMQAQ8BDgHsAQAB7AEPArwBbQEAAe8TAAERAW0BEAEH
-        AQ8KAAL/BwAC/wEAAUMB/wHrAQ8CEAEPAQ4B7AEAAewCDwHrAf8BQwEAAe8GAAEHAQAB9AgAAewBAAES
-        AQAB9AEOAfMBAAHyAe8IAAL/BwAB/wEAAQ4B/wEQBA8B7AEAAewDDwEQAf8BDgEAAe8IAAEQCAAB6gIR
-        ARABAAEOAe0CDgEAAfMIAAL/CAABDgH/ARADDwEOAQABEAQPARAB/wEOAQAB7wQABPIB8wgAAe8BQwIO
-        AQABEAEOAREBDgFtCgAC/wcAAREB/wFtAQ4CDwEOAQABFQMPAQ4BbQH/AREBAAHvEQAB9AEOAQ8CAAFt
-        AQ4BEg0AAv8GAAFtArwCDgEPAQ4BAAHsAg8CDgK8AW0UAAEUAREBbQH/AbwBAAH/BgAB/wEAAf8FAAL/
-        BQABBwHqAf8BFAMOAewBFQMOARQB/wHqAQcVAAHrAQ4B7wITCAAB/wcAAv8FAAFtAe8B8gEVBg4BFQHy
-        Ae8BbQQAAeoB9AGSBQAC/wkAAQcBEAEAAW0IAAL/AQAB/wUAAv8EAAHzARMB7wH/AbwBbQIPAW0BvAH/
-        Ae8BEwHzAQAB7AIAAfQGAAEPAUMB7QoAAQ4B7wEVAW0IAAL/BwAC/wQAAfMBbQESAbwE/wG8ARIBbQHz
-        AwAB8AH3Af8CAAT3Ae8BQwHtAvcB/wcAAQ4BAAEHAREZAAEHAW0BEAIOARABbQEHCAABDgYAAfcB8AoA
-        AeoCDgHxBQABQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEAAQEGAAEBFgAD/wEAAf8BHwH/BQAB/QGX
-        AfwBDgQAAfwB8wHJAQYEAAH4AQEBgQEGBAAB8AEAAYEBBgQAAbcB/AGOBQABkwH+AcgFAAHBAfwBEQEh
-        BAAB5QHgAXMBmQQAAQwB4QETASEEAAEMAQ8BiAEjBAAB4AEfAcwBZwQAAYABfwGTAYMEAAGbAT8BgQED
-        BAAB+wH/AckBRwQAAfsB/wH8AX8GAAHwAQ8CAAHjAYcBNgFaAcABAwE/Af4B4QGHARsBTAGAAQEBPAF+
-        AeEBDwENAYYBgAEBAT4BfgHwAQ8BBgHCAgACPgH4AR8BQwFgAQABIAE/AT4B+AE/AWEBsAEAAUABPwEe
-        AeABJwEwAdgBAAGAATwBHgHhAQMBWAFsAQEBAAE8AR4B4QEHAWwBNgEBAQABPwH+AeEBHwE2ARoBAQMA
-        AfABHwELAQwEAAH4AT8BTQGGAYABAQIAAfwBPwECAcIBgAEBAQQBAAH+AR8BQwFgAcABAwGEAQAB/gGf
-        AgAB8AEPAfcB5wH+AR8L
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACk
+        DQAAAk1TRnQBSQFMAgEBBgEAARgBIwEYASMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wkAAf8BDgH/OwABbQIA
+        ARQBBwEAAW0JAAEOAgAB8gEOAfAqAAEOAesEAAEQARMEAAHyAfEBAAH0AwAB7AEUAQAB8SgAARMIDgH3
+        AgAB8QIAARMBDgEQAgAB7AEAAREB/ycAAQ8BDgfsAW0BAAETAQABEQFDAf8BEQHsAf8CAAH0Af8BDgHx
+        JAAB/wwAAf8CAAH/AQAB8QMAAf8pAAFDAQ4CAAG8DAABDgHwAQABbQkAAQ4iAAEPAewBQwEAAQ4HAAHy
+        AQABDgEAAQ4BAAHxAQAB/wEAAfACAAH0AgABFSUAAW0GAAHvAQ4BDwEAAe0EAAFtARQEAAH/AgAB/yIA
+        AhABkgQAAbwDAAEOARABbQH0AgABDgHqAQAB7wEOAgAB/wIAAf8BDwEAAQ4hAAJtAbwDAAHvAQABEgGS
+        AQ4GAAHyAQAB9AEAAg4BFAEAAW0BAAHrAQ8B9CUAAg4B7AEOAe0BDwEOARIHAAEOAe8CAAHvAW0B8QIA
+        ARABEiQAAf8BAAH3ARMBDgJtAQ4IAAFtAQ4BAAHvAfQDAAG8AfAB/wEAAfEjAAJDBQABDgFtBwAB7AEA
+        AQ8BDgEAARIBAAIOAQABQwEAAfI0AAHsAeoBAAHzAQ4DAAH/AREB8SgAAewSAAEOOwABBwFtAUMCDwFD
+        AW0BBwQAAfESAAEQAQAB8AMAAfQCDgH/CwAB/wkAAfMBbQHqAbwE/wG8AeoBbQHzAwAB9xEAAQ8BkgEO
+        Af8CAAEPAe8BDgH/BAAB/wgAAf8GAAHzARIB7wH/AfAB7AIVAewB8AH/Ae8BEgHzAgAB7wQAAQcBAAEV
+        CgAB8gEOAe0BEAEAAewBQwHsARQFAAL/BwAC/wUAAW0B7wHyARIEEAIPARIB8gHvAW0CAAHvEgAB7AEV
+        AQ8B7wEOAfMBDgH/BgAC/wcAAv8DAAEHAeoB/wESBBABDwEOAewBDwETAf8B6gEHAQAB7wUAAQcBAAHv
+        CwABDgEHAQAB9wERAfcIAAL/BwAC/wIAAW0CvAEPAxABDwEOAewBAAHsAQ8CvAFtAQAB7xMAAREBbQEQ
+        AQcBDwoAAv8HAAL/AQABQwH/AesBDwIQAQ8BDgHsAQAB7AIPAesB/wFDAQAB7wYAAQcBAAH0CAAB7AEA
+        ARIBAAH0AQ4B8wEAAfIB7wgAAv8HAAH/AQABDgH/ARAEDwHsAQAB7AMPARAB/wEOAQAB7wgAARAIAAHq
+        AhEBEAEAAQ4B7QIOAQAB8wgAAv8IAAEOAf8BEAMPAQ4BAAEQBA8BEAH/AQ4BAAHvBAAE8gHzCAAB7wFD
+        Ag4BAAEQAQ4BEQEOAW0KAAL/BwABEQH/AW0BDgIPAQ4BAAEVAw8BDgFtAf8BEQEAAe8RAAH0AQ4BDwIA
+        AW0BDgESDQAC/wYAAW0CvAIOAQ8BDgEAAewCDwIOArwBbRQAARQBEQFtAf8BvAEAAf8GAAH/AQAB/wUA
+        Av8FAAEHAeoB/wEUAw4B7AEVAw4BFAH/AeoBBxUAAesBDgHvAhMIAAH/BwAC/wUAAW0B7wHyARUGDgEV
+        AfIB7wFtBAAB6gH0AZIFAAL/CQABBwEQAQABbQgAAv8BAAH/BQAC/wQAAfMBEwHvAf8BvAFtAg8BbQG8
+        Af8B7wETAfMBAAHsAgAB9AYAAQ8BQwHtCgABDgHvARUBbQgAAv8HAAL/BAAB8wFtARIBvAT/AbwBEgFt
+        AfMDAAHwAfcB/wIABPcB7wFDAe0C9wH/BwABDgEAAQcBERkAAQcBbQEQAg4BEAFtAQcIAAEOBgAB9wHw
+        CgAB6gIOAfEFAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AQAB/wEfAf8FAAH9
+        AZcB/AEOBAAB/AHzAckBBgQAAfgBAQGBAQYEAAHwAQABgQEGBAABtwH8AY4FAAGTAf4ByAUAAcEB/AER
+        ASEEAAHlAeABcwGZBAABDAHhARMBIQQAAQwBDwGIASMEAAHgAR8BzAFnBAABgAF/AZMBgwQAAZsBPwGB
+        AQMEAAH7Af8ByQFHBAAB+wH/AfwBfwYAAfABDwIAAeMBhwE2AVoBwAEDAT8B/gHhAYcBGwFMAYABAQE8
+        AX4B4QEPAQ0BhgGAAQEBPgF+AfABDwEGAcICAAI+AfgBHwFDAWABAAEgAT8BPgH4AT8BYQGwAQABQAE/
+        AR4B4AEnATAB2AEAAYABPAEeAeEBAwFYAWwBAQEAATwBHgHhAQcBbAE2AQEBAAE/Af4B4QEfATYBGgEB
+        AwAB8AEfAQsBDAQAAfgBPwFNAYYBgAEBAgAB/AE/AQIBwgGAAQEBBAEAAf4BHwFDAWABwAEDAYQBAAH+
+        AZ8CAAHwAQ8B9wHnAf4BHws=
 </value>
   </data>
   <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -349,7 +349,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAU
-        DQAAAk1TRnQBSQFMAgEBBQEAAcwBCQHMAQkBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DQAAAk1TRnQBSQFMAgEBBQEAAeQBCQHkAQkBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -544,42 +544,6 @@
   <data name="&gt;&gt;button_pack_zip.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="label_version.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_version.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 5pt</value>
-  </data>
-  <data name="label_version.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_version.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1002, 10</value>
-  </data>
-  <data name="label_version.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="label_version.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 7</value>
-  </data>
-  <data name="label_version.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="label_version.Text" xml:space="preserve">
-    <value>v 0.0</value>
-  </data>
-  <data name="&gt;&gt;label_version.Name" xml:space="preserve">
-    <value>label_version</value>
-  </data>
-  <data name="&gt;&gt;label_version.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_version.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label_version.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
   <metadata name="colorDialog_StepsProgress.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -614,7 +578,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_PreviewBig.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>27</value>
   </data>
   <data name="checkBox_WebW.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -644,7 +608,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox_WebW.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>26</value>
   </data>
   <data name="checkBox_WebB.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -674,7 +638,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox_WebB.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>25</value>
   </data>
   <data name="button_SavePNG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -701,7 +665,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_SavePNG.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>24</value>
   </data>
   <data name="button_SaveGIF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -728,7 +692,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_SaveGIF.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>23</value>
   </data>
   <data name="radioButton_GTR2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -758,7 +722,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;radioButton_GTR2.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>22</value>
   </data>
   <data name="label_preview_X.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -791,7 +755,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_preview_X.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>21</value>
   </data>
   <data name="label_preview_Y.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -824,7 +788,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_preview_Y.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>20</value>
   </data>
   <data name="checkBox_border.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -851,7 +815,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBox_border.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>19</value>
   </data>
   <data name="radioButton_GTS2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1238,7 +1202,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox_Preview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 5</value>
+    <value>6, 5</value>
   </data>
   <data name="pictureBox_Preview.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 230</value>
@@ -1934,13 +1898,13 @@
     <value>5</value>
   </data>
   <data name="tabPage_Show.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Show.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Show.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_Show.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2234,7 +2198,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_Background.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2714,7 +2678,7 @@
     <value>3, 98</value>
   </data>
   <data name="panel_AM_PM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 81</value>
+    <value>424, 81</value>
   </data>
   <data name="panel_AM_PM.TabIndex" type="System.Int32, mscorlib">
     <value>113</value>
@@ -2759,7 +2723,7 @@
     <value>3, 75</value>
   </data>
   <data name="userControl_SystemFont_GroupTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupTime.TabIndex" type="System.Int32, mscorlib">
     <value>114</value>
@@ -3482,7 +3446,7 @@
     <value>3, 74</value>
   </data>
   <data name="panel_Second.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Second.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -3509,7 +3473,7 @@
     <value>3, 51</value>
   </data>
   <data name="button_Second.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Second.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4235,7 +4199,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Minute.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Minute.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4262,7 +4226,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Minute.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Minute.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4952,7 +4916,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Hour.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Hour.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4979,7 +4943,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Hour.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Hour.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5003,13 +4967,13 @@
     <value>NoControl</value>
   </data>
   <data name="tabPage_Digital_time.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Digital_time.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Digital_time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Digital_time.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5627,7 +5591,7 @@
     <value>3, 74</value>
   </data>
   <data name="panel_Second_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Second_hand.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -5654,7 +5618,7 @@
     <value>3, 51</value>
   </data>
   <data name="button_Second_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Second_hand.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -6269,7 +6233,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Minute_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Minute_hand.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -6296,7 +6260,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Minute_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Minute_hand.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -6911,7 +6875,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Hour_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Hour_hand.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6938,7 +6902,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Hour_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Hour_hand.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6959,13 +6923,13 @@
     <value>5</value>
   </data>
   <data name="tabPage_Analog_time.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Analog_time.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Analog_time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>453, 279</value>
   </data>
   <data name="tabPage_Analog_time.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6992,7 +6956,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabControl_time.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -7001,7 +6965,7 @@
     <value>tabControl_time</value>
   </data>
   <data name="&gt;&gt;tabControl_time.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_time.Parent" xml:space="preserve">
     <value>tabPage_Time</value>
@@ -7013,7 +6977,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_Time.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -7055,7 +7019,7 @@
     <value>3, 51</value>
   </data>
   <data name="userControl_SystemFont_Group_Day.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Day.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -7997,7 +7961,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Day_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Day_hand.TabIndex" type="System.Int32, mscorlib">
     <value>126</value>
@@ -8024,7 +7988,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Day_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Day_hand.TabIndex" type="System.Int32, mscorlib">
     <value>125</value>
@@ -8744,7 +8708,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Day_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Day_text.TabIndex" type="System.Int32, mscorlib">
     <value>123</value>
@@ -8771,7 +8735,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Day_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Day_text.TabIndex" type="System.Int32, mscorlib">
     <value>124</value>
@@ -8792,13 +8756,13 @@
     <value>4</value>
   </data>
   <data name="tabPage_Day.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Day.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Day.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Day.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -8840,7 +8804,7 @@
     <value>3, 75</value>
   </data>
   <data name="userControl_SystemFont_Group_Month.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Month.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -9782,7 +9746,7 @@
     <value>3, 74</value>
   </data>
   <data name="panel_Month_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Month_hand.TabIndex" type="System.Int32, mscorlib">
     <value>127</value>
@@ -9809,7 +9773,7 @@
     <value>3, 51</value>
   </data>
   <data name="button_Month_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Month_hand.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -10529,7 +10493,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Month_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Month_text.TabIndex" type="System.Int32, mscorlib">
     <value>146</value>
@@ -10556,7 +10520,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Month_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Month_text.TabIndex" type="System.Int32, mscorlib">
     <value>147</value>
@@ -10820,7 +10784,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Month_pictures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Month_pictures.TabIndex" type="System.Int32, mscorlib">
     <value>149</value>
@@ -10847,7 +10811,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Month_pictures.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Month_pictures.TabIndex" type="System.Int32, mscorlib">
     <value>148</value>
@@ -10868,13 +10832,13 @@
     <value>6</value>
   </data>
   <data name="tabPage_Month.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Month.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Month.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>453, 279</value>
   </data>
   <data name="tabPage_Month.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -10916,7 +10880,7 @@
     <value>3, 294</value>
   </data>
   <data name="userControl_SystemFont_Group_Year.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 23</value>
+    <value>430, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Year.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -10943,7 +10907,7 @@
     <value>3, 264</value>
   </data>
   <data name="panel_Year_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 30</value>
+    <value>430, 30</value>
   </data>
   <data name="panel_Year_hand.TabIndex" type="System.Int32, mscorlib">
     <value>151</value>
@@ -10973,7 +10937,7 @@
     <value>3, 241</value>
   </data>
   <data name="button_Year_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 23</value>
+    <value>430, 23</value>
   </data>
   <data name="button_Year_hand.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -11696,7 +11660,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Year_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 215</value>
+    <value>430, 215</value>
   </data>
   <data name="panel_Year_text.TabIndex" type="System.Int32, mscorlib">
     <value>146</value>
@@ -11723,7 +11687,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Year_text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 23</value>
+    <value>430, 23</value>
   </data>
   <data name="button_Year_text.TabIndex" type="System.Int32, mscorlib">
     <value>147</value>
@@ -11747,13 +11711,13 @@
     <value>4</value>
   </data>
   <data name="tabPage_Year.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Year.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Year.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>453, 279</value>
   </data>
   <data name="tabPage_Year.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -12698,7 +12662,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_DOW_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_DOW_hand.TabIndex" type="System.Int32, mscorlib">
     <value>152</value>
@@ -12725,7 +12689,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_DOW_hand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_DOW_hand.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -12989,7 +12953,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_DOW_image.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_DOW_image.TabIndex" type="System.Int32, mscorlib">
     <value>151</value>
@@ -13016,7 +12980,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_DOW_image.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_DOW_image.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -13037,13 +13001,13 @@
     <value>3</value>
   </data>
   <data name="tabPage_Day_of_week.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Day_of_week.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Day_of_week.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>453, 279</value>
   </data>
   <data name="tabPage_Day_of_week.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -13070,7 +13034,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_date.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabControl_date.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -13079,7 +13043,7 @@
     <value>tabControl_date</value>
   </data>
   <data name="&gt;&gt;tabControl_date.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_date.Parent" xml:space="preserve">
     <value>tabPage_Date</value>
@@ -13091,7 +13055,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Date.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_Date.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -13124,7 +13088,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -13160,7 +13124,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Steps.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель шагов)</value>
@@ -13190,7 +13154,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -13217,7 +13181,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -13244,7 +13208,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -13280,7 +13244,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -13310,7 +13274,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -13337,7 +13301,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -13364,7 +13328,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -13382,13 +13346,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_Steps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Steps.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Steps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Steps.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -13421,7 +13385,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -13457,7 +13421,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Calories.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель калорий)</value>
@@ -13487,7 +13451,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -13514,7 +13478,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -13541,7 +13505,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -13577,7 +13541,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -13607,7 +13571,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -13634,7 +13598,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -13661,7 +13625,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -13679,13 +13643,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_Calories.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Calories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Calories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Calories.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -13718,7 +13682,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -13754,7 +13718,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_HeartRate.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -13784,7 +13748,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -13811,7 +13775,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -13838,7 +13802,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -13868,7 +13832,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -13895,7 +13859,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -13922,7 +13886,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -13940,13 +13904,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_HeartRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_HeartRate.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_HeartRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_HeartRate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -13979,7 +13943,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -14015,7 +13979,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_PAI.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -14045,7 +14009,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -14072,7 +14036,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -14099,7 +14063,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -14129,7 +14093,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -14156,7 +14120,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -14183,7 +14147,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -14201,13 +14165,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_PAI.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_PAI.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_PAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_PAI.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -14240,7 +14204,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_icon_Distance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Distance.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -14276,7 +14240,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_SystemFont_Group_Distance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Distance.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -14309,7 +14273,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_text_Distance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Distance.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -14327,13 +14291,13 @@
     <value>2</value>
   </data>
   <data name="tabPage_Distance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Distance.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Distance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Distance.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -14366,7 +14330,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -14402,7 +14366,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_StandUp.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (число разминок)</value>
@@ -14432,7 +14396,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -14459,7 +14423,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -14486,7 +14450,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -14522,7 +14486,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -14552,7 +14516,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -14579,7 +14543,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -14606,7 +14570,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -14624,13 +14588,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_StandUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_StandUp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_StandUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_StandUp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -14663,7 +14627,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -14699,7 +14663,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Stress.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -14729,7 +14693,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -14756,7 +14720,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -14783,7 +14747,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -14813,7 +14777,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -14840,7 +14804,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -14867,7 +14831,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -14885,13 +14849,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Stress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Stress.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Stress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Stress.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -14981,7 +14945,7 @@
     <value>3, 210</value>
   </data>
   <data name="groupBox_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 45</value>
+    <value>424, 45</value>
   </data>
   <data name="groupBox_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -15011,7 +14975,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -15047,7 +15011,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_ActivityGoal.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель активности)</value>
@@ -15077,7 +15041,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -15104,7 +15068,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -15131,7 +15095,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -15167,7 +15131,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -15197,7 +15161,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -15224,7 +15188,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -15251,7 +15215,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -15269,13 +15233,13 @@
     <value>9</value>
   </data>
   <data name="tabPage_ActivityGoal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_ActivityGoal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_ActivityGoal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_ActivityGoal.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -15308,7 +15272,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -15344,7 +15308,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_FatBurning.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель жиросжигания)</value>
@@ -15374,7 +15338,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -15401,7 +15365,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -15428,7 +15392,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -15464,7 +15428,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -15494,7 +15458,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -15521,7 +15485,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -15548,7 +15512,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -15566,13 +15530,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_FatBurning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_FatBurning.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_FatBurning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_FatBurning.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -15599,7 +15563,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_SystemActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabControl_SystemActivity.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -15608,7 +15572,7 @@
     <value>tabControl_SystemActivity</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemActivity.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemActivity.Parent" xml:space="preserve">
     <value>tabPage_Activity</value>
@@ -15620,7 +15584,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Activity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_Activity.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -15653,7 +15617,7 @@
     <value>3, 210</value>
   </data>
   <data name="checkBox_weatherAlignmentFix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 38</value>
+    <value>424, 38</value>
   </data>
   <data name="checkBox_weatherAlignmentFix.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -15684,7 +15648,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Weather.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -15729,7 +15693,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_GroupWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupWeather.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -15756,7 +15720,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Weather.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -15786,7 +15750,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Weather.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -15816,7 +15780,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Weather.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -15852,7 +15816,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_weather_Max.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_weather_Max.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -15885,7 +15849,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_weather_Min.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_weather_Min.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -15918,7 +15882,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_text_weather_Current.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_weather_Current.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -15945,7 +15909,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_weather.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -15963,13 +15927,13 @@
     <value>9</value>
   </data>
   <data name="tabPage_Weather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Weather.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Weather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Weather.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -16002,7 +15966,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -16038,7 +16002,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_UVindex.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -16068,7 +16032,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -16095,7 +16059,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -16122,7 +16086,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -16152,7 +16116,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -16179,7 +16143,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -16206,7 +16170,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -16224,13 +16188,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_UVindex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_UVindex.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_UVindex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_UVindex.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -16263,7 +16227,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -16299,7 +16263,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_AirQuality.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -16329,7 +16293,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -16356,7 +16320,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -16383,7 +16347,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -16413,7 +16377,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -16440,7 +16404,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -16467,7 +16431,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -16485,13 +16449,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_AirQuality.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_AirQuality.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_AirQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_AirQuality.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -16524,7 +16488,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -16560,7 +16524,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Humidity.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -16590,7 +16554,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -16617,7 +16581,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -16644,7 +16608,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -16674,7 +16638,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -16701,7 +16665,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -16728,7 +16692,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -16746,13 +16710,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Humidity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Humidity.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Humidity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Humidity.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -16822,7 +16786,7 @@
     <value>3, 210</value>
   </data>
   <data name="userControl_icon_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -16867,7 +16831,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_SystemFont_GroupSunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupSunrise.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -16894,7 +16858,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_scaleLinear_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -16921,7 +16885,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleCircle_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -16948,7 +16912,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_hand_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -16984,7 +16948,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_text_Sunset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Sunset.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -17020,7 +16984,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -17056,7 +17020,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_SunriseSunset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_SunriseSunset.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -17083,7 +17047,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -17110,7 +17074,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -17128,13 +17092,13 @@
     <value>10</value>
   </data>
   <data name="tabPage_Sunrise.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Sunrise.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Sunrise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Sunrise.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -17167,7 +17131,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -17203,7 +17167,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_WindForce.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -17233,7 +17197,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -17260,7 +17224,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -17287,7 +17251,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -17317,7 +17281,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -17344,7 +17308,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -17371,7 +17335,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -17389,13 +17353,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_WindForce.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_WindForce.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_WindForce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_WindForce.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -17428,7 +17392,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -17464,7 +17428,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Altitude.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -17494,7 +17458,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -17521,7 +17485,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -17548,7 +17512,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -17578,7 +17542,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -17605,7 +17569,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -17632,7 +17596,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -17650,13 +17614,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Altitude.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Altitude.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Altitude.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Altitude.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -17689,7 +17653,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -17725,7 +17689,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_AirPressure.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -17755,7 +17719,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -17782,7 +17746,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -17809,7 +17773,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -17839,7 +17803,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -17866,7 +17830,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
@@ -17893,7 +17857,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -17911,13 +17875,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_AirPressure.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_AirPressure.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_AirPressure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_AirPressure.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -17944,7 +17908,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_SystemWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabControl_SystemWeather.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -17953,7 +17917,7 @@
     <value>tabControl_SystemWeather</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemWeather.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemWeather.Parent" xml:space="preserve">
     <value>tabPage_Air</value>
@@ -17965,7 +17929,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Air.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_Air.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -18232,7 +18196,7 @@
     <value>3, 198</value>
   </data>
   <data name="groupBox_Lock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 65</value>
+    <value>424, 65</value>
   </data>
   <data name="groupBox_Lock.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -18499,7 +18463,7 @@
     <value>3, 133</value>
   </data>
   <data name="groupBox_DND.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 65</value>
+    <value>424, 65</value>
   </data>
   <data name="groupBox_DND.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -18766,7 +18730,7 @@
     <value>3, 68</value>
   </data>
   <data name="groupBox_Alarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 65</value>
+    <value>424, 65</value>
   </data>
   <data name="groupBox_Alarm.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -19033,7 +18997,7 @@
     <value>3, 3</value>
   </data>
   <data name="groupBox_Bluetooth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 65</value>
+    <value>424, 65</value>
   </data>
   <data name="groupBox_Bluetooth.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -19054,13 +19018,13 @@
     <value>3</value>
   </data>
   <data name="tabPage_Status.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Status.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>437, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Status.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -19093,7 +19057,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -19129,7 +19093,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Battery.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -19159,7 +19123,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -19186,7 +19150,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -19213,7 +19177,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -19243,7 +19207,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -19270,7 +19234,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -19297,7 +19261,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -19315,13 +19279,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Battery.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Battery.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Battery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 283</value>
+    <value>430, 279</value>
   </data>
   <data name="tabPage_Battery.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -19348,7 +19312,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_System.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabControl_System.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -19357,7 +19321,7 @@
     <value>tabControl_System</value>
   </data>
   <data name="&gt;&gt;tabControl_System.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_System.Parent" xml:space="preserve">
     <value>tabPage_System</value>
@@ -19369,7 +19333,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_System.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 310</value>
+    <value>438, 308</value>
   </data>
   <data name="tabPage_System.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -19396,7 +19360,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_EditParameters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 318</value>
+    <value>492, 316</value>
   </data>
   <data name="tabControl_EditParameters.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -19405,7 +19369,7 @@
     <value>tabControl_EditParameters</value>
   </data>
   <data name="&gt;&gt;tabControl_EditParameters.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_EditParameters.Parent" xml:space="preserve">
     <value>splitContainer_EditParameters.Panel1</value>
@@ -19471,7 +19435,7 @@
     <value>3, 253</value>
   </data>
   <data name="button_Capy_ScreenNormal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>420, 23</value>
+    <value>409, 23</value>
   </data>
   <data name="button_Capy_ScreenNormal.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
@@ -19525,7 +19489,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Background_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_Background_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -20032,7 +19996,7 @@
     <value>3, 74</value>
   </data>
   <data name="panel_AM_PM_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 115</value>
+    <value>401, 115</value>
   </data>
   <data name="panel_AM_PM_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>113</value>
@@ -20077,7 +20041,7 @@
     <value>3, 51</value>
   </data>
   <data name="userControl_SystemFont_GroupTime_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupTime_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>115</value>
@@ -20827,7 +20791,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Minute_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 1</value>
+    <value>401, 1</value>
   </data>
   <data name="panel_Minute_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -20854,7 +20818,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Minute_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="button_Minute_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -21571,7 +21535,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Hour_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 1</value>
+    <value>401, 1</value>
   </data>
   <data name="panel_Hour_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -21598,7 +21562,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Hour_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="button_Hour_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -21622,13 +21586,13 @@
     <value>NoControl</value>
   </data>
   <data name="tabPage_Digital_time_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Digital_time_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Digital_time_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Digital_time_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -22273,7 +22237,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Minute_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Minute_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -22300,7 +22264,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Minute_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Minute_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -22942,7 +22906,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Hour_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>447, 1</value>
   </data>
   <data name="panel_Hour_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -22969,7 +22933,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Hour_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>447, 23</value>
   </data>
   <data name="button_Hour_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -22990,13 +22954,13 @@
     <value>3</value>
   </data>
   <data name="tabPage_Analog_time_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Analog_time_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Analog_time_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>453, 250</value>
   </data>
   <data name="tabPage_Analog_time_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -23023,7 +22987,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_time_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabControl_time_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -23032,7 +22996,7 @@
     <value>tabControl_time_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_time_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_time_AOD.Parent" xml:space="preserve">
     <value>tabPage_Time_AOD</value>
@@ -23044,7 +23008,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Time_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_Time_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -23086,7 +23050,7 @@
     <value>3, 51</value>
   </data>
   <data name="userControl_SystemFont_Group_Day_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Day_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -24055,7 +24019,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Day_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 1</value>
+    <value>401, 1</value>
   </data>
   <data name="panel_Day_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>126</value>
@@ -24082,7 +24046,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Day_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="button_Day_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>125</value>
@@ -24832,7 +24796,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Day_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 1</value>
+    <value>401, 1</value>
   </data>
   <data name="panel_Day_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>123</value>
@@ -24859,7 +24823,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Day_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="button_Day_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>124</value>
@@ -24880,13 +24844,13 @@
     <value>4</value>
   </data>
   <data name="tabPage_Day_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Day_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Day_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Day_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -24928,7 +24892,7 @@
     <value>3, 75</value>
   </data>
   <data name="userControl_SystemFont_Group_Month_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Month_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -25897,7 +25861,7 @@
     <value>3, 74</value>
   </data>
   <data name="panel_Month_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Month_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>127</value>
@@ -25924,7 +25888,7 @@
     <value>3, 51</value>
   </data>
   <data name="button_Month_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Month_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -26674,7 +26638,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_Month_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Month_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>146</value>
@@ -26701,7 +26665,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_Month_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Month_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>147</value>
@@ -26992,7 +26956,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Month_pictures_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_Month_pictures_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>149</value>
@@ -27019,7 +26983,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Month_pictures_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_Month_pictures_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>148</value>
@@ -27040,13 +27004,13 @@
     <value>6</value>
   </data>
   <data name="tabPage_Month_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Month_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Month_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Month_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -27088,7 +27052,7 @@
     <value>3, 294</value>
   </data>
   <data name="userControl_SystemFont_Group_Year_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Year_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -27115,7 +27079,7 @@
     <value>3, 264</value>
   </data>
   <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 30</value>
+    <value>407, 30</value>
   </data>
   <data name="panel16.TabIndex" type="System.Int32, mscorlib">
     <value>151</value>
@@ -27145,7 +27109,7 @@
     <value>3, 241</value>
   </data>
   <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="button13.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -27895,7 +27859,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_Year_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 215</value>
+    <value>407, 215</value>
   </data>
   <data name="panel_Year_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>146</value>
@@ -27922,7 +27886,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_Year_text_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="button_Year_text_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>147</value>
@@ -27946,13 +27910,13 @@
     <value>4</value>
   </data>
   <data name="tabPage_Year_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Year_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Year_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Year_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -28924,7 +28888,7 @@
     <value>3, 50</value>
   </data>
   <data name="panel_DOW_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_DOW_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>152</value>
@@ -28951,7 +28915,7 @@
     <value>3, 27</value>
   </data>
   <data name="button_DOW_hand_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_DOW_hand_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -29242,7 +29206,7 @@
     <value>3, 26</value>
   </data>
   <data name="panel_DOW_image_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 1</value>
+    <value>424, 1</value>
   </data>
   <data name="panel_DOW_image_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>151</value>
@@ -29269,7 +29233,7 @@
     <value>3, 3</value>
   </data>
   <data name="button_DOW_image_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="button_DOW_image_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -29290,13 +29254,13 @@
     <value>3</value>
   </data>
   <data name="tabPage_Day_of_week_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Day_of_week_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Day_of_week_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Day_of_week_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -29323,7 +29287,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_date_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabControl_date_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -29332,7 +29296,7 @@
     <value>tabControl_date_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_date_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_date_AOD.Parent" xml:space="preserve">
     <value>tabPage_Date_AOD</value>
@@ -29344,7 +29308,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Date_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_Date_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -29377,7 +29341,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -29413,7 +29377,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Steps_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель шагов)</value>
@@ -29443,7 +29407,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -29470,7 +29434,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -29497,7 +29461,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -29533,7 +29497,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_goal_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -29563,7 +29527,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -29590,7 +29554,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -29617,7 +29581,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -29635,13 +29599,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_Steps_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Steps_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Steps_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Steps_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -29674,7 +29638,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -29710,7 +29674,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Calories_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель калорий)</value>
@@ -29740,7 +29704,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -29767,7 +29731,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -29794,7 +29758,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -29830,7 +29794,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -29860,7 +29824,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -29887,7 +29851,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -29914,7 +29878,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -29932,13 +29896,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_Calories_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Calories_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Calories_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Calories_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -29971,7 +29935,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -30007,7 +29971,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_HeartRate_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -30037,7 +30001,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -30064,7 +30028,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -30091,7 +30055,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -30121,7 +30085,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -30148,7 +30112,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -30175,7 +30139,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -30193,13 +30157,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_HeartRate_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_HeartRate_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_HeartRate_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_HeartRate_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -30232,7 +30196,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_pictures_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -30259,7 +30223,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_icon_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -30295,7 +30259,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_SystemFont_Group_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_PAI_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -30325,7 +30289,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleLinear_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -30352,7 +30316,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_scaleCircle_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -30379,7 +30343,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_hand_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -30406,7 +30370,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -30436,7 +30400,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_text_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -30454,13 +30418,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_PAI_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_PAI_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_PAI_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_PAI_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -30493,7 +30457,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_icon_Distance_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Distance_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -30529,7 +30493,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_SystemFont_Group_Distance_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Distance_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -30562,7 +30526,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_text_Distance_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Distance_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -30580,13 +30544,13 @@
     <value>2</value>
   </data>
   <data name="tabPage_Distance_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Distance_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Distance_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Distance_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -30619,7 +30583,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -30655,7 +30619,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_StandUp_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (число разминок)</value>
@@ -30685,7 +30649,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -30712,7 +30676,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -30739,7 +30703,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -30775,7 +30739,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -30805,7 +30769,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -30832,7 +30796,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -30859,7 +30823,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -30877,13 +30841,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_StandUp_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_StandUp_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_StandUp_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_StandUp_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -30916,7 +30880,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -30952,7 +30916,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Stress_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -30982,7 +30946,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -31009,7 +30973,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -31036,7 +31000,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -31066,7 +31030,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -31093,7 +31057,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -31120,7 +31084,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -31138,13 +31102,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Stress_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Stress_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Stress_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_Stress_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -31234,7 +31198,7 @@
     <value>3, 210</value>
   </data>
   <data name="groupBox_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 45</value>
+    <value>407, 45</value>
   </data>
   <data name="groupBox_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -31264,7 +31228,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_icon_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -31300,7 +31264,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_ActivityGoal_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель активности)</value>
@@ -31330,7 +31294,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_scaleLinear_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -31357,7 +31321,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_scaleCircle_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -31384,7 +31348,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_hand_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -31420,7 +31384,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_text_goal_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -31450,7 +31414,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_text_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -31477,7 +31441,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_segments_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -31504,7 +31468,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 23</value>
+    <value>407, 23</value>
   </data>
   <data name="userControl_pictures_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -31522,13 +31486,13 @@
     <value>9</value>
   </data>
   <data name="tabPage_ActivityGoal_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_ActivityGoal_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_ActivityGoal_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_ActivityGoal_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -31561,7 +31525,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_icon_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -31597,7 +31561,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_Group_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_FatBurning_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель жиросжигания)</value>
@@ -31627,7 +31591,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleLinear_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -31654,7 +31618,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_scaleCircle_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -31681,7 +31645,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_hand_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -31717,7 +31681,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_goal_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_goal_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -31747,7 +31711,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_text_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -31774,7 +31738,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_segments_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -31801,7 +31765,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>424, 23</value>
   </data>
   <data name="userControl_pictures_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -31819,13 +31783,13 @@
     <value>8</value>
   </data>
   <data name="tabPage_FatBurning_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_FatBurning_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_FatBurning_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>430, 250</value>
   </data>
   <data name="tabPage_FatBurning_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -31852,7 +31816,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_SystemActivity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabControl_SystemActivity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -31861,7 +31825,7 @@
     <value>tabControl_SystemActivity_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemActivity_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemActivity_AOD.Parent" xml:space="preserve">
     <value>tabPage_Activity_AOD</value>
@@ -31873,7 +31837,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Activity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_Activity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -31906,7 +31870,7 @@
     <value>3, 210</value>
   </data>
   <data name="checkBox_weatherAlignmentFix_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 38</value>
+    <value>401, 38</value>
   </data>
   <data name="checkBox_weatherAlignmentFix_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -31937,7 +31901,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_icon_Weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -31982,7 +31946,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_SystemFont_GroupWeather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupWeather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -32009,7 +31973,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleLinear_Weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -32039,7 +32003,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleCircle_Weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -32069,7 +32033,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_hand_Weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -32105,7 +32069,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_weather_Max_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_weather_Max_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -32138,7 +32102,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_weather_Min_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_weather_Min_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -32171,7 +32135,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_text_weather_Current_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_weather_Current_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -32198,7 +32162,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -32216,13 +32180,13 @@
     <value>9</value>
   </data>
   <data name="tabPage_Weather_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Weather_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Weather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Weather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -32255,7 +32219,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -32291,7 +32255,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_UVindex_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -32321,7 +32285,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -32348,7 +32312,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -32375,7 +32339,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -32405,7 +32369,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -32432,7 +32396,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -32459,7 +32423,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -32477,13 +32441,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_UVindex_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_UVindex_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_UVindex_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_UVindex_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -32516,7 +32480,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -32552,7 +32516,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_AirQuality_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -32582,7 +32546,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -32609,7 +32573,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -32636,7 +32600,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -32666,7 +32630,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -32693,7 +32657,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -32720,7 +32684,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -32738,13 +32702,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_AirQuality_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_AirQuality_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_AirQuality_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_AirQuality_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -32777,7 +32741,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -32813,7 +32777,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Humidity_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -32843,7 +32807,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -32870,7 +32834,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -32897,7 +32861,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -32927,7 +32891,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -32954,7 +32918,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -32981,7 +32945,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -32999,13 +32963,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Humidity_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Humidity_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Humidity_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Humidity_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -33072,7 +33036,7 @@
     <value>3, 210</value>
   </data>
   <data name="userControl_icon_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -33117,7 +33081,7 @@
     <value>3, 187</value>
   </data>
   <data name="userControl_SystemFont_GroupSunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_GroupSunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -33144,7 +33108,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_scaleLinear_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -33171,7 +33135,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_scaleCircle_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -33198,7 +33162,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_hand_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -33234,7 +33198,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_text_Sunset_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Sunset_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -33270,7 +33234,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_text_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -33306,7 +33270,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_SunriseSunset_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_SunriseSunset_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -33333,7 +33297,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -33360,7 +33324,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -33378,13 +33342,13 @@
     <value>10</value>
   </data>
   <data name="tabPage_Sunrise_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Sunrise_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Sunrise_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Sunrise_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -33417,7 +33381,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -33453,7 +33417,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_WindForce_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -33483,7 +33447,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -33510,7 +33474,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -33537,7 +33501,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -33567,7 +33531,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -33594,7 +33558,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -33621,7 +33585,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -33639,13 +33603,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_WindForce_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_WindForce_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_WindForce_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_WindForce_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -33678,7 +33642,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -33714,7 +33678,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Altitude_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -33744,7 +33708,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -33771,7 +33735,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -33798,7 +33762,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -33828,7 +33792,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -33855,7 +33819,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -33882,7 +33846,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -33900,13 +33864,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Altitude_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Altitude_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Altitude_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Altitude_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -33939,7 +33903,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
@@ -33975,7 +33939,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_AirPressure_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -34005,7 +33969,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
@@ -34032,7 +33996,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -34059,7 +34023,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -34089,7 +34053,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -34116,7 +34080,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
@@ -34143,7 +34107,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -34161,13 +34125,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_AirPressure_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_AirPressure_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_AirPressure_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_AirPressure_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -34194,7 +34158,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_SystemWeather_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabControl_SystemWeather_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -34203,7 +34167,7 @@
     <value>tabControl_SystemWeather_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemWeather_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_SystemWeather_AOD.Parent" xml:space="preserve">
     <value>tabPage_Air_AOD</value>
@@ -34215,7 +34179,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_Air_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_Air_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -34248,7 +34212,7 @@
     <value>3, 164</value>
   </data>
   <data name="userControl_icon_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_icon_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -34284,7 +34248,7 @@
     <value>3, 141</value>
   </data>
   <data name="userControl_SystemFont_Group_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_SystemFont_Group_Battery_AOD.SystemFontText" xml:space="preserve">
     <value>Системный шрифт повернутый (цель)</value>
@@ -34314,7 +34278,7 @@
     <value>3, 118</value>
   </data>
   <data name="userControl_scaleLinear_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleLinear_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -34341,7 +34305,7 @@
     <value>3, 95</value>
   </data>
   <data name="userControl_scaleCircle_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_scaleCircle_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -34368,7 +34332,7 @@
     <value>3, 72</value>
   </data>
   <data name="userControl_hand_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_hand_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -34398,7 +34362,7 @@
     <value>3, 49</value>
   </data>
   <data name="userControl_text_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_text_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -34425,7 +34389,7 @@
     <value>3, 26</value>
   </data>
   <data name="userControl_segments_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_segments_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -34452,7 +34416,7 @@
     <value>3, 3</value>
   </data>
   <data name="userControl_pictures_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 23</value>
+    <value>401, 23</value>
   </data>
   <data name="userControl_pictures_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -34470,13 +34434,13 @@
     <value>7</value>
   </data>
   <data name="tabPage_Battery_AOD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Battery_AOD.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Battery_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>418, 252</value>
+    <value>407, 250</value>
   </data>
   <data name="tabPage_Battery_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -34503,7 +34467,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_System_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabControl_System_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -34512,7 +34476,7 @@
     <value>tabControl_System_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_System_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_System_AOD.Parent" xml:space="preserve">
     <value>tabPage_System_AOD</value>
@@ -34524,7 +34488,7 @@
     <value>4, 4</value>
   </data>
   <data name="tabPage_System_AOD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 279</value>
+    <value>415, 279</value>
   </data>
   <data name="tabPage_System_AOD.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -34560,7 +34524,7 @@
     <value>tabControl_EditParameters_AOD</value>
   </data>
   <data name="&gt;&gt;tabControl_EditParameters_AOD.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_EditParameters_AOD.Parent" xml:space="preserve">
     <value>splitContainer_EditParameters.Panel2</value>
@@ -34584,10 +34548,10 @@
     <value>10</value>
   </data>
   <data name="splitContainer_EditParameters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 609</value>
+    <value>492, 607</value>
   </data>
   <data name="splitContainer_EditParameters.SplitterDistance" type="System.Int32, mscorlib">
-    <value>318</value>
+    <value>316</value>
   </data>
   <data name="splitContainer_EditParameters.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -34695,7 +34659,7 @@
     <value>Bottom</value>
   </data>
   <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 612</value>
+    <value>288, 610</value>
   </data>
   <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>492, 28</value>
@@ -34878,7 +34842,7 @@
     <value>3, 3</value>
   </data>
   <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 637</value>
+    <value>285, 635</value>
   </data>
   <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -34896,13 +34860,13 @@
     <value>2</value>
   </data>
   <data name="tabPage_Edit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Edit.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_Edit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_Edit.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -35649,10 +35613,10 @@
     <value>3</value>
   </data>
   <data name="tabPage_LayerOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_LayerOrder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_LayerOrder.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -35886,13 +35850,13 @@
     <value>2</value>
   </data>
   <data name="tabPage_DayWidget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_DayWidget.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_DayWidget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage_DayWidget.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -36039,13 +36003,13 @@
     <value>3</value>
   </data>
   <data name="tabPage_MonthWidget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_MonthWidget.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_MonthWidget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage_MonthWidget.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -36138,10 +36102,10 @@
     <value>1</value>
   </data>
   <data name="tabPage_YearWidget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_YearWidget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage_YearWidget.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -36219,10 +36183,10 @@
     <value>1</value>
   </data>
   <data name="tabPage_DOWWidget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_DOWWidget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage_DOWWidget.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -36414,10 +36378,10 @@
     <value>5</value>
   </data>
   <data name="tabPage_DateLayerWidget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_DateLayerWidget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage_DateLayerWidget.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -36438,13 +36402,13 @@
     <value>4</value>
   </data>
   <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 424</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -36480,7 +36444,7 @@
     <value>tabControl_DateWidget</value>
   </data>
   <data name="&gt;&gt;tabControl_DateWidget.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_DateWidget.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -38195,7 +38159,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_WidgetsEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 635</value>
+    <value>756, 633</value>
   </data>
   <data name="tabPage_WidgetsEdit.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -39080,13 +39044,13 @@
     <value>2</value>
   </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 423</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -39233,13 +39197,13 @@
     <value>3</value>
   </data>
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 423</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -39332,10 +39296,10 @@
     <value>1</value>
   </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 423</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -39413,10 +39377,10 @@
     <value>1</value>
   </data>
   <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 423</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -39608,10 +39572,10 @@
     <value>5</value>
   </data>
   <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 423</value>
+    <value>427, 421</value>
   </data>
   <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -39647,7 +39611,7 @@
     <value>tabControl_DateWidgetAdd</value>
   </data>
   <data name="&gt;&gt;tabControl_DateWidgetAdd.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_DateWidgetAdd.Parent" xml:space="preserve">
     <value>panel2</value>
@@ -40919,7 +40883,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage_WidgetAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 635</value>
+    <value>146, 63</value>
   </data>
   <data name="tabPage_WidgetAdd.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -40949,7 +40913,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl_Widget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabControl_Widget.TabIndex" type="System.Int32, mscorlib">
     <value>134</value>
@@ -40958,7 +40922,7 @@
     <value>tabControl_Widget</value>
   </data>
   <data name="&gt;&gt;tabControl_Widget.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl_Widget.Parent" xml:space="preserve">
     <value>tabPage_Widgets</value>
@@ -40967,10 +40931,10 @@
     <value>0</value>
   </data>
   <data name="tabPage_Widgets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Widgets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_Widgets.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -41483,13 +41447,13 @@
     <value>6</value>
   </data>
   <data name="tabPageConverting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPageConverting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPageConverting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPageConverting.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -42429,10 +42393,10 @@
     <value>14</value>
   </data>
   <data name="tabPage_Settings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_Settings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_Settings.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -42890,10 +42854,10 @@ Magyar - kamillo67</value>
     <value>13</value>
   </data>
   <data name="tabPage_About.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 23</value>
+    <value>4, 25</value>
   </data>
   <data name="tabPage_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 643</value>
+    <value>783, 641</value>
   </data>
   <data name="tabPage_About.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -42926,13 +42890,13 @@ Magyar - kamillo67</value>
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkTabControl, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkTabControl.DarkTabControl, DarkTabControl, Version=1.0.8270.25697, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>28</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
