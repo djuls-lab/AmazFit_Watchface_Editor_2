@@ -42,7 +42,7 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_WeatherSet_MinTemp = new System.Windows.Forms.NumericUpDown();
             this.comboBox_WeatherSet_Icon = new System.Windows.Forms.ComboBox();
             this.numericUpDown_WeatherSet_MaxTemp = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_WeatherSet_Temp = new System.Windows.Forms.CheckBox();
+            this.checkBox_WeatherSet_Temp = new DarkCheckBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -52,14 +52,14 @@ namespace AmazFit_Watchface_2
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox_Activity = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_DND_Set = new System.Windows.Forms.CheckBox();
-            this.checkBox_Lock_Set = new System.Windows.Forms.CheckBox();
-            this.checkBox_Alarm_Set = new System.Windows.Forms.CheckBox();
+            this.checkBox_DND_Set = new DarkCheckBox();
+            this.checkBox_Lock_Set = new DarkCheckBox();
+            this.checkBox_Alarm_Set = new DarkCheckBox();
             this.numericUpDown_FatBurning_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Stress_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_StandUp_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_PAI_Set = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Bluetooth_Set = new System.Windows.Forms.CheckBox();
+            this.checkBox_Bluetooth_Set = new DarkCheckBox();
             this.numericUpDown_Goal_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Steps_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_HeartRate_Set = new System.Windows.Forms.NumericUpDown();
@@ -668,8 +668,7 @@ namespace AmazFit_Watchface_2
             this.label01.Name = "label01";
             // 
             // button_Set
-            // 
-            this.button_Set.BorderColor = System.Drawing.Color.DimGray;
+            //
             this.button_Set.BorderRadius = 4;
             this.button_Set.BorderThickness = 1F;
             resources.ApplyResources(this.button_Set, "button_Set");
@@ -731,14 +730,14 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private DarkGroupBox groupBox_Activity;
-        private System.Windows.Forms.CheckBox checkBox_DND_Set;
-        private System.Windows.Forms.CheckBox checkBox_Lock_Set;
-        private System.Windows.Forms.CheckBox checkBox_Alarm_Set;
+        private DarkCheckBox checkBox_DND_Set;
+        private DarkCheckBox checkBox_Lock_Set;
+        private DarkCheckBox checkBox_Alarm_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_FatBurning_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Stress_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_StandUp_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_PAI_Set;
-        private System.Windows.Forms.CheckBox checkBox_Bluetooth_Set;
+        private DarkCheckBox checkBox_Bluetooth_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Goal_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Steps_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_HeartRate_Set;
@@ -764,7 +763,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MaxTemp;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_Temp;
         public System.Windows.Forms.DateTimePicker dateTimePicker_Date_Set;
-        private System.Windows.Forms.CheckBox checkBox_WeatherSet_Temp;
+        private DarkCheckBox checkBox_WeatherSet_Temp;
         private System.Windows.Forms.Label label22;
         internal System.Windows.Forms.NumericUpDown numericUpDown_AirQuality_Set;
         internal System.Windows.Forms.Label label16;

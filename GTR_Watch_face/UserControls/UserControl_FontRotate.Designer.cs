@@ -40,18 +40,18 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_FontRotate = new System.Windows.Forms.Panel();
-            this.checkBox_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Use = new DarkCheckBox();
             this.numericUpDown_FontRotateX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_FontRotateY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_FontRotate_size = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_FontRotate_spacing = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_FontRotate_angle = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_FontRotate_radius = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_addZero = new System.Windows.Forms.CheckBox();
-            this.checkBox_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_addZero = new DarkCheckBox();
+            this.checkBox_follow = new DarkCheckBox();
             this.comboBox_FontRotate_color = new System.Windows.Forms.ComboBox();
-            this.checkBox_FontRotate_unit = new System.Windows.Forms.CheckBox();
-            this.checkBox_separator = new System.Windows.Forms.CheckBox();
+            this.checkBox_FontRotate_unit = new DarkCheckBox();
+            this.checkBox_separator = new DarkCheckBox();
             this.groupBox_FontRotate_RotateDirection = new DarkGroupBox();
             this.radioButton_CtrlClockwise = new System.Windows.Forms.RadioButton();
             this.radioButton_Clockwise = new System.Windows.Forms.RadioButton();
@@ -435,14 +435,14 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         private System.Windows.Forms.Panel panel_FontRotate;
-        internal System.Windows.Forms.CheckBox checkBox_Use;
+        internal DarkCheckBox checkBox_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotateX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotateY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_size;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_spacing;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_angle;
         private System.Windows.Forms.ComboBox comboBox_FontRotate_color;
-        public System.Windows.Forms.CheckBox checkBox_addZero;
+        public DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label03;
@@ -457,8 +457,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.RadioButton radioButton_Clockwise;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_radius;
         private System.Windows.Forms.Label label08;
-        public System.Windows.Forms.CheckBox checkBox_follow;
-        public System.Windows.Forms.CheckBox checkBox_separator;
-        public System.Windows.Forms.CheckBox checkBox_FontRotate_unit;
+        public DarkCheckBox checkBox_follow;
+        public DarkCheckBox checkBox_separator;
+        public DarkCheckBox checkBox_FontRotate_unit;
     }
 }

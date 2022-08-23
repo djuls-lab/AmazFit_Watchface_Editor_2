@@ -33,7 +33,7 @@ namespace AmazFit_Watchface_2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_text));
             this.button_text = new DarkButton();
             this.panel_text = new System.Windows.Forms.Panel();
-            this.checkBox_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Use = new DarkCheckBox();
             this.comboBox_image = new System.Windows.Forms.ComboBox();
             this.comboBox_icon = new System.Windows.Forms.ComboBox();
             this.comboBox_unit = new System.Windows.Forms.ComboBox();
@@ -52,10 +52,10 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_iconY = new System.Windows.Forms.NumericUpDown();
             this.comboBox_alignment = new System.Windows.Forms.ComboBox();
             this.numericUpDown_spacing = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_addZero = new System.Windows.Forms.CheckBox();
+            this.checkBox_addZero = new DarkCheckBox();
             this.comboBox_imageError = new System.Windows.Forms.ComboBox();
             this.comboBox_imageDecimalPoint = new System.Windows.Forms.ComboBox();
-            this.checkBox_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_follow = new DarkCheckBox();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label03 = new System.Windows.Forms.Label();
@@ -503,7 +503,7 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_spacing;
-        internal System.Windows.Forms.CheckBox checkBox_Use;
+        internal DarkCheckBox checkBox_Use;
         protected System.Windows.Forms.Label label06;
         protected System.Windows.Forms.Label label07;
         protected System.Windows.Forms.Label label02;
@@ -512,8 +512,8 @@ namespace AmazFit_Watchface_2
         protected DarkButton button_text;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageY;
-        public System.Windows.Forms.CheckBox checkBox_follow;
-        public System.Windows.Forms.CheckBox checkBox_addZero;
+        public DarkCheckBox checkBox_follow;
+        public DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label04;
         protected System.Windows.Forms.ComboBox comboBox_imageError;
         protected System.Windows.Forms.ComboBox comboBox_imageDecimalPoint;

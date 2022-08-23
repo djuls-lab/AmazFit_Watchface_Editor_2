@@ -32,7 +32,7 @@ namespace AmazFit_Watchface_2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_scaleLinear));
             this.panel_scaleLinear = new System.Windows.Forms.Panel();
-            this.checkBox_scaleLinear_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_scaleLinear_Use = new DarkCheckBox();
             this.radioButton_scaleLinear_image = new System.Windows.Forms.RadioButton();
             this.radioButton_scaleLinear_color = new System.Windows.Forms.RadioButton();
             this.comboBox_scaleLinear_image = new System.Windows.Forms.ComboBox();
@@ -420,7 +420,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         internal System.Windows.Forms.RadioButton radioButton_scaleLinear_image;
         internal System.Windows.Forms.RadioButton radioButton_scaleLinear_color;
-        internal System.Windows.Forms.CheckBox checkBox_scaleLinear_Use;
+        internal DarkCheckBox checkBox_scaleLinear_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinear_length;

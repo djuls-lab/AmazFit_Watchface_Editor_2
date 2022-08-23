@@ -40,7 +40,7 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_hand = new System.Windows.Forms.Panel();
-            this.checkBox_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_hand_Use = new DarkCheckBox();
             this.comboBox_hand_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_handX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_handY = new System.Windows.Forms.NumericUpDown();
@@ -576,6 +576,6 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_hand_endAngle;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handX_background;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handY_background;
-        internal System.Windows.Forms.CheckBox checkBox_hand_Use;
+        internal DarkCheckBox checkBox_hand_Use;
     }
 }

@@ -77,21 +77,21 @@
             this.colorDialog_Battery = new System.Windows.Forms.ColorDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.button_PreviewBig = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_WebW = new System.Windows.Forms.CheckBox();
-            this.checkBox_WebB = new System.Windows.Forms.CheckBox();
+            this.checkBox_WebW = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_WebB = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_SavePNG = new AmazFit_Watchface_2.DarkButton();
             this.button_SaveGIF = new AmazFit_Watchface_2.DarkButton();
             this.radioButton_GTR2 = new System.Windows.Forms.RadioButton();
             this.label_preview_X = new System.Windows.Forms.Label();
             this.label_preview_Y = new System.Windows.Forms.Label();
-            this.checkBox_border = new System.Windows.Forms.CheckBox();
+            this.checkBox_border = new AmazFit_Watchface_2.DarkCheckBox();
             this.radioButton_GTS2 = new System.Windows.Forms.RadioButton();
-            this.checkBox_crop = new System.Windows.Forms.CheckBox();
-            this.checkBox_Show_Shortcuts = new System.Windows.Forms.CheckBox();
-            this.checkBox_CircleScaleImage = new System.Windows.Forms.CheckBox();
+            this.checkBox_crop = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Show_Shortcuts = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_CircleScaleImage = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_RefreshPreview = new AmazFit_Watchface_2.DarkButton();
             this.button_CreatePreview = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_center_marker = new System.Windows.Forms.CheckBox();
+            this.checkBox_center_marker = new AmazFit_Watchface_2.DarkCheckBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.colorDialog_Pulse = new System.Windows.Forms.ColorDialog();
             this.colorDialog_Calories = new System.Windows.Forms.ColorDialog();
@@ -99,7 +99,7 @@
             this.radioButton_GTR2e = new System.Windows.Forms.RadioButton();
             this.radioButton_TRex_pro = new System.Windows.Forms.RadioButton();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.checkBox_WidgetsArea = new System.Windows.Forms.CheckBox();
+            this.checkBox_WidgetsArea = new AmazFit_Watchface_2.DarkCheckBox();
             this.radioButton_ZeppE = new System.Windows.Forms.RadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabControl1 = new DarkTabControl.DarkTabControl();
@@ -137,7 +137,7 @@
             this.tabPage_Background = new System.Windows.Forms.TabPage();
             this.button_GenerateID = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchfaceID = new System.Windows.Forms.TextBox();
-            this.checkBox_UseID = new System.Windows.Forms.CheckBox();
+            this.checkBox_UseID = new AmazFit_Watchface_2.DarkCheckBox();
             this.radioButton_Background_color = new System.Windows.Forms.RadioButton();
             this.radioButton_Background_image = new System.Windows.Forms.RadioButton();
             this.comboBox_Background_color = new System.Windows.Forms.ComboBox();
@@ -148,7 +148,7 @@
             this.tabControl_time = new DarkTabControl.DarkTabControl();
             this.tabPage_Digital_time = new System.Windows.Forms.TabPage();
             this.panel_AM_PM = new System.Windows.Forms.Panel();
-            this.checkBox_12h_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_12h_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_AM_Y = new System.Windows.Forms.NumericUpDown();
             this.label573 = new System.Windows.Forms.Label();
             this.label572 = new System.Windows.Forms.Label();
@@ -167,13 +167,13 @@
             this.panel_Second = new System.Windows.Forms.Panel();
             this.numericUpDown_Second_spacing = new System.Windows.Forms.NumericUpDown();
             this.label534 = new System.Windows.Forms.Label();
-            this.checkBox_Second_add_zero = new System.Windows.Forms.CheckBox();
-            this.checkBox_Second_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Second_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Second_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label522 = new System.Windows.Forms.Label();
             this.label523 = new System.Windows.Forms.Label();
             this.comboBox_Second_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_Second_unitX = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Second_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_Second_follow = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Second_unitY = new System.Windows.Forms.NumericUpDown();
             this.label524 = new System.Windows.Forms.Label();
             this.label525 = new System.Windows.Forms.Label();
@@ -192,13 +192,13 @@
             this.panel_Minute = new System.Windows.Forms.Panel();
             this.numericUpDown_Minute_spacing = new System.Windows.Forms.NumericUpDown();
             this.label533 = new System.Windows.Forms.Label();
-            this.checkBox_Minute_add_zero = new System.Windows.Forms.CheckBox();
-            this.checkBox_Minute_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Minute_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Minute_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label512 = new System.Windows.Forms.Label();
             this.label513 = new System.Windows.Forms.Label();
             this.comboBox_Minute_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_Minute_unitX = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Minute_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_Minute_follow = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Minute_unitY = new System.Windows.Forms.NumericUpDown();
             this.label514 = new System.Windows.Forms.Label();
             this.label515 = new System.Windows.Forms.Label();
@@ -217,8 +217,8 @@
             this.panel_Hour = new System.Windows.Forms.Panel();
             this.numericUpDown_Hour_spacing = new System.Windows.Forms.NumericUpDown();
             this.label532 = new System.Windows.Forms.Label();
-            this.checkBox_Hour_add_zero = new System.Windows.Forms.CheckBox();
-            this.checkBox_Hour_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Hour_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Hour_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label502 = new System.Windows.Forms.Label();
             this.label511 = new System.Windows.Forms.Label();
             this.comboBox_Hour_image = new System.Windows.Forms.ComboBox();
@@ -259,7 +259,7 @@
             this.numericUpDown_Second_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Second_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label567 = new System.Windows.Forms.Label();
-            this.checkBox_Second_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Second_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_Second_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Minute_hand = new System.Windows.Forms.Panel();
             this.label546 = new System.Windows.Forms.Label();
@@ -281,7 +281,7 @@
             this.numericUpDown_Minute_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Minute_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label556 = new System.Windows.Forms.Label();
-            this.checkBox_Minute_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Minute_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_Minute_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour_hand = new System.Windows.Forms.Panel();
             this.label543 = new System.Windows.Forms.Label();
@@ -303,7 +303,7 @@
             this.numericUpDown_Hour_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Hour_hand_imageCentr = new System.Windows.Forms.ComboBox();
             this.label542 = new System.Windows.Forms.Label();
-            this.checkBox_Hour_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Hour_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_Hour_hand = new AmazFit_Watchface_2.DarkButton();
             this.tabPage_Date = new System.Windows.Forms.TabPage();
             this.tabControl_date = new DarkTabControl.DarkTabControl();
@@ -323,7 +323,7 @@
             this.numericUpDown_Day_handY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Day_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Day_hand_imageCentr = new System.Windows.Forms.ComboBox();
-            this.checkBox_Day_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label609 = new System.Windows.Forms.Label();
             this.label610 = new System.Windows.Forms.Label();
             this.label611 = new System.Windows.Forms.Label();
@@ -343,12 +343,12 @@
             this.label717 = new System.Windows.Forms.Label();
             this.button_Day_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Day_text = new System.Windows.Forms.Panel();
-            this.checkBox_Day_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Day_spacing = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Day_separator = new System.Windows.Forms.ComboBox();
             this.label576 = new System.Windows.Forms.Label();
             this.label586 = new System.Windows.Forms.Label();
-            this.checkBox_Day_add_zero = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
             this.label585 = new System.Windows.Forms.Label();
             this.comboBox_Day_alignment = new System.Windows.Forms.ComboBox();
             this.label577 = new System.Windows.Forms.Label();
@@ -359,7 +359,7 @@
             this.label583 = new System.Windows.Forms.Label();
             this.numericUpDown_Day_unitX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DayX = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Day_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_follow = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_DayY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Day_unitY = new System.Windows.Forms.NumericUpDown();
             this.label582 = new System.Windows.Forms.Label();
@@ -387,7 +387,7 @@
             this.numericUpDown_Month_handY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Month_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Month_hand_imageCentr = new System.Windows.Forms.ComboBox();
-            this.checkBox_Month_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label626 = new System.Windows.Forms.Label();
             this.label627 = new System.Windows.Forms.Label();
             this.label628 = new System.Windows.Forms.Label();
@@ -403,12 +403,12 @@
             this.label638 = new System.Windows.Forms.Label();
             this.button_Month_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_text = new System.Windows.Forms.Panel();
-            this.checkBox_Month_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Month_spacing = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Month_separator = new System.Windows.Forms.ComboBox();
             this.label587 = new System.Windows.Forms.Label();
             this.label597 = new System.Windows.Forms.Label();
-            this.checkBox_Month_add_zero = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
             this.label596 = new System.Windows.Forms.Label();
             this.comboBox_Month_alignment = new System.Windows.Forms.ComboBox();
             this.label588 = new System.Windows.Forms.Label();
@@ -419,7 +419,7 @@
             this.label594 = new System.Windows.Forms.Label();
             this.numericUpDown_Month_unitX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_MonthX = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Month_follow = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_follow = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_MonthY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Month_unitY = new System.Windows.Forms.NumericUpDown();
             this.label593 = new System.Windows.Forms.Label();
@@ -429,7 +429,7 @@
             this.button_Month_text = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_pictures = new System.Windows.Forms.Panel();
             this.label613 = new System.Windows.Forms.Label();
-            this.checkBox_Month_pictures_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_pictures_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label614 = new System.Windows.Forms.Label();
             this.comboBox_Month_pictures_image = new System.Windows.Forms.ComboBox();
             this.label615 = new System.Windows.Forms.Label();
@@ -442,13 +442,13 @@
             this.panel_Year_hand = new System.Windows.Forms.Panel();
             this.button_Year_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_Year_text = new System.Windows.Forms.Panel();
-            this.checkBox_Year_follow = new System.Windows.Forms.CheckBox();
-            this.checkBox_Year_text_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Year_follow = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Year_text_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Year_spacing = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Year_separator = new System.Windows.Forms.ComboBox();
             this.label598 = new System.Windows.Forms.Label();
             this.label608 = new System.Windows.Forms.Label();
-            this.checkBox_Year_add_zero = new System.Windows.Forms.CheckBox();
+            this.checkBox_Year_add_zero = new AmazFit_Watchface_2.DarkCheckBox();
             this.label607 = new System.Windows.Forms.Label();
             this.comboBox_Year_alignment = new System.Windows.Forms.ComboBox();
             this.label599 = new System.Windows.Forms.Label();
@@ -485,7 +485,7 @@
             this.numericUpDown_DOW_handY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DOW_handX = new System.Windows.Forms.NumericUpDown();
             this.comboBox_DOW_hand_imageCentr = new System.Windows.Forms.ComboBox();
-            this.checkBox_DOW_hand_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_DOW_hand_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.label643 = new System.Windows.Forms.Label();
             this.label644 = new System.Windows.Forms.Label();
             this.label645 = new System.Windows.Forms.Label();
@@ -501,7 +501,7 @@
             this.label655 = new System.Windows.Forms.Label();
             this.button_DOW_hand = new AmazFit_Watchface_2.DarkButton();
             this.panel_DOW_image = new System.Windows.Forms.Panel();
-            this.checkBox_DOW_pictures_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_DOW_pictures_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_DOW_pictures_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_DOW_picturesY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DOW_picturesX = new System.Windows.Forms.NumericUpDown();
@@ -599,7 +599,7 @@
             this.tabPage_Air = new System.Windows.Forms.TabPage();
             this.tabControl_SystemWeather = new DarkTabControl.DarkTabControl();
             this.tabPage_Weather = new System.Windows.Forms.TabPage();
-            this.checkBox_weatherAlignmentFix = new System.Windows.Forms.CheckBox();
+            this.checkBox_weatherAlignmentFix = new AmazFit_Watchface_2.DarkCheckBox();
             this.userControl_icon_Weather = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupWeather = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
             this.userControl_scaleLinear_Weather = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -679,7 +679,7 @@
             this.tabControl_System = new DarkTabControl.DarkTabControl();
             this.tabPage_Status = new System.Windows.Forms.TabPage();
             this.groupBox_Lock = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_Lock_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Lock_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Lock_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_LockX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_LockY = new System.Windows.Forms.NumericUpDown();
@@ -688,7 +688,7 @@
             this.label662 = new System.Windows.Forms.Label();
             this.label663 = new System.Windows.Forms.Label();
             this.groupBox_DND = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_DND_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_DND_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_DND_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_DNDX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DNDY = new System.Windows.Forms.NumericUpDown();
@@ -697,7 +697,7 @@
             this.label670 = new System.Windows.Forms.Label();
             this.label671 = new System.Windows.Forms.Label();
             this.groupBox_Alarm = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_Alarm_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Alarm_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Alarm_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_AlarmX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_AlarmY = new System.Windows.Forms.NumericUpDown();
@@ -706,7 +706,7 @@
             this.label666 = new System.Windows.Forms.Label();
             this.label667 = new System.Windows.Forms.Label();
             this.groupBox_Bluetooth = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_Bluetooth_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Bluetooth_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Bluetooth_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_BluetoothX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_BluetoothY = new System.Windows.Forms.NumericUpDown();
@@ -733,7 +733,7 @@
             this.tabPage_Digital_time_AOD = new System.Windows.Forms.TabPage();
             this.panel_AM_PM_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_AM_PM_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_12h_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_12h_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_AM_Y_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_AM_X_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_PM_X_AOD = new System.Windows.Forms.NumericUpDown();
@@ -751,9 +751,9 @@
             this.userControl_SystemFont_GroupTime_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_GroupTime();
             this.panel_Minute_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Minute_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Minute_add_zero_AOD = new System.Windows.Forms.CheckBox();
-            this.checkBox_Minute_Use_AOD = new System.Windows.Forms.CheckBox();
-            this.checkBox_Minute_follow_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Minute_add_zero_AOD = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Minute_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Minute_follow_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Minute_spacing_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Minute_unitX_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Minute_unitY_AOD = new System.Windows.Forms.NumericUpDown();
@@ -777,8 +777,8 @@
             this.button_Minute_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Hour_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Hour_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Hour_add_zero_AOD = new System.Windows.Forms.CheckBox();
-            this.checkBox_Hour_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Hour_add_zero_AOD = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Hour_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Hour_spacing_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Hour_unitX_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Hour_unitY_AOD = new System.Windows.Forms.NumericUpDown();
@@ -811,7 +811,7 @@
             this.numericUpDown_Minute_handY_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Minute_handX_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Minute_hand_imageCentr_AOD = new System.Windows.Forms.ComboBox();
-            this.checkBox_Minute_hand_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Minute_hand_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.label339 = new System.Windows.Forms.Label();
             this.label340 = new System.Windows.Forms.Label();
             this.label341 = new System.Windows.Forms.Label();
@@ -834,7 +834,7 @@
             this.numericUpDown_Hour_handY_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Hour_handX_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Hour_hand_imageCentr_AOD = new System.Windows.Forms.ComboBox();
-            this.checkBox_Hour_hand_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Hour_hand_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.label350 = new System.Windows.Forms.Label();
             this.label351 = new System.Windows.Forms.Label();
             this.label352 = new System.Windows.Forms.Label();
@@ -853,7 +853,7 @@
             this.userControl_SystemFont_Group_Day_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Day_hand_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Day_hand_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_hand_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Day_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_hand_image_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_hand_imageCentr_AOD = new System.Windows.Forms.ComboBox();
@@ -887,7 +887,7 @@
             this.button_Day_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Day_text_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Day_text_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Day_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Day_image_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_separator_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Day_alignment_AOD = new System.Windows.Forms.ComboBox();
@@ -897,8 +897,8 @@
             this.numericUpDown_DayX_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DayY_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Day_spacing_AOD = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Day_follow_AOD = new System.Windows.Forms.CheckBox();
-            this.checkBox_Day_add_zero_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Day_follow_AOD = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Day_add_zero_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.label380 = new System.Windows.Forms.Label();
             this.label381 = new System.Windows.Forms.Label();
             this.label382 = new System.Windows.Forms.Label();
@@ -915,7 +915,7 @@
             this.userControl_SystemFont_Group_Month_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Month_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Month_hand_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Month_hand_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_hand_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Month_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Month_hand_image_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Month_hand_imageCentr_AOD = new System.Windows.Forms.ComboBox();
@@ -949,10 +949,10 @@
             this.button_Month_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_text_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Month_text_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Month_Use_AOD = new System.Windows.Forms.CheckBox();
-            this.checkBox_Month_follow_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Month_follow_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Month_separator_AOD = new System.Windows.Forms.ComboBox();
-            this.checkBox_Month_add_zero_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_add_zero_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Month_alignment_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Month_unit_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Month_image_AOD = new System.Windows.Forms.ComboBox();
@@ -975,7 +975,7 @@
             this.button_Month_text_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_Month_pictures_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Month_pictures_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Month_pictures_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Month_pictures_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Month_pictures_image_AOD = new System.Windows.Forms.ComboBox();
             this.numericUpDown_Month_picturesY_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Month_picturesX_AOD = new System.Windows.Forms.NumericUpDown();
@@ -989,12 +989,12 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.button13 = new AmazFit_Watchface_2.DarkButton();
             this.panel_Year_text_AOD = new System.Windows.Forms.Panel();
-            this.checkBox_Year_follow_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Year_follow_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_Copy_Year_text_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_Year_text_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Year_text_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Year_spacing_AOD = new System.Windows.Forms.NumericUpDown();
             this.comboBox_Year_separator_AOD = new System.Windows.Forms.ComboBox();
-            this.checkBox_Year_add_zero_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_Year_add_zero_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Year_alignment_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Year_unit_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_Year_image_AOD = new System.Windows.Forms.ComboBox();
@@ -1017,7 +1017,7 @@
             this.tabPage_Day_of_week_AOD = new System.Windows.Forms.TabPage();
             this.panel_DOW_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_DOW_hand_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_DOW_hand_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_DOW_hand_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_DOW_hand_imageBackground_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_DOW_hand_image_AOD = new System.Windows.Forms.ComboBox();
             this.comboBox_DOW_hand_imageCentr_AOD = new System.Windows.Forms.ComboBox();
@@ -1051,7 +1051,7 @@
             this.button_DOW_hand_AOD = new AmazFit_Watchface_2.DarkButton();
             this.panel_DOW_image_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_DOW_image_AOD = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_DOW_pictures_Use_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_DOW_pictures_Use_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_DOW_pictures_image_AOD = new System.Windows.Forms.ComboBox();
             this.numericUpDown_DOW_picturesY_AOD = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_DOW_picturesX_AOD = new System.Windows.Forms.NumericUpDown();
@@ -1149,7 +1149,7 @@
             this.tabPage_Air_AOD = new System.Windows.Forms.TabPage();
             this.tabControl_SystemWeather_AOD = new DarkTabControl.DarkTabControl();
             this.tabPage_Weather_AOD = new System.Windows.Forms.TabPage();
-            this.checkBox_weatherAlignmentFix_AOD = new System.Windows.Forms.CheckBox();
+            this.checkBox_weatherAlignmentFix_AOD = new AmazFit_Watchface_2.DarkCheckBox();
             this.userControl_icon_Weather_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupWeather_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
             this.userControl_scaleLinear_Weather_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1284,7 +1284,7 @@
             this.tabPage_Widgets = new System.Windows.Forms.TabPage();
             this.tabControl_Widget = new DarkTabControl.DarkTabControl();
             this.tabPage_WidgetsEdit = new System.Windows.Forms.TabPage();
-            this.checkBox_TimeOnWidgetEdit = new System.Windows.Forms.CheckBox();
+            this.checkBox_TimeOnWidgetEdit = new AmazFit_Watchface_2.DarkCheckBox();
             this.groupBox_WidgetPreview = new AmazFit_Watchface_2.DarkGroupBox();
             this.radioButton_WidgetPreviewEdit = new System.Windows.Forms.RadioButton();
             this.radioButton_WidgetPreviewNormal = new System.Windows.Forms.RadioButton();
@@ -1488,20 +1488,20 @@
             this.radioButton_ConvertingInput_ZeppE = new System.Windows.Forms.RadioButton();
             this.radioButton_ConvertingInput_GTR2 = new System.Windows.Forms.RadioButton();
             this.tabPage_Settings = new System.Windows.Forms.TabPage();
-            this.checkBox_AllWidgetsInGif = new System.Windows.Forms.CheckBox();
+            this.checkBox_AllWidgetsInGif = new AmazFit_Watchface_2.DarkCheckBox();
             this.groupBox2 = new AmazFit_Watchface_2.DarkGroupBox();
             this.button_WatchSkin_PathGet = new AmazFit_Watchface_2.DarkButton();
             this.textBox_WatchSkin_Path = new System.Windows.Forms.TextBox();
-            this.checkBox_WatchSkin_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_WatchSkin_Use = new AmazFit_Watchface_2.DarkCheckBox();
             this.numericUpDown_Gif_Speed = new System.Windows.Forms.NumericUpDown();
             this.label355 = new System.Windows.Forms.Label();
-            this.checkBox_ShowIn12hourFormat = new System.Windows.Forms.CheckBox();
-            this.checkBox_SaveID = new System.Windows.Forms.CheckBox();
+            this.checkBox_ShowIn12hourFormat = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_SaveID = new AmazFit_Watchface_2.DarkCheckBox();
             this.groupBox8 = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_Shortcuts_Border = new System.Windows.Forms.CheckBox();
-            this.checkBox_Shortcuts_Area = new System.Windows.Forms.CheckBox();
+            this.checkBox_Shortcuts_Border = new AmazFit_Watchface_2.DarkCheckBox();
+            this.checkBox_Shortcuts_Area = new AmazFit_Watchface_2.DarkCheckBox();
             this.button_Reset = new AmazFit_Watchface_2.DarkButton();
-            this.checkBox_JsonWarnings = new System.Windows.Forms.CheckBox();
+            this.checkBox_JsonWarnings = new AmazFit_Watchface_2.DarkCheckBox();
             this.comboBox_Language = new System.Windows.Forms.ComboBox();
             this.label356 = new System.Windows.Forms.Label();
             this.groupBox7 = new AmazFit_Watchface_2.DarkGroupBox();
@@ -2069,22 +2069,14 @@
             this.удалитьСтрокуToolStripMenuItem.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
             // 
             // button_zip_unpack
-            // 
-            this.button_zip_unpack.BorderColor = System.Drawing.Color.DimGray;
-            this.button_zip_unpack.BorderRadius = 4;
-            this.button_zip_unpack.BorderThickness = 1F;
-            this.button_zip_unpack.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_zip_unpack, "button_zip_unpack");
             this.button_zip_unpack.Name = "button_zip_unpack";
             this.button_zip_unpack.UseVisualStyleBackColor = true;
             this.button_zip_unpack.Click += new System.EventHandler(this.button_zip_unpack_Click);
             // 
             // button_pack_zip
-            // 
-            this.button_pack_zip.BorderColor = System.Drawing.Color.DimGray;
-            this.button_pack_zip.BorderRadius = 4;
-            this.button_pack_zip.BorderThickness = 1F;
-            this.button_pack_zip.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_pack_zip, "button_pack_zip");
             this.button_pack_zip.Name = "button_pack_zip";
             this.button_pack_zip.UseVisualStyleBackColor = true;
@@ -2099,10 +2091,7 @@
             this.colorDialog_Battery.FullOpen = true;
             // 
             // button_PreviewBig
-            // 
-            this.button_PreviewBig.BorderColor = System.Drawing.Color.DimGray;
-            this.button_PreviewBig.BorderRadius = 4;
-            this.button_PreviewBig.BorderThickness = 1F;
+            //
             this.button_PreviewBig.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button_PreviewBig.ImagePadding = 5;
             resources.ApplyResources(this.button_PreviewBig, "button_PreviewBig");
@@ -2113,6 +2102,10 @@
             // checkBox_WebW
             // 
             resources.ApplyResources(this.checkBox_WebW, "checkBox_WebW");
+            this.checkBox_WebW.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_WebW.BorderRadius = 2;
+            this.checkBox_WebW.BorderThickness = 2;
+            this.checkBox_WebW.ImagePadding = 5;
             this.checkBox_WebW.Name = "checkBox_WebW";
             this.checkBox_WebW.UseVisualStyleBackColor = true;
             this.checkBox_WebW.CheckedChanged += new System.EventHandler(this.checkBox_WebW_CheckedChanged);
@@ -2120,27 +2113,23 @@
             // checkBox_WebB
             // 
             resources.ApplyResources(this.checkBox_WebB, "checkBox_WebB");
+            this.checkBox_WebB.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_WebB.BorderRadius = 2;
+            this.checkBox_WebB.BorderThickness = 2;
+            this.checkBox_WebB.ImagePadding = 5;
             this.checkBox_WebB.Name = "checkBox_WebB";
             this.checkBox_WebB.UseVisualStyleBackColor = true;
             this.checkBox_WebB.CheckedChanged += new System.EventHandler(this.checkBox_WebB_CheckedChanged);
             // 
             // button_SavePNG
-            // 
-            this.button_SavePNG.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SavePNG.BorderRadius = 4;
-            this.button_SavePNG.BorderThickness = 1F;
-            this.button_SavePNG.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_SavePNG, "button_SavePNG");
             this.button_SavePNG.Name = "button_SavePNG";
             this.button_SavePNG.UseVisualStyleBackColor = true;
             this.button_SavePNG.Click += new System.EventHandler(this.button_SavePNG_Click);
             // 
             // button_SaveGIF
-            // 
-            this.button_SaveGIF.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SaveGIF.BorderRadius = 4;
-            this.button_SaveGIF.BorderThickness = 1F;
-            this.button_SaveGIF.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_SaveGIF, "button_SaveGIF");
             this.button_SaveGIF.Name = "button_SaveGIF";
             this.button_SaveGIF.UseVisualStyleBackColor = true;
@@ -2167,6 +2156,10 @@
             // 
             // checkBox_border
             // 
+            this.checkBox_border.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_border.BorderRadius = 2;
+            this.checkBox_border.BorderThickness = 2;
+            this.checkBox_border.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_border, "checkBox_border");
             this.checkBox_border.Name = "checkBox_border";
             this.checkBox_border.UseVisualStyleBackColor = true;
@@ -2182,8 +2175,12 @@
             // 
             // checkBox_crop
             // 
+            this.checkBox_crop.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_crop.BorderRadius = 2;
+            this.checkBox_crop.BorderThickness = 2;
             this.checkBox_crop.Checked = true;
             this.checkBox_crop.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_crop.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_crop, "checkBox_crop");
             this.checkBox_crop.Name = "checkBox_crop";
             this.checkBox_crop.UseVisualStyleBackColor = true;
@@ -2192,8 +2189,12 @@
             // 
             // checkBox_Show_Shortcuts
             // 
+            this.checkBox_Show_Shortcuts.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Show_Shortcuts.BorderRadius = 2;
+            this.checkBox_Show_Shortcuts.BorderThickness = 2;
             this.checkBox_Show_Shortcuts.Checked = true;
             this.checkBox_Show_Shortcuts.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Show_Shortcuts.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_Show_Shortcuts, "checkBox_Show_Shortcuts");
             this.checkBox_Show_Shortcuts.Name = "checkBox_Show_Shortcuts";
             this.checkBox_Show_Shortcuts.UseVisualStyleBackColor = true;
@@ -2202,6 +2203,10 @@
             // 
             // checkBox_CircleScaleImage
             // 
+            this.checkBox_CircleScaleImage.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_CircleScaleImage.BorderRadius = 2;
+            this.checkBox_CircleScaleImage.BorderThickness = 2;
+            this.checkBox_CircleScaleImage.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_CircleScaleImage, "checkBox_CircleScaleImage");
             this.checkBox_CircleScaleImage.Name = "checkBox_CircleScaleImage";
             this.checkBox_CircleScaleImage.UseVisualStyleBackColor = true;
@@ -2209,22 +2214,14 @@
             this.checkBox_CircleScaleImage.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
             // 
             // button_RefreshPreview
-            // 
-            this.button_RefreshPreview.BorderColor = System.Drawing.Color.DimGray;
-            this.button_RefreshPreview.BorderRadius = 4;
-            this.button_RefreshPreview.BorderThickness = 1F;
-            this.button_RefreshPreview.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_RefreshPreview, "button_RefreshPreview");
             this.button_RefreshPreview.Name = "button_RefreshPreview";
             this.button_RefreshPreview.UseVisualStyleBackColor = true;
             this.button_RefreshPreview.Click += new System.EventHandler(this.button_RefreshPreview_Click);
             // 
             // button_CreatePreview
-            // 
-            this.button_CreatePreview.BorderColor = System.Drawing.Color.DimGray;
-            this.button_CreatePreview.BorderRadius = 4;
-            this.button_CreatePreview.BorderThickness = 1F;
-            this.button_CreatePreview.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_CreatePreview, "button_CreatePreview");
             this.button_CreatePreview.Name = "button_CreatePreview";
             this.button_CreatePreview.UseVisualStyleBackColor = true;
@@ -2232,8 +2229,12 @@
             // 
             // checkBox_center_marker
             // 
+            this.checkBox_center_marker.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_center_marker.BorderRadius = 2;
+            this.checkBox_center_marker.BorderThickness = 2;
             this.checkBox_center_marker.Checked = true;
             this.checkBox_center_marker.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_center_marker.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_center_marker, "checkBox_center_marker");
             this.checkBox_center_marker.Name = "checkBox_center_marker";
             this.checkBox_center_marker.UseVisualStyleBackColor = true;
@@ -2278,8 +2279,12 @@
             // 
             // checkBox_WidgetsArea
             // 
+            this.checkBox_WidgetsArea.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_WidgetsArea.BorderRadius = 2;
+            this.checkBox_WidgetsArea.BorderThickness = 2;
             this.checkBox_WidgetsArea.Checked = true;
             this.checkBox_WidgetsArea.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_WidgetsArea.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_WidgetsArea, "checkBox_WidgetsArea");
             this.checkBox_WidgetsArea.Name = "checkBox_WidgetsArea";
             this.checkBox_WidgetsArea.UseVisualStyleBackColor = true;
@@ -2493,22 +2498,14 @@
             this.panel_PreviewStates.Name = "panel_PreviewStates";
             // 
             // button_JsonPreview_Random
-            // 
-            this.button_JsonPreview_Random.BorderColor = System.Drawing.Color.DimGray;
-            this.button_JsonPreview_Random.BorderRadius = 4;
-            this.button_JsonPreview_Random.BorderThickness = 1F;
-            this.button_JsonPreview_Random.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_JsonPreview_Random, "button_JsonPreview_Random");
             this.button_JsonPreview_Random.Name = "button_JsonPreview_Random";
             this.button_JsonPreview_Random.UseVisualStyleBackColor = true;
             this.button_JsonPreview_Random.Click += new System.EventHandler(this.button_JsonPreview_Random_Click);
             // 
             // button_JsonPreview_Read
-            // 
-            this.button_JsonPreview_Read.BorderColor = System.Drawing.Color.DimGray;
-            this.button_JsonPreview_Read.BorderRadius = 4;
-            this.button_JsonPreview_Read.BorderThickness = 1F;
-            this.button_JsonPreview_Read.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_JsonPreview_Read, "button_JsonPreview_Read");
             this.button_JsonPreview_Read.Name = "button_JsonPreview_Read";
             this.button_JsonPreview_Read.UseVisualStyleBackColor = true;
@@ -2516,10 +2513,6 @@
             // 
             // button_JsonPreview_Write
             // 
-            this.button_JsonPreview_Write.BorderColor = System.Drawing.Color.DimGray;
-            this.button_JsonPreview_Write.BorderRadius = 4;
-            this.button_JsonPreview_Write.BorderThickness = 1F;
-            this.button_JsonPreview_Write.ImagePadding = 5;
             resources.ApplyResources(this.button_JsonPreview_Write, "button_JsonPreview_Write");
             this.button_JsonPreview_Write.Name = "button_JsonPreview_Write";
             this.button_JsonPreview_Write.UseVisualStyleBackColor = true;
@@ -2597,11 +2590,7 @@
             this.Column1.ReadOnly = true;
             // 
             // button_images
-            // 
-            this.button_images.BorderColor = System.Drawing.Color.DimGray;
-            this.button_images.BorderRadius = 4;
-            this.button_images.BorderThickness = 1F;
-            this.button_images.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_images, "button_images");
             this.button_images.Name = "button_images";
             this.button_images.UseVisualStyleBackColor = true;
@@ -2613,11 +2602,7 @@
             this.label5.Name = "label5";
             // 
             // button_JSON
-            // 
-            this.button_JSON.BorderColor = System.Drawing.Color.DimGray;
-            this.button_JSON.BorderRadius = 4;
-            this.button_JSON.BorderThickness = 1F;
-            this.button_JSON.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_JSON, "button_JSON");
             this.button_JSON.Name = "button_JSON";
             this.button_JSON.UseVisualStyleBackColor = true;
@@ -2685,10 +2670,7 @@
             this.tabPage_Background.Name = "tabPage_Background";
             // 
             // button_GenerateID
-            // 
-            this.button_GenerateID.BorderColor = System.Drawing.Color.DimGray;
-            this.button_GenerateID.BorderRadius = 4;
-            this.button_GenerateID.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_GenerateID, "button_GenerateID");
             this.button_GenerateID.ImagePadding = 5;
             this.button_GenerateID.Name = "button_GenerateID";
@@ -2704,6 +2686,10 @@
             // checkBox_UseID
             // 
             resources.ApplyResources(this.checkBox_UseID, "checkBox_UseID");
+            this.checkBox_UseID.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_UseID.BorderRadius = 2;
+            this.checkBox_UseID.BorderThickness = 2;
+            this.checkBox_UseID.ImagePadding = 5;
             this.checkBox_UseID.Name = "checkBox_UseID";
             this.checkBox_UseID.UseVisualStyleBackColor = true;
             this.checkBox_UseID.CheckedChanged += new System.EventHandler(this.checkBox_UseID_CheckedChanged);
@@ -2820,6 +2806,10 @@
             // 
             // checkBox_12h_Use
             // 
+            this.checkBox_12h_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_12h_Use.BorderRadius = 2;
+            this.checkBox_12h_Use.BorderThickness = 2;
+            this.checkBox_12h_Use.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_12h_Use, "checkBox_12h_Use");
             this.checkBox_12h_Use.Name = "checkBox_12h_Use";
             this.checkBox_12h_Use.UseVisualStyleBackColor = true;
@@ -3033,7 +3023,11 @@
             // 
             // checkBox_Second_add_zero
             // 
+            this.checkBox_Second_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Second_add_zero.BorderRadius = 2;
+            this.checkBox_Second_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Second_add_zero, "checkBox_Second_add_zero");
+            this.checkBox_Second_add_zero.ImagePadding = 5;
             this.checkBox_Second_add_zero.Name = "checkBox_Second_add_zero";
             this.checkBox_Second_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Second_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -3041,6 +3035,10 @@
             // checkBox_Second_Use
             // 
             resources.ApplyResources(this.checkBox_Second_Use, "checkBox_Second_Use");
+            this.checkBox_Second_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Second_Use.BorderRadius = 2;
+            this.checkBox_Second_Use.BorderThickness = 2;
+            this.checkBox_Second_Use.ImagePadding = 5;
             this.checkBox_Second_Use.Name = "checkBox_Second_Use";
             this.checkBox_Second_Use.UseVisualStyleBackColor = true;
             this.checkBox_Second_Use.CheckedChanged += new System.EventHandler(this.checkBox_Second_Use_CheckedChanged);
@@ -3090,6 +3088,10 @@
             // checkBox_Second_follow
             // 
             resources.ApplyResources(this.checkBox_Second_follow, "checkBox_Second_follow");
+            this.checkBox_Second_follow.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Second_follow.BorderRadius = 2;
+            this.checkBox_Second_follow.BorderThickness = 2;
+            this.checkBox_Second_follow.ImagePadding = 5;
             this.checkBox_Second_follow.Name = "checkBox_Second_follow";
             this.checkBox_Second_follow.UseVisualStyleBackColor = true;
             this.checkBox_Second_follow.CheckedChanged += new System.EventHandler(this.checkBox_Second_Use_CheckedChanged);
@@ -3228,10 +3230,7 @@
             this.comboBox_Second_separator.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
             // button_Second
-            // 
-            this.button_Second.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Second.BorderRadius = 4;
-            this.button_Second.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Second, "button_Second");
             this.button_Second.ImagePadding = 5;
             this.button_Second.Name = "button_Second";
@@ -3289,7 +3288,11 @@
             // 
             // checkBox_Minute_add_zero
             // 
+            this.checkBox_Minute_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_add_zero.BorderRadius = 2;
+            this.checkBox_Minute_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Minute_add_zero, "checkBox_Minute_add_zero");
+            this.checkBox_Minute_add_zero.ImagePadding = 5;
             this.checkBox_Minute_add_zero.Name = "checkBox_Minute_add_zero";
             this.checkBox_Minute_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Minute_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -3297,6 +3300,10 @@
             // checkBox_Minute_Use
             // 
             resources.ApplyResources(this.checkBox_Minute_Use, "checkBox_Minute_Use");
+            this.checkBox_Minute_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_Use.BorderRadius = 2;
+            this.checkBox_Minute_Use.BorderThickness = 2;
+            this.checkBox_Minute_Use.ImagePadding = 5;
             this.checkBox_Minute_Use.Name = "checkBox_Minute_Use";
             this.checkBox_Minute_Use.UseVisualStyleBackColor = true;
             this.checkBox_Minute_Use.CheckedChanged += new System.EventHandler(this.checkBox_Minute_Use_CheckedChanged);
@@ -3346,6 +3353,10 @@
             // checkBox_Minute_follow
             // 
             resources.ApplyResources(this.checkBox_Minute_follow, "checkBox_Minute_follow");
+            this.checkBox_Minute_follow.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_follow.BorderRadius = 2;
+            this.checkBox_Minute_follow.BorderThickness = 2;
+            this.checkBox_Minute_follow.ImagePadding = 5;
             this.checkBox_Minute_follow.Name = "checkBox_Minute_follow";
             this.checkBox_Minute_follow.UseVisualStyleBackColor = true;
             this.checkBox_Minute_follow.CheckedChanged += new System.EventHandler(this.checkBox_Minute_Use_CheckedChanged);
@@ -3484,10 +3495,7 @@
             this.comboBox_Minute_separator.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
             // button_Minute
-            // 
-            this.button_Minute.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Minute.BorderRadius = 4;
-            this.button_Minute.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Minute, "button_Minute");
             this.button_Minute.ImagePadding = 5;
             this.button_Minute.Name = "button_Minute";
@@ -3544,7 +3552,11 @@
             // 
             // checkBox_Hour_add_zero
             // 
+            this.checkBox_Hour_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_add_zero.BorderRadius = 2;
+            this.checkBox_Hour_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Hour_add_zero, "checkBox_Hour_add_zero");
+            this.checkBox_Hour_add_zero.ImagePadding = 5;
             this.checkBox_Hour_add_zero.Name = "checkBox_Hour_add_zero";
             this.checkBox_Hour_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Hour_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -3552,6 +3564,10 @@
             // checkBox_Hour_Use
             // 
             resources.ApplyResources(this.checkBox_Hour_Use, "checkBox_Hour_Use");
+            this.checkBox_Hour_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_Use.BorderRadius = 2;
+            this.checkBox_Hour_Use.BorderThickness = 2;
+            this.checkBox_Hour_Use.ImagePadding = 5;
             this.checkBox_Hour_Use.Name = "checkBox_Hour_Use";
             this.checkBox_Hour_Use.UseVisualStyleBackColor = true;
             this.checkBox_Hour_Use.CheckedChanged += new System.EventHandler(this.checkBox_Hour_Use_CheckedChanged);
@@ -3731,10 +3747,7 @@
             this.comboBox_Hour_separator.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox_KeyPress);
             // 
             // button_Hour
-            // 
-            this.button_Hour.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Hour.BorderRadius = 4;
-            this.button_Hour.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Hour, "button_Hour");
             this.button_Hour.ImagePadding = 5;
             this.button_Hour.Name = "button_Hour";
@@ -3966,16 +3979,17 @@
             // checkBox_Second_hand_Use
             // 
             resources.ApplyResources(this.checkBox_Second_hand_Use, "checkBox_Second_hand_Use");
+            this.checkBox_Second_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Second_hand_Use.BorderRadius = 2;
+            this.checkBox_Second_hand_Use.BorderThickness = 2;
+            this.checkBox_Second_hand_Use.ImagePadding = 5;
             this.checkBox_Second_hand_Use.Name = "checkBox_Second_hand_Use";
             this.checkBox_Second_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_Second_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_Second_hand_Use_CheckedChanged);
             this.checkBox_Second_hand_Use.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // button_Second_hand
-            // 
-            this.button_Second_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Second_hand.BorderRadius = 4;
-            this.button_Second_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Second_hand, "button_Second_hand");
             this.button_Second_hand.ImagePadding = 5;
             this.button_Second_hand.Name = "button_Second_hand";
@@ -4195,16 +4209,17 @@
             // checkBox_Minute_hand_Use
             // 
             resources.ApplyResources(this.checkBox_Minute_hand_Use, "checkBox_Minute_hand_Use");
+            this.checkBox_Minute_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_hand_Use.BorderRadius = 2;
+            this.checkBox_Minute_hand_Use.BorderThickness = 2;
+            this.checkBox_Minute_hand_Use.ImagePadding = 5;
             this.checkBox_Minute_hand_Use.Name = "checkBox_Minute_hand_Use";
             this.checkBox_Minute_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_Minute_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_Minute_hand_Use_CheckedChanged);
             this.checkBox_Minute_hand_Use.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // button_Minute_hand
-            // 
-            this.button_Minute_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Minute_hand.BorderRadius = 4;
-            this.button_Minute_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Minute_hand, "button_Minute_hand");
             this.button_Minute_hand.ImagePadding = 5;
             this.button_Minute_hand.Name = "button_Minute_hand";
@@ -4424,16 +4439,17 @@
             // checkBox_Hour_hand_Use
             // 
             resources.ApplyResources(this.checkBox_Hour_hand_Use, "checkBox_Hour_hand_Use");
+            this.checkBox_Hour_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_hand_Use.BorderRadius = 2;
+            this.checkBox_Hour_hand_Use.BorderThickness = 2;
+            this.checkBox_Hour_hand_Use.ImagePadding = 5;
             this.checkBox_Hour_hand_Use.Name = "checkBox_Hour_hand_Use";
             this.checkBox_Hour_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_Hour_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_Hour_hand_Use_CheckedChanged);
             this.checkBox_Hour_hand_Use.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // button_Hour_hand
-            // 
-            this.button_Hour_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Hour_hand.BorderRadius = 4;
-            this.button_Hour_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Hour_hand, "button_Hour_hand");
             this.button_Hour_hand.ImagePadding = 5;
             this.button_Hour_hand.Name = "button_Hour_hand";
@@ -4743,6 +4759,10 @@
             // checkBox_Day_hand_Use
             // 
             resources.ApplyResources(this.checkBox_Day_hand_Use, "checkBox_Day_hand_Use");
+            this.checkBox_Day_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_hand_Use.BorderRadius = 2;
+            this.checkBox_Day_hand_Use.BorderThickness = 2;
+            this.checkBox_Day_hand_Use.ImagePadding = 5;
             this.checkBox_Day_hand_Use.Name = "checkBox_Day_hand_Use";
             this.checkBox_Day_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_Day_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_Day_hand_Use_CheckedChanged);
@@ -4834,10 +4854,7 @@
             this.label717.Name = "label717";
             // 
             // button_Day_hand
-            // 
-            this.button_Day_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Day_hand.BorderRadius = 4;
-            this.button_Day_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Day_hand, "button_Day_hand");
             this.button_Day_hand.ImagePadding = 5;
             this.button_Day_hand.Name = "button_Day_hand";
@@ -4875,6 +4892,10 @@
             // checkBox_Day_Use
             // 
             resources.ApplyResources(this.checkBox_Day_Use, "checkBox_Day_Use");
+            this.checkBox_Day_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_Use.BorderRadius = 2;
+            this.checkBox_Day_Use.BorderThickness = 2;
+            this.checkBox_Day_Use.ImagePadding = 5;
             this.checkBox_Day_Use.Name = "checkBox_Day_Use";
             this.checkBox_Day_Use.UseVisualStyleBackColor = true;
             this.checkBox_Day_Use.CheckedChanged += new System.EventHandler(this.checkBox_Day_Use_CheckedChanged);
@@ -4921,7 +4942,11 @@
             // 
             // checkBox_Day_add_zero
             // 
+            this.checkBox_Day_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_add_zero.BorderRadius = 2;
+            this.checkBox_Day_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Day_add_zero, "checkBox_Day_add_zero");
+            this.checkBox_Day_add_zero.ImagePadding = 5;
             this.checkBox_Day_add_zero.Name = "checkBox_Day_add_zero";
             this.checkBox_Day_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Day_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -5027,7 +5052,11 @@
             // 
             // checkBox_Day_follow
             // 
+            this.checkBox_Day_follow.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_follow.BorderRadius = 2;
+            this.checkBox_Day_follow.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Day_follow, "checkBox_Day_follow");
+            this.checkBox_Day_follow.ImagePadding = 5;
             this.checkBox_Day_follow.Name = "checkBox_Day_follow";
             this.checkBox_Day_follow.UseVisualStyleBackColor = true;
             this.checkBox_Day_follow.CheckedChanged += new System.EventHandler(this.checkBox_Day_Use_CheckedChanged);
@@ -5090,10 +5119,7 @@
             this.label580.Name = "label580";
             // 
             // button_Day_text
-            // 
-            this.button_Day_text.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Day_text.BorderRadius = 4;
-            this.button_Day_text.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Day_text, "button_Day_text");
             this.button_Day_text.ImagePadding = 5;
             this.button_Day_text.Name = "button_Day_text";
@@ -5409,6 +5435,10 @@
             // checkBox_Month_hand_Use
             // 
             resources.ApplyResources(this.checkBox_Month_hand_Use, "checkBox_Month_hand_Use");
+            this.checkBox_Month_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_hand_Use.BorderRadius = 2;
+            this.checkBox_Month_hand_Use.BorderThickness = 2;
+            this.checkBox_Month_hand_Use.ImagePadding = 5;
             this.checkBox_Month_hand_Use.Name = "checkBox_Month_hand_Use";
             this.checkBox_Month_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_Month_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_Month_hand_Use_CheckedChanged);
@@ -5480,10 +5510,7 @@
             this.label638.Name = "label638";
             // 
             // button_Month_hand
-            // 
-            this.button_Month_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_hand.BorderRadius = 4;
-            this.button_Month_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_hand, "button_Month_hand");
             this.button_Month_hand.ImagePadding = 5;
             this.button_Month_hand.Name = "button_Month_hand";
@@ -5521,6 +5548,10 @@
             // checkBox_Month_Use
             // 
             resources.ApplyResources(this.checkBox_Month_Use, "checkBox_Month_Use");
+            this.checkBox_Month_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_Use.BorderRadius = 2;
+            this.checkBox_Month_Use.BorderThickness = 2;
+            this.checkBox_Month_Use.ImagePadding = 5;
             this.checkBox_Month_Use.Name = "checkBox_Month_Use";
             this.checkBox_Month_Use.UseVisualStyleBackColor = true;
             this.checkBox_Month_Use.CheckedChanged += new System.EventHandler(this.checkBox_Month_Use_CheckedChanged);
@@ -5567,7 +5598,11 @@
             // 
             // checkBox_Month_add_zero
             // 
+            this.checkBox_Month_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_add_zero.BorderRadius = 2;
+            this.checkBox_Month_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Month_add_zero, "checkBox_Month_add_zero");
+            this.checkBox_Month_add_zero.ImagePadding = 5;
             this.checkBox_Month_add_zero.Name = "checkBox_Month_add_zero";
             this.checkBox_Month_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Month_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -5673,7 +5708,11 @@
             // 
             // checkBox_Month_follow
             // 
+            this.checkBox_Month_follow.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_follow.BorderRadius = 2;
+            this.checkBox_Month_follow.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Month_follow, "checkBox_Month_follow");
+            this.checkBox_Month_follow.ImagePadding = 5;
             this.checkBox_Month_follow.Name = "checkBox_Month_follow";
             this.checkBox_Month_follow.UseVisualStyleBackColor = true;
             this.checkBox_Month_follow.CheckedChanged += new System.EventHandler(this.checkBox_Month_Use_CheckedChanged);
@@ -5736,10 +5775,7 @@
             this.label591.Name = "label591";
             // 
             // button_Month_text
-            // 
-            this.button_Month_text.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_text.BorderRadius = 4;
-            this.button_Month_text.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_text, "button_Month_text");
             this.button_Month_text.ImagePadding = 5;
             this.button_Month_text.Name = "button_Month_text";
@@ -5767,6 +5803,10 @@
             // checkBox_Month_pictures_Use
             // 
             resources.ApplyResources(this.checkBox_Month_pictures_Use, "checkBox_Month_pictures_Use");
+            this.checkBox_Month_pictures_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_pictures_Use.BorderRadius = 2;
+            this.checkBox_Month_pictures_Use.BorderThickness = 2;
+            this.checkBox_Month_pictures_Use.ImagePadding = 5;
             this.checkBox_Month_pictures_Use.Name = "checkBox_Month_pictures_Use";
             this.checkBox_Month_pictures_Use.UseVisualStyleBackColor = true;
             this.checkBox_Month_pictures_Use.CheckedChanged += new System.EventHandler(this.checkBox_Month_pictures_Use_CheckedChanged);
@@ -5837,10 +5877,7 @@
             this.numericUpDown_Month_picturesX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // button_Month_pictures
-            // 
-            this.button_Month_pictures.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_pictures.BorderRadius = 4;
-            this.button_Month_pictures.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_pictures, "button_Month_pictures");
             this.button_Month_pictures.ImagePadding = 5;
             this.button_Month_pictures.Name = "button_Month_pictures";
@@ -5881,10 +5918,7 @@
             this.panel_Year_hand.Name = "panel_Year_hand";
             // 
             // button_Year_hand
-            // 
-            this.button_Year_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Year_hand.BorderRadius = 4;
-            this.button_Year_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Year_hand, "button_Year_hand");
             this.button_Year_hand.ImagePadding = 5;
             this.button_Year_hand.Name = "button_Year_hand";
@@ -5920,13 +5954,21 @@
             // 
             // checkBox_Year_follow
             // 
+            this.checkBox_Year_follow.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_follow.BorderRadius = 2;
+            this.checkBox_Year_follow.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Year_follow, "checkBox_Year_follow");
+            this.checkBox_Year_follow.ImagePadding = 5;
             this.checkBox_Year_follow.Name = "checkBox_Year_follow";
             this.checkBox_Year_follow.UseVisualStyleBackColor = true;
             // 
             // checkBox_Year_text_Use
             // 
             resources.ApplyResources(this.checkBox_Year_text_Use, "checkBox_Year_text_Use");
+            this.checkBox_Year_text_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_text_Use.BorderRadius = 2;
+            this.checkBox_Year_text_Use.BorderThickness = 2;
+            this.checkBox_Year_text_Use.ImagePadding = 5;
             this.checkBox_Year_text_Use.Name = "checkBox_Year_text_Use";
             this.checkBox_Year_text_Use.UseVisualStyleBackColor = true;
             this.checkBox_Year_text_Use.CheckedChanged += new System.EventHandler(this.checkBox_Year_Use_CheckedChanged);
@@ -5973,7 +6015,11 @@
             // 
             // checkBox_Year_add_zero
             // 
+            this.checkBox_Year_add_zero.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_add_zero.BorderRadius = 2;
+            this.checkBox_Year_add_zero.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Year_add_zero, "checkBox_Year_add_zero");
+            this.checkBox_Year_add_zero.ImagePadding = 5;
             this.checkBox_Year_add_zero.Name = "checkBox_Year_add_zero";
             this.checkBox_Year_add_zero.UseVisualStyleBackColor = true;
             this.checkBox_Year_add_zero.Click += new System.EventHandler(this.checkBox_Click);
@@ -6134,10 +6180,7 @@
             this.label603.Name = "label603";
             // 
             // button_Year_text
-            // 
-            this.button_Year_text.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Year_text.BorderRadius = 4;
-            this.button_Year_text.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Year_text, "button_Year_text");
             this.button_Year_text.ImagePadding = 5;
             this.button_Year_text.Name = "button_Year_text";
@@ -6428,6 +6471,10 @@
             // checkBox_DOW_hand_Use
             // 
             resources.ApplyResources(this.checkBox_DOW_hand_Use, "checkBox_DOW_hand_Use");
+            this.checkBox_DOW_hand_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_DOW_hand_Use.BorderRadius = 2;
+            this.checkBox_DOW_hand_Use.BorderThickness = 2;
+            this.checkBox_DOW_hand_Use.ImagePadding = 5;
             this.checkBox_DOW_hand_Use.Name = "checkBox_DOW_hand_Use";
             this.checkBox_DOW_hand_Use.UseVisualStyleBackColor = true;
             this.checkBox_DOW_hand_Use.CheckedChanged += new System.EventHandler(this.checkBox_DOW_hand_Use_CheckedChanged);
@@ -6499,10 +6546,7 @@
             this.label655.Name = "label655";
             // 
             // button_DOW_hand
-            // 
-            this.button_DOW_hand.BorderColor = System.Drawing.Color.DimGray;
-            this.button_DOW_hand.BorderRadius = 4;
-            this.button_DOW_hand.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_DOW_hand, "button_DOW_hand");
             this.button_DOW_hand.ImagePadding = 5;
             this.button_DOW_hand.Name = "button_DOW_hand";
@@ -6525,6 +6569,10 @@
             // checkBox_DOW_pictures_Use
             // 
             resources.ApplyResources(this.checkBox_DOW_pictures_Use, "checkBox_DOW_pictures_Use");
+            this.checkBox_DOW_pictures_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_DOW_pictures_Use.BorderRadius = 2;
+            this.checkBox_DOW_pictures_Use.BorderThickness = 2;
+            this.checkBox_DOW_pictures_Use.ImagePadding = 5;
             this.checkBox_DOW_pictures_Use.Name = "checkBox_DOW_pictures_Use";
             this.checkBox_DOW_pictures_Use.UseVisualStyleBackColor = true;
             this.checkBox_DOW_pictures_Use.CheckedChanged += new System.EventHandler(this.checkBox_DOW_pictures_Use_CheckedChanged);
@@ -6600,10 +6648,7 @@
             this.label642.Name = "label642";
             // 
             // button_DOW_image
-            // 
-            this.button_DOW_image.BorderColor = System.Drawing.Color.DimGray;
-            this.button_DOW_image.BorderRadius = 4;
-            this.button_DOW_image.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_DOW_image, "button_DOW_image");
             this.button_DOW_image.ImagePadding = 5;
             this.button_DOW_image.Name = "button_DOW_image";
@@ -7701,7 +7746,11 @@
             // 
             // checkBox_weatherAlignmentFix
             // 
+            this.checkBox_weatherAlignmentFix.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_weatherAlignmentFix.BorderRadius = 2;
+            this.checkBox_weatherAlignmentFix.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_weatherAlignmentFix, "checkBox_weatherAlignmentFix");
+            this.checkBox_weatherAlignmentFix.ImagePadding = 5;
             this.checkBox_weatherAlignmentFix.Name = "checkBox_weatherAlignmentFix";
             this.checkBox_weatherAlignmentFix.UseVisualStyleBackColor = true;
             this.checkBox_weatherAlignmentFix.Click += new System.EventHandler(this.checkBox_Click);
@@ -8666,6 +8715,10 @@
             // checkBox_Lock_Use
             // 
             resources.ApplyResources(this.checkBox_Lock_Use, "checkBox_Lock_Use");
+            this.checkBox_Lock_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Lock_Use.BorderRadius = 2;
+            this.checkBox_Lock_Use.BorderThickness = 2;
+            this.checkBox_Lock_Use.ImagePadding = 5;
             this.checkBox_Lock_Use.Name = "checkBox_Lock_Use";
             this.checkBox_Lock_Use.UseVisualStyleBackColor = true;
             this.checkBox_Lock_Use.CheckedChanged += new System.EventHandler(this.checkBox_Status_Use_CheckedChanged);
@@ -8761,6 +8814,10 @@
             // checkBox_DND_Use
             // 
             resources.ApplyResources(this.checkBox_DND_Use, "checkBox_DND_Use");
+            this.checkBox_DND_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_DND_Use.BorderRadius = 2;
+            this.checkBox_DND_Use.BorderThickness = 2;
+            this.checkBox_DND_Use.ImagePadding = 5;
             this.checkBox_DND_Use.Name = "checkBox_DND_Use";
             this.checkBox_DND_Use.UseVisualStyleBackColor = true;
             this.checkBox_DND_Use.CheckedChanged += new System.EventHandler(this.checkBox_Status_Use_CheckedChanged);
@@ -8856,6 +8913,10 @@
             // checkBox_Alarm_Use
             // 
             resources.ApplyResources(this.checkBox_Alarm_Use, "checkBox_Alarm_Use");
+            this.checkBox_Alarm_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Alarm_Use.BorderRadius = 2;
+            this.checkBox_Alarm_Use.BorderThickness = 2;
+            this.checkBox_Alarm_Use.ImagePadding = 5;
             this.checkBox_Alarm_Use.Name = "checkBox_Alarm_Use";
             this.checkBox_Alarm_Use.UseVisualStyleBackColor = true;
             this.checkBox_Alarm_Use.CheckedChanged += new System.EventHandler(this.checkBox_Status_Use_CheckedChanged);
@@ -8951,6 +9012,10 @@
             // checkBox_Bluetooth_Use
             // 
             resources.ApplyResources(this.checkBox_Bluetooth_Use, "checkBox_Bluetooth_Use");
+            this.checkBox_Bluetooth_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Bluetooth_Use.BorderRadius = 2;
+            this.checkBox_Bluetooth_Use.BorderThickness = 2;
+            this.checkBox_Bluetooth_Use.ImagePadding = 5;
             this.checkBox_Bluetooth_Use.Name = "checkBox_Bluetooth_Use";
             this.checkBox_Bluetooth_Use.UseVisualStyleBackColor = true;
             this.checkBox_Bluetooth_Use.CheckedChanged += new System.EventHandler(this.checkBox_Status_Use_CheckedChanged);
@@ -9167,10 +9232,7 @@
             this.label284.Name = "label284";
             // 
             // button_Capy_ScreenNormal
-            // 
-            this.button_Capy_ScreenNormal.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Capy_ScreenNormal.BorderRadius = 4;
-            this.button_Capy_ScreenNormal.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Capy_ScreenNormal, "button_Capy_ScreenNormal");
             this.button_Capy_ScreenNormal.ImagePadding = 5;
             this.button_Capy_ScreenNormal.Name = "button_Capy_ScreenNormal";
@@ -9243,11 +9305,7 @@
             this.panel_AM_PM_AOD.Name = "panel_AM_PM_AOD";
             // 
             // button_Copy_AM_PM_AOD
-            // 
-            this.button_Copy_AM_PM_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_AM_PM_AOD.BorderRadius = 4;
-            this.button_Copy_AM_PM_AOD.BorderThickness = 1F;
-            this.button_Copy_AM_PM_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_AM_PM_AOD, "button_Copy_AM_PM_AOD");
             this.button_Copy_AM_PM_AOD.Name = "button_Copy_AM_PM_AOD";
             this.button_Copy_AM_PM_AOD.UseVisualStyleBackColor = true;
@@ -9255,6 +9313,10 @@
             // 
             // checkBox_12h_Use_AOD
             // 
+            this.checkBox_12h_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_12h_Use_AOD.BorderRadius = 2;
+            this.checkBox_12h_Use_AOD.BorderThickness = 2;
+            this.checkBox_12h_Use_AOD.ImagePadding = 5;
             resources.ApplyResources(this.checkBox_12h_Use_AOD, "checkBox_12h_Use_AOD");
             this.checkBox_12h_Use_AOD.Name = "checkBox_12h_Use_AOD";
             this.checkBox_12h_Use_AOD.UseVisualStyleBackColor = true;
@@ -9448,11 +9510,7 @@
             this.panel_Minute_AOD.Name = "panel_Minute_AOD";
             // 
             // button_Copy_Minute_AOD
-            // 
-            this.button_Copy_Minute_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Minute_AOD.BorderRadius = 4;
-            this.button_Copy_Minute_AOD.BorderThickness = 1F;
-            this.button_Copy_Minute_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Minute_AOD, "button_Copy_Minute_AOD");
             this.button_Copy_Minute_AOD.Name = "button_Copy_Minute_AOD";
             this.button_Copy_Minute_AOD.UseVisualStyleBackColor = true;
@@ -9460,7 +9518,11 @@
             // 
             // checkBox_Minute_add_zero_AOD
             // 
+            this.checkBox_Minute_add_zero_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_add_zero_AOD.BorderRadius = 2;
+            this.checkBox_Minute_add_zero_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Minute_add_zero_AOD, "checkBox_Minute_add_zero_AOD");
+            this.checkBox_Minute_add_zero_AOD.ImagePadding = 5;
             this.checkBox_Minute_add_zero_AOD.Name = "checkBox_Minute_add_zero_AOD";
             this.checkBox_Minute_add_zero_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Minute_add_zero_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -9468,6 +9530,10 @@
             // checkBox_Minute_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Minute_Use_AOD, "checkBox_Minute_Use_AOD");
+            this.checkBox_Minute_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_Use_AOD.BorderRadius = 2;
+            this.checkBox_Minute_Use_AOD.BorderThickness = 2;
+            this.checkBox_Minute_Use_AOD.ImagePadding = 5;
             this.checkBox_Minute_Use_AOD.Name = "checkBox_Minute_Use_AOD";
             this.checkBox_Minute_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Minute_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Minute_Use_AOD_CheckedChanged);
@@ -9476,6 +9542,10 @@
             // checkBox_Minute_follow_AOD
             // 
             resources.ApplyResources(this.checkBox_Minute_follow_AOD, "checkBox_Minute_follow_AOD");
+            this.checkBox_Minute_follow_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_follow_AOD.BorderRadius = 2;
+            this.checkBox_Minute_follow_AOD.BorderThickness = 2;
+            this.checkBox_Minute_follow_AOD.ImagePadding = 5;
             this.checkBox_Minute_follow_AOD.Name = "checkBox_Minute_follow_AOD";
             this.checkBox_Minute_follow_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Minute_follow_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Minute_Use_AOD_CheckedChanged);
@@ -9676,10 +9746,7 @@
             this.label316.Name = "label316";
             // 
             // button_Minute_AOD
-            // 
-            this.button_Minute_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Minute_AOD.BorderRadius = 4;
-            this.button_Minute_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Minute_AOD, "button_Minute_AOD");
             this.button_Minute_AOD.ImagePadding = 5;
             this.button_Minute_AOD.Name = "button_Minute_AOD";
@@ -9715,11 +9782,7 @@
             this.panel_Hour_AOD.Name = "panel_Hour_AOD";
             // 
             // button_Copy_Hour_AOD
-            // 
-            this.button_Copy_Hour_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Hour_AOD.BorderRadius = 4;
-            this.button_Copy_Hour_AOD.BorderThickness = 1F;
-            this.button_Copy_Hour_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Hour_AOD, "button_Copy_Hour_AOD");
             this.button_Copy_Hour_AOD.Name = "button_Copy_Hour_AOD";
             this.button_Copy_Hour_AOD.UseVisualStyleBackColor = true;
@@ -9727,7 +9790,11 @@
             // 
             // checkBox_Hour_add_zero_AOD
             // 
+            this.checkBox_Hour_add_zero_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_add_zero_AOD.BorderRadius = 2;
+            this.checkBox_Hour_add_zero_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Hour_add_zero_AOD, "checkBox_Hour_add_zero_AOD");
+            this.checkBox_Hour_add_zero_AOD.ImagePadding = 5;
             this.checkBox_Hour_add_zero_AOD.Name = "checkBox_Hour_add_zero_AOD";
             this.checkBox_Hour_add_zero_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Hour_add_zero_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -9735,6 +9802,10 @@
             // checkBox_Hour_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Hour_Use_AOD, "checkBox_Hour_Use_AOD");
+            this.checkBox_Hour_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_Use_AOD.BorderRadius = 2;
+            this.checkBox_Hour_Use_AOD.BorderThickness = 2;
+            this.checkBox_Hour_Use_AOD.ImagePadding = 5;
             this.checkBox_Hour_Use_AOD.Name = "checkBox_Hour_Use_AOD";
             this.checkBox_Hour_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Hour_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Hour_Use_AOD_CheckedChanged);
@@ -9935,10 +10006,7 @@
             this.label327.Name = "label327";
             // 
             // button_Hour_AOD
-            // 
-            this.button_Hour_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Hour_AOD.BorderRadius = 4;
-            this.button_Hour_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Hour_AOD, "button_Hour_AOD");
             this.button_Hour_AOD.ImagePadding = 5;
             this.button_Hour_AOD.Name = "button_Hour_AOD";
@@ -9982,11 +10050,7 @@
             this.panel_Minute_hand_AOD.Name = "panel_Minute_hand_AOD";
             // 
             // button_Copy_Minute_hand_AOD
-            // 
-            this.button_Copy_Minute_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Minute_hand_AOD.BorderRadius = 4;
-            this.button_Copy_Minute_hand_AOD.BorderThickness = 1F;
-            this.button_Copy_Minute_hand_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Minute_hand_AOD, "button_Copy_Minute_hand_AOD");
             this.button_Copy_Minute_hand_AOD.Name = "button_Copy_Minute_hand_AOD";
             this.button_Copy_Minute_hand_AOD.UseVisualStyleBackColor = true;
@@ -10125,6 +10189,10 @@
             // checkBox_Minute_hand_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Minute_hand_Use_AOD, "checkBox_Minute_hand_Use_AOD");
+            this.checkBox_Minute_hand_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Minute_hand_Use_AOD.BorderRadius = 2;
+            this.checkBox_Minute_hand_Use_AOD.BorderThickness = 2;
+            this.checkBox_Minute_hand_Use_AOD.ImagePadding = 5;
             this.checkBox_Minute_hand_Use_AOD.Name = "checkBox_Minute_hand_Use_AOD";
             this.checkBox_Minute_hand_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Minute_hand_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Minute_hand_Use_AOD_CheckedChanged);
@@ -10186,10 +10254,7 @@
             this.label349.Name = "label349";
             // 
             // button_Minute_hand_AOD
-            // 
-            this.button_Minute_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Minute_hand_AOD.BorderRadius = 4;
-            this.button_Minute_hand_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Minute_hand_AOD, "button_Minute_hand_AOD");
             this.button_Minute_hand_AOD.ImagePadding = 5;
             this.button_Minute_hand_AOD.Name = "button_Minute_hand_AOD";
@@ -10223,11 +10288,7 @@
             this.panel_Hour_hand_AOD.Name = "panel_Hour_hand_AOD";
             // 
             // button_Copy_Hour_hand_AOD
-            // 
-            this.button_Copy_Hour_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Hour_hand_AOD.BorderRadius = 4;
-            this.button_Copy_Hour_hand_AOD.BorderThickness = 1F;
-            this.button_Copy_Hour_hand_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Hour_hand_AOD, "button_Copy_Hour_hand_AOD");
             this.button_Copy_Hour_hand_AOD.Name = "button_Copy_Hour_hand_AOD";
             this.button_Copy_Hour_hand_AOD.UseVisualStyleBackColor = true;
@@ -10366,6 +10427,10 @@
             // checkBox_Hour_hand_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Hour_hand_Use_AOD, "checkBox_Hour_hand_Use_AOD");
+            this.checkBox_Hour_hand_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Hour_hand_Use_AOD.BorderRadius = 2;
+            this.checkBox_Hour_hand_Use_AOD.BorderThickness = 2;
+            this.checkBox_Hour_hand_Use_AOD.ImagePadding = 5;
             this.checkBox_Hour_hand_Use_AOD.Name = "checkBox_Hour_hand_Use_AOD";
             this.checkBox_Hour_hand_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Hour_hand_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Hour_hand_Use_AOD_CheckedChanged);
@@ -10427,10 +10492,7 @@
             this.label362.Name = "label362";
             // 
             // button_Hour_hand_AOD
-            // 
-            this.button_Hour_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Hour_hand_AOD.BorderRadius = 4;
-            this.button_Hour_hand_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Hour_hand_AOD, "button_Hour_hand_AOD");
             this.button_Hour_hand_AOD.ImagePadding = 5;
             this.button_Hour_hand_AOD.Name = "button_Hour_hand_AOD";
@@ -10524,11 +10586,7 @@
             this.panel_Day_hand_AOD.Name = "panel_Day_hand_AOD";
             // 
             // button_Copy_Day_hand_AOD
-            // 
-            this.button_Copy_Day_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Day_hand_AOD.BorderRadius = 4;
-            this.button_Copy_Day_hand_AOD.BorderThickness = 1F;
-            this.button_Copy_Day_hand_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Day_hand_AOD, "button_Copy_Day_hand_AOD");
             this.button_Copy_Day_hand_AOD.Name = "button_Copy_Day_hand_AOD";
             this.button_Copy_Day_hand_AOD.UseVisualStyleBackColor = true;
@@ -10537,6 +10595,10 @@
             // checkBox_Day_hand_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Day_hand_Use_AOD, "checkBox_Day_hand_Use_AOD");
+            this.checkBox_Day_hand_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_hand_Use_AOD.BorderRadius = 2;
+            this.checkBox_Day_hand_Use_AOD.BorderThickness = 2;
+            this.checkBox_Day_hand_Use_AOD.ImagePadding = 5;
             this.checkBox_Day_hand_Use_AOD.Name = "checkBox_Day_hand_Use_AOD";
             this.checkBox_Day_hand_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Day_hand_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Day_hand_Use_AOD_CheckedChanged);
@@ -10844,10 +10906,7 @@
             this.label379.Name = "label379";
             // 
             // button_Day_hand_AOD
-            // 
-            this.button_Day_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Day_hand_AOD.BorderRadius = 4;
-            this.button_Day_hand_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Day_hand_AOD, "button_Day_hand_AOD");
             this.button_Day_hand_AOD.ImagePadding = 5;
             this.button_Day_hand_AOD.Name = "button_Day_hand_AOD";
@@ -10884,11 +10943,7 @@
             this.panel_Day_text_AOD.Name = "panel_Day_text_AOD";
             // 
             // button_Copy_Day_text_AOD
-            // 
-            this.button_Copy_Day_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Day_text_AOD.BorderRadius = 4;
-            this.button_Copy_Day_text_AOD.BorderThickness = 1F;
-            this.button_Copy_Day_text_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Day_text_AOD, "button_Copy_Day_text_AOD");
             this.button_Copy_Day_text_AOD.Name = "button_Copy_Day_text_AOD";
             this.button_Copy_Day_text_AOD.UseVisualStyleBackColor = true;
@@ -10897,6 +10952,10 @@
             // checkBox_Day_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Day_Use_AOD, "checkBox_Day_Use_AOD");
+            this.checkBox_Day_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_Use_AOD.BorderRadius = 2;
+            this.checkBox_Day_Use_AOD.BorderThickness = 2;
+            this.checkBox_Day_Use_AOD.ImagePadding = 5;
             this.checkBox_Day_Use_AOD.Name = "checkBox_Day_Use_AOD";
             this.checkBox_Day_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Day_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Day_Use_AOD_CheckedChanged);
@@ -11044,6 +11103,10 @@
             // checkBox_Day_follow_AOD
             // 
             resources.ApplyResources(this.checkBox_Day_follow_AOD, "checkBox_Day_follow_AOD");
+            this.checkBox_Day_follow_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_follow_AOD.BorderRadius = 2;
+            this.checkBox_Day_follow_AOD.BorderThickness = 2;
+            this.checkBox_Day_follow_AOD.ImagePadding = 5;
             this.checkBox_Day_follow_AOD.Name = "checkBox_Day_follow_AOD";
             this.checkBox_Day_follow_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Day_follow_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Day_Use_AOD_CheckedChanged);
@@ -11051,7 +11114,11 @@
             // 
             // checkBox_Day_add_zero_AOD
             // 
+            this.checkBox_Day_add_zero_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Day_add_zero_AOD.BorderRadius = 2;
+            this.checkBox_Day_add_zero_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Day_add_zero_AOD, "checkBox_Day_add_zero_AOD");
+            this.checkBox_Day_add_zero_AOD.ImagePadding = 5;
             this.checkBox_Day_add_zero_AOD.Name = "checkBox_Day_add_zero_AOD";
             this.checkBox_Day_add_zero_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Day_add_zero_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -11112,10 +11179,7 @@
             this.label390.Name = "label390";
             // 
             // button_Day_text_AOD
-            // 
-            this.button_Day_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Day_text_AOD.BorderRadius = 4;
-            this.button_Day_text_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Day_text_AOD, "button_Day_text_AOD");
             this.button_Day_text_AOD.ImagePadding = 5;
             this.button_Day_text_AOD.Name = "button_Day_text_AOD";
@@ -11190,11 +11254,7 @@
             this.panel_Month_hand_AOD.Name = "panel_Month_hand_AOD";
             // 
             // button_Copy_Month_hand_AOD
-            // 
-            this.button_Copy_Month_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Month_hand_AOD.BorderRadius = 4;
-            this.button_Copy_Month_hand_AOD.BorderThickness = 1F;
-            this.button_Copy_Month_hand_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Month_hand_AOD, "button_Copy_Month_hand_AOD");
             this.button_Copy_Month_hand_AOD.Name = "button_Copy_Month_hand_AOD";
             this.button_Copy_Month_hand_AOD.UseVisualStyleBackColor = true;
@@ -11203,6 +11263,10 @@
             // checkBox_Month_hand_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Month_hand_Use_AOD, "checkBox_Month_hand_Use_AOD");
+            this.checkBox_Month_hand_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_hand_Use_AOD.BorderRadius = 2;
+            this.checkBox_Month_hand_Use_AOD.BorderThickness = 2;
+            this.checkBox_Month_hand_Use_AOD.ImagePadding = 5;
             this.checkBox_Month_hand_Use_AOD.Name = "checkBox_Month_hand_Use_AOD";
             this.checkBox_Month_hand_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Month_hand_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Month_hand_Use_AOD_CheckedChanged);
@@ -11515,10 +11579,7 @@
             this.label416.Name = "label416";
             // 
             // button_Month_hand_AOD
-            // 
-            this.button_Month_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_hand_AOD.BorderRadius = 4;
-            this.button_Month_hand_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_hand_AOD, "button_Month_hand_AOD");
             this.button_Month_hand_AOD.ImagePadding = 5;
             this.button_Month_hand_AOD.Name = "button_Month_hand_AOD";
@@ -11555,11 +11616,7 @@
             this.panel_Month_text_AOD.Name = "panel_Month_text_AOD";
             // 
             // button_Copy_Month_text_AOD
-            // 
-            this.button_Copy_Month_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Month_text_AOD.BorderRadius = 4;
-            this.button_Copy_Month_text_AOD.BorderThickness = 1F;
-            this.button_Copy_Month_text_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Month_text_AOD, "button_Copy_Month_text_AOD");
             this.button_Copy_Month_text_AOD.Name = "button_Copy_Month_text_AOD";
             this.button_Copy_Month_text_AOD.UseVisualStyleBackColor = true;
@@ -11568,6 +11625,10 @@
             // checkBox_Month_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Month_Use_AOD, "checkBox_Month_Use_AOD");
+            this.checkBox_Month_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_Use_AOD.BorderRadius = 2;
+            this.checkBox_Month_Use_AOD.BorderThickness = 2;
+            this.checkBox_Month_Use_AOD.ImagePadding = 5;
             this.checkBox_Month_Use_AOD.Name = "checkBox_Month_Use_AOD";
             this.checkBox_Month_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Month_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Month_Use_AOD_CheckedChanged);
@@ -11576,6 +11637,10 @@
             // checkBox_Month_follow_AOD
             // 
             resources.ApplyResources(this.checkBox_Month_follow_AOD, "checkBox_Month_follow_AOD");
+            this.checkBox_Month_follow_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_follow_AOD.BorderRadius = 2;
+            this.checkBox_Month_follow_AOD.BorderThickness = 2;
+            this.checkBox_Month_follow_AOD.ImagePadding = 5;
             this.checkBox_Month_follow_AOD.Name = "checkBox_Month_follow_AOD";
             this.checkBox_Month_follow_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Month_follow_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Month_Use_AOD_CheckedChanged);
@@ -11596,7 +11661,11 @@
             // 
             // checkBox_Month_add_zero_AOD
             // 
+            this.checkBox_Month_add_zero_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_add_zero_AOD.BorderRadius = 2;
+            this.checkBox_Month_add_zero_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Month_add_zero_AOD, "checkBox_Month_add_zero_AOD");
+            this.checkBox_Month_add_zero_AOD.ImagePadding = 5;
             this.checkBox_Month_add_zero_AOD.Name = "checkBox_Month_add_zero_AOD";
             this.checkBox_Month_add_zero_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Month_add_zero_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -11783,10 +11852,7 @@
             this.label427.Name = "label427";
             // 
             // button_Month_text_AOD
-            // 
-            this.button_Month_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_text_AOD.BorderRadius = 4;
-            this.button_Month_text_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_text_AOD, "button_Month_text_AOD");
             this.button_Month_text_AOD.ImagePadding = 5;
             this.button_Month_text_AOD.Name = "button_Month_text_AOD";
@@ -11809,11 +11875,7 @@
             this.panel_Month_pictures_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // button_Copy_Month_pictures_AOD
-            // 
-            this.button_Copy_Month_pictures_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Month_pictures_AOD.BorderRadius = 4;
-            this.button_Copy_Month_pictures_AOD.BorderThickness = 1F;
-            this.button_Copy_Month_pictures_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Month_pictures_AOD, "button_Copy_Month_pictures_AOD");
             this.button_Copy_Month_pictures_AOD.Name = "button_Copy_Month_pictures_AOD";
             this.button_Copy_Month_pictures_AOD.UseVisualStyleBackColor = true;
@@ -11822,6 +11884,10 @@
             // checkBox_Month_pictures_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Month_pictures_Use_AOD, "checkBox_Month_pictures_Use_AOD");
+            this.checkBox_Month_pictures_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Month_pictures_Use_AOD.BorderRadius = 2;
+            this.checkBox_Month_pictures_Use_AOD.BorderThickness = 2;
+            this.checkBox_Month_pictures_Use_AOD.ImagePadding = 5;
             this.checkBox_Month_pictures_Use_AOD.Name = "checkBox_Month_pictures_Use_AOD";
             this.checkBox_Month_pictures_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Month_pictures_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Month_pictures_Use_AOD_CheckedChanged);
@@ -11897,10 +11963,7 @@
             this.label431.Name = "label431";
             // 
             // button_Month_pictures_AOD
-            // 
-            this.button_Month_pictures_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Month_pictures_AOD.BorderRadius = 4;
-            this.button_Month_pictures_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Month_pictures_AOD, "button_Month_pictures_AOD");
             this.button_Month_pictures_AOD.ImagePadding = 5;
             this.button_Month_pictures_AOD.Name = "button_Month_pictures_AOD";
@@ -11941,10 +12004,7 @@
             this.panel16.Name = "panel16";
             // 
             // button13
-            // 
-            this.button13.BorderColor = System.Drawing.Color.DimGray;
-            this.button13.BorderRadius = 4;
-            this.button13.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button13, "button13");
             this.button13.ImagePadding = 5;
             this.button13.Name = "button13";
@@ -11982,16 +12042,16 @@
             // 
             // checkBox_Year_follow_AOD
             // 
+            this.checkBox_Year_follow_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_follow_AOD.BorderRadius = 2;
+            this.checkBox_Year_follow_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Year_follow_AOD, "checkBox_Year_follow_AOD");
+            this.checkBox_Year_follow_AOD.ImagePadding = 5;
             this.checkBox_Year_follow_AOD.Name = "checkBox_Year_follow_AOD";
             this.checkBox_Year_follow_AOD.UseVisualStyleBackColor = true;
             // 
             // button_Copy_Year_text_AOD
-            // 
-            this.button_Copy_Year_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_Year_text_AOD.BorderRadius = 4;
-            this.button_Copy_Year_text_AOD.BorderThickness = 1F;
-            this.button_Copy_Year_text_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_Year_text_AOD, "button_Copy_Year_text_AOD");
             this.button_Copy_Year_text_AOD.Name = "button_Copy_Year_text_AOD";
             this.button_Copy_Year_text_AOD.UseVisualStyleBackColor = true;
@@ -12000,6 +12060,10 @@
             // checkBox_Year_text_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_Year_text_Use_AOD, "checkBox_Year_text_Use_AOD");
+            this.checkBox_Year_text_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_text_Use_AOD.BorderRadius = 2;
+            this.checkBox_Year_text_Use_AOD.BorderThickness = 2;
+            this.checkBox_Year_text_Use_AOD.ImagePadding = 5;
             this.checkBox_Year_text_Use_AOD.Name = "checkBox_Year_text_Use_AOD";
             this.checkBox_Year_text_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Year_text_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_Year_text_Use_AOD_CheckedChanged);
@@ -12036,7 +12100,11 @@
             // 
             // checkBox_Year_add_zero_AOD
             // 
+            this.checkBox_Year_add_zero_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Year_add_zero_AOD.BorderRadius = 2;
+            this.checkBox_Year_add_zero_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_Year_add_zero_AOD, "checkBox_Year_add_zero_AOD");
+            this.checkBox_Year_add_zero_AOD.ImagePadding = 5;
             this.checkBox_Year_add_zero_AOD.Name = "checkBox_Year_add_zero_AOD";
             this.checkBox_Year_add_zero_AOD.UseVisualStyleBackColor = true;
             this.checkBox_Year_add_zero_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -12207,10 +12275,7 @@
             this.label442.Name = "label442";
             // 
             // button_Year_text_AOD
-            // 
-            this.button_Year_text_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Year_text_AOD.BorderRadius = 4;
-            this.button_Year_text_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Year_text_AOD, "button_Year_text_AOD");
             this.button_Year_text_AOD.ImagePadding = 5;
             this.button_Year_text_AOD.Name = "button_Year_text_AOD";
@@ -12264,11 +12329,7 @@
             this.panel_DOW_hand_AOD.Name = "panel_DOW_hand_AOD";
             // 
             // button_Copy_DOW_hand_AOD
-            // 
-            this.button_Copy_DOW_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_DOW_hand_AOD.BorderRadius = 4;
-            this.button_Copy_DOW_hand_AOD.BorderThickness = 1F;
-            this.button_Copy_DOW_hand_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_DOW_hand_AOD, "button_Copy_DOW_hand_AOD");
             this.button_Copy_DOW_hand_AOD.Name = "button_Copy_DOW_hand_AOD";
             this.button_Copy_DOW_hand_AOD.UseVisualStyleBackColor = true;
@@ -12277,6 +12338,10 @@
             // checkBox_DOW_hand_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_DOW_hand_Use_AOD, "checkBox_DOW_hand_Use_AOD");
+            this.checkBox_DOW_hand_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_DOW_hand_Use_AOD.BorderRadius = 2;
+            this.checkBox_DOW_hand_Use_AOD.BorderThickness = 2;
+            this.checkBox_DOW_hand_Use_AOD.ImagePadding = 5;
             this.checkBox_DOW_hand_Use_AOD.Name = "checkBox_DOW_hand_Use_AOD";
             this.checkBox_DOW_hand_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_DOW_hand_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_DOW_hand_Use_AOD_CheckedChanged);
@@ -12584,10 +12649,7 @@
             this.label459.Name = "label459";
             // 
             // button_DOW_hand_AOD
-            // 
-            this.button_DOW_hand_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_DOW_hand_AOD.BorderRadius = 4;
-            this.button_DOW_hand_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_DOW_hand_AOD, "button_DOW_hand_AOD");
             this.button_DOW_hand_AOD.ImagePadding = 5;
             this.button_DOW_hand_AOD.Name = "button_DOW_hand_AOD";
@@ -12609,11 +12671,7 @@
             this.panel_DOW_image_AOD.Name = "panel_DOW_image_AOD";
             // 
             // button_Copy_DOW_image_AOD
-            // 
-            this.button_Copy_DOW_image_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Copy_DOW_image_AOD.BorderRadius = 4;
-            this.button_Copy_DOW_image_AOD.BorderThickness = 1F;
-            this.button_Copy_DOW_image_AOD.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_DOW_image_AOD, "button_Copy_DOW_image_AOD");
             this.button_Copy_DOW_image_AOD.Name = "button_Copy_DOW_image_AOD";
             this.button_Copy_DOW_image_AOD.UseVisualStyleBackColor = true;
@@ -12622,6 +12680,10 @@
             // checkBox_DOW_pictures_Use_AOD
             // 
             resources.ApplyResources(this.checkBox_DOW_pictures_Use_AOD, "checkBox_DOW_pictures_Use_AOD");
+            this.checkBox_DOW_pictures_Use_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_DOW_pictures_Use_AOD.BorderRadius = 2;
+            this.checkBox_DOW_pictures_Use_AOD.BorderThickness = 2;
+            this.checkBox_DOW_pictures_Use_AOD.ImagePadding = 5;
             this.checkBox_DOW_pictures_Use_AOD.Name = "checkBox_DOW_pictures_Use_AOD";
             this.checkBox_DOW_pictures_Use_AOD.UseVisualStyleBackColor = true;
             this.checkBox_DOW_pictures_Use_AOD.CheckedChanged += new System.EventHandler(this.checkBox_DOW_pictures_Use_AOD_CheckedChanged);
@@ -12697,10 +12759,7 @@
             this.label463.Name = "label463";
             // 
             // button_DOW_image_AOD
-            // 
-            this.button_DOW_image_AOD.BorderColor = System.Drawing.Color.DimGray;
-            this.button_DOW_image_AOD.BorderRadius = 4;
-            this.button_DOW_image_AOD.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_DOW_image_AOD, "button_DOW_image_AOD");
             this.button_DOW_image_AOD.ImagePadding = 5;
             this.button_DOW_image_AOD.Name = "button_DOW_image_AOD";
@@ -13869,7 +13928,11 @@
             // 
             // checkBox_weatherAlignmentFix_AOD
             // 
+            this.checkBox_weatherAlignmentFix_AOD.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_weatherAlignmentFix_AOD.BorderRadius = 2;
+            this.checkBox_weatherAlignmentFix_AOD.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_weatherAlignmentFix_AOD, "checkBox_weatherAlignmentFix_AOD");
+            this.checkBox_weatherAlignmentFix_AOD.ImagePadding = 5;
             this.checkBox_weatherAlignmentFix_AOD.Name = "checkBox_weatherAlignmentFix_AOD";
             this.checkBox_weatherAlignmentFix_AOD.UseVisualStyleBackColor = true;
             this.checkBox_weatherAlignmentFix_AOD.Click += new System.EventHandler(this.checkBox_Click);
@@ -14994,11 +15057,7 @@
             this.panel6.Name = "panel6";
             // 
             // button_RandomPreview
-            // 
-            this.button_RandomPreview.BorderColor = System.Drawing.Color.DimGray;
-            this.button_RandomPreview.BorderRadius = 4;
-            this.button_RandomPreview.BorderThickness = 1F;
-            this.button_RandomPreview.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_RandomPreview, "button_RandomPreview");
             this.button_RandomPreview.Name = "button_RandomPreview";
             this.button_RandomPreview.UseVisualStyleBackColor = true;
@@ -15058,22 +15117,14 @@
             this.treeView_JsonTree.Name = "treeView_JsonTree";
             // 
             // button_SaveJson
-            // 
-            this.button_SaveJson.BorderColor = System.Drawing.Color.DimGray;
-            this.button_SaveJson.BorderRadius = 4;
-            this.button_SaveJson.BorderThickness = 1F;
-            this.button_SaveJson.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_SaveJson, "button_SaveJson");
             this.button_SaveJson.Name = "button_SaveJson";
             this.button_SaveJson.UseVisualStyleBackColor = true;
             this.button_SaveJson.Click += new System.EventHandler(this.button_SaveJson_Click);
             // 
             // button_OpenDir
-            // 
-            this.button_OpenDir.BorderColor = System.Drawing.Color.DimGray;
-            this.button_OpenDir.BorderRadius = 4;
-            this.button_OpenDir.BorderThickness = 1F;
-            this.button_OpenDir.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_OpenDir, "button_OpenDir");
             this.button_OpenDir.Name = "button_OpenDir";
             this.button_OpenDir.UseVisualStyleBackColor = true;
@@ -15177,8 +15228,7 @@
             this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // button_AODL_Date_End
-            // 
-            this.button_AODL_Date_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            //            
             this.button_AODL_Date_End.BorderRadius = 3;
             this.button_AODL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_End, "button_AODL_Date_End");
@@ -15189,8 +15239,7 @@
             this.button_AODL_Date_End.Click += new System.EventHandler(this.button_AODL_Date_End_Click);
             // 
             // button_AODL_Date_Start
-            // 
-            this.button_AODL_Date_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
+            //
             this.button_AODL_Date_Start.BorderRadius = 3;
             this.button_AODL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Start, "button_AODL_Date_Start");
@@ -15202,7 +15251,6 @@
             // 
             // button_AODL_Date_Up
             // 
-            this.button_AODL_Date_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Date_Up.BorderRadius = 3;
             this.button_AODL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Up, "button_AODL_Date_Up");
@@ -15214,7 +15262,6 @@
             // 
             // button_AODL_Date_Down
             // 
-            this.button_AODL_Date_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Date_Down.BorderRadius = 3;
             this.button_AODL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Date_Down, "button_AODL_Date_Down");
@@ -15307,7 +15354,6 @@
             // 
             // button_AODL_Activity_End
             // 
-            this.button_AODL_Activity_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Activity_End.BorderRadius = 3;
             this.button_AODL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_End, "button_AODL_Activity_End");
@@ -15319,7 +15365,6 @@
             // 
             // button_AODL_Activity_Start
             // 
-            this.button_AODL_Activity_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Activity_Start.BorderRadius = 3;
             this.button_AODL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Start, "button_AODL_Activity_Start");
@@ -15331,7 +15376,6 @@
             // 
             // button_AODL_Activity_Up
             // 
-            this.button_AODL_Activity_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Activity_Up.BorderRadius = 3;
             this.button_AODL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Up, "button_AODL_Activity_Up");
@@ -15343,7 +15387,6 @@
             // 
             // button_AODL_Activity_Down
             // 
-            this.button_AODL_Activity_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_AODL_Activity_Down.BorderRadius = 3;
             this.button_AODL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_AODL_Activity_Down, "button_AODL_Activity_Down");
@@ -15442,7 +15485,6 @@
             // 
             // button_SNL_Date_End
             // 
-            this.button_SNL_Date_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Date_End.BorderRadius = 3;
             this.button_SNL_Date_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_End, "button_SNL_Date_End");
@@ -15454,7 +15496,6 @@
             // 
             // button_SNL_Date_Start
             // 
-            this.button_SNL_Date_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Date_Start.BorderRadius = 3;
             this.button_SNL_Date_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Start, "button_SNL_Date_Start");
@@ -15466,7 +15507,6 @@
             // 
             // button_SNL_Date_Up
             // 
-            this.button_SNL_Date_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Date_Up.BorderRadius = 3;
             this.button_SNL_Date_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Up, "button_SNL_Date_Up");
@@ -15478,7 +15518,6 @@
             // 
             // button_SNL_Date_Down
             // 
-            this.button_SNL_Date_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Date_Down.BorderRadius = 3;
             this.button_SNL_Date_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Date_Down, "button_SNL_Date_Down");
@@ -15571,7 +15610,6 @@
             // 
             // button_SNL_Activity_End
             // 
-            this.button_SNL_Activity_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Activity_End.BorderRadius = 3;
             this.button_SNL_Activity_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_End, "button_SNL_Activity_End");
@@ -15583,7 +15621,6 @@
             // 
             // button_SNL_Activity_Start
             // 
-            this.button_SNL_Activity_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Activity_Start.BorderRadius = 3;
             this.button_SNL_Activity_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Start, "button_SNL_Activity_Start");
@@ -15595,7 +15632,6 @@
             // 
             // button_SNL_Activity_Up
             // 
-            this.button_SNL_Activity_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Activity_Up.BorderRadius = 3;
             this.button_SNL_Activity_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Up, "button_SNL_Activity_Up");
@@ -15607,7 +15643,6 @@
             // 
             // button_SNL_Activity_Down
             // 
-            this.button_SNL_Activity_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_SNL_Activity_Down.BorderRadius = 3;
             this.button_SNL_Activity_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_SNL_Activity_Down, "button_SNL_Activity_Down");
@@ -15659,7 +15694,11 @@
             // 
             // checkBox_TimeOnWidgetEdit
             // 
+            this.checkBox_TimeOnWidgetEdit.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_TimeOnWidgetEdit.BorderRadius = 2;
+            this.checkBox_TimeOnWidgetEdit.BorderThickness = 2;
             resources.ApplyResources(this.checkBox_TimeOnWidgetEdit, "checkBox_TimeOnWidgetEdit");
+            this.checkBox_TimeOnWidgetEdit.ImagePadding = 5;
             this.checkBox_TimeOnWidgetEdit.Name = "checkBox_TimeOnWidgetEdit";
             this.checkBox_TimeOnWidgetEdit.UseVisualStyleBackColor = true;
             this.checkBox_TimeOnWidgetEdit.CheckedChanged += new System.EventHandler(this.checkBox_TimeOnWidgetEdit_CheckedChanged);
@@ -15978,10 +16017,7 @@
             this.dataGridViewTextBoxColumn8.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // button_Widget_Date_End
-            // 
-            this.button_Widget_Date_End.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_End.BorderRadius = 4;
-            this.button_Widget_Date_End.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_End, "button_Widget_Date_End");
             this.button_Widget_Date_End.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_Widget_Date_End.ImagePadding = 5;
@@ -15990,10 +16026,7 @@
             this.button_Widget_Date_End.Click += new System.EventHandler(this.button_Widget_Date_End_Click);
             // 
             // button_Widget_Date_Start
-            // 
-            this.button_Widget_Date_Start.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_Start.BorderRadius = 4;
-            this.button_Widget_Date_Start.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_Start, "button_Widget_Date_Start");
             this.button_Widget_Date_Start.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_Widget_Date_Start.ImagePadding = 5;
@@ -16002,10 +16035,7 @@
             this.button_Widget_Date_Start.Click += new System.EventHandler(this.button_Widget_Date_Start_Click);
             // 
             // button_Widget_Date_Up
-            // 
-            this.button_Widget_Date_Up.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_Up.BorderRadius = 4;
-            this.button_Widget_Date_Up.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_Up, "button_Widget_Date_Up");
             this.button_Widget_Date_Up.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_Widget_Date_Up.ImagePadding = 5;
@@ -16014,10 +16044,7 @@
             this.button_Widget_Date_Up.Click += new System.EventHandler(this.button_Widget_Date_Up_Click);
             // 
             // button_Widget_Date_Down
-            // 
-            this.button_Widget_Date_Down.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_Down.BorderRadius = 4;
-            this.button_Widget_Date_Down.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_Down, "button_Widget_Date_Down");
             this.button_Widget_Date_Down.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_Widget_Date_Down.ImagePadding = 5;
@@ -16537,10 +16564,7 @@
             this.numericUpDown_WidgetX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // button_WidgetDel
-            // 
-            this.button_WidgetDel.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetDel.BorderRadius = 4;
-            this.button_WidgetDel.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_WidgetDel, "button_WidgetDel");
             this.button_WidgetDel.ImagePadding = 5;
             this.button_WidgetDel.Name = "button_WidgetDel";
@@ -16605,11 +16629,7 @@
             this.groupBox_WidgetElement.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
             // button_WidgetElementDel
-            // 
-            this.button_WidgetElementDel.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetElementDel.BorderRadius = 4;
-            this.button_WidgetElementDel.BorderThickness = 1F;
-            this.button_WidgetElementDel.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_WidgetElementDel, "button_WidgetElementDel");
             this.button_WidgetElementDel.Name = "button_WidgetElementDel";
             this.button_WidgetElementDel.UseVisualStyleBackColor = true;
@@ -16617,7 +16637,6 @@
             // 
             // button_WidgetElement_End
             // 
-            this.button_WidgetElement_End.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_WidgetElement_End.BorderRadius = 3;
             this.button_WidgetElement_End.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_End, "button_WidgetElement_End");
@@ -16629,7 +16648,6 @@
             // 
             // button_WidgetElement_Start
             // 
-            this.button_WidgetElement_Start.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_WidgetElement_Start.BorderRadius = 3;
             this.button_WidgetElement_Start.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Start, "button_WidgetElement_Start");
@@ -16641,7 +16659,6 @@
             // 
             // button_WidgetElement_Up
             // 
-            this.button_WidgetElement_Up.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_WidgetElement_Up.BorderRadius = 3;
             this.button_WidgetElement_Up.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Up, "button_WidgetElement_Up");
@@ -16653,7 +16670,6 @@
             // 
             // button_WidgetElement_Down
             // 
-            this.button_WidgetElement_Down.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.button_WidgetElement_Down.BorderRadius = 3;
             this.button_WidgetElement_Down.BorderThickness = 1F;
             resources.ApplyResources(this.button_WidgetElement_Down, "button_WidgetElement_Down");
@@ -16935,11 +16951,7 @@
             this.groupBox_WdgetAdd.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
             // button_WidgetAdd
-            // 
-            this.button_WidgetAdd.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WidgetAdd.BorderRadius = 4;
-            this.button_WidgetAdd.BorderThickness = 1F;
-            this.button_WidgetAdd.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_WidgetAdd, "button_WidgetAdd");
             this.button_WidgetAdd.Name = "button_WidgetAdd";
             this.button_WidgetAdd.UseVisualStyleBackColor = true;
@@ -17246,10 +17258,7 @@
             this.dataGridViewTextBoxColumn10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // button_Widget_Date_EndAdd
-            // 
-            this.button_Widget_Date_EndAdd.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_EndAdd.BorderRadius = 4;
-            this.button_Widget_Date_EndAdd.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_EndAdd, "button_Widget_Date_EndAdd");
             this.button_Widget_Date_EndAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_down_icon;
             this.button_Widget_Date_EndAdd.ImagePadding = 5;
@@ -17258,10 +17267,7 @@
             this.button_Widget_Date_EndAdd.Click += new System.EventHandler(this.button_Widget_Date_EndAdd_Click);
             // 
             // button_Widget_Date_StartAdd
-            // 
-            this.button_Widget_Date_StartAdd.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_StartAdd.BorderRadius = 4;
-            this.button_Widget_Date_StartAdd.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_StartAdd, "button_Widget_Date_StartAdd");
             this.button_Widget_Date_StartAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_full_up_icon;
             this.button_Widget_Date_StartAdd.ImagePadding = 5;
@@ -17270,10 +17276,7 @@
             this.button_Widget_Date_StartAdd.Click += new System.EventHandler(this.button_Widget_Date_StartAdd_Click);
             // 
             // button_Widget_Date_UpAdd
-            // 
-            this.button_Widget_Date_UpAdd.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_UpAdd.BorderRadius = 4;
-            this.button_Widget_Date_UpAdd.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_UpAdd, "button_Widget_Date_UpAdd");
             this.button_Widget_Date_UpAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_up_icon;
             this.button_Widget_Date_UpAdd.ImagePadding = 5;
@@ -17282,10 +17285,7 @@
             this.button_Widget_Date_UpAdd.Click += new System.EventHandler(this.button_Widget_Date_UpAdd_Click);
             // 
             // button_Widget_Date_DownAdd
-            // 
-            this.button_Widget_Date_DownAdd.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Widget_Date_DownAdd.BorderRadius = 4;
-            this.button_Widget_Date_DownAdd.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Widget_Date_DownAdd, "button_Widget_Date_DownAdd");
             this.button_Widget_Date_DownAdd.Image = global::AmazFit_Watchface_2.Properties.Resources.Navigate_down_icon;
             this.button_Widget_Date_DownAdd.ImagePadding = 5;
@@ -17827,10 +17827,7 @@
             this.label486.Name = "label486";
             // 
             // button_Converting
-            // 
-            this.button_Converting.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Converting.BorderRadius = 4;
-            this.button_Converting.BorderThickness = 1F;
+            //
             resources.ApplyResources(this.button_Converting, "button_Converting");
             this.button_Converting.ImagePadding = 5;
             this.button_Converting.Name = "button_Converting";
@@ -17990,6 +17987,10 @@
             // checkBox_AllWidgetsInGif
             // 
             resources.ApplyResources(this.checkBox_AllWidgetsInGif, "checkBox_AllWidgetsInGif");
+            this.checkBox_AllWidgetsInGif.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_AllWidgetsInGif.BorderRadius = 2;
+            this.checkBox_AllWidgetsInGif.BorderThickness = 2;
+            this.checkBox_AllWidgetsInGif.ImagePadding = 5;
             this.checkBox_AllWidgetsInGif.Name = "checkBox_AllWidgetsInGif";
             this.checkBox_AllWidgetsInGif.UseVisualStyleBackColor = true;
             this.checkBox_AllWidgetsInGif.CheckedChanged += new System.EventHandler(this.checkBox_AllWidgetsInGif_CheckedChanged);
@@ -18008,11 +18009,7 @@
             this.groupBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
             // button_WatchSkin_PathGet
-            // 
-            this.button_WatchSkin_PathGet.BorderColor = System.Drawing.Color.DimGray;
-            this.button_WatchSkin_PathGet.BorderRadius = 4;
-            this.button_WatchSkin_PathGet.BorderThickness = 1F;
-            this.button_WatchSkin_PathGet.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_WatchSkin_PathGet, "button_WatchSkin_PathGet");
             this.button_WatchSkin_PathGet.Name = "button_WatchSkin_PathGet";
             this.button_WatchSkin_PathGet.UseVisualStyleBackColor = true;
@@ -18027,8 +18024,12 @@
             // checkBox_WatchSkin_Use
             // 
             resources.ApplyResources(this.checkBox_WatchSkin_Use, "checkBox_WatchSkin_Use");
+            this.checkBox_WatchSkin_Use.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_WatchSkin_Use.BorderRadius = 2;
+            this.checkBox_WatchSkin_Use.BorderThickness = 2;
             this.checkBox_WatchSkin_Use.Checked = true;
             this.checkBox_WatchSkin_Use.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_WatchSkin_Use.ImagePadding = 5;
             this.checkBox_WatchSkin_Use.Name = "checkBox_WatchSkin_Use";
             this.checkBox_WatchSkin_Use.UseVisualStyleBackColor = true;
             this.checkBox_WatchSkin_Use.CheckedChanged += new System.EventHandler(this.checkBox_WatchSkin_Use_CheckedChanged);
@@ -18068,8 +18069,12 @@
             // checkBox_ShowIn12hourFormat
             // 
             resources.ApplyResources(this.checkBox_ShowIn12hourFormat, "checkBox_ShowIn12hourFormat");
+            this.checkBox_ShowIn12hourFormat.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_ShowIn12hourFormat.BorderRadius = 2;
+            this.checkBox_ShowIn12hourFormat.BorderThickness = 2;
             this.checkBox_ShowIn12hourFormat.Checked = true;
             this.checkBox_ShowIn12hourFormat.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_ShowIn12hourFormat.ImagePadding = 5;
             this.checkBox_ShowIn12hourFormat.Name = "checkBox_ShowIn12hourFormat";
             this.checkBox_ShowIn12hourFormat.UseVisualStyleBackColor = true;
             this.checkBox_ShowIn12hourFormat.CheckedChanged += new System.EventHandler(this.checkBox_ShowIn12hourFormat_CheckedChanged);
@@ -18078,8 +18083,12 @@
             // checkBox_SaveID
             // 
             resources.ApplyResources(this.checkBox_SaveID, "checkBox_SaveID");
+            this.checkBox_SaveID.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_SaveID.BorderRadius = 2;
+            this.checkBox_SaveID.BorderThickness = 2;
             this.checkBox_SaveID.Checked = true;
             this.checkBox_SaveID.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_SaveID.ImagePadding = 5;
             this.checkBox_SaveID.Name = "checkBox_SaveID";
             this.checkBox_SaveID.UseVisualStyleBackColor = true;
             this.checkBox_SaveID.CheckedChanged += new System.EventHandler(this.checkBox_SaveID_CheckedChanged);
@@ -18100,8 +18109,12 @@
             // checkBox_Shortcuts_Border
             // 
             resources.ApplyResources(this.checkBox_Shortcuts_Border, "checkBox_Shortcuts_Border");
+            this.checkBox_Shortcuts_Border.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Shortcuts_Border.BorderRadius = 2;
+            this.checkBox_Shortcuts_Border.BorderThickness = 2;
             this.checkBox_Shortcuts_Border.Checked = true;
             this.checkBox_Shortcuts_Border.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Shortcuts_Border.ImagePadding = 5;
             this.checkBox_Shortcuts_Border.Name = "checkBox_Shortcuts_Border";
             this.checkBox_Shortcuts_Border.UseVisualStyleBackColor = true;
             this.checkBox_Shortcuts_Border.CheckedChanged += new System.EventHandler(this.checkBox_Shortcuts_Area_CheckedChanged);
@@ -18110,19 +18123,19 @@
             // checkBox_Shortcuts_Area
             // 
             resources.ApplyResources(this.checkBox_Shortcuts_Area, "checkBox_Shortcuts_Area");
+            this.checkBox_Shortcuts_Area.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_Shortcuts_Area.BorderRadius = 2;
+            this.checkBox_Shortcuts_Area.BorderThickness = 2;
             this.checkBox_Shortcuts_Area.Checked = true;
             this.checkBox_Shortcuts_Area.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Shortcuts_Area.ImagePadding = 5;
             this.checkBox_Shortcuts_Area.Name = "checkBox_Shortcuts_Area";
             this.checkBox_Shortcuts_Area.UseVisualStyleBackColor = true;
             this.checkBox_Shortcuts_Area.CheckedChanged += new System.EventHandler(this.checkBox_Shortcuts_Area_CheckedChanged);
             this.checkBox_Shortcuts_Area.Click += new System.EventHandler(this.checkBox_Click);
             // 
             // button_Reset
-            // 
-            this.button_Reset.BorderColor = System.Drawing.Color.DimGray;
-            this.button_Reset.BorderRadius = 4;
-            this.button_Reset.BorderThickness = 1F;
-            this.button_Reset.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Reset, "button_Reset");
             this.button_Reset.Name = "button_Reset";
             this.button_Reset.UseVisualStyleBackColor = true;
@@ -18131,8 +18144,12 @@
             // checkBox_JsonWarnings
             // 
             resources.ApplyResources(this.checkBox_JsonWarnings, "checkBox_JsonWarnings");
+            this.checkBox_JsonWarnings.BorderColor = System.Drawing.Color.Gainsboro;
+            this.checkBox_JsonWarnings.BorderRadius = 2;
+            this.checkBox_JsonWarnings.BorderThickness = 2;
             this.checkBox_JsonWarnings.Checked = true;
             this.checkBox_JsonWarnings.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_JsonWarnings.ImagePadding = 5;
             this.checkBox_JsonWarnings.Name = "checkBox_JsonWarnings";
             this.checkBox_JsonWarnings.UseVisualStyleBackColor = true;
             this.checkBox_JsonWarnings.Click += new System.EventHandler(this.checkBox_ShowSettings_Click);
@@ -18953,8 +18970,8 @@
         private DarkButton button_JsonPreview_Read;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private DarkButton button_PreviewBig;
-        private System.Windows.Forms.CheckBox checkBox_WebW;
-        private System.Windows.Forms.CheckBox checkBox_WebB;
+        private DarkCheckBox checkBox_WebW;
+        private DarkCheckBox checkBox_WebB;
         private DarkButton button_SaveJson;
         private DarkButton button_SavePNG;
         private DarkButton button_SaveGIF;
@@ -18962,7 +18979,7 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label_preview_X;
         private System.Windows.Forms.Label label_preview_Y;
-        private System.Windows.Forms.CheckBox checkBox_border;
+        private DarkCheckBox checkBox_border;
         private System.Windows.Forms.Panel panel_PreviewStates;
         private DarkButton button_JsonPreview_Random;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
@@ -18994,7 +19011,7 @@
         private DarkButton button_pack_zip;
         private System.Windows.Forms.ComboBox comboBox_Language;
         private System.Windows.Forms.Label label356;
-        private System.Windows.Forms.CheckBox checkBox_JsonWarnings;
+        private DarkCheckBox checkBox_JsonWarnings;
         private System.Windows.Forms.RadioButton radioButton_GTS2;
         private DarkButton button_Reset;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_XY_InTable;
@@ -19018,10 +19035,10 @@
         private System.Windows.Forms.Label label412;
         private System.Windows.Forms.ColorDialog colorDialog_Pulse;
         private System.Windows.Forms.ColorDialog colorDialog_Calories;
-        private System.Windows.Forms.CheckBox checkBox_Show_Shortcuts;
+        private DarkCheckBox checkBox_Show_Shortcuts;
         private DarkGroupBox groupBox8;
-        private System.Windows.Forms.CheckBox checkBox_Shortcuts_Area;
-        private System.Windows.Forms.CheckBox checkBox_Shortcuts_Border;
+        private DarkCheckBox checkBox_Shortcuts_Area;
+        private DarkCheckBox checkBox_Shortcuts_Border;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_XY_InAnimationTable;
         private System.Windows.Forms.ToolStripMenuItem вставитьНачальныеКоординатыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вставитьКонечныеКоординатыToolStripMenuItem;
@@ -19029,7 +19046,7 @@
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem1;
-        public System.Windows.Forms.CheckBox checkBox_crop;
+        public DarkCheckBox checkBox_crop;
         private System.Windows.Forms.LinkLabel linkLabel_resunpacker_qzip;
         private System.Windows.Forms.PictureBox pictureBox_Preview;
         private System.Windows.Forms.TabPage tabPageConverting;
@@ -19050,10 +19067,10 @@
         private System.Windows.Forms.Label label488;
         private System.Windows.Forms.Label label487;
         private System.Windows.Forms.Label label486;
-        private System.Windows.Forms.CheckBox checkBox_CircleScaleImage;
+        private DarkCheckBox checkBox_CircleScaleImage;
         private DarkButton button_RefreshPreview;
         private DarkButton button_CreatePreview;
-        private System.Windows.Forms.CheckBox checkBox_ShowIn12hourFormat;
+        private DarkCheckBox checkBox_ShowIn12hourFormat;
         private System.Windows.Forms.TabPage tabPage_Edit;
         private DarkButton button_OpenDir;
         private System.Windows.Forms.SplitContainer splitContainer1;
@@ -19084,7 +19101,7 @@
         private System.Windows.Forms.Label label507;
         private System.Windows.Forms.ComboBox comboBox_Hour_separator;
         private System.Windows.Forms.Label label506;
-        private System.Windows.Forms.CheckBox checkBox_Hour_Use;
+        private DarkCheckBox checkBox_Hour_Use;
         private System.Windows.Forms.Label label511;
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_unitX;
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_unitY;
@@ -19092,16 +19109,16 @@
         private System.Windows.Forms.Label label510;
         private System.Windows.Forms.Label label508;
         private System.Windows.Forms.Panel panel_Hour;
-        private System.Windows.Forms.CheckBox checkBox_Hour_add_zero;
+        private DarkCheckBox checkBox_Hour_add_zero;
         private DarkButton button_Hour;
         private System.Windows.Forms.Panel panel_Minute;
-        private System.Windows.Forms.CheckBox checkBox_Minute_add_zero;
-        private System.Windows.Forms.CheckBox checkBox_Minute_Use;
+        private DarkCheckBox checkBox_Minute_add_zero;
+        private DarkCheckBox checkBox_Minute_Use;
         private System.Windows.Forms.Label label512;
         private System.Windows.Forms.Label label513;
         private System.Windows.Forms.ComboBox comboBox_Minute_image;
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_unitX;
-        private System.Windows.Forms.CheckBox checkBox_Minute_follow;
+        private DarkCheckBox checkBox_Minute_follow;
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_unitY;
         private System.Windows.Forms.Label label514;
         private System.Windows.Forms.Label label515;
@@ -19118,13 +19135,13 @@
         private System.Windows.Forms.ComboBox comboBox_Minute_separator;
         private DarkButton button_Minute;
         private System.Windows.Forms.Panel panel_Second;
-        private System.Windows.Forms.CheckBox checkBox_Second_add_zero;
-        private System.Windows.Forms.CheckBox checkBox_Second_Use;
+        private DarkCheckBox checkBox_Second_add_zero;
+        private DarkCheckBox checkBox_Second_Use;
         private System.Windows.Forms.Label label522;
         private System.Windows.Forms.Label label523;
         private System.Windows.Forms.ComboBox comboBox_Second_image;
         private System.Windows.Forms.NumericUpDown numericUpDown_Second_unitX;
-        private System.Windows.Forms.CheckBox checkBox_Second_follow;
+        private DarkCheckBox checkBox_Second_follow;
         private System.Windows.Forms.NumericUpDown numericUpDown_Second_unitY;
         private System.Windows.Forms.Label label524;
         private System.Windows.Forms.Label label525;
@@ -19165,7 +19182,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_handX;
         private System.Windows.Forms.ComboBox comboBox_Hour_hand_imageCentr;
         private System.Windows.Forms.Label label542;
-        private System.Windows.Forms.CheckBox checkBox_Hour_hand_Use;
+        private DarkCheckBox checkBox_Hour_hand_Use;
         private System.Windows.Forms.Panel panel_Second_hand;
         private System.Windows.Forms.Label label557;
         private System.Windows.Forms.Label label558;
@@ -19186,7 +19203,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Second_handX;
         private System.Windows.Forms.ComboBox comboBox_Second_hand_imageCentr;
         private System.Windows.Forms.Label label567;
-        private System.Windows.Forms.CheckBox checkBox_Second_hand_Use;
+        private DarkCheckBox checkBox_Second_hand_Use;
         private DarkButton button_Second_hand;
         private System.Windows.Forms.Panel panel_Minute_hand;
         private System.Windows.Forms.Label label546;
@@ -19208,7 +19225,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_handX;
         private System.Windows.Forms.ComboBox comboBox_Minute_hand_imageCentr;
         private System.Windows.Forms.Label label556;
-        private System.Windows.Forms.CheckBox checkBox_Minute_hand_Use;
+        private DarkCheckBox checkBox_Minute_hand_Use;
         private DarkButton button_Minute_hand;
         private System.Windows.Forms.ComboBox comboBox_PM_image;
         private System.Windows.Forms.Label label569;
@@ -19227,8 +19244,8 @@
         private System.Windows.Forms.Label label572;
         private System.Windows.Forms.NumericUpDown numericUpDown_AM_Y;
         private System.Windows.Forms.NumericUpDown numericUpDown_AM_X;
-        private System.Windows.Forms.CheckBox checkBox_12h_Use;
-        private System.Windows.Forms.CheckBox checkBox_center_marker;
+        private DarkCheckBox checkBox_12h_Use;
+        private DarkCheckBox checkBox_center_marker;
         private DarkTabControl.DarkTabControl tabControl_time;
         private System.Windows.Forms.TabPage tabPage_Digital_time;
         private System.Windows.Forms.TabPage tabPage_Analog_time;
@@ -19240,13 +19257,13 @@
         private System.Windows.Forms.TabPage tabPage_Day_of_week;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_spacing;
         private System.Windows.Forms.Label label576;
-        private System.Windows.Forms.CheckBox checkBox_Day_add_zero;
-        private System.Windows.Forms.CheckBox checkBox_Day_Use;
+        private DarkCheckBox checkBox_Day_add_zero;
+        private DarkCheckBox checkBox_Day_Use;
         private System.Windows.Forms.Label label577;
         private System.Windows.Forms.Label label578;
         private System.Windows.Forms.ComboBox comboBox_Day_image;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_unitX;
-        private System.Windows.Forms.CheckBox checkBox_Day_follow;
+        private DarkCheckBox checkBox_Day_follow;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_unitY;
         private System.Windows.Forms.Label label579;
         private System.Windows.Forms.Label label580;
@@ -19263,13 +19280,13 @@
         private System.Windows.Forms.ComboBox comboBox_Day_separator;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_spacing;
         private System.Windows.Forms.Label label587;
-        private System.Windows.Forms.CheckBox checkBox_Month_add_zero;
-        private System.Windows.Forms.CheckBox checkBox_Month_Use;
+        private DarkCheckBox checkBox_Month_add_zero;
+        private DarkCheckBox checkBox_Month_Use;
         private System.Windows.Forms.Label label588;
         private System.Windows.Forms.Label label589;
         private System.Windows.Forms.ComboBox comboBox_Month_image;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_unitX;
-        private System.Windows.Forms.CheckBox checkBox_Month_follow;
+        private DarkCheckBox checkBox_Month_follow;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_unitY;
         private System.Windows.Forms.Label label590;
         private System.Windows.Forms.Label label591;
@@ -19286,8 +19303,8 @@
         private System.Windows.Forms.ComboBox comboBox_Month_separator;
         private System.Windows.Forms.NumericUpDown numericUpDown_Year_spacing;
         private System.Windows.Forms.Label label598;
-        private System.Windows.Forms.CheckBox checkBox_Year_add_zero;
-        private System.Windows.Forms.CheckBox checkBox_Year_text_Use;
+        private DarkCheckBox checkBox_Year_add_zero;
+        private DarkCheckBox checkBox_Year_text_Use;
         private System.Windows.Forms.Label label599;
         private System.Windows.Forms.Label label600;
         private System.Windows.Forms.ComboBox comboBox_Year_image;
@@ -19313,7 +19330,7 @@
         private DarkButton button_Month_text;
         private System.Windows.Forms.Panel panel_Month_pictures;
         private System.Windows.Forms.Label label613;
-        private System.Windows.Forms.CheckBox checkBox_Month_pictures_Use;
+        private DarkCheckBox checkBox_Month_pictures_Use;
         private System.Windows.Forms.Label label614;
         private System.Windows.Forms.ComboBox comboBox_Month_pictures_image;
         private System.Windows.Forms.Label label615;
@@ -19353,7 +19370,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_handX;
         private System.Windows.Forms.ComboBox comboBox_Day_hand_imageCentr;
         private System.Windows.Forms.Label label623;
-        private System.Windows.Forms.CheckBox checkBox_Day_hand_Use;
+        private DarkCheckBox checkBox_Day_hand_Use;
         private DarkButton button_Day_hand;
         private System.Windows.Forms.Panel panel_Month_hand;
         private System.Windows.Forms.Label label626;
@@ -19379,7 +19396,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_handX;
         private System.Windows.Forms.ComboBox comboBox_Month_hand_imageCentr;
         private System.Windows.Forms.Label label638;
-        private System.Windows.Forms.CheckBox checkBox_Month_hand_Use;
+        private DarkCheckBox checkBox_Month_hand_Use;
         private System.Windows.Forms.Panel panel_DOW_hand;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_hand_endAngle;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_hand_startAngle;
@@ -19391,7 +19408,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_handY;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_handX;
         private System.Windows.Forms.ComboBox comboBox_DOW_hand_imageCentr;
-        private System.Windows.Forms.CheckBox checkBox_DOW_hand_Use;
+        private DarkCheckBox checkBox_DOW_hand_Use;
         private System.Windows.Forms.Label label643;
         private System.Windows.Forms.Label label644;
         private System.Windows.Forms.Label label645;
@@ -19408,7 +19425,7 @@
         private DarkButton button_DOW_hand;
         private System.Windows.Forms.Panel panel_DOW_image;
         private System.Windows.Forms.Label label639;
-        private System.Windows.Forms.CheckBox checkBox_DOW_pictures_Use;
+        private DarkCheckBox checkBox_DOW_pictures_Use;
         private System.Windows.Forms.Label label640;
         private System.Windows.Forms.ComboBox comboBox_DOW_pictures_image;
         private System.Windows.Forms.Label label641;
@@ -19421,7 +19438,7 @@
         private DarkGroupBox groupBox_Bluetooth;
         private System.Windows.Forms.TabPage tabPage_Battery;
         private DarkGroupBox groupBox_Lock;
-        private System.Windows.Forms.CheckBox checkBox_Lock_Use;
+        private DarkCheckBox checkBox_Lock_Use;
         private System.Windows.Forms.Label label660;
         private System.Windows.Forms.Label label661;
         private System.Windows.Forms.ComboBox comboBox_Lock_image;
@@ -19429,7 +19446,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_LockY;
         private System.Windows.Forms.Label label662;
         private System.Windows.Forms.Label label663;
-        private System.Windows.Forms.CheckBox checkBox_Bluetooth_Use;
+        private DarkCheckBox checkBox_Bluetooth_Use;
         private System.Windows.Forms.Label label656;
         private System.Windows.Forms.Label label657;
         private System.Windows.Forms.ComboBox comboBox_Bluetooth_image;
@@ -19438,7 +19455,7 @@
         private System.Windows.Forms.Label label658;
         private System.Windows.Forms.Label label659;
         private DarkGroupBox groupBox_DND;
-        private System.Windows.Forms.CheckBox checkBox_DND_Use;
+        private DarkCheckBox checkBox_DND_Use;
         private System.Windows.Forms.Label label668;
         private System.Windows.Forms.Label label669;
         private System.Windows.Forms.ComboBox comboBox_DND_image;
@@ -19447,7 +19464,7 @@
         private System.Windows.Forms.Label label670;
         private System.Windows.Forms.Label label671;
         private DarkGroupBox groupBox_Alarm;
-        private System.Windows.Forms.CheckBox checkBox_Alarm_Use;
+        private DarkCheckBox checkBox_Alarm_Use;
         private System.Windows.Forms.Label label664;
         private System.Windows.Forms.Label label665;
         private System.Windows.Forms.ComboBox comboBox_Alarm_image;
@@ -19501,10 +19518,10 @@
         private System.Windows.Forms.RadioButton radioButton_ScreenIdle;
         private System.Windows.Forms.RadioButton radioButton_ScreenNormal;
         private DarkButton button_RandomPreview;
-        private System.Windows.Forms.CheckBox checkBox_SaveID;
+        private DarkCheckBox checkBox_SaveID;
         private DarkButton button_GenerateID;
         private System.Windows.Forms.TextBox textBox_WatchfaceID;
-        private System.Windows.Forms.CheckBox checkBox_UseID;
+        private DarkCheckBox checkBox_UseID;
         private System.Windows.Forms.ToolTip toolTip_Weather;
         private DarkTabControl.DarkTabControl tabControl_EditParameters_AOD;
         private System.Windows.Forms.TabPage tabPage_Background_AOD;
@@ -19514,7 +19531,7 @@
         private DarkTabControl.DarkTabControl tabControl_time_AOD;
         private System.Windows.Forms.TabPage tabPage_Digital_time_AOD;
         private System.Windows.Forms.Panel panel_AM_PM_AOD;
-        private System.Windows.Forms.CheckBox checkBox_12h_Use_AOD;
+        private DarkCheckBox checkBox_12h_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_AM_Y_AOD;
         private System.Windows.Forms.Label label285;
         private System.Windows.Forms.Label label286;
@@ -19532,13 +19549,13 @@
         private System.Windows.Forms.Panel panel_Minute_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_spacing_AOD;
         private System.Windows.Forms.Label label306;
-        private System.Windows.Forms.CheckBox checkBox_Minute_add_zero_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Minute_Use_AOD;
+        private DarkCheckBox checkBox_Minute_add_zero_AOD;
+        private DarkCheckBox checkBox_Minute_Use_AOD;
         private System.Windows.Forms.Label label307;
         private System.Windows.Forms.Label label308;
         private System.Windows.Forms.ComboBox comboBox_Minute_image_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_unitX_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Minute_follow_AOD;
+        private DarkCheckBox checkBox_Minute_follow_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_unitY_AOD;
         private System.Windows.Forms.Label label309;
         private System.Windows.Forms.Label label310;
@@ -19557,8 +19574,8 @@
         private System.Windows.Forms.Panel panel_Hour_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_spacing_AOD;
         private System.Windows.Forms.Label label317;
-        private System.Windows.Forms.CheckBox checkBox_Hour_add_zero_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Hour_Use_AOD;
+        private DarkCheckBox checkBox_Hour_add_zero_AOD;
+        private DarkCheckBox checkBox_Hour_Use_AOD;
         private System.Windows.Forms.Label label318;
         private System.Windows.Forms.Label label319;
         private System.Windows.Forms.ComboBox comboBox_Hour_image_AOD;
@@ -19599,7 +19616,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Minute_handX_AOD;
         private System.Windows.Forms.ComboBox comboBox_Minute_hand_imageCentr_AOD;
         private System.Windows.Forms.Label label349;
-        private System.Windows.Forms.CheckBox checkBox_Minute_hand_Use_AOD;
+        private DarkCheckBox checkBox_Minute_hand_Use_AOD;
         private DarkButton button_Minute_hand_AOD;
         private System.Windows.Forms.Panel panel_Hour_hand_AOD;
         private System.Windows.Forms.Label label350;
@@ -19621,7 +19638,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Hour_handX_AOD;
         private System.Windows.Forms.ComboBox comboBox_Hour_hand_imageCentr_AOD;
         private System.Windows.Forms.Label label362;
-        private System.Windows.Forms.CheckBox checkBox_Hour_hand_Use_AOD;
+        private DarkCheckBox checkBox_Hour_hand_Use_AOD;
         private DarkButton button_Hour_hand_AOD;
         private System.Windows.Forms.TabPage tabPage_Date_AOD;
         private DarkTabControl.DarkTabControl tabControl_date_AOD;
@@ -19644,7 +19661,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_handY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_handX_AOD;
         private System.Windows.Forms.ComboBox comboBox_Day_hand_imageCentr_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Day_hand_Use_AOD;
+        private DarkCheckBox checkBox_Day_hand_Use_AOD;
         private System.Windows.Forms.Label label367;
         private System.Windows.Forms.Label label368;
         private System.Windows.Forms.Label label369;
@@ -19660,12 +19677,12 @@
         private System.Windows.Forms.Label label379;
         private DarkButton button_Day_hand_AOD;
         private System.Windows.Forms.Panel panel_Day_text_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Day_Use_AOD;
+        private DarkCheckBox checkBox_Day_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_spacing_AOD;
         private System.Windows.Forms.ComboBox comboBox_Day_separator_AOD;
         private System.Windows.Forms.Label label380;
         private System.Windows.Forms.Label label381;
-        private System.Windows.Forms.CheckBox checkBox_Day_add_zero_AOD;
+        private DarkCheckBox checkBox_Day_add_zero_AOD;
         private System.Windows.Forms.Label label382;
         private System.Windows.Forms.ComboBox comboBox_Day_alignment_AOD;
         private System.Windows.Forms.Label label383;
@@ -19676,7 +19693,7 @@
         private System.Windows.Forms.Label label386;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_unitX_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DayX_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Day_follow_AOD;
+        private DarkCheckBox checkBox_Day_follow_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DayY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Day_unitY_AOD;
         private System.Windows.Forms.Label label387;
@@ -19703,7 +19720,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_handY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_handX_AOD;
         private System.Windows.Forms.ComboBox comboBox_Month_hand_imageCentr_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Month_hand_Use_AOD;
+        private DarkCheckBox checkBox_Month_hand_Use_AOD;
         private System.Windows.Forms.Label label395;
         private System.Windows.Forms.Label label396;
         private System.Windows.Forms.Label label397;
@@ -19719,12 +19736,12 @@
         private System.Windows.Forms.Label label416;
         private DarkButton button_Month_hand_AOD;
         private System.Windows.Forms.Panel panel_Month_text_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Month_Use_AOD;
+        private DarkCheckBox checkBox_Month_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_spacing_AOD;
         private System.Windows.Forms.ComboBox comboBox_Month_separator_AOD;
         private System.Windows.Forms.Label label417;
         private System.Windows.Forms.Label label418;
-        private System.Windows.Forms.CheckBox checkBox_Month_add_zero_AOD;
+        private DarkCheckBox checkBox_Month_add_zero_AOD;
         private System.Windows.Forms.Label label419;
         private System.Windows.Forms.ComboBox comboBox_Month_alignment_AOD;
         private System.Windows.Forms.Label label420;
@@ -19735,7 +19752,7 @@
         private System.Windows.Forms.Label label423;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_unitX_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_MonthX_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Month_follow_AOD;
+        private DarkCheckBox checkBox_Month_follow_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_MonthY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Month_unitY_AOD;
         private System.Windows.Forms.Label label424;
@@ -19745,7 +19762,7 @@
         private DarkButton button_Month_text_AOD;
         private System.Windows.Forms.Panel panel_Month_pictures_AOD;
         private System.Windows.Forms.Label label428;
-        private System.Windows.Forms.CheckBox checkBox_Month_pictures_Use_AOD;
+        private DarkCheckBox checkBox_Month_pictures_Use_AOD;
         private System.Windows.Forms.Label label429;
         private System.Windows.Forms.ComboBox comboBox_Month_pictures_image_AOD;
         private System.Windows.Forms.Label label430;
@@ -19757,12 +19774,12 @@
         private System.Windows.Forms.Panel panel16;
         private DarkButton button13;
         private System.Windows.Forms.Panel panel_Year_text_AOD;
-        private System.Windows.Forms.CheckBox checkBox_Year_text_Use_AOD;
+        private DarkCheckBox checkBox_Year_text_Use_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_Year_spacing_AOD;
         private System.Windows.Forms.ComboBox comboBox_Year_separator_AOD;
         private System.Windows.Forms.Label label432;
         private System.Windows.Forms.Label label433;
-        private System.Windows.Forms.CheckBox checkBox_Year_add_zero_AOD;
+        private DarkCheckBox checkBox_Year_add_zero_AOD;
         private System.Windows.Forms.Label label434;
         private System.Windows.Forms.ComboBox comboBox_Year_alignment_AOD;
         private System.Windows.Forms.Label label435;
@@ -19799,7 +19816,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_handY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_handX_AOD;
         private System.Windows.Forms.ComboBox comboBox_DOW_hand_imageCentr_AOD;
-        private System.Windows.Forms.CheckBox checkBox_DOW_hand_Use_AOD;
+        private DarkCheckBox checkBox_DOW_hand_Use_AOD;
         private System.Windows.Forms.Label label447;
         private System.Windows.Forms.Label label448;
         private System.Windows.Forms.Label label449;
@@ -19815,7 +19832,7 @@
         private System.Windows.Forms.Label label459;
         private DarkButton button_DOW_hand_AOD;
         private System.Windows.Forms.Panel panel_DOW_image_AOD;
-        private System.Windows.Forms.CheckBox checkBox_DOW_pictures_Use_AOD;
+        private DarkCheckBox checkBox_DOW_pictures_Use_AOD;
         private System.Windows.Forms.ComboBox comboBox_DOW_pictures_image_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesY_AOD;
         private System.Windows.Forms.NumericUpDown numericUpDown_DOW_picturesX_AOD;
@@ -20169,8 +20186,8 @@
         private System.Windows.Forms.Label label_SNL_Date;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Month;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Year;
-        private System.Windows.Forms.CheckBox checkBox_Year_follow;
-        private System.Windows.Forms.CheckBox checkBox_Year_follow_AOD;
+        private DarkCheckBox checkBox_Year_follow;
+        private DarkCheckBox checkBox_Year_follow_AOD;
         private UserControl_SystemFont_GroupTime userControl_SystemFont_GroupTime_AOD;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Day_AOD;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Month_AOD;
@@ -20189,7 +20206,7 @@
         private DarkButton button_AODL_Activity_Up;
         private DarkButton button_AODL_Activity_Down;
         private DarkGroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox_WatchSkin_Use;
+        private DarkCheckBox checkBox_WatchSkin_Use;
         private DarkButton button_WatchSkin_PathGet;
         private System.Windows.Forms.TextBox textBox_WatchSkin_Path;
         private System.Windows.Forms.DataGridViewTextBoxColumn ActivityID;
@@ -20227,7 +20244,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox_WidgetsUnderMask;
         private System.Windows.Forms.Label label01;
-        private System.Windows.Forms.CheckBox checkBox_WidgetsArea;
+        private DarkCheckBox checkBox_WidgetsArea;
         private DarkButton button_WidgetElementDel;
         private System.Windows.Forms.ComboBox comboBox_WidgetBorderInactiv;
         private System.Windows.Forms.Label label10;
@@ -20287,7 +20304,7 @@
         private DarkButton button_Widget_Date_Start;
         private DarkButton button_Widget_Date_Up;
         private DarkButton button_Widget_Date_Down;
-        private System.Windows.Forms.CheckBox checkBox_TimeOnWidgetEdit;
+        private DarkCheckBox checkBox_TimeOnWidgetEdit;
         private DarkGroupBox groupBox_WidgetTypeAdd;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.RadioButton radioButton_StepsWidgetAdd;
@@ -20422,9 +20439,9 @@
         private UserControl_segments userControl_segments_Battery_AOD;
         private UserControl_segments userControl_segmentsWidget;
         private UserControl_segments userControl_segmentsWidgetAdd;
-        private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix;
-        private System.Windows.Forms.CheckBox checkBox_weatherAlignmentFix_AOD;
-        private System.Windows.Forms.CheckBox checkBox_AllWidgetsInGif;
+        private DarkCheckBox checkBox_weatherAlignmentFix;
+        private DarkCheckBox checkBox_weatherAlignmentFix_AOD;
+        private DarkCheckBox checkBox_AllWidgetsInGif;
         private System.Windows.Forms.TabPage tabPage6;
     }
 }

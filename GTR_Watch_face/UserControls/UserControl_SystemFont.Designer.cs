@@ -40,17 +40,17 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_SystemFont = new System.Windows.Forms.Panel();
-            this.checkBox_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_Use = new DarkCheckBox();
             this.numericUpDown_SystemFontX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFontY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFont_size = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFont_spacing = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFont_angle = new System.Windows.Forms.NumericUpDown();
             this.comboBox_SystemFont_color = new System.Windows.Forms.ComboBox();
-            this.checkBox_SystemFont_unit = new System.Windows.Forms.CheckBox();
-            this.checkBox_addZero = new System.Windows.Forms.CheckBox();
-            this.checkBox_follow = new System.Windows.Forms.CheckBox();
-            this.checkBox_separator = new System.Windows.Forms.CheckBox();
+            this.checkBox_SystemFont_unit = new DarkCheckBox();
+            this.checkBox_addZero = new DarkCheckBox();
+            this.checkBox_follow = new DarkCheckBox();
+            this.checkBox_separator = new DarkCheckBox();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label03 = new System.Windows.Forms.Label();
@@ -373,11 +373,11 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemX;
         private System.Windows.Forms.Panel panel_SystemFont;
-        internal System.Windows.Forms.CheckBox checkBox_Use;
+        internal DarkCheckBox checkBox_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFontX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFontY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFont_angle;
-        public System.Windows.Forms.CheckBox checkBox_addZero;
+        public DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label03;
         protected System.Windows.Forms.Label label06;
@@ -390,8 +390,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ComboBox comboBox_SystemFont_color;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFont_spacing;
         private System.Windows.Forms.Label label04;
-        public System.Windows.Forms.CheckBox checkBox_follow;
-        public System.Windows.Forms.CheckBox checkBox_separator;
-        public System.Windows.Forms.CheckBox checkBox_SystemFont_unit;
+        public DarkCheckBox checkBox_follow;
+        public DarkCheckBox checkBox_separator;
+        public DarkCheckBox checkBox_SystemFont_unit;
     }
 }

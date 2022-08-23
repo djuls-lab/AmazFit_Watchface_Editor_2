@@ -40,7 +40,7 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_scaleCircle = new System.Windows.Forms.Panel();
-            this.checkBox_scaleCircle_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_scaleCircle_Use = new DarkCheckBox();
             this.radioButton_scaleCircle_image = new System.Windows.Forms.RadioButton();
             this.radioButton_scaleCircle_color = new System.Windows.Forms.RadioButton();
             this.comboBox_scaleCircle_image = new System.Windows.Forms.ComboBox();
@@ -456,7 +456,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label09;
         private DarkButton button_Copy_scaleCircle;
         private DarkButton button_scaleCircle;
-        internal System.Windows.Forms.CheckBox checkBox_scaleCircle_Use;
+        internal DarkCheckBox checkBox_scaleCircle_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_radius;

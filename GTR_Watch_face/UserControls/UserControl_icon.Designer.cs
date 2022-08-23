@@ -32,7 +32,7 @@ namespace AmazFit_Watchface_2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_icon));
             this.panel_icon = new System.Windows.Forms.Panel();
-            this.checkBox_icon_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_icon_Use = new DarkCheckBox();
             this.comboBox_icon_image = new System.Windows.Forms.ComboBox();
             this.comboBox_icon_image2 = new System.Windows.Forms.ComboBox();
             this.numericUpDown_iconX = new System.Windows.Forms.NumericUpDown();
@@ -283,6 +283,6 @@ namespace AmazFit_Watchface_2
         public System.Windows.Forms.ComboBox comboBox_icon_image2;
         private System.Windows.Forms.Label label06;
         public DarkButton button_icon;
-        internal System.Windows.Forms.CheckBox checkBox_icon_Use;
+        internal DarkCheckBox checkBox_icon_Use;
     }
 }

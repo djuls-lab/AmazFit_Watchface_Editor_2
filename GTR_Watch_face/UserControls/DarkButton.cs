@@ -14,7 +14,7 @@ namespace AmazFit_Watchface_2
     public class DarkButton : Button
     {
         private Color _backColor = Color.FromArgb(64, 64, 64);
-        private Color _borderColor = Color.DimGray;
+        private Color _borderColor = Color.FromArgb(40, 43, 45); // Color.DimGray;
         private int _borderRadius = 4;
         private float _borderThickness = 1.0F;
         private int _imagePadding = 5;

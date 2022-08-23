@@ -35,7 +35,7 @@ namespace AmazFit_Watchface_2
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_pictures = new System.Windows.Forms.Panel();
-            this.checkBox_pictures_Use = new System.Windows.Forms.CheckBox();
+            this.checkBox_pictures_Use = new DarkCheckBox();
             this.comboBox_pictures_image = new System.Windows.Forms.ComboBox();
             this.dataGridView_coordinates_set = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -233,8 +233,7 @@ namespace AmazFit_Watchface_2
             this.label02.Name = "label02";
             // 
             // button_Copy_pictures
-            // 
-            this.button_Copy_pictures.BorderColor = System.Drawing.Color.DimGray;
+            //            
             this.button_Copy_pictures.BorderRadius = 4;
             this.button_Copy_pictures.BorderThickness = 1F;
             this.button_Copy_pictures.ImagePadding = 5;
@@ -244,8 +243,7 @@ namespace AmazFit_Watchface_2
             this.button_Copy_pictures.Click += new System.EventHandler(this.button_Copy_pictures_Click);
             // 
             // button_pictures
-            // 
-            this.button_pictures.BorderColor = System.Drawing.Color.DimGray;
+            //
             this.button_pictures.BorderRadius = 4;
             this.button_pictures.BorderThickness = 1F;
             resources.ApplyResources(this.button_pictures, "button_pictures");
@@ -284,7 +282,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem;
-        internal System.Windows.Forms.CheckBox checkBox_pictures_Use;
+        internal DarkCheckBox checkBox_pictures_Use;
         public System.Windows.Forms.ComboBox comboBox_pictures_image;
         private System.Windows.Forms.Label label01;
         private DarkButton button_Copy_pictures;
