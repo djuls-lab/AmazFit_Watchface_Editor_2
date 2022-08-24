@@ -37,7 +37,7 @@ namespace AmazFit_Watchface_2
             this.userControl_SystemFont_weather_Max = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
             this.userControl_SystemFont_weather_Min = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
             this.userControl_SystemFont_weather_Current = new AmazFit_Watchface_2.UserControl_SystemFont_weather();
-            this.button_SystemFont = new DarkButton();
+            this.button_SystemFont = new DarkControls.DarkButton();
             this.panel_SystemFont.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,7 +154,7 @@ namespace AmazFit_Watchface_2
         }
 
         #endregion
-        protected DarkButton button_SystemFont;
+        protected DarkControls.DarkButton button_SystemFont;
         public UserControl_SystemFont_weather userControl_SystemFont_weather_Current;
         public UserControl_FontRotate_weather userControl_FontRotate_weather_Max;
         public UserControl_FontRotate_weather userControl_FontRotate_weather_Min;

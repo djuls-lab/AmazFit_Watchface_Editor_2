@@ -31,11 +31,11 @@ namespace AmazFit_Watchface_2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_preview));
             this.panel_preview = new System.Windows.Forms.Panel();
-            this.button_RefreshPreview = new DarkButton();
-            this.button_CreatePreview = new DarkButton();
+            this.button_RefreshPreview = new DarkControls.DarkButton();
+            this.button_CreatePreview = new DarkControls.DarkButton();
             this.comboBox_image = new System.Windows.Forms.ComboBox();
             this.label01 = new System.Windows.Forms.Label();
-            this.button_preview = new DarkButton();
+            this.button_preview = new DarkControls.DarkButton();
             this.panel_preview.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,8 +107,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Panel panel_preview;
         public System.Windows.Forms.ComboBox comboBox_image;
         private System.Windows.Forms.Label label01;
-        public DarkButton button_preview;
-        private DarkButton button_CreatePreview;
-        private DarkButton button_RefreshPreview;
+        public DarkControls.DarkButton button_preview;
+        private DarkControls.DarkButton button_CreatePreview;
+        private DarkControls.DarkButton button_RefreshPreview;
     }
 }

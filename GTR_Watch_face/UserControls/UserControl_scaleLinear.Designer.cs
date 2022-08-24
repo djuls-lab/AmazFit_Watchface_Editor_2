@@ -32,7 +32,7 @@ namespace AmazFit_Watchface_2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_scaleLinear));
             this.panel_scaleLinear = new System.Windows.Forms.Panel();
-            this.checkBox_scaleLinear_Use = new DarkCheckBox();
+            this.checkBox_scaleLinear_Use = new DarkControls.DarkCheckBox();
             this.radioButton_scaleLinear_image = new System.Windows.Forms.RadioButton();
             this.radioButton_scaleLinear_color = new System.Windows.Forms.RadioButton();
             this.comboBox_scaleLinear_image = new System.Windows.Forms.ComboBox();
@@ -60,8 +60,8 @@ namespace AmazFit_Watchface_2
             this.label05 = new System.Windows.Forms.Label();
             this.label07 = new System.Windows.Forms.Label();
             this.label08 = new System.Windows.Forms.Label();
-            this.button_Copy_scaleLinear = new DarkButton();
-            this.button_scaleLinear = new DarkButton();
+            this.button_Copy_scaleLinear = new DarkControls.DarkButton();
+            this.button_scaleLinear = new DarkControls.DarkButton();
             this.panel_scaleLinear.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_scaleLinearX)).BeginInit();
             this.contextMenuStrip_X.SuspendLayout();
@@ -408,8 +408,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label05;
         private System.Windows.Forms.Label label07;
         private System.Windows.Forms.Label label08;
-        private DarkButton button_Copy_scaleLinear;
-        private DarkButton button_scaleLinear;
+        private DarkControls.DarkButton button_Copy_scaleLinear;
+        private DarkControls.DarkButton button_scaleLinear;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
@@ -420,7 +420,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         internal System.Windows.Forms.RadioButton radioButton_scaleLinear_image;
         internal System.Windows.Forms.RadioButton radioButton_scaleLinear_color;
-        internal DarkCheckBox checkBox_scaleLinear_Use;
+        internal DarkControls.DarkCheckBox checkBox_scaleLinear_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinear_length;

@@ -32,7 +32,7 @@ namespace AmazFit_Watchface_2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_icon));
             this.panel_icon = new System.Windows.Forms.Panel();
-            this.checkBox_icon_Use = new DarkCheckBox();
+            this.checkBox_icon_Use = new DarkControls.DarkCheckBox();
             this.comboBox_icon_image = new System.Windows.Forms.ComboBox();
             this.comboBox_icon_image2 = new System.Windows.Forms.ComboBox();
             this.numericUpDown_iconX = new System.Windows.Forms.NumericUpDown();
@@ -50,8 +50,8 @@ namespace AmazFit_Watchface_2
             this.label04 = new System.Windows.Forms.Label();
             this.label05 = new System.Windows.Forms.Label();
             this.label06 = new System.Windows.Forms.Label();
-            this.button_Copy_icon = new DarkButton();
-            this.button_icon = new DarkButton();
+            this.button_Copy_icon = new DarkControls.DarkButton();
+            this.button_icon = new DarkControls.DarkButton();
             this.panel_icon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_iconX)).BeginInit();
             this.contextMenuStrip_X.SuspendLayout();
@@ -271,7 +271,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label04;
         private System.Windows.Forms.Label label05;
-        private DarkButton button_Copy_icon;
+        private DarkControls.DarkButton button_Copy_icon;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
@@ -282,7 +282,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         public System.Windows.Forms.ComboBox comboBox_icon_image2;
         private System.Windows.Forms.Label label06;
-        public DarkButton button_icon;
-        internal DarkCheckBox checkBox_icon_Use;
+        public DarkControls.DarkButton button_icon;
+        internal DarkControls.DarkCheckBox checkBox_icon_Use;
     }
 }

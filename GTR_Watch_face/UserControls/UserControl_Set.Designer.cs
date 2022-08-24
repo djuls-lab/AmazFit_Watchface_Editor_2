@@ -30,7 +30,7 @@ namespace AmazFit_Watchface_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_Set));
-            this.groupBox_Air = new AmazFit_Watchface_2.DarkGroupBox();
+            this.groupBox_Air = new DarkControls.DarkGroupBox();
             this.label22 = new System.Windows.Forms.Label();
             this.numericUpDown_AirPressure_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Altitude_Set = new System.Windows.Forms.NumericUpDown();
@@ -42,7 +42,7 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_WeatherSet_MinTemp = new System.Windows.Forms.NumericUpDown();
             this.comboBox_WeatherSet_Icon = new System.Windows.Forms.ComboBox();
             this.numericUpDown_WeatherSet_MaxTemp = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_WeatherSet_Temp = new DarkCheckBox();
+            this.checkBox_WeatherSet_Temp = new DarkControls.DarkCheckBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -51,15 +51,15 @@ namespace AmazFit_Watchface_2
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.groupBox_Activity = new AmazFit_Watchface_2.DarkGroupBox();
-            this.checkBox_DND_Set = new DarkCheckBox();
-            this.checkBox_Lock_Set = new DarkCheckBox();
-            this.checkBox_Alarm_Set = new DarkCheckBox();
+            this.groupBox_Activity = new DarkControls.DarkGroupBox();
+            this.checkBox_DND_Set = new DarkControls.DarkCheckBox();
+            this.checkBox_Lock_Set = new DarkControls.DarkCheckBox();
+            this.checkBox_Alarm_Set = new DarkControls.DarkCheckBox();
             this.numericUpDown_FatBurning_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Stress_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_StandUp_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_PAI_Set = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_Bluetooth_Set = new DarkCheckBox();
+            this.checkBox_Bluetooth_Set = new DarkControls.DarkCheckBox();
             this.numericUpDown_Goal_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Steps_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_HeartRate_Set = new System.Windows.Forms.NumericUpDown();
@@ -80,7 +80,7 @@ namespace AmazFit_Watchface_2
             this.label03 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label01 = new System.Windows.Forms.Label();
-            this.button_Set = new AmazFit_Watchface_2.DarkButton();
+            this.button_Set = new DarkControls.DarkButton();
             this.groupBox_Air.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AirPressure_Set)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Altitude_Set)).BeginInit();
@@ -716,7 +716,7 @@ namespace AmazFit_Watchface_2
 
         #endregion
 
-        private DarkGroupBox groupBox_Air;
+        private DarkControls.DarkGroupBox groupBox_Air;
         private System.Windows.Forms.NumericUpDown numericUpDown_AirPressure_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Altitude_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_WindForce;
@@ -729,15 +729,15 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private DarkGroupBox groupBox_Activity;
-        private DarkCheckBox checkBox_DND_Set;
-        private DarkCheckBox checkBox_Lock_Set;
-        private DarkCheckBox checkBox_Alarm_Set;
+        private DarkControls.DarkGroupBox groupBox_Activity;
+        private DarkControls.DarkCheckBox checkBox_DND_Set;
+        private DarkControls.DarkCheckBox checkBox_Lock_Set;
+        private DarkControls.DarkCheckBox checkBox_Alarm_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_FatBurning_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Stress_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_StandUp_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_PAI_Set;
-        private DarkCheckBox checkBox_Bluetooth_Set;
+        private DarkControls.DarkCheckBox checkBox_Bluetooth_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Goal_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_Steps_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_HeartRate_Set;
@@ -757,13 +757,13 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label03;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label01;
-        private DarkButton button_Set;
+        private DarkControls.DarkButton button_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MinTemp;
         private System.Windows.Forms.ComboBox comboBox_WeatherSet_Icon;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MaxTemp;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_Temp;
         public System.Windows.Forms.DateTimePicker dateTimePicker_Date_Set;
-        private DarkCheckBox checkBox_WeatherSet_Temp;
+        private DarkControls.DarkCheckBox checkBox_WeatherSet_Temp;
         private System.Windows.Forms.Label label22;
         internal System.Windows.Forms.NumericUpDown numericUpDown_AirQuality_Set;
         internal System.Windows.Forms.Label label16;

@@ -184,15 +184,6 @@
     <Compile Include="Classes\WatchFaceParser\WATCH_FACE_JSON.cs" />
     <Compile Include="Classes\WATCH_FACE_PREWIEV_SET.cs" />
     <Compile Include="Classes\WATCH_FACE_PREWIEV_TwoDigits.cs" />
-    <Compile Include="UserControls\DarkCheckBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="UserControls\DarkButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="UserControls\DarkGroupBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="UserControls\UserControl_pictures_weather.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -892,9 +883,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DarkTabControl\DarkTabControl\DarkTabControl.csproj">
-      <Project>{96002ca1-d295-4ed5-9b08-92346c1bfa18}</Project>
-      <Name>DarkTabControl</Name>
+    <ProjectReference Include="..\..\DarkControls\DarkControls\DarkControls.csproj">
+      <Project>{30e22f3a-bdfd-4bda-a958-f0ba23eeb395}</Project>
+      <Name>DarkControls</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

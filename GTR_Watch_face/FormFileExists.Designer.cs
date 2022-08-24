@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFileExists));
-            this.button1 = new DarkButton();
-            this.button2 = new DarkButton();
-            this.button3 = new DarkButton();
+            this.button1 = new DarkControls.DarkButton();
+            this.button2 = new DarkControls.DarkButton();
+            this.button3 = new DarkControls.DarkButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -95,9 +95,9 @@
 
         #endregion
 
-        private DarkButton button1;
-        private DarkButton button2;
-        private DarkButton button3;
+        private DarkControls.DarkButton button1;
+        private DarkControls.DarkButton button2;
+        private DarkControls.DarkButton button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;

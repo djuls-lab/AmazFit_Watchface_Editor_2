@@ -30,7 +30,7 @@ namespace AmazFit_Watchface_2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_SystemFont_Group));
-            this.button_SystemFont = new DarkButton();
+            this.button_SystemFont = new DarkControls.DarkButton();
             this.panel_SystemFont = new System.Windows.Forms.Panel();
             this.userControl_FontRotate_goal = new AmazFit_Watchface_2.UserControl_FontRotate_weather();
             this.userControl_FontRotate = new AmazFit_Watchface_2.UserControl_FontRotate();
@@ -126,7 +126,7 @@ namespace AmazFit_Watchface_2
 
         #endregion
 
-        protected DarkButton button_SystemFont;
+        protected DarkControls.DarkButton button_SystemFont;
         private System.Windows.Forms.Panel panel_SystemFont;
         public UserControl_SystemFont_weather userControl_SystemFont_goal;
         public UserControl_SystemFont userControl_SystemFont;

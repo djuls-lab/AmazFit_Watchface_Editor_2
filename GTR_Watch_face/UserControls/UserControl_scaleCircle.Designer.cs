@@ -40,7 +40,7 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_scaleCircle = new System.Windows.Forms.Panel();
-            this.checkBox_scaleCircle_Use = new DarkCheckBox();
+            this.checkBox_scaleCircle_Use = new DarkControls.DarkCheckBox();
             this.radioButton_scaleCircle_image = new System.Windows.Forms.RadioButton();
             this.radioButton_scaleCircle_color = new System.Windows.Forms.RadioButton();
             this.comboBox_scaleCircle_image = new System.Windows.Forms.ComboBox();
@@ -62,8 +62,8 @@ namespace AmazFit_Watchface_2
             this.label07 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label09 = new System.Windows.Forms.Label();
-            this.button_Copy_scaleCircle = new DarkButton();
-            this.button_scaleCircle = new DarkButton();
+            this.button_Copy_scaleCircle = new DarkControls.DarkButton();
+            this.button_scaleCircle = new DarkControls.DarkButton();
             this.contextMenuStrip_X.SuspendLayout();
             this.contextMenuStrip_Y.SuspendLayout();
             this.panel_scaleCircle.SuspendLayout();
@@ -454,9 +454,9 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label07;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label09;
-        private DarkButton button_Copy_scaleCircle;
-        private DarkButton button_scaleCircle;
-        internal DarkCheckBox checkBox_scaleCircle_Use;
+        private DarkControls.DarkButton button_Copy_scaleCircle;
+        private DarkControls.DarkButton button_scaleCircle;
+        internal DarkControls.DarkCheckBox checkBox_scaleCircle_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_radius;

@@ -31,9 +31,9 @@ namespace AmazFit_Watchface_2
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_pictures));
-            this.button_pictures = new DarkButton();
+            this.button_pictures = new DarkControls.DarkButton();
             this.panel_pictures = new System.Windows.Forms.Panel();
-            this.checkBox_pictures_Use = new DarkCheckBox();
+            this.checkBox_pictures_Use = new DarkControls.DarkCheckBox();
             this.comboBox_pictures_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_picturesX = new System.Windows.Forms.NumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -51,7 +51,7 @@ namespace AmazFit_Watchface_2
             this.label04 = new System.Windows.Forms.Label();
             this.label05 = new System.Windows.Forms.Label();
             this.label03 = new System.Windows.Forms.Label();
-            this.button_Copy_pictures = new DarkButton();
+            this.button_Copy_pictures = new DarkControls.DarkButton();
             this.panel_pictures.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_picturesX)).BeginInit();
             this.contextMenuStrip_X.SuspendLayout();
@@ -273,14 +273,14 @@ namespace AmazFit_Watchface_2
 
         #endregion
 
-        private DarkButton button_pictures;
+        private DarkControls.DarkButton button_pictures;
         private System.Windows.Forms.Panel panel_pictures;
         private System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label02;
         public System.Windows.Forms.Label label03;
         private System.Windows.Forms.Label label05;
         private System.Windows.Forms.Label label04;
-        private DarkButton button_Copy_pictures;
+        private DarkControls.DarkButton button_Copy_pictures;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
@@ -291,7 +291,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_picturesX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_picturesY;
-        internal DarkCheckBox checkBox_pictures_Use;
+        internal DarkControls.DarkCheckBox checkBox_pictures_Use;
         public System.Windows.Forms.ComboBox comboBox_pictures_image;
         public System.Windows.Forms.NumericUpDown numericUpDown_pictures_count;
     }

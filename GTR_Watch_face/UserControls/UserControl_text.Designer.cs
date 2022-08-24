@@ -31,9 +31,9 @@ namespace AmazFit_Watchface_2
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_text));
-            this.button_text = new DarkButton();
+            this.button_text = new DarkControls.DarkButton();
             this.panel_text = new System.Windows.Forms.Panel();
-            this.checkBox_Use = new DarkCheckBox();
+            this.checkBox_Use = new DarkControls.DarkCheckBox();
             this.comboBox_image = new System.Windows.Forms.ComboBox();
             this.comboBox_icon = new System.Windows.Forms.ComboBox();
             this.comboBox_unit = new System.Windows.Forms.ComboBox();
@@ -52,10 +52,10 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_iconY = new System.Windows.Forms.NumericUpDown();
             this.comboBox_alignment = new System.Windows.Forms.ComboBox();
             this.numericUpDown_spacing = new System.Windows.Forms.NumericUpDown();
-            this.checkBox_addZero = new DarkCheckBox();
+            this.checkBox_addZero = new DarkControls.DarkCheckBox();
             this.comboBox_imageError = new System.Windows.Forms.ComboBox();
             this.comboBox_imageDecimalPoint = new System.Windows.Forms.ComboBox();
-            this.checkBox_follow = new DarkCheckBox();
+            this.checkBox_follow = new DarkControls.DarkCheckBox();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label03 = new System.Windows.Forms.Label();
@@ -70,7 +70,7 @@ namespace AmazFit_Watchface_2
             this.label1084 = new System.Windows.Forms.Label();
             this.label1085 = new System.Windows.Forms.Label();
             this.label1086 = new System.Windows.Forms.Label();
-            this.button_Copy_text = new DarkButton();
+            this.button_Copy_text = new DarkControls.DarkButton();
             this.panel_text.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_imageX)).BeginInit();
             this.contextMenuStrip_X.SuspendLayout();
@@ -491,7 +491,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label03;
         private System.Windows.Forms.Label label1083;
         private System.Windows.Forms.Label label1086;
-        private DarkButton button_Copy_text;
+        private DarkControls.DarkButton button_Copy_text;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemX;
@@ -503,17 +503,17 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_spacing;
-        internal DarkCheckBox checkBox_Use;
+        internal DarkControls.DarkCheckBox checkBox_Use;
         protected System.Windows.Forms.Label label06;
         protected System.Windows.Forms.Label label07;
         protected System.Windows.Forms.Label label02;
         protected System.Windows.Forms.Label label1084;
         protected System.Windows.Forms.Label label1085;
-        protected DarkButton button_text;
+        protected DarkControls.DarkButton button_text;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_imageY;
-        public DarkCheckBox checkBox_follow;
-        public DarkCheckBox checkBox_addZero;
+        public DarkControls.DarkCheckBox checkBox_follow;
+        public DarkControls.DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label04;
         protected System.Windows.Forms.ComboBox comboBox_imageError;
         protected System.Windows.Forms.ComboBox comboBox_imageDecimalPoint;

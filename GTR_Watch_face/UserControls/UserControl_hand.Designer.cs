@@ -40,7 +40,7 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_hand = new System.Windows.Forms.Panel();
-            this.checkBox_hand_Use = new DarkCheckBox();
+            this.checkBox_hand_Use = new DarkControls.DarkCheckBox();
             this.comboBox_hand_image = new System.Windows.Forms.ComboBox();
             this.numericUpDown_handX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_handY = new System.Windows.Forms.NumericUpDown();
@@ -71,8 +71,8 @@ namespace AmazFit_Watchface_2
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button_Copy_hand = new DarkButton();
-            this.button_hand = new DarkButton();
+            this.button_Copy_hand = new DarkControls.DarkButton();
+            this.button_hand = new DarkControls.DarkButton();
             this.contextMenuStrip_Y.SuspendLayout();
             this.contextMenuStrip_X.SuspendLayout();
             this.panel_hand.SuspendLayout();
@@ -564,8 +564,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label14;
-        private DarkButton button_Copy_hand;
-        private DarkButton button_hand;
+        private DarkControls.DarkButton button_Copy_hand;
+        private DarkControls.DarkButton button_hand;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handY;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handX_offset;
@@ -576,6 +576,6 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_hand_endAngle;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handX_background;
         internal System.Windows.Forms.NumericUpDown numericUpDown_handY_background;
-        internal DarkCheckBox checkBox_hand_Use;
+        internal DarkControls.DarkCheckBox checkBox_hand_Use;
     }
 }
