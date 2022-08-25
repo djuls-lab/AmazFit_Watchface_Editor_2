@@ -40,7 +40,7 @@ namespace AmazFit_Watchface_2
             this.numericUp_UVindex_Set = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_WeatherSet_Temp = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_WeatherSet_MinTemp = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_WeatherSet_Icon = new System.Windows.Forms.ComboBox();
+            this.comboBox_WeatherSet_Icon = new DarkControls.DarkComboBox();
             this.numericUpDown_WeatherSet_MaxTemp = new System.Windows.Forms.NumericUpDown();
             this.checkBox_WeatherSet_Temp = new DarkControls.DarkCheckBox();
             this.label21 = new System.Windows.Forms.Label();
@@ -105,10 +105,7 @@ namespace AmazFit_Watchface_2
             this.SuspendLayout();
             // 
             // groupBox_Air
-            // 
-            this.groupBox_Air.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.groupBox_Air.BorderRadius = 4;
-            this.groupBox_Air.BorderThickness = 1F;
+            //
             this.groupBox_Air.Controls.Add(this.label22);
             this.groupBox_Air.Controls.Add(this.numericUpDown_AirPressure_Set);
             this.groupBox_Air.Controls.Add(this.numericUpDown_Altitude_Set);
@@ -378,10 +375,7 @@ namespace AmazFit_Watchface_2
             this.label14.Name = "label14";
             // 
             // groupBox_Activity
-            // 
-            this.groupBox_Activity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.groupBox_Activity.BorderRadius = 4;
-            this.groupBox_Activity.BorderThickness = 1F;
+            //
             this.groupBox_Activity.Controls.Add(this.checkBox_DND_Set);
             this.groupBox_Activity.Controls.Add(this.checkBox_Lock_Set);
             this.groupBox_Activity.Controls.Add(this.checkBox_Alarm_Set);
@@ -669,10 +663,7 @@ namespace AmazFit_Watchface_2
             // 
             // button_Set
             //
-            this.button_Set.BorderRadius = 4;
-            this.button_Set.BorderThickness = 1F;
             resources.ApplyResources(this.button_Set, "button_Set");
-            this.button_Set.ImagePadding = 5;
             this.button_Set.Name = "button_Set";
             this.button_Set.UseVisualStyleBackColor = true;
             this.button_Set.Click += new System.EventHandler(this.button_Set_Click);
@@ -759,7 +750,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.Label label01;
         private DarkControls.DarkButton button_Set;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MinTemp;
-        private System.Windows.Forms.ComboBox comboBox_WeatherSet_Icon;
+        private DarkControls.DarkComboBox comboBox_WeatherSet_Icon;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_MaxTemp;
         private System.Windows.Forms.NumericUpDown numericUpDown_WeatherSet_Temp;
         public System.Windows.Forms.DateTimePicker dateTimePicker_Date_Set;

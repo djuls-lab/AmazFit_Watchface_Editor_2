@@ -34,10 +34,10 @@ namespace AmazFit_Watchface_2
             this.button_text = new DarkControls.DarkButton();
             this.panel_text = new System.Windows.Forms.Panel();
             this.checkBox_Use = new DarkControls.DarkCheckBox();
-            this.comboBox_image = new System.Windows.Forms.ComboBox();
-            this.comboBox_icon = new System.Windows.Forms.ComboBox();
-            this.comboBox_unit = new System.Windows.Forms.ComboBox();
-            this.comboBox_unit_miles = new System.Windows.Forms.ComboBox();
+            this.comboBox_image = new DarkControls.DarkComboBox();
+            this.comboBox_icon = new DarkControls.DarkComboBox();
+            this.comboBox_unit = new DarkControls.DarkComboBox();
+            this.comboBox_unit_miles = new DarkControls.DarkComboBox();
             this.numericUpDown_imageX = new System.Windows.Forms.NumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,11 +50,11 @@ namespace AmazFit_Watchface_2
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDown_iconX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_iconY = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_alignment = new System.Windows.Forms.ComboBox();
+            this.comboBox_alignment = new DarkControls.DarkComboBox();
             this.numericUpDown_spacing = new System.Windows.Forms.NumericUpDown();
             this.checkBox_addZero = new DarkControls.DarkCheckBox();
-            this.comboBox_imageError = new System.Windows.Forms.ComboBox();
-            this.comboBox_imageDecimalPoint = new System.Windows.Forms.ComboBox();
+            this.comboBox_imageError = new DarkControls.DarkComboBox();
+            this.comboBox_imageDecimalPoint = new DarkControls.DarkComboBox();
             this.checkBox_follow = new DarkControls.DarkCheckBox();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
@@ -482,9 +482,9 @@ namespace AmazFit_Watchface_2
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox_image;
-        private System.Windows.Forms.ComboBox comboBox_icon;
-        private System.Windows.Forms.ComboBox comboBox_alignment;
+        private DarkControls.DarkComboBox comboBox_image;
+        private DarkControls.DarkComboBox comboBox_icon;
+        private DarkControls.DarkComboBox comboBox_alignment;
         private System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label05;
         private System.Windows.Forms.Label label09;
@@ -515,12 +515,12 @@ namespace AmazFit_Watchface_2
         public DarkControls.DarkCheckBox checkBox_follow;
         public DarkControls.DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label04;
-        protected System.Windows.Forms.ComboBox comboBox_imageError;
-        protected System.Windows.Forms.ComboBox comboBox_imageDecimalPoint;
+        protected DarkControls.DarkComboBox comboBox_imageError;
+        protected DarkControls.DarkComboBox comboBox_imageDecimalPoint;
         protected System.Windows.Forms.Panel panel_text;
-        protected System.Windows.Forms.ComboBox comboBox_unit_miles;
+        protected DarkControls.DarkComboBox comboBox_unit_miles;
         protected System.Windows.Forms.Label label10;
         protected System.Windows.Forms.Label label08;
-        protected System.Windows.Forms.ComboBox comboBox_unit;
+        protected DarkControls.DarkComboBox comboBox_unit;
     }
 }

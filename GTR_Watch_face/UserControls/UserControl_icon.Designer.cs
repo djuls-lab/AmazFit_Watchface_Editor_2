@@ -33,8 +33,8 @@ namespace AmazFit_Watchface_2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_icon));
             this.panel_icon = new System.Windows.Forms.Panel();
             this.checkBox_icon_Use = new DarkControls.DarkCheckBox();
-            this.comboBox_icon_image = new System.Windows.Forms.ComboBox();
-            this.comboBox_icon_image2 = new System.Windows.Forms.ComboBox();
+            this.comboBox_icon_image = new DarkControls.DarkComboBox();
+            this.comboBox_icon_image2 = new DarkControls.DarkComboBox();
             this.numericUpDown_iconX = new System.Windows.Forms.NumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -264,7 +264,7 @@ namespace AmazFit_Watchface_2
         #endregion
 
         private System.Windows.Forms.Panel panel_icon;
-        public System.Windows.Forms.ComboBox comboBox_icon_image;
+        public DarkControls.DarkComboBox comboBox_icon_image;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconY;
         private System.Windows.Forms.Label label01;
@@ -280,7 +280,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуYToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
-        public System.Windows.Forms.ComboBox comboBox_icon_image2;
+        public DarkControls.DarkComboBox comboBox_icon_image2;
         private System.Windows.Forms.Label label06;
         public DarkControls.DarkButton button_icon;
         internal DarkControls.DarkCheckBox checkBox_icon_Use;

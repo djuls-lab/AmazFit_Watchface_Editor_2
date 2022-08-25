@@ -49,12 +49,12 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_FontRotate_radius = new System.Windows.Forms.NumericUpDown();
             this.checkBox_addZero = new DarkControls.DarkCheckBox();
             this.checkBox_follow = new DarkControls.DarkCheckBox();
-            this.comboBox_FontRotate_color = new System.Windows.Forms.ComboBox();
+            this.comboBox_FontRotate_color = new DarkControls.DarkComboBox();
             this.checkBox_FontRotate_unit = new DarkControls.DarkCheckBox();
             this.checkBox_separator = new DarkControls.DarkCheckBox();
             this.groupBox_FontRotate_RotateDirection = new DarkControls.DarkGroupBox();
-            this.radioButton_CtrlClockwise = new System.Windows.Forms.RadioButton();
-            this.radioButton_Clockwise = new System.Windows.Forms.RadioButton();
+            this.radioButton_CtrlClockwise = new DarkControls.DarkRadioButton();
+            this.radioButton_Clockwise = new DarkControls.DarkRadioButton();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.label03 = new System.Windows.Forms.Label();
@@ -441,7 +441,7 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_size;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_spacing;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_angle;
-        private System.Windows.Forms.ComboBox comboBox_FontRotate_color;
+        private DarkControls.DarkComboBox comboBox_FontRotate_color;
         public DarkControls.DarkCheckBox checkBox_addZero;
         protected System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label02;
@@ -453,8 +453,8 @@ namespace AmazFit_Watchface_2
         private DarkControls.DarkButton button_Copy_FontRotate;
         protected DarkControls.DarkButton button_FontRotate;
         private DarkControls.DarkGroupBox groupBox_FontRotate_RotateDirection;
-        private System.Windows.Forms.RadioButton radioButton_CtrlClockwise;
-        private System.Windows.Forms.RadioButton radioButton_Clockwise;
+        private DarkControls.DarkRadioButton radioButton_CtrlClockwise;
+        private DarkControls.DarkRadioButton radioButton_Clockwise;
         internal System.Windows.Forms.NumericUpDown numericUpDown_FontRotate_radius;
         private System.Windows.Forms.Label label08;
         public DarkControls.DarkCheckBox checkBox_follow;

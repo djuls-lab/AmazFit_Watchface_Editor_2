@@ -33,12 +33,12 @@ namespace AmazFit_Watchface_2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_scaleLinear));
             this.panel_scaleLinear = new System.Windows.Forms.Panel();
             this.checkBox_scaleLinear_Use = new DarkControls.DarkCheckBox();
-            this.radioButton_scaleLinear_image = new System.Windows.Forms.RadioButton();
-            this.radioButton_scaleLinear_color = new System.Windows.Forms.RadioButton();
-            this.comboBox_scaleLinear_image = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleLinear_color = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleLinear_image_pointer = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleLinear_image_background = new System.Windows.Forms.ComboBox();
+            this.radioButton_scaleLinear_image = new DarkControls.DarkRadioButton();
+            this.radioButton_scaleLinear_color = new DarkControls.DarkRadioButton();
+            this.comboBox_scaleLinear_image = new DarkControls.DarkComboBox();
+            this.comboBox_scaleLinear_color = new DarkControls.DarkComboBox();
+            this.comboBox_scaleLinear_image_pointer = new DarkControls.DarkComboBox();
+            this.comboBox_scaleLinear_image_background = new DarkControls.DarkComboBox();
             this.numericUpDown_scaleLinearX = new System.Windows.Forms.NumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,7 +51,7 @@ namespace AmazFit_Watchface_2
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDown_scaleLinear_length = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_scaleLinear_width = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_scaleLinear_flatness = new System.Windows.Forms.ComboBox();
+            this.comboBox_scaleLinear_flatness = new DarkControls.DarkComboBox();
             this.label02 = new System.Windows.Forms.Label();
             this.label01 = new System.Windows.Forms.Label();
             this.label04 = new System.Windows.Forms.Label();
@@ -395,11 +395,11 @@ namespace AmazFit_Watchface_2
         #endregion
 
         private System.Windows.Forms.Panel panel_scaleLinear;
-        private System.Windows.Forms.ComboBox comboBox_scaleLinear_image;
-        private System.Windows.Forms.ComboBox comboBox_scaleLinear_color;
-        private System.Windows.Forms.ComboBox comboBox_scaleLinear_image_pointer;
-        private System.Windows.Forms.ComboBox comboBox_scaleLinear_image_background;
-        private System.Windows.Forms.ComboBox comboBox_scaleLinear_flatness;
+        private DarkControls.DarkComboBox comboBox_scaleLinear_image;
+        private DarkControls.DarkComboBox comboBox_scaleLinear_color;
+        private DarkControls.DarkComboBox comboBox_scaleLinear_image_pointer;
+        private DarkControls.DarkComboBox comboBox_scaleLinear_image_background;
+        private DarkControls.DarkComboBox comboBox_scaleLinear_flatness;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label04;
@@ -418,8 +418,8 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуYToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
-        internal System.Windows.Forms.RadioButton radioButton_scaleLinear_image;
-        internal System.Windows.Forms.RadioButton radioButton_scaleLinear_color;
+        internal DarkControls.DarkRadioButton radioButton_scaleLinear_image;
+        internal DarkControls.DarkRadioButton radioButton_scaleLinear_color;
         internal DarkControls.DarkCheckBox checkBox_scaleLinear_Use;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleLinearY;

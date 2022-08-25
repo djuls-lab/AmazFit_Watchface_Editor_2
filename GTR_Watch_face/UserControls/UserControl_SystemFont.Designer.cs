@@ -46,7 +46,7 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_SystemFont_size = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFont_spacing = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_SystemFont_angle = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_SystemFont_color = new System.Windows.Forms.ComboBox();
+            this.comboBox_SystemFont_color = new DarkControls.DarkComboBox();
             this.checkBox_SystemFont_unit = new DarkControls.DarkCheckBox();
             this.checkBox_addZero = new DarkControls.DarkCheckBox();
             this.checkBox_follow = new DarkControls.DarkCheckBox();
@@ -387,7 +387,7 @@ namespace AmazFit_Watchface_2
         protected DarkControls.DarkButton button_SystemFont;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFont_size;
         private System.Windows.Forms.Label label02;
-        private System.Windows.Forms.ComboBox comboBox_SystemFont_color;
+        private DarkControls.DarkComboBox comboBox_SystemFont_color;
         internal System.Windows.Forms.NumericUpDown numericUpDown_SystemFont_spacing;
         private System.Windows.Forms.Label label04;
         public DarkControls.DarkCheckBox checkBox_follow;

@@ -34,7 +34,7 @@ namespace AmazFit_Watchface_2
             this.button_pictures = new DarkControls.DarkButton();
             this.panel_pictures = new System.Windows.Forms.Panel();
             this.checkBox_pictures_Use = new DarkControls.DarkCheckBox();
-            this.comboBox_pictures_image = new System.Windows.Forms.ComboBox();
+            this.comboBox_pictures_image = new DarkControls.DarkComboBox();
             this.numericUpDown_picturesX = new System.Windows.Forms.NumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -292,7 +292,7 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_picturesX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_picturesY;
         internal DarkControls.DarkCheckBox checkBox_pictures_Use;
-        public System.Windows.Forms.ComboBox comboBox_pictures_image;
+        public DarkControls.DarkComboBox comboBox_pictures_image;
         public System.Windows.Forms.NumericUpDown numericUpDown_pictures_count;
     }
 }

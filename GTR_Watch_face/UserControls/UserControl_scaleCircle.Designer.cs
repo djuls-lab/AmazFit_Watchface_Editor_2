@@ -41,12 +41,12 @@ namespace AmazFit_Watchface_2
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_scaleCircle = new System.Windows.Forms.Panel();
             this.checkBox_scaleCircle_Use = new DarkControls.DarkCheckBox();
-            this.radioButton_scaleCircle_image = new System.Windows.Forms.RadioButton();
-            this.radioButton_scaleCircle_color = new System.Windows.Forms.RadioButton();
-            this.comboBox_scaleCircle_image = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleCircle_color = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleCircle_flatness = new System.Windows.Forms.ComboBox();
-            this.comboBox_scaleCircle_image_background = new System.Windows.Forms.ComboBox();
+            this.radioButton_scaleCircle_image = new DarkControls.DarkRadioButton();
+            this.radioButton_scaleCircle_color = new DarkControls.DarkRadioButton();
+            this.comboBox_scaleCircle_image = new DarkControls.DarkComboBox();
+            this.comboBox_scaleCircle_color = new DarkControls.DarkComboBox();
+            this.comboBox_scaleCircle_flatness = new DarkControls.DarkComboBox();
+            this.comboBox_scaleCircle_image_background = new DarkControls.DarkComboBox();
             this.numericUpDown_scaleCircleX = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_scaleCircleY = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_scaleCircle_radius = new System.Windows.Forms.NumericUpDown();
@@ -441,10 +441,10 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         private System.Windows.Forms.Panel panel_scaleCircle;
-        private System.Windows.Forms.ComboBox comboBox_scaleCircle_image;
-        private System.Windows.Forms.ComboBox comboBox_scaleCircle_color;
-        private System.Windows.Forms.ComboBox comboBox_scaleCircle_flatness;
-        private System.Windows.Forms.ComboBox comboBox_scaleCircle_image_background;
+        private DarkControls.DarkComboBox comboBox_scaleCircle_image;
+        private DarkControls.DarkComboBox comboBox_scaleCircle_color;
+        private DarkControls.DarkComboBox comboBox_scaleCircle_flatness;
+        private DarkControls.DarkComboBox comboBox_scaleCircle_image_background;
         private System.Windows.Forms.Label label01;
         private System.Windows.Forms.Label label04;
         private System.Windows.Forms.Label label03;
@@ -463,7 +463,7 @@ namespace AmazFit_Watchface_2
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_width;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_startAngle;
         internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_endAngle;
-        internal System.Windows.Forms.RadioButton radioButton_scaleCircle_image;
-        internal System.Windows.Forms.RadioButton radioButton_scaleCircle_color;
+        internal DarkControls.DarkRadioButton radioButton_scaleCircle_image;
+        internal DarkControls.DarkRadioButton radioButton_scaleCircle_color;
     }
 }

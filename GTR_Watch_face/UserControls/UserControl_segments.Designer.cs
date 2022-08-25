@@ -36,7 +36,7 @@ namespace AmazFit_Watchface_2
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_pictures = new System.Windows.Forms.Panel();
             this.checkBox_pictures_Use = new DarkControls.DarkCheckBox();
-            this.comboBox_pictures_image = new System.Windows.Forms.ComboBox();
+            this.comboBox_pictures_image = new DarkControls.DarkComboBox();
             this.dataGridView_coordinates_set = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,8 +46,8 @@ namespace AmazFit_Watchface_2
             this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьСтрокуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox_DisplayType = new DarkControls.DarkGroupBox();
-            this.radioButton_Continuous = new System.Windows.Forms.RadioButton();
-            this.radioButton_Single = new System.Windows.Forms.RadioButton();
+            this.radioButton_Continuous = new DarkControls.DarkRadioButton();
+            this.radioButton_Single = new DarkControls.DarkRadioButton();
             this.label01 = new System.Windows.Forms.Label();
             this.label02 = new System.Windows.Forms.Label();
             this.button_Copy_pictures = new DarkControls.DarkButton();
@@ -196,10 +196,7 @@ namespace AmazFit_Watchface_2
             this.удалитьСтрокуToolStripMenuItem.Click += new System.EventHandler(this.удалитьСтрокуToolStripMenuItem_Click);
             // 
             // groupBox_DisplayType
-            // 
-            this.groupBox_DisplayType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.groupBox_DisplayType.BorderRadius = 4;
-            this.groupBox_DisplayType.BorderThickness = 1F;
+            //            
             this.groupBox_DisplayType.Controls.Add(this.radioButton_Continuous);
             this.groupBox_DisplayType.Controls.Add(this.radioButton_Single);
             resources.ApplyResources(this.groupBox_DisplayType, "groupBox_DisplayType");
@@ -233,10 +230,7 @@ namespace AmazFit_Watchface_2
             this.label02.Name = "label02";
             // 
             // button_Copy_pictures
-            //            
-            this.button_Copy_pictures.BorderRadius = 4;
-            this.button_Copy_pictures.BorderThickness = 1F;
-            this.button_Copy_pictures.ImagePadding = 5;
+            //
             resources.ApplyResources(this.button_Copy_pictures, "button_Copy_pictures");
             this.button_Copy_pictures.Name = "button_Copy_pictures";
             this.button_Copy_pictures.UseVisualStyleBackColor = true;
@@ -244,10 +238,7 @@ namespace AmazFit_Watchface_2
             // 
             // button_pictures
             //
-            this.button_pictures.BorderRadius = 4;
-            this.button_pictures.BorderThickness = 1F;
             resources.ApplyResources(this.button_pictures, "button_pictures");
-            this.button_pictures.ImagePadding = 5;
             this.button_pictures.Name = "button_pictures";
             this.button_pictures.UseVisualStyleBackColor = true;
             this.button_pictures.Click += new System.EventHandler(this.button_pictures_Click);
@@ -283,14 +274,14 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem;
         internal DarkControls.DarkCheckBox checkBox_pictures_Use;
-        public System.Windows.Forms.ComboBox comboBox_pictures_image;
+        public DarkControls.DarkComboBox comboBox_pictures_image;
         private System.Windows.Forms.Label label01;
         private DarkControls.DarkButton button_Copy_pictures;
         private DarkControls.DarkButton button_pictures;
         private System.Windows.Forms.Label label02;
         private System.Windows.Forms.DataGridView dataGridView_coordinates_set;
         private DarkControls.DarkGroupBox groupBox_DisplayType;
-        private System.Windows.Forms.RadioButton radioButton_Continuous;
-        private System.Windows.Forms.RadioButton radioButton_Single;
+        private DarkControls.DarkRadioButton radioButton_Continuous;
+        private DarkControls.DarkRadioButton radioButton_Single;
     }
 }
