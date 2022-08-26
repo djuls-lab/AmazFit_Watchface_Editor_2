@@ -33,8 +33,8 @@
             this.button2 = new DarkControls.DarkButton();
             this.button3 = new DarkControls.DarkButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new DarkControls.DarkLabel();
+            this.label2 = new DarkControls.DarkLabel();
             this.SuspendLayout();
             // 
             // button1
@@ -98,8 +98,8 @@
         private DarkControls.DarkButton button1;
         private DarkControls.DarkButton button2;
         private DarkControls.DarkButton button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private DarkControls.DarkLabel label1;
+        private DarkControls.DarkLabel label2;
         private System.Windows.Forms.Panel panel1;
     }
 }

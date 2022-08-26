@@ -46,11 +46,11 @@ namespace AmazFit_Watchface_2
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDown_pictures_count = new System.Windows.Forms.NumericUpDown();
-            this.label01 = new System.Windows.Forms.Label();
-            this.label02 = new System.Windows.Forms.Label();
-            this.label04 = new System.Windows.Forms.Label();
-            this.label05 = new System.Windows.Forms.Label();
-            this.label03 = new System.Windows.Forms.Label();
+            this.label01 = new DarkControls.DarkLabel();
+            this.label02 = new DarkControls.DarkLabel();
+            this.label04 = new DarkControls.DarkLabel();
+            this.label05 = new DarkControls.DarkLabel();
+            this.label03 = new DarkControls.DarkLabel();
             this.button_Copy_pictures = new DarkControls.DarkButton();
             this.panel_pictures.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_picturesX)).BeginInit();
@@ -275,11 +275,11 @@ namespace AmazFit_Watchface_2
 
         private DarkControls.DarkButton button_pictures;
         private System.Windows.Forms.Panel panel_pictures;
-        private System.Windows.Forms.Label label01;
-        private System.Windows.Forms.Label label02;
-        public System.Windows.Forms.Label label03;
-        private System.Windows.Forms.Label label05;
-        private System.Windows.Forms.Label label04;
+        private DarkControls.DarkLabel label01;
+        private DarkControls.DarkLabel label02;
+        public DarkControls.DarkLabel label03;
+        private DarkControls.DarkLabel label05;
+        private DarkControls.DarkLabel label04;
         private DarkControls.DarkButton button_Copy_pictures;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;

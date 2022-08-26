@@ -34,7 +34,7 @@ namespace AmazFit_Watchface_2
             this.button_RefreshPreview = new DarkControls.DarkButton();
             this.button_CreatePreview = new DarkControls.DarkButton();
             this.comboBox_image = new DarkControls.DarkComboBox();
-            this.label01 = new System.Windows.Forms.Label();
+            this.label01 = new DarkControls.DarkLabel();
             this.button_preview = new DarkControls.DarkButton();
             this.panel_preview.SuspendLayout();
             this.SuspendLayout();
@@ -106,7 +106,7 @@ namespace AmazFit_Watchface_2
 
         private System.Windows.Forms.Panel panel_preview;
         public DarkControls.DarkComboBox comboBox_image;
-        private System.Windows.Forms.Label label01;
+        private DarkControls.DarkLabel label01;
         public DarkControls.DarkButton button_preview;
         private DarkControls.DarkButton button_CreatePreview;
         private DarkControls.DarkButton button_RefreshPreview;

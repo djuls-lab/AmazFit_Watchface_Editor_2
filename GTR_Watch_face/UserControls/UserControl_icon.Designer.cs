@@ -45,11 +45,11 @@ namespace AmazFit_Watchface_2
             this.вставитьКоординатуYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
-            this.label01 = new System.Windows.Forms.Label();
-            this.label02 = new System.Windows.Forms.Label();
-            this.label04 = new System.Windows.Forms.Label();
-            this.label05 = new System.Windows.Forms.Label();
-            this.label06 = new System.Windows.Forms.Label();
+            this.label01 = new DarkControls.DarkLabel();
+            this.label02 = new DarkControls.DarkLabel();
+            this.label04 = new DarkControls.DarkLabel();
+            this.label05 = new DarkControls.DarkLabel();
+            this.label06 = new DarkControls.DarkLabel();
             this.button_Copy_icon = new DarkControls.DarkButton();
             this.button_icon = new DarkControls.DarkButton();
             this.panel_icon.SuspendLayout();
@@ -267,10 +267,10 @@ namespace AmazFit_Watchface_2
         public DarkControls.DarkComboBox comboBox_icon_image;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconX;
         internal System.Windows.Forms.NumericUpDown numericUpDown_iconY;
-        private System.Windows.Forms.Label label01;
-        private System.Windows.Forms.Label label02;
-        private System.Windows.Forms.Label label04;
-        private System.Windows.Forms.Label label05;
+        private DarkControls.DarkLabel label01;
+        private DarkControls.DarkLabel label02;
+        private DarkControls.DarkLabel label04;
+        private DarkControls.DarkLabel label05;
         private DarkControls.DarkButton button_Copy_icon;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_X;
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуХToolStripMenuItem;
@@ -281,7 +281,7 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
         public DarkControls.DarkComboBox comboBox_icon_image2;
-        private System.Windows.Forms.Label label06;
+        private DarkControls.DarkLabel label06;
         public DarkControls.DarkButton button_icon;
         internal DarkControls.DarkCheckBox checkBox_icon_Use;
     }

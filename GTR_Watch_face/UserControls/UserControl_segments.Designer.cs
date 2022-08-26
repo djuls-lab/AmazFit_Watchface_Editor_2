@@ -48,8 +48,8 @@ namespace AmazFit_Watchface_2
             this.groupBox_DisplayType = new DarkControls.DarkGroupBox();
             this.radioButton_Continuous = new DarkControls.DarkRadioButton();
             this.radioButton_Single = new DarkControls.DarkRadioButton();
-            this.label01 = new System.Windows.Forms.Label();
-            this.label02 = new System.Windows.Forms.Label();
+            this.label01 = new DarkControls.DarkLabel();
+            this.label02 = new DarkControls.DarkLabel();
             this.button_Copy_pictures = new DarkControls.DarkButton();
             this.button_pictures = new DarkControls.DarkButton();
             this.panel_pictures.SuspendLayout();
@@ -275,10 +275,10 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem;
         internal DarkControls.DarkCheckBox checkBox_pictures_Use;
         public DarkControls.DarkComboBox comboBox_pictures_image;
-        private System.Windows.Forms.Label label01;
+        private DarkControls.DarkLabel label01;
         private DarkControls.DarkButton button_Copy_pictures;
         private DarkControls.DarkButton button_pictures;
-        private System.Windows.Forms.Label label02;
+        private DarkControls.DarkLabel label02;
         private System.Windows.Forms.DataGridView dataGridView_coordinates_set;
         private DarkControls.DarkGroupBox groupBox_DisplayType;
         private DarkControls.DarkRadioButton radioButton_Continuous;
