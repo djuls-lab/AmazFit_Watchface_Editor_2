@@ -49,7 +49,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>watch.ico</ApplicationIcon>
+    <ApplicationIcon>watch-icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release %28without python%29|AnyCPU' ">
     <OutputPath>bin\Release_%28without_python%29\</OutputPath>
@@ -826,6 +826,7 @@
     <Content Include="Mask\mask_zepp_e.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="watch-icon.ico" />
     <Content Include="WatchSkin\gtr2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

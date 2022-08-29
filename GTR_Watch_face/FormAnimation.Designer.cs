@@ -34,7 +34,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.button_AnimationReset = new DarkControls.DarkButton();
-            this.numericUpDown_NumberOfFrames = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_NumberOfFrames = new DarkControls.DarkNumericUpDown();
             this.label1 = new DarkControls.DarkLabel();
             this.button_SaveAnimation = new DarkControls.DarkButton();
             this.radioButton_xlarge = new DarkControls.DarkRadioButton();
@@ -169,7 +169,7 @@
         private DarkControls.DarkRadioButton radioButton_normal;
         private DarkControls.DarkRadioButton radioButton_xlarge;
         private DarkControls.DarkRadioButton radioButton_large;
-        private System.Windows.Forms.NumericUpDown numericUpDown_NumberOfFrames;
+        private DarkControls.DarkNumericUpDown numericUpDown_NumberOfFrames;
         private DarkControls.DarkLabel label1;
         private DarkControls.DarkButton button_SaveAnimation;
         private System.Windows.Forms.ProgressBar progressBar_SaveAnimation;

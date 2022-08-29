@@ -35,12 +35,12 @@ namespace AmazFit_Watchface_2
             this.checkBox_icon_Use = new DarkControls.DarkCheckBox();
             this.comboBox_icon_image = new DarkControls.DarkComboBox();
             this.comboBox_icon_image2 = new DarkControls.DarkComboBox();
-            this.numericUpDown_iconX = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_iconX = new DarkControls.DarkNumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
-            this.numericUpDown_iconY = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_iconY = new DarkControls.DarkNumericUpDown();
             this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
@@ -265,8 +265,8 @@ namespace AmazFit_Watchface_2
 
         private System.Windows.Forms.Panel panel_icon;
         public DarkControls.DarkComboBox comboBox_icon_image;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_iconX;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_iconY;
+        internal DarkControls.DarkNumericUpDown numericUpDown_iconX;
+        internal DarkControls.DarkNumericUpDown numericUpDown_iconY;
         private DarkControls.DarkLabel label01;
         private DarkControls.DarkLabel label02;
         private DarkControls.DarkLabel label04;

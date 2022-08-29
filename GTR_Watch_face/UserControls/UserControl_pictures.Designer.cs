@@ -35,17 +35,17 @@ namespace AmazFit_Watchface_2
             this.panel_pictures = new System.Windows.Forms.Panel();
             this.checkBox_pictures_Use = new DarkControls.DarkCheckBox();
             this.comboBox_pictures_image = new DarkControls.DarkComboBox();
-            this.numericUpDown_picturesX = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_picturesX = new DarkControls.DarkNumericUpDown();
             this.contextMenuStrip_X = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemX = new System.Windows.Forms.ToolStripMenuItem();
-            this.numericUpDown_picturesY = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_picturesY = new DarkControls.DarkNumericUpDown();
             this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьКоординатуYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItemY = new System.Windows.Forms.ToolStripMenuItem();
-            this.numericUpDown_pictures_count = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_pictures_count = new DarkControls.DarkNumericUpDown();
             this.label01 = new DarkControls.DarkLabel();
             this.label02 = new DarkControls.DarkLabel();
             this.label04 = new DarkControls.DarkLabel();
@@ -289,10 +289,10 @@ namespace AmazFit_Watchface_2
         private System.Windows.Forms.ToolStripMenuItem вставитьКоординатуYToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItemY;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItemY;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_picturesX;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_picturesY;
+        internal DarkControls.DarkNumericUpDown numericUpDown_picturesX;
+        internal DarkControls.DarkNumericUpDown numericUpDown_picturesY;
         internal DarkControls.DarkCheckBox checkBox_pictures_Use;
         public DarkControls.DarkComboBox comboBox_pictures_image;
-        public System.Windows.Forms.NumericUpDown numericUpDown_pictures_count;
+        public DarkControls.DarkNumericUpDown numericUpDown_pictures_count;
     }
 }

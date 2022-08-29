@@ -47,12 +47,12 @@ namespace AmazFit_Watchface_2
             this.comboBox_scaleCircle_color = new DarkControls.DarkComboBox();
             this.comboBox_scaleCircle_flatness = new DarkControls.DarkComboBox();
             this.comboBox_scaleCircle_image_background = new DarkControls.DarkComboBox();
-            this.numericUpDown_scaleCircleX = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_scaleCircleY = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_scaleCircle_radius = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_scaleCircle_width = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_scaleCircle_startAngle = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown_scaleCircle_endAngle = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown_scaleCircleX = new DarkControls.DarkNumericUpDown();
+            this.numericUpDown_scaleCircleY = new DarkControls.DarkNumericUpDown();
+            this.numericUpDown_scaleCircle_radius = new DarkControls.DarkNumericUpDown();
+            this.numericUpDown_scaleCircle_width = new DarkControls.DarkNumericUpDown();
+            this.numericUpDown_scaleCircle_startAngle = new DarkControls.DarkNumericUpDown();
+            this.numericUpDown_scaleCircle_endAngle = new DarkControls.DarkNumericUpDown();
             this.label01 = new DarkControls.DarkLabel();
             this.label04 = new DarkControls.DarkLabel();
             this.label03 = new DarkControls.DarkLabel();
@@ -457,12 +457,12 @@ namespace AmazFit_Watchface_2
         private DarkControls.DarkButton button_Copy_scaleCircle;
         private DarkControls.DarkButton button_scaleCircle;
         internal DarkControls.DarkCheckBox checkBox_scaleCircle_Use;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleX;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircleY;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_radius;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_width;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_startAngle;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_scaleCircle_endAngle;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircleX;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircleY;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircle_radius;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircle_width;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircle_startAngle;
+        internal DarkControls.DarkNumericUpDown numericUpDown_scaleCircle_endAngle;
         internal DarkControls.DarkRadioButton radioButton_scaleCircle_image;
         internal DarkControls.DarkRadioButton radioButton_scaleCircle_color;
     }

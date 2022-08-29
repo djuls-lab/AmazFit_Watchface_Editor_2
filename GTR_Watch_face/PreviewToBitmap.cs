@@ -468,11 +468,11 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Year.userControl_SystemFont;
                     if (userControl_SystemFont != null && userControl_SystemFont.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
-                        NumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
-                        NumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
-                        NumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
-                        NumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
                         CheckBox checkBox_follow = userControl_SystemFont.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -514,12 +514,12 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Year.userControl_FontRotate;
                     if (userControl_FontRotate != null && userControl_FontRotate.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
-                        NumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
-                        NumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
-                        NumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
-                        NumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
-                        NumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
                         CheckBox checkBox_follow = userControl_FontRotate.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -617,11 +617,11 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Month.userControl_SystemFont;
                     if (userControl_SystemFont != null && userControl_SystemFont.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
-                        NumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
-                        NumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
-                        NumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
-                        NumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
                         CheckBox checkBox_follow = userControl_SystemFont.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -662,12 +662,12 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Month.userControl_FontRotate;
                     if (userControl_FontRotate != null && userControl_FontRotate.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
-                        NumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
-                        NumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
-                        NumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
-                        NumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
-                        NumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
                         CheckBox checkBox_follow = userControl_FontRotate.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -750,11 +750,11 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Day.userControl_SystemFont;
                     if (userControl_SystemFont != null && userControl_SystemFont.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
-                        NumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
-                        NumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
-                        NumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
-                        NumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
                         CheckBox checkBox_follow = userControl_SystemFont.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -796,12 +796,12 @@ namespace AmazFit_Watchface_2
                         userControl_SystemFont_Group_Day.userControl_FontRotate;
                     if (userControl_FontRotate != null && userControl_FontRotate.checkBox_Use.Checked)
                     {
-                        NumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
-                        NumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
-                        NumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
-                        NumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
-                        NumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
-                        NumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
+                        DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
+                        DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
+                        DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
                         CheckBox checkBox_follow = userControl_FontRotate.checkBox_follow;
 
                         //int imageIndex = comboBox_image.SelectedIndex;
@@ -1002,9 +1002,9 @@ namespace AmazFit_Watchface_2
                     {
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1103,9 +1103,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1212,9 +1212,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1312,9 +1312,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1411,9 +1411,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1512,12 +1512,12 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_separator = (ComboBox)panel_text.Controls[3]; unit
                         int imageIndex = userPanel_text.comboBoxGetSelectedIndexImage();
                         int unit = userPanel_text.comboBoxGetSelectedIndexIcon();
-                        NumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
-                        NumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
-                        NumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
-                        NumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
+                        DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
+                        DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
                         //ComboBox comboBox_alignment = (ComboBox)panel_text.Controls[8];
-                        NumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
                         CheckBox checkBox_add_zero = userPanel_text.checkBox_addZero;
                         //ComboBox comboBox_imageError = (ComboBox)panel_text.Controls[11];
                         //ComboBox comboBox_DecimalPoint = (ComboBox)panel_text.Controls[12];
@@ -1580,9 +1580,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1707,9 +1707,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1820,9 +1820,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -1919,9 +1919,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2043,9 +2043,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2142,9 +2142,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2241,9 +2241,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2340,9 +2340,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2443,9 +2443,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -2565,9 +2565,9 @@ namespace AmazFit_Watchface_2
                         //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                         if (userPanel_pictures.comboBoxGetImage() >= 0)
                         {
-                            NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                            NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                            NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                            DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                            DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                            DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                             int x = (int)numericUpDownX.Value;
                             int y = (int)numericUpDownY.Value;
@@ -3032,12 +3032,12 @@ namespace AmazFit_Watchface_2
             if (userPanel_scaleCircle!= null && userPanel_scaleCircle.checkBox_scaleCircle_Use.Checked)
             {
                 RadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
-                NumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
-                NumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
-                NumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
-                NumericUpDown numericUpDown_width = userPanel_scaleCircle.numericUpDown_scaleCircle_width;
-                NumericUpDown numericUpDown_startAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_startAngle;
-                NumericUpDown numericUpDown_endAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_endAngle;
+                DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
+                DarkControls.DarkNumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
+                DarkControls.DarkNumericUpDown numericUpDown_width = userPanel_scaleCircle.numericUpDown_scaleCircle_width;
+                DarkControls.DarkNumericUpDown numericUpDown_startAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_startAngle;
+                DarkControls.DarkNumericUpDown numericUpDown_endAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_endAngle;
 
                 int x = (int)numericUpDownX.Value;
                 int y = (int)numericUpDownY.Value;
@@ -3068,10 +3068,10 @@ namespace AmazFit_Watchface_2
             if (userPanel_scaleLinear != null && userPanel_scaleLinear.checkBox_scaleLinear_Use.Checked)
             {
                 RadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
-                NumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
-                NumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
-                NumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
-                NumericUpDown numericUpDown_width = userPanel_scaleLinear.numericUpDown_scaleLinear_width;
+                DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
+                DarkControls.DarkNumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
+                DarkControls.DarkNumericUpDown numericUpDown_width = userPanel_scaleLinear.numericUpDown_scaleLinear_width;
 
                 int x = (int)numericUpDownX.Value;
                 int y = (int)numericUpDownY.Value;
@@ -3108,11 +3108,11 @@ namespace AmazFit_Watchface_2
             {
                 int imageIndex = userPanel_text.comboBoxGetSelectedIndexImage();
                 int unit = userPanel_text.comboBoxGetSelectedIndexIcon();
-                NumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
-                NumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
-                NumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
-                NumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
-                NumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
+                DarkControls.DarkNumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
+                DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
+                DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
                 CheckBox checkBox_add_zero = userPanel_text.checkBox_addZero;
 
                 if (imageIndex >= 0)
@@ -3142,11 +3142,11 @@ namespace AmazFit_Watchface_2
             {
                 int imageIndex = userPanel_textGoal.comboBoxGetSelectedIndexImage();
                 int unit = userPanel_textGoal.comboBoxGetSelectedIndexIcon();
-                 NumericUpDown numericUpDownX = userPanel_textGoal.numericUpDown_imageX;
-                NumericUpDown numericUpDownY = userPanel_textGoal.numericUpDown_imageY;
-                NumericUpDown numericUpDown_unitX = userPanel_textGoal.numericUpDown_iconX;
-                NumericUpDown numericUpDown_unitY = userPanel_textGoal.numericUpDown_iconY;
-                NumericUpDown numericUpDown_spacing = userPanel_textGoal.numericUpDown_spacing;
+                 DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textGoal.numericUpDown_imageX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textGoal.numericUpDown_imageY;
+                DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textGoal.numericUpDown_iconX;
+                DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textGoal.numericUpDown_iconY;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textGoal.numericUpDown_spacing;
                 CheckBox checkBox_add_zero = userPanel_textGoal.checkBox_addZero;
                 CheckBox checkBox_follow = userPanel_textGoal.checkBox_follow;
 
@@ -3181,11 +3181,11 @@ namespace AmazFit_Watchface_2
             // надпись системным шрифтом
             if (userControl_SystemFont != null && userControl_SystemFont.checkBox_Use.Checked)
             {
-                NumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
-                NumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
-                NumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
-                NumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
-                NumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
+                DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont.numericUpDown_SystemFontX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont.numericUpDown_SystemFontY;
+                DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont.numericUpDown_SystemFont_size;
+                DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont.numericUpDown_SystemFont_angle;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont.numericUpDown_SystemFont_spacing;
                 //CheckBox checkBox_follow = userControl_SystemFont.checkBox_follow;
                 CheckBox checkBox_add_zero = userControl_SystemFont.checkBox_addZero;
                 CheckBox checkBox_separator = userControl_SystemFont.checkBox_separator;
@@ -3249,11 +3249,11 @@ namespace AmazFit_Watchface_2
             // надпись системным шрифтом (цель)
             if (userControl_SystemFontGoal != null && userControl_SystemFontGoal.checkBox_Use.Checked)
             {
-                NumericUpDown numericUpDownX = userControl_SystemFontGoal.numericUpDown_SystemFontX;
-                NumericUpDown numericUpDownY = userControl_SystemFontGoal.numericUpDown_SystemFontY;
-                NumericUpDown numericUpDown_size = userControl_SystemFontGoal.numericUpDown_SystemFont_size;
-                NumericUpDown numericUpDown_angle = userControl_SystemFontGoal.numericUpDown_SystemFont_angle;
-                NumericUpDown numericUpDown_spacing = userControl_SystemFontGoal.numericUpDown_SystemFont_spacing;
+                DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFontGoal.numericUpDown_SystemFontX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFontGoal.numericUpDown_SystemFontY;
+                DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFontGoal.numericUpDown_SystemFont_size;
+                DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFontGoal.numericUpDown_SystemFont_angle;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFontGoal.numericUpDown_SystemFont_spacing;
                 CheckBox checkBox_follow = userControl_SystemFontGoal.checkBox_follow;
                 CheckBox checkBox_add_zero = userControl_SystemFontGoal.checkBox_addZero;
                 CheckBox checkBox_separator = userControl_SystemFontGoal.checkBox_separator;
@@ -3288,12 +3288,12 @@ namespace AmazFit_Watchface_2
             // надпись системным шрифтом по окружности
             if (userControl_FontRotate != null && userControl_FontRotate.checkBox_Use.Checked)
             {
-                NumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
-                NumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
-                NumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
-                NumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
-                NumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
-                NumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
+                DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate.numericUpDown_FontRotateX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate.numericUpDown_FontRotateY;
+                DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate.numericUpDown_FontRotate_size;
+                DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate.numericUpDown_FontRotate_angle;
+                DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate.numericUpDown_FontRotate_radius;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate.numericUpDown_FontRotate_spacing;
                 //CheckBox checkBox_follow = userControl_FontRotate.checkBox_follow;
                 CheckBox checkBox_add_zero = userControl_FontRotate.checkBox_addZero;
                 CheckBox checkBox_separator = userControl_FontRotate.checkBox_separator;
@@ -3351,12 +3351,12 @@ namespace AmazFit_Watchface_2
             // надпись системным шрифтом по окружности (цель)
             if (userControl_FontRotateGoal != null && userControl_FontRotateGoal.checkBox_Use.Checked)
             {
-                NumericUpDown numericUpDownX = userControl_FontRotateGoal.numericUpDown_FontRotateX;
-                NumericUpDown numericUpDownY = userControl_FontRotateGoal.numericUpDown_FontRotateY;
-                NumericUpDown numericUpDown_size = userControl_FontRotateGoal.numericUpDown_FontRotate_size;
-                NumericUpDown numericUpDown_angle = userControl_FontRotateGoal.numericUpDown_FontRotate_angle;
-                NumericUpDown numericUpDown_radius = userControl_FontRotateGoal.numericUpDown_FontRotate_radius;
-                NumericUpDown numericUpDown_spacing = userControl_FontRotateGoal.numericUpDown_FontRotate_spacing;
+                DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotateGoal.numericUpDown_FontRotateX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotateGoal.numericUpDown_FontRotateY;
+                DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotateGoal.numericUpDown_FontRotate_size;
+                DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotateGoal.numericUpDown_FontRotate_angle;
+                DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotateGoal.numericUpDown_FontRotate_radius;
+                DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotateGoal.numericUpDown_FontRotate_spacing;
                 CheckBox checkBox_follow = userControl_FontRotateGoal.checkBox_follow;
                 CheckBox checkBox_add_zero = userControl_FontRotateGoal.checkBox_addZero;
                 CheckBox checkBox_separator = userControl_FontRotateGoal.checkBox_separator;
@@ -3398,18 +3398,18 @@ namespace AmazFit_Watchface_2
                 int image_index = userPanel_hand.comboBoxGetSelectedIndexHandImage();
                 if (image_index >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_hand.numericUpDown_handX;
-                    NumericUpDown numericUpDownY = userPanel_hand.numericUpDown_handY;
-                    NumericUpDown numericUpDown_offsetX = userPanel_hand.numericUpDown_handX_offset;
-                    NumericUpDown numericUpDown_offsetY = userPanel_hand.numericUpDown_handY_offset;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_hand.numericUpDown_handX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_hand.numericUpDown_handY;
+                    DarkControls.DarkNumericUpDown numericUpDown_offsetX = userPanel_hand.numericUpDown_handX_offset;
+                    DarkControls.DarkNumericUpDown numericUpDown_offsetY = userPanel_hand.numericUpDown_handY_offset;
                     int imageCentr = userPanel_hand.comboBoxGetSelectedIndexHandImageCentr();
-                    NumericUpDown numericUpDownX_centr = userPanel_hand.numericUpDown_handX_centr;
-                    NumericUpDown numericUpDownY_centr = userPanel_hand.numericUpDown_handY_centr;
-                    NumericUpDown numericUpDown_startAngle = userPanel_hand.numericUpDown_hand_startAngle;
-                    NumericUpDown numericUpDown_endAngle = userPanel_hand.numericUpDown_hand_endAngle;
+                    DarkControls.DarkNumericUpDown numericUpDownX_centr = userPanel_hand.numericUpDown_handX_centr;
+                    DarkControls.DarkNumericUpDown numericUpDownY_centr = userPanel_hand.numericUpDown_handY_centr;
+                    DarkControls.DarkNumericUpDown numericUpDown_startAngle = userPanel_hand.numericUpDown_hand_startAngle;
+                    DarkControls.DarkNumericUpDown numericUpDown_endAngle = userPanel_hand.numericUpDown_hand_endAngle;
                     int imageBackground = userPanel_hand.comboBoxGetSelectedIndexHandImageBackground();
-                    NumericUpDown numericUpDownX_background = userPanel_hand.numericUpDown_handX_background;
-                    NumericUpDown numericUpDownY_background = userPanel_hand.numericUpDown_handY_background;
+                    DarkControls.DarkNumericUpDown numericUpDownX_background = userPanel_hand.numericUpDown_handX_background;
+                    DarkControls.DarkNumericUpDown numericUpDownY_background = userPanel_hand.numericUpDown_handY_background;
 
                     if (imageBackground >= 0)
                     {
@@ -3452,8 +3452,8 @@ namespace AmazFit_Watchface_2
                 }
                 if (imageIndex >= 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
-                    NumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3492,8 +3492,8 @@ namespace AmazFit_Watchface_2
                 {
                     if (userPanel_pictures.comboBoxGetSelectedIndexImage() >= 0)
                     {
-                        NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                        NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
 
                         int x = (int)numericUpDownX.Value;
                         int y = (int)numericUpDownY.Value;
@@ -3518,11 +3518,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_text.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_text.checkBox_addZero;
 
                     int imageIndex = userPanel_text.comboBoxGetSelectedIndexImage();
@@ -3569,11 +3569,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textMin.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textMin.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textMin.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textMin.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textMin.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textMin.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textMin.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textMin.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textMin.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textMin.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textMin.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textMin.checkBox_addZero;
 
                     int imageIndex = userPanel_textMin.comboBoxGetSelectedIndexImage();
@@ -3617,11 +3617,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textMax.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textMax.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textMax.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textMax.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textMax.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textMax.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textMax.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textMax.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textMax.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textMax.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textMax.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textMax.checkBox_addZero;
                     CheckBox checkBox_follow = userPanel_textMax.checkBox_follow;
 
@@ -3763,11 +3763,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_cerent.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Current.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Current.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Current.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Current.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Current.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Current.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Current.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Current.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Current.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Current.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3785,11 +3785,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_min.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Min.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Min.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Min.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Min.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Min.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Min.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Min.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Min.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Min.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Min.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3807,11 +3807,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_max.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Max.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Max.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Max.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Max.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Max.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Max.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Max.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Max.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Max.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Max.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3917,12 +3917,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_cerent.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Current.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Current.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Current.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Current.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Current.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Current.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Current.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Current.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Current.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Current.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Current.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Current.numericUpDown_FontRotate_spacing;
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
                     int size = (int)numericUpDown_size.Value;
@@ -3942,12 +3942,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_min.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Min.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Min.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Min.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Min.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Min.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Min.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Min.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Min.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Min.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Min.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Min.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Min.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3968,12 +3968,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_max.Length>0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Max.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Max.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Max.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Max.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Max.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Max.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Max.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Max.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Max.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Max.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Max.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Max.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -3996,8 +3996,8 @@ namespace AmazFit_Watchface_2
                 
                 if (imageIndex >= 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
-                    NumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4014,8 +4014,8 @@ namespace AmazFit_Watchface_2
                 {
                     if (userPanel_pictures.comboBoxGetSelectedIndexImage() >= 0)
                     {
-                        NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                        NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
 
                         int x = (int)numericUpDownX.Value;
                         int y = (int)numericUpDownY.Value;
@@ -4067,9 +4067,9 @@ namespace AmazFit_Watchface_2
                 //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
                 if (userPanel_pictures.comboBoxGetImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
-                    NumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
-                    NumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_pictures.numericUpDown_picturesX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_pictures.numericUpDown_picturesY;
+                    DarkControls.DarkNumericUpDown numericUpDown_count = userPanel_pictures.numericUpDown_pictures_count;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4089,12 +4089,12 @@ namespace AmazFit_Watchface_2
             if (userPanel_scaleCircle != null && userPanel_scaleCircle.checkBox_scaleCircle_Use.Checked)
             {
                 RadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
-                NumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
-                NumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
-                NumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
-                NumericUpDown numericUpDown_width = userPanel_scaleCircle.numericUpDown_scaleCircle_width;
-                NumericUpDown numericUpDown_startAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_startAngle;
-                NumericUpDown numericUpDown_endAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_endAngle;
+                DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
+                DarkControls.DarkNumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
+                DarkControls.DarkNumericUpDown numericUpDown_width = userPanel_scaleCircle.numericUpDown_scaleCircle_width;
+                DarkControls.DarkNumericUpDown numericUpDown_startAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_startAngle;
+                DarkControls.DarkNumericUpDown numericUpDown_endAngle = userPanel_scaleCircle.numericUpDown_scaleCircle_endAngle;
 
                 int x = (int)numericUpDownX.Value;
                 int y = (int)numericUpDownY.Value;
@@ -4125,10 +4125,10 @@ namespace AmazFit_Watchface_2
             if (userPanel_scaleLinear != null && userPanel_scaleLinear.checkBox_scaleLinear_Use.Checked)
             {
                 RadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
-                NumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
-                NumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
-                NumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
-                NumericUpDown numericUpDown_width = userPanel_scaleLinear.numericUpDown_scaleLinear_width;
+                DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
+                DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
+                DarkControls.DarkNumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
+                DarkControls.DarkNumericUpDown numericUpDown_width = userPanel_scaleLinear.numericUpDown_scaleLinear_width;
 
                 int x = (int)numericUpDownX.Value;
                 int y = (int)numericUpDownY.Value;
@@ -4158,11 +4158,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_text.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_text.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_text.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_text.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_text.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_text.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_text.checkBox_addZero;
 
                     int imageIndex = userPanel_text.comboBoxGetSelectedIndexImage();
@@ -4197,11 +4197,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textMin.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textMin.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textMin.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textMin.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textMin.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textMin.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textMin.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textMin.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textMin.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textMin.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textMin.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textMin.checkBox_addZero;
 
                     int imageIndex = userPanel_textMin.comboBoxGetSelectedIndexImage();
@@ -4233,11 +4233,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textMax.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textMax.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textMax.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textMax.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textMax.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textMax.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textMax.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textMax.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textMax.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textMax.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textMax.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textMax.checkBox_addZero;
                     CheckBox checkBox_follow = userPanel_textMax.checkBox_follow;
 
@@ -4367,11 +4367,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_cerent.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Current.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Current.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Current.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Current.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Current.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Current.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Current.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Current.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Current.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Current.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4389,11 +4389,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_min.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Min.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Min.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Min.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Min.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Min.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Min.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Min.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Min.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Min.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Min.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4411,11 +4411,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_max.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Max.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Max.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Max.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Max.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Max.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Max.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Max.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Max.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Max.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Max.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4522,12 +4522,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_cerent.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Current.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Current.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Current.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Current.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Current.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Current.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Current.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Current.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Current.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Current.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Current.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Current.numericUpDown_FontRotate_spacing;
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
                     int size = (int)numericUpDown_size.Value;
@@ -4547,12 +4547,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_min.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Min.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Min.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Min.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Min.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Min.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Min.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Min.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Min.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Min.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Min.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Min.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Min.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4573,12 +4573,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_max.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Max.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Max.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Max.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Max.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Max.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Max.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Max.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Max.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Max.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Max.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Max.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Max.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4600,18 +4600,18 @@ namespace AmazFit_Watchface_2
                 int image_index = userPanel_hand.comboBoxGetSelectedIndexHandImage();
                 if (image_index >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_hand.numericUpDown_handX;
-                    NumericUpDown numericUpDownY = userPanel_hand.numericUpDown_handY;
-                    NumericUpDown numericUpDown_offsetX = userPanel_hand.numericUpDown_handX_offset;
-                    NumericUpDown numericUpDown_offsetY = userPanel_hand.numericUpDown_handY_offset;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_hand.numericUpDown_handX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_hand.numericUpDown_handY;
+                    DarkControls.DarkNumericUpDown numericUpDown_offsetX = userPanel_hand.numericUpDown_handX_offset;
+                    DarkControls.DarkNumericUpDown numericUpDown_offsetY = userPanel_hand.numericUpDown_handY_offset;
                     int imageCentr = userPanel_hand.comboBoxGetSelectedIndexHandImageCentr();
-                    NumericUpDown numericUpDownX_centr = userPanel_hand.numericUpDown_handX_centr;
-                    NumericUpDown numericUpDownY_centr = userPanel_hand.numericUpDown_handY_centr;
-                    NumericUpDown numericUpDown_startAngle = userPanel_hand.numericUpDown_hand_startAngle;
-                    NumericUpDown numericUpDown_endAngle = userPanel_hand.numericUpDown_hand_endAngle;
+                    DarkControls.DarkNumericUpDown numericUpDownX_centr = userPanel_hand.numericUpDown_handX_centr;
+                    DarkControls.DarkNumericUpDown numericUpDownY_centr = userPanel_hand.numericUpDown_handY_centr;
+                    DarkControls.DarkNumericUpDown numericUpDown_startAngle = userPanel_hand.numericUpDown_hand_startAngle;
+                    DarkControls.DarkNumericUpDown numericUpDown_endAngle = userPanel_hand.numericUpDown_hand_endAngle;
                     int imageBackground = userPanel_hand.comboBoxGetSelectedIndexHandImageBackground();
-                    NumericUpDown numericUpDownX_background = userPanel_hand.numericUpDown_handX_background;
-                    NumericUpDown numericUpDownY_background = userPanel_hand.numericUpDown_handY_background;
+                    DarkControls.DarkNumericUpDown numericUpDownX_background = userPanel_hand.numericUpDown_handX_background;
+                    DarkControls.DarkNumericUpDown numericUpDownY_background = userPanel_hand.numericUpDown_handY_background;
 
                     if (imageBackground >= 0)
                     {
@@ -4647,8 +4647,8 @@ namespace AmazFit_Watchface_2
                 int imageIndex = userControl_icon.comboBoxGetSelectedIndexImage();
                 if (imageIndex >= 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
-                    NumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_icon.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_icon.numericUpDown_iconY;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4683,11 +4683,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textHour.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textHour.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textHour.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textHour.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textHour.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textHour.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textHour.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textHour.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textHour.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textHour.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textHour.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textHour.checkBox_addZero;
 
                     int imageIndex = userPanel_textHour.comboBoxGetSelectedIndexImage();
@@ -4720,11 +4720,11 @@ namespace AmazFit_Watchface_2
             {
                 if (userPanel_textMinute.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    NumericUpDown numericUpDownX = userPanel_textMinute.numericUpDown_imageX;
-                    NumericUpDown numericUpDownY = userPanel_textMinute.numericUpDown_imageY;
-                    NumericUpDown numericUpDown_unitX = userPanel_textMinute.numericUpDown_iconX;
-                    NumericUpDown numericUpDown_unitY = userPanel_textMinute.numericUpDown_iconY;
-                    NumericUpDown numericUpDown_spacing = userPanel_textMinute.numericUpDown_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textMinute.numericUpDown_imageX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textMinute.numericUpDown_imageY;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textMinute.numericUpDown_iconX;
+                    DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textMinute.numericUpDown_iconY;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textMinute.numericUpDown_spacing;
                     CheckBox checkBox_addZero = userPanel_textMinute.checkBox_addZero;
 
                     int imageIndex = userPanel_textMinute.comboBoxGetSelectedIndexImage();
@@ -4758,11 +4758,11 @@ namespace AmazFit_Watchface_2
                 {
                     if (userPanel_textSecond.comboBoxGetSelectedIndexImage() >= 0)
                     {
-                        NumericUpDown numericUpDownX = userPanel_textSecond.numericUpDown_imageX;
-                        NumericUpDown numericUpDownY = userPanel_textSecond.numericUpDown_imageY;
-                        NumericUpDown numericUpDown_unitX = userPanel_textSecond.numericUpDown_iconX;
-                        NumericUpDown numericUpDown_unitY = userPanel_textSecond.numericUpDown_iconY;
-                        NumericUpDown numericUpDown_spacing = userPanel_textSecond.numericUpDown_spacing;
+                        DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textSecond.numericUpDown_imageX;
+                        DarkControls.DarkNumericUpDown numericUpDownY = userPanel_textSecond.numericUpDown_imageY;
+                        DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_textSecond.numericUpDown_iconX;
+                        DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_textSecond.numericUpDown_iconY;
+                        DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_textSecond.numericUpDown_spacing;
                         CheckBox checkBox_addZero = userPanel_textSecond.checkBox_addZero;
                         CheckBox checkBox_follow = userPanel_textSecond.checkBox_follow;
 
@@ -4898,11 +4898,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_hour.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Hour.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Hour.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Hour.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Hour.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Hour.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Hour.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Hour.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Hour.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Hour.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Hour.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4920,11 +4920,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_minute.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Minute.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Minute.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Minute.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Minute.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Minute.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Minute.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Minute.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Minute.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Minute.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Minute.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -4942,11 +4942,11 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_second.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_SystemFont_Second.numericUpDown_SystemFontX;
-                    NumericUpDown numericUpDownY = userControl_SystemFont_Second.numericUpDown_SystemFontY;
-                    NumericUpDown numericUpDown_size = userControl_SystemFont_Second.numericUpDown_SystemFont_size;
-                    NumericUpDown numericUpDown_angle = userControl_SystemFont_Second.numericUpDown_SystemFont_angle;
-                    NumericUpDown numericUpDown_spacing = userControl_SystemFont_Second.numericUpDown_SystemFont_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_SystemFont_Second.numericUpDown_SystemFontX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Second.numericUpDown_SystemFontY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Second.numericUpDown_SystemFont_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Second.numericUpDown_SystemFont_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Second.numericUpDown_SystemFont_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -5058,12 +5058,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_hour.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Hour.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Hour.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Hour.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Hour.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Hour.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Hour.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Hour.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Hour.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Hour.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Hour.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Hour.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Hour.numericUpDown_FontRotate_spacing;
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
                     int size = (int)numericUpDown_size.Value;
@@ -5083,12 +5083,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_minute.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Minute.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Minute.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Minute.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Minute.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Minute.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Minute.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Minute.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Minute.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Minute.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Minute.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Minute.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Minute.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
@@ -5109,12 +5109,12 @@ namespace AmazFit_Watchface_2
             {
                 if (sValue_second.Length > 0)
                 {
-                    NumericUpDown numericUpDownX = userControl_FontRotate_Second.numericUpDown_FontRotateX;
-                    NumericUpDown numericUpDownY = userControl_FontRotate_Second.numericUpDown_FontRotateY;
-                    NumericUpDown numericUpDown_size = userControl_FontRotate_Second.numericUpDown_FontRotate_size;
-                    NumericUpDown numericUpDown_angle = userControl_FontRotate_Second.numericUpDown_FontRotate_angle;
-                    NumericUpDown numericUpDown_radius = userControl_FontRotate_Second.numericUpDown_FontRotate_radius;
-                    NumericUpDown numericUpDown_spacing = userControl_FontRotate_Second.numericUpDown_FontRotate_spacing;
+                    DarkControls.DarkNumericUpDown numericUpDownX = userControl_FontRotate_Second.numericUpDown_FontRotateX;
+                    DarkControls.DarkNumericUpDown numericUpDownY = userControl_FontRotate_Second.numericUpDown_FontRotateY;
+                    DarkControls.DarkNumericUpDown numericUpDown_size = userControl_FontRotate_Second.numericUpDown_FontRotate_size;
+                    DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Second.numericUpDown_FontRotate_angle;
+                    DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Second.numericUpDown_FontRotate_radius;
+                    DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Second.numericUpDown_FontRotate_spacing;
 
                     int x = (int)numericUpDownX.Value;
                     int y = (int)numericUpDownY.Value;
