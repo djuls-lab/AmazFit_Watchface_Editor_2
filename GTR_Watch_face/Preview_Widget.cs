@@ -574,13 +574,13 @@ namespace AmazFit_Watchface_2
                                 // десятичный разделитель
                                 if (activity.Type == "Distance" || activity.Type == "Sunrise")
                                 {
-                                    //ComboBox comboBox_DecimalPoint = (ComboBox)panel_text.Controls[12];
+                                    //DarkControls.DarkComboBox comboBox_DecimalPoint = (DarkControls.DarkComboBox)panel_text.Controls[12];
                                     if (digitalCommonDigit.Digit.Image.DecimalPointImageIndex != null)
                                         _imageDecimalIndex = (int)digitalCommonDigit.Digit.Image.DecimalPointImageIndex - 1;
                                 }
                                 if (activity.Type == "Weather")
                                 {
-                                    //ComboBox comboBox_DecimalPoint = (ComboBox)panel_text.Controls[12];
+                                    //DarkControls.DarkComboBox comboBox_DecimalPoint = (DarkControls.DarkComboBox)panel_text.Controls[12];
                                     if (digitalCommonDigit.Digit.Image.DelimiterImageIndex != null)
                                         _imageDecimalIndex = (int)digitalCommonDigit.Digit.Image.DelimiterImageIndex - 1;
                                 }
@@ -2467,17 +2467,17 @@ namespace AmazFit_Watchface_2
                             userPanel_text_Activity != null)
                             {
                                 userPanel_text_Activity.checkBox_Use.Checked = true;
-                                //ComboBox comboBox_image = (ComboBox)userPanel_text_Activity.Controls[1];
-                                //ComboBox comboBox_unit = (ComboBox)userPanel_text_Activity.Controls[2];
-                                //ComboBox comboBox_separator = (ComboBox)userPanel_text_Activity.Controls[3];
+                                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)userPanel_text_Activity.Controls[1];
+                                //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)userPanel_text_Activity.Controls[2];
+                                //DarkControls.DarkComboBox comboBox_separator = (DarkControls.DarkComboBox)userPanel_text_Activity.Controls[3];
                                 DarkControls.DarkNumericUpDown numericUpDownX = userPanel_text_Activity.numericUpDown_imageX;
                                 DarkControls.DarkNumericUpDown numericUpDownY = userPanel_text_Activity.numericUpDown_imageY;
                                 DarkControls.DarkNumericUpDown numericUpDown_unitX = userPanel_text_Activity.numericUpDown_iconX;
                                 DarkControls.DarkNumericUpDown numericUpDown_unitY = userPanel_text_Activity.numericUpDown_iconY;
-                                //ComboBox comboBox_alignment = (ComboBox)userPanel_text_Activity.Controls[8];
+                                //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)userPanel_text_Activity.Controls[8];
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userPanel_text_Activity.numericUpDown_spacing;
-                                CheckBox checkBox_add_zero = userPanel_text_Activity.checkBox_addZero;
-                                CheckBox checkBox_follow = userPanel_text_Activity.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userPanel_text_Activity.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_follow = userPanel_text_Activity.checkBox_follow;
 
                                 numericUpDownX.Value = digitalCommonDigit.Digit.Image.X;
                                 numericUpDownY.Value = digitalCommonDigit.Digit.Image.Y;
@@ -2487,7 +2487,7 @@ namespace AmazFit_Watchface_2
                                 // десятичный разделитель
                                 if (activity.Type == "Distance")
                                 {
-                                    //ComboBox comboBox_DecimalPoint = (ComboBox)panel_text.Controls[12];
+                                    //DarkControls.DarkComboBox comboBox_DecimalPoint = (DarkControls.DarkComboBox)panel_text.Controls[12];
                                     if (digitalCommonDigit.Digit.Image.DecimalPointImageIndex != null)
                                         userPanel_text_Activity.comboBoxSetImageDecimalPointOrMinus((int)digitalCommonDigit.Digit.Image.DecimalPointImageIndex);
                                 
@@ -2541,10 +2541,10 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Activity.numericUpDown_SystemFontY;
                                 DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Activity.numericUpDown_SystemFont_size;
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Activity.numericUpDown_SystemFont_angle;
-                                CheckBox checkBox_add_zero = userControl_SystemFont_Activity.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_Activity.checkBox_addZero;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Activity.numericUpDown_SystemFont_spacing;
-                                CheckBox checkBox_follow = userControl_SystemFont_Activity.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_SystemFont_Activity.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_Activity.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_Activity.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2577,9 +2577,9 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Activity.numericUpDown_FontRotate_angle;
                                 DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Activity.numericUpDown_FontRotate_radius;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Activity.numericUpDown_FontRotate_spacing;
-                                CheckBox checkBox_add_zero = userControl_FontRotate_Activity.checkBox_addZero;
-                                CheckBox checkBox_follow = userControl_FontRotate_Activity.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_FontRotate_Activity.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_Activity.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_Activity.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_Activity.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2713,10 +2713,10 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_weather.numericUpDown_SystemFontY;
                                 DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_weather.numericUpDown_SystemFont_size;
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_weather.numericUpDown_SystemFont_angle;
-                                CheckBox checkBox_add_zero = userControl_SystemFont_weather.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_weather.checkBox_addZero;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_weather.numericUpDown_SystemFont_spacing;
-                                CheckBox checkBox_follow = userControl_SystemFont_weather.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_SystemFont_weather.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_weather.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_weather.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2750,9 +2750,9 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_weather.numericUpDown_FontRotate_angle;
                                 DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_weather.numericUpDown_FontRotate_radius;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_weather.numericUpDown_FontRotate_spacing;
-                                CheckBox checkBox_add_zero = userControl_FontRotate_weather.checkBox_addZero;
-                                CheckBox checkBox_follow = userControl_FontRotate_weather.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_FontRotate_weather.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_weather.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_weather.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_weather.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2888,10 +2888,10 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_weather.numericUpDown_SystemFontY;
                                 DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_weather.numericUpDown_SystemFont_size;
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_weather.numericUpDown_SystemFont_angle;
-                                CheckBox checkBox_add_zero = userControl_SystemFont_weather.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_weather.checkBox_addZero;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_weather.numericUpDown_SystemFont_spacing;
-                                CheckBox checkBox_follow = userControl_SystemFont_weather.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_SystemFont_weather.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_weather.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_weather.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2925,9 +2925,9 @@ namespace AmazFit_Watchface_2
                                 DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_weather.numericUpDown_FontRotate_angle;
                                 DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_weather.numericUpDown_FontRotate_radius;
                                 DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_weather.numericUpDown_FontRotate_spacing;
-                                CheckBox checkBox_add_zero = userControl_FontRotate_weather.checkBox_addZero;
-                                CheckBox checkBox_follow = userControl_FontRotate_weather.checkBox_follow;
-                                CheckBox checkBox_separator = userControl_FontRotate_weather.checkBox_separator;
+                                DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_weather.checkBox_addZero;
+                                DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_weather.checkBox_follow;
+                                DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_weather.checkBox_separator;
 
                                 if (digitalCommonDigit.CombingMode == null ||
                                     digitalCommonDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -2963,17 +2963,17 @@ namespace AmazFit_Watchface_2
                     if (activity.PointerProgress != null && activity.PointerProgress.Pointer != null)
                     {
                         userPanel_hand.checkBox_hand_Use.Checked = true;
-                        //ComboBox comboBox_image = (ComboBox)panel_hand.Controls[1];
+                        //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_hand.Controls[1];
                         DarkControls.DarkNumericUpDown numericUpDownX = userPanel_hand.numericUpDown_handX;
                         DarkControls.DarkNumericUpDown numericUpDownY = userPanel_hand.numericUpDown_handY;
                         DarkControls.DarkNumericUpDown numericUpDown_offsetX = userPanel_hand.numericUpDown_handX_offset;
                         DarkControls.DarkNumericUpDown numericUpDown_offsetY = userPanel_hand.numericUpDown_handY_offset;
-                        //ComboBox comboBox_imageCentr = (ComboBox)panel_hand.Controls[6];
+                        //DarkControls.DarkComboBox comboBox_imageCentr = (DarkControls.DarkComboBox)panel_hand.Controls[6];
                         DarkControls.DarkNumericUpDown numericUpDownX_centr = userPanel_hand.numericUpDown_handX_centr;
                         DarkControls.DarkNumericUpDown numericUpDownY_centr = userPanel_hand.numericUpDown_handY_centr;
                         DarkControls.DarkNumericUpDown numericUpDown_startAngle = userPanel_hand.numericUpDown_hand_startAngle;
                         DarkControls.DarkNumericUpDown numericUpDown_endAngle = userPanel_hand.numericUpDown_hand_endAngle;
-                        //ComboBox comboBox_imageBackground = (ComboBox)panel_hand.Controls[11];
+                        //DarkControls.DarkComboBox comboBox_imageBackground = (DarkControls.DarkComboBox)panel_hand.Controls[11];
                         DarkControls.DarkNumericUpDown numericUpDownX_background = userPanel_hand.numericUpDown_handX_background;
                         DarkControls.DarkNumericUpDown numericUpDownY_background = userPanel_hand.numericUpDown_handY_background;
 
@@ -3014,12 +3014,12 @@ namespace AmazFit_Watchface_2
                     if (activity.ProgressBar != null && activity.ProgressBar.AngleSettings != null)
                     {
                         userPanel_scaleCircle.checkBox_scaleCircle_Use.Checked = true;
-                        RadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
-                        RadioButton radioButton_color = userPanel_scaleCircle.radioButton_scaleCircle_color;
-                        //ComboBox comboBox_image = (ComboBox)panel_scaleCircle.Controls[3];
-                        //ComboBox comboBox_color = (ComboBox)panel_scaleCircle.Controls[4];
-                        //ComboBox comboBox_flatness = (ComboBox)panel_scaleCircle.Controls[5];
-                        //ComboBox comboBox_background = (ComboBox)panel_scaleCircle.Controls[6];
+                        DarkControls.DarkRadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
+                        DarkControls.DarkRadioButton radioButton_color = userPanel_scaleCircle.radioButton_scaleCircle_color;
+                        //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[3];
+                        //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[4];
+                        //DarkControls.DarkComboBox comboBox_flatness = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[5];
+                        //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[6];
                         DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
                         DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
                         DarkControls.DarkNumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
@@ -3062,17 +3062,17 @@ namespace AmazFit_Watchface_2
                     if (activity.ProgressBar != null && activity.ProgressBar.LinearSettings != null)
                     {
                         userPanel_scaleLinear.checkBox_scaleLinear_Use.Checked = true;
-                        RadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
-                        RadioButton radioButton_color = userPanel_scaleLinear.radioButton_scaleLinear_color;
-                        //ComboBox comboBox_image = (ComboBox)panel_scaleLinear.Controls[3];
-                        //ComboBox comboBox_color = (ComboBox)panel_scaleLinear.Controls[4];
-                        //ComboBox comboBox_pointer = (ComboBox)panel_scaleLinear.Controls[5];
-                        //ComboBox comboBox_background = (ComboBox)panel_scaleLinear.Controls[6];
+                        DarkControls.DarkRadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
+                        DarkControls.DarkRadioButton radioButton_color = userPanel_scaleLinear.radioButton_scaleLinear_color;
+                        //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[3];
+                        //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[4];
+                        //DarkControls.DarkComboBox comboBox_pointer = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[5];
+                        //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[6];
                         DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
                         DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
                         DarkControls.DarkNumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
                         DarkControls.DarkNumericUpDown numericUpDown_width = userPanel_scaleLinear.numericUpDown_scaleLinear_width;
-                        //ComboBox comboBox_flatness = (ComboBox)panel_scaleLinear.Controls[11];
+                        //DarkControls.DarkComboBox comboBox_flatness = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[11];
                         if (activity.ProgressBar.ForegroundImageIndex != null)
                         {
                             radioButton_image.Checked = true;
@@ -3198,10 +3198,10 @@ namespace AmazFit_Watchface_2
                                     DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Date.numericUpDown_SystemFontY;
                                     DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Date.numericUpDown_SystemFont_size;
                                     DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Date.numericUpDown_SystemFont_angle;
-                                    CheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
+                                    DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
                                     DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Date.numericUpDown_SystemFont_spacing;
-                                    CheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
-                                    CheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
+                                    DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
+                                    DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
 
                                     if (digitalDateDigit.CombingMode == null ||
                                         digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -3236,9 +3236,9 @@ namespace AmazFit_Watchface_2
                                     DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Date.numericUpDown_FontRotate_angle;
                                     DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Date.numericUpDown_FontRotate_radius;
                                     DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Date.numericUpDown_FontRotate_spacing;
-                                    CheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
-                                    CheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
-                                    CheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
+                                    DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
+                                    DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
+                                    DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
 
                                     if (digitalDateDigit.CombingMode == null ||
                                         digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -3344,10 +3344,10 @@ namespace AmazFit_Watchface_2
                                         DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Date.numericUpDown_SystemFontY;
                                         DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Date.numericUpDown_SystemFont_size;
                                         DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Date.numericUpDown_SystemFont_angle;
-                                        CheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
+                                        DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
                                         DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Date.numericUpDown_SystemFont_spacing;
-                                        CheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
-                                        CheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
+                                        DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
+                                        DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
 
                                         if (digitalDateDigit.CombingMode == null ||
                                             digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -3382,9 +3382,9 @@ namespace AmazFit_Watchface_2
                                         DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Date.numericUpDown_FontRotate_angle;
                                         DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Date.numericUpDown_FontRotate_radius;
                                         DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Date.numericUpDown_FontRotate_spacing;
-                                        CheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
-                                        CheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
-                                        CheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
+                                        DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
+                                        DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
+                                        DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
 
                                         if (digitalDateDigit.CombingMode == null ||
                                             digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -3471,10 +3471,10 @@ namespace AmazFit_Watchface_2
                                     DarkControls.DarkNumericUpDown numericUpDownY = userControl_SystemFont_Date.numericUpDown_SystemFontY;
                                     DarkControls.DarkNumericUpDown numericUpDown_size = userControl_SystemFont_Date.numericUpDown_SystemFont_size;
                                     DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_SystemFont_Date.numericUpDown_SystemFont_angle;
-                                    CheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
+                                    DarkControls.DarkCheckBox checkBox_add_zero = userControl_SystemFont_Date.checkBox_addZero;
                                     DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_SystemFont_Date.numericUpDown_SystemFont_spacing;
-                                    CheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
-                                    CheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
+                                    DarkControls.DarkCheckBox checkBox_follow = userControl_SystemFont_Date.checkBox_follow;
+                                    DarkControls.DarkCheckBox checkBox_separator = userControl_SystemFont_Date.checkBox_separator;
 
                                     if (digitalDateDigit.CombingMode == null ||
                                         digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -3509,9 +3509,9 @@ namespace AmazFit_Watchface_2
                                     DarkControls.DarkNumericUpDown numericUpDown_angle = userControl_FontRotate_Date.numericUpDown_FontRotate_angle;
                                     DarkControls.DarkNumericUpDown numericUpDown_radius = userControl_FontRotate_Date.numericUpDown_FontRotate_radius;
                                     DarkControls.DarkNumericUpDown numericUpDown_spacing = userControl_FontRotate_Date.numericUpDown_FontRotate_spacing;
-                                    CheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
-                                    CheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
-                                    CheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
+                                    DarkControls.DarkCheckBox checkBox_add_zero = userControl_FontRotate_Date.checkBox_addZero;
+                                    DarkControls.DarkCheckBox checkBox_follow = userControl_FontRotate_Date.checkBox_follow;
+                                    DarkControls.DarkCheckBox checkBox_separator = userControl_FontRotate_Date.checkBox_separator;
 
                                     if (digitalDateDigit.CombingMode == null ||
                                         digitalDateDigit.CombingMode == "Follow") checkBox_follow.Checked = true;
@@ -4295,9 +4295,9 @@ namespace AmazFit_Watchface_2
             for (int i = 0; i < controlCollection.Count; i++)
             {
                 //string name = controlCollection[i].GetType().Name;
-                if (controlCollection[i].GetType().Name == "RadioButton")
+                if (controlCollection[i].GetType().Name == "DarkControls.DarkRadioButton")
                 {
-                    RadioButton radioButton = controlCollection[i] as RadioButton;
+                    DarkControls.DarkRadioButton radioButton = controlCollection[i] as DarkControls.DarkRadioButton;
                     if (radioButton.Checked)
                     {
                         switch (radioButton.Name)
@@ -4496,10 +4496,10 @@ namespace AmazFit_Watchface_2
             Activity activity = null;
 
             // данные картинками
-            //checkBox_Use = (CheckBox)panel_pictures.checkBox_pictures_Use;
+            //checkBox_Use = (DarkControls.DarkCheckBox)panel_pictures.checkBox_pictures_Use;
             if (userPanel_pictures != null && userPanel_pictures.checkBox_pictures_Use.Checked)
             {
-                //ComboBox comboBox_image = (ComboBox)panel_pictures.Controls[1];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_pictures.Controls[1];
                 int image = userPanel_pictures.comboBoxGetImage();
                 if (image >= 0)
                 {
@@ -4543,15 +4543,15 @@ namespace AmazFit_Watchface_2
             }
 
             // данные надписью
-            //checkBox_Use = (CheckBox)panel_text.checkBox_Use;
+            //checkBox_Use = (DarkControls.DarkCheckBox)panel_text.checkBox_Use;
             if (userPanel_text != null && userPanel_text.checkBox_Use.Checked)
             {
-                //ComboBox comboBox_image = (ComboBox)panel_text.Controls[1];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_text.Controls[1];
                 int image = userPanel_text.comboBoxGetImage();
                 if (image >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text.Controls[2];
-                    //ComboBox comboBox_separator = (ComboBox)panel_text.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separator = (DarkControls.DarkComboBox)panel_text.Controls[3];
                     int unit = userPanel_text.comboBoxGetIcon();
                     int separator = userPanel_text.comboBoxGetUnit();
                     int separatorMile = userPanel_text.comboBoxGetUnitMile();
@@ -4633,12 +4633,12 @@ namespace AmazFit_Watchface_2
             // цель надписью
             if (userPanel_textGoal != null && userPanel_textGoal.checkBox_Use.Checked)
             {
-                //ComboBox comboBox_image = (ComboBox)userPanel_textGoal.Controls[1];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)userPanel_textGoal.Controls[1];
                 int image = userPanel_textGoal.comboBoxGetImage();
                 if (image >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)userPanel_textGoal.Controls[2];
-                    //ComboBox comboBox_separator = (ComboBox)userPanel_textGoal.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)userPanel_textGoal.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separator = (DarkControls.DarkComboBox)userPanel_textGoal.Controls[3];
                     int unit = userPanel_textGoal.comboBoxGetIcon();
                     int separator = userPanel_textGoal.comboBoxGetUnit();
                     DarkControls.DarkNumericUpDown numericUpDownX = userPanel_textGoal.numericUpDown_imageX;
@@ -4897,7 +4897,7 @@ namespace AmazFit_Watchface_2
             // данные стрелкой
             if (userPanel_hand != null && userPanel_hand.checkBox_hand_Use.Checked)
             {
-                //ComboBox comboBox_image = (ComboBox)panel_hand.Controls[1];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_hand.Controls[1];
                 int image = userPanel_hand.comboBoxGetHandImage();
                 if (image >= 0)
                 {
@@ -4956,12 +4956,12 @@ namespace AmazFit_Watchface_2
             // данные круговой шкалой
             if (userPanel_scaleCircle != null && userPanel_scaleCircle.checkBox_scaleCircle_Use.Checked)
             {
-                RadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
-                //RadioButton radioButton_color = (RadioButton)panel_scaleCircle.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleCircle.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleCircle.Controls[4];
-                //ComboBox comboBox_flatness = (ComboBox)panel_scaleCircle.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleCircle.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = userPanel_scaleCircle.radioButton_scaleCircle_image;
+                //DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleCircle.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[4];
+                //DarkControls.DarkComboBox comboBox_flatness = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleCircle.numericUpDown_scaleCircleX;
                 DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleCircle.numericUpDown_scaleCircleY;
                 DarkControls.DarkNumericUpDown numericUpDown_radius = userPanel_scaleCircle.numericUpDown_scaleCircle_radius;
@@ -5001,12 +5001,12 @@ namespace AmazFit_Watchface_2
             // данные линейной шкалой
             if (userPanel_scaleLinear != null && userPanel_scaleLinear.checkBox_scaleLinear_Use.Checked)
             {
-                RadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
-                ////RadioButton radioButton_color = (RadioButton)panel_scaleLinear.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleLinear.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleLinear.Controls[4];
-                //ComboBox comboBox_pointer = (ComboBox)panel_scaleLinear.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleLinear.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = userPanel_scaleLinear.radioButton_scaleLinear_image;
+                ////DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleLinear.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[4];
+                //DarkControls.DarkComboBox comboBox_pointer = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = userPanel_scaleLinear.numericUpDown_scaleLinearX;
                 DarkControls.DarkNumericUpDown numericUpDownY = userPanel_scaleLinear.numericUpDown_scaleLinearY;
                 DarkControls.DarkNumericUpDown numericUpDown_length = userPanel_scaleLinear.numericUpDown_scaleLinear_length;
@@ -5112,17 +5112,17 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text.Controls[11];
 
                     if (activity == null) activity = new Activity();
                     activity.Digits = new List<DigitalCommonDigit>();
@@ -5182,17 +5182,17 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text_min.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text_min.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text_min.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text_min.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text_min.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text_min.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text_min.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text_min.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text_min.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text_min.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text_min.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text_min.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text_min.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text_min.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text_min.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text_min.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text_min.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text_min.Controls[11];
 
                     if (activity == null) activity = new Activity();
                     if (activity.Digits == null) activity.Digits = new List<DigitalCommonDigit>();
@@ -5253,18 +5253,18 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text_max.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text_max.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text_max.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text_max.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text_max.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text_max.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text_max.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text_max.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text_max.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text_max.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text_max.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text_max.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text_max.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text_max.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text_max.Controls[11];
-                    CheckBox checkBox_follow = panel_text_max.checkBox_follow;
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text_max.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text_max.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text_max.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_follow = panel_text_max.checkBox_follow;
 
                     if (activity == null) activity = new Activity();
                     if (activity.Digits == null) activity.Digits = new List<DigitalCommonDigit>();
@@ -5615,12 +5615,12 @@ namespace AmazFit_Watchface_2
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_hand.numericUpDown_handY;
                     DarkControls.DarkNumericUpDown numericUpDown_offsetX = panel_hand.numericUpDown_handX_offset;
                     DarkControls.DarkNumericUpDown numericUpDown_offsetY = panel_hand.numericUpDown_handY_offset;
-                    //ComboBox comboBox_imageCentr = (ComboBox)panel_hand.Controls[6];
+                    //DarkControls.DarkComboBox comboBox_imageCentr = (DarkControls.DarkComboBox)panel_hand.Controls[6];
                     DarkControls.DarkNumericUpDown numericUpDownX_centr = panel_hand.numericUpDown_handX_centr;
                     DarkControls.DarkNumericUpDown numericUpDownY_centr = panel_hand.numericUpDown_handY_centr;
                     DarkControls.DarkNumericUpDown numericUpDown_startAngle = panel_hand.numericUpDown_hand_startAngle;
                     DarkControls.DarkNumericUpDown numericUpDown_endAngle = panel_hand.numericUpDown_hand_endAngle;
-                    //ComboBox comboBox_imageBackground = (ComboBox)panel_hand.Controls[11];
+                    //DarkControls.DarkComboBox comboBox_imageBackground = (DarkControls.DarkComboBox)panel_hand.Controls[11];
                     DarkControls.DarkNumericUpDown numericUpDownX_background = panel_hand.numericUpDown_handX_background;
                     DarkControls.DarkNumericUpDown numericUpDownY_background = panel_hand.numericUpDown_handY_background;
 
@@ -5666,12 +5666,12 @@ namespace AmazFit_Watchface_2
             // данные круговой шкалой
             if (panel_scaleCircle.checkBox_scaleCircle_Use.Checked)
             {
-                RadioButton radioButton_image = panel_scaleCircle.radioButton_scaleCircle_image;
-                //RadioButton radioButton_color = (RadioButton)panel_scaleCircle.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleCircle.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleCircle.Controls[4];
-                //ComboBox comboBox_flatness = (ComboBox)panel_scaleCircle.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleCircle.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = panel_scaleCircle.radioButton_scaleCircle_image;
+                //DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleCircle.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[4];
+                //DarkControls.DarkComboBox comboBox_flatness = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = panel_scaleCircle.numericUpDown_scaleCircleX;
                 DarkControls.DarkNumericUpDown numericUpDownY = panel_scaleCircle.numericUpDown_scaleCircleY;
                 DarkControls.DarkNumericUpDown numericUpDown_radius = panel_scaleCircle.numericUpDown_scaleCircle_radius;
@@ -5711,12 +5711,12 @@ namespace AmazFit_Watchface_2
             // данные линейной шкалой
             if (panel_scaleLinear.checkBox_scaleLinear_Use.Checked)
             {
-                RadioButton radioButton_image = panel_scaleLinear.radioButton_scaleLinear_image;
-                ////RadioButton radioButton_color = (RadioButton)panel_scaleLinear.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleLinear.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleLinear.Controls[4];
-                //ComboBox comboBox_pointer = (ComboBox)panel_scaleLinear.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleLinear.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = panel_scaleLinear.radioButton_scaleLinear_image;
+                ////DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleLinear.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[4];
+                //DarkControls.DarkComboBox comboBox_pointer = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = panel_scaleLinear.numericUpDown_scaleLinearX;
                 DarkControls.DarkNumericUpDown numericUpDownY = panel_scaleLinear.numericUpDown_scaleLinearY;
                 DarkControls.DarkNumericUpDown numericUpDown_length = panel_scaleLinear.numericUpDown_scaleLinear_length;
@@ -5820,17 +5820,17 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text.Controls[11];
 
                     if (activity == null) activity = new Activity();
                     activity.Digits = new List<DigitalCommonDigit>();
@@ -5890,17 +5890,17 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text_min.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text_min.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text_min.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text_min.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text_min.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text_min.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text_min.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text_min.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text_min.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text_min.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text_min.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text_min.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text_min.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text_min.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text_min.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text_min.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text_min.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text_min.Controls[11];
 
                     if (activity == null) activity = new Activity();
                     if (activity.Digits == null) activity.Digits = new List<DigitalCommonDigit>();
@@ -5961,18 +5961,18 @@ namespace AmazFit_Watchface_2
             {
                 if (panel_text_max.comboBoxGetSelectedIndexImage() >= 0)
                 {
-                    //ComboBox comboBox_unit = (ComboBox)panel_text_max.Controls[2];
-                    //ComboBox comboBox_separatorF = (ComboBox)panel_text_max.Controls[3];
+                    //DarkControls.DarkComboBox comboBox_unit = (DarkControls.DarkComboBox)panel_text_max.Controls[2];
+                    //DarkControls.DarkComboBox comboBox_separatorF = (DarkControls.DarkComboBox)panel_text_max.Controls[3];
                     DarkControls.DarkNumericUpDown numericUpDownX = panel_text_max.numericUpDown_imageX;
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_text_max.numericUpDown_imageY;
                     DarkControls.DarkNumericUpDown numericUpDown_unitX = panel_text_max.numericUpDown_iconX;
                     DarkControls.DarkNumericUpDown numericUpDown_unitY = panel_text_max.numericUpDown_iconY;
-                    //ComboBox comboBox_alignment = (ComboBox)panel_text_max.Controls[8];
+                    //DarkControls.DarkComboBox comboBox_alignment = (DarkControls.DarkComboBox)panel_text_max.Controls[8];
                     DarkControls.DarkNumericUpDown numericUpDown_spacing = panel_text_max.numericUpDown_spacing;
-                    CheckBox checkBox_add_zero = panel_text_max.checkBox_addZero;
-                    //ComboBox comboBox_imageError = (ComboBox)panel_text_max.Controls[10];
-                    //ComboBox comboBox_imageMinus = (ComboBox)panel_text_max.Controls[11];
-                    CheckBox checkBox_follow = panel_text_max.checkBox_follow;
+                    DarkControls.DarkCheckBox checkBox_add_zero = panel_text_max.checkBox_addZero;
+                    //DarkControls.DarkComboBox comboBox_imageError = (DarkControls.DarkComboBox)panel_text_max.Controls[10];
+                    //DarkControls.DarkComboBox comboBox_imageMinus = (DarkControls.DarkComboBox)panel_text_max.Controls[11];
+                    DarkControls.DarkCheckBox checkBox_follow = panel_text_max.checkBox_follow;
 
                     if (activity == null) activity = new Activity();
                     if (activity.Digits == null) activity.Digits = new List<DigitalCommonDigit>();
@@ -6321,12 +6321,12 @@ namespace AmazFit_Watchface_2
                     DarkControls.DarkNumericUpDown numericUpDownY = panel_hand.numericUpDown_handY;
                     DarkControls.DarkNumericUpDown numericUpDown_offsetX = panel_hand.numericUpDown_handX_offset;
                     DarkControls.DarkNumericUpDown numericUpDown_offsetY = panel_hand.numericUpDown_handY_offset;
-                    //ComboBox comboBox_imageCentr = (ComboBox)panel_hand.Controls[6];
+                    //DarkControls.DarkComboBox comboBox_imageCentr = (DarkControls.DarkComboBox)panel_hand.Controls[6];
                     DarkControls.DarkNumericUpDown numericUpDownX_centr = panel_hand.numericUpDown_handX_centr;
                     DarkControls.DarkNumericUpDown numericUpDownY_centr = panel_hand.numericUpDown_handY_centr;
                     DarkControls.DarkNumericUpDown numericUpDown_startAngle = panel_hand.numericUpDown_hand_startAngle;
                     DarkControls.DarkNumericUpDown numericUpDown_endAngle = panel_hand.numericUpDown_hand_endAngle;
-                    //ComboBox comboBox_imageBackground = (ComboBox)panel_hand.Controls[11];
+                    //DarkControls.DarkComboBox comboBox_imageBackground = (DarkControls.DarkComboBox)panel_hand.Controls[11];
                     DarkControls.DarkNumericUpDown numericUpDownX_background = panel_hand.numericUpDown_handX_background;
                     DarkControls.DarkNumericUpDown numericUpDownY_background = panel_hand.numericUpDown_handY_background;
 
@@ -6372,12 +6372,12 @@ namespace AmazFit_Watchface_2
             // данные круговой шкалой
             if (panel_scaleCircle.checkBox_scaleCircle_Use.Checked)
             {
-                RadioButton radioButton_image = panel_scaleCircle.radioButton_scaleCircle_image;
-                //RadioButton radioButton_color = (RadioButton)panel_scaleCircle.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleCircle.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleCircle.Controls[4];
-                //ComboBox comboBox_flatness = (ComboBox)panel_scaleCircle.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleCircle.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = panel_scaleCircle.radioButton_scaleCircle_image;
+                //DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleCircle.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[4];
+                //DarkControls.DarkComboBox comboBox_flatness = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleCircle.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = panel_scaleCircle.numericUpDown_scaleCircleX;
                 DarkControls.DarkNumericUpDown numericUpDownY = panel_scaleCircle.numericUpDown_scaleCircleY;
                 DarkControls.DarkNumericUpDown numericUpDown_radius = panel_scaleCircle.numericUpDown_scaleCircle_radius;
@@ -6417,12 +6417,12 @@ namespace AmazFit_Watchface_2
             // данные линейной шкалой
             if (panel_scaleLinear.checkBox_scaleLinear_Use.Checked)
             {
-                RadioButton radioButton_image = panel_scaleLinear.radioButton_scaleLinear_image;
-                ////RadioButton radioButton_color = (RadioButton)panel_scaleLinear.Controls[2];
-                //ComboBox comboBox_image = (ComboBox)panel_scaleLinear.Controls[3];
-                //ComboBox comboBox_color = (ComboBox)panel_scaleLinear.Controls[4];
-                //ComboBox comboBox_pointer = (ComboBox)panel_scaleLinear.Controls[5];
-                //ComboBox comboBox_background = (ComboBox)panel_scaleLinear.Controls[6];
+                DarkControls.DarkRadioButton radioButton_image = panel_scaleLinear.radioButton_scaleLinear_image;
+                ////DarkControls.DarkRadioButton radioButton_color = (DarkControls.DarkRadioButton)panel_scaleLinear.Controls[2];
+                //DarkControls.DarkComboBox comboBox_image = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[3];
+                //DarkControls.DarkComboBox comboBox_color = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[4];
+                //DarkControls.DarkComboBox comboBox_pointer = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[5];
+                //DarkControls.DarkComboBox comboBox_background = (DarkControls.DarkComboBox)panel_scaleLinear.Controls[6];
                 DarkControls.DarkNumericUpDown numericUpDownX = panel_scaleLinear.numericUpDown_scaleLinearX;
                 DarkControls.DarkNumericUpDown numericUpDownY = panel_scaleLinear.numericUpDown_scaleLinearY;
                 DarkControls.DarkNumericUpDown numericUpDown_length = panel_scaleLinear.numericUpDown_scaleLinear_length;
@@ -7258,9 +7258,9 @@ namespace AmazFit_Watchface_2
             for (int i = 1; i < controlCollection.Count; i++)
             {
                 //string name = controlCollection[i].GetType().Name;
-                if (controlCollection[i].GetType().Name == "RadioButton")
+                if (controlCollection[i].GetType().Name == "DarkControls.DarkRadioButton")
                 {
-                    RadioButton radioButton = controlCollection[i] as RadioButton;
+                    DarkControls.DarkRadioButton radioButton = controlCollection[i] as DarkControls.DarkRadioButton;
                     if (radioButton.Checked)
                     {
                         switch (radioButton.Name)
@@ -7414,9 +7414,9 @@ namespace AmazFit_Watchface_2
             for (int i = 1; i < controlCollection.Count; i++)
             {
                 //string name = controlCollection[i].GetType().Name;
-                if (controlCollection[i].GetType().Name == "RadioButton")
+                if (controlCollection[i].GetType().Name == "DarkControls.DarkRadioButton")
                 {
-                    RadioButton radioButton = controlCollection[i] as RadioButton;
+                    DarkControls.DarkRadioButton radioButton = controlCollection[i] as DarkControls.DarkRadioButton;
                     if (radioButton.Checked)
                     {
                         switch (radioButton.Name)
@@ -7681,9 +7681,9 @@ namespace AmazFit_Watchface_2
                     for (int j = 1; j < controlCollection.Count; j++)
                     {
                         //string name = controlCollection[i].GetType().Name;
-                        if (controlCollection[j].GetType().Name == "RadioButton")
+                        if (controlCollection[j].GetType().Name == "DarkControls.DarkRadioButton")
                         {
-                            RadioButton radioButton = controlCollection[j] as RadioButton;
+                            DarkControls.DarkRadioButton radioButton = controlCollection[j] as DarkControls.DarkRadioButton;
                             if (radioButton.Checked)
                             {
                                 switch (radioButton.Name)

@@ -21,13 +21,16 @@ namespace AmazFit_Watchface_2
             InitializeComponent();
             //currentDPI = (int)Registry.GetValue("HKEY_CURRENT_USER\\Control Panel\\Desktop", "LogPixels", 96) / 96f;
             currentDPI = cDPI;
+
+            BackColor = Color.FromArgb(30, 33, 35);
+            ForeColor = Color.Gainsboro;
         }
 
         public void radioButton_CheckedChanged(object sender, EventArgs e)
         {
             //Form1 f1 = this.Owner as Form1;//Получаем ссылку на первую форму
             //f1.button1.PerformClick();
-            RadioButton radioButton = sender as RadioButton;
+            DarkControls.DarkRadioButton radioButton = sender as DarkControls.DarkRadioButton;
             if (radioButton != null && !radioButton.Checked) return;
             pictureBox_Preview.BackgroundImageLayout = ImageLayout.Zoom;
             if (radioButton_small.Checked)
