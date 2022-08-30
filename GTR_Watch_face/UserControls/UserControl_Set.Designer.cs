@@ -66,8 +66,8 @@ namespace AmazFit_Watchface_2
             this.numericUpDown_Distance_Set = new DarkControls.DarkNumericUpDown();
             this.numericUpDown_Calories_Set = new DarkControls.DarkNumericUpDown();
             this.numericUpDown_Battery_Set = new DarkControls.DarkNumericUpDown();
-            this.dateTimePicker_Time_Set = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker_Date_Set = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_Time_Set = new DarkControls.DarkDateTimePicker();
+            this.dateTimePicker_Date_Set = new DarkControls.DarkDateTimePicker();
             this.label13 = new DarkControls.DarkLabel();
             this.label11 = new DarkControls.DarkLabel();
             this.label10 = new DarkControls.DarkLabel();
@@ -735,7 +735,7 @@ namespace AmazFit_Watchface_2
         private DarkControls.DarkNumericUpDown numericUpDown_Distance_Set;
         public DarkControls.DarkNumericUpDown numericUpDown_Calories_Set;
         private DarkControls.DarkNumericUpDown numericUpDown_Battery_Set;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_Time_Set;
+        private DarkControls.DarkDateTimePicker dateTimePicker_Time_Set;
         private DarkControls.DarkLabel label13;
         private DarkControls.DarkLabel label11;
         private DarkControls.DarkLabel label10;
@@ -753,7 +753,7 @@ namespace AmazFit_Watchface_2
         private DarkControls.DarkComboBox comboBox_WeatherSet_Icon;
         private DarkControls.DarkNumericUpDown numericUpDown_WeatherSet_MaxTemp;
         private DarkControls.DarkNumericUpDown numericUpDown_WeatherSet_Temp;
-        public System.Windows.Forms.DateTimePicker dateTimePicker_Date_Set;
+        public DarkControls.DarkDateTimePicker dateTimePicker_Date_Set;
         private DarkControls.DarkCheckBox checkBox_WeatherSet_Temp;
         private DarkControls.DarkLabel label22;
         internal DarkControls.DarkNumericUpDown numericUpDown_AirQuality_Set;

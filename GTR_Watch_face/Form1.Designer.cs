@@ -1519,7 +1519,7 @@
             this.label407 = new DarkControls.DarkLabel();
             this.label_version_help = new DarkControls.DarkLabel();
             this.label406 = new DarkControls.DarkLabel();
-            this.pictureBox2 = new DarkControls.DarkPictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_Preview = new DarkControls.DarkPictureBox();
             this.checkBox_WidgetsArea = new DarkControls.DarkCheckBox();
             this.checkBox_center_marker = new DarkControls.DarkCheckBox();
@@ -18279,7 +18279,7 @@
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage_About;
-        private DarkControls.DarkPictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private DarkControls.DarkLabel label409;
         private DarkControls.DarkLabel label408;
         private DarkControls.DarkLabel label407;
