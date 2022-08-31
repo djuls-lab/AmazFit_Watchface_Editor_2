@@ -471,11 +471,11 @@ namespace AmazFit_Watchface_2
         {
             if (dataGridView_coordinates_set.Enabled)
             {
-                dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
-                dataGridView_coordinates_set.DefaultCellStyle.ForeColor = Color.Black;
+                dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle.ForeColor = Color.Gainsboro;
+                dataGridView_coordinates_set.DefaultCellStyle.ForeColor = Color.Gainsboro;
                 dataGridView_coordinates_set.DefaultCellStyle.SelectionForeColor = Color.White;
                 dataGridView_coordinates_set.DefaultCellStyle.SelectionBackColor = SystemColors.Highlight;
-                dataGridView_coordinates_set.RowHeadersDefaultCellStyle.ForeColor = Color.Black;
+                dataGridView_coordinates_set.RowHeadersDefaultCellStyle.ForeColor = Color.Gainsboro;
             }
             else
             {

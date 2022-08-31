@@ -142,7 +142,7 @@
     <value>checkBox_pictures_Use</value>
   </data>
   <data name="&gt;&gt;checkBox_pictures_Use.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkCheckBox, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;checkBox_pictures_Use.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -169,7 +169,7 @@
     <value>comboBox_pictures_image</value>
   </data>
   <data name="&gt;&gt;comboBox_pictures_image.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkComboBox, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;comboBox_pictures_image.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -277,7 +277,7 @@
     <value>radioButton_Continuous</value>
   </data>
   <data name="&gt;&gt;radioButton_Continuous.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkRadioButton, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;radioButton_Continuous.Parent" xml:space="preserve">
     <value>groupBox_DisplayType</value>
@@ -307,7 +307,7 @@
     <value>radioButton_Single</value>
   </data>
   <data name="&gt;&gt;radioButton_Single.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkRadioButton, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;radioButton_Single.Parent" xml:space="preserve">
     <value>groupBox_DisplayType</value>
@@ -334,7 +334,7 @@
     <value>groupBox_DisplayType</value>
   </data>
   <data name="&gt;&gt;groupBox_DisplayType.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkGroupBox, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkControls.DarkGroupBox, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;groupBox_DisplayType.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -367,7 +367,7 @@
     <value>label01</value>
   </data>
   <data name="&gt;&gt;label01.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkLabel, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;label01.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -403,7 +403,7 @@
     <value>label02</value>
   </data>
   <data name="&gt;&gt;label02.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkLabel, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;label02.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -430,7 +430,7 @@
     <value>button_Copy_pictures</value>
   </data>
   <data name="&gt;&gt;button_Copy_pictures.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkButton, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkControls.DarkButton, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button_Copy_pictures.Parent" xml:space="preserve">
     <value>panel_pictures</value>
@@ -484,7 +484,7 @@
     <value>button_pictures</value>
   </data>
   <data name="&gt;&gt;button_pictures.Type" xml:space="preserve">
-    <value>AmazFit_Watchface_2.DarkButton, AmazFit_Watchface_Editor_2, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>DarkControls.DarkButton, DarkControls, Version=1.0.8278.19529, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button_pictures.Parent" xml:space="preserve">
     <value>$this</value>

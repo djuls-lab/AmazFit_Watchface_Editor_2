@@ -57,7 +57,7 @@
             this.вставитьКоординатуХToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabs_ImageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.contextMenuStrip_XY_InAnimationTable = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.вставитьНачальныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьКонечныеКоординатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -707,7 +707,7 @@
             this.userControl_text_Battery = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Battery = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Battery = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabs_ImageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl_EditParameters_AOD = new DarkControls.DarkTabControl();
             this.tabPage_Background_AOD = new System.Windows.Forms.TabPage();
             this.label284 = new DarkControls.DarkLabel();
@@ -1962,15 +1962,15 @@
             this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
             this.вставитьToolStripMenuItem.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
             // 
-            // tabs_ImageList2
+            // imageList2
             // 
-            this.tabs_ImageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("tabs_ImageList2.ImageStream")));
-            this.tabs_ImageList2.TransparentColor = System.Drawing.Color.Black;
-            this.tabs_ImageList2.Images.SetKeyName(0, "Edit.png");
-            this.tabs_ImageList2.Images.SetKeyName(1, "AddColumn.png");
-            this.tabs_ImageList2.Images.SetKeyName(2, "AddRow.png");
-            this.tabs_ImageList2.Images.SetKeyName(3, "AddList.png");
-            this.tabs_ImageList2.Images.SetKeyName(4, "Add.png");
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Black;
+            this.imageList2.Images.SetKeyName(0, "Edit.png");
+            this.imageList2.Images.SetKeyName(1, "AddColumn.png");
+            this.imageList2.Images.SetKeyName(2, "AddRow.png");
+            this.imageList2.Images.SetKeyName(3, "AddList.png");
+            this.imageList2.Images.SetKeyName(4, "Add.png");
             // 
             // contextMenuStrip_XY_InAnimationTable
             // 
@@ -2473,7 +2473,7 @@
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Activity);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_Air);
             this.tabControl_EditParameters.Controls.Add(this.tabPage_System);
-            this.tabControl_EditParameters.ImageList = this.tabs_ImageList1;
+            this.tabControl_EditParameters.ImageList = this.imageList1;
             this.tabControl_EditParameters.Multiline = true;
             this.tabControl_EditParameters.Name = "tabControl_EditParameters";
             this.tabControl_EditParameters.SelectedIndex = 0;
@@ -2625,7 +2625,13 @@
             // numericUpDown_AM_Y
             // 
             this.numericUpDown_AM_Y.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_AM_Y.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AM_Y, "numericUpDown_AM_Y");
+            this.numericUpDown_AM_Y.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_Y.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2637,6 +2643,11 @@
             0,
             -2147483648});
             this.numericUpDown_AM_Y.Name = "numericUpDown_AM_Y";
+            this.numericUpDown_AM_Y.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_Y.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_Y.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -2653,7 +2664,13 @@
             // numericUpDown_AM_X
             // 
             this.numericUpDown_AM_X.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_AM_X.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AM_X, "numericUpDown_AM_X");
+            this.numericUpDown_AM_X.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_X.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2665,6 +2682,11 @@
             0,
             -2147483648});
             this.numericUpDown_AM_X.Name = "numericUpDown_AM_X";
+            this.numericUpDown_AM_X.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_X.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_X.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -2708,7 +2730,13 @@
             // numericUpDown_PM_X
             // 
             this.numericUpDown_PM_X.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_PM_X.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_PM_X, "numericUpDown_PM_X");
+            this.numericUpDown_PM_X.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_X.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2720,6 +2748,11 @@
             0,
             -2147483648});
             this.numericUpDown_PM_X.Name = "numericUpDown_PM_X";
+            this.numericUpDown_PM_X.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_X.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_PM_X.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -2743,7 +2776,13 @@
             // numericUpDown_PM_Y
             // 
             this.numericUpDown_PM_Y.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_PM_Y.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_PM_Y, "numericUpDown_PM_Y");
+            this.numericUpDown_PM_Y.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_Y.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2755,6 +2794,11 @@
             0,
             -2147483648});
             this.numericUpDown_PM_Y.Name = "numericUpDown_PM_Y";
+            this.numericUpDown_PM_Y.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_Y.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_PM_Y.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -2806,7 +2850,13 @@
             // 
             // numericUpDown_Second_spacing
             // 
+            this.numericUpDown_Second_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_spacing, "numericUpDown_Second_spacing");
+            this.numericUpDown_Second_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2818,6 +2868,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_spacing.Name = "numericUpDown_Second_spacing";
+            this.numericUpDown_Second_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label534
@@ -2863,7 +2918,13 @@
             // numericUpDown_Second_unitX
             // 
             this.numericUpDown_Second_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Second_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_unitX, "numericUpDown_Second_unitX");
+            this.numericUpDown_Second_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2875,6 +2936,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_unitX.Name = "numericUpDown_Second_unitX";
+            this.numericUpDown_Second_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -2888,7 +2954,13 @@
             // numericUpDown_Second_unitY
             // 
             this.numericUpDown_Second_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Second_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_unitY, "numericUpDown_Second_unitY");
+            this.numericUpDown_Second_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2900,6 +2972,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_unitY.Name = "numericUpDown_Second_unitY";
+            this.numericUpDown_Second_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -2926,7 +3003,13 @@
             // numericUpDown_SecondY
             // 
             this.numericUpDown_SecondY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_SecondY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_SecondY, "numericUpDown_SecondY");
+            this.numericUpDown_SecondY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_SecondY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2938,13 +3021,24 @@
             0,
             -2147483648});
             this.numericUpDown_SecondY.Name = "numericUpDown_SecondY";
+            this.numericUpDown_SecondY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_SecondY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_SecondY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_SecondX
             // 
             this.numericUpDown_SecondX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_SecondX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_SecondX, "numericUpDown_SecondX");
+            this.numericUpDown_SecondX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_SecondX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -2956,6 +3050,11 @@
             0,
             -2147483648});
             this.numericUpDown_SecondX.Name = "numericUpDown_SecondX";
+            this.numericUpDown_SecondX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_SecondX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_SecondX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3051,7 +3150,13 @@
             // 
             // numericUpDown_Minute_spacing
             // 
+            this.numericUpDown_Minute_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_spacing, "numericUpDown_Minute_spacing");
+            this.numericUpDown_Minute_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3063,6 +3168,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_spacing.Name = "numericUpDown_Minute_spacing";
+            this.numericUpDown_Minute_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label533
@@ -3108,7 +3218,13 @@
             // numericUpDown_Minute_unitX
             // 
             this.numericUpDown_Minute_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_unitX, "numericUpDown_Minute_unitX");
+            this.numericUpDown_Minute_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3120,6 +3236,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_unitX.Name = "numericUpDown_Minute_unitX";
+            this.numericUpDown_Minute_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3133,7 +3254,13 @@
             // numericUpDown_Minute_unitY
             // 
             this.numericUpDown_Minute_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_unitY, "numericUpDown_Minute_unitY");
+            this.numericUpDown_Minute_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3145,6 +3272,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_unitY.Name = "numericUpDown_Minute_unitY";
+            this.numericUpDown_Minute_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -3171,7 +3303,13 @@
             // numericUpDown_MinuteY
             // 
             this.numericUpDown_MinuteY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_MinuteY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MinuteY, "numericUpDown_MinuteY");
+            this.numericUpDown_MinuteY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3183,13 +3321,24 @@
             0,
             -2147483648});
             this.numericUpDown_MinuteY.Name = "numericUpDown_MinuteY";
+            this.numericUpDown_MinuteY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MinuteY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_MinuteX
             // 
             this.numericUpDown_MinuteX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_MinuteX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MinuteX, "numericUpDown_MinuteX");
+            this.numericUpDown_MinuteX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3201,6 +3350,11 @@
             0,
             -2147483648});
             this.numericUpDown_MinuteX.Name = "numericUpDown_MinuteX";
+            this.numericUpDown_MinuteX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MinuteX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3295,7 +3449,13 @@
             // 
             // numericUpDown_Hour_spacing
             // 
+            this.numericUpDown_Hour_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_spacing, "numericUpDown_Hour_spacing");
+            this.numericUpDown_Hour_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3307,6 +3467,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_spacing.Name = "numericUpDown_Hour_spacing";
+            this.numericUpDown_Hour_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label532
@@ -3352,7 +3517,13 @@
             // numericUpDown_Hour_unitX
             // 
             this.numericUpDown_Hour_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_unitX, "numericUpDown_Hour_unitX");
+            this.numericUpDown_Hour_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3364,13 +3535,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_unitX.Name = "numericUpDown_Hour_unitX";
+            this.numericUpDown_Hour_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Hour_unitY
             // 
             this.numericUpDown_Hour_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_unitY, "numericUpDown_Hour_unitY");
+            this.numericUpDown_Hour_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3382,6 +3564,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_unitY.Name = "numericUpDown_Hour_unitY";
+            this.numericUpDown_Hour_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -3408,7 +3595,13 @@
             // numericUpDown_HourY
             // 
             this.numericUpDown_HourY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_HourY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_HourY, "numericUpDown_HourY");
+            this.numericUpDown_HourY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_HourY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3420,13 +3613,24 @@
             0,
             -2147483648});
             this.numericUpDown_HourY.Name = "numericUpDown_HourY";
+            this.numericUpDown_HourY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_HourY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_HourY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_HourX
             // 
             this.numericUpDown_HourX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_HourX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_HourX, "numericUpDown_HourX");
+            this.numericUpDown_HourX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_HourX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3438,6 +3642,11 @@
             0,
             -2147483648});
             this.numericUpDown_HourX.Name = "numericUpDown_HourX";
+            this.numericUpDown_HourX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_HourX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_HourX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3557,7 +3766,13 @@
             // 
             // numericUpDown_Second_handY_offset
             // 
+            this.numericUpDown_Second_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handY_offset, "numericUpDown_Second_handY_offset");
+            this.numericUpDown_Second_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3569,11 +3784,22 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handY_offset.Name = "numericUpDown_Second_handY_offset";
+            this.numericUpDown_Second_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Second_handX_offset
             // 
+            this.numericUpDown_Second_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handX_offset, "numericUpDown_Second_handX_offset");
+            this.numericUpDown_Second_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3585,6 +3811,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handX_offset.Name = "numericUpDown_Second_handX_offset";
+            this.numericUpDown_Second_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label560
@@ -3617,7 +3848,13 @@
             // numericUpDown_Second_handX_centr
             // 
             this.numericUpDown_Second_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Second_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handX_centr, "numericUpDown_Second_handX_centr");
+            this.numericUpDown_Second_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3629,13 +3866,24 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handX_centr.Name = "numericUpDown_Second_handX_centr";
+            this.numericUpDown_Second_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Second_handY_centr
             // 
             this.numericUpDown_Second_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Second_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handY_centr, "numericUpDown_Second_handY_centr");
+            this.numericUpDown_Second_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3647,6 +3895,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handY_centr.Name = "numericUpDown_Second_handY_centr";
+            this.numericUpDown_Second_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -3673,7 +3926,13 @@
             // numericUpDown_Second_handY
             // 
             this.numericUpDown_Second_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Second_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handY, "numericUpDown_Second_handY");
+            this.numericUpDown_Second_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3685,13 +3944,24 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handY.Name = "numericUpDown_Second_handY";
+            this.numericUpDown_Second_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Second_handX
             // 
             this.numericUpDown_Second_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Second_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Second_handX, "numericUpDown_Second_handX");
+            this.numericUpDown_Second_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3703,6 +3973,11 @@
             0,
             -2147483648});
             this.numericUpDown_Second_handX.Name = "numericUpDown_Second_handX";
+            this.numericUpDown_Second_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Second_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Second_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3772,7 +4047,13 @@
             // 
             // numericUpDown_Minute_handY_offset
             // 
+            this.numericUpDown_Minute_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY_offset, "numericUpDown_Minute_handY_offset");
+            this.numericUpDown_Minute_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3784,11 +4065,22 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY_offset.Name = "numericUpDown_Minute_handY_offset";
+            this.numericUpDown_Minute_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Minute_handX_offset
             // 
+            this.numericUpDown_Minute_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX_offset, "numericUpDown_Minute_handX_offset");
+            this.numericUpDown_Minute_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3800,6 +4092,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX_offset.Name = "numericUpDown_Minute_handX_offset";
+            this.numericUpDown_Minute_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label549
@@ -3832,7 +4129,13 @@
             // numericUpDown_Minute_handX_centr
             // 
             this.numericUpDown_Minute_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX_centr, "numericUpDown_Minute_handX_centr");
+            this.numericUpDown_Minute_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3844,13 +4147,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX_centr.Name = "numericUpDown_Minute_handX_centr";
+            this.numericUpDown_Minute_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Minute_handY_centr
             // 
             this.numericUpDown_Minute_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY_centr, "numericUpDown_Minute_handY_centr");
+            this.numericUpDown_Minute_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3862,6 +4176,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY_centr.Name = "numericUpDown_Minute_handY_centr";
+            this.numericUpDown_Minute_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -3888,7 +4207,13 @@
             // numericUpDown_Minute_handY
             // 
             this.numericUpDown_Minute_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY, "numericUpDown_Minute_handY");
+            this.numericUpDown_Minute_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3900,13 +4225,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY.Name = "numericUpDown_Minute_handY";
+            this.numericUpDown_Minute_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Minute_handX
             // 
             this.numericUpDown_Minute_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX, "numericUpDown_Minute_handX");
+            this.numericUpDown_Minute_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3918,6 +4254,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX.Name = "numericUpDown_Minute_handX";
+            this.numericUpDown_Minute_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -3987,7 +4328,13 @@
             // 
             // numericUpDown_Hour_handY_offset
             // 
+            this.numericUpDown_Hour_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY_offset, "numericUpDown_Hour_handY_offset");
+            this.numericUpDown_Hour_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -3999,11 +4346,22 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY_offset.Name = "numericUpDown_Hour_handY_offset";
+            this.numericUpDown_Hour_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Hour_handX_offset
             // 
+            this.numericUpDown_Hour_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX_offset, "numericUpDown_Hour_handX_offset");
+            this.numericUpDown_Hour_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4015,6 +4373,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX_offset.Name = "numericUpDown_Hour_handX_offset";
+            this.numericUpDown_Hour_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // label535
@@ -4047,7 +4410,13 @@
             // numericUpDown_Hour_handX_centr
             // 
             this.numericUpDown_Hour_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX_centr, "numericUpDown_Hour_handX_centr");
+            this.numericUpDown_Hour_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4059,13 +4428,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX_centr.Name = "numericUpDown_Hour_handX_centr";
+            this.numericUpDown_Hour_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Hour_handY_centr
             // 
             this.numericUpDown_Hour_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY_centr, "numericUpDown_Hour_handY_centr");
+            this.numericUpDown_Hour_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4077,6 +4457,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY_centr.Name = "numericUpDown_Hour_handY_centr";
+            this.numericUpDown_Hour_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -4103,7 +4488,13 @@
             // numericUpDown_Hour_handY
             // 
             this.numericUpDown_Hour_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY, "numericUpDown_Hour_handY");
+            this.numericUpDown_Hour_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4115,13 +4506,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY.Name = "numericUpDown_Hour_handY";
+            this.numericUpDown_Hour_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Hour_handX
             // 
             this.numericUpDown_Hour_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX, "numericUpDown_Hour_handX");
+            this.numericUpDown_Hour_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4133,6 +4535,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX.Name = "numericUpDown_Hour_handX";
+            this.numericUpDown_Hour_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -4265,7 +4672,13 @@
             // numericUpDown_Day_handX_background
             // 
             this.numericUpDown_Day_handX_background.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_background, "numericUpDown_Day_handX_background");
+            this.numericUpDown_Day_handX_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4277,13 +4690,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_background.Name = "numericUpDown_Day_handX_background";
+            this.numericUpDown_Day_handX_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY_background
             // 
             this.numericUpDown_Day_handY_background.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_background, "numericUpDown_Day_handY_background");
+            this.numericUpDown_Day_handY_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4295,6 +4719,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_background.Name = "numericUpDown_Day_handY_background";
+            this.numericUpDown_Day_handY_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -4312,7 +4741,13 @@
             // 
             // numericUpDown_Day_hand_endAngle
             // 
+            this.numericUpDown_Day_hand_endAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_hand_endAngle, "numericUpDown_Day_hand_endAngle");
+            this.numericUpDown_Day_hand_endAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_endAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4333,7 +4768,13 @@
             // 
             // numericUpDown_Day_hand_startAngle
             // 
+            this.numericUpDown_Day_hand_startAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_hand_startAngle, "numericUpDown_Day_hand_startAngle");
+            this.numericUpDown_Day_hand_startAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_startAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4345,11 +4786,22 @@
             0,
             -2147483648});
             this.numericUpDown_Day_hand_startAngle.Name = "numericUpDown_Day_hand_startAngle";
+            this.numericUpDown_Day_hand_startAngle.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_startAngle.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Day_handY_offset
             // 
+            this.numericUpDown_Day_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_offset, "numericUpDown_Day_handY_offset");
+            this.numericUpDown_Day_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4361,11 +4813,22 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_offset.Name = "numericUpDown_Day_handY_offset";
+            this.numericUpDown_Day_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Day_handX_offset
             // 
+            this.numericUpDown_Day_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_offset, "numericUpDown_Day_handX_offset");
+            this.numericUpDown_Day_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4377,6 +4840,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_offset.Name = "numericUpDown_Day_handX_offset";
+            this.numericUpDown_Day_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Day_hand_image
@@ -4394,7 +4862,13 @@
             // numericUpDown_Day_handX_centr
             // 
             this.numericUpDown_Day_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_centr, "numericUpDown_Day_handX_centr");
+            this.numericUpDown_Day_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4406,13 +4880,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_centr.Name = "numericUpDown_Day_handX_centr";
+            this.numericUpDown_Day_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY_centr
             // 
             this.numericUpDown_Day_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_centr, "numericUpDown_Day_handY_centr");
+            this.numericUpDown_Day_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4424,13 +4909,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_centr.Name = "numericUpDown_Day_handY_centr";
+            this.numericUpDown_Day_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY
             // 
             this.numericUpDown_Day_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY, "numericUpDown_Day_handY");
+            this.numericUpDown_Day_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4442,13 +4938,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY.Name = "numericUpDown_Day_handY";
+            this.numericUpDown_Day_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_handX
             // 
             this.numericUpDown_Day_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX, "numericUpDown_Day_handX");
+            this.numericUpDown_Day_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4460,6 +4967,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX.Name = "numericUpDown_Day_handX";
+            this.numericUpDown_Day_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -4611,7 +5123,13 @@
             // 
             // numericUpDown_Day_spacing
             // 
+            this.numericUpDown_Day_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_spacing, "numericUpDown_Day_spacing");
+            this.numericUpDown_Day_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4623,6 +5141,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_spacing.Name = "numericUpDown_Day_spacing";
+            this.numericUpDown_Day_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Day_separator
@@ -4716,7 +5239,13 @@
             // numericUpDown_Day_unitX
             // 
             this.numericUpDown_Day_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_unitX, "numericUpDown_Day_unitX");
+            this.numericUpDown_Day_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4728,13 +5257,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_unitX.Name = "numericUpDown_Day_unitX";
+            this.numericUpDown_Day_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DayX
             // 
             this.numericUpDown_DayX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DayX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DayX, "numericUpDown_DayX");
+            this.numericUpDown_DayX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DayX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4746,6 +5286,11 @@
             0,
             -2147483648});
             this.numericUpDown_DayX.Name = "numericUpDown_DayX";
+            this.numericUpDown_DayX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DayX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DayX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -4759,7 +5304,13 @@
             // numericUpDown_DayY
             // 
             this.numericUpDown_DayY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DayY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DayY, "numericUpDown_DayY");
+            this.numericUpDown_DayY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DayY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4771,13 +5322,24 @@
             0,
             -2147483648});
             this.numericUpDown_DayY.Name = "numericUpDown_DayY";
+            this.numericUpDown_DayY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DayY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DayY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_unitY
             // 
             this.numericUpDown_Day_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_unitY, "numericUpDown_Day_unitY");
+            this.numericUpDown_Day_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4789,6 +5351,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_unitY.Name = "numericUpDown_Day_unitY";
+            this.numericUpDown_Day_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -4887,7 +5454,13 @@
             // numericUpDown_Month_handX_background
             // 
             this.numericUpDown_Month_handX_background.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_background, "numericUpDown_Month_handX_background");
+            this.numericUpDown_Month_handX_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4899,13 +5472,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_background.Name = "numericUpDown_Month_handX_background";
+            this.numericUpDown_Month_handX_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY_background
             // 
             this.numericUpDown_Month_handY_background.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_background, "numericUpDown_Month_handY_background");
+            this.numericUpDown_Month_handY_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4917,6 +5501,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_background.Name = "numericUpDown_Month_handY_background";
+            this.numericUpDown_Month_handY_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -4954,7 +5543,13 @@
             // 
             // numericUpDown_Month_hand_endAngle
             // 
+            this.numericUpDown_Month_hand_endAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_hand_endAngle, "numericUpDown_Month_hand_endAngle");
+            this.numericUpDown_Month_hand_endAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_hand_endAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4975,7 +5570,13 @@
             // 
             // numericUpDown_Month_hand_startAngle
             // 
+            this.numericUpDown_Month_hand_startAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_hand_startAngle, "numericUpDown_Month_hand_startAngle");
+            this.numericUpDown_Month_hand_startAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_hand_startAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -4996,7 +5597,13 @@
             // 
             // numericUpDown_Month_handY_offset
             // 
+            this.numericUpDown_Month_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_offset, "numericUpDown_Month_handY_offset");
+            this.numericUpDown_Month_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5008,11 +5615,22 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_offset.Name = "numericUpDown_Month_handY_offset";
+            this.numericUpDown_Month_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Month_handX_offset
             // 
+            this.numericUpDown_Month_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_offset, "numericUpDown_Month_handX_offset");
+            this.numericUpDown_Month_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5024,6 +5642,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_offset.Name = "numericUpDown_Month_handX_offset";
+            this.numericUpDown_Month_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Month_hand_image
@@ -5041,7 +5664,13 @@
             // numericUpDown_Month_handX_centr
             // 
             this.numericUpDown_Month_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_centr, "numericUpDown_Month_handX_centr");
+            this.numericUpDown_Month_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5053,13 +5682,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_centr.Name = "numericUpDown_Month_handX_centr";
+            this.numericUpDown_Month_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY_centr
             // 
             this.numericUpDown_Month_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_centr, "numericUpDown_Month_handY_centr");
+            this.numericUpDown_Month_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5071,13 +5711,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_centr.Name = "numericUpDown_Month_handY_centr";
+            this.numericUpDown_Month_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY
             // 
             this.numericUpDown_Month_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY, "numericUpDown_Month_handY");
+            this.numericUpDown_Month_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5089,13 +5740,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY.Name = "numericUpDown_Month_handY";
+            this.numericUpDown_Month_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_handX
             // 
             this.numericUpDown_Month_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX, "numericUpDown_Month_handX");
+            this.numericUpDown_Month_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5107,6 +5769,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX.Name = "numericUpDown_Month_handX";
+            this.numericUpDown_Month_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -5231,7 +5898,13 @@
             // 
             // numericUpDown_Month_spacing
             // 
+            this.numericUpDown_Month_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_spacing, "numericUpDown_Month_spacing");
+            this.numericUpDown_Month_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5243,6 +5916,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_spacing.Name = "numericUpDown_Month_spacing";
+            this.numericUpDown_Month_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Month_separator
@@ -5336,7 +6014,13 @@
             // numericUpDown_Month_unitX
             // 
             this.numericUpDown_Month_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_unitX, "numericUpDown_Month_unitX");
+            this.numericUpDown_Month_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5348,13 +6032,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_unitX.Name = "numericUpDown_Month_unitX";
+            this.numericUpDown_Month_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_MonthX
             // 
             this.numericUpDown_MonthX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_MonthX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MonthX, "numericUpDown_MonthX");
+            this.numericUpDown_MonthX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5366,6 +6061,11 @@
             0,
             -2147483648});
             this.numericUpDown_MonthX.Name = "numericUpDown_MonthX";
+            this.numericUpDown_MonthX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MonthX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -5379,7 +6079,13 @@
             // numericUpDown_MonthY
             // 
             this.numericUpDown_MonthY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_MonthY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MonthY, "numericUpDown_MonthY");
+            this.numericUpDown_MonthY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5391,13 +6097,24 @@
             0,
             -2147483648});
             this.numericUpDown_MonthY.Name = "numericUpDown_MonthY";
+            this.numericUpDown_MonthY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MonthY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_unitY
             // 
             this.numericUpDown_Month_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_unitY, "numericUpDown_Month_unitY");
+            this.numericUpDown_Month_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5409,6 +6126,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_unitY.Name = "numericUpDown_Month_unitY";
+            this.numericUpDown_Month_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -5487,7 +6209,13 @@
             // numericUpDown_Month_picturesY
             // 
             this.numericUpDown_Month_picturesY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_picturesY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_picturesY, "numericUpDown_Month_picturesY");
+            this.numericUpDown_Month_picturesY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5499,13 +6227,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_picturesY.Name = "numericUpDown_Month_picturesY";
+            this.numericUpDown_Month_picturesY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_picturesY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_picturesX
             // 
             this.numericUpDown_Month_picturesX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_picturesX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_picturesX, "numericUpDown_Month_picturesX");
+            this.numericUpDown_Month_picturesX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5517,6 +6256,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_picturesX.Name = "numericUpDown_Month_picturesX";
+            this.numericUpDown_Month_picturesX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_picturesX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -5616,7 +6360,13 @@
             // 
             // numericUpDown_Year_spacing
             // 
+            this.numericUpDown_Year_spacing.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_spacing, "numericUpDown_Year_spacing");
+            this.numericUpDown_Year_spacing.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_spacing.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5628,6 +6378,11 @@
             0,
             -2147483648});
             this.numericUpDown_Year_spacing.Name = "numericUpDown_Year_spacing";
+            this.numericUpDown_Year_spacing.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_spacing.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Year_separator
@@ -5721,7 +6476,13 @@
             // numericUpDown_Year_unitX
             // 
             this.numericUpDown_Year_unitX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Year_unitX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_unitX, "numericUpDown_Year_unitX");
+            this.numericUpDown_Year_unitX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5733,13 +6494,24 @@
             0,
             -2147483648});
             this.numericUpDown_Year_unitX.Name = "numericUpDown_Year_unitX";
+            this.numericUpDown_Year_unitX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Year_unitX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_YearX
             // 
             this.numericUpDown_YearX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_YearX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_YearX, "numericUpDown_YearX");
+            this.numericUpDown_YearX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_YearX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5751,13 +6523,24 @@
             0,
             -2147483648});
             this.numericUpDown_YearX.Name = "numericUpDown_YearX";
+            this.numericUpDown_YearX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_YearX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_YearX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Year_unitY
             // 
             this.numericUpDown_Year_unitY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Year_unitY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_unitY, "numericUpDown_Year_unitY");
+            this.numericUpDown_Year_unitY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5769,13 +6552,24 @@
             0,
             -2147483648});
             this.numericUpDown_Year_unitY.Name = "numericUpDown_Year_unitY";
+            this.numericUpDown_Year_unitY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Year_unitY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_YearY
             // 
             this.numericUpDown_YearY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_YearY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_YearY, "numericUpDown_YearY");
+            this.numericUpDown_YearY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_YearY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5787,6 +6581,11 @@
             0,
             -2147483648});
             this.numericUpDown_YearY.Name = "numericUpDown_YearY";
+            this.numericUpDown_YearY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_YearY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_YearY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -5871,7 +6670,13 @@
             // numericUpDown_DOW_handX_background
             // 
             this.numericUpDown_DOW_handX_background.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_background, "numericUpDown_DOW_handX_background");
+            this.numericUpDown_DOW_handX_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5883,13 +6688,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_background.Name = "numericUpDown_DOW_handX_background";
+            this.numericUpDown_DOW_handX_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY_background
             // 
             this.numericUpDown_DOW_handY_background.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY_background.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_background, "numericUpDown_DOW_handY_background");
+            this.numericUpDown_DOW_handY_background.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_background.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5901,6 +6717,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_background.Name = "numericUpDown_DOW_handY_background";
+            this.numericUpDown_DOW_handY_background.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_background.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY_background.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -5938,7 +6759,13 @@
             // 
             // numericUpDown_DOW_hand_endAngle
             // 
+            this.numericUpDown_DOW_hand_endAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_hand_endAngle, "numericUpDown_DOW_hand_endAngle");
+            this.numericUpDown_DOW_hand_endAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_endAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5959,7 +6786,13 @@
             // 
             // numericUpDown_DOW_hand_startAngle
             // 
+            this.numericUpDown_DOW_hand_startAngle.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_hand_startAngle, "numericUpDown_DOW_hand_startAngle");
+            this.numericUpDown_DOW_hand_startAngle.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_startAngle.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5971,11 +6804,22 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_hand_startAngle.Name = "numericUpDown_DOW_hand_startAngle";
+            this.numericUpDown_DOW_hand_startAngle.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_startAngle.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_DOW_handY_offset
             // 
+            this.numericUpDown_DOW_handY_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_offset, "numericUpDown_DOW_handY_offset");
+            this.numericUpDown_DOW_handY_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -5987,11 +6831,22 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_offset.Name = "numericUpDown_DOW_handY_offset";
+            this.numericUpDown_DOW_handY_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_DOW_handX_offset
             // 
+            this.numericUpDown_DOW_handX_offset.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_offset, "numericUpDown_DOW_handX_offset");
+            this.numericUpDown_DOW_handX_offset.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_offset.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6003,6 +6858,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_offset.Name = "numericUpDown_DOW_handX_offset";
+            this.numericUpDown_DOW_handX_offset.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_offset.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_DOW_hand_image
@@ -6020,7 +6880,13 @@
             // numericUpDown_DOW_handX_centr
             // 
             this.numericUpDown_DOW_handX_centr.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_centr, "numericUpDown_DOW_handX_centr");
+            this.numericUpDown_DOW_handX_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6032,13 +6898,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_centr.Name = "numericUpDown_DOW_handX_centr";
+            this.numericUpDown_DOW_handX_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY_centr
             // 
             this.numericUpDown_DOW_handY_centr.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY_centr.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_centr, "numericUpDown_DOW_handY_centr");
+            this.numericUpDown_DOW_handY_centr.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_centr.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6050,13 +6927,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_centr.Name = "numericUpDown_DOW_handY_centr";
+            this.numericUpDown_DOW_handY_centr.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_centr.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY_centr.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY
             // 
             this.numericUpDown_DOW_handY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY, "numericUpDown_DOW_handY");
+            this.numericUpDown_DOW_handY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6068,13 +6956,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY.Name = "numericUpDown_DOW_handY";
+            this.numericUpDown_DOW_handY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handX
             // 
             this.numericUpDown_DOW_handX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX, "numericUpDown_DOW_handX");
+            this.numericUpDown_DOW_handX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6086,6 +6985,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX.Name = "numericUpDown_DOW_handX";
+            this.numericUpDown_DOW_handX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -6215,7 +7119,13 @@
             // numericUpDown_DOW_picturesY
             // 
             this.numericUpDown_DOW_picturesY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_picturesY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_picturesY, "numericUpDown_DOW_picturesY");
+            this.numericUpDown_DOW_picturesY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6227,13 +7137,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_picturesY.Name = "numericUpDown_DOW_picturesY";
+            this.numericUpDown_DOW_picturesY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_picturesY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_picturesX
             // 
             this.numericUpDown_DOW_picturesX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_picturesX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_picturesX, "numericUpDown_DOW_picturesX");
+            this.numericUpDown_DOW_picturesX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -6245,6 +7166,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_picturesX.Name = "numericUpDown_DOW_picturesX";
+            this.numericUpDown_DOW_picturesX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_picturesX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -8332,7 +9258,13 @@
             // numericUpDown_LockX
             // 
             this.numericUpDown_LockX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_LockX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_LockX, "numericUpDown_LockX");
+            this.numericUpDown_LockX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_LockX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8344,13 +9276,24 @@
             0,
             -2147483648});
             this.numericUpDown_LockX.Name = "numericUpDown_LockX";
+            this.numericUpDown_LockX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_LockX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_LockX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_LockY
             // 
             this.numericUpDown_LockY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_LockY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_LockY, "numericUpDown_LockY");
+            this.numericUpDown_LockY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_LockY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8362,6 +9305,11 @@
             0,
             -2147483648});
             this.numericUpDown_LockY.Name = "numericUpDown_LockY";
+            this.numericUpDown_LockY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_LockY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_LockY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -8422,7 +9370,13 @@
             // numericUpDown_DNDX
             // 
             this.numericUpDown_DNDX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DNDX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DNDX, "numericUpDown_DNDX");
+            this.numericUpDown_DNDX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DNDX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8434,13 +9388,24 @@
             0,
             -2147483648});
             this.numericUpDown_DNDX.Name = "numericUpDown_DNDX";
+            this.numericUpDown_DNDX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DNDX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DNDX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DNDY
             // 
             this.numericUpDown_DNDY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DNDY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DNDY, "numericUpDown_DNDY");
+            this.numericUpDown_DNDY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DNDY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8452,6 +9417,11 @@
             0,
             -2147483648});
             this.numericUpDown_DNDY.Name = "numericUpDown_DNDY";
+            this.numericUpDown_DNDY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DNDY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DNDY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -8512,7 +9482,13 @@
             // numericUpDown_AlarmX
             // 
             this.numericUpDown_AlarmX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_AlarmX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AlarmX, "numericUpDown_AlarmX");
+            this.numericUpDown_AlarmX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AlarmX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8524,13 +9500,24 @@
             0,
             -2147483648});
             this.numericUpDown_AlarmX.Name = "numericUpDown_AlarmX";
+            this.numericUpDown_AlarmX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AlarmX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AlarmX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_AlarmY
             // 
             this.numericUpDown_AlarmY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_AlarmY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AlarmY, "numericUpDown_AlarmY");
+            this.numericUpDown_AlarmY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AlarmY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8542,6 +9529,11 @@
             0,
             -2147483648});
             this.numericUpDown_AlarmY.Name = "numericUpDown_AlarmY";
+            this.numericUpDown_AlarmY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AlarmY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AlarmY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -8602,7 +9594,13 @@
             // numericUpDown_BluetoothX
             // 
             this.numericUpDown_BluetoothX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_BluetoothX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_BluetoothX, "numericUpDown_BluetoothX");
+            this.numericUpDown_BluetoothX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_BluetoothX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8614,13 +9612,24 @@
             0,
             -2147483648});
             this.numericUpDown_BluetoothX.Name = "numericUpDown_BluetoothX";
+            this.numericUpDown_BluetoothX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_BluetoothX.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_BluetoothX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_BluetoothY
             // 
             this.numericUpDown_BluetoothY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_BluetoothY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_BluetoothY, "numericUpDown_BluetoothY");
+            this.numericUpDown_BluetoothY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_BluetoothY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8632,6 +9641,11 @@
             0,
             -2147483648});
             this.numericUpDown_BluetoothY.Name = "numericUpDown_BluetoothY";
+            this.numericUpDown_BluetoothY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_BluetoothY.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_BluetoothY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -8763,16 +9777,16 @@
             this.userControl_pictures_Battery.Name = "userControl_pictures_Battery";
             this.userControl_pictures_Battery.ValueChanged += new AmazFit_Watchface_2.UserControl_pictures.ValueChangedHandler(this.userControl_ValueChanged);
             // 
-            // tabs_ImageList1
+            // imageList1
             // 
-            this.tabs_ImageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("tabs_ImageList1.ImageStream")));
-            this.tabs_ImageList1.TransparentColor = System.Drawing.Color.Black;
-            this.tabs_ImageList1.Images.SetKeyName(0, "Background.png");
-            this.tabs_ImageList1.Images.SetKeyName(1, "Hour.png");
-            this.tabs_ImageList1.Images.SetKeyName(2, "Date.png");
-            this.tabs_ImageList1.Images.SetKeyName(3, "Activity.png");
-            this.tabs_ImageList1.Images.SetKeyName(4, "Meteo.png");
-            this.tabs_ImageList1.Images.SetKeyName(5, "System.png");
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Black;
+            this.imageList1.Images.SetKeyName(0, "Background.png");
+            this.imageList1.Images.SetKeyName(1, "Hour.png");
+            this.imageList1.Images.SetKeyName(2, "Date.png");
+            this.imageList1.Images.SetKeyName(3, "Activity.png");
+            this.imageList1.Images.SetKeyName(4, "Meteo.png");
+            this.imageList1.Images.SetKeyName(5, "System.png");
             // 
             // tabControl_EditParameters_AOD
             // 
@@ -8784,7 +9798,7 @@
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Activity_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_Air_AOD);
             this.tabControl_EditParameters_AOD.Controls.Add(this.tabPage_System_AOD);
-            this.tabControl_EditParameters_AOD.ImageList = this.tabs_ImageList1;
+            this.tabControl_EditParameters_AOD.ImageList = this.imageList1;
             this.tabControl_EditParameters_AOD.Multiline = true;
             this.tabControl_EditParameters_AOD.Name = "tabControl_EditParameters_AOD";
             this.tabControl_EditParameters_AOD.SelectedIndex = 0;
@@ -8889,7 +9903,13 @@
             // numericUpDown_AM_Y_AOD
             // 
             this.numericUpDown_AM_Y_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_AM_Y_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AM_Y_AOD, "numericUpDown_AM_Y_AOD");
+            this.numericUpDown_AM_Y_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_Y_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8901,13 +9921,24 @@
             0,
             -2147483648});
             this.numericUpDown_AM_Y_AOD.Name = "numericUpDown_AM_Y_AOD";
+            this.numericUpDown_AM_Y_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_Y_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_Y_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_AM_X_AOD
             // 
             this.numericUpDown_AM_X_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_AM_X_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_AM_X_AOD, "numericUpDown_AM_X_AOD");
+            this.numericUpDown_AM_X_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_X_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8919,13 +9950,24 @@
             0,
             -2147483648});
             this.numericUpDown_AM_X_AOD.Name = "numericUpDown_AM_X_AOD";
+            this.numericUpDown_AM_X_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_AM_X_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_AM_X_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_PM_X_AOD
             // 
             this.numericUpDown_PM_X_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_PM_X_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_PM_X_AOD, "numericUpDown_PM_X_AOD");
+            this.numericUpDown_PM_X_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_X_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8937,13 +9979,24 @@
             0,
             -2147483648});
             this.numericUpDown_PM_X_AOD.Name = "numericUpDown_PM_X_AOD";
+            this.numericUpDown_PM_X_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_X_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_PM_X_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_PM_Y_AOD
             // 
             this.numericUpDown_PM_Y_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_PM_Y_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_PM_Y_AOD, "numericUpDown_PM_Y_AOD");
+            this.numericUpDown_PM_Y_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_Y_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -8955,6 +10008,11 @@
             0,
             -2147483648});
             this.numericUpDown_PM_Y_AOD.Name = "numericUpDown_PM_Y_AOD";
+            this.numericUpDown_PM_Y_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_PM_Y_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_PM_Y_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -9099,7 +10157,13 @@
             // 
             // numericUpDown_Minute_spacing_AOD
             // 
+            this.numericUpDown_Minute_spacing_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_spacing_AOD, "numericUpDown_Minute_spacing_AOD");
+            this.numericUpDown_Minute_spacing_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_spacing_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9111,12 +10175,23 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_spacing_AOD.Name = "numericUpDown_Minute_spacing_AOD";
+            this.numericUpDown_Minute_spacing_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_spacing_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Minute_unitX_AOD
             // 
             this.numericUpDown_Minute_unitX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_unitX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_unitX_AOD, "numericUpDown_Minute_unitX_AOD");
+            this.numericUpDown_Minute_unitX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9128,13 +10203,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_unitX_AOD.Name = "numericUpDown_Minute_unitX_AOD";
+            this.numericUpDown_Minute_unitX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_unitX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Minute_unitY_AOD
             // 
             this.numericUpDown_Minute_unitY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_unitY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_unitY_AOD, "numericUpDown_Minute_unitY_AOD");
+            this.numericUpDown_Minute_unitY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9146,13 +10232,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_unitY_AOD.Name = "numericUpDown_Minute_unitY_AOD";
+            this.numericUpDown_Minute_unitY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_unitY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_unitY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_MinuteY_AOD
             // 
             this.numericUpDown_MinuteY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_MinuteY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MinuteY_AOD, "numericUpDown_MinuteY_AOD");
+            this.numericUpDown_MinuteY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9164,13 +10261,24 @@
             0,
             -2147483648});
             this.numericUpDown_MinuteY_AOD.Name = "numericUpDown_MinuteY_AOD";
+            this.numericUpDown_MinuteY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MinuteY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_MinuteX_AOD
             // 
             this.numericUpDown_MinuteX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_MinuteX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MinuteX_AOD, "numericUpDown_MinuteX_AOD");
+            this.numericUpDown_MinuteX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9182,6 +10290,11 @@
             0,
             -2147483648});
             this.numericUpDown_MinuteX_AOD.Name = "numericUpDown_MinuteX_AOD";
+            this.numericUpDown_MinuteX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MinuteX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MinuteX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -9344,7 +10457,13 @@
             // 
             // numericUpDown_Hour_spacing_AOD
             // 
+            this.numericUpDown_Hour_spacing_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_spacing_AOD, "numericUpDown_Hour_spacing_AOD");
+            this.numericUpDown_Hour_spacing_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_spacing_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9356,12 +10475,23 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_spacing_AOD.Name = "numericUpDown_Hour_spacing_AOD";
+            this.numericUpDown_Hour_spacing_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_spacing_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Hour_unitX_AOD
             // 
             this.numericUpDown_Hour_unitX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_unitX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_unitX_AOD, "numericUpDown_Hour_unitX_AOD");
+            this.numericUpDown_Hour_unitX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9373,13 +10503,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_unitX_AOD.Name = "numericUpDown_Hour_unitX_AOD";
+            this.numericUpDown_Hour_unitX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_unitX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Hour_unitY_AOD
             // 
             this.numericUpDown_Hour_unitY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_unitY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_unitY_AOD, "numericUpDown_Hour_unitY_AOD");
+            this.numericUpDown_Hour_unitY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9391,13 +10532,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_unitY_AOD.Name = "numericUpDown_Hour_unitY_AOD";
+            this.numericUpDown_Hour_unitY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_unitY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_unitY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_HourY_AOD
             // 
             this.numericUpDown_HourY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_HourY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_HourY_AOD, "numericUpDown_HourY_AOD");
+            this.numericUpDown_HourY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_HourY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9409,13 +10561,24 @@
             0,
             -2147483648});
             this.numericUpDown_HourY_AOD.Name = "numericUpDown_HourY_AOD";
+            this.numericUpDown_HourY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_HourY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_HourY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_HourX_AOD
             // 
             this.numericUpDown_HourX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_HourX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_HourX_AOD, "numericUpDown_HourX_AOD");
+            this.numericUpDown_HourX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_HourX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9427,6 +10590,11 @@
             0,
             -2147483648});
             this.numericUpDown_HourX_AOD.Name = "numericUpDown_HourX_AOD";
+            this.numericUpDown_HourX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_HourX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_HourX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -9584,7 +10752,13 @@
             // 
             // numericUpDown_Minute_handY_offset_AOD
             // 
+            this.numericUpDown_Minute_handY_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY_offset_AOD, "numericUpDown_Minute_handY_offset_AOD");
+            this.numericUpDown_Minute_handY_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9596,11 +10770,22 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY_offset_AOD.Name = "numericUpDown_Minute_handY_offset_AOD";
+            this.numericUpDown_Minute_handY_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Minute_handX_offset_AOD
             // 
+            this.numericUpDown_Minute_handX_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX_offset_AOD, "numericUpDown_Minute_handX_offset_AOD");
+            this.numericUpDown_Minute_handX_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9612,6 +10797,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX_offset_AOD.Name = "numericUpDown_Minute_handX_offset_AOD";
+            this.numericUpDown_Minute_handX_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Minute_hand_image_AOD
@@ -9629,7 +10819,13 @@
             // numericUpDown_Minute_handX_centr_AOD
             // 
             this.numericUpDown_Minute_handX_centr_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_handX_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX_centr_AOD, "numericUpDown_Minute_handX_centr_AOD");
+            this.numericUpDown_Minute_handX_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9641,13 +10837,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX_centr_AOD.Name = "numericUpDown_Minute_handX_centr_AOD";
+            this.numericUpDown_Minute_handX_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handX_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Minute_handY_centr_AOD
             // 
             this.numericUpDown_Minute_handY_centr_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_handY_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY_centr_AOD, "numericUpDown_Minute_handY_centr_AOD");
+            this.numericUpDown_Minute_handY_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9659,13 +10866,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY_centr_AOD.Name = "numericUpDown_Minute_handY_centr_AOD";
+            this.numericUpDown_Minute_handY_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handY_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Minute_handY_AOD
             // 
             this.numericUpDown_Minute_handY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Minute_handY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handY_AOD, "numericUpDown_Minute_handY_AOD");
+            this.numericUpDown_Minute_handY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9677,13 +10895,24 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handY_AOD.Name = "numericUpDown_Minute_handY_AOD";
+            this.numericUpDown_Minute_handY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Minute_handX_AOD
             // 
             this.numericUpDown_Minute_handX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Minute_handX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Minute_handX_AOD, "numericUpDown_Minute_handX_AOD");
+            this.numericUpDown_Minute_handX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9695,6 +10924,11 @@
             0,
             -2147483648});
             this.numericUpDown_Minute_handX_AOD.Name = "numericUpDown_Minute_handX_AOD";
+            this.numericUpDown_Minute_handX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Minute_handX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Minute_handX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -9814,7 +11048,13 @@
             // 
             // numericUpDown_Hour_handY_offset_AOD
             // 
+            this.numericUpDown_Hour_handY_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY_offset_AOD, "numericUpDown_Hour_handY_offset_AOD");
+            this.numericUpDown_Hour_handY_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9826,11 +11066,22 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY_offset_AOD.Name = "numericUpDown_Hour_handY_offset_AOD";
+            this.numericUpDown_Hour_handY_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Hour_handX_offset_AOD
             // 
+            this.numericUpDown_Hour_handX_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX_offset_AOD, "numericUpDown_Hour_handX_offset_AOD");
+            this.numericUpDown_Hour_handX_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9842,6 +11093,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX_offset_AOD.Name = "numericUpDown_Hour_handX_offset_AOD";
+            this.numericUpDown_Hour_handX_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Hour_hand_image_AOD
@@ -9859,7 +11115,13 @@
             // numericUpDown_Hour_handX_centr_AOD
             // 
             this.numericUpDown_Hour_handX_centr_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_handX_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX_centr_AOD, "numericUpDown_Hour_handX_centr_AOD");
+            this.numericUpDown_Hour_handX_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9871,13 +11133,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX_centr_AOD.Name = "numericUpDown_Hour_handX_centr_AOD";
+            this.numericUpDown_Hour_handX_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handX_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Hour_handY_centr_AOD
             // 
             this.numericUpDown_Hour_handY_centr_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_handY_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY_centr_AOD, "numericUpDown_Hour_handY_centr_AOD");
+            this.numericUpDown_Hour_handY_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9889,13 +11162,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY_centr_AOD.Name = "numericUpDown_Hour_handY_centr_AOD";
+            this.numericUpDown_Hour_handY_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handY_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Hour_handY_AOD
             // 
             this.numericUpDown_Hour_handY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Hour_handY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handY_AOD, "numericUpDown_Hour_handY_AOD");
+            this.numericUpDown_Hour_handY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9907,13 +11191,24 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handY_AOD.Name = "numericUpDown_Hour_handY_AOD";
+            this.numericUpDown_Hour_handY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Hour_handX_AOD
             // 
             this.numericUpDown_Hour_handX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Hour_handX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Hour_handX_AOD, "numericUpDown_Hour_handX_AOD");
+            this.numericUpDown_Hour_handX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -9925,6 +11220,11 @@
             0,
             -2147483648});
             this.numericUpDown_Hour_handX_AOD.Name = "numericUpDown_Hour_handX_AOD";
+            this.numericUpDown_Hour_handX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Hour_handX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Hour_handX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -10145,7 +11445,13 @@
             // numericUpDown_Day_handX_background_AOD
             // 
             this.numericUpDown_Day_handX_background_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_background_AOD, "numericUpDown_Day_handX_background_AOD");
+            this.numericUpDown_Day_handX_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10157,13 +11463,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_background_AOD.Name = "numericUpDown_Day_handX_background_AOD";
+            this.numericUpDown_Day_handX_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY_background_AOD
             // 
             this.numericUpDown_Day_handY_background_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_background_AOD, "numericUpDown_Day_handY_background_AOD");
+            this.numericUpDown_Day_handY_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10175,12 +11492,23 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_background_AOD.Name = "numericUpDown_Day_handY_background_AOD";
+            this.numericUpDown_Day_handY_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_hand_endAngle_AOD
             // 
+            this.numericUpDown_Day_hand_endAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_hand_endAngle_AOD, "numericUpDown_Day_hand_endAngle_AOD");
+            this.numericUpDown_Day_hand_endAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_endAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10201,7 +11529,13 @@
             // 
             // numericUpDown_Day_hand_startAngle_AOD
             // 
+            this.numericUpDown_Day_hand_startAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_hand_startAngle_AOD, "numericUpDown_Day_hand_startAngle_AOD");
+            this.numericUpDown_Day_hand_startAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_startAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10213,11 +11547,22 @@
             0,
             -2147483648});
             this.numericUpDown_Day_hand_startAngle_AOD.Name = "numericUpDown_Day_hand_startAngle_AOD";
+            this.numericUpDown_Day_hand_startAngle_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_hand_startAngle_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Day_handY_offset_AOD
             // 
+            this.numericUpDown_Day_handY_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_offset_AOD, "numericUpDown_Day_handY_offset_AOD");
+            this.numericUpDown_Day_handY_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10229,11 +11574,22 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_offset_AOD.Name = "numericUpDown_Day_handY_offset_AOD";
+            this.numericUpDown_Day_handY_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Day_handX_offset_AOD
             // 
+            this.numericUpDown_Day_handX_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_offset_AOD, "numericUpDown_Day_handX_offset_AOD");
+            this.numericUpDown_Day_handX_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10245,12 +11601,23 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_offset_AOD.Name = "numericUpDown_Day_handX_offset_AOD";
+            this.numericUpDown_Day_handX_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Day_handX_centr_AOD
             // 
             this.numericUpDown_Day_handX_centr_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_centr_AOD, "numericUpDown_Day_handX_centr_AOD");
+            this.numericUpDown_Day_handX_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10262,13 +11629,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_centr_AOD.Name = "numericUpDown_Day_handX_centr_AOD";
+            this.numericUpDown_Day_handX_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY_centr_AOD
             // 
             this.numericUpDown_Day_handY_centr_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_centr_AOD, "numericUpDown_Day_handY_centr_AOD");
+            this.numericUpDown_Day_handY_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10280,13 +11658,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_centr_AOD.Name = "numericUpDown_Day_handY_centr_AOD";
+            this.numericUpDown_Day_handY_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_handY_AOD
             // 
             this.numericUpDown_Day_handY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_handY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handY_AOD, "numericUpDown_Day_handY_AOD");
+            this.numericUpDown_Day_handY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10298,13 +11687,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handY_AOD.Name = "numericUpDown_Day_handY_AOD";
+            this.numericUpDown_Day_handY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_handX_AOD
             // 
             this.numericUpDown_Day_handX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_handX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_handX_AOD, "numericUpDown_Day_handX_AOD");
+            this.numericUpDown_Day_handX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10316,6 +11716,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_handX_AOD.Name = "numericUpDown_Day_handX_AOD";
+            this.numericUpDown_Day_handX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_handX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_handX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -10504,7 +11909,13 @@
             // numericUpDown_Day_unitX_AOD
             // 
             this.numericUpDown_Day_unitX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Day_unitX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_unitX_AOD, "numericUpDown_Day_unitX_AOD");
+            this.numericUpDown_Day_unitX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10516,13 +11927,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_unitX_AOD.Name = "numericUpDown_Day_unitX_AOD";
+            this.numericUpDown_Day_unitX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_unitX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Day_unitY_AOD
             // 
             this.numericUpDown_Day_unitY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Day_unitY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_unitY_AOD, "numericUpDown_Day_unitY_AOD");
+            this.numericUpDown_Day_unitY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10534,13 +11956,24 @@
             0,
             -2147483648});
             this.numericUpDown_Day_unitY_AOD.Name = "numericUpDown_Day_unitY_AOD";
+            this.numericUpDown_Day_unitY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_unitY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Day_unitY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DayX_AOD
             // 
             this.numericUpDown_DayX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DayX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DayX_AOD, "numericUpDown_DayX_AOD");
+            this.numericUpDown_DayX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DayX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10552,13 +11985,24 @@
             0,
             -2147483648});
             this.numericUpDown_DayX_AOD.Name = "numericUpDown_DayX_AOD";
+            this.numericUpDown_DayX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DayX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DayX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DayY_AOD
             // 
             this.numericUpDown_DayY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DayY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DayY_AOD, "numericUpDown_DayY_AOD");
+            this.numericUpDown_DayY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DayY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10570,12 +12014,23 @@
             0,
             -2147483648});
             this.numericUpDown_DayY_AOD.Name = "numericUpDown_DayY_AOD";
+            this.numericUpDown_DayY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DayY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DayY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Day_spacing_AOD
             // 
+            this.numericUpDown_Day_spacing_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Day_spacing_AOD, "numericUpDown_Day_spacing_AOD");
+            this.numericUpDown_Day_spacing_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_spacing_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10587,6 +12042,11 @@
             0,
             -2147483648});
             this.numericUpDown_Day_spacing_AOD.Name = "numericUpDown_Day_spacing_AOD";
+            this.numericUpDown_Day_spacing_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Day_spacing_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // checkBox_Day_follow_AOD
@@ -10784,7 +12244,13 @@
             // numericUpDown_Month_handX_background_AOD
             // 
             this.numericUpDown_Month_handX_background_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_background_AOD, "numericUpDown_Month_handX_background_AOD");
+            this.numericUpDown_Month_handX_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10796,13 +12262,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_background_AOD.Name = "numericUpDown_Month_handX_background_AOD";
+            this.numericUpDown_Month_handX_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY_background_AOD
             // 
             this.numericUpDown_Month_handY_background_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_background_AOD, "numericUpDown_Month_handY_background_AOD");
+            this.numericUpDown_Month_handY_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10814,12 +12291,23 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_background_AOD.Name = "numericUpDown_Month_handY_background_AOD";
+            this.numericUpDown_Month_handY_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_hand_endAngle_AOD
             // 
+            this.numericUpDown_Month_hand_endAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_hand_endAngle_AOD, "numericUpDown_Month_hand_endAngle_AOD");
+            this.numericUpDown_Month_hand_endAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_hand_endAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10840,7 +12328,13 @@
             // 
             // numericUpDown_Month_hand_startAngle_AOD
             // 
+            this.numericUpDown_Month_hand_startAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_hand_startAngle_AOD, "numericUpDown_Month_hand_startAngle_AOD");
+            this.numericUpDown_Month_hand_startAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_hand_startAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10861,7 +12355,13 @@
             // 
             // numericUpDown_Month_handY_offset_AOD
             // 
+            this.numericUpDown_Month_handY_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_offset_AOD, "numericUpDown_Month_handY_offset_AOD");
+            this.numericUpDown_Month_handY_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10873,11 +12373,22 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_offset_AOD.Name = "numericUpDown_Month_handY_offset_AOD";
+            this.numericUpDown_Month_handY_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Month_handX_offset_AOD
             // 
+            this.numericUpDown_Month_handX_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_offset_AOD, "numericUpDown_Month_handX_offset_AOD");
+            this.numericUpDown_Month_handX_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10889,12 +12400,23 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_offset_AOD.Name = "numericUpDown_Month_handX_offset_AOD";
+            this.numericUpDown_Month_handX_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Month_handX_centr_AOD
             // 
             this.numericUpDown_Month_handX_centr_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_centr_AOD, "numericUpDown_Month_handX_centr_AOD");
+            this.numericUpDown_Month_handX_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10906,13 +12428,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_centr_AOD.Name = "numericUpDown_Month_handX_centr_AOD";
+            this.numericUpDown_Month_handX_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY_centr_AOD
             // 
             this.numericUpDown_Month_handY_centr_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_centr_AOD, "numericUpDown_Month_handY_centr_AOD");
+            this.numericUpDown_Month_handY_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10924,13 +12457,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_centr_AOD.Name = "numericUpDown_Month_handY_centr_AOD";
+            this.numericUpDown_Month_handY_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_handY_AOD
             // 
             this.numericUpDown_Month_handY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_handY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handY_AOD, "numericUpDown_Month_handY_AOD");
+            this.numericUpDown_Month_handY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10942,13 +12486,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handY_AOD.Name = "numericUpDown_Month_handY_AOD";
+            this.numericUpDown_Month_handY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_handX_AOD
             // 
             this.numericUpDown_Month_handX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_handX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_handX_AOD, "numericUpDown_Month_handX_AOD");
+            this.numericUpDown_Month_handX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -10960,6 +12515,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_handX_AOD.Name = "numericUpDown_Month_handX_AOD";
+            this.numericUpDown_Month_handX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_handX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_handX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -11153,7 +12713,13 @@
             // 
             // numericUpDown_Month_spacing_AOD
             // 
+            this.numericUpDown_Month_spacing_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_spacing_AOD, "numericUpDown_Month_spacing_AOD");
+            this.numericUpDown_Month_spacing_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_spacing_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11165,12 +12731,23 @@
             0,
             -2147483648});
             this.numericUpDown_Month_spacing_AOD.Name = "numericUpDown_Month_spacing_AOD";
+            this.numericUpDown_Month_spacing_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_spacing_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_Month_unitX_AOD
             // 
             this.numericUpDown_Month_unitX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_unitX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_unitX_AOD, "numericUpDown_Month_unitX_AOD");
+            this.numericUpDown_Month_unitX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11182,13 +12759,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_unitX_AOD.Name = "numericUpDown_Month_unitX_AOD";
+            this.numericUpDown_Month_unitX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_unitX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_MonthX_AOD
             // 
             this.numericUpDown_MonthX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_MonthX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MonthX_AOD, "numericUpDown_MonthX_AOD");
+            this.numericUpDown_MonthX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11200,13 +12788,24 @@
             0,
             -2147483648});
             this.numericUpDown_MonthX_AOD.Name = "numericUpDown_MonthX_AOD";
+            this.numericUpDown_MonthX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MonthX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_MonthY_AOD
             // 
             this.numericUpDown_MonthY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_MonthY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_MonthY_AOD, "numericUpDown_MonthY_AOD");
+            this.numericUpDown_MonthY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11218,13 +12817,24 @@
             0,
             -2147483648});
             this.numericUpDown_MonthY_AOD.Name = "numericUpDown_MonthY_AOD";
+            this.numericUpDown_MonthY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_MonthY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_MonthY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_unitY_AOD
             // 
             this.numericUpDown_Month_unitY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_unitY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_unitY_AOD, "numericUpDown_Month_unitY_AOD");
+            this.numericUpDown_Month_unitY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11236,6 +12846,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_unitY_AOD.Name = "numericUpDown_Month_unitY_AOD";
+            this.numericUpDown_Month_unitY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_unitY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_unitY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -11338,7 +12953,13 @@
             // numericUpDown_Month_picturesY_AOD
             // 
             this.numericUpDown_Month_picturesY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Month_picturesY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_picturesY_AOD, "numericUpDown_Month_picturesY_AOD");
+            this.numericUpDown_Month_picturesY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11350,13 +12971,24 @@
             0,
             -2147483648});
             this.numericUpDown_Month_picturesY_AOD.Name = "numericUpDown_Month_picturesY_AOD";
+            this.numericUpDown_Month_picturesY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_picturesY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_Month_picturesX_AOD
             // 
             this.numericUpDown_Month_picturesX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Month_picturesX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Month_picturesX_AOD, "numericUpDown_Month_picturesX_AOD");
+            this.numericUpDown_Month_picturesX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11368,6 +13000,11 @@
             0,
             -2147483648});
             this.numericUpDown_Month_picturesX_AOD.Name = "numericUpDown_Month_picturesX_AOD";
+            this.numericUpDown_Month_picturesX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Month_picturesX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Month_picturesX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -11496,7 +13133,13 @@
             // 
             // numericUpDown_Year_spacing_AOD
             // 
+            this.numericUpDown_Year_spacing_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_spacing_AOD, "numericUpDown_Year_spacing_AOD");
+            this.numericUpDown_Year_spacing_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_spacing_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11508,6 +13151,11 @@
             0,
             -2147483648});
             this.numericUpDown_Year_spacing_AOD.Name = "numericUpDown_Year_spacing_AOD";
+            this.numericUpDown_Year_spacing_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_spacing_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // comboBox_Year_separator_AOD
@@ -11566,7 +13214,13 @@
             // numericUpDown_Year_unitX_AOD
             // 
             this.numericUpDown_Year_unitX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_Year_unitX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_unitX_AOD, "numericUpDown_Year_unitX_AOD");
+            this.numericUpDown_Year_unitX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11578,13 +13232,24 @@
             0,
             -2147483648});
             this.numericUpDown_Year_unitX_AOD.Name = "numericUpDown_Year_unitX_AOD";
+            this.numericUpDown_Year_unitX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Year_unitX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_YearX_AOD
             // 
             this.numericUpDown_YearX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_YearX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_YearX_AOD, "numericUpDown_YearX_AOD");
+            this.numericUpDown_YearX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_YearX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11596,13 +13261,24 @@
             0,
             -2147483648});
             this.numericUpDown_YearX_AOD.Name = "numericUpDown_YearX_AOD";
+            this.numericUpDown_YearX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_YearX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_YearX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_Year_unitY_AOD
             // 
             this.numericUpDown_Year_unitY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_Year_unitY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_Year_unitY_AOD, "numericUpDown_Year_unitY_AOD");
+            this.numericUpDown_Year_unitY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11614,13 +13290,24 @@
             0,
             -2147483648});
             this.numericUpDown_Year_unitY_AOD.Name = "numericUpDown_Year_unitY_AOD";
+            this.numericUpDown_Year_unitY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_Year_unitY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_Year_unitY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_YearY_AOD
             // 
             this.numericUpDown_YearY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_YearY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_YearY_AOD, "numericUpDown_YearY_AOD");
+            this.numericUpDown_YearY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_YearY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11632,6 +13319,11 @@
             0,
             -2147483648});
             this.numericUpDown_YearY_AOD.Name = "numericUpDown_YearY_AOD";
+            this.numericUpDown_YearY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_YearY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_YearY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -11802,7 +13494,13 @@
             // numericUpDown_DOW_handX_background_AOD
             // 
             this.numericUpDown_DOW_handX_background_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_background_AOD, "numericUpDown_DOW_handX_background_AOD");
+            this.numericUpDown_DOW_handX_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11814,13 +13512,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_background_AOD.Name = "numericUpDown_DOW_handX_background_AOD";
+            this.numericUpDown_DOW_handX_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY_background_AOD
             // 
             this.numericUpDown_DOW_handY_background_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY_background_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_background_AOD, "numericUpDown_DOW_handY_background_AOD");
+            this.numericUpDown_DOW_handY_background_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_background_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11832,12 +13541,23 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_background_AOD.Name = "numericUpDown_DOW_handY_background_AOD";
+            this.numericUpDown_DOW_handY_background_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_background_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY_background_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_hand_endAngle_AOD
             // 
+            this.numericUpDown_DOW_hand_endAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_hand_endAngle_AOD, "numericUpDown_DOW_hand_endAngle_AOD");
+            this.numericUpDown_DOW_hand_endAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_endAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11858,7 +13578,13 @@
             // 
             // numericUpDown_DOW_hand_startAngle_AOD
             // 
+            this.numericUpDown_DOW_hand_startAngle_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_hand_startAngle_AOD, "numericUpDown_DOW_hand_startAngle_AOD");
+            this.numericUpDown_DOW_hand_startAngle_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_startAngle_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11870,11 +13596,22 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_hand_startAngle_AOD.Name = "numericUpDown_DOW_hand_startAngle_AOD";
+            this.numericUpDown_DOW_hand_startAngle_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_hand_startAngle_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_DOW_handY_offset_AOD
             // 
+            this.numericUpDown_DOW_handY_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_offset_AOD, "numericUpDown_DOW_handY_offset_AOD");
+            this.numericUpDown_DOW_handY_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11886,11 +13623,22 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_offset_AOD.Name = "numericUpDown_DOW_handY_offset_AOD";
+            this.numericUpDown_DOW_handY_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_DOW_handX_offset_AOD
             // 
+            this.numericUpDown_DOW_handX_offset_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_offset_AOD, "numericUpDown_DOW_handX_offset_AOD");
+            this.numericUpDown_DOW_handX_offset_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_offset_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11902,12 +13650,23 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_offset_AOD.Name = "numericUpDown_DOW_handX_offset_AOD";
+            this.numericUpDown_DOW_handX_offset_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_offset_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // numericUpDown_DOW_handX_centr_AOD
             // 
             this.numericUpDown_DOW_handX_centr_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_centr_AOD, "numericUpDown_DOW_handX_centr_AOD");
+            this.numericUpDown_DOW_handX_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11919,13 +13678,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_centr_AOD.Name = "numericUpDown_DOW_handX_centr_AOD";
+            this.numericUpDown_DOW_handX_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY_centr_AOD
             // 
             this.numericUpDown_DOW_handY_centr_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY_centr_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_centr_AOD, "numericUpDown_DOW_handY_centr_AOD");
+            this.numericUpDown_DOW_handY_centr_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_centr_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11937,13 +13707,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_centr_AOD.Name = "numericUpDown_DOW_handY_centr_AOD";
+            this.numericUpDown_DOW_handY_centr_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_centr_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY_centr_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handY_AOD
             // 
             this.numericUpDown_DOW_handY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_handY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handY_AOD, "numericUpDown_DOW_handY_AOD");
+            this.numericUpDown_DOW_handY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11955,13 +13736,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handY_AOD.Name = "numericUpDown_DOW_handY_AOD";
+            this.numericUpDown_DOW_handY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_handX_AOD
             // 
             this.numericUpDown_DOW_handX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_handX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_handX_AOD, "numericUpDown_DOW_handX_AOD");
+            this.numericUpDown_DOW_handX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -11973,6 +13765,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_handX_AOD.Name = "numericUpDown_DOW_handX_AOD";
+            this.numericUpDown_DOW_handX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_handX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_handX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -12111,7 +13908,13 @@
             // numericUpDown_DOW_picturesY_AOD
             // 
             this.numericUpDown_DOW_picturesY_AOD.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_DOW_picturesY_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_picturesY_AOD, "numericUpDown_DOW_picturesY_AOD");
+            this.numericUpDown_DOW_picturesY_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesY_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -12123,13 +13926,24 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_picturesY_AOD.Name = "numericUpDown_DOW_picturesY_AOD";
+            this.numericUpDown_DOW_picturesY_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesY_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_picturesY_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
             // numericUpDown_DOW_picturesX_AOD
             // 
             this.numericUpDown_DOW_picturesX_AOD.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_DOW_picturesX_AOD.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_DOW_picturesX_AOD, "numericUpDown_DOW_picturesX_AOD");
+            this.numericUpDown_DOW_picturesX_AOD.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesX_AOD.Maximum = new decimal(new int[] {
             999,
             0,
@@ -12141,6 +13955,11 @@
             0,
             -2147483648});
             this.numericUpDown_DOW_picturesX_AOD.Name = "numericUpDown_DOW_picturesX_AOD";
+            this.numericUpDown_DOW_picturesX_AOD.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_DOW_picturesX_AOD.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             this.numericUpDown_DOW_picturesX_AOD.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -14565,7 +16384,7 @@
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -14675,7 +16494,7 @@
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -14791,7 +16610,7 @@
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -14901,7 +16720,7 @@
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -14989,7 +16808,7 @@
             this.tabControl_Widget.BorderColor = System.Drawing.Color.Fuchsia;
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetsEdit);
             this.tabControl_Widget.Controls.Add(this.tabPage_WidgetAdd);
-            this.tabControl_Widget.ImageList = this.tabs_ImageList2;
+            this.tabControl_Widget.ImageList = this.imageList2;
             this.tabControl_Widget.Multiline = true;
             this.tabControl_Widget.Name = "tabControl_Widget";
             this.tabControl_Widget.SelectedIndex = 0;
@@ -15675,7 +17494,13 @@
             // numericUpDown_WidgetDescriptionLenght
             // 
             this.numericUpDown_WidgetDescriptionLenght.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetDescriptionLenght.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionLenght, "numericUpDown_WidgetDescriptionLenght");
+            this.numericUpDown_WidgetDescriptionLenght.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionLenght.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15743,7 +17568,13 @@
             // numericUpDown_WidgetDescriptionBackgroundX
             // 
             this.numericUpDown_WidgetDescriptionBackgroundX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_WidgetDescriptionBackgroundX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionBackgroundX, "numericUpDown_WidgetDescriptionBackgroundX");
+            this.numericUpDown_WidgetDescriptionBackgroundX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15755,13 +17586,24 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetDescriptionBackgroundX.Name = "numericUpDown_WidgetDescriptionBackgroundX";
+            this.numericUpDown_WidgetDescriptionBackgroundX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundX.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             this.numericUpDown_WidgetDescriptionBackgroundX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_WidgetDescriptionBackgroundY
             // 
             this.numericUpDown_WidgetDescriptionBackgroundY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetDescriptionBackgroundY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionBackgroundY, "numericUpDown_WidgetDescriptionBackgroundY");
+            this.numericUpDown_WidgetDescriptionBackgroundY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15773,6 +17615,11 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetDescriptionBackgroundY.Name = "numericUpDown_WidgetDescriptionBackgroundY";
+            this.numericUpDown_WidgetDescriptionBackgroundY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundY.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             this.numericUpDown_WidgetDescriptionBackgroundY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -15808,7 +17655,13 @@
             // 
             // numericUpDown_WidgetWidth
             // 
+            this.numericUpDown_WidgetWidth.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetWidth, "numericUpDown_WidgetWidth");
+            this.numericUpDown_WidgetWidth.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetWidth.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15820,11 +17673,22 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetWidth.Name = "numericUpDown_WidgetWidth";
+            this.numericUpDown_WidgetWidth.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetWidth.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             // 
             // numericUpDown_WidgetHeight
             // 
+            this.numericUpDown_WidgetHeight.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetHeight, "numericUpDown_WidgetHeight");
+            this.numericUpDown_WidgetHeight.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetHeight.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15836,12 +17700,23 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetHeight.Name = "numericUpDown_WidgetHeight";
+            this.numericUpDown_WidgetHeight.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetHeight.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             // 
             // numericUpDown_WidgetX
             // 
             this.numericUpDown_WidgetX.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_WidgetX.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetX, "numericUpDown_WidgetX");
+            this.numericUpDown_WidgetX.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetX.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15853,6 +17728,11 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetX.Name = "numericUpDown_WidgetX";
+            this.numericUpDown_WidgetX.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetX.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             this.numericUpDown_WidgetX.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
@@ -15866,7 +17746,13 @@
             // numericUpDown_WidgetY
             // 
             this.numericUpDown_WidgetY.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetY.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_WidgetY, "numericUpDown_WidgetY");
+            this.numericUpDown_WidgetY.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetY.Maximum = new decimal(new int[] {
             999,
             0,
@@ -15878,6 +17764,11 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetY.Name = "numericUpDown_WidgetY";
+            this.numericUpDown_WidgetY.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetY.ValueChanged += new System.EventHandler(this.numericUpDown_Widget_ValueChanged);
             this.numericUpDown_WidgetY.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -15978,7 +17869,7 @@
             dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -16815,6 +18706,12 @@
             // numericUpDown_WidgetDescriptionLenghtAdd
             // 
             this.numericUpDown_WidgetDescriptionLenghtAdd.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetDescriptionLenghtAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetDescriptionLenghtAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionLenghtAdd, "numericUpDown_WidgetDescriptionLenghtAdd");
             this.numericUpDown_WidgetDescriptionLenghtAdd.Maximum = new decimal(new int[] {
             999,
@@ -16883,6 +18780,12 @@
             // numericUpDown_WidgetDescriptionBackgroundXAdd
             // 
             this.numericUpDown_WidgetDescriptionBackgroundXAdd.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_WidgetDescriptionBackgroundXAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetDescriptionBackgroundXAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionBackgroundXAdd, "numericUpDown_WidgetDescriptionBackgroundXAdd");
             this.numericUpDown_WidgetDescriptionBackgroundXAdd.Maximum = new decimal(new int[] {
             999,
@@ -16895,12 +18798,23 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetDescriptionBackgroundXAdd.Name = "numericUpDown_WidgetDescriptionBackgroundXAdd";
+            this.numericUpDown_WidgetDescriptionBackgroundXAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundXAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             this.numericUpDown_WidgetDescriptionBackgroundXAdd.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_WidgetDescriptionBackgroundYAdd
             // 
             this.numericUpDown_WidgetDescriptionBackgroundYAdd.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetDescriptionBackgroundYAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetDescriptionBackgroundYAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetDescriptionBackgroundYAdd, "numericUpDown_WidgetDescriptionBackgroundYAdd");
             this.numericUpDown_WidgetDescriptionBackgroundYAdd.Maximum = new decimal(new int[] {
             999,
@@ -16913,6 +18827,11 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetDescriptionBackgroundYAdd.Name = "numericUpDown_WidgetDescriptionBackgroundYAdd";
+            this.numericUpDown_WidgetDescriptionBackgroundYAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetDescriptionBackgroundYAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             this.numericUpDown_WidgetDescriptionBackgroundYAdd.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -16948,6 +18867,12 @@
             // 
             // numericUpDown_WidgetWidthAdd
             // 
+            this.numericUpDown_WidgetWidthAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetWidthAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetWidthAdd, "numericUpDown_WidgetWidthAdd");
             this.numericUpDown_WidgetWidthAdd.Maximum = new decimal(new int[] {
             999,
@@ -16960,10 +18885,21 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetWidthAdd.Name = "numericUpDown_WidgetWidthAdd";
+            this.numericUpDown_WidgetWidthAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetWidthAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             // 
             // numericUpDown_WidgetHeightAdd
             // 
+            this.numericUpDown_WidgetHeightAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetHeightAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetHeightAdd, "numericUpDown_WidgetHeightAdd");
             this.numericUpDown_WidgetHeightAdd.Maximum = new decimal(new int[] {
             999,
@@ -16976,11 +18912,22 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetHeightAdd.Name = "numericUpDown_WidgetHeightAdd";
+            this.numericUpDown_WidgetHeightAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetHeightAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             // 
             // numericUpDown_WidgetXAdd
             // 
             this.numericUpDown_WidgetXAdd.ContextMenuStrip = this.contextMenuStrip_X;
+            this.numericUpDown_WidgetXAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetXAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetXAdd, "numericUpDown_WidgetXAdd");
             this.numericUpDown_WidgetXAdd.Maximum = new decimal(new int[] {
             999,
@@ -16993,12 +18940,23 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetXAdd.Name = "numericUpDown_WidgetXAdd";
+            this.numericUpDown_WidgetXAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetXAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             this.numericUpDown_WidgetXAdd.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_X_MouseDoubleClick);
             // 
             // numericUpDown_WidgetYAdd
             // 
             this.numericUpDown_WidgetYAdd.ContextMenuStrip = this.contextMenuStrip_Y;
+            this.numericUpDown_WidgetYAdd.DecimalPlaces = 0;
+            this.numericUpDown_WidgetYAdd.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             resources.ApplyResources(this.numericUpDown_WidgetYAdd, "numericUpDown_WidgetYAdd");
             this.numericUpDown_WidgetYAdd.Maximum = new decimal(new int[] {
             999,
@@ -17011,6 +18969,11 @@
             0,
             -2147483648});
             this.numericUpDown_WidgetYAdd.Name = "numericUpDown_WidgetYAdd";
+            this.numericUpDown_WidgetYAdd.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.numericUpDown_WidgetYAdd.ValueChanged += new System.EventHandler(this.WidgetAdd_ValueChanged);
             this.numericUpDown_WidgetYAdd.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDown_Y_MouseDoubleClick);
             // 
@@ -17083,7 +19046,13 @@
             // 
             // numericUpDown_ConvertingOutput_Custom
             // 
+            this.numericUpDown_ConvertingOutput_Custom.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_ConvertingOutput_Custom, "numericUpDown_ConvertingOutput_Custom");
+            this.numericUpDown_ConvertingOutput_Custom.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_ConvertingOutput_Custom.Maximum = new decimal(new int[] {
             999,
             0,
@@ -17140,7 +19109,13 @@
             // 
             // numericUpDown_ConvertingInput_Custom
             // 
+            this.numericUpDown_ConvertingInput_Custom.DecimalPlaces = 0;
             resources.ApplyResources(this.numericUpDown_ConvertingInput_Custom, "numericUpDown_ConvertingInput_Custom");
+            this.numericUpDown_ConvertingInput_Custom.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown_ConvertingInput_Custom.Maximum = new decimal(new int[] {
             999,
             0,
@@ -19488,7 +21463,7 @@
         private DarkControls.DarkButton button_WidgetElement_Up;
         private DarkControls.DarkButton button_WidgetElement_Down;
         private System.Windows.Forms.TabPage tabPage_WidgetAdd;
-        private System.Windows.Forms.ImageList tabs_ImageList2;
+        private System.Windows.Forms.ImageList imageList2;
         private DarkControls.DarkLabel label2;
         internal DarkControls.DarkNumericUpDown numericUpDown_WidgetWidth;
         internal DarkControls.DarkNumericUpDown numericUpDown_WidgetHeight;
@@ -19701,7 +21676,7 @@
         private DarkControls.DarkCheckBox checkBox_weatherAlignmentFix_AOD;
         private DarkControls.DarkCheckBox checkBox_AllWidgetsInGif;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.ImageList tabs_ImageList1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
