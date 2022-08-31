@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Preview));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton_xxlarge = new System.Windows.Forms.RadioButton();
-            this.radioButton_xlarge = new System.Windows.Forms.RadioButton();
-            this.radioButton_large = new System.Windows.Forms.RadioButton();
-            this.radioButton_normal = new System.Windows.Forms.RadioButton();
-            this.radioButton_small = new System.Windows.Forms.RadioButton();
+            this.radioButton_xxlarge = new DarkControls.DarkRadioButton();
+            this.radioButton_xlarge = new DarkControls.DarkRadioButton();
+            this.radioButton_large = new DarkControls.DarkRadioButton();
+            this.radioButton_normal = new DarkControls.DarkRadioButton();
+            this.radioButton_small = new DarkControls.DarkRadioButton();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBox_Preview = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -159,11 +159,11 @@
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        public System.Windows.Forms.RadioButton radioButton_small;
-        public System.Windows.Forms.RadioButton radioButton_normal;
-        public System.Windows.Forms.RadioButton radioButton_large;
-        public System.Windows.Forms.RadioButton radioButton_xxlarge;
-        public System.Windows.Forms.RadioButton radioButton_xlarge;
+        public DarkControls.DarkRadioButton radioButton_small;
+        public DarkControls.DarkRadioButton radioButton_normal;
+        public DarkControls.DarkRadioButton radioButton_large;
+        public DarkControls.DarkRadioButton radioButton_xxlarge;
+        public DarkControls.DarkRadioButton radioButton_xlarge;
         private System.Windows.Forms.ToolTip toolTip1;
         public System.Windows.Forms.PictureBox pictureBox_Preview;
     }
