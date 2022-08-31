@@ -49,7 +49,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>watch-icon.ico</ApplicationIcon>
+    <ApplicationIcon>watch.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release %28without python%29|AnyCPU' ">
     <OutputPath>bin\Release_%28without_python%29\</OutputPath>
@@ -826,7 +826,7 @@
     <Content Include="Mask\mask_zepp_e.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="watch-icon.ico" />
+    <Content Include="watch.ico" />
     <Content Include="WatchSkin\gtr2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -871,7 +871,6 @@
     <Content Include="Tools\SplashScreen.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="watch.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

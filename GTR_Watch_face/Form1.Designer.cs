@@ -83,7 +83,7 @@
             this.toolTip_Weather = new System.Windows.Forms.ToolTip(this.components);
             this.radioButton_GTR2e = new DarkControls.DarkRadioButton();
             this.radioButton_TRex_pro = new DarkControls.DarkRadioButton();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar1 = new DarkControls.DarkProgressBar();
             this.radioButton_ZeppE = new DarkControls.DarkRadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabControl1 = new DarkControls.DarkTabControl();
@@ -19320,7 +19320,7 @@
         private UserControl_hand userControl_hand_AirPressure_AOD;
         private UserControl_text userControl_text_AirPressure_AOD;
         private UserControl_pictures userControl_pictures_AirPressure_AOD;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private DarkControls.DarkProgressBar progressBar1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private UserControl_icon userControl_icon_Steps;
         private UserControl_icon userControl_icon_Calories;

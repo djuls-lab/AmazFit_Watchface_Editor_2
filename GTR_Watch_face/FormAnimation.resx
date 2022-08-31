@@ -135,7 +135,7 @@
     <value>Zoom</value>
   </data>
   <data name="&gt;&gt;progressBar_SaveAnimation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>DarkControls.DarkProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="numericUpDown_NumberOfFrames.TabIndex" type="System.Int32, mscorlib">

@@ -40,7 +40,7 @@
             this.radioButton_xlarge = new DarkControls.DarkRadioButton();
             this.radioButton_large = new DarkControls.DarkRadioButton();
             this.radioButton_normal = new DarkControls.DarkRadioButton();
-            this.progressBar_SaveAnimation = new System.Windows.Forms.ProgressBar();
+            this.progressBar_SaveAnimation = new DarkControls.DarkProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_AnimatiomPreview)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_NumberOfFrames)).BeginInit();
@@ -172,7 +172,7 @@
         private DarkControls.DarkNumericUpDown numericUpDown_NumberOfFrames;
         private DarkControls.DarkLabel label1;
         private DarkControls.DarkButton button_SaveAnimation;
-        private System.Windows.Forms.ProgressBar progressBar_SaveAnimation;
+        private DarkControls.DarkProgressBar progressBar_SaveAnimation;
         private DarkControls.DarkButton button_AnimationReset;
         public System.Windows.Forms.Timer timer1;
     }
