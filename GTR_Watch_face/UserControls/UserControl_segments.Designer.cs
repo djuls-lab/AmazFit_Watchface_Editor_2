@@ -37,7 +37,7 @@ namespace AmazFit_Watchface_2
             this.panel_pictures = new System.Windows.Forms.Panel();
             this.checkBox_pictures_Use = new DarkControls.DarkCheckBox();
             this.comboBox_pictures_image = new DarkControls.DarkComboBox();
-            this.dataGridView_coordinates_set = new System.Windows.Forms.DataGridView();
+            this.dataGridView_coordinates_set = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip_XY_InTable = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -95,15 +95,7 @@ namespace AmazFit_Watchface_2
             this.dataGridView_coordinates_set.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_coordinates_set.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             this.dataGridView_coordinates_set.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView_coordinates_set.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_coordinates_set.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;            
             resources.ApplyResources(this.dataGridView_coordinates_set, "dataGridView_coordinates_set");
             this.dataGridView_coordinates_set.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -139,7 +131,6 @@ namespace AmazFit_Watchface_2
             this.dataGridView_coordinates_set.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dataGridView_coordinates_set_RowPrePaint);
             this.dataGridView_coordinates_set.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataGridView_coordinates_set_RowsRemoved);
             this.dataGridView_coordinates_set.UserAddedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.dataGridView_coordinates_set_UserAddedRow);
-            this.dataGridView_coordinates_set.EnabledChanged += new System.EventHandler(this.dataGridView_coordinates_set_EnabledChanged);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -277,7 +268,7 @@ namespace AmazFit_Watchface_2
         private DarkControls.DarkButton button_Copy_pictures;
         private DarkControls.DarkButton button_pictures;
         private DarkControls.DarkLabel label02;
-        private System.Windows.Forms.DataGridView dataGridView_coordinates_set;
+        private DarkControls.DarkDataGridView dataGridView_coordinates_set;
         private DarkControls.DarkGroupBox groupBox_DisplayType;
         private DarkControls.DarkRadioButton radioButton_Continuous;
         private DarkControls.DarkRadioButton radioButton_Single;

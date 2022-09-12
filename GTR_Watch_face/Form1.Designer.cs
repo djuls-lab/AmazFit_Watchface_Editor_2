@@ -31,24 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyleWhite = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyleBlack = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contextMenuStrip_Y = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.копироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -87,7 +72,7 @@
             this.radioButton_ZeppE = new DarkControls.DarkRadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabControl1 = new DarkControls.DarkTabControl();
-            this.tabPage_Show = new System.Windows.Forms.TabPage();
+            this.tabPage_Show = new DarkControls.DarkTabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel_set = new System.Windows.Forms.Panel();
             this.userControl_Set12 = new AmazFit_Watchface_2.UserControl_Set();
@@ -106,7 +91,7 @@
             this.button_JsonPreview_Random = new DarkControls.DarkButton();
             this.button_JsonPreview_Read = new DarkControls.DarkButton();
             this.button_JsonPreview_Write = new DarkControls.DarkButton();
-            this.dataGridView_ImagesList = new System.Windows.Forms.DataGridView();
+            this.dataGridView_ImagesList = new DarkControls.DarkDataGridView();
             this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NameFile = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnImage = new System.Windows.Forms.DataGridViewImageColumn();
@@ -115,10 +100,10 @@
             this.label5 = new DarkControls.DarkLabel();
             this.button_JSON = new DarkControls.DarkButton();
             this.label4 = new DarkControls.DarkLabel();
-            this.tabPage_Edit = new System.Windows.Forms.TabPage();
+            this.tabPage_Edit = new DarkControls.DarkTabPage();
             this.splitContainer_EditParameters = new System.Windows.Forms.SplitContainer();
             this.tabControl_EditParameters = new DarkControls.DarkTabControl();
-            this.tabPage_Background = new System.Windows.Forms.TabPage();
+            this.tabPage_Background = new DarkControls.DarkTabPage();
             this.button_GenerateID = new DarkControls.DarkButton();
             this.textBox_WatchfaceID = new DarkControls.DarkTextBox();
             this.checkBox_UseID = new DarkControls.DarkCheckBox();
@@ -128,9 +113,9 @@
             this.comboBox_Preview_image = new DarkControls.DarkComboBox();
             this.comboBox_Background_image = new DarkControls.DarkComboBox();
             this.label3 = new DarkControls.DarkLabel();
-            this.tabPage_Time = new System.Windows.Forms.TabPage();
+            this.tabPage_Time = new DarkControls.DarkTabPage();
             this.tabControl_time = new DarkControls.DarkTabControl();
-            this.tabPage_Digital_time = new System.Windows.Forms.TabPage();
+            this.tabPage_Digital_time = new DarkControls.DarkTabPage();
             this.panel_AM_PM = new System.Windows.Forms.Panel();
             this.checkBox_12h_Use = new DarkControls.DarkCheckBox();
             this.numericUpDown_AM_Y = new DarkControls.DarkNumericUpDown();
@@ -222,7 +207,7 @@
             this.label506 = new DarkControls.DarkLabel();
             this.comboBox_Hour_separator = new DarkControls.DarkComboBox();
             this.button_Hour = new DarkControls.DarkButton();
-            this.tabPage_Analog_time = new System.Windows.Forms.TabPage();
+            this.tabPage_Analog_time = new DarkControls.DarkTabPage();
             this.panel_Second_hand = new System.Windows.Forms.Panel();
             this.label557 = new DarkControls.DarkLabel();
             this.label558 = new DarkControls.DarkLabel();
@@ -289,9 +274,9 @@
             this.button_Second_hand = new DarkControls.DarkButton();
             this.button_Minute_hand = new DarkControls.DarkButton();
             this.button_Hour_hand = new DarkControls.DarkButton();
-            this.tabPage_Date = new System.Windows.Forms.TabPage();
+            this.tabPage_Date = new DarkControls.DarkTabPage();
             this.tabControl_date = new DarkControls.DarkTabControl();
-            this.tabPage_Day = new System.Windows.Forms.TabPage();
+            this.tabPage_Day = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Day = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand = new System.Windows.Forms.Panel();
             this.numericUpDown_Day_handX_background = new DarkControls.DarkNumericUpDown();
@@ -351,7 +336,7 @@
             this.label581 = new DarkControls.DarkLabel();
             this.label580 = new DarkControls.DarkLabel();
             this.button_Day_text = new DarkControls.DarkButton();
-            this.tabPage_Month = new System.Windows.Forms.TabPage();
+            this.tabPage_Month = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Month = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Month_hand = new System.Windows.Forms.Panel();
             this.numericUpDown_Month_handX_background = new DarkControls.DarkNumericUpDown();
@@ -421,7 +406,7 @@
             this.button_Month_hand = new DarkControls.DarkButton();
             this.button_Month_text = new DarkControls.DarkButton();
             this.button_Month_pictures = new DarkControls.DarkButton();
-            this.tabPage_Year = new System.Windows.Forms.TabPage();
+            this.tabPage_Year = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Year = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Year_hand = new System.Windows.Forms.Panel();
             this.panel_Year_text = new System.Windows.Forms.Panel();
@@ -450,7 +435,7 @@
             this.label603 = new DarkControls.DarkLabel();
             this.button_Year_hand = new DarkControls.DarkButton();
             this.button_Year_text = new DarkControls.DarkButton();
-            this.tabPage_Day_of_week = new System.Windows.Forms.TabPage();
+            this.tabPage_Day_of_week = new DarkControls.DarkTabPage();
             this.panel_DOW_hand = new System.Windows.Forms.Panel();
             this.numericUpDown_DOW_handX_background = new DarkControls.DarkNumericUpDown();
             this.numericUpDown_DOW_handY_background = new DarkControls.DarkNumericUpDown();
@@ -494,9 +479,9 @@
             this.label641 = new DarkControls.DarkLabel();
             this.label642 = new DarkControls.DarkLabel();
             this.button_DOW_image = new DarkControls.DarkButton();
-            this.tabPage_Activity = new System.Windows.Forms.TabPage();
+            this.tabPage_Activity = new DarkControls.DarkTabPage();
             this.tabControl_SystemActivity = new DarkControls.DarkTabControl();
-            this.tabPage_Steps = new System.Windows.Forms.TabPage();
+            this.tabPage_Steps = new DarkControls.DarkTabPage();
             this.userControl_icon_Steps = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Steps = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -506,7 +491,7 @@
             this.userControl_text_Steps = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Steps = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Steps = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Calories = new System.Windows.Forms.TabPage();
+            this.tabPage_Calories = new DarkControls.DarkTabPage();
             this.userControl_icon_Calories = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Calories = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Calories = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -516,7 +501,7 @@
             this.userControl_text_Calories = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Calories = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Calories = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_HeartRate = new System.Windows.Forms.TabPage();
+            this.tabPage_HeartRate = new DarkControls.DarkTabPage();
             this.userControl_icon_HeartRate = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_HeartRate = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_HeartRate = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -525,7 +510,7 @@
             this.userControl_text_HeartRate = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_HeartRate = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_HeartRate = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_PAI = new System.Windows.Forms.TabPage();
+            this.tabPage_PAI = new DarkControls.DarkTabPage();
             this.userControl_icon_PAI = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_PAI = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_PAI = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -534,11 +519,11 @@
             this.userControl_text_PAI = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_PAI = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_PAI = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Distance = new System.Windows.Forms.TabPage();
+            this.tabPage_Distance = new DarkControls.DarkTabPage();
             this.userControl_icon_Distance = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Distance = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_text_Distance = new AmazFit_Watchface_2.UserControl_text();
-            this.tabPage_StandUp = new System.Windows.Forms.TabPage();
+            this.tabPage_StandUp = new DarkControls.DarkTabPage();
             this.userControl_icon_StandUp = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_StandUp = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_StandUp = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -548,7 +533,7 @@
             this.userControl_text_StandUp = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_StandUp = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_StandUp = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Stress = new System.Windows.Forms.TabPage();
+            this.tabPage_Stress = new DarkControls.DarkTabPage();
             this.userControl_icon_Stress = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Stress = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Stress = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -557,7 +542,7 @@
             this.userControl_text_Stress = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Stress = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Stress = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_ActivityGoal = new System.Windows.Forms.TabPage();
+            this.tabPage_ActivityGoal = new DarkControls.DarkTabPage();
             this.groupBox_ActivityGoal = new DarkControls.DarkGroupBox();
             this.radioButton_ActivityGoal_Calories = new DarkControls.DarkRadioButton();
             this.radioButton_ActivityGoal_Steps = new DarkControls.DarkRadioButton();
@@ -570,7 +555,7 @@
             this.userControl_text_ActivityGoal = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_ActivityGoal = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_ActivityGoal = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_FatBurning = new System.Windows.Forms.TabPage();
+            this.tabPage_FatBurning = new DarkControls.DarkTabPage();
             this.userControl_icon_FatBurning = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_FatBurning = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_FatBurning = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -580,9 +565,9 @@
             this.userControl_text_FatBurning = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_FatBurning = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Air = new System.Windows.Forms.TabPage();
+            this.tabPage_Air = new DarkControls.DarkTabPage();
             this.tabControl_SystemWeather = new DarkControls.DarkTabControl();
-            this.tabPage_Weather = new System.Windows.Forms.TabPage();
+            this.tabPage_Weather = new DarkControls.DarkTabPage();
             this.checkBox_weatherAlignmentFix = new DarkControls.DarkCheckBox();
             this.userControl_icon_Weather = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupWeather = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -593,7 +578,7 @@
             this.userControl_text_weather_Min = new AmazFit_Watchface_2.UserControl_text_weather();
             this.userControl_text_weather_Current = new AmazFit_Watchface_2.UserControl_text_weather();
             this.userControl_pictures_weather = new AmazFit_Watchface_2.UserControl_pictures_weather();
-            this.tabPage_UVindex = new System.Windows.Forms.TabPage();
+            this.tabPage_UVindex = new DarkControls.DarkTabPage();
             this.userControl_icon_UVindex = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_UVindex = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_UVindex = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -602,7 +587,7 @@
             this.userControl_text_UVindex = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_UVindex = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_UVindex = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_AirQuality = new System.Windows.Forms.TabPage();
+            this.tabPage_AirQuality = new DarkControls.DarkTabPage();
             this.userControl_icon_AirQuality = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_AirQuality = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_AirQuality = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -611,7 +596,7 @@
             this.userControl_text_AirQuality = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_AirQuality = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirQuality = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Humidity = new System.Windows.Forms.TabPage();
+            this.tabPage_Humidity = new DarkControls.DarkTabPage();
             this.userControl_icon_Humidity = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Humidity = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Humidity = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -620,7 +605,7 @@
             this.userControl_text_Humidity = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Humidity = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Humidity = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Sunrise = new System.Windows.Forms.TabPage();
+            this.tabPage_Sunrise = new DarkControls.DarkTabPage();
             this.label_Sunrise = new DarkControls.DarkLabel();
             this.userControl_icon_Sunrise = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunrise = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
@@ -632,7 +617,7 @@
             this.userControl_text_SunriseSunset = new AmazFit_Watchface_2.UserControl_text_goal();
             this.userControl_segments_Sunrise = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Sunrise = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_WindForce = new System.Windows.Forms.TabPage();
+            this.tabPage_WindForce = new DarkControls.DarkTabPage();
             this.userControl_icon_WindForce = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_WindForce = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_WindForce = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -641,7 +626,7 @@
             this.userControl_text_WindForce = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_WindForce = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_WindForce = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Altitude = new System.Windows.Forms.TabPage();
+            this.tabPage_Altitude = new DarkControls.DarkTabPage();
             this.userControl_icon_Altitude = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Altitude = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Altitude = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -650,7 +635,7 @@
             this.userControl_text_Altitude = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Altitude = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Altitude = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_AirPressure = new System.Windows.Forms.TabPage();
+            this.tabPage_AirPressure = new DarkControls.DarkTabPage();
             this.userControl_icon_AirPressure = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_AirPressure = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_AirPressure = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -659,9 +644,9 @@
             this.userControl_text_AirPressure = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_AirPressure = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_System = new System.Windows.Forms.TabPage();
+            this.tabPage_System = new DarkControls.DarkTabPage();
             this.tabControl_System = new DarkControls.DarkTabControl();
-            this.tabPage_Status = new System.Windows.Forms.TabPage();
+            this.tabPage_Status = new DarkControls.DarkTabPage();
             this.groupBox_Lock = new DarkControls.DarkGroupBox();
             this.checkBox_Lock_Use = new DarkControls.DarkCheckBox();
             this.comboBox_Lock_image = new DarkControls.DarkComboBox();
@@ -698,7 +683,7 @@
             this.label657 = new DarkControls.DarkLabel();
             this.label658 = new DarkControls.DarkLabel();
             this.label659 = new DarkControls.DarkLabel();
-            this.tabPage_Battery = new System.Windows.Forms.TabPage();
+            this.tabPage_Battery = new DarkControls.DarkTabPage();
             this.userControl_icon_Battery = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Battery = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Battery = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -709,13 +694,13 @@
             this.userControl_pictures_Battery = new AmazFit_Watchface_2.UserControl_pictures();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl_EditParameters_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Background_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Background_AOD = new DarkControls.DarkTabPage();
             this.label284 = new DarkControls.DarkLabel();
             this.button_Capy_ScreenNormal = new DarkControls.DarkButton();
             this.comboBox_Background_image_AOD = new DarkControls.DarkComboBox();
-            this.tabPage_Time_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Time_AOD = new DarkControls.DarkTabPage();
             this.tabControl_time_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Digital_time_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Digital_time_AOD = new DarkControls.DarkTabPage();
             this.panel_AM_PM_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_AM_PM_AOD = new DarkControls.DarkButton();
             this.checkBox_12h_Use_AOD = new DarkControls.DarkCheckBox();
@@ -785,7 +770,7 @@
             this.label326 = new DarkControls.DarkLabel();
             this.label327 = new DarkControls.DarkLabel();
             this.button_Hour_AOD = new DarkControls.DarkButton();
-            this.tabPage_Analog_time_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Analog_time_AOD = new DarkControls.DarkTabPage();
             this.panel_Minute_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Minute_hand_AOD = new DarkControls.DarkButton();
             this.numericUpDown_Minute_handY_offset_AOD = new DarkControls.DarkNumericUpDown();
@@ -832,9 +817,9 @@
             this.label361 = new DarkControls.DarkLabel();
             this.label362 = new DarkControls.DarkLabel();
             this.button_Hour_hand_AOD = new DarkControls.DarkButton();
-            this.tabPage_Date_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Date_AOD = new DarkControls.DarkTabPage();
             this.tabControl_date_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Day_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Day_AOD = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Day_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Day_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Day_hand_AOD = new DarkControls.DarkButton();
@@ -896,7 +881,7 @@
             this.label389 = new DarkControls.DarkLabel();
             this.label390 = new DarkControls.DarkLabel();
             this.button_Day_text_AOD = new DarkControls.DarkButton();
-            this.tabPage_Month_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Month_AOD = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Month_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel_Month_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_Month_hand_AOD = new DarkControls.DarkButton();
@@ -969,7 +954,7 @@
             this.button_Month_hand_AOD = new DarkControls.DarkButton();
             this.button_Month_text_AOD = new DarkControls.DarkButton();
             this.button_Month_pictures_AOD = new DarkControls.DarkButton();
-            this.tabPage_Year_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Year_AOD = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_Year_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel_Year_text_AOD = new System.Windows.Forms.Panel();
@@ -999,7 +984,7 @@
             this.label442 = new DarkControls.DarkLabel();
             this.button13 = new DarkControls.DarkButton();
             this.button_Year_text_AOD = new DarkControls.DarkButton();
-            this.tabPage_Day_of_week_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Day_of_week_AOD = new DarkControls.DarkTabPage();
             this.panel_DOW_hand_AOD = new System.Windows.Forms.Panel();
             this.button_Copy_DOW_hand_AOD = new DarkControls.DarkButton();
             this.checkBox_DOW_hand_Use_AOD = new DarkControls.DarkCheckBox();
@@ -1045,9 +1030,9 @@
             this.label462 = new DarkControls.DarkLabel();
             this.label463 = new DarkControls.DarkLabel();
             this.button_DOW_image_AOD = new DarkControls.DarkButton();
-            this.tabPage_Activity_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Activity_AOD = new DarkControls.DarkTabPage();
             this.tabControl_SystemActivity_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Steps_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Steps_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Steps_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Steps_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Steps_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1057,7 +1042,7 @@
             this.userControl_text_Steps_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Steps_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Steps_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Calories_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Calories_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Calories_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Calories_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Calories_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1067,7 +1052,7 @@
             this.userControl_text_Calories_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Calories_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Calories_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_HeartRate_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_HeartRate_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1076,7 +1061,7 @@
             this.userControl_text_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_HeartRate_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_PAI_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_PAI_AOD = new DarkControls.DarkTabPage();
             this.userControl_pictures_PAI_AOD = new AmazFit_Watchface_2.UserControl_pictures();
             this.userControl_icon_PAI_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_PAI_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
@@ -1085,11 +1070,11 @@
             this.userControl_hand_PAI_AOD = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_segments_PAI_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_text_PAI_AOD = new AmazFit_Watchface_2.UserControl_text();
-            this.tabPage_Distance_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Distance_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Distance_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Distance_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_text_Distance_AOD = new AmazFit_Watchface_2.UserControl_text();
-            this.tabPage_StandUp_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_StandUp_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_StandUp_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_StandUp_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_StandUp_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1099,7 +1084,7 @@
             this.userControl_text_StandUp_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_StandUp_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_StandUp_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Stress_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Stress_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Stress_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Stress_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Stress_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1108,7 +1093,7 @@
             this.userControl_text_Stress_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Stress_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Stress_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_ActivityGoal_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_ActivityGoal_AOD = new DarkControls.DarkTabPage();
             this.groupBox_ActivityGoal_AOD = new DarkControls.DarkGroupBox();
             this.radioButton_ActivityGoal_Calories_AOD = new DarkControls.DarkRadioButton();
             this.radioButton_ActivityGoal_Steps_AOD = new DarkControls.DarkRadioButton();
@@ -1121,7 +1106,7 @@
             this.userControl_text_ActivityGoal_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_ActivityGoal_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_ActivityGoal_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_FatBurning_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_FatBurning_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1131,9 +1116,9 @@
             this.userControl_text_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_FatBurning_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Air_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Air_AOD = new DarkControls.DarkTabPage();
             this.tabControl_SystemWeather_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Weather_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Weather_AOD = new DarkControls.DarkTabPage();
             this.checkBox_weatherAlignmentFix_AOD = new DarkControls.DarkCheckBox();
             this.userControl_icon_Weather_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupWeather_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -1144,7 +1129,7 @@
             this.userControl_text_weather_Min_AOD = new AmazFit_Watchface_2.UserControl_text_weather();
             this.userControl_text_weather_Current_AOD = new AmazFit_Watchface_2.UserControl_text_weather();
             this.userControl_pictures_weather_AOD = new AmazFit_Watchface_2.UserControl_pictures_weather();
-            this.tabPage_UVindex_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_UVindex_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_UVindex_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_UVindex_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_UVindex_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1153,7 +1138,7 @@
             this.userControl_text_UVindex_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_UVindex_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_UVindex_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_AirQuality_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_AirQuality_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1162,7 +1147,7 @@
             this.userControl_text_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirQuality_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Humidity_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Humidity_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Humidity_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Humidity_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Humidity_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1171,7 +1156,7 @@
             this.userControl_text_Humidity_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Humidity_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Humidity_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Sunrise_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Sunrise_AOD = new DarkControls.DarkTabPage();
             this.label_Sunrise_AOD = new DarkControls.DarkLabel();
             this.userControl_icon_Sunrise_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunrise_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
@@ -1183,7 +1168,7 @@
             this.userControl_text_SunriseSunset_AOD = new AmazFit_Watchface_2.UserControl_text_goal();
             this.userControl_segments_Sunrise_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Sunrise_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_WindForce_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_WindForce_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_WindForce_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_WindForce_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_WindForce_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1192,7 +1177,7 @@
             this.userControl_text_WindForce_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_WindForce_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_WindForce_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_Altitude_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Altitude_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Altitude_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Altitude_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Altitude_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1201,7 +1186,7 @@
             this.userControl_text_Altitude_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_Altitude_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_Altitude_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_AirPressure_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_AirPressure_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1210,9 +1195,9 @@
             this.userControl_text_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_text();
             this.userControl_segments_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_segments();
             this.userControl_pictures_AirPressure_AOD = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_System_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_System_AOD = new DarkControls.DarkTabPage();
             this.tabControl_System_AOD = new DarkControls.DarkTabControl();
-            this.tabPage_Battery_AOD = new System.Windows.Forms.TabPage();
+            this.tabPage_Battery_AOD = new DarkControls.DarkTabPage();
             this.userControl_icon_Battery_AOD = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_Group_Battery_AOD = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_scaleLinear_Battery_AOD = new AmazFit_Watchface_2.UserControl_scaleLinear();
@@ -1231,10 +1216,10 @@
             this.treeView_JsonTree = new System.Windows.Forms.TreeView();
             this.button_SaveJson = new DarkControls.DarkButton();
             this.button_OpenDir = new DarkControls.DarkButton();
-            this.tabPage_LayerOrder = new System.Windows.Forms.TabPage();
+            this.tabPage_LayerOrder = new DarkControls.DarkTabPage();
             this.groupBox_AODL_Date = new DarkControls.DarkGroupBox();
             this.label1 = new DarkControls.DarkLabel();
-            this.dataGridView_AODL_Date = new System.Windows.Forms.DataGridView();
+            this.dataGridView_AODL_Date = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_AODL_Date_End = new DarkControls.DarkButton();
@@ -1242,7 +1227,7 @@
             this.button_AODL_Date_Up = new DarkControls.DarkButton();
             this.button_AODL_Date_Down = new DarkControls.DarkButton();
             this.groupBox_AODL_Activity = new DarkControls.DarkGroupBox();
-            this.dataGridView_AODL_Activity = new System.Windows.Forms.DataGridView();
+            this.dataGridView_AODL_Activity = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_AODL_Activity_End = new DarkControls.DarkButton();
@@ -1251,7 +1236,7 @@
             this.button_AODL_Activity_Down = new DarkControls.DarkButton();
             this.groupBox_SNL_Date = new DarkControls.DarkGroupBox();
             this.label_SNL_Date = new DarkControls.DarkLabel();
-            this.dataGridView_SNL_Date = new System.Windows.Forms.DataGridView();
+            this.dataGridView_SNL_Date = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_SNL_Date_End = new DarkControls.DarkButton();
@@ -1259,16 +1244,16 @@
             this.button_SNL_Date_Up = new DarkControls.DarkButton();
             this.button_SNL_Date_Down = new DarkControls.DarkButton();
             this.groupBox_SNL_Activity = new DarkControls.DarkGroupBox();
-            this.dataGridView_SNL_Activity = new System.Windows.Forms.DataGridView();
+            this.dataGridView_SNL_Activity = new DarkControls.DarkDataGridView();
             this.ActivityID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ActivityName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_SNL_Activity_End = new DarkControls.DarkButton();
             this.button_SNL_Activity_Start = new DarkControls.DarkButton();
             this.button_SNL_Activity_Up = new DarkControls.DarkButton();
             this.button_SNL_Activity_Down = new DarkControls.DarkButton();
-            this.tabPage_Widgets = new System.Windows.Forms.TabPage();
+            this.tabPage_Widgets = new DarkControls.DarkTabPage();
             this.tabControl_Widget = new DarkControls.DarkTabControl();
-            this.tabPage_WidgetsEdit = new System.Windows.Forms.TabPage();
+            this.tabPage_WidgetsEdit = new DarkControls.DarkTabPage();
             this.checkBox_TimeOnWidgetEdit = new DarkControls.DarkCheckBox();
             this.groupBox_WidgetPreview = new DarkControls.DarkGroupBox();
             this.radioButton_WidgetPreviewEdit = new DarkControls.DarkRadioButton();
@@ -1276,31 +1261,31 @@
             this.groupBox_WidgetElementSettings = new DarkControls.DarkGroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl_DateWidget = new DarkControls.DarkTabControl();
-            this.tabPage_DayWidget = new System.Windows.Forms.TabPage();
+            this.tabPage_DayWidget = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_DayWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidget = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_text_date_DayWidget = new AmazFit_Watchface_2.UserControl_text_date();
-            this.tabPage_MonthWidget = new System.Windows.Forms.TabPage();
+            this.tabPage_MonthWidget = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_MonthWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_MonthWidget = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_text_date_MonthWidget = new AmazFit_Watchface_2.UserControl_text_date();
             this.userControl_pictures_MonthWidget = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_YearWidget = new System.Windows.Forms.TabPage();
+            this.tabPage_YearWidget = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_YearWidget = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_text_date_YearWidget = new AmazFit_Watchface_2.UserControl_text_date();
-            this.tabPage_DOWWidget = new System.Windows.Forms.TabPage();
+            this.tabPage_DOWWidget = new DarkControls.DarkTabPage();
             this.userControl_hand_DOWWidget = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_pictures_DOWWidget = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage_DateLayerWidget = new System.Windows.Forms.TabPage();
+            this.tabPage_DateLayerWidget = new DarkControls.DarkTabPage();
             this.label12 = new DarkControls.DarkLabel();
-            this.dataGridView_Widget_Date = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Widget_Date = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_Widget_Date_End = new DarkControls.DarkButton();
             this.button_Widget_Date_Start = new DarkControls.DarkButton();
             this.button_Widget_Date_Up = new DarkControls.DarkButton();
             this.button_Widget_Date_Down = new DarkControls.DarkButton();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new DarkControls.DarkTabPage();
             this.userControl_iconWidget = new AmazFit_Watchface_2.UserControl_icon();
             this.userControl_SystemFont_GroupSunriseWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupSunrise();
             this.userControl_SystemFont_GroupWeatherWidget = new AmazFit_Watchface_2.UserControl_SystemFont_GroupWeather();
@@ -1354,11 +1339,11 @@
             this.button_WidgetElement_Start = new DarkControls.DarkButton();
             this.button_WidgetElement_Up = new DarkControls.DarkButton();
             this.button_WidgetElement_Down = new DarkControls.DarkButton();
-            this.dataGridView_WidgetElement = new System.Windows.Forms.DataGridView();
+            this.dataGridView_WidgetElement = new DarkControls.DarkDataGridView();
             this.WidgetsID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.WidgetElement = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.WidgetElementName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage_WidgetAdd = new System.Windows.Forms.TabPage();
+            this.tabPage_WidgetAdd = new DarkControls.DarkTabPage();
             this.label31 = new DarkControls.DarkLabel();
             this.label30 = new DarkControls.DarkLabel();
             this.label29 = new DarkControls.DarkLabel();
@@ -1389,24 +1374,24 @@
             this.groupBox_WidgetElementAdd = new DarkControls.DarkGroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl_DateWidgetAdd = new DarkControls.DarkTabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_text_date_DayWidgetAdd = new AmazFit_Watchface_2.UserControl_text_date();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_MonthWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_hand_MonthWidgetAdd = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_text_date_MonthWidgetAdd = new AmazFit_Watchface_2.UserControl_text_date();
             this.userControl_pictures_MonthWidgetAdd = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new DarkControls.DarkTabPage();
             this.userControl_SystemFont_Group_YearWidgetAdd = new AmazFit_Watchface_2.UserControl_SystemFont_Group();
             this.userControl_text_date_YearWidgetAdd = new AmazFit_Watchface_2.UserControl_text_date();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new DarkControls.DarkTabPage();
             this.userControl_hand_DOWWidgetAdd = new AmazFit_Watchface_2.UserControl_hand();
             this.userControl_pictures_DOWWidgetAdd = new AmazFit_Watchface_2.UserControl_pictures();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new DarkControls.DarkTabPage();
             this.label13 = new DarkControls.DarkLabel();
-            this.dataGridView_Widget_DateAdd = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Widget_DateAdd = new DarkControls.DarkDataGridView();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button_Widget_Date_EndAdd = new DarkControls.DarkButton();
@@ -1454,7 +1439,7 @@
             this.label23 = new DarkControls.DarkLabel();
             this.label24 = new DarkControls.DarkLabel();
             this.label25 = new DarkControls.DarkLabel();
-            this.tabPageConverting = new System.Windows.Forms.TabPage();
+            this.tabPageConverting = new DarkControls.DarkTabPage();
             this.label489 = new DarkControls.DarkLabel();
             this.label488 = new DarkControls.DarkLabel();
             this.label487 = new DarkControls.DarkLabel();
@@ -1472,7 +1457,7 @@
             this.radioButton_ConvertingInput_TRexPro = new DarkControls.DarkRadioButton();
             this.radioButton_ConvertingInput_ZeppE = new DarkControls.DarkRadioButton();
             this.radioButton_ConvertingInput_GTR2 = new DarkControls.DarkRadioButton();
-            this.tabPage_Settings = new System.Windows.Forms.TabPage();
+            this.tabPage_Settings = new DarkControls.DarkTabPage();
             this.checkBox_AllWidgetsInGif = new DarkControls.DarkCheckBox();
             this.groupBox2 = new DarkControls.DarkGroupBox();
             this.button_WatchSkin_PathGet = new DarkControls.DarkButton();
@@ -1505,7 +1490,7 @@
             this.radioButton_Settings_Unpack_Replace = new DarkControls.DarkRadioButton();
             this.radioButton_Settings_Unpack_Save = new DarkControls.DarkRadioButton();
             this.radioButton_Settings_Unpack_Dialog = new DarkControls.DarkRadioButton();
-            this.tabPage_About = new System.Windows.Forms.TabPage();
+            this.tabPage_About = new DarkControls.DarkTabPage();
             this.linkLabel_resunpacker_qzip = new System.Windows.Forms.LinkLabel();
             this.label_TranslateHelp = new DarkControls.DarkLabel();
             this.label415 = new DarkControls.DarkLabel();
@@ -1554,6 +1539,7 @@
             this.splitContainer_EditParameters.SuspendLayout();
             this.tabControl_EditParameters.SuspendLayout();
             this.tabPage_Background.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox_WatchfaceID)).BeginInit();
             this.tabPage_Time.SuspendLayout();
             this.tabControl_time.SuspendLayout();
             this.tabPage_Digital_time.SuspendLayout();
@@ -1893,6 +1879,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_ConvertingInput_Custom)).BeginInit();
             this.tabPage_Settings.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox_WatchSkin_Path)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Gif_Speed)).BeginInit();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -2151,7 +2138,6 @@
             // 
             // tabPage_Show
             // 
-            this.tabPage_Show.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Show.Controls.Add(this.panel3);
             this.tabPage_Show.Controls.Add(this.dataGridView_ImagesList);
             this.tabPage_Show.Controls.Add(this.button_images);
@@ -2348,45 +2334,28 @@
             // 
             // dataGridView_ImagesList
             // 
+            this.dataGridView_ImagesList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect; // TEST !
             this.dataGridView_ImagesList.AllowUserToAddRows = false;
             this.dataGridView_ImagesList.AllowUserToDeleteRows = false;
             this.dataGridView_ImagesList.AllowUserToResizeRows = false;
-            this.dataGridView_ImagesList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_ImagesList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_ImagesList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_ImagesList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_ImagesList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView_ImagesList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_ImagesList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Number,
             this.NameFile,
             this.ColumnImage,
             this.Column1});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_ImagesList.DefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridView_ImagesList.EnableHeadersVisualStyles = false;
-            this.dataGridView_ImagesList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
             resources.ApplyResources(this.dataGridView_ImagesList, "dataGridView_ImagesList");
             this.dataGridView_ImagesList.Name = "dataGridView_ImagesList";
+            this.dataGridView_ImagesList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_ImagesList.RowHeadersVisible = false;
             // 
             // Number
             // 
             this.Number.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Number.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Number.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.Number, "Number");
             this.Number.Name = "Number";
             this.Number.ReadOnly = true;
@@ -2401,6 +2370,11 @@
             // ColumnImage
             // 
             this.ColumnImage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyleWhite.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            // dataGridViewCellStyleWhite.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyleWhite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(75)))));
+            dataGridViewCellStyleWhite.NullValue = null;
+            this.ColumnImage.DefaultCellStyle = dataGridViewCellStyleWhite;
             resources.ApplyResources(this.ColumnImage, "ColumnImage");
             this.ColumnImage.Name = "ColumnImage";
             this.ColumnImage.ReadOnly = true;
@@ -2408,11 +2382,11 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.NullValue = null;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyleBlack.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            // dataGridViewCellStyleBlack.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyleBlack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
+            dataGridViewCellStyleBlack.NullValue = null;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyleBlack;
             resources.ApplyResources(this.Column1, "Column1");
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
@@ -2443,7 +2417,6 @@
             // 
             // tabPage_Edit
             // 
-            this.tabPage_Edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Edit.Controls.Add(this.splitContainer_EditParameters);
             this.tabPage_Edit.Controls.Add(this.panel6);
             this.tabPage_Edit.Controls.Add(this.panel5);
@@ -2481,7 +2454,6 @@
             // 
             // tabPage_Background
             // 
-            this.tabPage_Background.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Background.Controls.Add(this.button_GenerateID);
             this.tabPage_Background.Controls.Add(this.textBox_WatchfaceID);
             this.tabPage_Background.Controls.Add(this.checkBox_UseID);
@@ -2568,7 +2540,6 @@
             // tabPage_Time
             // 
             resources.ApplyResources(this.tabPage_Time, "tabPage_Time");
-            this.tabPage_Time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Time.Controls.Add(this.tabControl_time);
             this.tabPage_Time.Name = "tabPage_Time";
             // 
@@ -2584,7 +2555,6 @@
             // tabPage_Digital_time
             // 
             resources.ApplyResources(this.tabPage_Digital_time, "tabPage_Digital_time");
-            this.tabPage_Digital_time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Digital_time.Controls.Add(this.panel_AM_PM);
             this.tabPage_Digital_time.Controls.Add(this.userControl_SystemFont_GroupTime);
             this.tabPage_Digital_time.Controls.Add(this.panel_Second);
@@ -3715,7 +3685,6 @@
             // tabPage_Analog_time
             // 
             resources.ApplyResources(this.tabPage_Analog_time, "tabPage_Analog_time");
-            this.tabPage_Analog_time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Analog_time.Controls.Add(this.panel_Second_hand);
             this.tabPage_Analog_time.Controls.Add(this.panel_Minute_hand);
             this.tabPage_Analog_time.Controls.Add(this.panel_Hour_hand);
@@ -4590,7 +4559,6 @@
             // 
             // tabPage_Date
             // 
-            this.tabPage_Date.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Date.Controls.Add(this.tabControl_date);
             resources.ApplyResources(this.tabPage_Date, "tabPage_Date");
             this.tabPage_Date.Name = "tabPage_Date";
@@ -4609,7 +4577,6 @@
             // tabPage_Day
             // 
             resources.ApplyResources(this.tabPage_Day, "tabPage_Day");
-            this.tabPage_Day.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day.Controls.Add(this.userControl_SystemFont_Group_Day);
             this.tabPage_Day.Controls.Add(this.panel_Day_hand);
             this.tabPage_Day.Controls.Add(this.button_Day_hand);
@@ -5389,7 +5356,6 @@
             // tabPage_Month
             // 
             resources.ApplyResources(this.tabPage_Month, "tabPage_Month");
-            this.tabPage_Month.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Month.Controls.Add(this.userControl_SystemFont_Group_Month);
             this.tabPage_Month.Controls.Add(this.panel_Month_hand);
             this.tabPage_Month.Controls.Add(this.panel_Month_text);
@@ -6288,7 +6254,6 @@
             // tabPage_Year
             // 
             resources.ApplyResources(this.tabPage_Year, "tabPage_Year");
-            this.tabPage_Year.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Year.Controls.Add(this.userControl_SystemFont_Group_Year);
             this.tabPage_Year.Controls.Add(this.panel_Year_hand);
             this.tabPage_Year.Controls.Add(this.panel_Year_text);
@@ -6624,7 +6589,6 @@
             // tabPage_Day_of_week
             // 
             resources.ApplyResources(this.tabPage_Day_of_week, "tabPage_Day_of_week");
-            this.tabPage_Day_of_week.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_of_week.Controls.Add(this.panel_DOW_hand);
             this.tabPage_Day_of_week.Controls.Add(this.button_DOW_hand);
             this.tabPage_Day_of_week.Controls.Add(this.panel_DOW_image);
@@ -7203,7 +7167,6 @@
             // 
             // tabPage_Activity
             // 
-            this.tabPage_Activity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Activity.Controls.Add(this.tabControl_SystemActivity);
             resources.ApplyResources(this.tabPage_Activity, "tabPage_Activity");
             this.tabPage_Activity.Name = "tabPage_Activity";
@@ -7227,7 +7190,6 @@
             // tabPage_Steps
             // 
             resources.ApplyResources(this.tabPage_Steps, "tabPage_Steps");
-            this.tabPage_Steps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Steps.Controls.Add(this.userControl_icon_Steps);
             this.tabPage_Steps.Controls.Add(this.userControl_SystemFont_Group_Steps);
             this.tabPage_Steps.Controls.Add(this.userControl_scaleLinear_Steps);
@@ -7351,7 +7313,6 @@
             // tabPage_Calories
             // 
             resources.ApplyResources(this.tabPage_Calories, "tabPage_Calories");
-            this.tabPage_Calories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Calories.Controls.Add(this.userControl_icon_Calories);
             this.tabPage_Calories.Controls.Add(this.userControl_SystemFont_Group_Calories);
             this.tabPage_Calories.Controls.Add(this.userControl_scaleLinear_Calories);
@@ -7474,7 +7435,6 @@
             // tabPage_HeartRate
             // 
             resources.ApplyResources(this.tabPage_HeartRate, "tabPage_HeartRate");
-            this.tabPage_HeartRate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_HeartRate.Controls.Add(this.userControl_icon_HeartRate);
             this.tabPage_HeartRate.Controls.Add(this.userControl_SystemFont_Group_HeartRate);
             this.tabPage_HeartRate.Controls.Add(this.userControl_scaleLinear_HeartRate);
@@ -7582,7 +7542,6 @@
             // tabPage_PAI
             // 
             resources.ApplyResources(this.tabPage_PAI, "tabPage_PAI");
-            this.tabPage_PAI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_PAI.Controls.Add(this.userControl_icon_PAI);
             this.tabPage_PAI.Controls.Add(this.userControl_SystemFont_Group_PAI);
             this.tabPage_PAI.Controls.Add(this.userControl_scaleLinear_PAI);
@@ -7690,7 +7649,6 @@
             // tabPage_Distance
             // 
             resources.ApplyResources(this.tabPage_Distance, "tabPage_Distance");
-            this.tabPage_Distance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Distance.Controls.Add(this.userControl_icon_Distance);
             this.tabPage_Distance.Controls.Add(this.userControl_SystemFont_Group_Distance);
             this.tabPage_Distance.Controls.Add(this.userControl_text_Distance);
@@ -7741,7 +7699,6 @@
             // tabPage_StandUp
             // 
             resources.ApplyResources(this.tabPage_StandUp, "tabPage_StandUp");
-            this.tabPage_StandUp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_StandUp.Controls.Add(this.userControl_icon_StandUp);
             this.tabPage_StandUp.Controls.Add(this.userControl_SystemFont_Group_StandUp);
             this.tabPage_StandUp.Controls.Add(this.userControl_scaleLinear_StandUp);
@@ -7865,7 +7822,6 @@
             // tabPage_Stress
             // 
             resources.ApplyResources(this.tabPage_Stress, "tabPage_Stress");
-            this.tabPage_Stress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Stress.Controls.Add(this.userControl_icon_Stress);
             this.tabPage_Stress.Controls.Add(this.userControl_SystemFont_Group_Stress);
             this.tabPage_Stress.Controls.Add(this.userControl_scaleLinear_Stress);
@@ -7973,7 +7929,6 @@
             // tabPage_ActivityGoal
             // 
             resources.ApplyResources(this.tabPage_ActivityGoal, "tabPage_ActivityGoal");
-            this.tabPage_ActivityGoal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_ActivityGoal.Controls.Add(this.groupBox_ActivityGoal);
             this.tabPage_ActivityGoal.Controls.Add(this.userControl_icon_ActivityGoal);
             this.tabPage_ActivityGoal.Controls.Add(this.userControl_SystemFont_Group_ActivityGoal);
@@ -8120,7 +8075,6 @@
             // tabPage_FatBurning
             // 
             resources.ApplyResources(this.tabPage_FatBurning, "tabPage_FatBurning");
-            this.tabPage_FatBurning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_FatBurning.Controls.Add(this.userControl_icon_FatBurning);
             this.tabPage_FatBurning.Controls.Add(this.userControl_SystemFont_Group_FatBurning);
             this.tabPage_FatBurning.Controls.Add(this.userControl_scaleLinear_FatBurning);
@@ -8243,7 +8197,6 @@
             // 
             // tabPage_Air
             // 
-            this.tabPage_Air.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Air.Controls.Add(this.tabControl_SystemWeather);
             resources.ApplyResources(this.tabPage_Air, "tabPage_Air");
             this.tabPage_Air.Name = "tabPage_Air";
@@ -8266,7 +8219,6 @@
             // tabPage_Weather
             // 
             resources.ApplyResources(this.tabPage_Weather, "tabPage_Weather");
-            this.tabPage_Weather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Weather.Controls.Add(this.checkBox_weatherAlignmentFix);
             this.tabPage_Weather.Controls.Add(this.userControl_icon_Weather);
             this.tabPage_Weather.Controls.Add(this.userControl_SystemFont_GroupWeather);
@@ -8402,7 +8354,6 @@
             // tabPage_UVindex
             // 
             resources.ApplyResources(this.tabPage_UVindex, "tabPage_UVindex");
-            this.tabPage_UVindex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_UVindex.Controls.Add(this.userControl_icon_UVindex);
             this.tabPage_UVindex.Controls.Add(this.userControl_SystemFont_Group_UVindex);
             this.tabPage_UVindex.Controls.Add(this.userControl_scaleLinear_UVindex);
@@ -8510,7 +8461,6 @@
             // tabPage_AirQuality
             // 
             resources.ApplyResources(this.tabPage_AirQuality, "tabPage_AirQuality");
-            this.tabPage_AirQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirQuality.Controls.Add(this.userControl_icon_AirQuality);
             this.tabPage_AirQuality.Controls.Add(this.userControl_SystemFont_Group_AirQuality);
             this.tabPage_AirQuality.Controls.Add(this.userControl_scaleLinear_AirQuality);
@@ -8618,7 +8568,6 @@
             // tabPage_Humidity
             // 
             resources.ApplyResources(this.tabPage_Humidity, "tabPage_Humidity");
-            this.tabPage_Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Humidity.Controls.Add(this.userControl_icon_Humidity);
             this.tabPage_Humidity.Controls.Add(this.userControl_SystemFont_Group_Humidity);
             this.tabPage_Humidity.Controls.Add(this.userControl_scaleLinear_Humidity);
@@ -8726,7 +8675,6 @@
             // tabPage_Sunrise
             // 
             resources.ApplyResources(this.tabPage_Sunrise, "tabPage_Sunrise");
-            this.tabPage_Sunrise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Sunrise.Controls.Add(this.label_Sunrise);
             this.tabPage_Sunrise.Controls.Add(this.userControl_icon_Sunrise);
             this.tabPage_Sunrise.Controls.Add(this.userControl_SystemFont_GroupSunrise);
@@ -8874,7 +8822,6 @@
             // tabPage_WindForce
             // 
             resources.ApplyResources(this.tabPage_WindForce, "tabPage_WindForce");
-            this.tabPage_WindForce.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WindForce.Controls.Add(this.userControl_icon_WindForce);
             this.tabPage_WindForce.Controls.Add(this.userControl_SystemFont_Group_WindForce);
             this.tabPage_WindForce.Controls.Add(this.userControl_scaleLinear_WindForce);
@@ -8982,7 +8929,6 @@
             // tabPage_Altitude
             // 
             resources.ApplyResources(this.tabPage_Altitude, "tabPage_Altitude");
-            this.tabPage_Altitude.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Altitude.Controls.Add(this.userControl_icon_Altitude);
             this.tabPage_Altitude.Controls.Add(this.userControl_SystemFont_Group_Altitude);
             this.tabPage_Altitude.Controls.Add(this.userControl_scaleLinear_Altitude);
@@ -9090,7 +9036,6 @@
             // tabPage_AirPressure
             // 
             resources.ApplyResources(this.tabPage_AirPressure, "tabPage_AirPressure");
-            this.tabPage_AirPressure.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirPressure.Controls.Add(this.userControl_icon_AirPressure);
             this.tabPage_AirPressure.Controls.Add(this.userControl_SystemFont_Group_AirPressure);
             this.tabPage_AirPressure.Controls.Add(this.userControl_scaleLinear_AirPressure);
@@ -9197,7 +9142,6 @@
             // 
             // tabPage_System
             // 
-            this.tabPage_System.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_System.Controls.Add(this.tabControl_System);
             resources.ApplyResources(this.tabPage_System, "tabPage_System");
             this.tabPage_System.Name = "tabPage_System";
@@ -9213,7 +9157,6 @@
             // 
             // tabPage_Status
             // 
-            this.tabPage_Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Status.Controls.Add(this.groupBox_Lock);
             this.tabPage_Status.Controls.Add(this.groupBox_DND);
             this.tabPage_Status.Controls.Add(this.groupBox_Alarm);
@@ -9672,7 +9615,6 @@
             // tabPage_Battery
             // 
             resources.ApplyResources(this.tabPage_Battery, "tabPage_Battery");
-            this.tabPage_Battery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Battery.Controls.Add(this.userControl_icon_Battery);
             this.tabPage_Battery.Controls.Add(this.userControl_SystemFont_Group_Battery);
             this.tabPage_Battery.Controls.Add(this.userControl_scaleLinear_Battery);
@@ -9806,7 +9748,6 @@
             // 
             // tabPage_Background_AOD
             // 
-            this.tabPage_Background_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Background_AOD.Controls.Add(this.label284);
             this.tabPage_Background_AOD.Controls.Add(this.button_Capy_ScreenNormal);
             this.tabPage_Background_AOD.Controls.Add(this.comboBox_Background_image_AOD);
@@ -9840,7 +9781,6 @@
             // tabPage_Time_AOD
             // 
             resources.ApplyResources(this.tabPage_Time_AOD, "tabPage_Time_AOD");
-            this.tabPage_Time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Time_AOD.Controls.Add(this.tabControl_time_AOD);
             this.tabPage_Time_AOD.Name = "tabPage_Time_AOD";
             // 
@@ -9856,7 +9796,6 @@
             // tabPage_Digital_time_AOD
             // 
             resources.ApplyResources(this.tabPage_Digital_time_AOD, "tabPage_Digital_time_AOD");
-            this.tabPage_Digital_time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Digital_time_AOD.Controls.Add(this.panel_AM_PM_AOD);
             this.tabPage_Digital_time_AOD.Controls.Add(this.userControl_SystemFont_GroupTime_AOD);
             this.tabPage_Digital_time_AOD.Controls.Add(this.panel_Minute_AOD);
@@ -10710,7 +10649,6 @@
             // tabPage_Analog_time_AOD
             // 
             resources.ApplyResources(this.tabPage_Analog_time_AOD, "tabPage_Analog_time_AOD");
-            this.tabPage_Analog_time_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Analog_time_AOD.Controls.Add(this.panel_Minute_hand_AOD);
             this.tabPage_Analog_time_AOD.Controls.Add(this.button_Minute_hand_AOD);
             this.tabPage_Analog_time_AOD.Controls.Add(this.panel_Hour_hand_AOD);
@@ -11311,7 +11249,6 @@
             // 
             // tabPage_Date_AOD
             // 
-            this.tabPage_Date_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Date_AOD.Controls.Add(this.tabControl_date_AOD);
             resources.ApplyResources(this.tabPage_Date_AOD, "tabPage_Date_AOD");
             this.tabPage_Date_AOD.Name = "tabPage_Date_AOD";
@@ -11330,7 +11267,6 @@
             // tabPage_Day_AOD
             // 
             resources.ApplyResources(this.tabPage_Day_AOD, "tabPage_Day_AOD");
-            this.tabPage_Day_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_AOD.Controls.Add(this.userControl_SystemFont_Group_Day_AOD);
             this.tabPage_Day_AOD.Controls.Add(this.panel_Day_hand_AOD);
             this.tabPage_Day_AOD.Controls.Add(this.button_Day_hand_AOD);
@@ -12127,7 +12063,6 @@
             // tabPage_Month_AOD
             // 
             resources.ApplyResources(this.tabPage_Month_AOD, "tabPage_Month_AOD");
-            this.tabPage_Month_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Month_AOD.Controls.Add(this.userControl_SystemFont_Group_Month_AOD);
             this.tabPage_Month_AOD.Controls.Add(this.panel_Month_hand_AOD);
             this.tabPage_Month_AOD.Controls.Add(this.panel_Month_text_AOD);
@@ -13052,7 +12987,6 @@
             // tabPage_Year_AOD
             // 
             resources.ApplyResources(this.tabPage_Year_AOD, "tabPage_Year_AOD");
-            this.tabPage_Year_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Year_AOD.Controls.Add(this.userControl_SystemFont_Group_Year_AOD);
             this.tabPage_Year_AOD.Controls.Add(this.panel16);
             this.tabPage_Year_AOD.Controls.Add(this.panel_Year_text_AOD);
@@ -13397,7 +13331,6 @@
             // tabPage_Day_of_week_AOD
             // 
             resources.ApplyResources(this.tabPage_Day_of_week_AOD, "tabPage_Day_of_week_AOD");
-            this.tabPage_Day_of_week_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Day_of_week_AOD.Controls.Add(this.panel_DOW_hand_AOD);
             this.tabPage_Day_of_week_AOD.Controls.Add(this.button_DOW_hand_AOD);
             this.tabPage_Day_of_week_AOD.Controls.Add(this.panel_DOW_image_AOD);
@@ -13992,7 +13925,6 @@
             // 
             // tabPage_Activity_AOD
             // 
-            this.tabPage_Activity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Activity_AOD.Controls.Add(this.tabControl_SystemActivity_AOD);
             resources.ApplyResources(this.tabPage_Activity_AOD, "tabPage_Activity_AOD");
             this.tabPage_Activity_AOD.Name = "tabPage_Activity_AOD";
@@ -14016,7 +13948,6 @@
             // tabPage_Steps_AOD
             // 
             resources.ApplyResources(this.tabPage_Steps_AOD, "tabPage_Steps_AOD");
-            this.tabPage_Steps_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_icon_Steps_AOD);
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_SystemFont_Group_Steps_AOD);
             this.tabPage_Steps_AOD.Controls.Add(this.userControl_scaleLinear_Steps_AOD);
@@ -14149,7 +14080,6 @@
             // tabPage_Calories_AOD
             // 
             resources.ApplyResources(this.tabPage_Calories_AOD, "tabPage_Calories_AOD");
-            this.tabPage_Calories_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_icon_Calories_AOD);
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_SystemFont_Group_Calories_AOD);
             this.tabPage_Calories_AOD.Controls.Add(this.userControl_scaleLinear_Calories_AOD);
@@ -14282,7 +14212,6 @@
             // tabPage_HeartRate_AOD
             // 
             resources.ApplyResources(this.tabPage_HeartRate_AOD, "tabPage_HeartRate_AOD");
-            this.tabPage_HeartRate_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_icon_HeartRate_AOD);
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_SystemFont_Group_HeartRate_AOD);
             this.tabPage_HeartRate_AOD.Controls.Add(this.userControl_scaleLinear_HeartRate_AOD);
@@ -14398,7 +14327,6 @@
             // tabPage_PAI_AOD
             // 
             resources.ApplyResources(this.tabPage_PAI_AOD, "tabPage_PAI_AOD");
-            this.tabPage_PAI_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_pictures_PAI_AOD);
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_icon_PAI_AOD);
             this.tabPage_PAI_AOD.Controls.Add(this.userControl_SystemFont_Group_PAI_AOD);
@@ -14514,7 +14442,6 @@
             // tabPage_Distance_AOD
             // 
             resources.ApplyResources(this.tabPage_Distance_AOD, "tabPage_Distance_AOD");
-            this.tabPage_Distance_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_icon_Distance_AOD);
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_SystemFont_Group_Distance_AOD);
             this.tabPage_Distance_AOD.Controls.Add(this.userControl_text_Distance_AOD);
@@ -14568,7 +14495,6 @@
             // tabPage_StandUp_AOD
             // 
             resources.ApplyResources(this.tabPage_StandUp_AOD, "tabPage_StandUp_AOD");
-            this.tabPage_StandUp_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_icon_StandUp_AOD);
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_SystemFont_Group_StandUp_AOD);
             this.tabPage_StandUp_AOD.Controls.Add(this.userControl_scaleLinear_StandUp_AOD);
@@ -14701,7 +14627,6 @@
             // tabPage_Stress_AOD
             // 
             resources.ApplyResources(this.tabPage_Stress_AOD, "tabPage_Stress_AOD");
-            this.tabPage_Stress_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_icon_Stress_AOD);
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_SystemFont_Group_Stress_AOD);
             this.tabPage_Stress_AOD.Controls.Add(this.userControl_scaleLinear_Stress_AOD);
@@ -14817,7 +14742,6 @@
             // tabPage_ActivityGoal_AOD
             // 
             resources.ApplyResources(this.tabPage_ActivityGoal_AOD, "tabPage_ActivityGoal_AOD");
-            this.tabPage_ActivityGoal_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.groupBox_ActivityGoal_AOD);
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.userControl_icon_ActivityGoal_AOD);
             this.tabPage_ActivityGoal_AOD.Controls.Add(this.userControl_SystemFont_Group_ActivityGoal_AOD);
@@ -14972,7 +14896,6 @@
             // tabPage_FatBurning_AOD
             // 
             resources.ApplyResources(this.tabPage_FatBurning_AOD, "tabPage_FatBurning_AOD");
-            this.tabPage_FatBurning_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_icon_FatBurning_AOD);
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_SystemFont_Group_FatBurning_AOD);
             this.tabPage_FatBurning_AOD.Controls.Add(this.userControl_scaleLinear_FatBurning_AOD);
@@ -15103,7 +15026,6 @@
             // 
             // tabPage_Air_AOD
             // 
-            this.tabPage_Air_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Air_AOD.Controls.Add(this.tabControl_SystemWeather_AOD);
             resources.ApplyResources(this.tabPage_Air_AOD, "tabPage_Air_AOD");
             this.tabPage_Air_AOD.Name = "tabPage_Air_AOD";
@@ -15126,7 +15048,6 @@
             // tabPage_Weather_AOD
             // 
             resources.ApplyResources(this.tabPage_Weather_AOD, "tabPage_Weather_AOD");
-            this.tabPage_Weather_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Weather_AOD.Controls.Add(this.checkBox_weatherAlignmentFix_AOD);
             this.tabPage_Weather_AOD.Controls.Add(this.userControl_icon_Weather_AOD);
             this.tabPage_Weather_AOD.Controls.Add(this.userControl_SystemFont_GroupWeather_AOD);
@@ -15271,7 +15192,6 @@
             // tabPage_UVindex_AOD
             // 
             resources.ApplyResources(this.tabPage_UVindex_AOD, "tabPage_UVindex_AOD");
-            this.tabPage_UVindex_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_icon_UVindex_AOD);
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_SystemFont_Group_UVindex_AOD);
             this.tabPage_UVindex_AOD.Controls.Add(this.userControl_scaleLinear_UVindex_AOD);
@@ -15387,7 +15307,6 @@
             // tabPage_AirQuality_AOD
             // 
             resources.ApplyResources(this.tabPage_AirQuality_AOD, "tabPage_AirQuality_AOD");
-            this.tabPage_AirQuality_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_icon_AirQuality_AOD);
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_SystemFont_Group_AirQuality_AOD);
             this.tabPage_AirQuality_AOD.Controls.Add(this.userControl_scaleLinear_AirQuality_AOD);
@@ -15503,7 +15422,6 @@
             // tabPage_Humidity_AOD
             // 
             resources.ApplyResources(this.tabPage_Humidity_AOD, "tabPage_Humidity_AOD");
-            this.tabPage_Humidity_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_icon_Humidity_AOD);
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_SystemFont_Group_Humidity_AOD);
             this.tabPage_Humidity_AOD.Controls.Add(this.userControl_scaleLinear_Humidity_AOD);
@@ -15618,7 +15536,6 @@
             // 
             // tabPage_Sunrise_AOD
             // 
-            this.tabPage_Sunrise_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Sunrise_AOD.Controls.Add(this.label_Sunrise_AOD);
             this.tabPage_Sunrise_AOD.Controls.Add(this.userControl_icon_Sunrise_AOD);
             this.tabPage_Sunrise_AOD.Controls.Add(this.userControl_SystemFont_GroupSunrise_AOD);
@@ -15777,7 +15694,6 @@
             // tabPage_WindForce_AOD
             // 
             resources.ApplyResources(this.tabPage_WindForce_AOD, "tabPage_WindForce_AOD");
-            this.tabPage_WindForce_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_icon_WindForce_AOD);
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_SystemFont_Group_WindForce_AOD);
             this.tabPage_WindForce_AOD.Controls.Add(this.userControl_scaleLinear_WindForce_AOD);
@@ -15893,7 +15809,6 @@
             // tabPage_Altitude_AOD
             // 
             resources.ApplyResources(this.tabPage_Altitude_AOD, "tabPage_Altitude_AOD");
-            this.tabPage_Altitude_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_icon_Altitude_AOD);
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_SystemFont_Group_Altitude_AOD);
             this.tabPage_Altitude_AOD.Controls.Add(this.userControl_scaleLinear_Altitude_AOD);
@@ -16009,7 +15924,6 @@
             // tabPage_AirPressure_AOD
             // 
             resources.ApplyResources(this.tabPage_AirPressure_AOD, "tabPage_AirPressure_AOD");
-            this.tabPage_AirPressure_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_icon_AirPressure_AOD);
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_SystemFont_Group_AirPressure_AOD);
             this.tabPage_AirPressure_AOD.Controls.Add(this.userControl_scaleLinear_AirPressure_AOD);
@@ -16124,7 +16038,6 @@
             // 
             // tabPage_System_AOD
             // 
-            this.tabPage_System_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_System_AOD.Controls.Add(this.tabControl_System_AOD);
             resources.ApplyResources(this.tabPage_System_AOD, "tabPage_System_AOD");
             this.tabPage_System_AOD.Name = "tabPage_System_AOD";
@@ -16140,7 +16053,6 @@
             // tabPage_Battery_AOD
             // 
             resources.ApplyResources(this.tabPage_Battery_AOD, "tabPage_Battery_AOD");
-            this.tabPage_Battery_AOD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_icon_Battery_AOD);
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_SystemFont_Group_Battery_AOD);
             this.tabPage_Battery_AOD.Controls.Add(this.userControl_scaleLinear_Battery_AOD);
@@ -16335,7 +16247,6 @@
             // 
             // tabPage_LayerOrder
             // 
-            this.tabPage_LayerOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_AODL_Date);
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_AODL_Activity);
             this.tabPage_LayerOrder.Controls.Add(this.groupBox_SNL_Date);
@@ -16366,43 +16277,17 @@
             this.dataGridView_AODL_Date.AllowUserToAddRows = false;
             this.dataGridView_AODL_Date.AllowUserToDeleteRows = false;
             this.dataGridView_AODL_Date.AllowUserToResizeRows = false;
-            this.dataGridView_AODL_Date.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_AODL_Date.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_AODL_Date.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_AODL_Date.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_AODL_Date.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView_AODL_Date.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_AODL_Date.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_AODL_Date.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridView_AODL_Date.EnableHeadersVisualStyles = false;
-            this.dataGridView_AODL_Date.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_AODL_Date, "dataGridView_AODL_Date");
             this.dataGridView_AODL_Date.MultiSelect = false;
             this.dataGridView_AODL_Date.Name = "dataGridView_AODL_Date";
             this.dataGridView_AODL_Date.ReadOnly = true;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_AODL_Date.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridView_AODL_Date.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_AODL_Date.RowHeadersVisible = false;
             this.dataGridView_AODL_Date.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_AODL_Date.SelectionChanged += new System.EventHandler(this.dataGridView_AODL_Date_SelectionChanged);
@@ -16476,43 +16361,17 @@
             this.dataGridView_AODL_Activity.AllowUserToAddRows = false;
             this.dataGridView_AODL_Activity.AllowUserToDeleteRows = false;
             this.dataGridView_AODL_Activity.AllowUserToResizeRows = false;
-            this.dataGridView_AODL_Activity.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_AODL_Activity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_AODL_Activity.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_AODL_Activity.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_AODL_Activity.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView_AODL_Activity.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_AODL_Activity.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_AODL_Activity.DefaultCellStyle = dataGridViewCellStyle9;
-            this.dataGridView_AODL_Activity.EnableHeadersVisualStyles = false;
-            this.dataGridView_AODL_Activity.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_AODL_Activity, "dataGridView_AODL_Activity");
             this.dataGridView_AODL_Activity.MultiSelect = false;
             this.dataGridView_AODL_Activity.Name = "dataGridView_AODL_Activity";
             this.dataGridView_AODL_Activity.ReadOnly = true;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_AODL_Activity.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.dataGridView_AODL_Activity.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_AODL_Activity.RowHeadersVisible = false;
             this.dataGridView_AODL_Activity.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_AODL_Activity.SelectionChanged += new System.EventHandler(this.dataGridView_AODL_Activity_SelectionChanged);
@@ -16592,43 +16451,17 @@
             this.dataGridView_SNL_Date.AllowUserToAddRows = false;
             this.dataGridView_SNL_Date.AllowUserToDeleteRows = false;
             this.dataGridView_SNL_Date.AllowUserToResizeRows = false;
-            this.dataGridView_SNL_Date.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_SNL_Date.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_SNL_Date.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_SNL_Date.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_SNL_Date.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView_SNL_Date.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_SNL_Date.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_SNL_Date.DefaultCellStyle = dataGridViewCellStyle12;
-            this.dataGridView_SNL_Date.EnableHeadersVisualStyles = false;
-            this.dataGridView_SNL_Date.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_SNL_Date, "dataGridView_SNL_Date");
             this.dataGridView_SNL_Date.MultiSelect = false;
             this.dataGridView_SNL_Date.Name = "dataGridView_SNL_Date";
             this.dataGridView_SNL_Date.ReadOnly = true;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_SNL_Date.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            this.dataGridView_SNL_Date.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_SNL_Date.RowHeadersVisible = false;
             this.dataGridView_SNL_Date.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_SNL_Date.SelectionChanged += new System.EventHandler(this.dataGridView_SNL_Date_SelectionChanged);
@@ -16702,43 +16535,17 @@
             this.dataGridView_SNL_Activity.AllowUserToAddRows = false;
             this.dataGridView_SNL_Activity.AllowUserToDeleteRows = false;
             this.dataGridView_SNL_Activity.AllowUserToResizeRows = false;
-            this.dataGridView_SNL_Activity.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_SNL_Activity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_SNL_Activity.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_SNL_Activity.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_SNL_Activity.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridView_SNL_Activity.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_SNL_Activity.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ActivityID,
             this.ActivityName});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_SNL_Activity.DefaultCellStyle = dataGridViewCellStyle15;
-            this.dataGridView_SNL_Activity.EnableHeadersVisualStyles = false;
-            this.dataGridView_SNL_Activity.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
             resources.ApplyResources(this.dataGridView_SNL_Activity, "dataGridView_SNL_Activity");
             this.dataGridView_SNL_Activity.MultiSelect = false;
             this.dataGridView_SNL_Activity.Name = "dataGridView_SNL_Activity";
             this.dataGridView_SNL_Activity.ReadOnly = true;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Gainsboro;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_SNL_Activity.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            this.dataGridView_SNL_Activity.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_SNL_Activity.RowHeadersVisible = false;
             this.dataGridView_SNL_Activity.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_SNL_Activity.SelectionChanged += new System.EventHandler(this.dataGridView_SNL_Activity_SelectionChanged);
@@ -16797,7 +16604,6 @@
             // 
             // tabPage_Widgets
             // 
-            this.tabPage_Widgets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Widgets.Controls.Add(this.tabControl_Widget);
             resources.ApplyResources(this.tabPage_Widgets, "tabPage_Widgets");
             this.tabPage_Widgets.Name = "tabPage_Widgets";
@@ -16819,7 +16625,6 @@
             // 
             // tabPage_WidgetsEdit
             // 
-            this.tabPage_WidgetsEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WidgetsEdit.Controls.Add(this.checkBox_TimeOnWidgetEdit);
             this.tabPage_WidgetsEdit.Controls.Add(this.groupBox_WidgetPreview);
             this.tabPage_WidgetsEdit.Controls.Add(this.groupBox_WidgetElementSettings);
@@ -16908,7 +16713,6 @@
             // tabPage_DayWidget
             // 
             resources.ApplyResources(this.tabPage_DayWidget, "tabPage_DayWidget");
-            this.tabPage_DayWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DayWidget.Controls.Add(this.userControl_SystemFont_Group_DayWidget);
             this.tabPage_DayWidget.Controls.Add(this.userControl_hand_DayWidget);
             this.tabPage_DayWidget.Controls.Add(this.userControl_text_date_DayWidget);
@@ -16958,7 +16762,6 @@
             // tabPage_MonthWidget
             // 
             resources.ApplyResources(this.tabPage_MonthWidget, "tabPage_MonthWidget");
-            this.tabPage_MonthWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_MonthWidget.Controls.Add(this.userControl_SystemFont_Group_MonthWidget);
             this.tabPage_MonthWidget.Controls.Add(this.userControl_hand_MonthWidget);
             this.tabPage_MonthWidget.Controls.Add(this.userControl_text_date_MonthWidget);
@@ -17020,7 +16823,6 @@
             // tabPage_YearWidget
             // 
             resources.ApplyResources(this.tabPage_YearWidget, "tabPage_YearWidget");
-            this.tabPage_YearWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_YearWidget.Controls.Add(this.userControl_SystemFont_Group_YearWidget);
             this.tabPage_YearWidget.Controls.Add(this.userControl_text_date_YearWidget);
             this.tabPage_YearWidget.Name = "tabPage_YearWidget";
@@ -17059,7 +16861,6 @@
             // tabPage_DOWWidget
             // 
             resources.ApplyResources(this.tabPage_DOWWidget, "tabPage_DOWWidget");
-            this.tabPage_DOWWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DOWWidget.Controls.Add(this.userControl_hand_DOWWidget);
             this.tabPage_DOWWidget.Controls.Add(this.userControl_pictures_DOWWidget);
             this.tabPage_DOWWidget.Name = "tabPage_DOWWidget";
@@ -17087,7 +16888,6 @@
             // 
             // tabPage_DateLayerWidget
             // 
-            this.tabPage_DateLayerWidget.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_DateLayerWidget.Controls.Add(this.label12);
             this.tabPage_DateLayerWidget.Controls.Add(this.dataGridView_Widget_Date);
             this.tabPage_DateLayerWidget.Controls.Add(this.button_Widget_Date_End);
@@ -17107,7 +16907,8 @@
             this.dataGridView_Widget_Date.AllowUserToAddRows = false;
             this.dataGridView_Widget_Date.AllowUserToDeleteRows = false;
             this.dataGridView_Widget_Date.AllowUserToResizeRows = false;
-            this.dataGridView_Widget_Date.BackgroundColor = System.Drawing.Color.Red;
+            this.dataGridView_Widget_Date.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Widget_Date.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_Widget_Date.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Widget_Date.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
@@ -17116,6 +16917,7 @@
             this.dataGridView_Widget_Date.MultiSelect = false;
             this.dataGridView_Widget_Date.Name = "dataGridView_Widget_Date";
             this.dataGridView_Widget_Date.ReadOnly = true;
+            this.dataGridView_Widget_Date.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_Widget_Date.RowHeadersVisible = false;
             this.dataGridView_Widget_Date.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_Widget_Date.SelectionChanged += new System.EventHandler(this.dataGridView_Widget_Date_SelectionChanged);
@@ -17851,43 +17653,24 @@
             this.dataGridView_WidgetElement.AllowUserToAddRows = false;
             this.dataGridView_WidgetElement.AllowUserToDeleteRows = false;
             this.dataGridView_WidgetElement.AllowUserToResizeRows = false;
-            this.dataGridView_WidgetElement.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            this.dataGridView_WidgetElement.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_WidgetElement.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_WidgetElement.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridView_WidgetElement.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.WidgetsID,
             this.WidgetElement,
             this.WidgetElementName});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(35)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_WidgetElement.DefaultCellStyle = dataGridViewCellStyle18;
-            this.dataGridView_WidgetElement.EnableHeadersVisualStyles = false;
-            this.dataGridView_WidgetElement.GridColor = System.Drawing.Color.DimGray;
             resources.ApplyResources(this.dataGridView_WidgetElement, "dataGridView_WidgetElement");
             this.dataGridView_WidgetElement.MultiSelect = false;
             this.dataGridView_WidgetElement.Name = "dataGridView_WidgetElement";
             this.dataGridView_WidgetElement.ReadOnly = true;
+            this.dataGridView_WidgetElement.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_WidgetElement.RowHeadersVisible = false;
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.DarkGray;
-            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.DarkGray;
+            this.dataGridView_WidgetElement.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_WidgetElement.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_WidgetElement.SelectionChanged += new System.EventHandler(this.dataGridView_WidgetElement_SelectionChanged);
-            this.dataGridView_WidgetElement.EnabledChanged += new System.EventHandler(this.dataGridView_WidgetElement_EnabledChanged);
             this.dataGridView_WidgetElement.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_WidgetElement_KeyDown);
             // 
             // WidgetsID
@@ -17917,7 +17700,6 @@
             // 
             // tabPage_WidgetAdd
             // 
-            this.tabPage_WidgetAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_WidgetAdd.Controls.Add(this.label31);
             this.tabPage_WidgetAdd.Controls.Add(this.label30);
             this.tabPage_WidgetAdd.Controls.Add(this.label29);
@@ -18162,7 +17944,6 @@
             // tabPage1
             // 
             resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage1.Controls.Add(this.userControl_SystemFont_Group_DayWidgetAdd);
             this.tabPage1.Controls.Add(this.userControl_hand_DayWidgetAdd);
             this.tabPage1.Controls.Add(this.userControl_text_date_DayWidgetAdd);
@@ -18212,7 +17993,6 @@
             // tabPage2
             // 
             resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage2.Controls.Add(this.userControl_SystemFont_Group_MonthWidgetAdd);
             this.tabPage2.Controls.Add(this.userControl_hand_MonthWidgetAdd);
             this.tabPage2.Controls.Add(this.userControl_text_date_MonthWidgetAdd);
@@ -18274,7 +18054,6 @@
             // tabPage3
             // 
             resources.ApplyResources(this.tabPage3, "tabPage3");
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage3.Controls.Add(this.userControl_SystemFont_Group_YearWidgetAdd);
             this.tabPage3.Controls.Add(this.userControl_text_date_YearWidgetAdd);
             this.tabPage3.Name = "tabPage3";
@@ -18313,7 +18092,6 @@
             // tabPage4
             // 
             resources.ApplyResources(this.tabPage4, "tabPage4");
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage4.Controls.Add(this.userControl_hand_DOWWidgetAdd);
             this.tabPage4.Controls.Add(this.userControl_pictures_DOWWidgetAdd);
             this.tabPage4.Name = "tabPage4";
@@ -18341,7 +18119,6 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage5.Controls.Add(this.label13);
             this.tabPage5.Controls.Add(this.dataGridView_Widget_DateAdd);
             this.tabPage5.Controls.Add(this.button_Widget_Date_EndAdd);
@@ -18361,7 +18138,8 @@
             this.dataGridView_Widget_DateAdd.AllowUserToAddRows = false;
             this.dataGridView_Widget_DateAdd.AllowUserToDeleteRows = false;
             this.dataGridView_Widget_DateAdd.AllowUserToResizeRows = false;
-            this.dataGridView_Widget_DateAdd.BackgroundColor = System.Drawing.Color.Red;
+            this.dataGridView_Widget_DateAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Widget_DateAdd.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_Widget_DateAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Widget_DateAdd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn9,
@@ -18370,6 +18148,7 @@
             this.dataGridView_Widget_DateAdd.MultiSelect = false;
             this.dataGridView_Widget_DateAdd.Name = "dataGridView_Widget_DateAdd";
             this.dataGridView_Widget_DateAdd.ReadOnly = true;
+            this.dataGridView_Widget_DateAdd.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView_Widget_DateAdd.RowHeadersVisible = false;
             this.dataGridView_Widget_DateAdd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_Widget_DateAdd.SelectionChanged += new System.EventHandler(this.dataGridView_Widget_DateAdd_SelectionChanged);
@@ -18994,7 +18773,6 @@
             // 
             // tabPageConverting
             // 
-            this.tabPageConverting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPageConverting.Controls.Add(this.label489);
             this.tabPageConverting.Controls.Add(this.label488);
             this.tabPageConverting.Controls.Add(this.label487);
@@ -19161,7 +18939,6 @@
             // 
             // tabPage_Settings
             // 
-            this.tabPage_Settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_Settings.Controls.Add(this.checkBox_AllWidgetsInGif);
             this.tabPage_Settings.Controls.Add(this.groupBox2);
             this.tabPage_Settings.Controls.Add(this.numericUpDown_Gif_Speed);
@@ -19453,7 +19230,6 @@
             // 
             // tabPage_About
             // 
-            this.tabPage_About.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(45)))));
             this.tabPage_About.Controls.Add(this.linkLabel_resunpacker_qzip);
             this.tabPage_About.Controls.Add(this.label_TranslateHelp);
             this.tabPage_About.Controls.Add(this.label415);
@@ -19732,6 +19508,7 @@
             this.tabControl_EditParameters.ResumeLayout(false);
             this.tabPage_Background.ResumeLayout(false);
             this.tabPage_Background.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox_WatchfaceID)).EndInit();
             this.tabPage_Time.ResumeLayout(false);
             this.tabControl_time.ResumeLayout(false);
             this.tabPage_Digital_time.ResumeLayout(false);
@@ -20168,7 +19945,7 @@
             this.tabPage_Settings.ResumeLayout(false);
             this.tabPage_Settings.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textBox_WatchSkin_Path)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Gif_Speed)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
@@ -20191,8 +19968,8 @@
 
         #endregion
         private DarkControls.DarkTabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage_Show;
-        private System.Windows.Forms.DataGridView dataGridView_ImagesList;
+        private DarkControls.DarkTabPage tabPage_Show;
+        private DarkControls.DarkDataGridView dataGridView_ImagesList;
         private DarkControls.DarkButton button_images;
         private DarkControls.DarkLabel label5;
         private DarkControls.DarkButton button_JSON;
@@ -20224,7 +20001,7 @@
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem1;
-        private System.Windows.Forms.TabPage tabPage_Settings;
+        private DarkControls.DarkTabPage tabPage_Settings;
         private DarkControls.DarkGroupBox groupBox1;
         private DarkControls.DarkRadioButton radioButton_Settings_Unpack_Replace;
         private DarkControls.DarkRadioButton radioButton_Settings_Unpack_Save;
@@ -20253,7 +20030,7 @@
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem удалитьСтрокуToolStripMenuItem;
-        private System.Windows.Forms.TabPage tabPage_About;
+        private DarkControls.DarkTabPage tabPage_About;
         private System.Windows.Forms.PictureBox pictureBox2;
         private DarkControls.DarkLabel label409;
         private DarkControls.DarkLabel label408;
@@ -20283,7 +20060,7 @@
         public DarkControls.DarkCheckBox checkBox_crop;
         private System.Windows.Forms.LinkLabel linkLabel_resunpacker_qzip;
         private DarkControls.DarkPictureBox pictureBox_Preview;
-        private System.Windows.Forms.TabPage tabPageConverting;
+        private DarkControls.DarkTabPage tabPageConverting;
         private DarkControls.DarkGroupBox groupBox9;
         private DarkControls.DarkRadioButton radioButton_ConvertingInput_TRexPro;
         private DarkControls.DarkRadioButton radioButton_ConvertingInput_ZeppE;
@@ -20305,18 +20082,18 @@
         private DarkControls.DarkButton button_RefreshPreview;
         private DarkControls.DarkButton button_CreatePreview;
         private DarkControls.DarkCheckBox checkBox_ShowIn12hourFormat;
-        private System.Windows.Forms.TabPage tabPage_Edit;
+        private DarkControls.DarkTabPage tabPage_Edit;
         private DarkControls.DarkButton button_OpenDir;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.RichTextBox richTextBox_JsonText;
         private System.Windows.Forms.TreeView treeView_JsonTree;
         private DarkControls.DarkTabControl tabControl_EditParameters;
-        private System.Windows.Forms.TabPage tabPage_Background;
-        private System.Windows.Forms.TabPage tabPage_Time;
-        private System.Windows.Forms.TabPage tabPage_Date;
-        private System.Windows.Forms.TabPage tabPage_Activity;
-        private System.Windows.Forms.TabPage tabPage_Air;
-        private System.Windows.Forms.TabPage tabPage_System;
+        private DarkControls.DarkTabPage tabPage_Background;
+        private DarkControls.DarkTabPage tabPage_Time;
+        private DarkControls.DarkTabPage tabPage_Date;
+        private DarkControls.DarkTabPage tabPage_Activity;
+        private DarkControls.DarkTabPage tabPage_Air;
+        private DarkControls.DarkTabPage tabPage_System;
         private DarkControls.DarkRadioButton radioButton_Background_color;
         private DarkControls.DarkRadioButton radioButton_Background_image;
         private DarkControls.DarkComboBox comboBox_Background_color;
@@ -20480,14 +20257,14 @@
         private DarkControls.DarkCheckBox checkBox_12h_Use;
         private DarkControls.DarkCheckBox checkBox_center_marker;
         private DarkControls.DarkTabControl tabControl_time;
-        private System.Windows.Forms.TabPage tabPage_Digital_time;
-        private System.Windows.Forms.TabPage tabPage_Analog_time;
+        private DarkControls.DarkTabPage tabPage_Digital_time;
+        private DarkControls.DarkTabPage tabPage_Analog_time;
         private System.Windows.Forms.Panel panel_AM_PM;
         private DarkControls.DarkTabControl tabControl_date;
-        private System.Windows.Forms.TabPage tabPage_Year;
-        private System.Windows.Forms.TabPage tabPage_Month;
-        private System.Windows.Forms.TabPage tabPage_Day;
-        private System.Windows.Forms.TabPage tabPage_Day_of_week;
+        private DarkControls.DarkTabPage tabPage_Year;
+        private DarkControls.DarkTabPage tabPage_Month;
+        private DarkControls.DarkTabPage tabPage_Day;
+        private DarkControls.DarkTabPage tabPage_Day_of_week;
         private DarkControls.DarkNumericUpDown numericUpDown_Day_spacing;
         private DarkControls.DarkLabel label576;
         private DarkControls.DarkCheckBox checkBox_Day_add_zero;
@@ -20667,9 +20444,9 @@
         private DarkControls.DarkNumericUpDown numericUpDown_DOW_picturesX;
         private DarkControls.DarkButton button_DOW_image;
         private DarkControls.DarkTabControl tabControl_System;
-        private System.Windows.Forms.TabPage tabPage_Status;
+        private DarkControls.DarkTabPage tabPage_Status;
         private DarkControls.DarkGroupBox groupBox_Bluetooth;
-        private System.Windows.Forms.TabPage tabPage_Battery;
+        private DarkControls.DarkTabPage tabPage_Battery;
         private DarkControls.DarkGroupBox groupBox_Lock;
         private DarkControls.DarkCheckBox checkBox_Lock_Use;
         private DarkControls.DarkLabel label660;
@@ -20727,24 +20504,24 @@
         private DarkControls.DarkLabel label716;
         private DarkControls.DarkLabel label717;
         private DarkControls.DarkTabControl tabControl_SystemActivity;
-        private System.Windows.Forms.TabPage tabPage_Steps;
-        private System.Windows.Forms.TabPage tabPage_Calories;
-        private System.Windows.Forms.TabPage tabPage_HeartRate;
-        private System.Windows.Forms.TabPage tabPage_PAI;
-        private System.Windows.Forms.TabPage tabPage_Distance;
-        private System.Windows.Forms.TabPage tabPage_StandUp;
-        private System.Windows.Forms.TabPage tabPage_Stress;
-        private System.Windows.Forms.TabPage tabPage_ActivityGoal;
-        private System.Windows.Forms.TabPage tabPage_FatBurning;
+        private DarkControls.DarkTabPage tabPage_Steps;
+        private DarkControls.DarkTabPage tabPage_Calories;
+        private DarkControls.DarkTabPage tabPage_HeartRate;
+        private DarkControls.DarkTabPage tabPage_PAI;
+        private DarkControls.DarkTabPage tabPage_Distance;
+        private DarkControls.DarkTabPage tabPage_StandUp;
+        private DarkControls.DarkTabPage tabPage_Stress;
+        private DarkControls.DarkTabPage tabPage_ActivityGoal;
+        private DarkControls.DarkTabPage tabPage_FatBurning;
         private DarkControls.DarkTabControl tabControl_SystemWeather;
-        private System.Windows.Forms.TabPage tabPage_Weather;
-        private System.Windows.Forms.TabPage tabPage_UVindex;
-        private System.Windows.Forms.TabPage tabPage_AirQuality;
-        private System.Windows.Forms.TabPage tabPage_Humidity;
-        private System.Windows.Forms.TabPage tabPage_Sunrise;
-        private System.Windows.Forms.TabPage tabPage_WindForce;
-        private System.Windows.Forms.TabPage tabPage_Altitude;
-        private System.Windows.Forms.TabPage tabPage_AirPressure;
+        private DarkControls.DarkTabPage tabPage_Weather;
+        private DarkControls.DarkTabPage tabPage_UVindex;
+        private DarkControls.DarkTabPage tabPage_AirQuality;
+        private DarkControls.DarkTabPage tabPage_Humidity;
+        private DarkControls.DarkTabPage tabPage_Sunrise;
+        private DarkControls.DarkTabPage tabPage_WindForce;
+        private DarkControls.DarkTabPage tabPage_Altitude;
+        private DarkControls.DarkTabPage tabPage_AirPressure;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.SplitContainer splitContainer_EditParameters;
@@ -20757,12 +20534,12 @@
         private DarkControls.DarkCheckBox checkBox_UseID;
         private System.Windows.Forms.ToolTip toolTip_Weather;
         private DarkControls.DarkTabControl tabControl_EditParameters_AOD;
-        private System.Windows.Forms.TabPage tabPage_Background_AOD;
+        private DarkControls.DarkTabPage tabPage_Background_AOD;
         private DarkControls.DarkButton button_Capy_ScreenNormal;
         private DarkControls.DarkComboBox comboBox_Background_image_AOD;
-        private System.Windows.Forms.TabPage tabPage_Time_AOD;
+        private DarkControls.DarkTabPage tabPage_Time_AOD;
         private DarkControls.DarkTabControl tabControl_time_AOD;
-        private System.Windows.Forms.TabPage tabPage_Digital_time_AOD;
+        private DarkControls.DarkTabPage tabPage_Digital_time_AOD;
         private System.Windows.Forms.Panel panel_AM_PM_AOD;
         private DarkControls.DarkCheckBox checkBox_12h_Use_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_AM_Y_AOD;
@@ -20828,7 +20605,7 @@
         private DarkControls.DarkLabel label327;
         private DarkControls.DarkComboBox comboBox_Hour_separator_AOD;
         private DarkControls.DarkButton button_Hour_AOD;
-        private System.Windows.Forms.TabPage tabPage_Analog_time_AOD;
+        private DarkControls.DarkTabPage tabPage_Analog_time_AOD;
         private System.Windows.Forms.Panel panel_Minute_hand_AOD;
         private DarkControls.DarkLabel label339;
         private DarkControls.DarkLabel label340;
@@ -20873,9 +20650,9 @@
         private DarkControls.DarkLabel label362;
         private DarkControls.DarkCheckBox checkBox_Hour_hand_Use_AOD;
         private DarkControls.DarkButton button_Hour_hand_AOD;
-        private System.Windows.Forms.TabPage tabPage_Date_AOD;
+        private DarkControls.DarkTabPage tabPage_Date_AOD;
         private DarkControls.DarkTabControl tabControl_date_AOD;
-        private System.Windows.Forms.TabPage tabPage_Day_AOD;
+        private DarkControls.DarkTabPage tabPage_Day_AOD;
         private System.Windows.Forms.Panel panel_Day_hand_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_Day_handX_background_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_Day_handY_background_AOD;
@@ -20934,7 +20711,7 @@
         private DarkControls.DarkLabel label389;
         private DarkControls.DarkLabel label390;
         private DarkControls.DarkButton button_Day_text_AOD;
-        private System.Windows.Forms.TabPage tabPage_Month_AOD;
+        private DarkControls.DarkTabPage tabPage_Month_AOD;
         private System.Windows.Forms.Panel panel_Month_hand_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_Month_handX_background_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_Month_handY_background_AOD;
@@ -21003,7 +20780,7 @@
         private DarkControls.DarkNumericUpDown numericUpDown_Month_picturesY_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_Month_picturesX_AOD;
         private DarkControls.DarkButton button_Month_pictures_AOD;
-        private System.Windows.Forms.TabPage tabPage_Year_AOD;
+        private DarkControls.DarkTabPage tabPage_Year_AOD;
         private System.Windows.Forms.Panel panel16;
         private DarkControls.DarkButton button13;
         private System.Windows.Forms.Panel panel_Year_text_AOD;
@@ -21030,7 +20807,7 @@
         private DarkControls.DarkLabel label441;
         private DarkControls.DarkLabel label442;
         private DarkControls.DarkButton button_Year_text_AOD;
-        private System.Windows.Forms.TabPage tabPage_Day_of_week_AOD;
+        private DarkControls.DarkTabPage tabPage_Day_of_week_AOD;
         private System.Windows.Forms.Panel panel_DOW_hand_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_DOW_handX_background_AOD;
         private DarkControls.DarkNumericUpDown numericUpDown_DOW_handY_background_AOD;
@@ -21074,30 +20851,30 @@
         private DarkControls.DarkLabel label462;
         private DarkControls.DarkLabel label463;
         private DarkControls.DarkButton button_DOW_image_AOD;
-        private System.Windows.Forms.TabPage tabPage_Activity_AOD;
+        private DarkControls.DarkTabPage tabPage_Activity_AOD;
         private DarkControls.DarkTabControl tabControl_SystemActivity_AOD;
-        private System.Windows.Forms.TabPage tabPage_Steps_AOD;
-        private System.Windows.Forms.TabPage tabPage_Calories_AOD;
-        private System.Windows.Forms.TabPage tabPage_HeartRate_AOD;
-        private System.Windows.Forms.TabPage tabPage_PAI_AOD;
-        private System.Windows.Forms.TabPage tabPage_Distance_AOD;
-        private System.Windows.Forms.TabPage tabPage_StandUp_AOD;
-        private System.Windows.Forms.TabPage tabPage_Stress_AOD;
-        private System.Windows.Forms.TabPage tabPage_ActivityGoal_AOD;
-        private System.Windows.Forms.TabPage tabPage_FatBurning_AOD;
-        private System.Windows.Forms.TabPage tabPage_Air_AOD;
+        private DarkControls.DarkTabPage tabPage_Steps_AOD;
+        private DarkControls.DarkTabPage tabPage_Calories_AOD;
+        private DarkControls.DarkTabPage tabPage_HeartRate_AOD;
+        private DarkControls.DarkTabPage tabPage_PAI_AOD;
+        private DarkControls.DarkTabPage tabPage_Distance_AOD;
+        private DarkControls.DarkTabPage tabPage_StandUp_AOD;
+        private DarkControls.DarkTabPage tabPage_Stress_AOD;
+        private DarkControls.DarkTabPage tabPage_ActivityGoal_AOD;
+        private DarkControls.DarkTabPage tabPage_FatBurning_AOD;
+        private DarkControls.DarkTabPage tabPage_Air_AOD;
         private DarkControls.DarkTabControl tabControl_SystemWeather_AOD;
-        private System.Windows.Forms.TabPage tabPage_Weather_AOD;
-        private System.Windows.Forms.TabPage tabPage_UVindex_AOD;
-        private System.Windows.Forms.TabPage tabPage_AirQuality_AOD;
-        private System.Windows.Forms.TabPage tabPage_Humidity_AOD;
-        private System.Windows.Forms.TabPage tabPage_Sunrise_AOD;
-        private System.Windows.Forms.TabPage tabPage_WindForce_AOD;
-        private System.Windows.Forms.TabPage tabPage_Altitude_AOD;
-        private System.Windows.Forms.TabPage tabPage_AirPressure_AOD;
-        private System.Windows.Forms.TabPage tabPage_System_AOD;
+        private DarkControls.DarkTabPage tabPage_Weather_AOD;
+        private DarkControls.DarkTabPage tabPage_UVindex_AOD;
+        private DarkControls.DarkTabPage tabPage_AirQuality_AOD;
+        private DarkControls.DarkTabPage tabPage_Humidity_AOD;
+        private DarkControls.DarkTabPage tabPage_Sunrise_AOD;
+        private DarkControls.DarkTabPage tabPage_WindForce_AOD;
+        private DarkControls.DarkTabPage tabPage_Altitude_AOD;
+        private DarkControls.DarkTabPage tabPage_AirPressure_AOD;
+        private DarkControls.DarkTabPage tabPage_System_AOD;
         private DarkControls.DarkTabControl tabControl_System_AOD;
-        private System.Windows.Forms.TabPage tabPage_Battery_AOD;
+        private DarkControls.DarkTabPage tabPage_Battery_AOD;
         private DarkControls.DarkLabel label284;
         private DarkControls.DarkButton button_Copy_Day_text_AOD;
         private DarkControls.DarkButton button_Copy_Day_hand_AOD;
@@ -21402,15 +21179,15 @@
         private UserControl_SystemFont_Group userControl_SystemFont_Group_AirPressure_AOD;
         private UserControl_text_goal userControl_text_goal_Calories_AOD;
         private UserControl_SystemFont_GroupTime userControl_SystemFont_GroupTime;
-        private System.Windows.Forms.DataGridView dataGridView_SNL_Activity;
+        private DarkControls.DarkDataGridView dataGridView_SNL_Activity;
         private DarkControls.DarkButton button_SNL_Activity_End;
         private DarkControls.DarkButton button_SNL_Activity_Down;
         private DarkControls.DarkButton button_SNL_Activity_Up;
         private DarkControls.DarkButton button_SNL_Activity_Start;
-        private System.Windows.Forms.TabPage tabPage_LayerOrder;
+        private DarkControls.DarkTabPage tabPage_LayerOrder;
         private DarkControls.DarkGroupBox groupBox_SNL_Activity;
         private DarkControls.DarkGroupBox groupBox_SNL_Date;
-        private System.Windows.Forms.DataGridView dataGridView_SNL_Date;
+        private DarkControls.DarkDataGridView dataGridView_SNL_Date;
         private DarkControls.DarkButton button_SNL_Date_End;
         private DarkControls.DarkButton button_SNL_Date_Start;
         private DarkControls.DarkButton button_SNL_Date_Up;
@@ -21427,13 +21204,13 @@
         private UserControl_SystemFont_Group userControl_SystemFont_Group_Year_AOD;
         private DarkControls.DarkGroupBox groupBox_AODL_Date;
         private DarkControls.DarkLabel label1;
-        private System.Windows.Forms.DataGridView dataGridView_AODL_Date;
+        private DarkControls.DarkDataGridView dataGridView_AODL_Date;
         private DarkControls.DarkButton button_AODL_Date_End;
         private DarkControls.DarkButton button_AODL_Date_Start;
         private DarkControls.DarkButton button_AODL_Date_Up;
         private DarkControls.DarkButton button_AODL_Date_Down;
         private DarkControls.DarkGroupBox groupBox_AODL_Activity;
-        private System.Windows.Forms.DataGridView dataGridView_AODL_Activity;
+        private DarkControls.DarkDataGridView dataGridView_AODL_Activity;
         private DarkControls.DarkButton button_AODL_Activity_End;
         private DarkControls.DarkButton button_AODL_Activity_Start;
         private DarkControls.DarkButton button_AODL_Activity_Up;
@@ -21448,21 +21225,21 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.TabPage tabPage_Widgets;
+        private DarkControls.DarkTabPage tabPage_Widgets;
         private DarkControls.DarkGroupBox groupBox_WidgetNumber;
         private DarkControls.DarkComboBox comboBox_WidgetNumber;
         private DarkControls.DarkButton button_WidgetDel;
         private DarkControls.DarkGroupBox groupBox_WidgetElement;
-        private System.Windows.Forms.DataGridView dataGridView_WidgetElement;
+        private DarkControls.DarkDataGridView dataGridView_WidgetElement;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private DarkControls.DarkTabControl tabControl_Widget;
-        private System.Windows.Forms.TabPage tabPage_WidgetsEdit;
+        private DarkControls.DarkTabPage tabPage_WidgetsEdit;
         private DarkControls.DarkButton button_WidgetElement_End;
         private DarkControls.DarkButton button_WidgetElement_Start;
         private DarkControls.DarkButton button_WidgetElement_Up;
         private DarkControls.DarkButton button_WidgetElement_Down;
-        private System.Windows.Forms.TabPage tabPage_WidgetAdd;
+        private DarkControls.DarkTabPage tabPage_WidgetAdd;
         private System.Windows.Forms.ImageList imageList2;
         private DarkControls.DarkLabel label2;
         internal DarkControls.DarkNumericUpDown numericUpDown_WidgetWidth;
@@ -21514,11 +21291,11 @@
         private UserControl_text_weather userControl_text_weatherWidgetCur;
         private UserControl_icon userControl_iconWidget;
         private DarkControls.DarkTabControl tabControl_DateWidget;
-        private System.Windows.Forms.TabPage tabPage_DayWidget;
-        private System.Windows.Forms.TabPage tabPage_MonthWidget;
-        private System.Windows.Forms.TabPage tabPage_YearWidget;
-        private System.Windows.Forms.TabPage tabPage_DOWWidget;
-        private System.Windows.Forms.TabPage tabPage_DateLayerWidget;
+        private DarkControls.DarkTabPage tabPage_DayWidget;
+        private DarkControls.DarkTabPage tabPage_MonthWidget;
+        private DarkControls.DarkTabPage tabPage_YearWidget;
+        private DarkControls.DarkTabPage tabPage_DOWWidget;
+        private DarkControls.DarkTabPage tabPage_DateLayerWidget;
         private UserControl_pictures_weather userControl_pictures_weatherWidget;
         private UserControl_text_date userControl_text_date_DayWidget;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_DayWidget;
@@ -21532,7 +21309,7 @@
         private UserControl_hand userControl_hand_DOWWidget;
         private UserControl_pictures userControl_pictures_DOWWidget;
         private DarkControls.DarkLabel label12;
-        private System.Windows.Forms.DataGridView dataGridView_Widget_Date;
+        private DarkControls.DarkDataGridView dataGridView_Widget_Date;
         private DarkControls.DarkButton button_Widget_Date_End;
         private DarkControls.DarkButton button_Widget_Date_Start;
         private DarkControls.DarkButton button_Widget_Date_Up;
@@ -21548,24 +21325,24 @@
         private DarkControls.DarkGroupBox groupBox_WidgetElementAdd;
         private System.Windows.Forms.Panel panel2;
         private DarkControls.DarkTabControl tabControl_DateWidgetAdd;
-        private System.Windows.Forms.TabPage tabPage1;
+        private DarkControls.DarkTabPage tabPage1;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_DayWidgetAdd;
         private UserControl_hand userControl_hand_DayWidgetAdd;
         private UserControl_text_date userControl_text_date_DayWidgetAdd;
-        private System.Windows.Forms.TabPage tabPage2;
+        private DarkControls.DarkTabPage tabPage2;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_MonthWidgetAdd;
         private UserControl_hand userControl_hand_MonthWidgetAdd;
         private UserControl_text_date userControl_text_date_MonthWidgetAdd;
         private UserControl_pictures userControl_pictures_MonthWidgetAdd;
-        private System.Windows.Forms.TabPage tabPage3;
+        private DarkControls.DarkTabPage tabPage3;
         private UserControl_SystemFont_Group userControl_SystemFont_Group_YearWidgetAdd;
         private UserControl_text_date userControl_text_date_YearWidgetAdd;
-        private System.Windows.Forms.TabPage tabPage4;
+        private DarkControls.DarkTabPage tabPage4;
         private UserControl_hand userControl_hand_DOWWidgetAdd;
         private UserControl_pictures userControl_pictures_DOWWidgetAdd;
-        private System.Windows.Forms.TabPage tabPage5;
+        private DarkControls.DarkTabPage tabPage5;
         private DarkControls.DarkLabel label13;
-        private System.Windows.Forms.DataGridView dataGridView_Widget_DateAdd;
+        private DarkControls.DarkDataGridView dataGridView_Widget_DateAdd;
         private DarkControls.DarkButton button_Widget_Date_EndAdd;
         private DarkControls.DarkButton button_Widget_Date_StartAdd;
         private DarkControls.DarkButton button_Widget_Date_UpAdd;
@@ -21675,7 +21452,7 @@
         private DarkControls.DarkCheckBox checkBox_weatherAlignmentFix;
         private DarkControls.DarkCheckBox checkBox_weatherAlignmentFix_AOD;
         private DarkControls.DarkCheckBox checkBox_AllWidgetsInGif;
-        private System.Windows.Forms.TabPage tabPage6;
+        private DarkControls.DarkTabPage tabPage6;
         private System.Windows.Forms.ImageList imageList1;
     }
 }

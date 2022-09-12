@@ -23,12 +23,6 @@ namespace AmazFit_Watchface_2
         {
             InitializeComponent();
             setValue = false;
-
-            dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle.ForeColor = Color.DarkGray;
-            dataGridView_coordinates_set.DefaultCellStyle.ForeColor = Color.DarkGray;
-            dataGridView_coordinates_set.DefaultCellStyle.SelectionForeColor = Color.DarkGray;
-            dataGridView_coordinates_set.DefaultCellStyle.SelectionBackColor = Color.LightGray;
-            dataGridView_coordinates_set.RowHeadersDefaultCellStyle.ForeColor = Color.DarkGray;
         }
 
         /// <summary>Отображение кнопки копирования значений для AOD</summary>
@@ -464,26 +458,6 @@ namespace AmazFit_Watchface_2
             {
                 EventArgs eventArgs = new EventArgs();
                 ValueChanged(this, eventArgs);
-            }
-        }
-
-        private void dataGridView_coordinates_set_EnabledChanged(object sender, EventArgs e)
-        {
-            if (dataGridView_coordinates_set.Enabled)
-            {
-                dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle.ForeColor = Color.Gainsboro;
-                dataGridView_coordinates_set.DefaultCellStyle.ForeColor = Color.Gainsboro;
-                dataGridView_coordinates_set.DefaultCellStyle.SelectionForeColor = Color.White;
-                dataGridView_coordinates_set.DefaultCellStyle.SelectionBackColor = SystemColors.Highlight;
-                dataGridView_coordinates_set.RowHeadersDefaultCellStyle.ForeColor = Color.Gainsboro;
-            }
-            else
-            {
-                dataGridView_coordinates_set.ColumnHeadersDefaultCellStyle.ForeColor = Color.DarkGray;
-                dataGridView_coordinates_set.DefaultCellStyle.ForeColor = Color.DarkGray;
-                dataGridView_coordinates_set.DefaultCellStyle.SelectionForeColor = Color.DarkGray;
-                dataGridView_coordinates_set.DefaultCellStyle.SelectionBackColor = Color.LightGray;
-                dataGridView_coordinates_set.RowHeadersDefaultCellStyle.ForeColor = Color.DarkGray;
             }
         }
 

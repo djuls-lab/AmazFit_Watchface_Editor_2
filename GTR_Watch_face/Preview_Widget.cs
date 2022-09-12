@@ -1598,26 +1598,6 @@ namespace AmazFit_Watchface_2
             return;
         }
 
-        /// <summary>меняем цвета таблици на похожие на неактивные</summary>
-        private void dataGridView_WidgetElement_EnabledChanged(object sender, EventArgs e)
-        {
-            if (dataGridView_WidgetElement.Enabled)
-            {
-                dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
-                dataGridView_WidgetElement.RowsDefaultCellStyle.ForeColor = Color.Black;
-                //dataGridView_WidgetElement.RowsDefaultCellStyle.SelectionBackColor = Color.FromArgb(0,0,0,0);
-                dataGridView_WidgetElement.RowsDefaultCellStyle.SelectionBackColor = SystemColors.Highlight;
-                dataGridView_WidgetElement.RowsDefaultCellStyle.SelectionForeColor = Color.White;
-            }
-            else
-            {
-                dataGridView_WidgetElement.ColumnHeadersDefaultCellStyle.ForeColor = Color.DarkGray;
-                dataGridView_WidgetElement.RowsDefaultCellStyle.ForeColor = Color.DarkGray;
-                dataGridView_WidgetElement.RowsDefaultCellStyle.SelectionBackColor = SystemColors.Highlight;
-                dataGridView_WidgetElement.RowsDefaultCellStyle.SelectionForeColor = Color.DarkGray;
-            }
-        }
-
         /// <summary>заполняем таблицу с элементами для выбранной редактируемой зоны</summary>
         private void JSON_read_widgetElement_order(Widget widget)
         {
